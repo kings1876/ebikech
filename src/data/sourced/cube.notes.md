@@ -35,3 +35,15 @@ Products recorded: 80 (target up to 80). With CHF price: 0. With images: 80 (2-5
 
 ## Count
 Found 80 vs target 80 (not exhaustive of the full Cube e-bike range).
+
+
+## CHF price pass (2026-10-30, real Chrome, read-only)
+- cube.eu product page (Kathmandu Hybrid ONE11 HPC SLT 800) re-checked in Chrome: no price shown. cube.eu/de-ch/ returns "page not found". cube.ch redirects to a different domain that the browser tool refused to read (cross-domain redirect), so not used.
+- No official Swiss CHF price found; priceCHF remains null for all 80 entries (0 with CHF). No data changed.
+
+
+## German EUR list prices (2026-10-30)
+- All 80 entries now carry `priceEUR` (number, incl. VAT) and `priceEURSource`. `priceCHF` unchanged (null).
+- Source: official cube.eu German pages (cube.eu/de-de, series listing pages and, for Kathmandu Hybrid 45, Reaction Hybrid Pro 800 FE and Reaction Hybrid Rookie 540, the product page). The price was matched by article number, which equals the article number in each entry's sourceUrl, so model and trim are the same. Pages carry no explicit model-year label; the current range is flagged "available from December 2026" (our modelYear 2027). No retailer prices were needed.
+- Price is the same for all colours/frame variants of a trim on cube.eu/de-de. No entries left null.
+- Caveat: values are the printed Cube Germany UVP; the pages themselves do not state the label "UVP" on the listing pages (product pages do for the three product pages checked).

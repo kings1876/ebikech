@@ -8,6 +8,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const srcDir = path.join(root, 'src/data/sourced');
 const out = path.join(root, 'src/data/products.json');
 
+const fx = JSON.parse(fs.readFileSync(path.join(root, 'src/data/fx.json'), 'utf8'));
 const read = (p) => fs.readFileSync(path.join(root, p), 'utf8');
 const idsIn = (file) => [...read(file).matchAll(/^\s{2,6}id: '([^']+)'/gm)].map((m) => m[1]);
 const brandIds = new Set(idsIn('src/data/brands.ts'));
@@ -15,8 +16,8 @@ const catText = read('src/data/categories.ts');
 const categoryIds = new Set(idsIn('src/data/categories.ts'));
 
 const MOTORS = ['Bosch', 'Shimano Steps', 'Brose', 'Yamaha', 'Fazua', 'Stromer CYRO', 'Specialized', 'TQ', 'Mahle'];
-const motorBrand = (m = '') => {
-  const s = m.toLowerCase();
+const motorBrand = (m) => {
+  const s = String(m || '').toLowerCase();
   if (s.includes('shimano')) return 'Shimano Steps';
   if (s.includes('stromer')) return 'Stromer CYRO';
   const hit = MOTORS.find((x) => s.includes(x.toLowerCase()));
@@ -49,7 +50,17 @@ for (const p of rawAll) {
   if (!brandIds.has(p.brandId)) { why(`unknown brandId ${p.brandId}`); continue; }
   if (!categoryIds.has(p.categoryId)) { why(`unknown categoryId ${p.categoryId}`); continue; }
   if (!p.name || !p.sourceUrl) { why('missing name or sourceUrl'); continue; }
-  if (typeof p.priceCHF !== 'number' || p.priceCHF <= 0) { why('no CHF price'); continue; }
+  if (p.notSoldInCH) { why('not sold in Switzerland'); continue; }
+  // EUR prices taken from retailers (not the manufacturer) may be old-model or former UVPs: not published.
+  if (typeof p.priceCHF !== 'number' && /bike-discount|bike24|bikes\.de|fahrrad\.de|fahrrad-xxl|rose|radon|retailer|haendler|händler/i.test(p.priceEURSource || '')) { why('EUR price from retailer, unverified'); continue; }
+  // CHF price from a Swiss page wins; otherwise convert the German EUR list price (UVP) at the ECB rate.
+  let estimated = false;
+  if ((typeof p.priceCHF !== 'number' || p.priceCHF <= 0) && typeof p.priceEUR === 'number' && p.priceEUR > 0) {
+    p.priceCHF = Math.round(p.priceEUR * fx.EUR_CHF);
+    p.priceNote = `${p.priceNote ? p.priceNote + ' | ' : ''}UVP EUR ${p.priceEUR} (${p.priceEURSource || 'DE'}) umgerechnet zum EZB-Kurs ${fx.EUR_CHF} (${fx.date})`;
+    estimated = true;
+  }
+  if (typeof p.priceCHF !== 'number' || p.priceCHF <= 0) { why('no price'); continue; }
   if (!p.battery || typeof p.battery.wh !== 'number') { why('no battery Wh'); continue; }
   const key = `${p.brandId}|${p.name.toLowerCase()}|${p.modelYear || ''}`;
   if (seen.has(key)) { why('duplicate'); continue; }
@@ -122,6 +133,7 @@ for (const p of rawAll) {
     sourceUrl: p.sourceUrl,
     priceNote: p.priceNote || undefined,
     priceFrom: /\bab\s*CHF|Einstiegspreis|ab-Preis|\bfrom\b/i.test(p.priceNote || '') || undefined,
+    priceEstimated: estimated || undefined,
     imageSources: (p.images || []).filter((i) => i.url).map((i) => ({ url: i.url, alt: i.alt || p.name })),
   });
 }

@@ -52,7 +52,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -107,7 +109,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -163,7 +167,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -220,7 +226,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -278,7 +286,9 @@
       "rackKg",
       "weightKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -335,7 +345,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -392,7 +404,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -447,7 +461,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -504,7 +520,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": 6599,
+    "priceEURSource": "fahrrad-xxl.de, Streichpreis = frühere UVP des Herstellers, abgerufen 2026-10-30"
   },
   {
     "brandId": "merida",
@@ -561,7 +579,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -618,7 +638,9 @@
       "rangeKm",
       "rackKg",
       "weightKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -677,7 +699,9 @@
       "rangeKm",
       "rackKg",
       "weightKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -733,7 +757,9 @@
     "missing": [
       "rangeKm",
       "rackKg"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -789,7 +815,9 @@
       "rangeKm",
       "rackKg",
       "motor.torqueNm"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -847,7 +875,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -903,7 +933,9 @@
       "rangeKm",
       "rackKg",
       "motor.torqueNm"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -960,7 +992,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -1019,7 +1053,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": 3899,
+    "priceEURSource": "bikes.de und bikeexchange.de, übereinstimmender Preis ohne Rabatt; Streichpreis nicht sichtbar, abgerufen 2026-10-30"
   },
   {
     "brandId": "merida",
@@ -1078,7 +1114,9 @@
       "rangeKm",
       "rackKg",
       "battery.removable"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "bikes.de, Streichpreis = UVP des Herstellers (Modell 2023, gleicher Name), abgerufen 2026-10-30"
   },
   {
     "brandId": "merida",
@@ -1138,7 +1176,9 @@
       "rackKg",
       "battery.removable",
       "frame.type"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -1198,7 +1238,9 @@
       "rackKg",
       "motor.torqueNm",
       "display"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -1258,7 +1300,9 @@
       "rackKg",
       "motor.torqueNm",
       "frame.type"
-    ]
+    ],
+    "priceEUR": 4399,
+    "priceEURSource": "bikes.de (Preis ohne Rabatt, Modell 2025), deckt sich mit bike-magazin.de-Preisangabe, abgerufen 2026-10-30"
   },
   {
     "brandId": "merida",
@@ -1316,7 +1360,9 @@
       "rangeKm",
       "rackKg",
       "motor.torqueNm"
-    ]
+    ],
+    "priceEUR": null,
+    "priceEURSource": null
   },
   {
     "brandId": "merida",
@@ -1376,6 +1422,8 @@
       "motor.torqueNm",
       "frame.type",
       "display"
-    ]
+    ],
+    "priceEUR": 2699,
+    "priceEURSource": "fahrrad-xxl.de, als Hersteller-UVP gekennzeichneter Streichpreis (Modell 2026 gleicher Name), abgerufen 2026-10-30"
   }
 ]

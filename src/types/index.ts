@@ -132,6 +132,8 @@ export interface Product {
   priceNote?: string;
   /** True when the sourced price is a "from" (ab) price for the cheapest variant. */
   priceFrom?: boolean;
+  /** True when the CHF price is the German EUR list price converted at the ECB rate. */
+  priceEstimated?: boolean;
   /** Official manufacturer image URLs. Not displayed until usage rights are confirmed. */
   imageSources: { url: string; alt: string }[];
 }

@@ -19,3 +19,8 @@ The Swiss site lists about 35 model pages; 15 further models were left out to re
 - frame.type: "diamond" where a Diamond frame exists (Wave/Trapez alternatives listed in `features`); Image 1 Advance is Wave only (step-through).
 - Endeavour L Move has only 2 images on the page.
 - Most pages show no display/lighting issues; any missing key is listed in `missing`.
+
+## Update 2026-10-30 (second run)
+- Added 15 of the 16 previously omitted models (now 35 entries, all with CHF price, Wh, torque, weight, range from the manufacturer; 2-6 images each): Image 5+ Advance BLX, Image 5+ Move, Image 3 Advance BLX, Image 3 Excite 380, Image 3 Excite BLX, Image 1 Move, Endeavour 1 Move, Endeavour 3 Air, Endeavour 3 Season, Endeavour 5 Auto, Endeavour L Season, Endeavour L Excite, Entice 7+ Move, Entice 3 Season, Entice 3 Excite Belt.
+- entice-5-season is still in the de_ch sitemap but the page returns HTTP 410 (gone), so it was not recorded.
+- Same extraction method and caveats as above (default configuration values, frame material and battery removability not stated, modelYear 2026 inferred). Several additional models have 2-3 images only on the page.

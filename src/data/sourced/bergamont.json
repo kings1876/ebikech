@@ -1,1 +1,2085 @@
-[]
+[
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Belami 10",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-belami-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Hub Line"
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 24,
+    "gears": "Shimano Cues RD-U4000 9-Speed",
+    "brakes": "Shimano BR-MT201 2-Piston",
+    "fork": "SR Suntour NEX-E25-DS COIL, 75mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Energizer Active Plus, 50-622",
+    "lighting": "Lezyne Mini Lite STVZO E350",
+    "rackKg": 25,
+    "colours": [
+      "champagne beige"
+    ],
+    "description": "Bergamont Belami 10 ist ein E-Citybike mit Bosch-Antrieb (Hub Line) und 360 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NEX-E25-DS COIL, 75mm, Schaltung Shimano Cues RD-U4000 9-Speed. Das Herstellergewicht beträgt ca. 24 kg.",
+    "features": [
+      "Antrieb: Bosch Hub Line",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Lezyne Mini Lite STVZO E350"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982161/2290495.png",
+        "alt": "Bergamont Belami 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199776/4269897597A.png",
+        "alt": "Bergamont Belami 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199766/4269897597B.png",
+        "alt": "Bergamont Belami 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199773/4269897597I.png",
+        "alt": "Bergamont Belami 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199780/4269897597M.png",
+        "alt": "Bergamont Belami 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199775/4269897597O.png",
+        "alt": "Bergamont Belami 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Ville 10 Belt",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-ville-10-belt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX"
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24,
+    "gears": "Enviolo, Automatic",
+    "brakes": "Shimano BR-MT410, hydraulic disc brake",
+    "fork": "Suntour NRX32-E-Air LOR DS, 75 mm",
+    "display": "Bosch Kiox 300 with LED Remote",
+    "tires": "Schwalbe Marathon Efficiency, Performance, RaceGuard",
+    "lighting": "Front: 100 Lux, LED",
+    "rackKg": null,
+    "colours": [
+      "yellow sunrise"
+    ],
+    "description": "Bergamont E-Ville 10 Belt ist ein E-Citybike mit Bosch-Antrieb (Performance Line SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NRX32-E-Air LOR DS, 75 mm, Schaltung Enviolo, Automatic. Das Herstellergewicht beträgt ca. 24 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line SX",
+      "Beleuchtung: Front: 100 Lux, LED"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099172/2138304.png",
+        "alt": "Bergamont E-Ville 10 Belt, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1780486708/2138321.png",
+        "alt": "Bergamont E-Ville 10 Belt, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194112.jpg",
+        "alt": "Bergamont E-Ville 10 Belt, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098536/2136621.png",
+        "alt": "Bergamont E-Ville 10 Belt, Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Ville 20 Belt",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-ville-20-belt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX"
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24,
+    "gears": "Shimano Nexus, SL-C7000",
+    "brakes": "Shimano BR-MT200, hydraulic disc brake",
+    "fork": "Suntour NRX32-E-Air LOR DS, 75 mm",
+    "display": "Bosch Intuvia 100 with LED Remote",
+    "tires": "Schwalbe Marathon Efficiency, Performance, RaceGuard",
+    "lighting": "Front: Trelock LS830, 80 Lux",
+    "rackKg": null,
+    "colours": [
+      "stardust beige"
+    ],
+    "description": "Bergamont E-Ville 20 Belt ist ein E-Citybike mit Bosch-Antrieb (Performance Line SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NRX32-E-Air LOR DS, 75 mm, Schaltung Shimano Nexus, SL-C7000. Das Herstellergewicht beträgt ca. 24 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line SX",
+      "Beleuchtung: Front: Trelock LS830, 80 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099172/2138305.png",
+        "alt": "Bergamont E-Ville 20 Belt, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102805/2152387.png",
+        "alt": "Bergamont E-Ville 20 Belt, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102806/2152389.png",
+        "alt": "Bergamont E-Ville 20 Belt, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194112.jpg",
+        "alt": "Bergamont E-Ville 20 Belt, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098536/2136621.png",
+        "alt": "Bergamont E-Ville 20 Belt, Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Ville 30",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-ville-30",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX"
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 23,
+    "gears": "Shimano Cues, RD-U6000",
+    "brakes": "Shimano BR-MT200, hydraulic disc brake",
+    "fork": "Suntour NRX32-E-Air LOR DS, 75 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Marathon Efficiency, Performance, RaceGuard",
+    "lighting": "Front: Trelock LS830, 80 Lux",
+    "rackKg": null,
+    "colours": [
+      "baltic blue"
+    ],
+    "description": "Bergamont E-Ville 30 ist ein E-Citybike mit Bosch-Antrieb (Performance Line SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NRX32-E-Air LOR DS, 75 mm, Schaltung Shimano Cues, RD-U6000. Das Herstellergewicht beträgt ca. 23 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line SX",
+      "Beleuchtung: Front: Trelock LS830, 80 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099172/2138306.png",
+        "alt": "Bergamont E-Ville 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102805/2152386.png",
+        "alt": "Bergamont E-Ville 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194112.jpg",
+        "alt": "Bergamont E-Ville 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098536/2136621.png",
+        "alt": "Bergamont E-Ville 30, Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Helix 10 Belt",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-helix-10-belt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX"
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21,
+    "gears": "Shimano Alfine, SL-S503",
+    "brakes": "Shimano BR-MT200, hydraulic disc brake",
+    "fork": "Suntour NRX32-E-Air LOR DS, 75 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe G-One Overland 365, Performance, RaceGuard",
+    "lighting": "Front: B&M Briq-S, 60 Lux",
+    "rackKg": null,
+    "colours": [
+      "warm silver"
+    ],
+    "description": "Bergamont Helix 10 Belt ist ein E-Citybike mit Bosch-Antrieb (Performance Line SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NRX32-E-Air LOR DS, 75 mm, Schaltung Shimano Alfine, SL-S503. Das Herstellergewicht beträgt ca. 21 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line SX",
+      "Beleuchtung: Front: B&M Briq-S, 60 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099174/2138309.png",
+        "alt": "Bergamont Helix 10 Belt, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102805/2152388.png",
+        "alt": "Bergamont Helix 10 Belt, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194112.jpg",
+        "alt": "Bergamont Helix 10 Belt, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099129/2138192.png",
+        "alt": "Bergamont Helix 10 Belt, Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Helix 20",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-helix-20",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX"
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21,
+    "gears": "Shimano Cues, RD-U6000",
+    "brakes": "Shimano BR-MT200, hydraulic disc brake",
+    "fork": "Suntour NRX32-E-Air LOR DS, 75 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe G-One Overland 365, Performance, RaceGuard",
+    "lighting": "Front: B&M Briq-S, 60 Lux",
+    "rackKg": null,
+    "colours": [
+      "black matt"
+    ],
+    "description": "Bergamont Helix 20 ist ein E-Citybike mit Bosch-Antrieb (Performance Line SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NRX32-E-Air LOR DS, 75 mm, Schaltung Shimano Cues, RD-U6000. Das Herstellergewicht beträgt ca. 21 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line SX",
+      "Beleuchtung: Front: B&M Briq-S, 60 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099175/2138313.png",
+        "alt": "Bergamont Helix 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102809/2152391.png",
+        "alt": "Bergamont Helix 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194112.jpg",
+        "alt": "Bergamont Helix 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099129/2138192.png",
+        "alt": "Bergamont Helix 20, Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Hans-E LT",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-hans-e-lt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line"
+    },
+    "battery": {
+      "wh": 500,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "One Size"
+      ]
+    },
+    "weightKg": 32,
+    "gears": "Shimano Nexus, SL-C7000",
+    "brakes": "Tektro HD-M745, hydraulic disc brake",
+    "fork": "Suntour Mobie 34 CGO NLO, 80 mm",
+    "display": "Bosch LED Remote with Intuvia 100 display",
+    "tires": "Schwalbe Pick-Up, Super Defense",
+    "lighting": "Front: B&M Myc, 50 Lux",
+    "rackKg": null,
+    "colours": [],
+    "description": "Bergamont Hans-E LT ist ein undefined mit Bosch-Antrieb (Performance Line) und 500 Wh Akku. Rahmen aus Aluminium, Gabel Suntour Mobie 34 CGO NLO, 80 mm, Schaltung Shimano Nexus, SL-C7000. Das Herstellergewicht beträgt ca. 32 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line",
+      "Beleuchtung: Front: B&M Myc, 50 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058955/1910883.png",
+        "alt": "Bergamont Hans-E LT, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778060948/1927358.png",
+        "alt": "Bergamont Hans-E LT, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778073385/2009551.png",
+        "alt": "Bergamont Hans-E LT, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778073385/2009552.png",
+        "alt": "Bergamont Hans-E LT, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778079483/2044618.png",
+        "alt": "Bergamont Hans-E LT, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778073498/2009732.jpg",
+        "alt": "Bergamont Hans-E LT, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "colours",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Cargoville LJ Elite",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-cargoville-lj-elite",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Cargo Line"
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "One Size"
+      ]
+    },
+    "weightKg": 30,
+    "gears": "Enviolo, automatic",
+    "brakes": "Magura CMe5, hydraulic disc brake",
+    "fork": "BGM Cargo, rigid fork",
+    "display": "Bosch LED Remote with Kiox 300 display",
+    "tires": "Schwalbe Pick-Up, Super Defence, 62-406",
+    "lighting": "Front: B&M IQ-X-E, 150 Lux",
+    "rackKg": null,
+    "colours": [],
+    "description": "Bergamont E-Cargoville LJ Elite ist ein undefined mit Bosch-Antrieb (Cargo Line) und 750 Wh Akku. Rahmen aus Aluminium, Gabel BGM Cargo, rigid fork, Schaltung Enviolo, automatic. Das Herstellergewicht beträgt ca. 30 kg.",
+    "features": [
+      "Antrieb: Bosch Cargo Line",
+      "Beleuchtung: Front: B&M IQ-X-E, 150 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058953/1910885.png",
+        "alt": "Bergamont E-Cargoville LJ Elite, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058954/1910886.png",
+        "alt": "Bergamont E-Cargoville LJ Elite, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058955/1910887.png",
+        "alt": "Bergamont E-Cargoville LJ Elite, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778073468/2009729.jpg",
+        "alt": "Bergamont E-Cargoville LJ Elite, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778028203/1601747.png",
+        "alt": "Bergamont E-Cargoville LJ Elite, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778107471/2178045.jpg",
+        "alt": "Bergamont E-Cargoville LJ Elite, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "colours",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Cargoville LJ Expert",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-cargoville-lj-expert",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Cargo Line"
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "One Size"
+      ]
+    },
+    "weightKg": 29,
+    "gears": "Enviolo, MC-Twist-Pro",
+    "brakes": "Magura CMe5, hydraulic disc brake",
+    "fork": "BGM Cargo, rigid fork",
+    "display": "Bosch LED Remote with Kiox 300 display",
+    "tires": "Schwalbe Pick-Up, Super Defence, 62-406",
+    "lighting": "Front: B&M IQ-XS, 80 Lux",
+    "rackKg": null,
+    "colours": [],
+    "description": "Bergamont E-Cargoville LJ Expert ist ein undefined mit Bosch-Antrieb (Cargo Line) und 625 Wh Akku. Rahmen aus Aluminium, Gabel BGM Cargo, rigid fork, Schaltung Enviolo, MC-Twist-Pro. Das Herstellergewicht beträgt ca. 29 kg.",
+    "features": [
+      "Antrieb: Bosch Cargo Line",
+      "Beleuchtung: Front: B&M IQ-XS, 80 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788528273/290943.png",
+        "alt": "Bergamont E-Cargoville LJ Expert, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058955/1910889.png",
+        "alt": "Bergamont E-Cargoville LJ Expert, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058955/1910890.png",
+        "alt": "Bergamont E-Cargoville LJ Expert, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778073468/2009729.jpg",
+        "alt": "Bergamont E-Cargoville LJ Expert, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778028203/1601747.png",
+        "alt": "Bergamont E-Cargoville LJ Expert, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778107471/2178045.jpg",
+        "alt": "Bergamont E-Cargoville LJ Expert, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "colours",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Cargoville LJ Edition",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-cargoville-lj-edition",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line"
+    },
+    "battery": {
+      "wh": 500,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "One Size"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Deore Linkglide, RD-M5130",
+    "brakes": "Magura CMe5, hydraulic disc brake",
+    "fork": "BGM Cargo, rigid fork",
+    "display": "Bosch LED Remote with Intuvia 100 display",
+    "tires": "Schwalbe Pick-Up, Super Defence, 62-406",
+    "lighting": "Front: B&M Myc, 50 Lux",
+    "rackKg": null,
+    "colours": [],
+    "description": "Bergamont E-Cargoville LJ Edition ist ein undefined mit Bosch-Antrieb (Performance Line) und 500 Wh Akku. Rahmen aus Aluminium, Gabel BGM Cargo, rigid fork, Schaltung Shimano Deore Linkglide, RD-M5130. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line",
+      "Beleuchtung: Front: B&M Myc, 50 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788528272/290944.png",
+        "alt": "Bergamont E-Cargoville LJ Edition, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058957/1910892.png",
+        "alt": "Bergamont E-Cargoville LJ Edition, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778058957/1910893.png",
+        "alt": "Bergamont E-Cargoville LJ Edition, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778073468/2009729.jpg",
+        "alt": "Bergamont E-Cargoville LJ Edition, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778028203/1601747.png",
+        "alt": "Bergamont E-Cargoville LJ Edition, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778107472/2178049.jpg",
+        "alt": "Bergamont E-Cargoville LJ Edition, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "colours",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Horizon SUV 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-horizon-suv-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues RD-U8000 11-Speed",
+    "brakes": "Shimano BR-MT420 4-Piston",
+    "fork": "SR Suntour XCM34 BOOST AIR LO, 120mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Smart Sam, 57-622",
+    "lighting": "Lezyne Hecto Pro STVZO E400",
+    "rackKg": 30,
+    "colours": [
+      "kelp green"
+    ],
+    "description": "Bergamont Horizon SUV 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST AIR LO, 120mm, Schaltung Shimano Cues RD-U8000 11-Speed. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Gepäckträger bis 30 kg",
+      "Beleuchtung: Lezyne Hecto Pro STVZO E400"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982166/2290498.png",
+        "alt": "Bergamont Horizon SUV 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199876/4269926546A.png",
+        "alt": "Bergamont Horizon SUV 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199886/4269926546B.png",
+        "alt": "Bergamont Horizon SUV 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199870/4269926546I.png",
+        "alt": "Bergamont Horizon SUV 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199887/4269926546M.png",
+        "alt": "Bergamont Horizon SUV 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199881/4269926546O.png",
+        "alt": "Bergamont Horizon SUV 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Horizon SUV 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-horizon-suv-20",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues RD-U6000 10/11-Speed",
+    "brakes": "Shimano BR-MT200 2-Piston",
+    "fork": "SR Suntour XCM34 BOOST COIL LO, 120mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Smart Sam, 57-622",
+    "lighting": "Lezyne Hecto Pro STVZO E400",
+    "rackKg": 30,
+    "colours": [
+      "warm silver"
+    ],
+    "description": "Bergamont Horizon SUV 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 720 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST COIL LO, 120mm, Schaltung Shimano Cues RD-U6000 10/11-Speed. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Gepäckträger bis 30 kg",
+      "Beleuchtung: Lezyne Hecto Pro STVZO E400"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982167/2290500.png",
+        "alt": "Bergamont Horizon SUV 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199902/4269967938A.png",
+        "alt": "Bergamont Horizon SUV 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199903/4269967938B.png",
+        "alt": "Bergamont Horizon SUV 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199871/4269967938I.png",
+        "alt": "Bergamont Horizon SUV 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199872/4269967938M.png",
+        "alt": "Bergamont Horizon SUV 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782199874/4269967938O.png",
+        "alt": "Bergamont Horizon SUV 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Horizon SUV FS 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-horizon-suv-fs-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 29,
+    "gears": "Shimano Cues, RD-U6000",
+    "brakes": "Shimano BR-MT420, hydraulic disc brake",
+    "fork": "X-Fusion MIG 34 Boost, 130 mm",
+    "display": "Bosch Intuvia 100 / Mini Remote / TT System Controller",
+    "tires": "Schwalbe Johnny Watts LR, Performance, Addix",
+    "lighting": "Front: Litemove SEC 150, 150 Lux",
+    "rackKg": null,
+    "colours": [
+      "black/purple"
+    ],
+    "description": "Bergamont E-Horizon SUV FS 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel X-Fusion MIG 34 Boost, 130 mm, Schaltung Shimano Cues, RD-U6000. Das Herstellergewicht beträgt ca. 29 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Front: Litemove SEC 150, 150 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099185/2138421.png",
+        "alt": "Bergamont E-Horizon SUV FS 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102820/2152412.png",
+        "alt": "Bergamont E-Horizon SUV FS 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102822/2152413.png",
+        "alt": "Bergamont E-Horizon SUV FS 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099186/2138422.png",
+        "alt": "Bergamont E-Horizon SUV FS 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194111.jpg",
+        "alt": "Bergamont E-Horizon SUV FS 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098532/2136554.png",
+        "alt": "Bergamont E-Horizon SUV FS 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Horizon SUV 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-horizon-suv-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues, RD-U8000",
+    "brakes": "Front: Magura MT-C, hydraulic disc brake",
+    "fork": "Suntour Mobie 34 DS RLR, air",
+    "display": "Bosch Kiox 300 with LED Remote",
+    "tires": "Schwalbe Marathon Mondial, Performance, RaceGuard",
+    "lighting": "Front: 100 Lux, LED",
+    "rackKg": null,
+    "colours": [
+      "warm silver"
+    ],
+    "description": "Bergamont E-Horizon SUV 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel Suntour Mobie 34 DS RLR, air, Schaltung Shimano Cues, RD-U8000. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Front: 100 Lux, LED"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099187/2138423.png",
+        "alt": "Bergamont E-Horizon SUV 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102822/2152416.png",
+        "alt": "Bergamont E-Horizon SUV 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194111.jpg",
+        "alt": "Bergamont E-Horizon SUV 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098534/2136555.png",
+        "alt": "Bergamont E-Horizon SUV 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778043295/1729969.png",
+        "alt": "Bergamont E-Horizon SUV 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778043294/1729968.png",
+        "alt": "Bergamont E-Horizon SUV 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Horizon SUV 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-horizon-suv-30",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues, RD-U6000",
+    "brakes": "Tektro HD-M745, hydraulic disc brake",
+    "fork": "Suntour XCM34 DS, 100 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Smart Sam, Performance, Addix",
+    "lighting": "Front: Trelock LS830, 80 Lux",
+    "rackKg": null,
+    "colours": [
+      "off white"
+    ],
+    "description": "Bergamont E-Horizon SUV 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel Suntour XCM34 DS, 100 mm, Schaltung Shimano Cues, RD-U6000. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Front: Trelock LS830, 80 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099191/2138427.png",
+        "alt": "Bergamont E-Horizon SUV 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778107225/2175227.png",
+        "alt": "Bergamont E-Horizon SUV 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099191/2138428.png",
+        "alt": "Bergamont E-Horizon SUV 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194111.jpg",
+        "alt": "Bergamont E-Horizon SUV 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098534/2136555.png",
+        "alt": "Bergamont E-Horizon SUV 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778043295/1729969.png",
+        "alt": "Bergamont E-Horizon SUV 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Horizon Sport 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-horizon-sport-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues RD-U6000 10/11-Speed",
+    "brakes": "Shimano BR-MT200 2-Piston",
+    "fork": "SR Suntour XCM34 BOOST AIR LO, 100mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Energizer Plus Tour Perf, 55-622",
+    "lighting": "Lezyne Hecto Pro STVZO E400",
+    "rackKg": 30,
+    "colours": [
+      "chrome silver"
+    ],
+    "description": "Bergamont Horizon Sport 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST AIR LO, 100mm, Schaltung Shimano Cues RD-U6000 10/11-Speed. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Gepäckträger bis 30 kg",
+      "Beleuchtung: Lezyne Hecto Pro STVZO E400"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982170/2290508.png",
+        "alt": "Bergamont Horizon Sport 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788169269/4270037958A.png",
+        "alt": "Bergamont Horizon Sport 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788169288/4270037958B.png",
+        "alt": "Bergamont Horizon Sport 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788169262/4270037958I.png",
+        "alt": "Bergamont Horizon Sport 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788169265/4270037958M.png",
+        "alt": "Bergamont Horizon Sport 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1788169281/4270037958O.png",
+        "alt": "Bergamont Horizon Sport 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Horizon Sport 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-horizon-sport-20",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX"
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues RD-U6000 10/11-Speed",
+    "brakes": "Shimano BR-MT200 2-Piston",
+    "fork": "SR Suntour XCM34 BOOST COIL LO, 100mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Energizer Plus Tour Perf, 55-622",
+    "lighting": "Lezyne Hecto Pro STVZO E400",
+    "rackKg": 30,
+    "colours": [
+      "flaky black"
+    ],
+    "description": "Bergamont Horizon Sport 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line PX) und 720 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST COIL LO, 100mm, Schaltung Shimano Cues RD-U6000 10/11-Speed. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line PX",
+      "Gepäckträger bis 30 kg",
+      "Beleuchtung: Lezyne Hecto Pro STVZO E400"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982174/2290512.png",
+        "alt": "Bergamont Horizon Sport 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200033/4270077308A.png",
+        "alt": "Bergamont Horizon Sport 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200026/4270077308B.png",
+        "alt": "Bergamont Horizon Sport 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200034/4270077308I.png",
+        "alt": "Bergamont Horizon Sport 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200027/4270077308M.png",
+        "alt": "Bergamont Horizon Sport 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200027/4270077308O.png",
+        "alt": "Bergamont Horizon Sport 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Horizon Tour 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-horizon-tour-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX"
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Nexus 5 Revo Shifter",
+    "brakes": "Shimano BR-MT200 2-Piston",
+    "fork": "SR Suntour XCM34 BOOST COIL LO, 100mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Energizer Plus Tour Perf, 55-622",
+    "lighting": "Lezyne Hecto Pro STVZO E400",
+    "rackKg": 30,
+    "colours": [
+      "pacific blue"
+    ],
+    "description": "Bergamont Horizon Tour 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line PX) und 720 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST COIL LO, 100mm, Schaltung Shimano Nexus 5 Revo Shifter. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line PX",
+      "Gepäckträger bis 30 kg",
+      "Beleuchtung: Lezyne Hecto Pro STVZO E400"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982175/2290515.png",
+        "alt": "Bergamont Horizon Tour 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200119/4270135604A.png",
+        "alt": "Bergamont Horizon Tour 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200111/4270135604B.png",
+        "alt": "Bergamont Horizon Tour 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200111/4270135604I.png",
+        "alt": "Bergamont Horizon Tour 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200112/4270135604M.png",
+        "alt": "Bergamont Horizon Tour 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200113/4270135604O.png",
+        "alt": "Bergamont Horizon Tour 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont Horizon Tour 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-horizon-tour-20",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line"
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Nexus 5 Revo Shifter",
+    "brakes": "Shimano BR-MT200 2-Piston",
+    "fork": "SR Suntour NVX 32 5TA COIL LO, 100mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Energizer Plus Tour Perf, 55-622",
+    "lighting": "Lezyne Mini Lite STVZO E350",
+    "rackKg": 30,
+    "colours": [
+      "champagne beige"
+    ],
+    "description": "Bergamont Horizon Tour 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NVX 32 5TA COIL LO, 100mm, Schaltung Shimano Nexus 5 Revo Shifter. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 30 kg",
+      "Beleuchtung: Lezyne Mini Lite STVZO E350"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1779982176/2290518.png",
+        "alt": "Bergamont Horizon Tour 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200083/4270157597A.png",
+        "alt": "Bergamont Horizon Tour 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200090/4270157597B.png",
+        "alt": "Bergamont Horizon Tour 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200084/4270157597I.png",
+        "alt": "Bergamont Horizon Tour 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200078/4270157597M.png",
+        "alt": "Bergamont Horizon Tour 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1782200086/4270157597O.png",
+        "alt": "Bergamont Horizon Tour 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Horizon Sport 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-horizon-sport-20",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 29,
+    "gears": "Shimano Cues, RD-U6000",
+    "brakes": "Shimano BR-MT200, hydraulic disc brake",
+    "fork": "Suntour NVX 30 DS NLO, 75 mm",
+    "display": "Bosch Intuvia 100 with LED Remote",
+    "tires": "Schwalbe Energizer Plus Tour, Performance, Greenguard",
+    "lighting": "Front: Trelock LS830, 80 Lux",
+    "rackKg": null,
+    "colours": [
+      "flaky black"
+    ],
+    "description": "Bergamont E-Horizon Sport 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NVX 30 DS NLO, 75 mm, Schaltung Shimano Cues, RD-U6000. Das Herstellergewicht beträgt ca. 29 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Front: Trelock LS830, 80 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099180/2138408.png",
+        "alt": "Bergamont E-Horizon Sport 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102812/2152400.png",
+        "alt": "Bergamont E-Horizon Sport 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099180/2138409.png",
+        "alt": "Bergamont E-Horizon Sport 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194111.jpg",
+        "alt": "Bergamont E-Horizon Sport 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098534/2136555.png",
+        "alt": "Bergamont E-Horizon Sport 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778043295/1729969.png",
+        "alt": "Bergamont E-Horizon Sport 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Horizon Sport 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-horizon-sport-30",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line"
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano Cues, RD-U4000",
+    "brakes": "Shimano BR-MT200, hydraulic disc brake",
+    "fork": "Suntour NVX32 NLO DS, 100 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Road Cruiser Plus, reflective stripe, 55-622",
+    "lighting": "Front: Lezyne Mini E300, 100 Lux",
+    "rackKg": null,
+    "colours": [
+      "warm silver"
+    ],
+    "description": "Bergamont E-Horizon Sport 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel Suntour NVX32 NLO DS, 100 mm, Schaltung Shimano Cues, RD-U4000. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line",
+      "Beleuchtung: Front: Lezyne Mini E300, 100 Lux"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778114437/2227416.png",
+        "alt": "Bergamont E-Horizon Sport 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778121878/2263928.png",
+        "alt": "Bergamont E-Horizon Sport 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778121879/2263929.png",
+        "alt": "Bergamont E-Horizon Sport 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778126567/2276941.png",
+        "alt": "Bergamont E-Horizon Sport 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778126585/2276990.png",
+        "alt": "Bergamont E-Horizon Sport 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778126605/2277039.png",
+        "alt": "Bergamont E-Horizon Sport 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Horizon Tour 10 Belt",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-horizon-tour-10-belt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 29,
+    "gears": "Enviolo, Automatic",
+    "brakes": "Front: Magura MT-C, hydraulic disc brake",
+    "fork": "Suntour Mobie 34 DS RLR, air",
+    "display": "Bosch Kiox 300 with LED Remote",
+    "tires": "Schwalbe Marathon, Performance, GreenGuard",
+    "lighting": "Front: 100 Lux, LED",
+    "rackKg": null,
+    "colours": [
+      "warm silver"
+    ],
+    "description": "Bergamont E-Horizon Tour 10 Belt ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel Suntour Mobie 34 DS RLR, air, Schaltung Enviolo, Automatic. Das Herstellergewicht beträgt ca. 29 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Front: 100 Lux, LED"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099192/2138432.png",
+        "alt": "Bergamont E-Horizon Tour 10 Belt, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778107224/2175223.png",
+        "alt": "Bergamont E-Horizon Tour 10 Belt, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194111.jpg",
+        "alt": "Bergamont E-Horizon Tour 10 Belt, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098534/2136555.png",
+        "alt": "Bergamont E-Horizon Tour 10 Belt, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778043295/1729969.png",
+        "alt": "Bergamont E-Horizon Tour 10 Belt, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778043294/1729968.png",
+        "alt": "Bergamont E-Horizon Tour 10 Belt, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Revox FS 150 Expert",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-revox-fs-150-expert",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24,
+    "gears": "Sram NX Eagle",
+    "brakes": "Shimano BR-MT420, hydraulic disc brake",
+    "fork": "Marzocchi Bomber Z2 Air, eMTB+",
+    "display": "Bosch LED Remote with Intuvia 100",
+    "tires": "Maxxis Rekon, EXO, Dual",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Bergamont E-Revox FS 150 Expert ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 625 Wh Akku. Rahmen aus Aluminium, Gabel Marzocchi Bomber Z2 Air, eMTB+, Schaltung Sram NX Eagle. Das Herstellergewicht beträgt ca. 24 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778076732/2029776.png",
+        "alt": "Bergamont E-Revox FS 150 Expert, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778086628/2074319.png",
+        "alt": "Bergamont E-Revox FS 150 Expert, Ansicht 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "colours",
+      "frame.type",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Revox FS 150 Expert FMN",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-revox-fs-150-expert-fmn",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 24,
+    "gears": "Sram NX Eagle",
+    "brakes": "Shimano BR-MT420, hydraulic disc brake",
+    "fork": "Marzocchi Bomber Z2 Air, eMTB+",
+    "display": "Bosch LED Remote with Intuvia 100",
+    "tires": "Maxxis Rekon, EXO, Dual",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Bergamont E-Revox FS 150 Expert FMN ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 625 Wh Akku. Rahmen aus Aluminium, Gabel Marzocchi Bomber Z2 Air, eMTB+, Schaltung Sram NX Eagle. Das Herstellergewicht beträgt ca. 24 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778076732/2029777.png",
+        "alt": "Bergamont E-Revox FS 150 Expert FMN, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778086628/2074319.png",
+        "alt": "Bergamont E-Revox FS 150 Expert FMN, Ansicht 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "colours",
+      "frame.type",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "bergamont",
+    "name": "Bergamont E-Revox FS 10",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf bergamont.com/global/en veroeffentlicht (Hersteller nennt keine UVP; Schweizer Importeur/Haendlerpreise nicht geprueft), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bergamont.com/global/en/product/bergamont-e-revox-fs-10",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX"
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 26,
+    "gears": "Sram GX Eagle AXS, T-Type",
+    "brakes": "Shimano BR-MT420, hydraulic disc brake",
+    "fork": "RockShox Lyric Select, 150 mm",
+    "display": "Bosch Mini Remote with TT System Controller",
+    "tires": "Schwalbe Albert Trail Pro, TLR, Soft",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "warm silver"
+    ],
+    "description": "Bergamont E-Revox FS 10 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel RockShox Lyric Select, 150 mm, Schaltung Sram GX Eagle AXS, T-Type. Das Herstellergewicht beträgt ca. 26 kg.",
+    "features": [
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778099181/2138410.png",
+        "alt": "Bergamont E-Revox FS 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102813/2152401.png",
+        "alt": "Bergamont E-Revox FS 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102817/2152404.png",
+        "alt": "Bergamont E-Revox FS 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778102815/2152402.png",
+        "alt": "Bergamont E-Revox FS 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778111649/2194113.jpg",
+        "alt": "Bergamont E-Revox FS 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/vv1778098532/2136554.png",
+        "alt": "Bergamont E-Revox FS 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.type",
+      "lighting",
+      "rackKg"
+    ]
+  }
+]

@@ -14,3 +14,11 @@ Gaps and uncertainties:
 - frame.type set only where the page said step-through/low entry or MTB; null for eSPRESSO CC 575, eFLOAT CC 500, eSILEX 400. eSILEX 400 is classed by the site as Cross, placed in gravel by me.
 - Speed class assumed e-bike-25 for all; no 45 km/h models were listed.
 - Not covered: Swiss importer (Merida Schweiz) pages and archive models.
+
+
+## CHF price pass (2026-10-30, real Chrome, read-only)
+- Checked https://www.merida-bikes.com/de-ch/bike/5725/lithos-10k in Chrome: specifications page shows no price at all (Merida de-ch lists specs only; dealers set prices). Other 23 models share the same template; not individually re-checked.
+- priceCHF remains null for all 24 entries (0 with CHF). No data changed.
+
+## EUR price pass (2026-10-30)
+merida-bikes.com shows no prices (dealer-set). priceEUR set on 5 of 24 from German retailers printed UVP/undiscounted price: eSILEX 400 (2699), eONE-SIXTY 875 (6599), eSPRESSO CC 675 EQ (4499), eBIG.TOUR 475 EQ (3899), eFLOAT CC 500 EQ (4399). Some are a different model year of the same name or a former UVP: treat as estimates. Other 19 stay null (no reliable UVP; sale prices and aggregator/marketplace figures not used).

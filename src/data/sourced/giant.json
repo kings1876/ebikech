@@ -65,7 +65,9 @@
         "alt": "Giant Reign Advanced E+ 2 in Prismatic Haze",
         "licence": "unverified"
       }
-    ]
+    ],
+    "priceEUR": 7000,
+    "priceEURSource": "giant-bicycles.com/de/bikes-reign-advanced-eplus-2027, ab-Preis (E+ 2); E+ 1 8.500, E+ 0 10.000 (UVP inkl. MwSt., abgerufen 2026-10-30)"
   },
   {
     "brandId": "giant",
@@ -130,7 +132,9 @@
         "alt": "Giant Trance Advanced E+ 2 Seitenansicht",
         "licence": "unverified"
       }
-    ]
+    ],
+    "priceEUR": 6000,
+    "priceEURSource": "giant-bicycles.com/de/bikes-trance-advanced-eplus-2027, ab-Preis (E+ 2); SE 6.500, E+ 1 8.000, E+ 0 10.000 (UVP inkl. MwSt., abgerufen 2026-10-30)"
   },
   {
     "brandId": "giant",
@@ -196,7 +200,9 @@
         "alt": "Giant Fathom E+ 1 EX in Thundercloud",
         "licence": "unverified"
       }
-    ]
+    ],
+    "priceEUR": 3000,
+    "priceEURSource": "giant-bicycles.com/de/bikes-fathom-eplus-2027, ab-Preis (E+ 2); E+ 1 3.600, E+ 1 EX 3.800 (UVP inkl. MwSt., abgerufen 2026-10-30)"
   },
   {
     "brandId": "giant",
@@ -277,7 +283,9 @@
         "alt": "Giant Talon E+ 2 in Moonstone, Ansicht 5",
         "licence": "unverified"
       }
-    ]
+    ],
+    "priceEUR": 2600,
+    "priceEURSource": "giant-bicycles.com/de/bikes-talon-eplus-2027, ab-Preis (E+ 2); E+ 1 2.800 (UVP inkl. MwSt., abgerufen 2026-10-30)"
   },
   {
     "brandId": "giant",
@@ -350,7 +358,9 @@
         "alt": "Giant Stance E+ 2 in Desert Sage",
         "licence": "unverified"
       }
-    ]
+    ],
+    "priceEUR": 4000,
+    "priceEURSource": "giant-bicycles.com/de/bikes-stance-eplus-2027, ab-Preis (E+ 2); E+ 1 4.500, E+ 0 5.500 (UVP inkl. MwSt., abgerufen 2026-10-30)"
   },
   {
     "brandId": "giant",
@@ -442,6 +452,713 @@
         "alt": "Giant Defy Advanced E+ Elite 2 in Meteor Storm, Ansicht 7",
         "licence": "unverified"
       }
+    ],
+    "priceEUR": 6500,
+    "priceEURSource": "giant-bicycles.com/de/bikes-defy-advanced-eplus-elite, ab-Preis (Elite 2); Elite 1 8.500, Elite 0 10.500 (UVP inkl. MwSt., abgerufen 2026-10-30)"
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant Reign Advanced E+ (2026)",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "priceNote": "Kein CHF-Preis auf giant-bicycles.com/ch (Preisfeld leer), abgerufen 2026-10-30",
+    "priceEUR": 6499,
+    "priceEURSource": "giant-bicycles.com/de/bikes-reign-advanced-eplus, ab-Preis (E+ 2); E+ 1 7.999 (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/ch/bikes-reign-advanced-eplus",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Pro3",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 560,
+      "removable": null
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "Fox 38 Performance Elite 180 mm (E+ 1), RockShox ZEB Select 180 mm (E+ 2)",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "colours": [
+      "Mercury / Carbon Smoke",
+      "Moon Dust"
+    ],
+    "description": "Vorjahresmodell des Enduro-E-MTB mit Carbonrahmen, SyncDrive-Pro3-Motor (90 Nm) und 560-Wh-Akku. 180 mm Federweg an der Gabel, Varianten E+ 1 und E+ 2.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/mlwzd7xrll2clxrcjen2/MY26ReignAdvancedE1_ColorAMercury_CarbonSmoke1.jpg",
+        "alt": "Giant Reign Advanced E+ 1 in Mercury / Carbon Smoke",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/mfcoaeynetzwqc2a9cf0/MY26ReignAdvancedE2_ColorAMoonDust.jpg",
+        "alt": "Giant Reign Advanced E+ 2 in Moon Dust",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "frame.sizes",
+      "weightKg",
+      "gears",
+      "brakes",
+      "tires",
+      "lighting",
+      "display",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant AnyTour X E+ (2027)",
+    "modelYear": 2027,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "notSoldInCH": true,
+    "priceNote": "Kein CHF-Preis: Seite giant-bicycles.com/ch fuer dieses Modell nicht vorhanden (HTTP 404, abgerufen 2026-10-30)",
+    "priceEUR": 3800,
+    "priceEURSource": "giant-bicycles.com/de/bikes-anytour-x-eplus-2027, ab-Preis (E+ 3); E+ 2 4.400, E+ 1 4.899, E+ 0 5.799 (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-anytour-x-eplus-2027",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Sport 3",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "SR Suntour MOBIE 34 Air, 100 mm",
+    "display": "Giant RideDash EVO 2.0",
+    "tires": "2,25 Zoll breit",
+    "lighting": "Integriertes Front- und Rücklicht",
+    "colours": [
+      "Truffle",
+      "Storm Cloud",
+      "Abyss Black",
+      "Early Espresso",
+      "Good Grey",
+      "Black Currant"
+    ],
+    "description": "Trekking-E-Bike mit SyncDrive-Sport-3-Motor (85 Nm), Federgabel mit 100 mm und integrierter Beleuchtung. Je nach Variante 625 oder 800 Wh Akku.",
+    "features": [
+      "Akkuvarianten 625 Wh (E+ 2, E+ 3) und 800 Wh (E+ 0, E+ 1)",
+      "Aegis E-Lock und Aegis Radar"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/xmxuwkcmeqoqelbv9ouz/MY27AnyTourXE0_ColorATruffle.jpg",
+        "alt": "Giant AnyTour X E+ 0 in Truffle",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/bec8hqpstqxkyxpmkcx5/MY27AnyTourXE1_ColorAStormCloud.jpg",
+        "alt": "Giant AnyTour X E+ 1 in Storm Cloud",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/cwrqteuld9ywvlkvdids/MY27AnyTourXE2_ColorAAbyssBlack.jpg",
+        "alt": "Giant AnyTour X E+ 2 in Abyss Black",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/isri94ttsblgmw4dgmbu/MY27AnyTourXE3_ColorAGoodGray.jpg",
+        "alt": "Giant AnyTour X E+ 3 in Good Grey",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "frame.type",
+      "frame.sizes",
+      "weightKg",
+      "gears",
+      "brakes",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant AnyTour E+ (2027)",
+    "modelYear": 2027,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "notSoldInCH": true,
+    "priceNote": "Kein CHF-Preis: Seite giant-bicycles.com/ch fuer dieses Modell nicht vorhanden (HTTP 404, abgerufen 2026-10-30)",
+    "priceEUR": 3800,
+    "priceEURSource": "giant-bicycles.com/de/bikes-anytour-eplus-2027, ab-Preis (E+ 4 LST); E+ 3 3.900, E+ 2 4.600, E+ 1 4.899, E+ 0 5.799 (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-anytour-eplus-2027",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Sport 3 / Sport 2",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "SR Suntour Mobie 34 Luft, 60 mm",
+    "display": "Giant RideDash EVO 2.0",
+    "tires": null,
+    "lighting": "Integriertes Front- und Rücklicht",
+    "colours": [
+      "Metal",
+      "Panther",
+      "Aged Denim",
+      "Stealth Chrome",
+      "Cold Night"
+    ],
+    "description": "Trekking-E-Bike mit Aluminiumrahmen, 60-mm-Federgabel und integrierter Beleuchtung. Varianten mit SyncDrive Sport 3 (85 Nm) oder Sport 2, Akku je nach Variante 625 oder 800 Wh.",
+    "features": [
+      "Varianten LST und DD (Rahmenform laut Seite nicht bestätigt)",
+      "Absenkbare Sattelstütze mit 40 mm Hub"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/gqw6ehmgwbpkvbymwpnd/MY27AnyTourE0LST_ColorAMetal.jpg",
+        "alt": "Giant AnyTour E+ 0 LST in Metal",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/bd0kgmvd5roi1f5wrft7/MY27AnytourE1LST_ColorA.jpg",
+        "alt": "Giant AnyTour E+ 1 LST",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/aekfnbwlbbkktjps9pvx/MY27AnyTourE2LST_ColorAAgedDenim.jpg",
+        "alt": "Giant AnyTour E+ 2 LST in Aged Denim",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/bawal6heclb9ya0l8dgo/MY27AnytourE3DD_ColorA.jpg",
+        "alt": "Giant AnyTour E+ 3 DD",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/escrdryimbbtaogq8jwc/MY27AnytourE3LST_ColorA1.jpg",
+        "alt": "Giant AnyTour E+ 3 LST",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/jxextzdb2j3peuexe0ky/MY27AnytourE4LST_ColorA.jpg",
+        "alt": "Giant AnyTour E+ 4 LST",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "frame.type",
+      "frame.sizes",
+      "weightKg",
+      "gears",
+      "brakes",
+      "tires",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant NewTour E+ (2027)",
+    "modelYear": 2027,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "notSoldInCH": true,
+    "priceNote": "Kein CHF-Preis: Seite giant-bicycles.com/ch fuer dieses Modell nicht vorhanden (HTTP 404, abgerufen 2026-10-30)",
+    "priceEUR": 2800,
+    "priceEURSource": "giant-bicycles.com/de/bikes-newtour-eplus-2027, ab-Preis (E+ 2); E+ 1 3.200 (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-newtour-eplus-2027",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Core",
+      "torqueNm": 55
+    },
+    "battery": {
+      "wh": 500,
+      "removable": null
+    },
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "SR Suntour Mobie A32 Stahlfeder, 63 mm",
+    "display": "Giant RideControl Dash 2",
+    "tires": null,
+    "lighting": "Integriertes Front- und Rücklicht",
+    "colours": [
+      "Eclipse",
+      "Cold Night",
+      "Pulp Gray"
+    ],
+    "description": "Einstiegs-Trekking-E-Bike mit SyncDrive-Core-Motor (55 Nm), Federgabel und Gepäckträger-Rücklicht. Akku EnergyPak Smart 500 (E+ 2) bzw. 625 (E+ 1).",
+    "features": [
+      "Varianten E+ 1 LST und E+ 2 LST, jeweils auch als RT"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/wavhx3qror3plwsghbus/MY27NewTourE1LST_ColorAEclipse.jpg",
+        "alt": "Giant NewTour E+ 1 LST in Eclipse",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/wrs2k367qgwvxyymvy8m/MY27NewTourE2LST_ColorAColdNight.jpg",
+        "alt": "Giant NewTour E+ 2 LST in Cold Night",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "frame.material",
+      "frame.type",
+      "frame.sizes",
+      "weightKg",
+      "gears",
+      "brakes",
+      "tires",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant Talon E+ EX (2027)",
+    "modelYear": 2027,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "notSoldInCH": true,
+    "priceNote": "Kein CHF-Preis: Seite giant-bicycles.com/ch fuer dieses Modell nicht vorhanden (HTTP 404, abgerufen 2026-10-30)",
+    "priceEUR": 2750,
+    "priceEURSource": "giant-bicycles.com/de/bikes-talon-eplus-ex-2027 (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-talon-eplus-ex-2027",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Sport 3",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 430,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.5,
+    "gears": "Shimano Cues LinkGlide 10-fach, 11-48T",
+    "brakes": "Shimano BR-MT200 hydraulisch, 180/180 mm",
+    "fork": "SR Suntour XCM Coil, 100 mm",
+    "display": null,
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": null,
+    "colours": [
+      "Frost Fern"
+    ],
+    "description": "Hardtail-E-MTB mit Gepäckträger-Ausstattung (EX), Aluminiumrahmen, SyncDrive Sport 3 (85 Nm) und 430-Wh-Akku. Gewicht laut Spezifikation 24,5 kg.",
+    "features": [
+      "Seite nennt im Text 21,7 kg (Gr. M, ohne Gepäckträger)"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/elrt1weizvz1dwqlmf4h/MY27TalonE2EX_ColorAFrostFern.jpg",
+        "alt": "Giant Talon E+ 2 EX in Frost Fern",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/z6qidrjgnnrosgi31jc9/MY27TalonE2EX_ColorAFrostFern-D4.jpg",
+        "alt": "Giant Talon E+ 2 EX in Frost Fern, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/cczp5b3kauhhjx901tfu/MY27TalonE2EX_ColorAFrostFern-D3.jpg",
+        "alt": "Giant Talon E+ 2 EX in Frost Fern, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/eo7dafhytmx5vz8jgtos/MY27TalonE2EX_ColorAFrostFern-D1.jpg",
+        "alt": "Giant Talon E+ 2 EX in Frost Fern, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/lnks02rdcu0oqzeyulal/MY27TalonE2EX_ColorAFrostFern-D2.jpg",
+        "alt": "Giant Talon E+ 2 EX in Frost Fern, Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "display",
+      "lighting",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant Talon E+ (2026)",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "priceNote": "Kein CHF-Preis auf giant-bicycles.com/ch (Seite vorhanden, Preisfeld leer), abgerufen 2026-10-30",
+    "priceEUR": 2599,
+    "priceEURSource": "giant-bicycles.com/de/bikes-talon-eplus (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/ch/bikes-talon-eplus",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Sport 2 (Yamaha)",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 430,
+      "removable": true
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21.9,
+    "gears": "Shimano Cues LinkGlide 9-fach, 11-41T",
+    "brakes": "Shimano MT200 hydraulisch, 180/180 mm",
+    "fork": "SR Suntour XCM Coil, 100 mm",
+    "display": null,
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": null,
+    "colours": [
+      "Asphalt Green",
+      "Electric Blue",
+      "Meteor Storm"
+    ],
+    "description": "Vorjahresmodell des Einstiegs-Hardtail-E-MTB mit Aluminiumrahmen, SyncDrive Sport 2 (75 Nm) und 430-Wh-Akku. Gewicht laut Spezifikation 21,9 kg in Gr. M.",
+    "features": [
+      "Optionaler EnergyPak Plus 200 Wh"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/swqogbgs0mm6zjmu0pbw/MY26TalonE_ColorA.jpg",
+        "alt": "Giant Talon E+ (2026)",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/amo1b3k9g427cnohvtcj/MY26TalonE_ColorA-Front.jpg",
+        "alt": "Giant Talon E+ (2026), Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/eml79ayh59tjigetk1iu/MY26TalonE_ColorB.jpg",
+        "alt": "Giant Talon E+ (2026), Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/opkz3bwmycfcmajqnvwy/MY26TalonE_ColorCMeteorStorm.jpg",
+        "alt": "Giant Talon E+ (2026), Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "display",
+      "lighting",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant Talon E+ EX (2026)",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "priceNote": "Kein CHF-Preis ermittelt; ch-Seite nicht geprüft, abgerufen 2026-10-30",
+    "priceEUR": 2749,
+    "priceEURSource": "giant-bicycles.com/de/bikes-talon-eplus-ex (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-talon-eplus-ex",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Sport 2 (Yamaha)",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 430,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.2,
+    "gears": "Shimano Cues LinkGlide 9-fach, 11-41T",
+    "brakes": "Shimano BR-MT200 hydraulisch, 180/180 mm",
+    "fork": "SR Suntour XCM Coil, 100 mm",
+    "display": null,
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": null,
+    "colours": [
+      "Metallic Navy"
+    ],
+    "description": "Vorjahresmodell des Hardtail-E-MTB in EX-Ausstattung mit Aluminiumrahmen, SyncDrive Sport 2 (75 Nm) und 430-Wh-Akku. Gewicht laut Spezifikation 24,2 kg in Gr. M.",
+    "features": [
+      "Text nennt 21,7 kg (Gr. M, ohne Gepäckträger)"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/narqlbnul83ksaqvbbew/MY26TalonEEX_ColorAMetallicNavy.jpg",
+        "alt": "Giant Talon E+ EX in Metallic Navy",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "display",
+      "lighting",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant Defy Advanced E+ Elite AR",
+    "modelYear": 2026,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "notSoldInCH": true,
+    "priceNote": "Kein CHF-Preis: Seite giant-bicycles.com/ch fuer dieses Modell nicht vorhanden (HTTP 410 Gone, abgerufen 2026-10-30)",
+    "priceEUR": 5900,
+    "priceEURSource": "giant-bicycles.com/de/bikes-defy-advanced-eplus-elite-ar (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-defy-advanced-eplus-elite-ar",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Move Plus",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "M/L",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "SRAM Rival XPLR AXS, 1x12, Kassette 10-44T",
+    "brakes": "SRAM Rival E1 AXS HRD hydraulisch, 160 mm",
+    "fork": "Advanced Carbon",
+    "display": null,
+    "tires": "Schwalbe G-One Allround Performance 700x35C",
+    "lighting": "Integriertes Rücklicht",
+    "colours": [
+      "Midnight Moon"
+    ],
+    "description": "Gravel-orientiertes Carbon-Rennvelo mit Hinterradnabenmotor SyncDrive Move Plus und 400-Wh-Akku. Elektronische SRAM-AXS-Schaltung, Reifenfreiheit bis 38 mm.",
+    "features": [
+      "Seite nennt 75 Nm in der Tabelle, 30 Nm im Text"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/ehmrm9zjcw1itkwsarbm/MY26DefyAdvancedEEliteAR_ColorA.jpg",
+        "alt": "Giant Defy Advanced E+ Elite AR in Midnight Moon",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "weightKg",
+      "display",
+      "battery.removable",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "giant",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "name": "Giant Explore E+ (2026)",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "notSoldInCH": true,
+    "priceNote": "Kein CHF-Preis: Seite giant-bicycles.com/ch fuer dieses Modell nicht vorhanden (HTTP 410 Gone auf /ch, abgerufen 2026-10-30)",
+    "priceEUR": 2999,
+    "priceEURSource": "giant-bicycles.com/de/bikes-explore-eplus, ab-Preis (E+ 4); E+ 3 3.499, E+ 2 3.999, E+ 1 4.599, E+ 0 5.799 (UVP inkl. MwSt., abgerufen 2026-10-30)",
+    "sourceUrl": "https://www.giant-bicycles.com/de/bikes-explore-eplus",
+    "motor": {
+      "brand": "Giant",
+      "model": "SyncDrive Sport 2 / Pro 2",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 500,
+      "removable": null
+    },
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "SR Suntour XCR34 Air/Coil bzw. XCM Coil, 100 mm",
+    "display": "Giant RideDash EVO 2 / RideControl Dash 2",
+    "tires": null,
+    "lighting": null,
+    "colours": [
+      "Snow Drift",
+      "Metallic Navy",
+      "Alpine Green",
+      "Pyrite Brown",
+      "Terracotta",
+      "Stealth Chrome",
+      "Mars Dust"
+    ],
+    "description": "Trekking-E-Bike in Varianten DD (Diamant) und STA (Tiefeinsteiger), Sport-2-Motor mit 75 Nm bzw. Pro 2 mit 85 Nm. Akkus von 500 bis 800 Wh je Variante.",
+    "features": [
+      "Motor-/Akkuzuordnung je Variante auf der Seite nicht eindeutig"
+    ],
+    "images": [
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/nm1iybfcc8b1rnvtepvy/MY26ExploreE0DD_ColorASnowDrift.jpg",
+        "alt": "Giant Explore E+ 0 DD in Snow Drift",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/emmze8fb2lsw8lorc3rw/MY26ExploreE1DD_ColorAMetallicNavy.jpg",
+        "alt": "Giant Explore E+ 1 DD in Metallic Navy",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/wxuxn4qzuw8qk8hbft6i/MY26ExploreE2DD_ColorAAlpineGreen.jpg",
+        "alt": "Giant Explore E+ 2 DD in Alpine Green",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/kwvf72bu3wfpo9jjd6fg/MY26ExploreE3DD_ColorAPyriteBrown.jpg",
+        "alt": "Giant Explore E+ 3 DD in Pyrite Brown",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/lwennmpxikc5dheprp3t/MY26ExploreE4DD_ColorA.jpg",
+        "alt": "Giant Explore E+ 4 DD",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "frame.material",
+      "frame.type",
+      "frame.sizes",
+      "weightKg",
+      "gears",
+      "brakes",
+      "tires",
+      "lighting",
+      "battery.removable",
+      "priceCHF"
     ]
   }
 ]

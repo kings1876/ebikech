@@ -10,27 +10,37 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-lx/fuel-lx-9-9-x0-axs-gen-2/p/81581/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "SRAM Maven Silver, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "RockShox ZEB Ultimate B1, 170 mm",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Maxxis Assegai / Maxxis Minion DHR II",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ LX 9.9 X0 AXS Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ LX 9.9 X0 AXS Gen 2: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -41,19 +51,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -68,27 +69,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-9-x0-axs-gen-2/p/81573/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "SRAM Maven Silver, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "RockShox Lyrik Ultimate, 150 mm",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Maxxis Minion DHR II",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.9 X0 AXS Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ EX 9.9 X0 AXS Gen 2: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -99,18 +104,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -126,27 +123,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-8-xt-di2-gen-2/p/81570/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano XT Di2 M8250/M8260, 12-fach, Kassette 10-51 Z.",
+    "brakes": "Shimano XT M8220, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "FOX Factory 36 Float EVOL",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Maxxis Minion DHR II",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.8 XT Di2 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ EX 9.8 XT Di2 Gen 2: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: Shimano XT Di2 M8250/M8260, 12-fach, Kassette 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -157,18 +158,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -184,27 +177,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-8-xt-gen-2/p/81567/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano XT M8200, 12-fach, Kassette 10-51 Z.",
+    "brakes": "Shimano XT M8220, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "FOX Factory 36 Float EVOL",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Maxxis Minion DHR II",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.8 XT Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ EX 9.8 XT Gen 2: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: Shimano XT M8200, 12-fach, Kassette 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -215,18 +212,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -242,27 +231,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-8-eagle-90-gen-2/p/79619/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "SRAM Eagle 90 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "SRAM Maven Bronze, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "RockShox Lyrik Ultimate",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Maxxis Minion DHR II",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.8 Eagle 90 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ EX 9.8 Eagle 90 Gen 2: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM Eagle 90 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -273,18 +266,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -300,27 +285,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-7-gen-2/p/56295/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 19.73,
+    "gears": "SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Hydraulische 4-Kolben-Scheibenbremsen",
+    "fork": "FOX Rhythm 36 Float EVOL",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Brevard Pro XR",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.7 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ EX 9.7 Gen 2: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -331,18 +320,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -358,27 +339,36 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-8-gen-2/p/79616/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 21.68,
+    "gears": "SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Hydraulische 4-Kolben-Scheibenbremsen",
+    "fork": "FOX Rhythm 36 Float EVOL",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Brevard Pro XR",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 8 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fuel+ EX 8 Gen 2: Aluminium-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -389,19 +379,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -416,27 +397,36 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-9-8-gen-5/p/79227/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
+    "weightKg": 23.98,
+    "gears": "Shimano XT Di2 M8250/M8260, 12-fach, Kassette 10-51 Z.",
+    "brakes": "Shimano XT M8220, hydraulische 4-Kolben-Scheibenbremsen",
+    "fork": "FOX Factory 38 Float EVOL",
+    "display": "Bosch Kiox 400C",
     "tires": null,
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 9.8 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Rail+ 9.8 Gen 5: Carbon-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano XT Di2 M8250/M8260, 12-fach, Kassette 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -447,19 +437,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
       "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -474,27 +455,36 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-9-7-gen-5/p/79287/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 23.88,
+    "gears": "SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Shimano MT620, hydraulische Scheibenbremsen",
+    "fork": "RockShox Lyrik Delta RC",
+    "display": "Bosch Kiox 400C",
+    "tires": "Bontrager Brevard",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 9.7 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Rail+ 9.7 Gen 5: Carbon-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -505,19 +495,9 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -532,27 +512,36 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-8-gen-5/p/48470/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 25.08,
+    "gears": "Shimano SLX/XT, 12-fach, Kassette Deore M6100 10-51 Z.",
+    "brakes": "Hydraulische 4-Kolben-Scheibenbremsen",
+    "fork": "RockShox ZEB Select",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Brevard",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 8 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Rail+ 8 Gen 5: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano SLX/XT, 12-fach, Kassette Deore M6100 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -563,19 +552,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -590,27 +570,36 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-5-gen-5/p/48458/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 24.78,
+    "gears": "Shimano Deore M6100, 12-fach, Kassette 10-51 Z.",
+    "brakes": "Hydraulische 4-Kolben-Scheibenbremsen",
+    "fork": "RockShox Psylo Gold RC",
+    "display": "Bosch System-Controller BRC3100",
+    "tires": "Bontrager Gunnison",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 5 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Rail+ 5 Gen 5: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano Deore M6100, 12-fach, Kassette 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -621,19 +610,9 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -648,27 +627,35 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/slash/slash-9-9-x0-axs-t-type/p/47096/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 20.88,
+    "gears": "SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "SRAM Maven Silver, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "RockShox ZEB Ultimate",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager SE5 Team",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Slash+ (Modellbezeichnung Slash+ 9.9 X0 AXS T-Type). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Slash+ 9.9 X0 AXS T-Type: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -679,19 +666,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -706,27 +684,36 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/slash/slash-9-7/p/57132/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 580,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
-      "sizes": null
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 21.58,
+    "gears": "SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Hydraulische 4-Kolben-Scheibenbremsen",
+    "fork": "FOX Rhythm 38",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Brevard",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Slash+ (Modellbezeichnung Slash+ 9.7). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Slash+ 9.7: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 580-Wh-Akku. Antrieb: SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -737,19 +724,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
-      "frame.sizes",
       "colours"
     ]
   },
@@ -764,27 +742,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-full-suspension/powerfly-fs-8-gen-4/p/79981/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 24.88,
+    "gears": "Shimano XT Di2 M8250/M8260, 12-fach, Kassette 10-51 Z.",
+    "brakes": "Shimano XT M8220, hydraulische 4-Kolben-Scheibenbremsen, 200 mm",
+    "fork": "FOX Rhythm 36 Float EVOL",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Gunnison Pro XR",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ FS 8 Gen 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ FS 8 Gen 4: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano XT Di2 M8250/M8260, 12-fach, Kassette 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -795,18 +777,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -822,27 +796,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-full-suspension/powerfly-fs-6-gen-4/p/79853/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 25.08,
+    "gears": "SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Shimano, Scheibe RT64 Centerlock",
     "fork": null,
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Gunnison Pro XR",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ FS 6 Gen 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ FS 6 Gen 4: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -853,18 +831,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -880,27 +851,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-full-suspension/powerfly-fs-4-800-gen-4/p/79832/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 25.5,
+    "gears": "Shimano CUES U6000, 10-fach, Kassette LinkGlide",
+    "brakes": "Tektro HD-M5140, hydraulische 4-Kolben-Scheibenbremsen, 203 mm",
+    "fork": "RockShox Recon Silver Solo Air",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Gunnison Elite",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ FS 4 800 Gen 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ FS 4 800 Gen 4: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano CUES U6000, 10-fach, Kassette LinkGlide.",
     "features": [],
     "images": [
       {
@@ -911,18 +886,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -938,27 +905,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-8-gen-5/p/79351/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 23.08,
+    "gears": "SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Shimano MT620, hydraulische Scheibenbremsen",
     "fork": null,
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Gunnison Pro XR",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 8 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ 8 Gen 5: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: SRAM Eagle 70 T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -969,18 +940,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -996,27 +960,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-6-gen-5/p/79352/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 800,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 24.1,
+    "gears": "Shimano Deore M6200 / M8200, 12-fach",
+    "brakes": "Shimano, Scheibe RT64 Centerlock",
     "fork": null,
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Gunnison Elite",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 6 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ 6 Gen 5: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano Deore M6200 / M8200, 12-fach.",
     "features": [],
     "images": [
       {
@@ -1027,18 +995,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1054,27 +1015,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-4-800-wh-gen-5/p/61707/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
       "wh": 800,
-      "removable": null
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "gears": "Shimano CUES U6000, 10-fach, Kassette LinkGlide",
+    "brakes": "Tektro, hydraulische Scheibenbremse, 203 mm",
     "fork": null,
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Montrose Comp",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 4 800 Wh Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ 4 800 Wh Gen 5: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 800-Wh-Akku. Antrieb: Shimano CUES U6000, 10-fach, Kassette LinkGlide.",
     "features": [],
     "images": [
       {
@@ -1085,17 +1050,12 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
       "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1111,27 +1071,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-4-gen-5/p/48619/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
-      "removable": null
+      "wh": 600,
+      "removable": true
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 23.1,
+    "gears": "Shimano CUES U6000, 10-fach, Kassette LinkGlide",
+    "brakes": "Tektro, hydraulische Scheibenbremse, 203 mm",
     "fork": null,
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Montrose Comp",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 4 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Powerfly+ 4 Gen 5: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm) und 600-Wh-Akku. Antrieb: Shimano CUES U6000, 10-fach, Kassette LinkGlide.",
     "features": [],
     "images": [
       {
@@ -1142,18 +1106,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1165,8 +1122,8 @@
     "categoryId": "e-mountainbikes",
     "subcategoryId": "e-fullys",
     "speedClass": "e-bike-25",
-    "priceCHF": 5499,
-    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "priceCHF": 6599,
+    "priceNote": "Seite zeigt Angebotspreis CHF 5'499 (ANGEBOT), UVP CHF 6'599 laut trekbikes.com/ch/de_CH, abgerufen 2026-10-30. Auslaufmodell mit Sale-Preis; Datenblatt auf der Seite nicht geladen.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel-exe/fuel-exe-9-7/p/41519/",
     "sourceType": "manufacturer",
     "motor": null,
@@ -1201,7 +1158,8 @@
     "missing": [
       "modelYear",
       "motor",
-      "xbattery.wh",
+      "battery.wh",
+      "battery.removable",
       "rangeKm",
       "weightKg",
       "gears",
@@ -1227,27 +1185,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-sl/domane-sl-9-axs-gen-5/p/81602/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR40",
+      "torqueNm": 40
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 11,
+    "gears": "SRAM RED XPLR eTap AXS, 13-fach, Kassette 10-46 Z.",
+    "brakes": "Scheibenbremsen, SRAM Paceline X Bremsscheiben (Center Lock)",
+    "fork": "Domane+ Carbon, konischer Carbonschaft",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Bontrager Kwaremont RSL",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ SL 9 AXS Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Domane+ SL 9 AXS Gen 5: Carbon-Rahmen mit TQ HPR40 (40 Nm) und 360-Wh-Akku. Antrieb: SRAM RED XPLR eTap AXS, 13-fach, Kassette 10-46 Z..",
     "features": [],
     "images": [
       {
@@ -1258,18 +1220,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1285,27 +1239,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-sl/domane-sl-7-axs-gen-5/p/81610/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR40",
+      "torqueNm": 40
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 11.47,
+    "gears": "SRAM Force XPLR AXS, 13-fach, Kassette 10-46 Z.",
+    "brakes": "Scheibenbremsen, SRAM Paceline X Bremsscheiben (Center Lock)",
+    "fork": "Domane+ Carbon, konischer Carbonschaft",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Bontrager Kwaremont RSL",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ SL 7 AXS Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Domane+ SL 7 AXS Gen 5: Carbon-Rahmen mit TQ HPR40 (40 Nm) und 360-Wh-Akku. Antrieb: SRAM Force XPLR AXS, 13-fach, Kassette 10-46 Z..",
     "features": [],
     "images": [
       {
@@ -1316,18 +1274,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1343,27 +1293,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-sl/domane-sl-6-axs-gen-5/p/77734/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR40",
+      "torqueNm": 40
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 12.11,
+    "gears": "SRAM Rival XPLR AXS, 12-fach, Kassette 10-46 Z.",
+    "brakes": "Scheibenbremsen",
     "fork": null,
-    "display": null,
-    "tires": null,
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Bontrager Kwaremont Pro",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ SL 6 AXS Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Domane+ SL 6 AXS Gen 5: Carbon-Rahmen mit TQ HPR40 (40 Nm) und 360-Wh-Akku. Antrieb: SRAM Rival XPLR AXS, 12-fach, Kassette 10-46 Z..",
     "features": [],
     "images": [
       {
@@ -1374,18 +1328,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1401,27 +1348,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-alr-5/p/56167/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 14.39,
+    "gears": "SRAM Apex XPLR, 12-fach, Kassette 11-44 Z.",
+    "brakes": "SRAM Apex D1, hydraulische Scheibenbremsen",
+    "fork": "Domane+ Carbon, konischer Carbonschaft",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Kwaremont Pro TLR",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ ALR 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Domane+ ALR 5: Aluminium-Rahmen mit TQ HPR60 (60 Nm) und 360-Wh-Akku. Antrieb: SRAM Apex XPLR, 12-fach, Kassette 11-44 Z..",
     "features": [],
     "images": [
       {
@@ -1432,18 +1383,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1459,27 +1403,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/rennr%C3%A4der/gravelbikes/e-gravelbikes/checkpoint/checkpoint-sl-7-axs/p/57447/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 14.05,
+    "gears": "SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z.",
+    "brakes": "Scheibenbremsen, SRAM Paceline X Bremsscheiben (Center Lock)",
+    "fork": "RockShox Rudy XPLR, Solo Air",
+    "display": "TQ LED-Farbdisplay mit Bluetooth und ANT+",
+    "tires": "Bontrager Girona Pro",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Checkpoint+ (Modellbezeichnung Checkpoint+ SL 7 AXS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Checkpoint+ SL 7 AXS: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 360-Wh-Akku. Antrieb: SRAM X0 Eagle AXS T-Type, 12-fach, Kassette 10-52 Z..",
     "features": [],
     "images": [
       {
@@ -1490,18 +1438,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1517,27 +1457,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/rennr%C3%A4der/gravelbikes/e-gravelbikes/checkpoint/checkpoint-sl-5/p/57446/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 13.81,
+    "gears": "Shimano GRX RX820/RX822, 12-fach, Kassette XT 10-51 Z.",
+    "brakes": "Shimano GRX RX820, Scheibenbremsen (Center Lock)",
     "fork": null,
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Girona Pro",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Checkpoint+ (Modellbezeichnung Checkpoint+ SL 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Checkpoint+ SL 5: Carbon-Rahmen mit TQ HPR60 (60 Nm) und 360-Wh-Akku. Antrieb: Shimano GRX RX820/RX822, 12-fach, Kassette XT 10-51 Z..",
     "features": [],
     "images": [
       {
@@ -1548,18 +1492,12 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1575,27 +1513,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/allant/allant-fs/allant-fs-6-r11-auto/p/85248/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 120
+    },
     "battery": {
-      "wh": null,
+      "wh": 800,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 30.1,
+    "gears": "Shimano CUES U8050 Di2 (Automatik), Kassette LinkGlide LG400",
+    "brakes": "Magura Louise Elite Leisure, hydraulisch, 203 mm",
+    "fork": "FOX AWL HD, Rail 2.0",
+    "display": "Bosch Kiox 500",
+    "tires": "Schwalbe Johnny Watts 365",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Allant+ (Modellbezeichnung Allant+ FS 6 R11 Auto). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Allant+ FS 6 R11 Auto: Aluminium-Rahmen mit Bosch Performance Line CX (120 Nm) und 800-Wh-Akku. Antrieb: Shimano CUES U8050 Di2 (Automatik), Kassette LinkGlide LG400.",
     "features": [],
     "images": [
       {
@@ -1606,18 +1548,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1633,27 +1567,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/allant/allant-fs/allant-fs-6-r10/p/85247/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 120
+    },
     "battery": {
-      "wh": null,
+      "wh": 800,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "weightKg": 30.1,
+    "gears": "Shimano Deore M5130, 10-fach, Kassette LinkGlide LG400",
+    "brakes": "Magura Louise Elite Leisure, hydraulisch, 203 mm",
+    "fork": "SR Suntour XCR36-Boost, Luftfeder",
+    "display": "Bosch Kiox 500",
+    "tires": "Schwalbe Johnny Watts 365",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Allant+ (Modellbezeichnung Allant+ FS 6 R10). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Allant+ FS 6 R10: Aluminium-Rahmen mit Bosch Performance Line CX (120 Nm) und 800-Wh-Akku. Antrieb: Shimano Deore M5130, 10-fach, Kassette LinkGlide LG400.",
     "features": [],
     "images": [
       {
@@ -1664,18 +1602,10 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1691,27 +1621,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/allant/allant-5-6/allant-6/p/41023/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
     "battery": {
       "wh": null,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
+    "weightKg": 23.3,
+    "gears": "Shimano CUES U6000, Kassette LinkGlide LG300",
     "brakes": null,
-    "fork": null,
+    "fork": "SR Suntour Mobie 34, Luftfeder",
     "display": null,
-    "tires": null,
+    "tires": "Schwalbe G-One Performance",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Allant+ (Modellbezeichnung Allant+ 6). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Allant+ 6: Aluminium-Rahmen mit Bosch Performance Line CX (85 Nm). Antrieb: Shimano CUES U6000, Kassette LinkGlide LG300.",
     "features": [],
     "images": [
       {
@@ -1722,18 +1656,13 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
       "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1749,27 +1678,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-4-r10-ls/p/81591/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": 75
+    },
     "battery": {
-      "wh": null,
+      "wh": 600,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "step-through",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 26.3,
+    "gears": "Shimano CUES U6000, Kassette LinkGlide LG400",
+    "brakes": "Scheibenbremsen, Shimano RT10 Scheiben (Center Lock)",
+    "fork": "SR Suntour NEX-E25, Stahlfeder",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Girona Comp",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 4 R10 LS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek District+ 4 R10 LS: Aluminium-Rahmen mit Bosch Performance Line (75 Nm) und 600-Wh-Akku. Antrieb: Shimano CUES U6000, Kassette LinkGlide LG400.",
     "features": [],
     "images": [
       {
@@ -1780,18 +1713,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1807,27 +1733,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-3-r9-360-ls/p/81593/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Active Line Plus",
+      "torqueNm": 60
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "step-through",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 26.4,
+    "gears": "Shimano CUES U4000, Kassette LinkGlide LG300 11-46 Z.",
+    "brakes": "Scheibenbremsen, Shimano RT10 Scheiben (Center Lock)",
+    "fork": "SR Suntour NEX-E25, Stahlfeder",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Girona Comp",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 3 R9 360 LS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek District+ 3 R9 360 LS: Aluminium-Rahmen mit Bosch Active Line Plus (60 Nm) und 360-Wh-Akku. Antrieb: Shimano CUES U4000, Kassette LinkGlide LG300 11-46 Z..",
     "features": [],
     "images": [
       {
@@ -1838,18 +1768,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1865,27 +1788,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-5/p/41754/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": 75
+    },
     "battery": {
       "wh": null,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
+    "gears": "Enviolo Automatic (stufenlos), Gates CDX Riemenantrieb",
     "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "fork": "SR Suntour Mobie 34, Luftfeder",
+    "display": "Bosch Kiox 500",
+    "tires": "Schwalbe Super Moto-X",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek District+ 5: Aluminium-Rahmen mit Bosch Performance Line (75 Nm). Antrieb: Enviolo Automatic (stufenlos), Gates CDX Riemenantrieb.",
     "features": [],
     "images": [
       {
@@ -1896,18 +1823,13 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.wh",
+      "battery.removable",
       "rangeKm",
       "weightKg",
-      "gears",
       "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1923,27 +1845,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-4/p/36971/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": 75
+    },
     "battery": {
       "wh": null,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano Nexus C7000, 5-fach, Gates CDX Riemenantrieb",
+    "brakes": "Tektro, hydraulische Scheibenbremse, 180 mm",
+    "fork": "SR Suntour NVX30, Spiralfeder",
+    "display": "Bosch Intuvia 100",
+    "tires": "Bontrager E6 Hard-Case Lite",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek District+ 4: Aluminium-Rahmen mit Bosch Performance Line (75 Nm). Antrieb: Shimano Nexus C7000, 5-fach, Gates CDX Riemenantrieb.",
     "features": [],
     "images": [
       {
@@ -1954,18 +1880,12 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.wh",
+      "battery.removable",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -1981,27 +1901,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/verve/verve-4/p/40514/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": 75
+    },
     "battery": {
       "wh": null,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "gears": "Shimano CUES U4000, Kassette LinkGlide LG300 11-46 Z.",
+    "brakes": "Shimano, hydraulische Scheibenbremse, 180 mm",
+    "fork": "SR Suntour XCR32, Stahlfeder",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager LT4 Expert",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Citybike der Trek-Serie Verve+ (Modellbezeichnung Verve+ 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Verve+ 4: Aluminium-Rahmen mit Bosch Performance Line (75 Nm). Antrieb: Shimano CUES U4000, Kassette LinkGlide LG300 11-46 Z..",
     "features": [],
     "images": [
       {
@@ -2012,18 +1936,13 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.wh",
+      "battery.removable",
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -2039,27 +1958,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fx/fx-7/p/48016/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR50",
+      "torqueNm": 50
+    },
     "battery": {
-      "wh": null,
+      "wh": 360,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 19.3,
+    "gears": "Shimano CUES U6000, 10-fach, Kassette LinkGlide LG400",
+    "brakes": "Shimano, hydraulische Scheibenbremse, 180 mm",
+    "fork": "FX Carbon",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager H2 Hard-Case Lite",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie FX+ (Modellbezeichnung FX+ 7). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek FX+ 7: Aluminium-Rahmen mit TQ HPR50 (50 Nm) und 360-Wh-Akku. Antrieb: Shimano CUES U6000, 10-fach, Kassette LinkGlide LG400.",
     "features": [],
     "images": [
       {
@@ -2070,18 +1993,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -2097,27 +2013,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fx/fx-2/p/35840/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": 40
+    },
     "battery": {
-      "wh": null,
+      "wh": 250,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
+    "weightKg": 17.69,
+    "gears": "Shimano Altus, 9-fach, Kassette HG200 11-36 Z.",
+    "brakes": "Promax, hydraulische Scheibenbremse, 160 mm",
+    "fork": "FX+ Aluminium",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager H2 Comp",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie FX+ (Modellbezeichnung FX+ 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek FX+ 2: Aluminium-Rahmen mit Hinterradmotor (40 Nm) und 250-Wh-Akku. Antrieb: Shimano Altus, 9-fach, Kassette HG200 11-36 Z..",
     "features": [],
     "images": [
       {
@@ -2128,18 +2048,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -2155,27 +2068,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fetch/fetch-2/p/37063/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line Cargo",
+      "torqueNm": 85
+    },
     "battery": {
-      "wh": null,
+      "wh": 500,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
-    "brakes": null,
+    "weightKg": 31,
+    "gears": "Shimano Deore M4100, 10-fach",
+    "brakes": "Tektro Wave Scheiben (6-Loch)",
     "fork": null,
-    "display": null,
-    "tires": null,
+    "display": "Bosch SmartPhone Grip BSP3200",
+    "tires": "Schwalbe Pick-Up",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Lastenvelo der Trek-Serie Fetch+ (Modellbezeichnung Fetch+ 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Fetch+ 2: Aluminium-Rahmen mit Bosch Performance Line Cargo (85 Nm) und 500-Wh-Akku. Antrieb: Shimano Deore M4100, 10-fach.",
     "features": [],
     "images": [
       {
@@ -2186,18 +2103,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
-      "brakes",
       "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -2213,27 +2123,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/charter/charter-5-auto-800wh-lowstep/p/61485/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Smart System PX",
+      "torqueNm": 90
+    },
     "battery": {
       "wh": 800,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "step-through",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
+    "weightKg": 31.5,
+    "gears": "Gates CDX CenterTrack, 22 Z. (Riemenantrieb)",
     "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "fork": "SR Suntour Mobie 34",
+    "display": "Bosch Kiox 500",
+    "tires": "Bontrager E6 Hard-Case Lite",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Charter+ (Modellbezeichnung Charter+ 5 Auto 800Wh Lowstep). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Charter+ 5 Auto 800Wh Lowstep: Aluminium-Rahmen mit Bosch Smart System PX (90 Nm) und 800-Wh-Akku. Antrieb: Gates CDX CenterTrack, 22 Z. (Riemenantrieb).",
     "features": [],
     "images": [
       {
@@ -2244,17 +2158,11 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
       "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]
@@ -2270,27 +2178,31 @@
     "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
     "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/inbound/inbound-2-r10-ls/p/81951/",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Hub Drive",
+      "torqueNm": 45
+    },
     "battery": {
-      "wh": null,
+      "wh": 600,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "step-through",
       "sizes": null
     },
-    "weightKg": null,
-    "gears": null,
+    "weightKg": 22.4,
+    "gears": "Shimano CUES U6000, Kassette LinkGlide LG400",
     "brakes": null,
-    "fork": null,
+    "fork": "Starrgabel Aluminium",
     "display": null,
-    "tires": null,
+    "tires": "Bontrager Girona Comp",
     "lighting": null,
     "rackKg": null,
     "colours": [],
-    "description": "E-Citybike der Trek-Serie Inbound+ (Modellbezeichnung Inbound+ 2 R10 LS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "description": "Trek Inbound+ 2 R10 LS: Aluminium-Rahmen mit Bosch Hub Drive (45 Nm) und 600-Wh-Akku. Antrieb: Shimano CUES U6000, Kassette LinkGlide LG400.",
     "features": [],
     "images": [
       {
@@ -2301,18 +2213,12 @@
     ],
     "missing": [
       "modelYear",
-      "motor",
-      "xbattery.wh",
+      "battery.removable",
       "rangeKm",
-      "weightKg",
-      "gears",
       "brakes",
-      "fork",
       "display",
-      "tires",
       "lighting",
       "rackKg",
-      "frame.material",
       "frame.sizes",
       "colours"
     ]

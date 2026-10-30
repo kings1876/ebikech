@@ -64,7 +64,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1113600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -150,7 +152,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1113560), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -236,7 +240,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1112700), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -321,7 +327,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1112510), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -406,7 +414,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1113300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -491,7 +501,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1112900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -577,7 +589,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1112600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -662,7 +676,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1113700), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -747,7 +763,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1107900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -834,7 +852,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1107650), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -920,7 +940,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1107600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1006,7 +1028,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3899,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1107350), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1092,7 +1116,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1107300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1179,7 +1205,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1107270), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1262,7 +1290,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 8699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1104900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1345,7 +1375,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 8499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1103900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1428,7 +1460,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 7199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1104810), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1512,7 +1546,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 6999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1103810), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1596,7 +1632,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 6999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1203850), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1679,7 +1717,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 6199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1104700), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1762,7 +1802,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1103700), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1845,7 +1887,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1103660), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -1928,7 +1972,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1103600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2013,7 +2059,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1104600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2099,7 +2147,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4899,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1102650), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2184,7 +2234,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1203410), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2269,7 +2321,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1102600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2355,7 +2409,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1101660), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2440,7 +2496,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1103300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2524,7 +2582,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1104310), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2609,7 +2669,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1101610), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2688,7 +2750,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 9999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1106900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2762,7 +2826,9 @@
       "display",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 7999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 104300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2841,7 +2907,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 7499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1106800), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2910,7 +2978,9 @@
       "display",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 6499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 104200), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -2979,7 +3049,9 @@
       "display",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 104100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3058,7 +3130,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1106700), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3132,7 +3206,9 @@
       "display",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 104050), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3206,7 +3282,9 @@
       "display",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 104020), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3286,7 +3364,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1111610), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3366,7 +3446,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1111210), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3446,7 +3528,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2599,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1111100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3527,7 +3611,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1110600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3607,7 +3693,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1110400), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3687,7 +3775,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1110210), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3767,7 +3857,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1110010), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3846,7 +3938,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3099,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1122900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -3925,7 +4019,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1122600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4006,7 +4102,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 1999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1122310), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4087,7 +4185,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 1849,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1122100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4167,7 +4267,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1118650), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4246,7 +4348,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1118600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4326,7 +4430,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1118350), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4405,7 +4511,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1118300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4484,7 +4592,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4299,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1115900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4564,7 +4674,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1115600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4645,7 +4757,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3299,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1115210), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4726,7 +4840,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1114210), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4807,7 +4923,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1115150), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4888,7 +5006,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2599,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1114100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -4970,7 +5090,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117110), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5048,7 +5170,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1120100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5126,7 +5250,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1120200), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5205,7 +5331,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1120300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5283,7 +5411,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2899,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1120400), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5363,7 +5493,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117900), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5443,7 +5575,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 5199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117650), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5523,7 +5657,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117600), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5603,7 +5739,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4699,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117450), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5683,7 +5821,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117400), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5763,7 +5903,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4199,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117350), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5843,7 +5985,9 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1117300), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5916,7 +6060,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4999,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 124301), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -5984,7 +6130,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4899,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 124200), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -6057,7 +6205,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 124100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -6130,7 +6280,9 @@
       "rangeKm",
       "priceCHF",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4399,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 124401), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -6208,7 +6360,9 @@
       "priceCHF",
       "weightKg",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1121150), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -6288,7 +6442,9 @@
       "priceCHF",
       "weightKg",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 4499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1121100), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -6367,7 +6523,9 @@
       "priceCHF",
       "weightKg",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 3799,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1121200), abgerufen 2026-10-30"
   },
   {
     "brandId": "cube",
@@ -6444,6 +6602,8 @@
       "priceCHF",
       "lighting",
       "rackKg"
-    ]
+    ],
+    "priceEUR": 2499,
+    "priceEURSource": "cube.eu/de-de (UVP, Art.-Nr. 1155100), abgerufen 2026-10-30"
   }
 ]

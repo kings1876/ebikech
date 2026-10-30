@@ -118,7 +118,7 @@ export function ProductCard({
             <div className="flex items-center gap-1 px-2 py-0.5 rounded-full bg-slate-900 text-white text-[10px] font-medium shadow-xs">
               <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
               <span className="font-bold text-red-400">TCS:</span>
-              <span>{tcsVerdict.scoreText.split('–')[0]?.trim()}</span>
+              <span>{tcsVerdict.scoreText.split('â€“')[0]?.trim()}</span>
             </div>
           )}
 
@@ -168,10 +168,10 @@ export function ProductCard({
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.weight}>
               <Weight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-              <span>{product.weightKg ? `${product.weightKg} kg` : '–'}</span>
+              <span>{product.weightKg ? `${product.weightKg} kg` : 'â€“'}</span>
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.frame}>
-              <span className="text-slate-400 font-bold shrink-0">◇</span>
+              <span className="text-slate-400 font-bold shrink-0">â—‡</span>
               <span className="capitalize truncate">
                 {frameTypeLabel}
               </span>
@@ -183,9 +183,9 @@ export function ProductCard({
         <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
           <div>
             <div className="text-base font-black text-slate-900 font-mono tracking-tight">
-              {product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
+              {product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
             </div>
-            <div className="text-[10px] text-slate-500 font-medium">UVP · {product.year}</div>
+            <div className="text-[10px] text-slate-500 font-medium">UVP Â· {product.year}</div>
           </div>
 
           <button

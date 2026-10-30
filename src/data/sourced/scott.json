@@ -1,1 +1,3895 @@
-[]
+[
+  {
+    "brandId": "scott",
+    "name": "Scott Voltage 900 Tuned",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 9999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-voltage-900-tuned-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 19.1,
+    "gears": "SRAM GX Eagle AXS Transmission 12 Speed",
+    "brakes": "SRAM Maven Silver Stealth 4-Piston Disc",
+    "fork": "FOX 36 Factory Air GripX2",
+    "display": "TQ HPR Color, Bluetooth, ANT+",
+    "tires": "Maxxis Assegai, 2.5\" / Maxxis Dissector, 2.5\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon black/pastel white"
+    ],
+    "description": "Scott Voltage 900 Tuned ist ein E-Fully mit TQ-Antrieb (TQ HPR60) und 360 Wh Akku. Rahmen aus Carbon, Gabel FOX 36 Factory Air GripX2, Schaltung SRAM GX Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 19.1 kg.",
+    "features": [
+      "Federweg: vorn 160mm, hinten 155mm",
+      "Antrieb: TQ HPR60"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114273/2222879.png",
+        "alt": "Scott Voltage 900 Tuned, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120943/2260843.png",
+        "alt": "Scott Voltage 900 Tuned, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120943/2260844.png",
+        "alt": "Scott Voltage 900 Tuned, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120944/2260845.png",
+        "alt": "Scott Voltage 900 Tuned, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121606/2262103.png",
+        "alt": "Scott Voltage 900 Tuned, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121248/2261124.png",
+        "alt": "Scott Voltage 900 Tuned, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Voltage 910",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8299,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-voltage-910-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 19.9,
+    "gears": "SRAM S1000 Eagle AXS Transmission 12 Speed",
+    "brakes": "SRAM Maven Bronze Stealth 4-Piston Disc",
+    "fork": "FOX 36 Rhythm Air Grip",
+    "display": "TQ HPR, Bluetooth, ANT+",
+    "tires": "Maxxis Assegai, 2.5\" / Maxxis Dissector, 2.5\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon black"
+    ],
+    "description": "Scott Voltage 910 ist ein E-Fully mit TQ-Antrieb (TQ HPR60) und 360 Wh Akku. Rahmen aus Carbon, Gabel FOX 36 Rhythm Air Grip, Schaltung SRAM S1000 Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 19.9 kg.",
+    "features": [
+      "Federweg: vorn 160mm, hinten 155mm",
+      "Antrieb: TQ HPR60"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114274/2222880.png",
+        "alt": "Scott Voltage 910, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120945/2260846.png",
+        "alt": "Scott Voltage 910, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120945/2260847.png",
+        "alt": "Scott Voltage 910, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120945/2260848.png",
+        "alt": "Scott Voltage 910, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121606/2262104.png",
+        "alt": "Scott Voltage 910, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121249/2261125.png",
+        "alt": "Scott Voltage 910, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Voltage 920",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6299,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-voltage-920-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 19.8,
+    "gears": "SRAM Eagle 70 Transmission 12 Speed",
+    "brakes": "SRAM DB4 Stealth 4-Piston Disc",
+    "fork": "Marzocchi Z2 Air Rail",
+    "display": "TQ HPR, Bluetooth, ANT+",
+    "tires": "Maxxis Assegai, 2.5\" / Maxxis Dissector, 2.5\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon black/crackle bronze"
+    ],
+    "description": "Scott Voltage 920 ist ein E-Fully mit TQ-Antrieb (TQ HPR60) und 360 Wh Akku. Rahmen aus Carbon, Gabel Marzocchi Z2 Air Rail, Schaltung SRAM Eagle 70 Transmission 12 Speed. Das Herstellergewicht beträgt ca. 19.8 kg.",
+    "features": [
+      "Federweg: vorn 150mm, hinten 155mm",
+      "Antrieb: TQ HPR60"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114275/2222881.png",
+        "alt": "Scott Voltage 920, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120945/2260849.png",
+        "alt": "Scott Voltage 920, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120941/2260841.png",
+        "alt": "Scott Voltage 920, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120942/2260842.png",
+        "alt": "Scott Voltage 920, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121605/2262102.png",
+        "alt": "Scott Voltage 920, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121247/2261123.png",
+        "alt": "Scott Voltage 920, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 900 Ultimate",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 10999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-900-ultimate-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M"
+      ]
+    },
+    "weightKg": 23.7,
+    "gears": "SRAM X0 Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano XT BR-M8220 4 Piston",
+    "fork": "FOX 36 Factory Air",
+    "display": "Bosch System Controller, Mini Remote & Kiox 300",
+    "tires": "Maxxis Forekaster 29x2.6\", 120TPI Foldable Bead",
+    "lighting": "Syncros integrated rear fender light, Front Light Cable pre-installed",
+    "rackKg": null,
+    "colours": [
+      "carbon black"
+    ],
+    "description": "Scott Patron 900 Ultimate ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel FOX 36 Factory Air, Schaltung SRAM X0 Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 23.7 kg.",
+    "features": [
+      "Federweg: vorn 150mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Syncros integrated rear fender light, Front Light Cable pre-installed"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114263/2222691.png",
+        "alt": "Scott Patron 900 Ultimate, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121172/2261035.png",
+        "alt": "Scott Patron 900 Ultimate, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121161/2261012.png",
+        "alt": "Scott Patron 900 Ultimate, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128742/2281209.jpg",
+        "alt": "Scott Patron 900 Ultimate, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128725/2281159.jpg",
+        "alt": "Scott Patron 900 Ultimate, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128725/2281160.jpg",
+        "alt": "Scott Patron 900 Ultimate, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 900",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-900-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 24.6,
+    "gears": "SRAM GX Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano XT BR-M8220 4 Piston",
+    "fork": "FOX 36 Perf. Air",
+    "display": "Bosch System Controller, Mini Remote & Kiox 300",
+    "tires": "Maxxis Forekaster 29x2.6\", 120TPI Foldable Bead",
+    "lighting": "Syncros integrated rear fender light, Front Light Cable pre-installed",
+    "rackKg": null,
+    "colours": [
+      "twinkle green"
+    ],
+    "description": "Scott Patron 900 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel FOX 36 Perf. Air, Schaltung SRAM GX Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.6 kg.",
+    "features": [
+      "Federweg: vorn 150mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Syncros integrated rear fender light, Front Light Cable pre-installed"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114263/2222692.png",
+        "alt": "Scott Patron 900, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121163/2261014.png",
+        "alt": "Scott Patron 900, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121163/2261015.png",
+        "alt": "Scott Patron 900, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128726/2281164.jpg",
+        "alt": "Scott Patron 900, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128726/2281165.jpg",
+        "alt": "Scott Patron 900, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128726/2281166.jpg",
+        "alt": "Scott Patron 900, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 910",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-910-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 24.4,
+    "gears": "SRAM S1000 Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano Deore M6120 4-Piston Disc",
+    "fork": "FOX 36 Rhythm Air",
+    "display": "Bosch System Controller, Mini Remote & Kiox 300",
+    "tires": "Maxxis Forekaster 29x2.6\", 120TPI Foldable Bead",
+    "lighting": "Syncros integrated rear fender light, Front Light Cable pre-installed",
+    "rackKg": null,
+    "colours": [
+      "meteor grey"
+    ],
+    "description": "Scott Patron 910 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel FOX 36 Rhythm Air, Schaltung SRAM S1000 Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.4 kg.",
+    "features": [
+      "Federweg: vorn 150mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Syncros integrated rear fender light, Front Light Cable pre-installed"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114263/2222693.png",
+        "alt": "Scott Patron 910, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121163/2261017.png",
+        "alt": "Scott Patron 910, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121164/2261018.png",
+        "alt": "Scott Patron 910, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128728/2281170.jpg",
+        "alt": "Scott Patron 910, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128728/2281171.jpg",
+        "alt": "Scott Patron 910, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128729/2281172.jpg",
+        "alt": "Scott Patron 910, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 920",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-920-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.8,
+    "gears": "Shimano Deore RD-M6100 SGS",
+    "brakes": "Shimano MT520 4 Piston Disc",
+    "fork": "RockShox Psylo Silver RC Air",
+    "display": "Bosch System Controller, Mini Remote & Intuvia 100",
+    "tires": "Maxxis Forekaster 29x2.6\", 120TPI Foldable Bead",
+    "lighting": "Syncros integrated rear fender light, Front Light Cable pre-installed",
+    "rackKg": null,
+    "colours": [
+      "carbon black",
+      "carbon black/pastel white",
+      "pansy purple"
+    ],
+    "description": "Scott Patron 920 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel RockShox Psylo Silver RC Air, Schaltung Shimano Deore RD-M6100 SGS. Das Herstellergewicht beträgt ca. 24.8 kg.",
+    "features": [
+      "Federweg: vorn 150mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Syncros integrated rear fender light, Front Light Cable pre-installed"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114264/2222694.png",
+        "alt": "Scott Patron 920, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121165/2261020.png",
+        "alt": "Scott Patron 920, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121165/2261021.png",
+        "alt": "Scott Patron 920, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128730/2281176.jpg",
+        "alt": "Scott Patron 920, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128730/2281177.jpg",
+        "alt": "Scott Patron 920, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128731/2281178.jpg",
+        "alt": "Scott Patron 920, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron ST 900 Tuned",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 11499,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-st-900-tuned-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX-R",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.4,
+    "gears": "SRAM X0 Eagle AXS Transmission 12 Speed",
+    "brakes": "SRAM Maven Silver Stealth 4-Piston Disc",
+    "fork": "FOX Podium Factory Grip X2 Air",
+    "display": "Bosch Kiox 400C, Mini Remote",
+    "tires": "Schwalbe Magic Mary 29x2.5\", Gravity / Schwalbe Albert 29x2.5\", Gravity",
+    "lighting": "Syncros integrated rear fender light, Front Light Cable pre-installed",
+    "rackKg": null,
+    "colours": [
+      "carbon black/pastel white"
+    ],
+    "description": "Scott Patron ST 900 Tuned ist ein E-Fully mit Bosch-Antrieb (Performance Line CX-R) und 800 Wh Akku. Rahmen aus Carbon, Gabel FOX Podium Factory Grip X2 Air, Schaltung SRAM X0 Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.4 kg.",
+    "features": [
+      "Federweg: vorn 170mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX-R",
+      "Beleuchtung: Syncros integrated rear fender light, Front Light Cable pre-installed"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114276/2222885.png",
+        "alt": "Scott Patron ST 900 Tuned, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120946/2260851.png",
+        "alt": "Scott Patron ST 900 Tuned, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120947/2260852.png",
+        "alt": "Scott Patron ST 900 Tuned, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128758/2281252.jpg",
+        "alt": "Scott Patron ST 900 Tuned, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128759/2281253.jpg",
+        "alt": "Scott Patron ST 900 Tuned, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128759/2281254.jpg",
+        "alt": "Scott Patron ST 900 Tuned, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron ST 900",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 9999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-st-900-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.3,
+    "gears": "SRAM GX Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano XT BR-M8220 4 Piston",
+    "fork": "RockShox ZEB Ultimate Air",
+    "display": "Bosch Kiox 400C, Mini Remote",
+    "tires": "Schwalbe Magic Mary 29x2.5\", Gravity / Schwalbe Albert 29x2.5\", Gravity",
+    "lighting": "Front Light Cable pre-installed, Syncros integrated rear fender light",
+    "rackKg": null,
+    "colours": [
+      "mistyade green"
+    ],
+    "description": "Scott Patron ST 900 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel RockShox ZEB Ultimate Air, Schaltung SRAM GX Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.3 kg.",
+    "features": [
+      "Federweg: vorn 170mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Front Light Cable pre-installed, Syncros integrated rear fender light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114322/2224216.png",
+        "alt": "Scott Patron ST 900, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125525/2274578.png",
+        "alt": "Scott Patron ST 900, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125526/2274579.png",
+        "alt": "Scott Patron ST 900, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128760/2281258.jpg",
+        "alt": "Scott Patron ST 900, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128761/2281259.jpg",
+        "alt": "Scott Patron ST 900, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128762/2281260.jpg",
+        "alt": "Scott Patron ST 900, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron ST 910",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6599,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-st-910-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 25.3,
+    "gears": "Shimano Deore RD-M6100 SGS",
+    "brakes": "Shimano Deore M6120 4-Piston Disc",
+    "fork": "RockShox Domain R Air",
+    "display": "Bosch System Controller, Mini Remote",
+    "tires": "Schwalbe Magic Mary 29x2.5\", Gravity / Schwalbe Albert 29x2.5\", Gravity",
+    "lighting": "Syncros integrated rear fender light, Front Light Cable pre-installed",
+    "rackKg": null,
+    "colours": [
+      "black",
+      "reef pink"
+    ],
+    "description": "Scott Patron ST 910 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Gabel RockShox Domain R Air, Schaltung Shimano Deore RD-M6100 SGS. Das Herstellergewicht beträgt ca. 25.3 kg.",
+    "features": [
+      "Federweg: vorn 170mm, hinten 150mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Syncros integrated rear fender light, Front Light Cable pre-installed"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114276/2222886.png",
+        "alt": "Scott Patron ST 910, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120948/2260854.png",
+        "alt": "Scott Patron ST 910, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125532/2274612.png",
+        "alt": "Scott Patron ST 910, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128755/2281243.jpg",
+        "alt": "Scott Patron ST 910, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128755/2281244.jpg",
+        "alt": "Scott Patron ST 910, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128755/2281245.jpg",
+        "alt": "Scott Patron ST 910, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.material",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 10",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8799,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.4,
+    "gears": "SRAM GX Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano XT BR-M8220 ABS Pro 4-Piston",
+    "fork": "Fox 36 Perf. Air",
+    "display": "Bosch Kiox 300",
+    "tires": "Maxxis Forekaster 29x2.6\", 60TPI Foldable",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "obsidian red/carbon black"
+    ],
+    "description": "Scott Patron 10 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel Fox 36 Perf. Air, Schaltung SRAM GX Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.4 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130709/2286433.png",
+        "alt": "Scott Patron 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783338984/4276328563A.png",
+        "alt": "Scott Patron 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783339000/4276328563B.png",
+        "alt": "Scott Patron 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783338988/4276328563I.png",
+        "alt": "Scott Patron 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783338907/4276328563M.png",
+        "alt": "Scott Patron 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783338910/4276328563O.png",
+        "alt": "Scott Patron 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 20",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.3,
+    "gears": "SRAM S1000 Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano Deore BR-M6220 4-Piston",
+    "fork": "Fox 36 Rhythm",
+    "display": "Bosch Kiox 300",
+    "tires": "Maxxis Forekaster 29x2.6\", 60TPI Foldable",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "peach pink",
+      "pulse grey/carbon black"
+    ],
+    "description": "Scott Patron 20 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel Fox 36 Rhythm, Schaltung SRAM S1000 Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.3 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130710/2286434.png",
+        "alt": "Scott Patron 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581380/4276338566A.png",
+        "alt": "Scott Patron 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581349/4276338566B.png",
+        "alt": "Scott Patron 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581355/4276338566I.png",
+        "alt": "Scott Patron 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581356/4276338566M.png",
+        "alt": "Scott Patron 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581356/4276338566O.png",
+        "alt": "Scott Patron 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron 30",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6199,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24,
+    "gears": "Shimano Deore RD-M6200 12-speed",
+    "brakes": "Shimano BR-MT620 4-Piston",
+    "fork": "Fox AWL HD Sport",
+    "display": "Bosch Intuvia 200",
+    "tires": "Maxxis Forekaster 29x2.6\", 60TPI Foldable",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon black",
+      "silt green",
+      "solitude beige/carbon black"
+    ],
+    "description": "Scott Patron 30 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel Fox AWL HD Sport, Schaltung Shimano Deore RD-M6200 12-speed. Das Herstellergewicht beträgt ca. 24 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130699/2286419.png",
+        "alt": "Scott Patron 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581357/4276343020A.png",
+        "alt": "Scott Patron 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581364/4276343020B.png",
+        "alt": "Scott Patron 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581365/4276343020I.png",
+        "alt": "Scott Patron 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581376/4276343020M.png",
+        "alt": "Scott Patron 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581375/4276343020O.png",
+        "alt": "Scott Patron 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron ST Tuned",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 9999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-st-tuned-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX-R",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.1,
+    "gears": "SRAM X0 Eagle AXS Transmission 12 Speed",
+    "brakes": "Shimano XT BR-M8220 ABS Pro 4-Piston",
+    "fork": "Öhlins RXF38 M.3 Air",
+    "display": "Bosch Kiox 400C",
+    "tires": "Schwalbe Magic Mary 29x2.5\", Gravity / Schwalbe Albert 29x2.5\", Gravity PRO",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "blush white/rally red"
+    ],
+    "description": "Scott Patron ST Tuned ist ein E-Fully mit Bosch-Antrieb (Performance Line CX-R) und 800 Wh Akku. Rahmen aus Carbon, Gabel Öhlins RXF38 M.3 Air, Schaltung SRAM X0 Eagle AXS Transmission 12 Speed. Das Herstellergewicht beträgt ca. 24.1 kg.",
+    "features": [
+      "Federweg: vorn 170 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX-R"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130704/2286428.png",
+        "alt": "Scott Patron ST Tuned, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581335/4276408518A.png",
+        "alt": "Scott Patron ST Tuned, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581402/4276408518B.png",
+        "alt": "Scott Patron ST Tuned, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581343/4276408518I.png",
+        "alt": "Scott Patron ST Tuned, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581408/4276408518M.png",
+        "alt": "Scott Patron ST Tuned, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581413/4276408518O.png",
+        "alt": "Scott Patron ST Tuned, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Patron ST 10",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6699,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-patron-st-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 25.3,
+    "gears": "SRAM Eagle 70 Transmission",
+    "brakes": "SRAM Maven Base 4-Piston",
+    "fork": "RockShox ZEB",
+    "display": "Bosch System Controller",
+    "tires": "Schwalbe Magic Mary 29x2.5\", Gravity / Schwalbe Albert 29x2.5\", Gravity PRO",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "moss green/carbon black"
+    ],
+    "description": "Scott Patron ST 10 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Carbon, Gabel RockShox ZEB, Schaltung SRAM Eagle 70 Transmission. Das Herstellergewicht beträgt ca. 25.3 kg.",
+    "features": [
+      "Federweg: vorn 170 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130704/2286429.png",
+        "alt": "Scott Patron ST 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581405/4276418556A.png",
+        "alt": "Scott Patron ST 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581317/4276418556B.png",
+        "alt": "Scott Patron ST 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581406/4276418556I.png",
+        "alt": "Scott Patron ST 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581322/4276418556M.png",
+        "alt": "Scott Patron ST 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581318/4276418556O.png",
+        "alt": "Scott Patron ST 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Strike 10",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5799,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-strike-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 25.3,
+    "gears": "Shimano XT RD-M8200 12-speed",
+    "brakes": "Shimano XT BR-M8220 4-Piston",
+    "fork": "Fox 36 Rhythm",
+    "display": "Bosch Intuvia 200",
+    "tires": "Maxxis Forekaster 29x2.6\", 60TPI Foldable",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "black",
+      "paradise green"
+    ],
+    "description": "Scott Strike 10 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel Fox 36 Rhythm, Schaltung Shimano XT RD-M8200 12-speed. Das Herstellergewicht beträgt ca. 25.3 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130700/2286422.png",
+        "alt": "Scott Strike 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581410/4276350001A.png",
+        "alt": "Scott Strike 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581412/4276350001B.png",
+        "alt": "Scott Strike 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581322/4276350001I.png",
+        "alt": "Scott Strike 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581344/4276350001M.png",
+        "alt": "Scott Strike 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581358/4276350001O.png",
+        "alt": "Scott Strike 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Strike 20",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5399,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-strike-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.8,
+    "gears": "Shimano Deore RD-M6200 12-speed",
+    "brakes": "Shimano Deore BR-M6220 4-Piston",
+    "fork": "Fox AWL HD Sport",
+    "display": "Bosch Intuvia 200",
+    "tires": "Maxxis Forekaster 29x2.6\", 60TPI Foldable",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "foggy grey"
+    ],
+    "description": "Scott Strike 20 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel Fox AWL HD Sport, Schaltung Shimano Deore RD-M6200 12-speed. Das Herstellergewicht beträgt ca. 24.8 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130702/2286424.png",
+        "alt": "Scott Strike 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581393/4276368535A.png",
+        "alt": "Scott Strike 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581397/4276368535B.png",
+        "alt": "Scott Strike 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581389/4276368535I.png",
+        "alt": "Scott Strike 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581397/4276368535M.png",
+        "alt": "Scott Strike 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581410/4276368535O.png",
+        "alt": "Scott Strike 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Strike 30",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-strike-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 25.7,
+    "gears": "Shimano Deore RD-M6200 12-speed",
+    "brakes": "Shimano BR-MT620 4-Piston",
+    "fork": "RockShox Psylo Silver RC Air",
+    "display": "Bosch Purion 200",
+    "tires": "Maxxis Forekaster 29x2.6\", 60TPI",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "black",
+      "mist blue",
+      "peach pink"
+    ],
+    "description": "Scott Strike 30 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel RockShox Psylo Silver RC Air, Schaltung Shimano Deore RD-M6200 12-speed. Das Herstellergewicht beträgt ca. 25.7 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130702/2286425.png",
+        "alt": "Scott Strike 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581328/4276370001A.png",
+        "alt": "Scott Strike 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581318/4276370001B.png",
+        "alt": "Scott Strike 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581324/4276370001I.png",
+        "alt": "Scott Strike 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581400/4276370001M.png",
+        "alt": "Scott Strike 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1783581324/4276370001O.png",
+        "alt": "Scott Strike 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Strike 40",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-strike-40-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 25.4,
+    "gears": "Shimano Deore RD-M6200 12-speed",
+    "brakes": "Shimano BR-MT420 4-Piston",
+    "fork": "SR Suntour SF26-XCR 36X",
+    "display": "Bosch Purion 200",
+    "tires": "Maxxis Forekaster, 29x2.4\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "pearl white",
+      "quarry grey"
+    ],
+    "description": "Scott Strike 40 ist ein E-Fully mit Bosch-Antrieb (Performance Line CX) und 720 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour SF26-XCR 36X, Schaltung Shimano Deore RD-M6200 12-speed. Das Herstellergewicht beträgt ca. 25.4 kg.",
+    "features": [
+      "Federweg: vorn 150 mm / hinten 150 mm",
+      "Antrieb: Bosch Performance Line CX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778130707/2286431.png",
+        "alt": "Scott Strike 40, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784015194/4277202101A.png",
+        "alt": "Scott Strike 40, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784015193/4277202101B.png",
+        "alt": "Scott Strike 40, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784015202/4277202101I.png",
+        "alt": "Scott Strike 40, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784015196/4277202101M.png",
+        "alt": "Scott Strike 40, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784015197/4277202101O.png",
+        "alt": "Scott Strike 40, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Aspect eRIDE 900 Wave",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-aspect-eride-900-wave-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28.6,
+    "gears": "Shimano Deore RD-M6100 SGS",
+    "brakes": "Shimano BR-MT420 Disc Brakes",
+    "fork": "SR Suntour XCR34X LOR Air",
+    "display": "Bosch LED Remote, Kiox 300",
+    "tires": "Kenda Booster 29x2.6\", 30TPI",
+    "lighting": "Bosch Light Cable pre-installed F&R",
+    "rackKg": null,
+    "colours": [
+      "highland green"
+    ],
+    "description": "Scott Aspect eRIDE 900 Wave ist ein E-Hardtail mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCR34X LOR Air, Schaltung Shimano Deore RD-M6100 SGS. Das Herstellergewicht beträgt ca. 28.6 kg.",
+    "features": [
+      "Federweg: 120mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Bosch Light Cable pre-installed F&R"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778102827/2152450.png",
+        "alt": "Scott Aspect eRIDE 900 Wave, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778112068/2198916.png",
+        "alt": "Scott Aspect eRIDE 900 Wave, Ansicht 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Aspect eRIDE 910",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3699,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-aspect-eride-910-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 25.8,
+    "gears": "SRAM NX Eagle",
+    "brakes": "Shimano BR-MT420 Disc Brakes",
+    "fork": "SR Suntour XCM34 RL Coil",
+    "display": "Bosch System Controller, Intuvia 100, Mini Remote",
+    "tires": "Kenda Booster 29x2.6\", 30TPI",
+    "lighting": "Bosch Light Cable pre-installed F&R",
+    "rackKg": null,
+    "colours": [],
+    "description": "Scott Aspect eRIDE 910 ist ein E-Hardtail mit Bosch-Antrieb (Performance Line CX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 RL Coil, Schaltung SRAM NX Eagle. Das Herstellergewicht beträgt ca. 25.8 kg.",
+    "features": [
+      "Federweg: 120mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Beleuchtung: Bosch Light Cable pre-installed F&R"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098474/2136154.png",
+        "alt": "Scott Aspect eRIDE 910, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778112064/2198851.png",
+        "alt": "Scott Aspect eRIDE 910, Ansicht 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.sizes",
+      "colours",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Fastlane Premium",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 11999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-fastlane-premium-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR40",
+      "torqueNm": 40
+    },
+    "battery": {
+      "wh": 290,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 9.9,
+    "gears": "Shimano Dura-Ace Di2 RD-R9250 24 Speed",
+    "brakes": "Shimano BR-R9270 Hyd.Disc",
+    "fork": "Fastlane Road HMX Flatmount Disc",
+    "display": "TQ Bar-End-Display, Bluetooth, ANT+",
+    "tires": "Schwalbe PRO ONE Fold, 700x34C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "chrome silver"
+    ],
+    "description": "Scott Fastlane Premium ist ein E-Rennvelo/E-Gravelbike mit TQ-Antrieb (TQ HPR40) und 290 Wh Akku. Rahmen aus Carbon, Gabel Fastlane Road HMX Flatmount Disc, Schaltung Shimano Dura-Ace Di2 RD-R9250 24 Speed. Das Herstellergewicht beträgt ca. 9.9 kg.",
+    "features": [
+      "Antrieb: TQ HPR40"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114279/2222928.png",
+        "alt": "Scott Fastlane Premium, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120956/2260869.png",
+        "alt": "Scott Fastlane Premium, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120950/2260858.png",
+        "alt": "Scott Fastlane Premium, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128516/2280646.jpg",
+        "alt": "Scott Fastlane Premium, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128514/2280641.jpg",
+        "alt": "Scott Fastlane Premium, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128512/2280638.jpg",
+        "alt": "Scott Fastlane Premium, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Fastlane 10",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-fastlane-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR40",
+      "torqueNm": 40
+    },
+    "battery": {
+      "wh": 290,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 10.6,
+    "gears": "Shimano Ultegra Di2 RD-R8150 24 Speed",
+    "brakes": "Shimano BR-R8170 Hyd.Disc",
+    "fork": "Fastlane Road HMX Flatmount Disc",
+    "display": "TQ Bar-End-Display, Bluetooth, ANT+",
+    "tires": "Schwalbe PRO ONE Fold, 700x34C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "cumulus white",
+      "tungsten grey"
+    ],
+    "description": "Scott Fastlane 10 ist ein E-Rennvelo/E-Gravelbike mit TQ-Antrieb (TQ HPR40) und 290 Wh Akku. Rahmen aus Carbon, Gabel Fastlane Road HMX Flatmount Disc, Schaltung Shimano Ultegra Di2 RD-R8150 24 Speed. Das Herstellergewicht beträgt ca. 10.6 kg.",
+    "features": [
+      "Antrieb: TQ HPR40"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114279/2222929.png",
+        "alt": "Scott Fastlane 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120951/2260860.png",
+        "alt": "Scott Fastlane 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120951/2260861.png",
+        "alt": "Scott Fastlane 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128516/2280645.jpg",
+        "alt": "Scott Fastlane 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128514/2280642.jpg",
+        "alt": "Scott Fastlane 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128511/2280637.jpg",
+        "alt": "Scott Fastlane 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Fastlane 20",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-fastlane-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR40",
+      "torqueNm": 40
+    },
+    "battery": {
+      "wh": 290,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 11.1,
+    "gears": "Shimano 105 Di2 RD-R7150 24 Speed",
+    "brakes": "Shimano BR-R7170 Hyd.Disc",
+    "fork": "Fastlane Road HMX Flatmount Disc",
+    "display": "TQ Bar-End-Display, Bluetooth, ANT+",
+    "tires": "Schwalbe PRO ONE Fold, 700x34C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon black",
+      "cream green"
+    ],
+    "description": "Scott Fastlane 20 ist ein E-Rennvelo/E-Gravelbike mit TQ-Antrieb (TQ HPR40) und 290 Wh Akku. Rahmen aus Carbon, Gabel Fastlane Road HMX Flatmount Disc, Schaltung Shimano 105 Di2 RD-R7150 24 Speed. Das Herstellergewicht beträgt ca. 11.1 kg.",
+    "features": [
+      "Antrieb: TQ HPR40"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114279/2222930.png",
+        "alt": "Scott Fastlane 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120951/2260863.png",
+        "alt": "Scott Fastlane 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120952/2260864.png",
+        "alt": "Scott Fastlane 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128514/2280643.jpg",
+        "alt": "Scott Fastlane 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128514/2280640.jpg",
+        "alt": "Scott Fastlane 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778128509/2280635.jpg",
+        "alt": "Scott Fastlane 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Solace Gravel 10",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 9999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-solace-gravel-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 13.2,
+    "gears": "SRAM FORCE XPLR AXS",
+    "brakes": "SRAM FORCE AXS HRD Shift-Brake System",
+    "fork": "Solace eRIDE HMX Flatmount Disc",
+    "display": "TQ HPR Color, Bluetooth, ANT+",
+    "tires": "Schwalbe G-One Overland PRO Evo, 700x50C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "pale green/beluga grey"
+    ],
+    "description": "Scott Solace Gravel 10 ist ein E-Rennvelo/E-Gravelbike mit TQ-Antrieb (TQ HPR60) und 360 Wh Akku. Rahmen aus Carbon, Gabel Solace eRIDE HMX Flatmount Disc, Schaltung SRAM FORCE XPLR AXS. Das Herstellergewicht beträgt ca. 13.2 kg.",
+    "features": [
+      "Antrieb: TQ HPR60"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114276/2222920.png",
+        "alt": "Scott Solace Gravel 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120921/2260802.png",
+        "alt": "Scott Solace Gravel 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120921/2260803.png",
+        "alt": "Scott Solace Gravel 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120921/2260804.png",
+        "alt": "Scott Solace Gravel 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121597/2262090.png",
+        "alt": "Scott Solace Gravel 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121245/2261118.png",
+        "alt": "Scott Solace Gravel 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Solace Gravel 20",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-solace-gravel-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 13.8,
+    "gears": "SRAM RIVAL XPLR AXS",
+    "brakes": "SRAM RIVAL AXS HRD Shift-Brake System",
+    "fork": "Solace eRIDE HMF Flatmount Disc",
+    "display": "TQ HPR, Bluetooth, ANT+",
+    "tires": "Schwalbe G-One Overland PRO Evo, 700x50C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "squid blue/beluga grey"
+    ],
+    "description": "Scott Solace Gravel 20 ist ein E-Rennvelo/E-Gravelbike mit TQ-Antrieb (TQ HPR60) und 360 Wh Akku. Rahmen aus Carbon, Gabel Solace eRIDE HMF Flatmount Disc, Schaltung SRAM RIVAL XPLR AXS. Das Herstellergewicht beträgt ca. 13.8 kg.",
+    "features": [
+      "Antrieb: TQ HPR60"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114320/2224214.png",
+        "alt": "Scott Solace Gravel 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125519/2274571.png",
+        "alt": "Scott Solace Gravel 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125521/2274572.png",
+        "alt": "Scott Solace Gravel 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125521/2274573.png",
+        "alt": "Scott Solace Gravel 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125521/2274574.png",
+        "alt": "Scott Solace Gravel 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778125524/2274575.png",
+        "alt": "Scott Solace Gravel 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Solace Gravel 30",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-solace-gravel-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "TQ",
+      "model": "TQ HPR60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 360,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 14.3,
+    "gears": "SRAM APEX XPLR",
+    "brakes": "SRAM APEX AXS Shift-Brake System",
+    "fork": "Solace eRIDE HMF Flatmount Disc",
+    "display": "TQ HPR, Bluetooth, ANT+",
+    "tires": "Schwalbe G-One Overland RaceGuard, 700x50C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon black",
+      "mineral pink/flint purple",
+      "cream green/grove green"
+    ],
+    "description": "Scott Solace Gravel 30 ist ein E-Rennvelo/E-Gravelbike mit TQ-Antrieb (TQ HPR60) und 360 Wh Akku. Rahmen aus Carbon, Gabel Solace eRIDE HMF Flatmount Disc, Schaltung SRAM APEX XPLR. Das Herstellergewicht beträgt ca. 14.3 kg.",
+    "features": [
+      "Antrieb: TQ HPR60"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114277/2222922.png",
+        "alt": "Scott Solace Gravel 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784530758/4254973020A.png",
+        "alt": "Scott Solace Gravel 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784530764/4254973020B.png",
+        "alt": "Scott Solace Gravel 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784530748/4254973020I.png",
+        "alt": "Scott Solace Gravel 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784530749/4254973020M.png",
+        "alt": "Scott Solace Gravel 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1784530736/4254973020O.png",
+        "alt": "Scott Solace Gravel 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Axis 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-axis-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 28.2,
+    "gears": "Shimano Cues RD-U8000 11-Speed",
+    "brakes": "Shimano BR-MT420 4-Piston",
+    "fork": "SR Suntour XCM34 BOOST AIR LO",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Advancer 60-622",
+    "lighting": null,
+    "rackKg": 30,
+    "colours": [
+      "ivory beige"
+    ],
+    "description": "Scott Axis 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST AIR LO, Schaltung Shimano Cues RD-U8000 11-Speed. Das Herstellergewicht beträgt ca. 28.2 kg.",
+    "features": [
+      "Federweg: 120mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Gepäckträger bis 30 kg"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778131420/2288089.png",
+        "alt": "Scott Axis 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1781526506/4276537936A.png",
+        "alt": "Scott Axis 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1781526506/4276537936B.png",
+        "alt": "Scott Axis 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1781526495/4276537936I.png",
+        "alt": "Scott Axis 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1781526503/4276537936M.png",
+        "alt": "Scott Axis 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1781526508/4276537936O.png",
+        "alt": "Scott Axis 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Axis 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3699,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-axis-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "L",
+        "S"
+      ]
+    },
+    "weightKg": 28.3,
+    "gears": "Shimano Deore RD M6100SGS 12 Speed",
+    "brakes": "Shimano BR-MT420 Disc Brakes",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch System Controller, Intuvia 100, Mini remote",
+    "tires": "Schwalbe Advancer 60-622 Wired",
+    "lighting": "Front Lezyne Hecto E65, Rear Super Bright Lezyne Light",
+    "rackKg": 27,
+    "colours": [
+      "midnight grey",
+      "colorado gold"
+    ],
+    "description": "Scott Axis 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line CX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil, Schaltung Shimano Deore RD M6100SGS 12 Speed. Das Herstellergewicht beträgt ca. 28.3 kg.",
+    "features": [
+      "Federweg: 120mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Gepäckträger bis 27 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Super Bright Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098481/2136178.png",
+        "alt": "Scott Axis 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778108379/2182412.png",
+        "alt": "Scott Axis 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114269/2222864.png",
+        "alt": "Scott Axis 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120803/2260554.png",
+        "alt": "Scott Axis 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120804/2260555.png",
+        "alt": "Scott Axis 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120802/2260553.png",
+        "alt": "Scott Axis 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Axis 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-axis-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28.2,
+    "gears": "Shimano CUES RD-U6000GS 10 Speed",
+    "brakes": "Shimano BR-MT200 Disc Brakes",
+    "fork": "SR Suntour XCM34 Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Advancer 60-622 Wired",
+    "lighting": "Front Lezyne Hecto E65, Rear Super Bright Lezyne Light",
+    "rackKg": 27,
+    "colours": [
+      "cypress green"
+    ],
+    "description": "Scott Axis 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 Coil, Schaltung Shimano CUES RD-U6000GS 10 Speed. Das Herstellergewicht beträgt ca. 28.2 kg.",
+    "features": [
+      "Federweg: 120mm",
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 27 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Super Bright Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114508/2228693.png",
+        "alt": "Scott Axis 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120956/2260872.png",
+        "alt": "Scott Axis 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120956/2260873.png",
+        "alt": "Scott Axis 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120957/2260874.png",
+        "alt": "Scott Axis 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121611/2262113.png",
+        "alt": "Scott Axis 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121201/2261079.png",
+        "alt": "Scott Axis 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Axis 40",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3599,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-axis-40-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 27.5,
+    "gears": "Shimano CUES RD-U6000GS 10 Speed",
+    "brakes": "Shimano BR-MT200 Disc Brakes",
+    "fork": "SR Suntour XCM34 Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Advancer 60-622 Wired",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Tail Light",
+    "rackKg": 25,
+    "colours": [
+      "cotton white",
+      "highland green"
+    ],
+    "description": "Scott Axis 40 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 625 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 Coil, Schaltung Shimano CUES RD-U6000GS 10 Speed. Das Herstellergewicht beträgt ca. 27.5 kg.",
+    "features": [
+      "Federweg: 120mm",
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Tail Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098493/2136226.png",
+        "alt": "Scott Axis 40, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778108382/2182419.png",
+        "alt": "Scott Axis 40, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098495/2136229.png",
+        "alt": "Scott Axis 40, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778108382/2182418.png",
+        "alt": "Scott Axis 40, Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Tour 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4399,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-tour-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 28.1,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch System Controller, Kiox 300, Mini remote",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Light",
+    "rackKg": 27,
+    "colours": [],
+    "description": "Scott Sub Tour 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line PX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil. Das Herstellergewicht beträgt ca. 28.1 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line PX",
+      "Gepäckträger bis 27 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114260/2222656.png",
+        "alt": "Scott Sub Tour 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120982/2260924.png",
+        "alt": "Scott Sub Tour 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120970/2260898.png",
+        "alt": "Scott Sub Tour 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120971/2260899.png",
+        "alt": "Scott Sub Tour 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121616/2262122.png",
+        "alt": "Scott Sub Tour 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121210/2261088.png",
+        "alt": "Scott Sub Tour 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.sizes",
+      "colours",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Tour 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-tour-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 28.7,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Light",
+    "rackKg": 25,
+    "colours": [],
+    "description": "Scott Sub Tour 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line PX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil. Das Herstellergewicht beträgt ca. 28.7 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line PX",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114262/2222659.png",
+        "alt": "Scott Sub Tour 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120973/2260906.png",
+        "alt": "Scott Sub Tour 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120973/2260907.png",
+        "alt": "Scott Sub Tour 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120974/2260908.png",
+        "alt": "Scott Sub Tour 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121617/2262125.png",
+        "alt": "Scott Sub Tour 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121214/2261091.png",
+        "alt": "Scott Sub Tour 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "frame.sizes",
+      "colours",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Tour 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-tour-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M"
+      ]
+    },
+    "weightKg": 28.4,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour NVX 32 5TA NLO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 55-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Light",
+    "rackKg": 25,
+    "colours": [
+      "midnight grey"
+    ],
+    "description": "Scott Sub Tour 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NVX 32 5TA NLO Coil. Das Herstellergewicht beträgt ca. 28.4 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114263/2222662.png",
+        "alt": "Scott Sub Tour 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120977/2260915.png",
+        "alt": "Scott Sub Tour 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120977/2260916.png",
+        "alt": "Scott Sub Tour 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120978/2260917.png",
+        "alt": "Scott Sub Tour 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121619/2262128.png",
+        "alt": "Scott Sub Tour 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121215/2261094.png",
+        "alt": "Scott Sub Tour 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Tour 40",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-tour-40-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28.1,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour NVX 32 5TA NLO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 55-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Light",
+    "rackKg": 25,
+    "colours": [
+      "hematite blue"
+    ],
+    "description": "Scott Sub Tour 40 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NVX 32 5TA NLO Coil. Das Herstellergewicht beträgt ca. 28.1 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114257/2222557.png",
+        "alt": "Scott Sub Tour 40, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121188/2261070.png",
+        "alt": "Scott Sub Tour 40, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121188/2261071.png",
+        "alt": "Scott Sub Tour 40, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121189/2261072.png",
+        "alt": "Scott Sub Tour 40, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121643/2262179.png",
+        "alt": "Scott Sub Tour 40, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121242/2261115.png",
+        "alt": "Scott Sub Tour 40, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Sport 10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3899,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-sport-10-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28.9,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Light",
+    "rackKg": 27,
+    "colours": [
+      "midnight grey",
+      "colorado gold"
+    ],
+    "description": "Scott Sub Sport 10 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line PX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil. Das Herstellergewicht beträgt ca. 28.9 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line PX",
+      "Gepäckträger bis 27 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114266/2222701.png",
+        "alt": "Scott Sub Sport 10, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121187/2261068.png",
+        "alt": "Scott Sub Sport 10, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121173/2261042.png",
+        "alt": "Scott Sub Sport 10, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121173/2261043.png",
+        "alt": "Scott Sub Sport 10, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121640/2262172.png",
+        "alt": "Scott Sub Sport 10, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121231/2261107.png",
+        "alt": "Scott Sub Sport 10, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Sport 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3599,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-sport-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Super Bright Lezyne Light",
+    "rackKg": 25,
+    "colours": [
+      "hematite blue"
+    ],
+    "description": "Scott Sub Sport 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line PX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil. Das Herstellergewicht beträgt ca. 28 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line PX",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Super Bright Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114267/2222704.png",
+        "alt": "Scott Sub Sport 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121177/2261050.png",
+        "alt": "Scott Sub Sport 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121178/2261051.png",
+        "alt": "Scott Sub Sport 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121179/2261052.png",
+        "alt": "Scott Sub Sport 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121641/2262175.png",
+        "alt": "Scott Sub Sport 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121235/2261110.png",
+        "alt": "Scott Sub Sport 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Sport 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-sport-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 27.6,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour NVX 32 5TA NLO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 55-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Super Bright Lezyne Light",
+    "rackKg": 25,
+    "colours": [
+      "highland green"
+    ],
+    "description": "Scott Sub Sport 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NVX 32 5TA NLO Coil. Das Herstellergewicht beträgt ca. 27.6 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 25 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Super Bright Lezyne Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114268/2222707.png",
+        "alt": "Scott Sub Sport 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121182/2261059.png",
+        "alt": "Scott Sub Sport 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121182/2261060.png",
+        "alt": "Scott Sub Sport 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121182/2261061.png",
+        "alt": "Scott Sub Sport 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121638/2262168.png",
+        "alt": "Scott Sub Sport 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121239/2261113.png",
+        "alt": "Scott Sub Sport 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub 10 Belt",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-10-belt-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M"
+      ]
+    },
+    "weightKg": 29.4,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch System Controller, Kiox 300, Mini remote",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": "Lezyne Fusion E550SM front light, Rear Lezyne Rack Light",
+    "rackKg": 27,
+    "colours": [
+      "hematite blue"
+    ],
+    "description": "Scott Sub 10 Belt ist ein E-Trekkingbike mit Bosch-Antrieb (Performance CX) und 800 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil. Das Herstellergewicht beträgt ca. 29.4 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance CX",
+      "Gepäckträger bis 27 kg",
+      "Beleuchtung: Lezyne Fusion E550SM front light, Rear Lezyne Rack Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098367/2136100.png",
+        "alt": "Scott Sub 10 Belt, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778108601/2184363.png",
+        "alt": "Scott Sub 10 Belt, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110643/2188538.jpg",
+        "alt": "Scott Sub 10 Belt, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110644/2188544.jpg",
+        "alt": "Scott Sub 10 Belt, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110646/2188549.jpg",
+        "alt": "Scott Sub 10 Belt, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110647/2188550.jpg",
+        "alt": "Scott Sub 10 Belt, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3899,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 29.2,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour XCM34 LO Coil",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": "Front Lezyne Hecto E65, Rear Lezyne Rack Light",
+    "rackKg": 27,
+    "colours": [
+      "midnight grey",
+      "aztec green"
+    ],
+    "description": "Scott Sub 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance CX) und 600 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 LO Coil. Das Herstellergewicht beträgt ca. 29.2 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance CX",
+      "Gepäckträger bis 27 kg",
+      "Beleuchtung: Front Lezyne Hecto E65, Rear Lezyne Rack Light"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098371/2136107.png",
+        "alt": "Scott Sub 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778108605/2184371.png",
+        "alt": "Scott Sub 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110643/2188536.jpg",
+        "alt": "Scott Sub 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110644/2188544.jpg",
+        "alt": "Scott Sub 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110647/2188551.jpg",
+        "alt": "Scott Sub 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778110648/2188556.jpg",
+        "alt": "Scott Sub 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Passage 10 Belt",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3899,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-passage-10-belt-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21.7,
+    "gears": null,
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour NRX32-E Air LO R",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe G-One Overland 365 Performance, 700x45C",
+    "lighting": "Lezyne Fusion E550SM front light, Rear Supernova TL3Z",
+    "rackKg": 8,
+    "colours": [
+      "midnight grey"
+    ],
+    "description": "Scott Passage 10 Belt ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NRX32-E Air LO R. Das Herstellergewicht beträgt ca. 21.7 kg.",
+    "features": [
+      "Federweg: 75mm",
+      "Antrieb: Bosch Performance Line SX",
+      "Gepäckträger bis 8 kg",
+      "Beleuchtung: Lezyne Fusion E550SM front light, Rear Supernova TL3Z"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778114281/2222940.png",
+        "alt": "Scott Passage 10 Belt, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120969/2260897.png",
+        "alt": "Scott Passage 10 Belt, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120960/2260877.png",
+        "alt": "Scott Passage 10 Belt, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778120961/2260878.png",
+        "alt": "Scott Passage 10 Belt, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121612/2262115.png",
+        "alt": "Scott Passage 10 Belt, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778121202/2261081.png",
+        "alt": "Scott Passage 10 Belt, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "gears"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Passage 20",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-passage-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance SX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 20.5,
+    "gears": "Shimano Deore RD M6100SGS 12 Speed",
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour NRX32-E Air LO R",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe G-One RX Performance, 700x50C",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "flake grey"
+    ],
+    "description": "Scott Passage 20 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NRX32-E Air LO R, Schaltung Shimano Deore RD M6100SGS 12 Speed. Das Herstellergewicht beträgt ca. 20.5 kg.",
+    "features": [
+      "Federweg: 75mm",
+      "Antrieb: Bosch Performance SX"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098496/2136231.png",
+        "alt": "Scott Passage 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778113189/2205633.png",
+        "alt": "Scott Passage 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111219/2191458.jpg",
+        "alt": "Scott Passage 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111158/2191194.jpg",
+        "alt": "Scott Passage 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111154/2191190.jpg",
+        "alt": "Scott Passage 20, Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Passage 30",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3499,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-passage-30-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance SX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21.8,
+    "gears": "Shimano CUES RDU4000GS 9 Speed",
+    "brakes": "Shimano BR-MT200 Disc",
+    "fork": "SR Suntour NRX32-E Air LO R",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe G-One Overland 365 Performance, 700x45C",
+    "lighting": "Lezyne Fusion E550SM front light, Rear Supernova TL3Z",
+    "rackKg": 8,
+    "colours": [
+      "highland green"
+    ],
+    "description": "Scott Passage 30 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance SX) und 400 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NRX32-E Air LO R, Schaltung Shimano CUES RDU4000GS 9 Speed. Das Herstellergewicht beträgt ca. 21.8 kg.",
+    "features": [
+      "Federweg: 75mm",
+      "Antrieb: Bosch Performance SX",
+      "Gepäckträger bis 8 kg",
+      "Beleuchtung: Lezyne Fusion E550SM front light, Rear Supernova TL3Z"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778098498/2136234.png",
+        "alt": "Scott Passage 30, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778112068/2198903.png",
+        "alt": "Scott Passage 30, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111219/2191458.jpg",
+        "alt": "Scott Passage 30, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111155/2191189.jpg",
+        "alt": "Scott Passage 30, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111155/2191191.jpg",
+        "alt": "Scott Passage 30, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778111158/2191194.jpg",
+        "alt": "Scott Passage 30, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott E-Ville 20",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4599,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-e-ville-20-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 31.3,
+    "gears": "Shimano Cues RD-U6000 10/11-Speed",
+    "brakes": "Shimano BR-MT4120 4-Piston",
+    "fork": "SR Suntour XCM34 BOOST AIR LO",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 60-622",
+    "lighting": null,
+    "rackKg": 20,
+    "colours": [
+      "tungsten grey",
+      "silt green"
+    ],
+    "description": "Scott E-Ville 20 ist ein E-Citybike mit Bosch-Antrieb (Performance Line CX) und 720 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour XCM34 BOOST AIR LO, Schaltung Shimano Cues RD-U6000 10/11-Speed. Das Herstellergewicht beträgt ca. 31.3 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line CX",
+      "Gepäckträger bis 20 kg"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778131418/2288086.png",
+        "alt": "Scott E-Ville 20, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812401/4276868350A.png",
+        "alt": "Scott E-Ville 20, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812383/4276868350B.png",
+        "alt": "Scott E-Ville 20, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812386/4276868350I.png",
+        "alt": "Scott E-Ville 20, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812388/4276868350M.png",
+        "alt": "Scott E-Ville 20, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812377/4276868350O.png",
+        "alt": "Scott E-Ville 20, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "scott",
+    "name": "Scott Sub Tour 50",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3099,
+    "priceNote": "UVP (Streichpreis ohne Aktionsrabatt) laut scott-sports.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.scott-sports.com/ch/de/product/scott-sub-tour-50-bike",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 27.6,
+    "gears": "Shimano Nexus Inter 5e",
+    "brakes": "Shimano BR-MT200 2-Piston",
+    "fork": "SR Suntour NVX 32 5TA COIL LO",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Big Apple Performance, 55-622",
+    "lighting": null,
+    "rackKg": 30,
+    "colours": [
+      "black"
+    ],
+    "description": "Scott Sub Tour 50 ist ein E-Trekkingbike mit Bosch-Antrieb (Performance Line) und 540 Wh Akku. Rahmen aus Aluminium, Gabel SR Suntour NVX 32 5TA COIL LO, Schaltung Shimano Nexus Inter 5e. Das Herstellergewicht beträgt ca. 27.6 kg.",
+    "features": [
+      "Federweg: 100mm",
+      "Antrieb: Bosch Performance Line",
+      "Gepäckträger bis 30 kg"
+    ],
+    "images": [
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1778131518/2288229.png",
+        "alt": "Scott Sub Tour 50, Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812345/4277210001A.png",
+        "alt": "Scott Sub Tour 50, Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812342/4277210001B.png",
+        "alt": "Scott Sub Tour 50, Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812348/4277210001I.png",
+        "alt": "Scott Sub Tour 50, Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812330/4277210001M.png",
+        "alt": "Scott Sub Tour 50, Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://static.scott-sports.com/image/upload/v1782812333/4277210001O.png",
+        "alt": "Scott Sub Tour 50, Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "battery.removable",
+      "motor.torqueNm",
+      "lighting"
+    ]
+  }
+]

@@ -1,1 +1,2896 @@
-[]
+[
+  {
+    "brandId": "specialized",
+    "name": "Specialized S-Works Levo 4 X",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 14499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/s-works-levo-4-x/p/4292995",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 S-Works motor, 111Nm power, 850W power",
+      "torqueNm": 111
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 27.25,
+    "gears": "SRAM XX Eagle Transmission Derailleur, SRAM XX Transmission, XS 1297, 10-52t",
+    "brakes": "SRAM Maven Ultimate, 4-piston caliper, hydraulic disc, 220mm HS2 Rotor",
+    "fork": "FOX Factory 38, GRIP X2 damper, 15x110mm axle, 44mm offset, 160mm travel",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher, GRID Gravity, T9, TLR, 29x2.4\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das S-Works Levo 4 X ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 111 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 27,25 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 111 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Levo 4 carbon frame, 150mm travel, w/SWAT storage, side entry battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3EjCHFm5BfUsxt0IQd99uQHaln2/95226-08_LEVO-X-SW-G4-FRYRED-BLK_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Levo 4 X, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized S-Works Turbo Levo R",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 13999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/s-works-turbo-levo-r/p/4295043",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 S-Works motor, 111Nm power, 850W power",
+      "torqueNm": 111
+    },
+    "battery": {
+      "wh": 900,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 21.82,
+    "gears": "SRAM XX SL Eagle AXS, SRAM XX Transmission, XS 1297, 10-52t",
+    "brakes": "SRAM Motive Ultimate, 4-piston caliper, hydraulic disc, 200mm rotor",
+    "fork": "SRAM Rockshox Lyrik Ultimate, 29\", 140mm, LinearXL air spring, Charger 3.2 damper",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das S-Works Turbo Levo R ist ein E-Mountainbike (Fully) von Specialized mit 900-Wh-Akku und 111 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 21,82 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 111 Nm",
+      "Akku 900 Wh",
+      "Rahmen: FACT 11m Carbon, carbon shock extension, titanium hardware, SWAT downtube storage"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEccMeKQyKqF4DQg1K0DNn3k72/95727-02_LEVO-R-SW-WRMSMKMET-SMK-PST-S2--_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Turbo Levo R, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcaxodsIHlF3dUEDjxqGBuoga/95727-03_LEVO-R-SW-DLMMET-CMLNSILGRN-OAKGRNMET-S2--_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Turbo Levo R, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "tires"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo R Pro",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 11999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-r-pro/p/4295138",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 22.58,
+    "gears": "SRAM X0 Eagle Transmission, SRAM XS 1295, 12 speed, 10-52",
+    "brakes": "Sram Maven Silver, 4 piston, SRAM HS2 200mm rotor",
+    "fork": "SRAM Rockshox Lyrik Ultimate, 29\", 140mm, LinearXL air spring, Charger 3.2 damper",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo R Pro ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 22,58 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: FACT 11m Carbon, SWAT downtube storage, 12x148mm UDH compatible rear dropout"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcaaAbkqZteDw67FwMUSTCVxm/95727-10_LEVO-R-PRO-REDBLKCMLN-BLK-DLMMET-S2--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Pro, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "tires"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo R Expert",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 9999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-r-expert/p/4293744",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 21.76,
+    "gears": "SRAM GX Eagle AXS Transmission, SRAM GX Transmission, XS 1275, 10-52t",
+    "brakes": "SRAM Motive Bronze, 4-piston caliper, hydraulic disc, 200mm rotor",
+    "fork": "FOX 36 SL Performance Elite, GRIP X Damper, 140mm travel, 44mm offset, 15x110mm",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo R Expert ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 21,76 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: FACT 11m Carbon, SWAT downtube storage, 12x148mm UDH compatible rear dropout"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyT34nkshOOfLjtiyejK9gf2R/95226-30_LEVO-R-4-EXPERT-CARB-BNTGLDMET-S1--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Expert, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyT7LbzUElWMaSNTNqqVHIqMh/95226-31_LEVO-R-4-EXPERT-PST-DKMOS-S1--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Expert, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "tires"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo 4 Comp",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 7999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-4-comp/p/4263410",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 24.54,
+    "gears": "SRAM S1000 Eagle AXS, SRAM 12-speed,10-52t",
+    "brakes": "SRAM Maven Bronze, 4-piston caliper, hydraulic disc, 220mm rotor",
+    "fork": "FOX FLOAT 36 Rhythm, GRIP damper, two position Sweep adjustment, 15x110mm QR axle, 44mm offset",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher GRID Gravity Radial T9 TLR Enduro Tire 29x2.4",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo 4 Comp ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 24,54 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Levo 4 carbon frame, 150mm travel, w/SWAT storage, side entry battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcWG002Mo7t3Vjx1fUDYVZuzl/95227-66_LEVO-COMP-CARBON-G4-DLMMET-SHDWSIL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Comp, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcUkkSoeXgvLBkYrInS1J9sSK/95227-64_LEVO-COMP-CARBON-G4-BLK-CLGRY_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Comp, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcUlybZ1GZI9vqN14mUKDc98P/95227-65_LEVO-COMP-CARBON-G4-BDXMET-RBYMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Comp, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Vado 3 X 5.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6899,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-x-50/p/4293145",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 31.35,
+    "gears": "SRAM Eagle 70 Transmission, 12-speed, SRAM 12-speed,10-52t",
+    "brakes": "SRAM DB6, extra power 4 pistons",
+    "fork": "Rock Shox Psylo suspension fork, 130MM of travel, 15MM Thru axle, 27.5 wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Hemisphere Flat Resistant ALLTERRAIN Reflect 27.5X2.6",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Vado 3 X 5.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 31,35 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado X frame, premium comfort with 120mm rear travel, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFTXAvD1ZQBPbM75YCwPIXNTT/91627-31_VADO-X-3-50-STLNMET-SNSTYEL-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Vado 3 X 5.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFUrxLg2D6zQ5sUmPwFy5Pnbo/91627-30_VADO-X-3-50-BDXMET-SNDSTNMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Vado 3 X 5.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Vado 3 X 6.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 8399,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-x-60/p/4293143",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 33.05,
+    "gears": "SRAM S1000 Eagle AXS, SRAM 12-speed,10-52t",
+    "brakes": "SRAM DB DB6 Custom Red Metallic",
+    "fork": "Rock Shox Psylo suspension fork, 130MM of travel, 27.5 wheel, lock out",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Hemisphere Flat Resistant ALLTERRAIN Reflect 27.5X2.6",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Vado 3 X 6.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 33,05 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado X frame, premium comfort with 120mm rear travel, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFWOXt4kOFEvpT4bkKEKqGeF7/91627-13_VADO-X-3-60-RBYMET-CMLNREDGLD-GLDFL_HERO-PDP.webp",
+        "alt": "Specialized Vado 3 X 6.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFXEvmriPryXU2RnTy61Tv509/91627-14_VADO-X-3-60-WRMSMKMET-OAKGRN-AGVE_HERO-PDP.webp",
+        "alt": "Specialized Vado 3 X 6.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 6.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7899,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-60-igh/p/4293981",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 100Nm torque, 810W power",
+      "torqueNm": 100
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 32.45,
+    "gears": "Enviolo Automatic, 380%, Gates Carbon Drive Sprocket, 22T",
+    "brakes": "SRAM DB DB6 Custom Red Metallic",
+    "fork": "Rock Shox Psylo suspension fork, 90MM of travel, 15MM Thru axle, 29 wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Infinity Flat Resistant TOURING reflect 29X2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 6.0 IGH ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 100 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 32,45 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 100 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 IGH frame, belt drive, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbRqNXi7Vs7DH9lI4sCF3Z9pI/95027-12_VADO-3-60-IGH-WRMSMKMET-BLKPRL-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 6.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbRggfRyUr3214P01aNr42KUZ/95027-13_VADO-3-60-IGH-AGVE-PRPPRL-BLKPRL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 6.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 EVO 6.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-evo-60/p/4293066",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 31.1,
+    "gears": "SRAM S1000 Eagle AXS, SRAM 12-speed,10-52t",
+    "brakes": "SRAM DB DB6 Custom Red Metallic",
+    "fork": "Rock Shox Psylo suspension fork, 120MM of travel (100MM size S), 15MM Thru axle, 27.5 wheel, lock out",
+    "display": "Turbo Ergonomic Remote",
+    "tires": "Specialized Hemisphere Flat Resistant ALLTERRAIN Reflect 27.5X2.6",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 EVO 6.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 31,1 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 frame, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEEmmMaamAcsvSOZImjf4oNRV/95127-12_VADO-EVO-3-60-WRMSMKMET-BLKPRL-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 6.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEFqU91MN7tMXcUUsjZP4ggui/95127-13_VADO-EVO-3-60-AGVE-PRPPRL-BLKPRL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 6.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 6.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-60/p/4293069",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 30.95,
+    "gears": "SRAM S1000 Eagle AXS, SRAM 12-speed,10-52t",
+    "brakes": "SRAM DB DB6 Custom Red Metallic",
+    "fork": "Rock Shox Psylo suspension fork, 90MM of travel, 15MM Thru axle, 29 wheel",
+    "display": "Turbo Ergonomic Remote",
+    "tires": "Specialized Infinity Flat Resistant TOURING reflect 29X2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 6.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 30,95 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 frame, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEGUBtzXYYttZhB6NJvaQgdK4/95027-10_VADO-3-60-WRMSMKMET-BLKPRL-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 6.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEIiCux2IQ67PfZ03AH0TN4kG/95027-11_VADO-3-60-AGVE-PRPPRL-BLKPRL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 6.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 5.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-50-igh/p/4293979",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 100Nm torque, 810W power",
+      "torqueNm": 100
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 31,
+    "gears": "Enviolo Integrated Gear Hub, Manual shift, Gates Carbon Drive Sprocket, 22T",
+    "brakes": "TEKTRO, HD-T5040, 4-piston caliper, extra thick 2.3mm rotor and 5mm brake pads",
+    "fork": "SR Suntour suspension fork, 90MM of travel, Stanchion 34MM, 15MM Thru axle, 29\" wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Infinity Flat Resistant TOURING reflect 29X2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 5.0 IGH ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 100 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 31 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 100 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 IGH frame, belt drive, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbR28Gvdi0rsn0AS3Qk2WjqTo/95027-32_VADO-3-50-IGH-AMTHFRST-BDXMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 5.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbT1bUoVgxZyEqQMLn6ss3UQi/95027-33_VADO-3-50-IGH-METOBSD-DLMMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 5.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Vado 3 X 4.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5599,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-x-40/p/4293144",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 30.9,
+    "gears": "Shimano CUES 11-speed w/ Shadow Plus, Shimano CUES, 10-speed, 11-48t",
+    "brakes": "TEKTRO, HD-T5040, 4-piston caliper, extra thick 2.3mm rotor and 5mm brake pads",
+    "fork": "SR Suntour suspension fork, 130mm of travel, Stanchion 34mm, 15mm Thru axle, 27.5\" wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Hemisphere Flat Resistant ALLTERRAIN Reflect 27.5X2.6",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Vado 3 X 4.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 30,9 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado X frame, premium comfort with 120mm rear travel, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFTxslW4lD0igMAyFPZ0ACz6s/91627-50_VADO-X-3-40-AGVE-OAKGRNMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Vado 3 X 4.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFV1LbMxjWamkrYew0XRj8b5y/91627-52_VADO-X-3-40-OBSD-SILDST-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Vado 3 X 4.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo R Comp Alloy",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 6499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-r-comp-alloy/p/4295031",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 24.24,
+    "gears": "SRAM Eagle 90 T-Type, SRAM GX Transmission, XS 1275, 10-52t",
+    "brakes": "SRAM Motive Bronze, 4-piston caliper, hydraulic disc, 200mm rotor",
+    "fork": "FOX 36 SL Performance, GRIP Damper, 140mm travel, 44mm offset, 15x110mm",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Specialized Trail Control, GRID Casing, T9 Compound, TLR, 29x2.4",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo R Comp Alloy ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 24,24 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: M5 Aluminum, SWAT downtube storage, 12x148mm UDH compatible rear dropout"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvDTwCfgAJeHiuHuqU2s6VVHs9/95727-52_LEVO-R-COMP-ALLOY-ESTSRS-SNDSTNMET-S1--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Comp Alloy, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvDTzxy0EPuQeNgYl2YgZLog67/95727-53_LEVO-R-COMP-ALLOY-METDPMRNBLU-SHDWSIL-S1--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Comp Alloy, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo R Comp",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 7999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-r-comp/p/4293745",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 22.34,
+    "gears": "SRAM S1000 Eagle AXS, SRAM GX Transmission, XS 1275, 10-52t",
+    "brakes": "SRAM Motive Bronze, 4-piston caliper, hydraulic disc, 200mm rotor",
+    "fork": "FOX 36 SL Performance, GRIP Damper, 140mm travel, 44mm offset, 15x110mm",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Specialized Purgatory, GRID Casing, T9 Compound, 29x2.4",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo R Comp ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 22,34 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: FACT 11m Carbon, SWAT downtube storage, 12x148mm UDH compatible rear dropout"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyWSjzmKvKUHSoyB7Qeda7QmL/95226-80_LEVO-R-4-COMP-GUN-WHTMTN-S1--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Comp, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyWfjEjVH8UTeUYwqpTBxHq0L/95226-81_LEVO-R-4-COMP-BNTGLDMET-SNDSTNMET-S1--_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo R Comp, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 EVO 5.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5299,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-evo-50/p/4279839",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 29.9,
+    "gears": "Shimano CUES 11-speed w/ Shadow Plus, Shimano CUES CS-LG400-11, 11-speed, 11-50t",
+    "brakes": "TEKTRO, HD-T5040, 4- Piston Caliper, Extra Thick 2.3MM Rotor and 5MM Brake Pads",
+    "fork": "SR Suntour suspension fork, 120MM of travel (100MM size S), Stanchion 34MM, 15MM Thru axle, 27.5\" wheel",
+    "display": "Turbo Ergonomic Remote",
+    "tires": "Specialized Hemisphere Flat Resistant ALLTERRAIN Reflect 27.5X2.6",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 EVO 5.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 29,9 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 frame, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEXTXb1FA8CYvjJ9cOzUZA3Iy/95127-30_VADO-EVO-3-50-AMTHFRST-BDXMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 5.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEZ9Nqt54NXPCqcjgxgiLoM98/95127-31_VADO-EVO-3-50-METOBSD-DLMMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 5.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 5.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5299,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-50/p/4222123",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 29.65,
+    "gears": "Shimano CUES 11-speed w/ Shadow Plus, Shimano CUES 11-speed, 11-45t",
+    "brakes": "TEKTRO, HD-T5040, 4- Piston Caliper, Extra Thick 2.3MM Rotor and 5MM Brake Pads",
+    "fork": "SR Suntour suspension fork, 90MM of travel, Stanchion 34MM, 15MM Thru axle, 29\" wheel",
+    "display": "Turbo Ergonomic Remote",
+    "tires": "Specialized Infinity Flat Resistant TOURING reflect 29X2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 5.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 29,65 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 frame, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEGTvnzZBFoZS9AaVy2EcbTxB/95027-30_VADO-3-50-AMTHFRST-BDXMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 5.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEHB0v9MpmPLpqI4mvxx4PGsD/95027-31_VADO-3-50-METOBSD-DLMMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 5.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 4.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-40-igh/p/4295583",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 100Nm torque, 810W power",
+      "torqueNm": 100
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 30,
+    "gears": "Enviolo Integrated Gear Hub, Manual shift, Gates Carbon Drive Sprocket, 22T",
+    "brakes": "Shimano BR-MT200, hydraulic disc, 180mm",
+    "fork": "SR Suntour suspension fork, 90MM of travel, Stanchion 34MM, 15MM Thru axle, 29\" wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Infinity Flat Resistant TOURING reflect 29X2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 4.0 IGH ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 100 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 30 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 100 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 IGH frame, belt drive, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbajILY4jdKg6AZmtBQUU2G4u/95027-56_VADO-3-40-IGH-PCFBLUMET-DUNEWHT-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 4.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbSXhLpRtFROxoi7RV1KyEq9L/95027-57_VADO-3-40-IGH-NBLMET-SILDST-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 4.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbSFfbSsKQnJzYCdUpGZiubcX/95027-58_VADO-3-40-IGH-SNDSTNMET-WRMSMKMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 4.0 IGH, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Creo 2 Expert",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 8499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-creo-2-expert-shimano-grx-di2/p/4221806",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 1.2 SL Custom Lightweight",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 320,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 13.8,
+    "gears": "Shimano GRX Di2 RD-RX827, 12-speed, Shimano XT M8200, 12-speed, 10-51t",
+    "brakes": "Shimano GRX RX820, hydraulic disc",
+    "fork": "Future Shock 3.3 w/ Smooth Boot, 12x100mm thru-axle, flat-mount disc",
+    "display": "Specialized MasterMind TCU, percentage of remaining charge, 120 possible display configurations, MicroTune assist adjustment, over-the-air updates, ANT+/Bluetooth, w/Handlebar remote",
+    "tires": "Tracer TLR All Terrain Gravel Tire, 700x50c, Tubeless Ready",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Creo 2 Expert ist ein Carbon-/Gravel-E-Rennrad von Specialized mit 320-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 13,8 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 320 Wh",
+      "Rahmen: FACT 11r carbon, front/rear thru-axles, fully integrated down tube battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL22wUF8cHTJzUer3Sa1SbMuWJ/98126-31_CREO-SL-EXPERT-CARBON-FJDMET-BRCH_HERO-PDP.webp",
+        "alt": "Specialized Turbo Creo 2 Expert, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL22au4dgw0ACVFEdqPYetrbVV/98126-30_CREO-SL-EXPERT-CARBON-NBLMET-BDXMET-DSRTMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Creo 2 Expert, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Como 5.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 5199,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-como-50-igh/p/4222076",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Motor, Brose, gen2, torque 90nm",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": 29.1,
+    "gears": "Enviolo Automatiq, Gates Carbon Drive Sprocket, 22T",
+    "brakes": "Shimano CUES BL-U8000. 4 Pistons",
+    "fork": "Rockshox Recon Silver RL, 80mm travel, Motion-Control",
+    "display": "Display with handlebar remote, Bluetooth connectivity, customizable display pages",
+    "tires": "Hemisphere Flat Protection Reflect, 650b X 2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Como 5.0 IGH ist ein E-Citybike von Specialized mit 710-Wh-Akku und 90 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 29,1 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 90 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, bottom bracket motor mount"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrfDouNBgdweaWzalRcMKUVrO/90427-20_COMO-50-IGH-METDKNVY-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 5.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrfYBTv52r27XEuWm01NEQgLv/90427-21_COMO-50-IGH-AGVE-OAKGRNMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 5.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 4.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-40/p/4222130",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 28.55,
+    "gears": "Shimano CUES 9-Speed, Shimano CUES 9-speed, 11-41t",
+    "brakes": "Shimano BR-MT200, hydraulic disc, 180mm",
+    "fork": "SR Suntour suspension fork, 90MM of travel, Stanchion 34MM, 15MM Thru axle, 29\" wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Infinity Flat Resistant TOURING reflect 29X2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 4.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 28,55 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 frame, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEAaJIbq65EhQJAY8SyMS1RAL/95027-50_VADO-3-40-PCFBLUMET-DUNEWHT-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 4.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEAUqzlJMq1gbLkYVQJVDho2V/95027-51_VADO-3-40-NBLMET-SILDST-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 4.0, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEBiyMQqeAiHR7uoLraRHGpoo/95027-52_VADO-3-40-SNDSTNMET-WRMSMKMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 4.0, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized S-Works Turbo Levo R Ultralight",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 13999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/s-works-turbo-levo-r-ultra-light/p/4322521",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 S-Works motor, 111Nm power, 850W power",
+      "torqueNm": 111
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 18.84,
+    "gears": "SRAM XX Eagle AXS, SRAM XX Transmission, XS 1297, 10-52t",
+    "brakes": "TRICKSTUFF Direttissima, 4-piston, 200mm rotor",
+    "fork": "FOX 36 SL Factory, GRIP X Damper, 140mm travel, 44mm offset, 15x110mm",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das S-Works Turbo Levo R Ultralight ist ein E-Mountainbike (Fully) von Specialized mit 600-Wh-Akku und 111 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 18,84 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 111 Nm",
+      "Akku 600 Wh",
+      "Rahmen: FACT 11m Carbon, carbon shock extension, titanium hardware, SWAT downtube storage"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbwy33xQLfCTRj9pRtchFmsSk/95727-04_LEVO-R-SW-LTD-UL-CARB-SILHLG-S2--_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Turbo Levo R Ultralight, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "tires"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 3 EVO 4.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-3-evo-40/p/4279841",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 28.7,
+    "gears": "Shimano CUES 9-Speed, Shimano CUES 9-speed, 11-41t",
+    "brakes": "Shimano BR-MT200, hydraulic disc, 180mm",
+    "fork": "SR Suntour suspension fork, 120MM of travel (100MM size S), Stanchion 34MM, 15MM Thru axle, 27.5\" wheel",
+    "display": "Turbo ergonomic remote",
+    "tires": "Specialized Hemisphere Flat Resistant ALLTERRAIN Reflect 27.5X2.6",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 3 EVO 4.0 ist ein E-Trekkingbike von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 28,7 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Vado 3 frame, comfort optimized geometry, side entry battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEZzHlEIc9stNMhPuQHwS0nMM/95127-50_VADO-EVO-3-40-PCFBLUMET-DUNEWHT-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 4.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEXzuRoC8NE03C2Z3EaFzsSIE/95127-51_VADO-EVO-3-40-NBLMET-SILDST-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 4.0, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEXVJazU8Fro2NZ4q5TDXtlDG/95127-52_VADO-EVO-3-40-SNDSTNMET-WRMSMKMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 3 EVO 4.0, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized S-Works Turbo Creo 2",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 12999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/s-works-turbo-creo-2-sram-red--xx1-eagle-axs/p/4221805",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 1.2 SL Custom Lightweight",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 320,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 12.87,
+    "gears": "SRAM XX1 Eagle AXS, SRAM XG-1295 Eagle, 12-speed, 10-50t",
+    "brakes": "SRAM RED E1",
+    "fork": "Future Shock 3.3 w/ Smooth Boot, 12x100mm thru-axle, flat-mount disc",
+    "display": "Specialized MasterMind TCU, percentage of remaining charge, 120 possible display configurations, MicroTune assist adjustment, over-the-air updates, ANT+/Bluetooth, w/Handlebar remote",
+    "tires": "Tracer TLR All Terrain Gravel Tire, 700x50c, Tubeless Ready",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das S-Works Turbo Creo 2 ist ein Carbon-/Gravel-E-Rennrad von Specialized mit 320-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 12,87 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 320 Wh",
+      "Rahmen: FACT 11r carbon, front/rear thru-axles, fully integrated down tube battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL22KvwgIPMrs0KsRp66XG2Avk/98126-01_CREO-SL-SW-CARBON-CARB-CHRM_HERO_DARK-PDP.webp",
+        "alt": "Specialized S-Works Turbo Creo 2, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Como 4.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 4099,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-como-40-igh/p/4222080",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Motor, Brose, gen2, torque 70nm",
+      "torqueNm": 70
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": 29.5,
+    "gears": "Enviolo Integrated Gear Hub, Manual Shifting, Gates 22T",
+    "brakes": "Shimano 2 pistons hydraulic disc, 180mm",
+    "fork": "Front Suspension SR Suntour, 80mm of travel, 32mm Stanchion",
+    "display": "Display with handlebar remote, Bluetooth connectivity, customizable display pages",
+    "tires": "Hemisphere Flat Protection Reflect, 650b X 2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Como 4.0 IGH ist ein E-Citybike von Specialized mit 710-Wh-Akku und 70 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 29,5 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 70 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, bottom bracket motor mount"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrhOHn6mgmvCtptRcmiCeuexF/90427-43_COMO-40-IGH-AGVE-OAKGRNMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrhqymdqLO2rPskCa1iwbJWHC/90427-45_COMO-40-IGH-TNGORG-SNSTYEL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrhhGALL04g82xwbIXgAAEeTq/90427-44_COMO-40-IGH-METDKNVY-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo 4 Comp Alloy",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 6499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-4-comp-alloy/p/4221344",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 25.7,
+    "gears": "SRAM Eagle 90 T-Type, SRAM 12-speed,10-52t",
+    "brakes": "SRAM Maven Bronze, 4-piston caliper, hydraulic disc, 220mm Centerline rotor",
+    "fork": "FOX 36 Rhythm, 29\", S2-S6: 160mm S1: 150mm, GRIP damper with Sweep adjust, 44mm offset, 15x110mm boost",
+    "display": "All New MasterMind T3 Display System, 2.2\" high resolution color screen, fully customizeable with Specialized App",
+    "tires": "Butcher, GRID GRAVITY Casing, GRIPTON T9 compound, TLR, 29x2.4\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo 4 Comp Alloy ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 25,7 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: All new Levo 4 M5 Alloy frame, 150mm travel"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyUEFNB8DikI3yKxez7sRucNF/95226-51_LEVO-COMP-ALLOY-G4-DSKPNK-CYPRMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Comp Alloy, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyTrRhZ6ASdqtwAaNyBDhzd1F/95226-50_LEVO-COMP-ALLOY-G4-DPLAKEMET-DUNEWHT_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Comp Alloy, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyUn4Va8KJ0omNlYDeIp9QdfP/95226-52_LEVO-COMP-ALLOY-G4-GUN-OBSD_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Comp Alloy, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado SL 2 4.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-sl-2-40/p/4295057",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized SL 1.2 Custom Rx Trail Tuned",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 520,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 18.6,
+    "gears": "Shimano CUES 11-speed w/ Shadow Plus, Shimano CUES CS-LG400-10, 10-speed, 11-48t",
+    "brakes": "Tektro HD-R285, hydraulic disc",
+    "fork": "Vado SL Fork, Tubus front rack mounts up to 14kg",
+    "display": "HMI TLA, H3, SBC-D10",
+    "tires": "Specialized Hemisphere flat protection, Reflective side walls, Wirebead, All terrain tire, 700x47c",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado SL 2 4.0 ist ein E-Trekkingbike von Specialized mit 520-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 18,6 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 520 Wh",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvnYVFXuRP17dcJrM7chNx8mx/93927-51_VADO-SL-40-2-GUN-AGVE_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvp9sLURReOrNDnVQFqFUL5Gm/93927-56_VADO-SL-40-2-PST-OAKGRNMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado SL 2 4.0 EQ",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-sl-2-40-eq/p/4278243",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 1.2 SL System",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 520,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 20.28,
+    "gears": "Shimano Cues 10-speed, RD-U6000, Shimano Cues 10-speed, Linkglide 11-48T, CS-LG400",
+    "brakes": "Tektro HD-R285, hydraulic disc",
+    "fork": null,
+    "display": "Mastermind H3, W/Handlebar Remote, Ant+/Bluetooth, Built-In System Lock Feature, Integrated Apple Find My, Customizable Display Pages, 2.1\"",
+    "tires": "Specialized Hemisphere flat protection, Reflective side walls, Wirebead, All terrain tire, 700x47c",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado SL 2 4.0 EQ ist ein E-Trekkingbike von Specialized mit 520-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 20,28 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 520 Wh",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvjEsuz79DRbM09f3kGmo4lb7/93924-51_VADO-SL-40-EQ-2-GUN-SMK_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 EQ, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvinUUv5PLeYQQaOJrMAKHOvo/93924-50_VADO-SL-40-EQ-2-OIS-DUNEWHT_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 EQ, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material",
+      "motor.torqueNm",
+      "fork"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Como 4.0",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 3299,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-como-40/p/4222078",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Motor, Brose, gen2, torque 70nm",
+      "torqueNm": 70
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": 28.15,
+    "gears": "Shimano CUES 9-Speed, Shimano CUES 9-speed, 11-41t",
+    "brakes": "Shimano 2 pistons hydraulic disc, 180mm",
+    "fork": "Front Suspension SR Suntour, 80mm of travel, 32mm Stanchion",
+    "display": "Display with handlebar remote, Bluetooth connectivity, customizable display pages",
+    "tires": "Hemisphere Flat Protection Reflect, 650b X 2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Como 4.0 ist ein E-Citybike von Specialized mit 710-Wh-Akku und 70 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 28,15 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 70 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, bottom bracket motor mount"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrgp24tV6viKACld1xp5OAfsL/90427-42_COMO-40-TNGORG-SNSTYEL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 4.0, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrgHLaDnlGdkYFfpEsLKNdLJf/90427-40_COMO-40-AGVE-OAKGRNMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 4.0, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrgZQjwH9YRi2VmZ2oAtvWBWB/90427-41_COMO-40-METDKNVY-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Como 4.0, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado SL 2 4.0 Step-Through",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-sl-2-40-step-through-/p/4295058",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized SL 1.2 Custom Rx Trail Tuned",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 520,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": 18.75,
+    "gears": "Shimano CUES 11-speed w/ Shadow Plus, Shimano CUES CS-LG400-10, 10-speed, 11-48t",
+    "brakes": "Tektro HD-R285, hydraulic disc",
+    "fork": "Vado SL Fork, Tubus front rack mounts up to 14kg",
+    "display": "HMI TLA, H3, SBC-D10",
+    "tires": "Specialized Hemisphere flat protection, Reflective side walls, Wirebead, All terrain tire, 700x47c",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado SL 2 4.0 Step-Through ist ein E-Trekkingbike von Specialized mit 520-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 18,75 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 520 Wh",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvndoKUjPRLYbOHUDGywQE6Y6/93927-52_VADO-SL-40-ST-2-BRSYYEL-METWHTSIL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvnugJSM6oZ83c9LN6H3qR13Y/93927-53_VADO-SL-40-ST-2-GUN-AGVE_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvpTEmZLxSu5tnLzaD634HsY5/93927-57_VADO-SL-40-ST-2-PST-OAKGRNMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo 4 Alloy",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 5499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-4-alloy/p/4221348",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 26.08,
+    "gears": "SRAM Eagle 70 Transmission, 12-speed, XS-1270, 12-speed, 10-52t",
+    "brakes": "SRAM DB8 Stealth, 4-piston caliper, hydraulic disc, 220mm Centerline rotor",
+    "fork": "Marzocchi Bomber Z1, 29\", S2-S6: 160mm, S1: 150mm, sweep adjust compression",
+    "display": "All New MasterMind T3 Display System, 2.2\" high resolution color screen, fully customizeable with Specialized App",
+    "tires": "Butcher, GRID GRAVITY casing, GRIPTON T9 compound, TLR, 29x2.4\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo 4 Alloy ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 26,08 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: All new Levo 4 M5 Alloy frame, 150mm travel"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyVeAaY1VGWNOKsvSFkp3Q1km/95226-71_LEVO-ALLOY-G4-METOBSD-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyW0c7JYTemYmJ5g4lD0quvv3/95226-72_LEVO-ALLOY-G4-CYPRMET-DKMOS_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyV0Kg3J6JQUxCdYHcwweWiIK/95226-70_LEVO-ALLOY-G4-DPORG-DPLAKE_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-sl-2-40-step-through-eq/p/4278245",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 1.2 SL System",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 520,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": 20.54,
+    "gears": "Shimano Cues 10-speed, RD-U6000, Shimano Cues 10-speed Linkglide 11-48T, CS-LG400",
+    "brakes": "Tektro HD-R285, hydraulic disc",
+    "fork": null,
+    "display": "Mastermind H3, W/Handlebar Remote, Ant+/Bluetooth, Built-In System Lock Feature, Integrated Apple Find My, Customizable Display Pages, 2.1\"",
+    "tires": "Specialized Hemisphere flat protection, Reflective side walls, Wirebead, All terrain tire, 700x47c",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado SL 2 4.0 Step-Through EQ ist ein E-Trekkingbike von Specialized mit 520-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 20,54 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 520 Wh",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvkdYxmP5JYJnIwShV3uC3wKq/93925-50_VADO-SL-40-ST-EQ-2-OIS-DUNEWHT_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvl0BbYUEuEh3K0g3lYyAFME9/93925-51_VADO-SL-40-ST-EQ-2-GUN-SMK_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material",
+      "motor.torqueNm",
+      "fork"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized S-Works Turbo Levo 4",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 13999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/s-works-turbo-levo-4/p/4263415",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 S-Works motor, 111Nm power, 850W power",
+      "torqueNm": 111
+    },
+    "battery": {
+      "wh": 900,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 24,
+    "gears": "SRAM XX Eagle Transmission Derailleur, SRAM XX Transmission, XS 1297, 10-52t",
+    "brakes": "SRAM Maven Ultimate, 4-piston caliper, hydraulic disc, 220mm HS2 Rotor",
+    "fork": "SRAM FS ZEB Ultimate, 29\", 160mm, Linear XL spring, Charger 3.2 damper",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher GRID Gravity Radial T9 TLR Enduro Tire 29x2.4",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das S-Works Turbo Levo 4 ist ein E-Mountainbike (Fully) von Specialized mit 900-Wh-Akku und 111 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 24 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 111 Nm",
+      "Akku 900 Wh",
+      "Rahmen: Levo 4 carbon frame, 150mm travel, w/SWAT storage, side entry battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcQcwd1IOJcTuKe7u6i5oKNOx/95227-02_LEVO-SW-CARBON-G4-SILDST-BLKPRL-CHRM_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Turbo Levo 4, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcRrRvmiByjazjCmqFqZ5x90W/95227-01_LEVO-SW-CARBON-G4-GLDPRL-CARB-CHRM_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Turbo Levo 4, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcO0zk1DBT1eKLTBLWRKPBLvp/95227-00_LEVO-SW-CARBON-G4-REDTNT-SILDST-METWHTSIL_HERO-PDP_DARK.webp",
+        "alt": "Specialized S-Works Turbo Levo 4, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo 4 Expert",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 9999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-4-expert/p/4263402",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 24.72,
+    "gears": "SRAM GX Eagle AXS Transmission, SRAM XG-1275 Transmission 12-Speed 10-52t",
+    "brakes": "SRAM Maven Silver, 4-piston caliper, hydraulic disc, 220mm rotor",
+    "fork": "Rockshox Zeb Select+, 15x110mm axle, 44mm offset",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher GRID Gravity Radial T9 TLR Enduro Tire 29x2.4",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo 4 Expert ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 24,72 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Levo 4 carbon frame, 150mm travel, w/SWAT storage, side entry battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcXkyX1y3JNZ1Bk3asCCr5wuM/95227-30_LEVO-EXPERT-CARBON-G4-METDPMRNBLU-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Expert, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcVr9Nk0swicOi7ynamymKObL/95227-31_LEVO-EXPERT-CARBON-G4-SNDSTNMET-BLKPRL-BNTGLDMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Expert, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Creo 2 Comp E5",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 4599,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-creo-2-comp-e5-sram-apex-eagle/p/4221861",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 1.2 SL Custom Lightweight",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 320,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 14.99,
+    "gears": "SRAM Apex Eagle 12-speed, SRAM PG-1210 Eagle, 12-speed, 11-50t",
+    "brakes": "SRAM Apex, Hydraulic disc",
+    "fork": "Future Shock 2.0 w/Smooth Boot, FACT carbon, 12x100 mm thru-axle, flat-mount",
+    "display": "Specialized MasterMind TCU, percentage of remaining charge, 120 possible display configurations, MicroTune assist adjustment, over-the-air updates, ANT+/Bluetooth, w/Handlebar remote",
+    "tires": "Pathfinder TLR Fast Gravel Tire 700x40c, GRIPTON T2/T5",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Creo 2 Comp E5 ist ein Carbon-/Gravel-E-Rennrad von Specialized mit 320-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 14,99 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 320 Wh",
+      "Rahmen: Specialized E5 Premium Aluminum frame, front/rear thru-axles"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL23ODXsBleU9ZwzkIOx7FugsQ/98126-52_CREO-SL-E5-COMP-DLMMET-METDKNVY_HERO-PDP.webp",
+        "alt": "Specialized Turbo Creo 2 Comp E5, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL23w18O2aeTCumkJToDZC4Lng/98126-53_CREO-SL-E5-COMP-PST-SMK_HERO-PDP.webp",
+        "alt": "Specialized Turbo Creo 2 Comp E5, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Levo 4 Pro",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 11999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-levo-4-pro/p/4263400",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 24.28,
+    "gears": "SRAM X0 Eagle Transmission, SRAM XS 1295, 12 speed, 10-52",
+    "brakes": "SRAM Maven Silver, 4-piston caliper, hydraulic disc, 220mm rotor",
+    "fork": "SRAM FS ZEB Ultimate, 29\", 160mm, Linear XL spring, Charger 3.2 damper",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher GRID Gravity Radial T9 TLR Enduro Tire 29x2.4",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Levo 4 Pro ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 24,28 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh",
+      "Rahmen: Levo 4 carbon frame, 150mm travel, w/SWAT storage, side entry battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcTnEzNVpgGU0hCNZpAoD9QvL/95227-15_LEVO-PRO-CARBON-G4-BTLGRN-BLKPRL-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Pro, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcdCd2BjaByeb9FpoDnpAAesX/95227-14_LEVO-PRO-CARBON-G4-DLMMET-BLUPRL-SMK_HERO-PDP.webp",
+        "alt": "Specialized Turbo Levo 4 Pro, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Levo 4 EVO Pro",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 10999,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/levo-4-evo-pro/p/4294786",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 24.4,
+    "gears": "SRAM X0 Eagle Transmission, SRAM XS 1295, 12 speed, 10-52",
+    "brakes": "SRAM Maven Silver, 4-piston caliper, hydraulic disc, 220mm rotor",
+    "fork": "SRAM FS ZEB Ultimate, 29\", 180mm, Linear XL spring, Charger 3.2 damper",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher, GRID Gravity, T9, TLR, 29x2.4\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Levo 4 EVO Pro ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 24,4 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvESV7WCJ7DB8vGHEAzsrBfNL5/95227-10_LEVO-PRO-EVO-G4-SHDWSIL-BLKPRL-SILDST_HERO-PDP.webp",
+        "alt": "Specialized Levo 4 EVO Pro, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvESLZRVr0ehkksCdc96pJGKMD/95227-11_LEVO-PRO-EVO-G4-CARB-DLMMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Levo 4 EVO Pro, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 2 5.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5199,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-2-50-igh/p/4263674",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 2.2, 90Nm torque, custom tuned motor, 250W nominal",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 27.1,
+    "gears": "Enviolo Automatic, 380%, Gates 22T",
+    "brakes": "Shimano CUES BL-U8000. 4 Pistons",
+    "fork": "Rockshox Recon Silver RL, 80mm travel, Motion-Control",
+    "display": "MasterMind TCD, w/handlebar remote, built-in anti-theft feature, Bluetooth connectivity, customizable display pages",
+    "tires": "Pathfinder Sport Reflect, 650Bx2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 2 5.0 IGH ist ein E-Trekkingbike von Specialized mit 710-Wh-Akku und 90 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 27,1 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 90 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, bottom bracket motor mount, fully integrated & lockable downtube battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxX76lB6P54rD7kGk08x31uBZ/95026-26_VADO-50-IGH-NB-CALSUN-ORGZST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxWNM668gqz0WaU4fdva8bLki/95026-24_VADO-50-IGH-CSTBLK-FLKSIL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxWlg7RdEgd18gVMDgBdUbxpN/95026-25_VADO-50-IGH-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Tero 5.0 EQ Step-Through",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": 4499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-tero-50-eq-step-through/p/4232066",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 2.2, 90Nm torque, custom tuned motor, 250W nominal",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": "SRAM GX Eagle, 12-speed, SRAM NX Eagle, 12-speed, 11-50t",
+    "brakes": "SRAM DD8 Stealth",
+    "fork": "Rockshox Recon Silver RL, 110mm travel, 29\", 110x15mm Boost Axle",
+    "display": "MasterMind TCD, w/handlebar remote, built-in anti-theft feature, Bluetooth connectivity, customizable display pages",
+    "tires": "Ground Control, 2Bliss Ready, 29X2.35",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Tero 5.0 EQ Step-Through ist ein E-Trekkingbike von Specialized mit 710-Wh-Akku und 90 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei keiner angegebenen Grösse.",
+    "features": [
+      "Drehmoment 90 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, mid-drive motor, fully integrated & lockable downtube battery"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxq2kKskuzBtl0zNUEsBAS2Mj/95126-36_TERO-50-ST-EQ-NB-PST-DLMMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Tero 5.0 EQ Step-Through, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxpgqh8yyHbMr5pi4snZgOgf0/95126-35_TERO-50-ST-EQ-WHTMTN-GUN_HERO-PDP.webp",
+        "alt": "Specialized Turbo Tero 5.0 EQ Step-Through, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "weightKg"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 2 5.0 Step-Through",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-2-50-step-through/p/4263685",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 2.2, 90Nm torque, custom tuned motor, 250W nominal",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": 26.05,
+    "gears": "Shimano CUES GS 11-Speed, Shimano CUES CS-LG400-11, 11-speed, 11-50t",
+    "brakes": "Shimano CUES BL-U8000. 4 Pistons",
+    "fork": "Rockshox Recon Silver RL, 80mm travel, Motion-Control",
+    "display": "MasterMind TCD, w/handlebar remote, built-in anti-theft feature, Bluetooth connectivity, customizable display pages",
+    "tires": "Pathfinder Sport Reflect, 650Bx2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 2 5.0 Step-Through ist ein E-Trekkingbike von Specialized mit 710-Wh-Akku und 90 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 26,05 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 90 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, mid-drive motor, fully integrated & lockable downtube battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxYn1ltgnfZhgUFgRLmpk9gOS/95026-40_VADO-50-ST-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxZNODIN4beF3TNMEVfXP2RbE/95026-41_VADO-50-ST-NB-CALSUN-ORGZST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxYZVILTcS7pRF9Td4iHUbS9w/95026-39_VADO-50-ST-CSTBLK-FLKSIL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 2 5.0",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-2-50/p/4263684",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 2.2, 90Nm torque, custom tuned motor, 250W nominal",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 25.9,
+    "gears": "Shimano CUES GS 11-Speed, Shimano CUES CS-LG400-11, 11-speed, 11-50t",
+    "brakes": "Shimano CUES BL-U8000. 4 Pistons",
+    "fork": "Rockshox Recon Silver RL, 80mm travel, Motion-Control",
+    "display": "MasterMind TCD, w/handlebar remote, built-in anti-theft feature, Bluetooth connectivity, customizable display pages",
+    "tires": "Pathfinder Sport Reflect, 650Bx2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 2 5.0 ist ein E-Trekkingbike von Specialized mit 710-Wh-Akku und 90 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 25,9 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 90 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, mid-drive motor, fully integrated & lockable downtube battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "images"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado SL 2 5.0 EQ",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3799,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-sl-2-50-eq/p/4278244",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 1.2 SL System",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 520,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 20.11,
+    "gears": "Shimano Cues 11-speed, RD-U8000, Shimano Cues 11-speed, Linkglide 11-50T, CS-LG700",
+    "brakes": "Tektro HD-R510, hydraulic disc, 160mm",
+    "fork": null,
+    "display": "Mastermind H3, W/Handlebar Remote, Ant+/Bluetooth, Built-In System Lock Feature, Integrated Apple Find My, Customizable Display Pages, 2.1\"",
+    "tires": "Specialized Hemisphere flat protection, Reflective side walls, Wirebead, All terrain tire, 700x47c",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado SL 2 5.0 EQ ist ein E-Trekkingbike von Specialized mit 520-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 20,11 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 520 Wh",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvhpg75yDv6AHanWy4yZFsIlM/93924-30_VADO-SL-50-EQ-2-DOVGRY-CLGRY_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 5.0 EQ, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKviD2YLhq6m2AsJCRD8h2veEA/93924-31_VADO-SL-50-EQ-2-DPLAKEMET-BLKLQDMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 5.0 EQ, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material",
+      "motor.torqueNm",
+      "fork"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 2 4.0 IGH",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4099,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-2-40-igh/p/4263680",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 2.0, 70Nm torque, custom tuned motor, 250W nominal",
+      "torqueNm": 70
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 28.1,
+    "gears": "Enviolo Integrated Gear Hub, Manual Shifting, Gates 22T",
+    "brakes": "Shimano BR-MT200, hydraulic disc, 180mm",
+    "fork": "SR Suntour MobieA32, 80mm travel, lockout, fender-mounts, integrated light mount",
+    "display": "MasterMind TCD, w/handlebar remote, built-in anti-theft feature, Bluetooth connectivity, customizable display pages",
+    "tires": "Pathfinder Sport Reflect, 650Bx2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 2 4.0 IGH ist ein E-Trekkingbike von Specialized mit 710-Wh-Akku und 70 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 28,1 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 70 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, bottom bracket motor mount, fully integrated & lockable downtube battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxbfXLVXXDZzMFb59wYbBhuoq/95026-56_VADO-40-IGH-NB-CALSUN-ORGZSTT_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxaYxQxgrXvx0G8JVNs9xxQba/95026-54_VADO-40-IGH-CSTBLK-FLKSIL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxardQ3Te4nq2O9MgX8qb679k/95026-55_VADO-40-IGH-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado 2 4.0 Step-Through",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-2-40-step-through/p/4263678",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 2.0, 70Nm torque, custom tuned motor, 250W nominal",
+      "torqueNm": 70
+    },
+    "battery": {
+      "wh": 710,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": 26.85,
+    "gears": "Shimano CUES 9-Speed, Shimano CUES 9-speed, 11-41t",
+    "brakes": "Shimano BR-MT200, hydraulic disc, 180mm",
+    "fork": "SR Suntour MobieA32, 80mm travel, lockout, fender-mounts, integrated light mount",
+    "display": "MasterMind TCD, w/handlebar remote, built-in anti-theft feature, Bluetooth connectivity, customizable display pages",
+    "tires": "Pathfinder Sport Reflect, 650Bx2.3",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado 2 4.0 Step-Through ist ein E-Trekkingbike von Specialized mit 710-Wh-Akku und 70 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 26,85 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 70 Nm",
+      "Akku 710 Wh",
+      "Rahmen: E5 Aluminum, mid-drive motor, fully integrated & lockable downtube battery",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxbdqZLCtzq6v1Fs7xzlzenpc/95026-62_VADO-40-ST-CALSUN-ORGZST_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxbYVyS85AxEZZEwE9IemtYs9/95026-63_VADO-40-ST-CSTBLK-FLKSIL_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxc3XpJFN6vS65WCxf4FKRNbc/95026-64_VADO-40-ST-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 3",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Turbo Vado SL 2 6.0 EQ Carbon",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5599,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/turbo-vado-sl-2-60-eq-carbon/p/4295054",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized SL 1.2 Custom Rx Trail Tuned",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 520,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 18.35,
+    "gears": "Shimano Deore XT RD-M8100, 12-speed w/ Shadow Plus, Shimano SLX, CS-M7100, 12-speed, 10-51t",
+    "brakes": "TRP FMR, HD-R803",
+    "fork": null,
+    "display": "HMI TLA, H3, SBC-D10",
+    "tires": "Specialized Hemisphere flat protection, Reflective side walls, Wirebead, All terrain tire, 700x47c",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Turbo Vado SL 2 6.0 EQ Carbon ist ein E-Trekkingbike von Specialized mit 520-Wh-Akku. Laut Herstellerangabe liegt das Gewicht bei 18,35 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Akku 520 Wh",
+      "Herstellerseite nennt 25 km/h Unterstützungsgrenze"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvmdCMXx675Zpr3KOuwuYxrGA/93927-12_VADO-SL-60-CARBON-EQ-2-GRYBLU-MVEMET-DSRTMET_HERO-PDP.webp",
+        "alt": "Specialized Turbo Vado SL 2 6.0 EQ Carbon, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "frame.material",
+      "motor.torqueNm",
+      "fork"
+    ]
+  },
+  {
+    "brandId": "specialized",
+    "name": "Specialized Levo 4 EVO Comp",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": 7499,
+    "priceNote": "UVP in CHF laut specialized.com/ch/de, abgerufen 2026-10-30",
+    "sourceUrl": "https://www.specialized.com/ch/de/levo-4-evo-comp/p/4294788",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Specialized",
+      "model": "Specialized 3.1 Motor, 105Nm torque, 810W power",
+      "torqueNm": 105
+    },
+    "battery": {
+      "wh": 840,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": 25.16,
+    "gears": "SRAM S1000 Eagle AXS, SRAM 12-speed,10-52t",
+    "brakes": "SRAM Maven Bronze, 4-piston caliper, hydraulic disc, 220mm rotor",
+    "fork": "SRAM FS ZEB Select, 29\", 180mm, Linear XL spring, Delta RC damper",
+    "display": "Mastermind TCU, 2.2\" high resolution screen, fully customizeable with Specialized app, works with Apple Find My",
+    "tires": "Butcher, GRID Gravity, T9, TLR, 29x2.4\"",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Levo 4 EVO Comp ist ein E-Mountainbike (Fully) von Specialized mit 840-Wh-Akku und 105 Nm Motordrehmoment. Laut Herstellerangabe liegt das Gewicht bei 25,16 kg (gemessen in einer Referenzrahmengrösse).",
+    "features": [
+      "Drehmoment 105 Nm",
+      "Akku 840 Wh"
+    ],
+    "images": [
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEUW01fU056Tn8DU49RODZeU1/95227-50_LEVO-COMP-EVO-G4-WRMSMKMET-PST-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Levo 4 EVO Comp, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEV7YGx4XsCUkFIxrerffNK80/95227-51_LEVO-COMP-EVO-G4-AGVE-DSRTMET-BRSHCP_HERO-PDP.webp",
+        "alt": "Specialized Levo 4 EVO Comp, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "removable",
+      "rangeKm",
+      "frame.sizes",
+      "colours",
+      "lighting",
+      "speedClass",
+      "frame.material"
+    ]
+  }
+]

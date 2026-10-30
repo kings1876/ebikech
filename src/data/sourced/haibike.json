@@ -13,15 +13,15 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
-      "wh": null,
+      "wh": 800,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -31,11 +31,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano Deore RD-M6100-SGS 12s, Shadow+",
+    "brakes": "vorn: Sram DB4 Stealth, 4 pistons, 200 mm; hinten: Sram DB4 Stealth, 4 pistons, 203 mm",
+    "fork": "Suntour Zeron36X-Boost EQ 2CR DS 160 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Continental Kryptotal-Re, Trail Endurance, TR, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -53,16 +53,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm",
-      "battery.wh"
+      "rackKg"
     ]
   },
   {
@@ -79,7 +71,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -87,7 +79,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -97,11 +89,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram Eagle 70 T-Type 12s, 12 Gänge",
+    "brakes": "vorn: Sram DB4 Stealth A-MAJIG, 4 pistons, organic pad, 203 mm; hinten: Sram DB4 Stealth A-MAJIG, 4 pistons, organic pad, 180 mm",
+    "fork": "RockShox Reba RL Motion Control, DebonAir, Offset: 44 mm, Travel: 120mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Schwalbe Nobby Nic Performance, ADDIX, 67EPI, 65-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -144,15 +136,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -169,7 +154,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -177,7 +162,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -187,11 +172,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram Eagle 70 T-Type 12s, 12 Gänge",
+    "brakes": "vorn: Sram DB8 Stealth, 4 pistons, 200 mm; hinten: Sram DB8 Stealth, 4 pistons, 203 mm",
+    "fork": "RockShox Psylo Gold RC, Crown Adj, DebonAir, Offset: 44 mm, Travel: 160mm",
+    "display": "Bosch Purion 200",
+    "tires": "Continental Kryptotal-Fr Trail Endurance, TR, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -239,15 +224,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -264,7 +242,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -272,7 +250,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -282,11 +260,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram Eagle 70 T-Type 12s, 12 Gänge",
+    "brakes": "vorn: Sram DB4 Stealth A-MAJIG, 4 pistons, organic pad, 200 mm; hinten: Sram DB4 Stealth A-MAJIG, 4 pistons, organic pad, 203 mm",
+    "fork": "RockShox Psylo Gold RC, Crown Adjust., DebonAir, Offset: 44 mm, Travel: 140mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Continental Xynotal Trail Endurance, foldable skin SL, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -340,15 +318,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -365,15 +336,15 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
-      "wh": 600,
+      "wh": 800,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -383,11 +354,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "Tektro HD-M535, 4 pistons, resin pad, 203 mm",
+    "fork": "RockShox Psylo Silver RC, Crown Adjust, Solo Air, Offset: 44 mm, Travel: 140mm",
+    "display": "Bosch Purion 200",
+    "tires": "Continental Xynotal Trail Endurance, foldable skin SL, 60-584",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -437,15 +408,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -462,7 +426,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -470,7 +434,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": [
         "S",
@@ -480,11 +444,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano Deore XT RD-M8260-SGS 12s, Shadow, wireless, 12 Gänge",
+    "brakes": "Shimano Deore XT BR-M8220, 4 pistons, resin pad, 203 mm",
+    "fork": "RockShox Psylo Gold RC ABS, Crown Adj, DebonAir, Offset: 44 mm, Travel: 160mm",
+    "display": "Bosch Kiox 400C + Mini Remote",
+    "tires": "Continental Kryptotal-Fr, Enduro Soft, foldable skin SL, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -502,15 +466,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -527,7 +484,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line PX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -535,7 +492,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -545,12 +502,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "vorn: Tektro HD-M535, 4 pistons, resin pad, 203 mm; hinten: Tektro HD-M535, 4 pistons, resin pad, 180 mm",
+    "fork": "RockShox Reba RL ABS/Fender Compatible, DebonAir, Offset: 44 mm, Travel: 120mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "XLC VT-T45 Toorak, 60-584",
+    "lighting": "Licht vorn: Trelock Lighthammer LS800 60 Lux, 6-12V; Rücklicht: Spanninga Aerline 2.0 Brake",
     "rackKg": null,
     "colours": [
       "sparkling black/platinum chrome glossy"
@@ -574,15 +531,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -599,7 +548,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line PX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 600,
@@ -607,7 +556,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -617,12 +566,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "vorn: Tektro HD-M535, 4 pistons, resin pad, 203 mm; hinten: Tektro HD-M535, 4 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour SF26-ZERON36X-Boost-Air-R-DS, Offset: 44 mm, Travel: 120mm",
+    "display": "Bosch Purion 200",
+    "tires": "XLC VT-T45 Toorak, 60-584",
+    "lighting": "Licht vorn: Trelock Lighthammer LS800 60 Lux, 6-12V; Rücklicht: Spanninga Aerline 2.0 Brake",
     "rackKg": null,
     "colours": [
       "grey/bamboo green matt/glossy"
@@ -676,15 +625,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -701,7 +642,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line PX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 600,
@@ -709,7 +650,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -719,12 +660,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 10 Gänge",
+    "brakes": "Tektro HD-M535, 4 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour SF26-XCM34-DS-Boost-NLO, Offset: 44 mm, Travel: 100mm",
+    "display": "Bosch Intuvia 100 + LED Remote",
+    "tires": "XLC VT-T45 Toorak w/ reflective stripes, 60-584",
+    "lighting": "Licht vorn: Herrmans MR5, Standard bracket, 40 Lux; Rücklicht: AXA Juno E-Bike, 6-12V",
     "rackKg": null,
     "colours": [
       "calm sand/lime glossy"
@@ -748,15 +689,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -773,7 +706,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line PX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -781,7 +714,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -791,12 +724,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 10 Gänge",
+    "brakes": "Tektro HD-M535, 4 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour SF26-MOBIE34-DS-Boost, Air, 2CR, Offset: 44 mm, Travel: 100mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "XLC VT-T45 Toorak w/ reflective stripes, 60-584",
+    "lighting": "Licht vorn: Herrmans MR5, Standard bracket, 40 Lux; Rücklicht: AXA Juno E-Bike, 6-12V",
     "rackKg": null,
     "colours": [
       "sparkling black/gold matt"
@@ -820,15 +753,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -845,7 +770,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -853,7 +778,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -863,11 +788,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram NX Eagle 12s, 12 Gänge",
+    "brakes": "Tektro HD-M535, 4 pistons, resin pad, 203 mm",
+    "fork": "RockShox Reba RL Motion Control, DebonAir, Offset: 44 mm, Travel: 130mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Nobby Nic Performance, Folding, ADDIX, 67EPI, 62-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -885,15 +810,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -910,7 +828,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line PX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -918,7 +836,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -928,11 +846,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 10 Gänge",
+    "brakes": "Tektro HD-M280, 2 pistons, 160 mm",
+    "fork": "SR Suntour XCM34-Boost NLO 15AH4-110, Offset: 44 mm, Travel: 120mm",
+    "display": "Bosch Purion 200",
+    "tires": "XLC VT-M30 Cirrus, 66-584",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -950,15 +868,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -975,7 +886,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 600,
@@ -983,7 +894,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -993,11 +904,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram NX Eagle 12s, 12 Gänge",
+    "brakes": "Tektro HD-M535, 4 pistons, resin pad, 203 mm",
+    "fork": "SR Suntour SF26-ZERON36X-Boost-Air-R-DS, Offset: 44 mm, Travel: 130mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Nobby Nic Performance, Folding, ADDIX, 67EPI, 62-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1015,15 +926,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1040,15 +944,15 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
-      "wh": null,
+      "wh": 600,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1058,12 +962,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 10 Gänge",
+    "brakes": "Shimano Deore BR-MT410, 2 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour MOBIE34-D-Boost, 2CR, Coil, Offset: 44 mm, Travel: 100mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Schwalbe Johnny Watts w/ reflective line, 60-584",
+    "lighting": "Licht vorn: Trelock Skybeamer 300, 6-24V; Rücklicht: Spanninga Aerline 2.0 Brake",
     "rackKg": null,
     "colours": [
       "stardust/titan glossy"
@@ -1087,16 +991,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm",
-      "battery.wh"
+      "rackKg"
     ]
   },
   {
@@ -1113,7 +1008,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -1121,7 +1016,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1131,11 +1026,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram S1000 Eagle AXS T-Type 12s, wireless, 12 Gänge",
+    "brakes": "vorn: Sram DB8 Stealth, 4 pistons, 220 mm; hinten: Sram DB8 Stealth, 4 pistons, 200 mm",
+    "fork": "RockShox Lyrik Base Rush RC, DebonAir+, Offset: 44 mm, Travel: 160mm",
+    "display": "Bosch Kiox 400C + Mini Remote",
+    "tires": "Continental Kryptotal-Fr, Enduro Soft, foldable skin SL, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1159,15 +1054,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1184,7 +1072,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -1192,7 +1080,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1202,11 +1090,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano Deore XT RD-M8100-SGS 12s, Shadow+, 12 Gänge",
+    "brakes": "Shimano Deore BR-M6120, 4 pistons, resin pad, 203 mm",
+    "fork": "RockShox Psylo Gold RC, Crown Adj, DebonAir, Offset: 44 mm, Travel: 160mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Continental Kryptotal-Fr, Trail Endurance, TR, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1230,15 +1118,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1255,7 +1136,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX-R",
-      "torqueNm": null
+      "torqueNm": 100
     },
     "battery": {
       "wh": 800,
@@ -1263,7 +1144,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1273,11 +1154,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram X0 Eagle AXS T-Type 12s, wireless, 12 Gänge",
+    "brakes": "vorn: Sram DB Maven Ultimate, 4 pistons, organic pad, 220 mm; hinten: Sram DB Maven Ultimate, 4 pistons, organic pad, 200 mm",
+    "fork": "RockShox ZEB Ultimate Charger 3.1 RC2, DebonAir+, Offset: 44 mm, Travel: 170mm",
+    "display": "Bosch Kiox 400C + Mini Remote",
+    "tires": "Continental Kryptotal-Fr, Enduro Soft, foldable skin SL, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1325,15 +1206,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1350,7 +1224,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -1358,7 +1232,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1368,12 +1242,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "Tektro HD-M535, 4 pistons, resin pad, 203 mm",
+    "fork": "RockShox Psylo Silver RC, Crown Adjust, Solo Air, Offset: 44 mm, Travel: 140mm",
+    "display": "Bosch Purion 200",
+    "tires": "XLC VT-T45 Toorak, 60-584",
+    "lighting": "Licht vorn: Trelock Lighthammer LS800 60 Lux, 6-12V; Rücklicht: AXA Juno E-Bike, 6-12V",
     "rackKg": null,
     "colours": [
       "copper/mystery glossy"
@@ -1397,15 +1271,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1419,14 +1285,18 @@
     "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
     "sourceUrl": "https://haibike.com/de-ch/products/trekking-3-htbu1",
     "sourceType": "manufacturer",
-    "motor": null,
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": 75
+    },
     "battery": {
       "wh": 540,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1436,12 +1306,12 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
-    "lighting": null,
+    "gears": "Shimano CUES RD-U4000-GS 9s, Shadow, 9 Gänge",
+    "brakes": "Tektro HD-M280, 2 pistons, 160 mm",
+    "fork": "SR Suntour XCM32 Boost DS Coil, Offset: 44 mm, Travel: 100mm",
+    "display": "Bosch Intuvia 100 + LED Remote",
+    "tires": "XLC VT-T45 Toorak w/ reflective stripes, 60-584",
+    "lighting": "Licht vorn: Herrmans MR5, Standard bracket, 40 Lux; Rücklicht: AXA Juno E-Bike, 6-12V",
     "rackKg": null,
     "colours": [
       "dark silver/stardust matt"
@@ -1465,16 +1335,7 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
-      "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm",
-      "motor"
+      "rackKg"
     ]
   },
   {
@@ -1491,7 +1352,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line PX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 600,
@@ -1499,7 +1360,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1509,11 +1370,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano CUES RD-U4000 9s, Shadow, 9 Gänge",
+    "brakes": "Tektro HD-M280, 2 pistons, 160 mm",
+    "fork": "SR Suntour XCM34-Boost NLO 15AH4-110, Offset: 44 mm, Travel: 120mm",
+    "display": "Bosch LED remote",
+    "tires": "XLC VT-M30 Cirrus, 66-584",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1531,15 +1392,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1556,7 +1410,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -1564,7 +1418,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1574,11 +1428,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram NX Eagle 12s, 12 Gänge",
+    "brakes": "Magura MT C Allroad ABS, 4 pistons, 203 mm",
+    "fork": "RockShox Psylo Silver RC, Travel: 120mm",
+    "display": "Bosch Kiox 500 + LED Remote",
+    "tires": "Schwalbe Nobby Nic Performance, ADDIX, 67EPI, 65-584",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1631,15 +1485,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1656,7 +1503,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 600,
@@ -1664,7 +1511,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Aluminium",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1674,11 +1521,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "Shimano Deore BR-MT410, 2 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour XCM34-Boost NLO DS 15AH2-110, Travel: 120mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Nobby Nic Performance, ADDIX, 67EPI, 65-584",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1721,15 +1568,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1746,7 +1586,7 @@
     "motor": {
       "brand": "Bosch",
       "model": "Performance Line CX",
-      "torqueNm": null
+      "torqueNm": 85
     },
     "battery": {
       "wh": 800,
@@ -1754,7 +1594,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1764,11 +1604,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram S1000 Eagle AXS T-Type 12s, wireless, 12 Gänge",
+    "brakes": "vorn: Sram DB8 Stealth, 4 pistons, 220 mm; hinten: Sram DB8 Stealth, 4 pistons, 200 mm",
+    "fork": "RockShox ZEB Select Charger RC, Boost, DebonAir+, Offset: 44 mm, Travel: 170mm",
+    "display": "Bosch Mini Remote with Controller",
+    "tires": "Continental Kryptotal-Fr, Enduro Soft, foldable skin SL, 60-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1791,15 +1631,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm"
+      "rackKg"
     ]
   },
   {
@@ -1815,16 +1648,16 @@
     "sourceType": "manufacturer",
     "motor": {
       "brand": "Fazua",
-      "model": "Ride 60",
-      "torqueNm": null
+      "model": "Ride60",
+      "torqueNm": 60
     },
     "battery": {
-      "wh": null,
+      "wh": 480,
       "removable": null
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1834,11 +1667,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Sram XX Eagle AXS T-Type 12s, wireless, 12 Gänge",
+    "brakes": "vorn: Sram Code Silver Stealth, 4 pistons, 200 mm; hinten: Sram Code Silver Stealth, 4 pistons, 180 mm",
+    "fork": "RockShox Pike Ultimate Flight Attendant, DebonAir+, Offset: 44 mm, Travel: 140mm",
+    "display": "Fazua Ride 60 LED Hub + Mode Control",
+    "tires": "Maxxis Dissector, 3C MaxxSpeed, EXO, TR, 62-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1861,16 +1694,8 @@
     "missing": [
       "rangeKm",
       "weightKg",
-      "gears",
-      "brakes",
-      "fork",
-      "display",
-      "tires",
       "lighting",
-      "rackKg",
-      "frame.material",
-      "motor.torqueNm",
-      "battery.wh"
+      "rackKg"
     ]
   },
   {
@@ -1886,8 +1711,8 @@
     "sourceType": "manufacturer",
     "motor": {
       "brand": "Fazua",
-      "model": "Ride 60",
-      "torqueNm": null
+      "model": "Ride60",
+      "torqueNm": 60
     },
     "battery": {
       "wh": 480,
@@ -1895,7 +1720,7 @@
     },
     "rangeKm": null,
     "frame": {
-      "material": null,
+      "material": "Carbon",
       "type": "diamond",
       "sizes": [
         "S",
@@ -1905,11 +1730,11 @@
       ]
     },
     "weightKg": null,
-    "gears": null,
-    "brakes": null,
-    "fork": null,
-    "display": null,
-    "tires": null,
+    "gears": "Shimano Deore XT RD-M8100-SGS 12s, Shadow+, 12 Gänge",
+    "brakes": "vorn: Shimano Deore XT BR-M8120, 4 pistons, resin pad, 203 mm; hinten: Shimano Deore XT BR-M8120, 4 pistons, resin pad, 180 mm",
+    "fork": "FOX 36 FLOAT Performance, GRIP, 3Pos, QR, Offset: 44 mm, Travel: 140mm",
+    "display": "Fazua Ride 60 LED Hub + Mode Control",
+    "tires": "Maxxis Disscector 3C MaxxTerra/EXO/TR, 61-622",
     "lighting": null,
     "rackKg": null,
     "colours": [
@@ -1957,6 +1782,945 @@
     "missing": [
       "rangeKm",
       "weightKg",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike LYKE CF 10",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/lyke-cf-10-hmpt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Fazua",
+      "model": "Ride60",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 480,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Sram NX Eagle 12s, 12 Gänge",
+    "brakes": "vorn: Sram DB8 Stealth, 4 pistons, 200 mm; hinten: Sram DB8 Stealth, 4 pistons, 180 mm",
+    "fork": "RockShox Lyrik Select Charger RC, Boost, DebonAir+, Offset: 44 mm, Travel: 140mm",
+    "display": "Fazua Ride 60 LED Hub + Mode Control",
+    "tires": "Schwalbe Wicked Will, Super Ground, TLE, ADDIX Speedgrip, 62-622",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon/silver matt"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Fazua Ride60 und 480-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-10_C1_29Inch_90_HMPT1_web_cb8744dc-f6f5-43c4-82e1-8b963a7155f0.png?v=1764681742",
+        "alt": "Haibike LYKE CF 10 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-10_C1_29Inch_45_HMPT1_web.png?v=1764240220",
+        "alt": "Haibike LYKE CF 10 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-10_C1_29Inch_DETAIL-3_HMPT1_web.jpg?v=1764240281",
+        "alt": "Haibike LYKE CF 10 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-10_C1_29Inch_DETAIL-5_HMPT1_web.jpg?v=1764240279",
+        "alt": "Haibike LYKE CF 10 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-10_C1_29Inch_DETAIL-4_HMPT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 10 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-10_C1_29Inch_DETAIL-2_HMPT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 10 2025, Produktbild 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike NDURO 8 Freeride",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/nduro-8-freeride-hnct1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Yamaha",
+      "model": "PW-X3",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Sram GX Eagle 12s, 12 Gänge",
+    "brakes": "vorn: Sram DB Maven Bronze, 4 pistons, organic pad, 220 mm; hinten: Sram DB Maven Bronze, 4 pistons, organic pad, 203 mm",
+    "fork": "RockShox ZEB Ultimate Charger 3.1 RC2, DebonAir+, Offset: 44 mm, Travel: 180mm",
+    "display": "Yamaha Interface - X",
+    "tires": "Schwalbe Magic Mary, Super Trail, ADDIX Ultra Soft, 50EPI, 62-622",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "titan/black/chrome - matt matt"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Yamaha PW-X3 und 720-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/Haibike_MY25_NDURO-8_Mullet_90_HNCT1.png?v=1765467609",
+        "alt": "Haibike NDURO 8 Freeride 2025, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN CF 11 TRN/IQ",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 10000,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-cf-11-trniq-hmft2",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Pinion",
+      "model": "E1.12 MGU",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": "Magura MT5, 4 pistons, 203 mm",
+    "fork": "RockShox ZEB Ultimate Charger 3.1 RC2, DebonAir, Offset: 44 mm, Travel: 160mm",
+    "display": "Pinion FIT Master Node Display + Remote Pure",
+    "tires": "Continental Kryptotal-Fr, Enduro Soft, foldable skin SL, 60-622",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "rock/carbon/grey glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Pinion E1.12 MGU und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_90_HMFT2_web_7acc40b9-de21-48b7-bd15-dffc8ac7cb96.png?v=1764681734",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_45_HMFT2_web_2f0fe8da-b506-4172-9a6b-38d0dfc75df6.png?v=1764681734",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_DETAIL-1_HMFT2_web_8ec4a559-c2d7-46f4-9c24-2e4ebb161276.jpg?v=1764681733",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_DETAIL-2_HMFT2_web_7a3ddd06-3694-4e27-8fbb-d13be366c755.jpg?v=1764681734",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_DETAIL-5_HMFT2_web.jpg?v=1764240321",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_DETAIL-3_HMFT2_web.jpg?v=1764240321",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-11-TRN-IQ_C1_Mullet_DETAIL-4_HMFT2_web.jpg?v=1764240321",
+        "alt": "Haibike ALLMTN CF 11 TRN/IQ 2025, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN CF 10 TRN/IQ",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8500,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-cf-10-trniq-hmft1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Pinion",
+      "model": "E1.12 MGU",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": "Tektro TRP Slate EVO HD-M807, 4 pistons, 203 mm",
+    "fork": "RockShox Psylo Gold RC, Crown Adj, DebonAir, Offset: 44 mm, Travel: 160mm",
+    "display": "Pinion FIT Master Node Display + Remote Pure",
+    "tires": "Continental Kryptotal-Fr, Enduro Soft, foldable skin SL, 60-622",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "midnight blue/grey glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Pinion E1.12 MGU und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-10_Mullet_90_HMFT1_54d6fede-0072-4030-92f3-46a554948c13.png?v=1764685595",
+        "alt": "Haibike ALLMTN CF 10 TRN/IQ 2025, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ADVENTR SE",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/adventr-se-hact1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Yamaha",
+      "model": "PW-X3",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Sram GX Eagle 12s, 12 Gänge",
+    "brakes": "Magura MT5, 4 pistons, 203 mm",
+    "fork": "FOX 34 FLOAT AWL, Sweep Adjust, Offset: 44 mm, Travel: 140mm",
+    "display": "Yamaha A2 Display",
+    "tires": "Schwalbe Johnny Watts Performance, DD, RaceGuard, 67EPI, 60-622",
+    "lighting": "Licht vorn: Litemove AE-130 E25, 90-130 Lux; Rücklicht: AXA Juno E-Bike, 6-12V",
+    "rackKg": null,
+    "colours": [
+      "purple/cognac glossy"
+    ],
+    "description": "E-Trekkingbike von Haibike (Modelljahr 2025) mit Yamaha PW-X3 und 720-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_90_HACT1_web_a59015bb-bec3-41d6-b431-fbabebf0937f.png?v=1764681717",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_DETAIL-1_HACT1.png?v=1765359368",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_DETAIL-4_HACT1.png?v=1765359366",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_DETAIL-2_HACT1.png?v=1765359366",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_DETAIL-3_HACT1.png?v=1765359349",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_DETAIL-5_HACT1.png?v=1765359346",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-SE_C1_29Inch_45_HACT1_web.png?v=1764240220",
+        "alt": "Haibike ADVENTR SE 2025, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ADVENTR 11 ABS",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/adventr-11-abs-habt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano Deore XT RD-M8100-SGS 12s, Shadow+, 12 Gänge",
+    "brakes": "Magura MT C Allroad ABS, 4 pistons, 203 mm",
+    "fork": "SR Suntour MOBIE36-Boost EQ 2CR-PCS DS 15AH2-110, Travel: 140mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Schwalbe Johnny Watts w/ reflective line, 60-584",
+    "lighting": "Licht vorn: Trelock LS 830 T Lighthammer 80 Lux, 6-12V; Rücklicht: AXA Juno E-Bike, 6-12V",
+    "rackKg": null,
+    "colours": [
+      "anthracite/acacia glossy"
+    ],
+    "description": "E-Trekkingbike von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [
+      "Rahmenformen: High, Low"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS_C1_27.5Inch_90_HABT1_web_554738e9-c8fd-4ae2-84eb-6649306e43fa.png?v=1764681721",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS_C1_27.5Inch_45_HABT1_web.png?v=1765386586",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS-Low_C1_27.5Inch_90_HABT2_web.png?v=1765462760",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS-Low_C1_27.5Inch_45_HABT2_web.png?v=1765462760",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS_C1_27.5Inch_DETAIL-1_HABT1.png?v=1765462760",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS_C1_27.5Inch_DETAIL-3_HABT1.png?v=1765462760",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS_C1_27.5Inch_DETAIL-5_HABT1.png?v=1765462760",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-11-ABS_C1_27.5Inch_DETAIL-2_HABT1.png?v=1765462760",
+        "alt": "Haibike ADVENTR 11 ABS 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ADVENTR 10",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5699,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/adventr-10-hajt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Sram SX Eagle 12s, 12 Gänge",
+    "brakes": "Shimano Deore BR-MT420, 4 pistons, resin pad, 203 mm",
+    "fork": "SR Suntour SF25-ZERON36X-Boost EQ 2CR, Offset: 44 mm, Travel: 140mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Continental Ruban Reflex, 58-584",
+    "lighting": "Licht vorn: Trelock Lighthammer LS800 60 Lux, 6-12V; Rücklicht: AXA Juno E-Bike, 6-12V",
+    "rackKg": null,
+    "colours": [
+      "met.sand/black glossy"
+    ],
+    "description": "E-Trekkingbike von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [
+      "Rahmenformen: High, Low"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10_C1_27.5Inch_90_HAJT1_web_4ecd5fdb-57e7-431e-8b0b-f01b73aaf798.png?v=1764681713",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10_C1_27.5Inch_45_HAJT1_web.png?v=1765356753",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10_C1_27.5Inch_DETAIL-1_HAJT1_web.jpg?v=1765356753",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10-Low_C1_27.5Inch_90_HAJT2_web_bd5f7162-4410-4087-a0f8-62869b3623f3.png?v=1765356753",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10-Low_C1_27.5Inch_45_HAJT2_web.png?v=1765462820",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10-Low_C1_27.5Inch_DETAIL-1_HAJT2_web.jpg?v=1765462820",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10_C1_27.5Inch_DETAIL-4_HAJT1_web.jpg?v=1765462820",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ADVENTR-10_C1_27.5Inch_DETAIL-5_HAJT1_web.jpg?v=1765462820",
+        "alt": "Haibike ADVENTR 10 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 9 ABS",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-9-abs-htjt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": "Magura MT C Allroad ABS, 4 pistons, 203 mm",
+    "fork": "SR Suntour SF24-MOBIE34-Boost-ABS-EQ-2CR-DS, Offset: 44 mm, Travel: 100mm",
+    "display": "Bosch Kiox 500 + LED Remote",
+    "tires": "Schwalbe Johnny Watts w/ reflective line, 60-584",
+    "lighting": "Licht vorn: Trelock Skybeamer 300, 6-24V; Rücklicht: Spanninga Aerline 2.0 Brake",
+    "rackKg": null,
+    "colours": [
+      "dynamite red/blue glossy"
+    ],
+    "description": "E-Trekkingbike von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [
+      "Rahmenformen: High, Low"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_90_HTJT1_web_4237d4b5-d351-4c1a-b87a-8c3695db7556.png?v=1764681705",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_45_HTJT1_web.png?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-LOW_C1_27.5Inch_90_HTJT3_web.png?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_DETAIL-1_HTJT1_web.jpg?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_DETAIL-4_HTJT1.png?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_DETAIL-2_HTJT1.png?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_DETAIL-3_HTJT1.png?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-9-ABS-HIGH_C1_27.5Inch_DETAIL-5_HTJT1_web.jpg?v=1765389314",
+        "alt": "Haibike TREKKING 9 ABS 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 7",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-7-htlt3",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "Shimano Deore BR-MT410, 2 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour MOBIE34-D-Boost, 2CR, Coil, Offset: 44 mm, Travel: 100mm",
+    "display": "Bosch Kiox 500 + LED Remote",
+    "tires": "Schwalbe Johnny Watts w/ reflective line, 60-584",
+    "lighting": "Licht vorn: Trelock Skybeamer 300, 6-24V; Rücklicht: Spanninga Aerline 2.0 Brake",
+    "rackKg": null,
+    "colours": [
+      "soft grey/red/blue glossy",
+      "dynamite red/blue glossy"
+    ],
+    "description": "E-Trekkingbike von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [
+      "Rahmenformen: High, Low"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-HIGH_C1_27.5Inch_90_HTLT3_web_7634fa7c-c5ad-42f2-a370-c07dca636dde.png?v=1764681697",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-LOW_C1_27.5Inch_90_HTLT5_web.png?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-HIGH_C1_27.5Inch_45_HTLT3_web.png?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-LOW_C1_27.5Inch_45_HTLT5_web.png?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-HIGH_C1_27.5Inch_DETAIL-1_HTLT3_web.jpg?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-HIGH_C1_27.5Inch_DETAIL-3_HTLT3.png?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-HIGH_C1_27.5Inch_DETAIL-5_HTLT3.png?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-7-HIGH_C1_27.5Inch_DETAIL-4_HTLT3_web.jpg?v=1765445640",
+        "alt": "Haibike TREKKING 7 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 5",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3699,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-5-htmt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Yamaha",
+      "model": "PW-S2",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "Shimano Deore BR-MT410, 2 pistons, resin pad, 180 mm",
+    "fork": "SR Suntour MOBIE25-COIL, LOR, DS, Travel: 100mm",
+    "display": "Yamaha A2 Display",
+    "tires": "Schwalbe Johnny Watts w/ reflective line, 60-584",
+    "lighting": "Licht vorn: Herrmans H-Black MR4 E, 6-12V; Rücklicht: Spanninga Aerline 2.0 Brake",
+    "rackKg": null,
+    "colours": [
+      "lime/black - gloss glossy",
+      "olive/red - gloss glossy"
+    ],
+    "description": "E-Trekkingbike von Haibike (Modelljahr 2025) mit Yamaha PW-S2 und 720-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [
+      "Rahmenformen: High, Low"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-HIGH_C1_27.5Inch_90_HTMT4_web_add20c5f-53c7-43a1-ab06-41e3c117ca38.png?v=1764681692",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-HIGH_C1_27.5Inch_45_HTMT4_web.png?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-LOW_C1_27.5Inch_45_HTMT6_web.png?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-LOW_C1_27.5Inch_90_HTMT6_web.png?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-HIGH_C1_27.5Inch_DETAIL-1_HTMT4_web.jpg?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-HIGH_C1_27.5Inch_DETAIL-4_HTMT4_web.jpg?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-HIGH_C1_27.5Inch_DETAIL-5_HTMT4_web.jpg?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_TREKKING-5-HIGH_C1_27.5Inch_DETAIL-3_HTMT4_web.jpg?v=1765448404",
+        "alt": "Haibike TREKKING 5 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 9",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5299,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-9-hlft1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Yamaha",
+      "model": "PW-X3",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "titan/lime/black - matt matt"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Yamaha PW-X3 und 720-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_90_HLFT1_web_748b6d84-2cfc-4738-9d97-ca644cc2562d.png?v=1764681671",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_45_HLFT1_web.png?v=1764240220",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_DETAIL-1_HLFT1_web.jpg?v=1765448910",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_DETAIL-2_HLFT1_web.jpg?v=1765448910",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_DETAIL-5_HLFT1_web.jpg?v=1765448910",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_DETAIL-3_HLFT1_web.jpg?v=1765448910",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-9_C1_Mullet_DETAIL-4_HLFT1_web.jpg?v=1765448910",
+        "alt": "Haibike ALLTRAIL 9 2025, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
       "gears",
       "brakes",
       "fork",
@@ -1966,6 +2730,283 @@
       "rackKg",
       "frame.material",
       "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 5",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4599,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-5-hlbt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Yamaha",
+      "model": "PW-S2",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 11 Gänge",
+    "brakes": "Tektro TRP Slate EVO HD-M807, 4 pistons, 203 mm",
+    "fork": "SR Suntour SF25-ZERON36X-Boost, Travel: 140mm",
+    "display": "Yamaha A2 Display",
+    "tires": "Schwalbe Nobby Nic Performance, Folding, ADDIX, 67EPI, 62-622",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "dusty/blue/black/red glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Yamaha PW-S2 und 720-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_90_HLBT1_web_79343eec-d4d3-4d59-bbb2-1e9bbff5f143.png?v=1764681671",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_45_HLBT1_web.png?v=1765449057",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_DETAIL-1_HLBT1_web.jpg?v=1765449057",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_DETAIL-5_HLBT1_web.jpg?v=1765449057",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_DETAIL-4_HLBT1_web.jpg?v=1765449057",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_DETAIL-3_HLBT1_web.jpg?v=1765449057",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-5_C1_Mullet_DETAIL-2_HLBT1_web.jpg?v=1765449057",
+        "alt": "Haibike ALLTRAIL 5 2025, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 3",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4299,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-3-hlht1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Yamaha",
+      "model": "PW-S2",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 720,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES RD-U6000 10/11s, Shadow+, 10 Gänge",
+    "brakes": "Shimano Deore BR-MT420, 4 pistons, resin pad, 203 mm",
+    "fork": "SR Suntour SF23-XCR34, Air Boost DS 2CR, 2pos, Travel: 140mm",
+    "display": "Yamaha A2 Display",
+    "tires": "Schwalbe Nobby Nic Performance, ADDIX, 67EPI, 60-622",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "ocean black/blue matt",
+      "caramel/orange/black glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Yamaha PW-S2 und 720-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C2_Mullet_90_HLHT2_web_acfc04a1-b2cb-4eaf-9f05-98acf1a47b39.png?v=1764681665",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C2_Mullet_45_HLHT2_web.png?v=1764240220",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C2_Mullet_DETAIL-5_HLHT2_web.jpg?v=1765453704",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C2_Mullet_DETAIL-1_HLHT2_web.jpg?v=1765453704",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C2_Mullet_DETAIL-2_HLHT2_web.jpg?v=1765453704",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C2_Mullet_DETAIL-3_HLHT2_web.jpg?v=1765453704",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_C1_Mullet_90_HLHT1_web.png?v=1765453704",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-3_Mullet_C2_DETAIL-4_HLHT2.png?v=1765453704",
+        "alt": "Haibike ALLTRAIL 3 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 10.5 ABS",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6299,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-105-abs-hllt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Sram NX Eagle 12s, 12 Gänge",
+    "brakes": "Magura MT C Allroad ABS, 4 pistons, 203 mm",
+    "fork": "FOX 34 FLOAT AWL, Sweep Adjust, Offset: 44 mm, Travel: 140mm",
+    "display": "Bosch Kiox 300 + LED Remote",
+    "tires": "Continental Xynotal Trail Endurance, foldable skin SL, 60-584",
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "black/ninja gold/grey glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Die Angaben stammen von der Produktseite im Schweizer Haibike-Shop; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [
+      "Rahmenformen: High, Low"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_29Inch_90_HLLT1_web_feb3dc7f-b041-49f9-84a0-6db68c428ba7.png?v=1764681663",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_27.5_Inch_90_HLLT2_web.png?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_27.5_Inch_90_HLLT2_web_07edf773-3eea-43f1-a347-a0d517310ca4.png?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_29Inch_45_HLLT1_web.png?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_27.5_Inch_45_HLLT2_web.png?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_29Inch_DETAIL-1_HLLT1_web.jpg?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_27.5_Inch_DETAIL-1_HLLT2_web.jpg?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL_10.5_ABS_C1_29Inch_DETAIL-5_HLLT1.png?v=1765454119",
+        "alt": "Haibike ALLTRAIL 10.5 ABS 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "lighting",
+      "rackKg"
     ]
   }
 ]
