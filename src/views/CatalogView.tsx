@@ -56,8 +56,8 @@ export function CatalogView({
   }, [route.page]);
 
   // Extract initial filters from search string
-  const [filters, setFilters] = useState<FacetFilters>(() => {
-    const params = new URLSearchParams(window.location.search);
+  const parseFilters = (search: string): FacetFilters => {
+    const params = new URLSearchParams(search);
     const speed = params.getAll('speed') as SpeedClass[];
     const motor = params.getAll('motor') as MotorBrand[];
     const battery = params.getAll('battery') as BatteryBracket[];
@@ -77,7 +77,14 @@ export function CatalogView({
       useCase: useCase.length ? useCase : undefined,
       minScore: score,
     };
-  });
+  };
+
+  // Server renders unfiltered; URL filters are applied after hydration.
+  const [filters, setFilters] = useState<FacetFilters>(() => parseFilters(''));
+  useEffect(() => {
+    setFilters(parseFilters(window.location.search));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const category = route.category;
   const subcategoryId = route.subcategorySlug;

@@ -1,4 +1,7 @@
+'use client';
+
 import { useState, useEffect, useTransition } from 'react';
+import { SITE_URL } from './utils/site';
 import { Product, Language } from './types';
 import { ALL_PRODUCTS } from './data/productsGenerator';
 import { parseRoute, ParsedRoute, buildLocalizedUrl } from './utils/routes';
@@ -16,9 +19,14 @@ import { GuideView } from './views/GuideView';
 import { CantonSubsidiesView } from './views/CantonSubsidiesView';
 import { StaticPages } from './views/StaticPages';
 
-export default function App() {
-  const [currentPath, setCurrentPath] = useState(() => window.location.pathname || '/');
-  const [currentSearch, setCurrentSearch] = useState(() => window.location.search || '');
+export default function App({ initialPath = '/' }: { initialPath?: string }) {
+  // Server renders the requested path; query string is read after hydration to avoid mismatches.
+  const [currentPath, setCurrentPath] = useState(initialPath);
+  const [currentSearch, setCurrentSearch] = useState('');
+
+  useEffect(() => {
+    setCurrentSearch(window.location.search || '');
+  }, []);
   const [comparedProducts, setComparedProducts] = useState<Product[]>([]);
   const [comparisonModalOpen, setComparisonModalOpen] = useState(false);
   const [testRideProduct, setTestRideProduct] = useState<Product | null>(null);
@@ -56,7 +64,7 @@ export default function App() {
   };
 
   // Dynamic SEO Synchronization into <head>
-  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://veloschweiz.ch';
+  const origin = SITE_URL;
   const seo = resolveSeoMetadata(route, origin);
 
   useEffect(() => {
@@ -290,11 +298,13 @@ export default function App() {
       />
 
       {/* Live SEO Inspector */}
-      <SeoInspector
-        seo={seo}
-        route={route}
-        currentUrl={`${origin}${currentPath}${currentSearch}`}
-      />
+      {process.env.NEXT_PUBLIC_SEO_INSPECTOR === '1' && (
+        <SeoInspector
+          seo={seo}
+          route={route}
+          currentUrl={`${origin}${currentPath}${currentSearch}`}
+        />
+      )}
 
       {/* Multilingual Swiss Footer */}
       <Footer currentRoute={route} onNavigate={handleNavigate} />

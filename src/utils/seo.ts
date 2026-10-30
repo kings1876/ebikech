@@ -198,23 +198,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
               name: 'Schweizer Fachhändler Netzwerk',
             },
           },
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: product.ratingAverage,
-            reviewCount: product.reviewCount,
-            bestRating: 5,
-            worstRating: 1,
-          },
-          review: product.testVerdicts.map((tv) => ({
-            '@type': 'Review',
-            author: { '@type': 'Organization', name: tv.source },
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: tv.numericScore,
-              bestRating: tv.maxScore,
-            },
-            reviewBody: tv.summary[lang],
-          })),
+          // aggregateRating / review intentionally omitted: current ratings and test verdicts are
+          // generated placeholder data. Re-enable only with real, attributable reviews.
         };
       }
       break;
