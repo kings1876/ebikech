@@ -1,0 +1,1721 @@
+[
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image 1 Advance",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2799,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 2799.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-1-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Hub Line Smart System",
+      "torqueNm": 45
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": 100,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 27.6,
+    "gears": "2-Gang, UT Gear H2 (Nabenschaltung)",
+    "brakes": "Scheibe vorn 180 mm, hinten 160 mm",
+    "fork": "SR Suntour Mobie A32, Federweg 75",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "CST Quantum, 55-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "acaciayellow matt",
+      "diamondblack glossy",
+      "rubyrose matt"
+    ],
+    "description": "Kalkhoff Image 1 Advance ist ein E-Bike der Image-Reihe mit Bosch Hub Line Smart System (45 Nm) und 540 Wh Akku. Es hat aufrechte Sitzposition, 2-Gang, UT Gear H2 (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 100 km.",
+    "features": [
+      "Bosch Hub Line Smart System Antrieb mit 45 Nm",
+      "Integrierter Bosch PowerTube Akku mit 540 Wh",
+      "Reichweite bis zu 100 km",
+      "Ready für Front Carrier Set"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/51200e15-b2f9-477b-b1d1-c350f87e29ad/K505-V1_2027_29_WA_YEL_090_PRO_IMAGE-1-ADVANCE-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 1 Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/01a63f9e-8600-4dcf-acaa-f878dc4993f1/K505-V1_2027_29_WA_YEL_090_PRO_IMAGE-1-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 1 Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/c664c818-ffa5-4f8b-a876-3d7835e6d2bf/K505-V1_2027_29_WA_YEL_045_PRO_IMAGE-1-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 1 Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/2c029875-e0d3-4241-933d-fca45b10140e/K505-V1_2027_29_WA_YEL_135_PRO_IMAGE-1-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 1 Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/1b211599-fe8d-497f-8a1e-e8e87d4bc642/K505-V1_2027_29_WA_YEL_180_PRO_IMAGE-1-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 1 Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/e411a2a9-a1d1-4ac5-9c87-307832a2bcd9/K505-V1_2027_29_WA_YEL_TOP_PRO_IMAGE-1-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 1 Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image 3 Advance",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3299.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-3-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line Smart System",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": 100,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28.758,
+    "gears": "5-G Shimano Nexus (Nabenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 160 mm",
+    "fork": "SR Suntour XCM32 Coil QR, Federweg 80 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "diamondblack glossy",
+      "midnightplum matt"
+    ],
+    "description": "Kalkhoff Image 3 Advance ist ein E-Bike der Image-Reihe mit Bosch Performance Line Smart System (75 Nm) und 540 Wh Akku. Es hat aufrechte Sitzposition, 5-G Shimano Nexus (Nabenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 100 km.",
+    "features": [
+      "Bosch Performance Line Smart System Antrieb mit 75 Nm",
+      "Integrierter Bosch PowerTube Akku mit 540 Wh",
+      "Reichweite bis zu 100 km",
+      "Ready für Front Carrier Set",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9f74516e-9833-47dc-bcc4-bd83f1907dd4/K502v2025_2026_29_DI_BLK_090_PRO_IMAGE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/40b7f490-a2fa-4ec4-9621-4fdf51999e83/K502v2025_2026_29_DI_BLK_045_PRO_IMAGE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/02947368-cd27-4ae3-8456-ce2a5d66d323/K502v2025_2026_29_DI_BLK_135_PRO_IMAGE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/5b943f17-d3a4-4804-a928-1734d3c8435a/K502v2025_2026_29_DI_BLK_180_PRO_IMAGE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/2a00a9ad-e712-46c0-948f-2227e59f5f31/K502v2025_2026_29_DI_BLK_TOP_PRO_IMAGE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Advance, Ansicht von oben",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/97c16379-5401-4af4-9de2-68856d6060d7/K502v2025_2026_29_DI_BLK_090_PRO_IMAGE-3-ADVANCE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Advance, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image 3 Excite",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3899,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3899.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-3-excite",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line Smart System",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": 120,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 29.2,
+    "gears": "5-G Shimano Nexus (Nabenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 160 mm",
+    "fork": "SR Suntour XCM32 Coil QR, Federweg 80 mm",
+    "display": "Bosch Kiox 300 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "diamondblack glossy",
+      "sagegreen matt",
+      "sustainedgrey matt"
+    ],
+    "description": "Kalkhoff Image 3 Excite ist ein E-Bike der Image-Reihe mit Bosch Performance Line Smart System (75 Nm) und 600 Wh Akku. Es hat aufrechte Sitzposition, 5-G Shimano Nexus (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 120 km.",
+    "features": [
+      "Bosch Performance Line Smart System Antrieb mit 75 Nm",
+      "Integrierter Bosch PowerTube Akku mit 600 Wh",
+      "Reichweite bis zu 120 km",
+      "Wartungsarmer Riemenantrieb",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/72b25223-ce93-4350-bba7-f9370f59193b/K503v2025_2026_29_DI_BLK_090_PRO_IMAGE-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Excite, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/466b4a28-1a10-414a-8a07-5459711f0243/K503v2025_2026_29_DI_BLK_045_PRO_IMAGE-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Excite, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/2201b9f9-4156-42bd-b845-fc27a7d683d4/K503v2025_2026_29_DI_BLK_135_PRO_IMAGE-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Excite, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/b5626203-c577-489f-b14a-a222b7b64717/K503v2025_2026_29_DI_BLK_180_PRO_IMAGE-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Excite, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/de986929-2334-41ef-aae3-2fe33b4c20f7/K503v2025_2026_29_DI_BLK_TOP_PRO_IMAGE-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Excite, Ansicht von oben",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/38c871a7-8338-4e82-9825-f1b1b189dc79/K503v2025_2026_29_DI_BLK_090_PRO_IMAGE-3-EXCITE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 3 Excite, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image 5+ Advance",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5399,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 5399.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-5-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX Smart System",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 33.74,
+    "gears": "Enviolo Trekking (Nabenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie34, 110x15 mm Steckachse, Federweg 100 mm",
+    "display": "Bosch Kiox 500 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Supernova Mini 2, LED / Trelock COB Line, mit Bremslicht, LED",
+    "rackKg": 27,
+    "colours": [
+      "adamantsilver glossy",
+      "diamondblack glossy",
+      "sagegreen matt"
+    ],
+    "description": "Kalkhoff Image 5+ Advance ist ein E-Bike der Image-Reihe mit Bosch Performance Line PX Smart System (90 Nm) und 800 Wh Akku. Es hat aufrechte Sitzposition, Enviolo Trekking (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance PX Smart System Antrieb mit 85 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Plus+: Flexibler Alleskönner mit einem zulässigen Gesamtgewicht von bis zu 180Kg",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/ce21fc57-7271-44e9-b649-a416c2ec91e4/K508v2025_2026_29_WA_SIL_090_PRO_IMAGE-5-PLUS-ADVANCE-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5+ Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/8293a2ab-4048-4df8-8343-f46e3848df07/K508v2025_2026_29_WA_SIL_090_PRO_IMAGE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5+ Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/28a91187-26a5-4268-9028-f8c8c666f003/K508v2025_2026_29_WA_SIL_045_PRO_IMAGE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5+ Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/18994456-dd25-408b-9a4f-dabdfd31e096/K508v2025_2026_29_WA_SIL_135_PRO_IMAGE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5+ Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/c54639a6-e44f-47f5-a20d-5a295e4c0a3f/K508v2025_2026_29_WA_SIL_180_PRO_IMAGE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5+ Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/427651b4-3979-4f7d-a3d2-8d137d712487/K508v2025_2026_29_WA_SIL_TOP_PRO_IMAGE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5+ Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image 5 Season",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4399,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 4399.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-5-season",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX Smart System",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 31.46,
+    "gears": "5-G Shimano Nexus (Nabenschaltung)",
+    "brakes": "Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie A32, Federweg 75 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR9, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "diamondblack matt",
+      "polarblue matt"
+    ],
+    "description": "Kalkhoff Image 5 Season ist ein E-Bike der Image-Reihe mit Bosch Performance Line PX Smart System (90 Nm) und 800 Wh Akku. Es hat aufrechte Sitzposition, 5-G Shimano Nexus (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance PX Smart System Antrieb mit 85 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/02d88ed7-374c-42bf-b8be-f45628e6d767/K327-V1_2027_29_DI_BLK_090_PRO_IMAGE-5-SEASON-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Season, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/594b5375-e3cf-41d6-8bf4-c4f1a6e2022f/K327-V1_2027_29_DI_BLK_090_PRO_IMAGE-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Season, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/d6eb32f6-7e8b-4618-9db9-195c792cd007/K327-V1_2027_29_DI_BLK_045_PRO_IMAGE-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Season, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/cecb2559-00f8-4c32-afd6-f81ffa1136a3/K327-V1_2027_29_DI_BLK_135_PRO_IMAGE-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Season, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/bd6e51ec-70e8-474a-880f-0da0ba065bdb/K327-V1_2027_29_DI_BLK_180_PRO_IMAGE-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Season, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/5e6dac5c-23a3-488e-9f88-a1ed8cb9fc75/K327-V1_2027_29_DI_BLK_TOP_PRO_IMAGE-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Season, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image 5 Auto",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4899,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 4899.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-5-auto",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX Smart System",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 33.04,
+    "gears": "Enviolo Trekking Automatik (Nabenschaltung)",
+    "brakes": "Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie A32, Federweg 75 mm",
+    "display": "Bosch Kiox 300 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR9, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "deepsagegreen matt",
+      "diamondblack matt"
+    ],
+    "description": "Kalkhoff Image 5 Auto ist ein E-Bike der Image-Reihe mit Bosch Performance Line PX Smart System (90 Nm) und 800 Wh Akku. Es hat aufrechte Sitzposition, Enviolo Trekking Automatik (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance PX Smart System Antrieb mit 85 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/28f97a84-25a1-4311-a9f1-523747024d56/K275-V1_2027_29_WA_GRE_090_PRO_IMAGE-5-AUTO-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Auto, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/5f83e5b2-4980-4808-8651-a6742532e71e/K275-V1_2027_29_WA_GRE_090_PRO_IMAGE-5-AUTO?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Auto, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/5de88044-a804-4e5f-96b3-6e042ce67af3/K275-V1_2027_29_WA_GRE_045_PRO_IMAGE-5-AUTO?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Auto, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/0080d911-9744-47cf-8b0c-b97f169a851b/K275-V1_2027_29_WA_GRE_135_PRO_IMAGE-5-AUTO?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Auto, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/83fd5912-1124-4d28-a660-947b9dc5443a/K275-V1_2027_29_WA_GRE_180_PRO_IMAGE-5-AUTO?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Auto, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/7001c6c9-5b3d-40da-b452-fcf6a1ed46eb/K275-V1_2027_29_WA_GRE_TOP_PRO_IMAGE-5-AUTO?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image 5 Auto, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image L Season",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3299.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-l-season",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX Smart System",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": 80,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 25.1,
+    "gears": "8-G Shimano Nexus (Nabenschaltung)",
+    "brakes": "Scheibe vorn 160 mm, hinten 160 mm",
+    "fork": "SR Suntour Mobie A32, Federweg 75 mm",
+    "display": "Bosch LED Remote",
+    "tires": "Schwalbe Big Apple, 55-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "acaciayellow matt",
+      "diamondblack glossy"
+    ],
+    "description": "Kalkhoff Image L Season ist ein E-Bike der Image-Reihe mit Bosch Performance Line SX Smart System (60 Nm) und 400 Wh Akku. Es hat aufrechte Sitzposition, 8-G Shimano Nexus (Nabenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 80 km.",
+    "features": [
+      "Bosch Performance SX Smart System Antrieb mit 60 Nm",
+      "Integrierter Bosch CompactTube Akku mit 400 Wh",
+      "Reichweite bis zu 80 km",
+      "Ready für Front Carrier Set",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/8bd9edb4-a006-48b2-aa43-17e2bfad521d/K276-V1_2027_29_DI_YEL_090_PRO_IMAGE-L-SEASON-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Season, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/72cdb278-80d3-4248-a9e9-b76b3fdab639/K276-V1_2027_29_DI_YEL_090_PRO_IMAGE-L-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Season, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f4fa9038-45b0-4e14-8c98-62eb0538a43d/K276-V1_2027_29_DI_YEL_045_PRO_IMAGE-L-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Season, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/cb3a5fbc-f7c7-4401-8fd5-79e3a24005ee/K276-V1_2027_29_DI_YEL_135_PRO_IMAGE-L-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Season, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/e0669c95-9be0-4375-8cf7-cd22e96f7ec7/K276-V1_2027_29_DI_YEL_180_PRO_IMAGE-L-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Season, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/fe49a86c-0daa-4e35-ae86-01dbda1d48fb/K276-V1_2027_29_DI_YEL_TOP_PRO_IMAGE-L-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Season, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Image L Excite",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3999.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/image-l-excite",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX Smart System",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": 80,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 23.5,
+    "gears": "Enviolo Urban (Nabenschaltung)",
+    "brakes": "Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour NCX32 Air, Federweg 80 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Big Apple, 55-622",
+    "lighting": "Herrmans MR5, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "diamondblack glossy",
+      "polarblue matt"
+    ],
+    "description": "Kalkhoff Image L Excite ist ein E-Bike der Image-Reihe mit Bosch Performance Line SX Smart System (60 Nm) und 400 Wh Akku. Es hat aufrechte Sitzposition, Enviolo Urban (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 80 km.",
+    "features": [
+      "Bosch Performance SX Smart System Antrieb mit 60 Nm",
+      "Integrierter Bosch CompactTube Akku mit 400 Wh",
+      "Reichweite bis zu 80 km",
+      "Ready für Front Carrier Set",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/82816a39-03bf-4d4e-9ceb-5c9d55bfed92/K506-V1_2027_29_DI_BLK_090_PRO_IMAGE-L-EXCITE-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Excite, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f5ca9775-5263-4ed6-8720-aa5f4f0fb333/K506-V1_2027_29_DI_BLK_090_PRO_IMAGE-L-EXCITE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Excite, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/8de19bd9-ba73-4cba-8d70-cb85efbcecb1/K506-V1_2027_29_DI_BLK_045_PRO_IMAGE-L-EXCITE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Excite, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/c471aecc-fc84-4b82-8800-6c8d5af30e28/K506-V1_2027_29_DI_BLK_135_PRO_IMAGE-L-EXCITE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Excite, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/15e77c91-950f-443c-9f99-ea776b01d62b/K506-V1_2027_29_DI_BLK_180_PRO_IMAGE-L-EXCITE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Excite, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/4d3729d3-0718-4409-83fa-255cb49fe0e9/K506-V1_2027_29_DI_BLK_TOP_PRO_IMAGE-L-EXCITE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Image L Excite, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Endeavour 3 Move",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3299.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/endeavour-3-move",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line Smart System",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": 120,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28.15,
+    "gears": "9-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 160 mm",
+    "fork": "SR Suntour XCM32 Coil QR, Federweg 80 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "jetgrey matt",
+      "nepalsilver glossy"
+    ],
+    "description": "Kalkhoff Endeavour 3 Move ist ein E-Bike der Endeavour-Reihe mit Bosch Performance Line Smart System (75 Nm) und 600 Wh Akku. Es hat aufrechte Sitzposition, 9-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 120 km.",
+    "features": [
+      "Bosch Performance Line Smart System Antrieb mit 75 Nm",
+      "Integrierter Bosch PowerTube Akku mit 600 Wh",
+      "Reichweite bis zu 120 km",
+      "Ready für Front Carrier Set",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/30b7bc7a-1451-43cf-8033-f7844e7b8cad/K308v2025_2026_29_DI_GRY_090_PRO_ENDEAVOUR-3-MOVE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Move, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/d544d42e-d35e-4581-a0f6-b75a7cf4614b/K308v2025_2026_29_DI_GRY_045_PRO_ENDEAVOUR-3-MOVE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Move, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/1642896f-008f-43c6-b0a1-8d6adbf3c39d/K308v2025_2026_29_DI_GRY_135_PRO_ENDEAVOUR-3-MOVE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Move, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/6064bb86-2878-437d-9986-04aa5ad8f9df/K308v2025_2026_29_DI_GRY_180_PRO_ENDEAVOUR-3-MOVE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Move, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/5f4f5bc9-aaad-4ab7-a8d0-86a18515177c/K308v2025_2026_29_DI_GRY_TOP_PRO_ENDEAVOUR-3-MOVE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Move, Ansicht von oben",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/82961e4d-718b-4fee-835d-c379fd43e1b2/K308v2025_2026_29_DI_GRY_090_PRO_ENDEAVOUR-3-MOVE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Move, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Endeavour 3 Excite",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3999.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/endeavour-3-excite",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 100
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": 120,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28.95,
+    "gears": "11-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 160 mm",
+    "fork": "SR Suntour XCM32 Coil QR, Federweg 80 mm",
+    "display": "Bosch Kiox 300 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR10, LED / Trelock COB Line, mit Bremslicht, LED",
+    "rackKg": 27,
+    "colours": [
+      "jetgrey matt",
+      "polarblue matt"
+    ],
+    "description": "Kalkhoff Endeavour 3 Excite ist ein E-Bike der Endeavour-Reihe mit Bosch Performance Line CX Smart System (100 Nm) und 600 Wh Akku. Es hat aufrechte Sitzposition, 11-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 120 km.",
+    "features": [
+      "Bosch Performance CX Smart System Antrieb mit 100 Nm",
+      "Integrierter Bosch PowerTube Akku mit 600 Wh",
+      "Reichweite bis zu 120 km",
+      "Mit Bremsrücklicht",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/983053f3-e063-4158-956c-6a3bd286d8ab/K307v2025_2026_29_DI_GRY_090_PRO_ENDEAVOUR-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Excite, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/31a8406f-a3bc-4c73-b7bf-ccb19537d2ba/K307v2025_2026_29_DI_GRY_045_PRO_ENDEAVOUR-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Excite, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/c9deefa7-2e3c-45b7-930c-ef234ff4e84c/K307v2025_2026_29_DI_GRY_135_PRO_ENDEAVOUR-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Excite, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f75a3d7f-3827-4f70-b42a-6851344834d8/K307v2025_2026_29_DI_GRY_180_PRO_ENDEAVOUR-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Excite, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/bc6275a2-a346-4440-9e44-40239817d8af/K307v2025_2026_29_DI_GRY_TOP_PRO_ENDEAVOUR-3-EXCITE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Excite, Ansicht von oben",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/d16803af-a0ad-49ce-b3e8-06ff3ee2ec8c/K307v2025_2026_29_DI_GRY_090_PRO_ENDEAVOUR-3-EXCITE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 3 Excite, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Endeavour 5 Season",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3799,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3799.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/endeavour-5-season",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX Smart System",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 31.6,
+    "gears": "9-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie A32, Federweg 100 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Herrmans MR9, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "jetgrey glossy",
+      "offwhite glossy"
+    ],
+    "description": "Kalkhoff Endeavour 5 Season ist ein E-Bike der Endeavour-Reihe mit Bosch Performance Line PX Smart System (90 Nm) und 800 Wh Akku. Es hat aufrechte Sitzposition, 9-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance PX Smart System Antrieb mit 85 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/8f6d6ac3-f234-4fc9-abdb-f29f0f6370cd/K329-V1_2027_29_DI_GRY_090_PRO_ENDEAVOUR-5-SEASON-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5 Season, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/3c98b482-9acf-4346-b159-1118ccce069c/K329-V1_2027_29_DI_GRY_090_PRO_ENDEAVOUR-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5 Season, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/7edc4f2e-37c7-40d9-9847-facce8ebfb69/K329-V1_2027_29_DI_GRY_045_PRO_ENDEAVOUR-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5 Season, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/efc4ee48-8c01-43ed-8db5-633b786bbbce/K329-V1_2027_29_DI_GRY_135_PRO_ENDEAVOUR-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5 Season, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/d43e36ec-89c5-4ccb-b64a-1c5ee1ea0236/K329-V1_2027_29_DI_GRY_180_PRO_ENDEAVOUR-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5 Season, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9a1410a6-058c-437a-acb4-d593609420f2/K329-V1_2027_29_DI_GRY_TOP_PRO_ENDEAVOUR-5-SEASON?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5 Season, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Endeavour 5+ Advance",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4899,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 4899.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/endeavour-5-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 32.58,
+    "gears": "10-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie34, 110x15 mm Steckachse, Federweg 100 mm",
+    "display": "Bosch Kiox 300 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Green Marathon, 55-622",
+    "lighting": "Supernova Mini 2, LED / Trelock COB Line, mit Bremslicht, LED",
+    "rackKg": 27,
+    "colours": [
+      "jetgrey matt",
+      "offwhite matt",
+      "techgreen glossy"
+    ],
+    "description": "Kalkhoff Endeavour 5+ Advance ist ein E-Bike der Endeavour-Reihe mit Bosch Performance Line CX Smart System (120 Nm) und 800 Wh Akku. Es hat aufrechte Sitzposition, 10-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Starke LED Supernova Scheinwerfer - perfekt fürs Pendeln und Fahrten im Dunkeln",
+      "Plus+: Flexibler Alleskönner mit einem zulässigen Gesamtgewicht von bis zu 180 kg",
+      "Reichweite bis zu 160 km",
+      "Bosch Performance CX Smart System Antrieb mit 100 Nm",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/fba747a2-5655-4041-b716-aa8c8a38de5a/K278v2025_2026_29_DI_GRY_090_PRO_ENDEAVOUR-5-PLUS-ADVANCE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5+ Advance, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/209965e0-bcdb-4486-bbbc-d7910212f4ad/K278v2025_2026_29_DI_GRY_090_PRO_ENDEAVOUR-5-PLUS-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5+ Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/e8678d52-3b5c-44a2-967b-5b359bbe50f4/K278v2025_2026_29_DI_GRY_045_PRO_ENDEAVOUR-5-PLUS-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5+ Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f11f584b-d758-4fa6-90e7-0d6a5da1026d/K278v2025_2026_29_DI_GRY_135_PRO_ENDEAVOUR-5-PLUS-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5+ Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/a24b0de2-c6b7-477c-a9e1-6f05593b38ae/K278v2025_2026_29_DI_GRY_180_PRO_ENDEAVOUR-5-PLUS-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5+ Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/a74fef52-cfde-4587-80ac-e6754262569c/K278v2025_2026_29_DI_GRY_TOP_PRO_ENDEAVOUR-5-PLUS-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour 5+ Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Endeavour L Touring",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 4199.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/endeavour-l-touring",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX Smart System",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21.487,
+    "gears": "Electric TRP E.A.S.I. A11 11-speed (Kettenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 160 mm, hinten 160 mm",
+    "fork": "Aluminium mit Lowrideraufnahme",
+    "display": "Display Purion 400 color display",
+    "tires": "Schwalbe G-One Overland Performance, 50-622",
+    "lighting": "Litemove SEC 110, LED / Trelock COB Line, mit Bremslicht, LED",
+    "rackKg": 25,
+    "colours": [
+      "aquagrey glossy",
+      "umberbrown matt"
+    ],
+    "description": "Kalkhoff Endeavour L Touring ist ein E-Bike der Endeavour-Reihe mit Bosch Performance Line SX Smart System (60 Nm) und 400 Wh Akku. Es hat sportliche Sitzposition, Electric TRP E.A.S.I. A11 11-speed (Kettenschaltung) und Antrieb.",
+    "features": [
+      "Volle Alltagstauglichkeit",
+      "Automatisches und elektrisches Schalten",
+      "Gepäckträger und Anschraubpunkte für beste Flexibilität",
+      "Komfortable Batterieentnahme"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f4e7a287-be70-4805-abcc-e5e731ea2792/K405v2025_2026_29_DI_GRE_090_PRO_ENDEAVOUR-L-TOURING-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Touring, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/b0c79e5e-8928-46c9-a91b-e5506be15d3a/K405v2025_2026_29_DI_GRE_045_PRO_ENDEAVOUR-L-TOURING-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Touring, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/655eaeab-2e8d-4af4-a256-ba19372b1e59/K405v2025_2026_29_DI_GRE_135_PRO_ENDEAVOUR-L-TOURING-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Touring, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/d98bafb4-f6c4-4a0a-9910-c72764e99bb7/K405v2025_2026_29_DI_GRE_180_PRO_ENDEAVOUR-L-TOURING-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Touring, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9dd1823a-d1a3-421d-854e-ed0982dbdf24/K405v2025_2026_29_DI_GRE_TOP_PRO_ENDEAVOUR-L-TOURING-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Touring, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Endeavour L Move",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3599,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3599.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/endeavour-l-move",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX Smart System",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": 80,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 21,
+    "gears": "9-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 160 mm, hinten 160 mm",
+    "fork": "Aluminium mit Lowrideraufnahme",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Marathon Efficiency Performance, 50-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 25,
+    "colours": [
+      "\\/#837f76",
+      "oceanshades matt"
+    ],
+    "description": "Kalkhoff Endeavour L Move ist ein E-Bike der Endeavour-Reihe mit Bosch Performance Line SX Smart System (60 Nm) und 400 Wh Akku. Es hat aufrechte Sitzposition, 9-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 80 km.",
+    "features": [
+      "Besonders leicht mit ca. 22 kg",
+      "Kompatibel mit Front-Gepäckträger",
+      "Reichweite bis zu 80 km",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/1c2cf943-88f4-4a22-9113-48389687e84c/KH0180003v2024_2024_29_DI_GRY_090_PRO_ENDEAVOUR-L-MOVE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Move, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/ba6d0c4a-9b45-45ef-b5c8-c8f7fbc87647/KH0180003v2024_2024_29_DI_GRY_090_PRO_ENDEAVOUR-L-MOVE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Endeavour L Move, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Entice 3 Advance",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3699,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3699.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/entice-3-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": 120,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 27.74,
+    "gears": "9-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Hydraulische Scheibenbremse, Scheibe vorn 180 mm, hinten 180 mm",
+    "fork": "SR Suntour XCM32 Coil QR, Federweg 100 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Smart Sam Bronze, 57-622",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "darksprings glossy",
+      "moonstonegrey matt"
+    ],
+    "description": "Kalkhoff Entice 3 Advance ist ein E-Bike der Entice-Reihe mit Bosch Performance Line CX Smart System (120 Nm) und 600 Wh Akku. Es hat aktive Sitzposition, 9-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 120 km.",
+    "features": [
+      "Bosch Performance CX Smart System Antrieb mit 100 Nm",
+      "Integrierter Bosch PowerTube Akku mit 600 Wh",
+      "Reichweite bis zu 120 km",
+      "Ready für Front Carrier Set",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f076b450-0c6a-4995-a4a1-ba1c15efaa9f/K406v2025_2026_29_DI_GRE_090_PRO_ENTICE-3-ADVANCE-FC-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 3 Advance, Seitenansicht mit Front-Carrier-Set",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/d1a1565d-af47-4c16-8968-43b079d879c8/K406v2025_2026_29_DI_GRE_090_PRO_ENTICE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 3 Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/be59d7f0-364b-4cc4-8bde-a5e419e0327a/K406v2025_2026_29_DI_GRE_045_PRO_ENTICE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 3 Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/67769ff2-0f15-4159-b095-82e3b1c6a6ef/K406v2025_2026_29_DI_GRE_135_PRO_ENTICE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 3 Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/42097a55-1b2e-491c-a816-28de93c81d4d/K406v2025_2026_29_DI_GRE_180_PRO_ENTICE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 3 Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/f6811d1c-e747-47eb-8b72-410abb56b30e/K406v2025_2026_29_DI_GRE_TOP_PRO_ENTICE-3-ADVANCE-tif?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 3 Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Entice 5+ Advance",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5299,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 5299.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/entice-5-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 31.5,
+    "gears": "11-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Scheibe vorn 203 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie34, 110x15 mm Steckachse, Federweg 120 mm",
+    "display": "Bosch Kiox 300 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Smart Sam Reflex, 57-622",
+    "lighting": "Supernova Mini 3, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "moonstonegrey matt",
+      "umberbrown matt"
+    ],
+    "description": "Kalkhoff Entice 5+ Advance ist ein E-Bike der Entice-Reihe mit Bosch Performance Line CX Smart System (120 Nm) und 800 Wh Akku. Es hat 11-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance CX Smart System Antrieb mit 120 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Rahmenformen: Diamant, Trapez, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/0bb0044e-4098-4915-9804-d8e251f47539/K286-V1_2027_29_DI_GRY_090_PRO_ENTICE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/ea82bc86-80f0-4f0b-bf81-13a6ab3a54ab/K286-V1_2027_29_DI_GRY_045_PRO_ENTICE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/aaf1d2ad-3a60-4aec-b0a7-516c0013c88b/K286-V1_2027_29_DI_GRY_135_PRO_ENTICE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/42125984-1ab4-4010-9f44-649b58d65d0c/K286-V1_2027_29_DI_GRY_180_PRO_ENTICE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/1546f72c-a8d3-4a55-9472-541834335be1/K286-V1_2027_29_DI_GRY_TOP_PRO_ENTICE-5-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Entice 5+ Move",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4599,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 4599.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/entice-5-move",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 30.5,
+    "gears": "9-G Shimano Cues",
+    "brakes": "Scheibe vorn 203 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie34, 110x15 mm Steckachse, Federweg 120 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Smart Sam Reflex, 57-622",
+    "lighting": "Litemove RLX, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "meadowgreen matt",
+      "moonstonegrey matt"
+    ],
+    "description": "Kalkhoff Entice 5+ Move ist ein E-Bike der Entice-Reihe mit Bosch Performance Line CX Smart System (120 Nm) und 800 Wh Akku. Es hat aufrechte Sitzposition, 9-G Shimano Cues und Antrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance CX Smart System Antrieb mit 120 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Rahmenformen: Diamant, Trapez, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/c2e8187b-4e0b-4bc0-a6dd-d6e1cdf135b3/K407-V1_2027_29_DI_GRE_090_PRO_ENTICE-5-PLUS-MOVE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Move, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/42ae7179-0b68-49e4-8898-f1f49b3270f1/K407-V1_2027_29_DI_GRE_045_PRO_ENTICE-5-PLUS-MOVE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Move, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/78cfac00-ce82-4de6-a7c3-fb1592beeed4/K407-V1_2027_29_DI_GRE_135_PRO_ENTICE-5-PLUS-MOVE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Move, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9200b31e-0b52-4fc4-9754-c3be12e49eca/K407-V1_2027_29_DI_GRE_180_PRO_ENTICE-5-PLUS-MOVE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Move, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9dd264d5-26ae-407f-8df3-10225fa866e0/K407-V1_2027_29_DI_GRE_TOP_PRO_ENTICE-5-PLUS-MOVE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Move, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Entice 7+ Advance",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6599,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 6599.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/entice-7-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 35.1,
+    "gears": "11-G Electric TRP E.A.S.I. A11 (Kettenschaltung)",
+    "brakes": "Scheibe vorn 203 mm, hinten 203 mm",
+    "fork": "SR Suntour Mobie36 Air, 110x15 mm Steckachse, Federweg 130 mm",
+    "display": "Bosch Kiox 500 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Johnny Watts 365 Reflex, 60-622",
+    "lighting": "Supernova Mini 3, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 25,
+    "colours": [
+      "moonstonegrey matt",
+      "umberbrown matt"
+    ],
+    "description": "Kalkhoff Entice 7+ Advance ist ein E-Bike der Entice-Reihe mit Bosch Performance Line CX Smart System (120 Nm) und 800 Wh Akku. Es hat aktive Sitzposition, 11-G Electric TRP E.A.S.I. A11 (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance CX Smart System Antrieb mit 120 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Plus+: Flexibler Alleskönner mit einem zulässigen Gesamtgewicht von bis zu 180Kg",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/13677dc0-51b8-417e-a2f5-dcdc4a03b603/K282-V1_2027_29_DI_GRY_090_PRO_ENTICE-7-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 7+ Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/7b72640d-0a02-4728-af8c-efd4095f24a4/K282-V1_2027_29_DI_GRY_045_PRO_ENTICE-7-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 7+ Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9891b4ee-5819-4e38-ad5d-8276a65d026a/K282-V1_2027_29_DI_GRY_135_PRO_ENTICE-7-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 7+ Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/b9379a84-b392-41ef-81bc-b6380042335b/K282-V1_2027_29_DI_GRY_180_PRO_ENTICE-7-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 7+ Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/c26bd1f5-c5cf-45d3-b8f4-8eb51c3bd378/K282-V1_2027_29_DI_GRY_TOP_PRO_ENTICE-7-PLUS-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 7+ Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Entice L Advance",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3699,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 3699.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/entice-l-advance",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX Smart System",
+      "torqueNm": 60
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": 80,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 22.4,
+    "gears": "10-G Shimano Cues (Kettenschaltung)",
+    "brakes": "Scheibe vorn 160 mm, hinten 160 mm",
+    "fork": "SR Suntour NCX32-E Air, lockout, Federweg 80 mm",
+    "display": "Bosch Purion 200 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Racing Ralph Performance, 57-584",
+    "lighting": "Herrmans MR5, LED / Herrmans H-Trace, LED",
+    "rackKg": 27,
+    "colours": [
+      "darkmeadowgreen matt",
+      "moonstonegrey matt"
+    ],
+    "description": "Kalkhoff Entice L Advance ist ein E-Bike der Entice-Reihe mit Bosch Performance Line SX Smart System (60 Nm) und 400 Wh Akku. Es hat aufrechte Sitzposition, 10-G Shimano Cues (Kettenschaltung) und Antrieb; der Hersteller nennt eine Reichweite von bis zu 80 km.",
+    "features": [
+      "Bosch Performance SX Smart System Antrieb mit 60 Nm",
+      "Integrierter Bosch CompactTube Akku mit 400 Wh",
+      "Reichweite bis zu 80 km",
+      "Ready für Front Carrier Set",
+      "Rahmenformen: Diamant, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/70d17fb4-ff34-4066-8a42-36701599b2ac/K403-V1_2027_27-5_DI_GRE_090_PRO_ENTICE-L-ADVANCE-FC?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice L Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/81dfd2b0-10d9-4677-be3f-72fab61c24a5/K403-V1_2027_27-5_DI_GRE_090_PRO_ENTICE-L-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice L Advance, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/8a76a3fb-137f-4fe2-8951-46f5d33ea64e/K403-V1_2027_27-5_DI_GRE_045_PRO_ENTICE-L-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice L Advance, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/eef4b00a-00c6-4c3c-985e-a718b272d9e0/K403-V1_2027_27-5_DI_GRE_135_PRO_ENTICE-L-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice L Advance, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/9368e4eb-2b6c-4668-b30a-a555cef0eabc/K403-V1_2027_27-5_DI_GRE_180_PRO_ENTICE-L-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice L Advance, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/0888ed61-c8fa-4ad9-a64c-69e5738953ff/K403-V1_2027_27-5_DI_GRE_TOP_PRO_ENTICE-L-ADVANCE?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice L Advance, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "kalkhoff",
+    "name": "Kalkhoff Entice 5+ Advance Belt",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5799,
+    "priceNote": "Preis laut Produktseite kalkhoff-bikes.com/de_ch (Meta product:price:amount, CHF 5799.00), abgerufen 2026-10-30; gilt für die Standardkonfiguration, Preis kann je nach Variante abweichen. Modelljahr aus Bildnamen (v2025_2026) abgeleitet.",
+    "sourceUrl": "https://www.kalkhoff-bikes.com/de_ch/entice-5-advance-belt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX Smart System",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": 160,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 32.6,
+    "gears": "Enviolo Ultility Modular (Nabenschaltung)",
+    "brakes": "Scheibe vorn 203 mm, hinten 180 mm",
+    "fork": "SR Suntour Mobie34, 110x15 mm Steckachse, Federweg 120 mm",
+    "display": "Bosch Kiox 300 Farbdisplay mit Schiebehilfe",
+    "tires": "Schwalbe Smart Sam Reflex, 57-622",
+    "lighting": "Supernova Mini 3, LED / Spanninga Pimento Large, mit Bremslicht und COB-LED",
+    "rackKg": 27,
+    "colours": [
+      "moonstonegrey matt",
+      "umberbrown matt"
+    ],
+    "description": "Kalkhoff Entice 5+ Advance Belt ist ein E-Bike der Entice-Reihe mit Bosch Performance Line CX Smart System (120 Nm) und 800 Wh Akku. Es hat Enviolo Ultility Modular (Nabenschaltung) und Riemenantrieb; der Hersteller nennt eine Reichweite von bis zu 160 km.",
+    "features": [
+      "Bosch Performance CX Smart System Antrieb mit 120 Nm",
+      "Integrierter Bosch PowerTube Akku mit 800 Wh",
+      "Reichweite bis zu 160 km",
+      "Rahmenformen: Diamant, Trapez, Wave (Tiefeinstieg)"
+    ],
+    "images": [
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/2c750c78-22df-435c-8c08-eba4e7713971/K285-V1_2027_29_DI_GRY_090_PRO_ENTICE-5-PLUS-ADVANCE-BELT?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance Belt, Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/4ac409fa-6c67-4dc2-8854-4460ff574067/K285-V1_2027_29_DI_GRY_045_PRO_ENTICE-5-PLUS-ADVANCE-BELT?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance Belt, Dreiviertelansicht vorne",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/73ac5377-1e51-4f82-a486-ddb378a49e37/K285-V1_2027_29_DI_GRY_135_PRO_ENTICE-5-PLUS-ADVANCE-BELT?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance Belt, Dreiviertelansicht hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/63ef4992-39da-4fd4-a846-d48be11ef82c/K285-V1_2027_29_DI_GRY_180_PRO_ENTICE-5-PLUS-ADVANCE-BELT?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance Belt, Ansicht von hinten",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://resource.pon.bike/by/transform/Large/bc1f356b-1014-4a24-9b02-fda5d6777ea7/K285-V1_2027_29_DI_GRY_TOP_PRO_ENTICE-5-PLUS-ADVANCE-BELT?io=transform:fit,width:1280,height:1280",
+        "alt": "Kalkhoff Entice 5+ Advance Belt, Ansicht von oben",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "frame.material",
+      "battery.removable"
+    ]
+  }
+]

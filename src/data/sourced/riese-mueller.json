@@ -1,0 +1,2161 @@
+[
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Nevo5",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4069,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Nevo5 silent CORE) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/nevo5/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 27.7,
+    "gears": "Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Shimano MT200, disc brake",
+    "fork": "SR Suntour Mobie 34, tapered, 100mm, Boost; SR Suntour Mobie34,  tapered, 80mm, Boost*",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 27,
+    "colours": [
+      "ice blue",
+      "pure white",
+      "ruby red",
+      "slate grey"
+    ],
+    "description": "Nevo5 von Riese & Müller ist ein Komfort-City-E-Bike. Die günstigste Ausführung (silent CORE) hat Bosch Performance Line und einen 540-Wh-Akku, Schaltung: Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: silent CORE ab CHF 4’069; rücktritt CORE ab CHF 4’249; vario CORE ab CHF 4’719; touring ab CHF 5’179; vario ab CHF 5’649; vario HS ab CHF 6’439; automatic ab CHF 5’969; pinion ab CHF 7’139; pinion HS ab CHF 7’549; rohloff ab CHF 7’879",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/73/61/73616d77-42b4-41ad-a4cb-6e1cddebfe7e/26_f01602_nevo5_touring_50_iceblue_abs_offroad-kit_0713_1860x1240.jpg__806x540_q90_crop_subject_location-928%2C624_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Nevo5, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/e8/71/e871fda0-86b7-4c5d-a62d-e4814fa58e74/27_f01815_nevo5_vario_m_goldenyellow_0594_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Nevo5, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/d2/de/d2de4b8c-7e8a-472d-a734-b00757dba064/27_f01823_nevo5_pinion_hs_m_moss_0868_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Nevo5, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/61/4d/614d3968-47c5-439a-900b-6729d370b34e/27_f01810_nevo5_silent_core_m_rubred_1556_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Nevo5, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01817/120_23_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Nevo5, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01814/119_18_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Nevo5, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Charger5",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4249,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Charger5 silent CORE) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/charger5/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28.8,
+    "gears": "Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Shimano MT200, disc brake",
+    "fork": "SR Suntour Mobie 34, tapered, 100mm, Boost",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 27,
+    "colours": [
+      "magnesium",
+      "maroon",
+      "slate grey"
+    ],
+    "description": "Charger5 von Riese & Müller ist ein Alltags- und Trekking-E-Bike. Die günstigste Ausführung (silent CORE) hat Bosch Performance Line und einen 540-Wh-Akku, Schaltung: Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: silent CORE ab CHF 4’249; touring ab CHF 5’649; touring pro ab CHF 6’109; touring HS ab CHF 6’209; vario ab CHF 6’109; vario HS ab CHF 6’719; pinion ab CHF 7’229; pinion HS ab CHF 7’649; rohloff ab CHF 7’969",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/f8/07/f807ee2f-3a9f-485e-9460-320731efbe44/27_f01830_charger5_silent_core_m_maroon_1853_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger5, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ed/c5/edc5ae0a-5082-4087-8012-6d796c943698/27_charger5_touring_pro_l_mag_offkit_abs_pth_2140_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger5, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/1e/70/1e708e68-bddd-4b80-8e1f-530dbbb6998e/27_f01841_charger5_pinion_l_pine_0083_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger5, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01841/25_2.jpg",
+        "alt": "Riese & Müller Charger5, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01834/120_50_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger5, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01834/119_16_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger5, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Charger5 Mixte",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4249,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Charger5 Mixte silent CORE) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/charger5-mixte/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28.7,
+    "gears": "Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Shimano MT200, disc brake",
+    "fork": "SR Suntour Mobie 34, tapered, 100mm, Boost",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 27,
+    "colours": [
+      "dark red",
+      "magnesium",
+      "maroon",
+      "slate grey"
+    ],
+    "description": "Charger5 Mixte von Riese & Müller ist ein Alltags- und Trekking-E-Bike mit tieferem Einstieg. Die günstigste Ausführung (silent CORE) hat Bosch Performance Line und einen 540-Wh-Akku, Schaltung: Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: silent CORE ab CHF 4’249; touring ab CHF 5’649; touring pro ab CHF 6’109; touring HS ab CHF 6’209; vario ab CHF 6’109; vario HS ab CHF 6’719; pinion ab CHF 7’229; pinion HS ab CHF 7’649; rohloff ab CHF 7’969",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/9d/e9/9de96c8b-6bf9-49ee-8c93-5070d83eb6c7/27_f01856_charger5_mixte_var_m_magn_0447_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger5 Mixte, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/84/7e/847ec230-ac22-4721-8aef-af37d335df85/27_f01859_charger5_mixte_roh_m_lavender_0451_1860x1240.jpg__806x540_q90_crop_subject_location-841%2C558_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger5 Mixte, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/5f/b0/5fb09040-1c55-42b2-aa80-2123d958d983/27_f01854_charger5_mixte_tou_pro_m_maroon_abs_2166_1860x1240.jpg__806x540_q90_crop_subject_location-841%2C558_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger5 Mixte, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01854/120_48_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger5 Mixte, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01854/119_16_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger5 Mixte, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01854/73_13_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger5 Mixte, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Charger4",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4359,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Charger4 GT touring CORE) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/charger4/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "46",
+        "49",
+        "53",
+        "56"
+      ]
+    },
+    "weightKg": 28.6,
+    "gears": "Shimano Cues, 10-Gang Kettenschaltung",
+    "brakes": "Magura MT4, disc brake",
+    "fork": "SR Suntour Mobie 34, Air, tapered, 100mm",
+    "display": null,
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 27,
+    "colours": [
+      "petrol matt"
+    ],
+    "description": "Charger4 von Riese & Müller ist ein Alltags- und Trekking-E-Bike (Vorgängergeneration, noch im Programm). Die günstigste Ausführung (GT touring CORE) hat Bosch Performance Line CX und einen 625-Wh-Akku, Schaltung: Shimano Cues, 10-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: GT touring CORE ab CHF 4’359; GT vario CORE ab CHF 4’549; GT touring ab CHF 4’909; GT touring HS ab CHF 5’529; GT vario ab CHF 5’229; GT vario HS ab CHF 5’889; GT automatic ab CHF 5’529; GT rohloff ab CHF 6’689; GT rohloff HS ab CHF 7’089",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/15/fd/15fd1d2d-60f1-4690-a5dd-6505d421f25b/25_f01107_cha4_gt_roh_53_blkmtt_kiox300_powermore_abs_gx_fgptr_chainbagvaude_1890_argb.jpg__930x620_q100_subject_location-928%2C624_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger4, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/a8/60/a860cb9d-e6e6-4603-a15d-9154e2dace9b/24_f01104_cha4_gt_var_49_ptrlmtt_heizsattel_0663-1_1860x1240.jpg__930x620_q100_subject_location-930%2C620_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger4, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/e9/b6/e9b6dc0c-bd32-46c4-91c1-aac03b45d932/24_f01102_cha4_gt_tou_49_darkredmatt_0735_1860x1240.jpg__930x620_q100_subject_location-928%2C624_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Charger4, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01105/85_40_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger4, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01106/48_43_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger4, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01105/79_14_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Charger4, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "display",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Delite5",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6949,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Delite5 touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/delite5/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 31.6,
+    "gears": "Shimano XT, 11-Gang-Kettenschaltung",
+    "brakes": "Tektro TRP HD-EU835 disc brake; Magura MT C ABS*",
+    "fork": "Federgabel Fox AWL 34, Air, 120mm",
+    "display": "Bosch Kiox 500 mit Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex; Schwalbe Hybrid 365 Johnny Watts Plus 60-584 Reflex*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova TL3 Pro, integrated brake light",
+    "rackKg": 27,
+    "colours": [
+      "amber",
+      "stone grey"
+    ],
+    "description": "Delite5 von Riese & Müller ist ein vollgefedertes Reise- und Trekking-E-Bike. Die günstigste Ausführung (touring) hat Bosch Performance Line CX und einen 800-Wh-Akku, Schaltung: Shimano XT, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 6’949; vario ab CHF 7’509; pinion ab CHF 8’249; pinion HS ab CHF 8’669; rohloff ab CHF 8’999",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/e9/4e/e94e5562-7690-46fa-97df-e212988338d6/27_f01920_delite5_tou_l_amber_0079_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Delite5, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/bb/6a/bb6ace90-93bc-4cc3-9e80-a2518541302c/27_f01923_delite5_roh_l_stogry_powermore_offkit_0324_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Delite5, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/3d/45/3d45bc96-a409-43af-bb76-5ac78b7a72d9/27_f01924_delite5_pinion_hs_m_amber_2755_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Delite5, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01920/119_12_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite5, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01920/73_11_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite5, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01922/117_10_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite5, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Delite4",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5819,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Delite4 GT touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/delite4/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "51",
+        "56"
+      ]
+    },
+    "weightKg": 30,
+    "gears": "Shimano XT, 11-Gang-Kettenschaltung",
+    "brakes": "Magura MT4, disc brake; Magura MT5, disc brake; Magura MT C ABS*",
+    "fork": "SR Suntour Mobie 34, Air, tapered, 120mm; Fox Float Rhythm, Air, 140mm, Boost*; SR Suntour Aion 35, Air, tapered, 140mm, Boost*",
+    "display": null,
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex; Schwalbe Johnny Watts 365 60-584*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova M99, integrated brake light",
+    "rackKg": 20,
+    "colours": [
+      "tundra grey matt",
+      "urban grey matt"
+    ],
+    "description": "Delite4 von Riese & Müller ist ein vollgefedertes Trekking-E-Bike (Vorgängergeneration, noch im Programm). Die günstigste Ausführung (GT touring) hat Bosch Performance Line CX und einen 750-Wh-Akku, Schaltung: Shimano XT, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: GT touring ab CHF 5’819; GT touring HS ab CHF 6’209; GT vario ab CHF 6’109; GT vario HS ab CHF 6’499; GT rohloff ab CHF 7’339; GT rohloff HS ab CHF 7’719",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/26/56/26569c68-0d7d-4fba-ac15-1714cb005ccb/24_f01150_delite4_gt_tou_51_tdragreymtt_kiox300_gx_fox_1562_1860x1240.jpg__930x620_q100_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Delite4, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/71/d9/71d9bd6d-46e3-4ef6-91b3-0773c00a9c60/24_f01154_delite4_gt_roh_51_urbngreymtt_packtaschenhalter_1372_1860x1240.jpg__930x620_q100_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Delite4, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01310/85_8_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite4, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01310/85_7_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite4, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01310/73_10_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite4, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01310/79_16_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Delite4, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "display",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Superdelite5",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 8069,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Superdelite5 vario) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/superdelite5/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 1200,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 35.2,
+    "gears": "Enviolo, stufenlose Nabenschaltung, Riemenantrieb",
+    "brakes": "Tektro TRP HD-EU835 disc brake; Magura MT C ABS*",
+    "fork": "Federgabel Fox AWL 34, Air, 120mm",
+    "display": "Bosch Kiox 500 mit Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex; Schwalbe Hybrid 365 Johnny Watts Plus 60-584 Reflex*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova TL3 Pro, integrated brake light",
+    "rackKg": 27,
+    "colours": [
+      "moss",
+      "shadow"
+    ],
+    "description": "Superdelite5 von Riese & Müller ist ein vollgefedertes Langstrecken-E-Bike mit Doppelakku. Die günstigste Ausführung (vario) hat Bosch Performance Line CX und einen 1200-Wh-Akku, Schaltung: Enviolo, stufenlose Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: vario ab CHF 8’069; rohloff ab CHF 9’549; rohloff HS ab CHF 10’059",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ae/4b/ae4bb257-6079-4765-b2b8-08c609a0dff4/27_f01931_sudelite5_var_xl_moss_gptr_0036_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Superdelite5, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/30/28/3028452f-16f9-4c08-ba93-2f50c4532912/27_f01932_sudelite5_roh_xl_shadow_gptr_0040_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Superdelite5, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/0c/e8/0ce8dde7-64b1-445d-829e-7c77aa6a1c5a/27_f01933_sudelite5_roh_hs_xl_moss_gptr_0040_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Superdelite5, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01931/119_11_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Superdelite5, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01931/44_14_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Superdelite5, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01931/117_12_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Superdelite5, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Homage5",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7509,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Homage5 vario) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/homage5/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 32.3,
+    "gears": "Enviolo, stufenlose Nabenschaltung, Riemenantrieb",
+    "brakes": "Tektro TRP HD-EU835 disc brake; Magura MT C ABS*",
+    "fork": "Federgabel Fox AWL 34, Air, 120mm",
+    "display": "Bosch Kiox 500 mit Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 62-584 Reflex; Schwalbe Hybrid 365 Johnny Watts Plus 60-584 Reflex*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova TL3 Pro, integrated brake light",
+    "rackKg": 27,
+    "colours": [
+      "night",
+      "warm silver"
+    ],
+    "description": "Homage5 von Riese & Müller ist ein vollgefedertes Komfort-E-Bike mit tiefem Einstieg. Die günstigste Ausführung (vario) hat Bosch Performance Line CX und einen 800-Wh-Akku, Schaltung: Enviolo, stufenlose Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: vario ab CHF 7’509; pinion ab CHF 8’249; pinion HS ab CHF 8’669; rohloff ab CHF 8’999",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/88/d0/88d03609-ffa5-46b2-a4db-9807b9397172/27_f01912_homage5_pinion_l_night_offkit_1583_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Homage5, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/46/3f/463f5c2b-4561-44b0-93ca-b54cbc696a69/27_f01913_homage5_roh_m_wrmsilv_powermore_pth_0649_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Homage5, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/b1/13/b1139dad-5bf6-4def-a9b1-ed80152a3b94/27_f01911_homage5_var_m_night_comfkit_0460_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Homage5, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01911/119_12_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Homage5, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01911/73_11_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Homage5, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01912/117_11_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Homage5, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Swing5",
+    "modelYear": 2026,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3789,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Swing5 silent) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/swing5/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 500,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 26.7,
+    "gears": "Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Magura HS22, rim brake",
+    "fork": "SR Suntour SF14, 28\", 63mm, tapered",
+    "display": "Bosch Intuvia 100",
+    "tires": "Schwalbe Big Ben 50-622 Reflex; Schwalbe AV13*; Schwalbe Big Ben 50-559 Reflex*",
+    "lighting": "Busch & Müller Lumotec IQ-XS / Spanninga Pimento",
+    "rackKg": 27,
+    "colours": [
+      "almond",
+      "black",
+      "bordeaux",
+      "salvia"
+    ],
+    "description": "Swing5 von Riese & Müller ist ein Holland-Stil-City-E-Bike. Die günstigste Ausführung (silent) hat Bosch Performance Line und einen 500-Wh-Akku, Schaltung: Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: silent ab CHF 3’789; rücktritt ab CHF 3’789; vario ab CHF 4’069; automatic ab CHF 4’389"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/86/1e/861e89cd-8efd-4555-b5a6-da732da183fe/27_f01883_swing5_aut_m_disc_almond_kiox300_2206_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing5, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/50/f1/50f1803f-8e42-4f5a-afeb-daf2bf70026a/27_f01881_swing5_silent_l_bordeaux_korbe_0517_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing5, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/16/23/16235c63-ab1d-4f8b-aeed-57b22546a5d2/27_f01883_swing5_aut_m_disc_black_kiox300_2206_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing5, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ca/70/ca70b0d3-e072-4e72-a28b-ee5241b70de2/27_f01882_swing5_var_m_disc_salvia_2206_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing5, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01881/25_4.jpg",
+        "alt": "Riese & Müller Swing5, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01880/128_15_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Swing5, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Swing4",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3649,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Swing4 rücktritt) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/swing4/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 500,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "43",
+        "46",
+        "51",
+        "56"
+      ]
+    },
+    "weightKg": 26.4,
+    "gears": "Shimano Nexus, 8-Gang-Nabenschaltung, Riemenantrieb, Rücktritt",
+    "brakes": "Magura HS22, rim brake",
+    "fork": "SR Suntour SF14, 28\", 63mm, tapered",
+    "display": null,
+    "tires": "Schwalbe Big Ben 50-622 Reflex; Schwalbe AV13*; Schwalbe Big Ben 50-559 Reflex*",
+    "lighting": "Busch & Müller Lumotec IQ-XS / Spanninga Pimento",
+    "rackKg": 27,
+    "colours": [
+      "black",
+      "bordeaux",
+      "crystal white",
+      "salvia matt"
+    ],
+    "description": "Swing4 von Riese & Müller ist ein Holland-Stil-City-E-Bike (Vorgängergeneration, noch im Programm). Die günstigste Ausführung (rücktritt) hat Bosch Performance Line und einen 500-Wh-Akku, Schaltung: Shimano Nexus, 8-Gang-Nabenschaltung, Riemenantrieb, Rücktritt. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: rücktritt ab CHF 3’649; silent ab CHF 3’649; vario ab CHF 3’829; automatic ab CHF 4’139"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ed/6e/ed6e5725-6745-4f47-a38e-7bfe4d8764a4/24_f01145_swing4_silent_46_bordeaux_korb_frontkorb_1396_1860x1240.jpg__930x620_q100_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing4, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/f9/61/f9613ae2-5e2c-4ab7-b6d5-2b54ac7cc090/24_f01146_swing4_var_51_salviamtt_frontkorb_2175_1860x1240.jpg__930x620_q100_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing4, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/bc/22/bc22739a-265b-4607-9b28-e8f6795dbc0a/24_f01147_swing4_aut_51_blk_2177_1860x1240.jpg__930x620_q100_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing4, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/15/4e/154e0159-4174-4a15-8b95-866fa12d084b/25_f01146_swing4_var_51_crystalwite_2175_1860x1240.jpg__930x620_q100_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Swing4, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01144/26_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Swing4, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01147/23_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Swing4, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "display",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Culture",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4069,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Culture silent) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/culture/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "50",
+        "56",
+        "62"
+      ]
+    },
+    "weightKg": 21.8,
+    "gears": "Shimano Nexus, 8-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Tektro TRP disc brake",
+    "fork": "Suntour NCX 28\", tapered*",
+    "display": null,
+    "tires": "Schwalbe Big Ben 50-622",
+    "lighting": "Herrmans H-Black MR8 / Büchel Nano COB Stoptech, integrated in the mudguard*; Büchel Nano COB, integrated in the mudguard*",
+    "rackKg": 27,
+    "colours": [
+      "biscuit",
+      "denim"
+    ],
+    "description": "Culture von Riese & Müller ist ein leichtes City-E-Bike. Die günstigste Ausführung (silent) hat Bosch Performance Line SX und einen 400-Wh-Akku, Schaltung: Shimano Nexus, 8-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: silent ab CHF 4’069; vario ab CHF 4’249"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/91/4c/914c69f0-bdfb-4ebd-9cc6-8cfc87f81742/27_f01271_culture_silent_56_bisquit_2397_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Culture, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/14/be/14be283e-8dbe-4e3d-96e2-da64d5d1b0ba/27_f01272_culture_vario_56_denim_2398_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Culture, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/bc/37/bc37bb59-6b66-4595-b17f-d18c304f8e46/27_f01272_culture_vario_56_bisquit_suskit_2398_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Culture, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01271/26_27_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Culture, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01271/73_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Culture, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01271/110_10_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Culture, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "display",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Culture Mixte",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4069,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Culture Mixte silent) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/culture-mixte/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "50",
+        "56",
+        "62"
+      ]
+    },
+    "weightKg": 21.8,
+    "gears": "Shimano Nexus, 8-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Tektro TRP disc brake",
+    "fork": "Suntour NCX 28\", tapered*",
+    "display": null,
+    "tires": "Schwalbe Big Ben 50-622",
+    "lighting": "Herrmans H-Black MR8 / Büchel Nano COB Stoptech, integrated in the mudguard*; Büchel Nano COB, integrated in the mudguard*",
+    "rackKg": 27,
+    "colours": [
+      "blossom",
+      "denim"
+    ],
+    "description": "Culture Mixte von Riese & Müller ist ein leichtes City-E-Bike mit tiefem Einstieg. Die günstigste Ausführung (silent) hat Bosch Performance Line SX und einen 400-Wh-Akku, Schaltung: Shimano Nexus, 8-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: silent ab CHF 4’069; vario ab CHF 4’249"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/31/29/3129ea1d-e2e7-4a65-b7cd-02a7f98b71a6/27_f01276_culture_mixte_silent_56_blossom_purion200_gptr_2502_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Culture Mixte, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ff/e5/ffe5ff4a-1d97-4489-81f6-f779811b8dd6/27_f01277_culture_mixte_vario_56_denim_2409_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Culture Mixte, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/a6/9d/a69df6d3-3190-41c9-bbc6-6b99961b0593/27_f01277_culture_mixte_vario_56_blossom_purion200_2409_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Culture Mixte, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01277/26_7_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Culture Mixte, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01277/73_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Culture Mixte, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01277/110_10_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Culture Mixte, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "display",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller UBN Five",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4435,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (UBN Five touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/ubn-five/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Fazua",
+      "model": "Ride 60",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 480,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "45",
+        "51",
+        "57"
+      ]
+    },
+    "weightKg": 19.5,
+    "gears": "Shimano Deore, 11-Gang-Kettenschaltung",
+    "brakes": "Tektro TRP disc brake",
+    "fork": "Suntour GVX32, 28\", Air, tapered, 60mm*",
+    "display": "Fazua LED Hub",
+    "tires": "Schwalbe Marathon Supreme 42-622; Schwalbe G-One 40-622*",
+    "lighting": "Supernova mini 2 / Busch & Müller XelTec LED; Busch & Müller Xeltec, integrated in the mudguard*",
+    "rackKg": 27,
+    "colours": [
+      "black matt",
+      "selva"
+    ],
+    "description": "UBN Five von Riese & Müller ist ein leichtes Urban-E-Bike. Die günstigste Ausführung (touring) hat Fazua Ride 60 und einen 480-Wh-Akku, Schaltung: Shimano Deore, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: commute ab CHF 4’900; touring ab CHF 4’435; singlespeed ab CHF 4’528; silent ab CHF 4’807"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/b5/81/b581c55d-5df6-4900-9731-c93677423119/25_f01415_ubn_five_commute_51_selva_pth_2703_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Five, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/7b/f7/7bf7bebf-80ac-40ac-a401-8f73c7767ad1/22_f00871_ubn_five_silent_51_blkmtt_0947_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Five, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/98/8c/988ce904-52a7-4f72-affe-3c23059027d4/22_f00872_ubn_five_singlespeed_51_selva_abus_0898_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Five, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01210/44_29_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Five, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01210/110_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Five, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01207/110_32_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Five, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller UBN Six",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4435,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (UBN Six touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/ubn-six/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Fazua",
+      "model": "Ride 60",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 480,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "45",
+        "51",
+        "57"
+      ]
+    },
+    "weightKg": 20.2,
+    "gears": "Shimano Deore, 11-Gang-Kettenschaltung",
+    "brakes": "Tektro TRP disc brake",
+    "fork": "Suntour NCX 28\", tapered*",
+    "display": "Fazua Control Hub",
+    "tires": "Schwalbe Marathon Supreme 50-622",
+    "lighting": "Supernova mini 2 / Busch & Müller Xeltec, integrated in the mudguard",
+    "rackKg": 27,
+    "colours": [
+      "black matt",
+      "night",
+      "pure white"
+    ],
+    "description": "UBN Six von Riese & Müller ist ein leichtes Urban-E-Bike. Die günstigste Ausführung (touring) hat Fazua Ride 60 und einen 480-Wh-Akku, Schaltung: Shimano Deore, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 4’435; silent ab CHF 4’807"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/55/3b/553b4376-c7b4-482f-9103-c2b888aa49de/24_f01215_ubn_six_var_45_night_gptr_komfort-kit_1900_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Six, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ce/73/ce73970d-b3b3-4abd-a53a-44537946896e/23_f00901_ubn_six_silent_51_purewhi_komfkit_0104_1860x1240.jpg__806x540_q90_crop_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Six, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/31/1f/311f714d-53ec-41e7-8d37-60799ea6d86b/23_f00900_ubn_six_tou_51_blkmtt_sus-kit_1311_1860x1240.jpg__806x540_q90_crop_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Six, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01214/111_8_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Six, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01214/44_11_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Six, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01214/110_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Six, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller UBN Seven",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4435,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (UBN Seven touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/ubn-seven/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Fazua",
+      "model": "Ride 60",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 480,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "45",
+        "51",
+        "57"
+      ]
+    },
+    "weightKg": 19.5,
+    "gears": "Shimano Deore, 11-Gang-Kettenschaltung",
+    "brakes": "Tektro TRP disc brake",
+    "fork": "Suntour GVX32, 28\", Air, tapered, 60mm*",
+    "display": "Fazua LED Hub",
+    "tires": "Schwalbe Marathon Supreme 42-622; Schwalbe G-One 40-622*",
+    "lighting": "Supernova mini 2 / Busch & Müller XelTec LED; Busch & Müller Xeltec, integrated in the mudguard*",
+    "rackKg": 27,
+    "colours": [
+      "pure white",
+      "rose"
+    ],
+    "description": "UBN Seven von Riese & Müller ist ein leichtes Urban-E-Bike. Die günstigste Ausführung (touring) hat Fazua Ride 60 und einen 480-Wh-Akku, Schaltung: Shimano Deore, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 4’435; silent ab CHF 4’807"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/09/7f/097f8ae7-fc5a-426f-9463-ac17e0b1e65f/22_f00874_ubn_seven_silent_51_purwhi_0942_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Seven, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/52/df/52dffac0-f7f6-4948-b2f4-9d2be8a831a2/24_f01218_ubn_seven_tou_51_rose_0907_1860x1240.jpg__806x540_q90_crop_subject_location-928%2C624_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Seven, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/06/af/06afab55-33b8-4010-b64f-d948661b8a4f/22_f00873_ubn_seven_tou_51_purwhi_suspkit_comfkit_abus_0888_1860x1240.jpg__806x540_q90_crop_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller UBN Seven, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01221/44_30_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Seven, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01221/111_8_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Seven, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01221/110_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller UBN Seven, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Multicharger3",
+    "modelYear": 2026,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4719,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Multicharger3 FAMILY) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/multicharger3/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "51"
+      ]
+    },
+    "weightKg": 30.1,
+    "gears": "Shimano Cues, 10-Gang Kettenschaltung",
+    "brakes": "Magura MT4, disc brake; Magura MT5, disc brake",
+    "fork": "SR Suntour Mobie35,  tapered, 80mm, Boost",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 65,
+    "colours": [
+      "desert/black matt",
+      "petrol/ black matt",
+      "utility grey/black matt",
+      "utility grey/curry matt"
+    ],
+    "description": "Multicharger3 von Riese & Müller ist ein Kompakt-Lastenrad für Alltag und Familie. Die günstigste Ausführung (FAMILY) hat Bosch Performance Line PX und einen 625-Wh-Akku, Schaltung: Shimano Cues, 10-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: FAMILY ab CHF 4’719; touring ab CHF 5’319; touring HS ab CHF 6’019; vario ab CHF 5’739; vario HS ab CHF 6’389; rohloff ab CHF 7’279; rohloff HS ab CHF 7’689",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/8c/e1/8ce16ba2-df38-4d35-b20d-3f204e29c582/26_f01685_mucha3_aut_51_ugrey_curry_0071_argb_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/a2/a1/a2a121b3-ce4c-4427-ac91-8d90945e2ea6/26_f01680_mucha3_family_51_ptrl-blk_2732_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ee/fe/eefecba5-a1b5-49e4-872a-9d57fc1942da/26_f01686_mucha3_roh_desert-blk_passkit_offkit_0876_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/4e/9a/4e9a6ade-4038-4983-a19e-2b24c6e3291a/26_f01681_mucha3_tou_51_ugrey-blk_0071_1860x1240.jpg__806x540_q90_crop_subject_location-928%2C624_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01682/121_19_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01682/121_16_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Multicharger3 Mixte",
+    "modelYear": 2026,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4719,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Multicharger3 Mixte FAMILY) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/multicharger3-mixte/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "47",
+        "51"
+      ]
+    },
+    "weightKg": 30.1,
+    "gears": "Shimano Cues, 10-Gang Kettenschaltung",
+    "brakes": "Magura MT4, disc brake; Magura MT5, disc brake",
+    "fork": "SR Suntour Mobie35,  tapered, 80mm, Boost",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 65,
+    "colours": [
+      "desert/black matt",
+      "pearl white/black matt",
+      "utility grey/black matt",
+      "utility grey/curry matt"
+    ],
+    "description": "Multicharger3 Mixte von Riese & Müller ist ein Kompakt-Lastenrad mit tieferem Einstieg. Die günstigste Ausführung (FAMILY) hat Bosch Performance Line PX und einen 625-Wh-Akku, Schaltung: Shimano Cues, 10-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: FAMILY ab CHF 4’719; touring ab CHF 5’319; touring HS ab CHF 6’019; vario ab CHF 5’739; vario HS ab CHF 6’389; rohloff ab CHF 7’279; rohloff HS ab CHF 7’689",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/b7/00/b7000f18-eaf5-4fcd-b749-2860fc167d6e/26_f01693_mucha3_mixte_var_47_desert-blk_0514_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3 Mixte, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/4c/04/4c04f945-7089-41ca-8258-1e096e6df413/26_f01693_mucha3_mixte_var_47_prlwhi-blk_0514_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3 Mixte, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/bf/36/bf360d74-b1da-4649-ba0b-cef4f491796f/26_f01693_mucha3_mixte_var_47_ugry-curry_0514_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3 Mixte, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01690/25_4.jpg",
+        "alt": "Riese & Müller Multicharger3 Mixte, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01691/121_12_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3 Mixte, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01691/121_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Multicharger3 Mixte, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Multitinker2",
+    "modelYear": 2026,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5179,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Multitinker2 FAMILY) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/multitinker2/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 35.8,
+    "gears": "Shimano Nexus, 5-Gang-Nabenschaltung",
+    "brakes": "Magura MT5, disc brake",
+    "fork": "Suntour Mobie 34 CGO Boost, 20\", 80mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe AV17",
+    "lighting": "Supernova mini 2 Pro / Axa Juno Signal LED*",
+    "rackKg": 70,
+    "colours": [
+      "lava/black",
+      "olive/black",
+      "petrol/black",
+      "utility grey/black",
+      "utility grey/curry"
+    ],
+    "description": "Multitinker2 von Riese & Müller ist ein Longtail-Lastenrad. Die günstigste Ausführung (FAMILY) hat Bosch Performance Line PX und einen 625-Wh-Akku, Schaltung: Shimano Nexus, 5-Gang-Nabenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: FAMILY ab CHF 5’179; touring ab CHF 5’649; vario ab CHF 6’109; automatic ab CHF 6’439"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/69/cd/69cd88ed-ccee-4602-9803-7fed26047461/27_f01960_mutin2_fam_lava-blk_1182_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multitinker2, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/35/8e/358e755b-fe45-48fa-b914-4bbc4c8851bc/27_f01963_mutin2_var_olive-blk_passkit_frontmiktasche_1120_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multitinker2, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/44/f9/44f980c3-4b3e-43b0-8429-0dd8abc0bf65/27_f01964_mutin2_aut_petrol-blk_1446_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multitinker2, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/35/a7/35a7baa9-216b-49b8-8e80-ce1a52fe623e/27_f01963_mutin2_var_ugrey-curry_1446_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Multitinker2, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01964/121_20_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Multitinker2, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01964/121_19_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Multitinker2, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Carrie2",
+    "modelYear": 2026,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6089,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Carrie2 FAMILY) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/carrie2/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 545,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 46.7,
+    "gears": "Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb",
+    "brakes": "Magura MT C",
+    "fork": "SR Suntour Mobie A32 CGO, 20\", 50mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe AV17",
+    "lighting": "Supernova mini 2 / Supernova TL3 Z",
+    "rackKg": 27,
+    "colours": [
+      "anise",
+      "aqua",
+      "coral",
+      "denim",
+      "shadow"
+    ],
+    "description": "Carrie2 von Riese & Müller ist ein Kompakt-Lastenrad. Die günstigste Ausführung (FAMILY) hat Bosch Performance Line PX und einen 545-Wh-Akku, Schaltung: Shimano Nexus, 5-Gang-Nabenschaltung, Riemenantrieb. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: FAMILY ab CHF 6’089; vario ab CHF 6’269; touring HS ab CHF 7’199",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/55/78/5578fef2-b45e-45b5-a67b-8a60c8e3c53a/27_f01870_carrie2_family_coral_1813_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Carrie2, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/d6/a6/d6a6d297-40d9-4d30-9038-ab5ace756715/27_f01871_carrie2_tou_hs_denim_cargokit_2090_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Carrie2, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/90/93/9093a6a6-a011-47d9-b9ce-21c09163aa23/27_f01873_carrie2_var_aqua_famkitplus_1847_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Carrie2, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/24/13/2413ced8-700d-4470-9e3a-233fe93cdd45/27_f01873_carrie2_var_shadow_cargobag_1847_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Carrie2, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01870/25_2.jpg",
+        "alt": "Riese & Müller Carrie2, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01873/121_13_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Carrie2, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Load5 60",
+    "modelYear": 2027,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7389,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Load5 60 touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/load5-60/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Cargo Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 725,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 35.5,
+    "gears": "Shimano XT, 11-Gang-Kettenschaltung",
+    "brakes": "Tektro TRP C 2.3 disc brake; Magura MT C ABS*; Magura MT5, disc brake*",
+    "fork": "SR Suntour Mobie 34 CGO Boost, 20\"; SR Suntour Mobie 34 L Air CGO Boost, 20\", 80mm*",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13; Schwalbe AV17; Schwalbe Motion Smart Sam Cargo 60-406 Reflex*; Schwalbe Motion Smart Sam Cargo 60-559 Reflex*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova TL3 Pro, integrated brake light",
+    "rackKg": 15,
+    "colours": [
+      "arctic",
+      "coal grey",
+      "peanut",
+      "tundra grey"
+    ],
+    "description": "Load5 60 von Riese & Müller ist ein Cargobike mit 60er Ladefläche. Die günstigste Ausführung (touring) hat Bosch Cargo Line und einen 725-Wh-Akku, Schaltung: Shimano XT, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 7’389; touring HS ab CHF 7’989; vario ab CHF 7’949; pinion ab CHF 8’919; pinion HS ab CHF 9’289; rohloff ab CHF 9’429; rohloff HS ab CHF 10’039",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/6d/5f/6d5f5362-f3de-41c3-b234-2148baf26308/27_f01970_load5_60_var_arctic_offkit_famkit_droppost_0604_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 60, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/e9/24/e9247766-2f7c-4131-8c2d-c71b2cafc1ac/27_f01971_load5_60_pinion_peanut_perfkit_ibs_dualbat_dogkit_offkit_gptr_2215_1860x1240.jpg__806x540_q90_crop_subject_location-820%2C574_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 60, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/70/31/7031cb5a-f4b8-4253-b58e-c5ca47274692/27_f01971_load5_60_roh_tugry_kiox500_offkit_abs_cargokit_dualbatt_droppost_2096_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 60, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/2c/ae/2caedbf8-ab24-4417-97f7-962d669b7c68/27_f01968_load5_60_tou_colgrey_2389_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 60, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01969/121_12_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Load5 60, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01973/121_14_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Load5 60, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Load5 75",
+    "modelYear": 2026,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7569,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Load5 75 touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/load5-75/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Cargo Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 725,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 36,
+    "gears": "Shimano XT, 11-Gang-Kettenschaltung",
+    "brakes": "Tektro TRP C 2.3 disc brake; Magura MT C ABS*; Magura MT5, disc brake*",
+    "fork": "SR Suntour Mobie 34 CGO Boost, 20\"; SR Suntour Mobie 34 L Air CGO Boost, 20\", 80mm*",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13; Schwalbe AV17; Schwalbe Motion Smart Sam Cargo 60-406 Reflex*; Schwalbe Motion Smart Sam Cargo 60-559 Reflex*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova TL3 Pro, integrated brake light",
+    "rackKg": 15,
+    "colours": [
+      "arctic",
+      "coal grey",
+      "peanut",
+      "tundra grey"
+    ],
+    "description": "Load5 75 von Riese & Müller ist ein Cargobike mit 75er Ladefläche. Die günstigste Ausführung (touring) hat Bosch Cargo Line und einen 725-Wh-Akku, Schaltung: Shimano XT, 11-Gang-Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 7’569; touring HS ab CHF 8’179; vario ab CHF 8’129; pinion ab CHF 9’109; pinion HS ab CHF 9’479; rohloff ab CHF 9’619; rohloff HS ab CHF 10’219",
+      "Mit HS-Varianten (Speed-Pedelec, 45 km/h) erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/7e/82/7e8286a9-e5d0-4ea3-b404-beb997f379b5/27_f01971_load5_75_pinion_arctic_perfkit_ibs_cargokit_2218_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 75, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/a8/a7/a8a7ddc8-153a-426c-b2c4-a567e3314b65/27_f01980_load5_75_var_peanut_dualbatt_offkit_famkitplus_droppost_1334_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 75, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ca/78/ca781634-6c8e-4e0d-90cc-b8010a737e82/27_f01981_load5_75_roh_tugry_1057_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 75, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/76/a7/76a7fd7e-9392-4b50-9d13-625f6d5c9d6e/27_f01978_load5_75_tou_colgrey_kiox500_famkitplus_overdeck_1376_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Load5 75, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01979/121_12_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Load5 75, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01983/121_16_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Load5 75, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Packster2 70",
+    "modelYear": 2025,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 6359,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Packster2 70 FAMILY) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/packster2-70/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Cargo Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 41.1,
+    "gears": "Shimano Cues, 10-Gang Kettenschaltung",
+    "brakes": "Tektro Auriga Comp HD-500, disc brake",
+    "fork": "Suntour Mobie 34 CGO Boost, 20\", 80mm",
+    "display": "Bosch Purion 200",
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13; Schwalbe AV17",
+    "lighting": "Supernova mini 2 / Axa Juno Signal LED",
+    "rackKg": 27,
+    "colours": [
+      "chili matt",
+      "urban grey matt",
+      "white"
+    ],
+    "description": "Packster2 70 von Riese & Müller ist ein Cargobike mit Kindertransport-Option. Die günstigste Ausführung (FAMILY) hat Bosch Cargo Line und einen 625-Wh-Akku, Schaltung: Shimano Cues, 10-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: FAMILY ab CHF 6’359; touring ab CHF 6’639; vario ab CHF 7’199; automatic ab CHF 7’569"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/44/a3/44a37530-578d-4077-9518-0f0bf042fdd6/25_f01351_pac2_70_fam_white_6004_buggy-offen_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/8d/b0/8db0d00e-e2e7-4c31-b746-cd2e6596be8e/25_f01354_pac2_70_aut_chilmtt_gx_kiox300_kisi_verdeck_geschlossen_6195_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/1b/8f/1b8fb972-be13-4f89-9605-4087d7b17132/25_f01353_pac2_70_var_urbgrymtt_intuvia100_komfort-kit_persenning_0125_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01654/116_13_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01654/70_15_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01654/70_18_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Packster2 70 CT",
+    "modelYear": 2025,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7569,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Packster2 70 CT touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/packster2-70-ct/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Cargo Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 41.1,
+    "gears": "Shimano Cues, 11-Gang Kettenschaltung",
+    "brakes": "Tektro TRP C 2.3 disc brake; Magura MT C ABS*",
+    "fork": "Suntour Mobie 34 CGO Boost, 20\", 80mm",
+    "display": "Bosch Intuvia 100",
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13; Schwalbe AV17; Schwalbe 20\" Smart Sam Plus 60-406 ECE-R75*; Schwalbe Smart Sam Plus 57-559 Reflex*",
+    "lighting": "Supernova M99 Mini Pro-25 / Supernova TL3 Pro, integrated brake light",
+    "rackKg": 15,
+    "colours": [
+      "chili matt",
+      "urban grey matt",
+      "white"
+    ],
+    "description": "Packster2 70 CT von Riese & Müller ist ein Cargobike mit Kippmechanik (Controlled Tilt). Die günstigste Ausführung (touring) hat Bosch Cargo Line und einen 750-Wh-Akku, Schaltung: Shimano Cues, 11-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 7’569; vario ab CHF 8’129; automatic ab CHF 8’499"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/29/a0/29a09472-9516-4968-bad4-e84139405a9e/25_f01355_pac2_70_ct_tou_urbgrymtt_kiox300_gx_persenning_2086_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70 CT, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/fa/fd/fafd7970-9a1a-409e-9819-35f90a9881c3/25_f01356_pac2_70_ct_var_white_buggy_2496_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70 CT, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/a9/c0/a9c0b607-5adb-40ad-ade4-e3cd74f15bfa/25_f01357_pac2_70_ct_aut_chilmtt_high-box-cover_2496_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70 CT, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01657/25_2.jpg",
+        "alt": "Riese & Müller Packster2 70 CT, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01656/116_14_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70 CT, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01656/70_16_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Packster2 70 CT, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.type",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Transporter2 65",
+    "modelYear": 2025,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5249,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Transporter2 65 touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/transporter2-65/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 545,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 45,
+    "gears": "Shimano Cues, 10-Gang Kettenschaltung",
+    "brakes": "Tektro Auriga Comp HD-500, disc brake",
+    "fork": "SR Suntour Mobie A32, 20\", 50mm",
+    "display": null,
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13",
+    "lighting": "Supernova mini 2 / Büchel Z-Fire Mini; Busch & Müller Toplight 2C LED*",
+    "rackKg": 20,
+    "colours": [
+      "black",
+      "true white"
+    ],
+    "description": "Transporter2 65 von Riese & Müller ist ein Lastenrad für Transporte. Die günstigste Ausführung (touring) hat Bosch Performance Line und einen 545-Wh-Akku, Schaltung: Shimano Cues, 10-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 5’249; vario ab CHF 5’619"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/ac/66/ac66d989-b0cd-48c5-885d-658e5807364b/24_f01243_transporter2_65_var_white_725wh_box_kinderverdeck_gptr_0637_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 65, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/dc/d8/dcd8f843-6030-4dcf-92e7-2fe3904bcc59/27_f01242_transporter2_65_tou_black_1839_1860x1240.jpg__806x540_q90_crop_subject_location-928%2C624_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 65, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/15/3b/153b3643-eeef-4f7e-bdee-604befffc128/24_f01243_transporter2_65_var_white_725wh_box_persenning_gptr_0631_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 65, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01243/78_8_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 65, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01243/70_10_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 65, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01243/70_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 65, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "display",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "riese-mueller",
+    "name": "Riese & Müller Transporter2 85",
+    "modelYear": 2025,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5429,
+    "priceNote": "Einstiegspreis \"ab CHF\" der günstigsten Variante (Transporter2 85 touring) laut r-m.de/de-ch, abgerufen 2026-10-30; weitere Varianten siehe features. Modelljahr aus Bilddateinamen (myYYYY) abgeleitet.",
+    "sourceUrl": "https://www.r-m.de/de-ch/bikes/transporter2-85/",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 545,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": [
+        "Universal"
+      ]
+    },
+    "weightKg": 49,
+    "gears": "Shimano Cues, 10-Gang Kettenschaltung",
+    "brakes": "Tektro Auriga Comp HD-500, disc brake",
+    "fork": "SR Suntour Mobie A32, 20\", 50mm",
+    "display": null,
+    "tires": "Schwalbe Motion Pick Up 60-406 Reflex; Schwalbe Motion Super Moto-X 55-559 Reflex; Schwalbe AV13",
+    "lighting": "Supernova mini 2 / Büchel Z-Fire Mini; Busch & Müller Toplight 2C LED*",
+    "rackKg": 20,
+    "colours": [
+      "black",
+      "true white"
+    ],
+    "description": "Transporter2 85 von Riese & Müller ist ein Lastenrad für Transporte (grössere Ladefläche). Die günstigste Ausführung (touring) hat Bosch Performance Line und einen 545-Wh-Akku, Schaltung: Shimano Cues, 10-Gang Kettenschaltung. Es gibt mehrere Antriebs- und Schaltungsvarianten.",
+    "features": [
+      "Varianten: touring ab CHF 5’429; vario ab CHF 5’809"
+    ],
+    "images": [
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/c4/c5/c4c55ac9-4b64-4fe7-9eb0-92cbf99dd51e/27_f01248_transporter2_85_var_white_box_flatcover_0811_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 85, Produktfoto 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/51/0b/510b82b0-defc-464a-af19-e45dc6758ce8/27_f01247_transporter2_85_tou_black_0617_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 85, Produktfoto 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/filer_public_thumbnails/filer_public/7a/91/7a9146b9-8af3-4269-850d-08d31ba2dcd2/27_f01248_transporter2_85_var_white_box_highcover_0817_1860x1240.jpg__806x540_q90_crop_subject_location-840%2C560_subsampling-2_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 85, Produktfoto 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01247/78_8_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 85, Produktfoto 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01248/78_9_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 85, Produktfoto 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://assets.r-m.de/cms/media/bikes/F01248/78_10_detail.jpg.695x464_q85_upscale.jpg",
+        "alt": "Riese & Müller Transporter2 85, Produktfoto 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "frame.material",
+      "frame.type",
+      "display",
+      "battery.removable"
+    ]
+  }
+]

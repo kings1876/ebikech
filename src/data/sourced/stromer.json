@@ -1,0 +1,426 @@
+[
+  {
+    "brandId": "stromer",
+    "name": "Stromer ST1",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: ab 5565 EUR",
+    "sourceUrl": "https://www.stromerbike.com/en/bikes/st1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Stromer",
+      "model": "CYRO Drive II (670 W)",
+      "torqueNm": 35
+    },
+    "battery": {
+      "wh": 983,
+      "removable": null
+    },
+    "rangeKm": 180,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Microshift 9-Gang 11-42",
+    "brakes": "Stromer HD922 (Tektro), 2-Kolben, 203 mm",
+    "fork": null,
+    "display": "OMNI C",
+    "tires": "Stromer Custom TA754 (Vee Tire) 54-584",
+    "lighting": "Roxim Z4 Elite 600 lm, Roxim R3E mit Bremslicht",
+    "rackKg": 22.5,
+    "colours": [
+      "Dark Grey",
+      "Deep Petrol"
+    ],
+    "description": "Einstiegsmodell der Stromer-S-Pedelecs mit 983-Wh-Akku und 9-Gang-Kettenschaltung. Unterstützung bis 45 km/h, Reichweite laut Hersteller bis 180 km.",
+    "features": [
+      "Bis 45 km/h (EU L1e-B)",
+      "Racktime-Gepäckträger bis 22,5 kg",
+      "Tagfahrlicht"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/40ff052b242ce71555d9760ea15b62cca9efb1f6-1414x942.jpg",
+        "alt": "Stromer ST1 Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/642714f78e799a41a6fc0ba08c75bf15e497e25e-3464x2309.jpg",
+        "alt": "Stromer ST1 Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/a2cfebc4090c6330526c6328bc0fe867350a9f77-1280x720.png",
+        "alt": "Stromer ST1 Detail",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/4900bc87b182e8d11119cb2b3472a28588ab371d-1130x631.png",
+        "alt": "Stromer ST1 Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/b798b93b065e663f0e5797604c4c8801c3d7fc53-1280x720.png",
+        "alt": "Stromer ST1 Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/7657e4415d59324c740e249f5497554be655e607-3464x2309.jpg",
+        "alt": "Stromer ST1 Detail Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "weightKg",
+      "fork",
+      "frame.material",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "stromer",
+    "name": "Stromer ST2",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: ab 6890 EUR",
+    "sourceUrl": "https://www.stromerbike.com/en/bikes/st2",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Stromer",
+      "model": "CYRO Drive 3 (750 W)",
+      "torqueNm": 40
+    },
+    "battery": {
+      "wh": 983,
+      "removable": null
+    },
+    "rangeKm": 180,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Pinion C1.6, 6-Gang, Riemenantrieb",
+    "brakes": "Stromer HD922 (Tektro), 2|2-Kolben, 203/203 mm",
+    "fork": null,
+    "display": "OMNI C",
+    "tires": "Pirelli Angel GT Urban 57-584",
+    "lighting": "Roxim Z4E Pro 700 lm, Roxim R3E mit Bremslicht",
+    "rackKg": 22.5,
+    "colours": [
+      "Dark Grey",
+      "Moon Grey"
+    ],
+    "description": "S-Pedelec mit wartungsarmem Pinion-6-Gang-Getriebe und Riemenantrieb. 983-Wh-Akku, Unterstützung bis 45 km/h.",
+    "features": [
+      "Pinion C1.6 6-Gang",
+      "Riemenantrieb",
+      "Bis 45 km/h (EU L1e-B)"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/fe1aa6d17faea29ed9de9068684dc3fc16f9cdf7-1526x1017.jpg",
+        "alt": "Stromer ST2 Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/bb5054823b5a47eb7ceaffd9352ade8179b67ce8-1441x960.jpg",
+        "alt": "Stromer ST2 Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/0d11db98b1966378fcbf79a6cbda51b37db3907a-1474x982.jpg",
+        "alt": "Stromer ST2 Detail",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/04872ccc795c950dd839073c343bab629addf9a0-6122x3443.png",
+        "alt": "Stromer ST2 Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/d590847ac1facc7c6155959033a616376e36d923-5031x7543.jpg",
+        "alt": "Stromer ST2 Gesamtansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "weightKg",
+      "fork",
+      "frame.material",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "stromer",
+    "name": "Stromer ST3",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: 8882 EUR",
+    "sourceUrl": "https://www.stromerbike.com/en/bikes/st3",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Stromer",
+      "model": "SYNO Drive II (820 W)",
+      "torqueNm": 44
+    },
+    "battery": {
+      "wh": 983,
+      "removable": null
+    },
+    "rangeKm": 180,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Pinion C1.9 XR, 9-Gang, Riemenantrieb",
+    "brakes": "Stromer HD942 (TRP), 4-Kolben, ABS, 203/203 mm",
+    "fork": null,
+    "display": "OMNI C",
+    "tires": "Pirelli Angel ST Urban 57-584",
+    "lighting": "Roxim Z4E Pro 700 lm, Roxim R3E mit Bremslicht",
+    "rackKg": 22.5,
+    "colours": [
+      "Cool White",
+      "Deep Black"
+    ],
+    "description": "S-Pedelec mit Pinion-9-Gang-Getriebe, Riemenantrieb und ABS-Vierkolbenbremsen. Akku 983 Wh, Reichweite laut Hersteller bis 180 km, Unterstützung bis 45 km/h.",
+    "features": [
+      "Pinion C1.9 XR 9-Gang",
+      "ABS",
+      "Bis 45 km/h (EU L1e-B)",
+      "Rahmen Sport oder Comfort"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/d201c1b9a5807103057c8b909d9c6fe35e0e38b4-1348x898.jpg",
+        "alt": "Stromer ST3 Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/b7f4dd3f77a2feebf41a8f400d2ef02c67e48480-2844x1896.png",
+        "alt": "Stromer ST3 Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/9cf573e157467219a3844c6ca23861f5fd588cc0-1447x965.jpg",
+        "alt": "Stromer ST3 Detail",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/5d5f833f72d6fa0bdb4c2e65d46a3d76febba924-8192x5464.jpg",
+        "alt": "Stromer ST3 Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/a361a73c9c94c1fb77b45f1f88fef12511ac9dcd-8192x5464.jpg",
+        "alt": "Stromer ST3 Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/af5c4e6f5a88ec375f5e01889ae9fb914d1a5c07-8192x5464.jpg",
+        "alt": "Stromer ST3 Detail Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "weightKg",
+      "fork",
+      "frame.material",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "stromer",
+    "name": "Stromer ST5",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: ab 10990 EUR",
+    "sourceUrl": "https://www.stromerbike.com/en/bikes/st5",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Stromer",
+      "model": "SYNO Sport (850 W)",
+      "torqueNm": 48
+    },
+    "battery": {
+      "wh": 983,
+      "removable": null
+    },
+    "rangeKm": 180,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Pinion C1.9 XR, 9-Gang, Smart.Shift, Riemenantrieb",
+    "brakes": "Stromer HD944 (TRP), 4-Kolben, ABS, 203/203 mm",
+    "fork": null,
+    "display": "OMNI C",
+    "tires": "Pirelli Angel ST Sport 57-584",
+    "lighting": "Supernova M99 Pro 2 (1200/1900 lm), Supernova M99 Rücklicht",
+    "rackKg": 22.5,
+    "colours": [
+      "Aventurine Green"
+    ],
+    "description": "Sportliches S-Pedelec mit Pinion-9-Gang-Getriebe samt elektrischer Smart.Shift-Schaltung. ABS-Bremsen und Supernova-Licht, Akku 983 Wh, bis 45 km/h.",
+    "features": [
+      "Smart.Shift",
+      "ABS",
+      "Supernova M99 Pro 2",
+      "Bis 45 km/h (EU L1e-B)"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/7c2450b1be29ee38bc260e602424415603fc1142-3500x2333.png",
+        "alt": "Stromer ST5 Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/990d1e1b01b30da7d5143746d92ecd454d087cce-3500x2333.png",
+        "alt": "Stromer ST5 Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/1525491e29b8711927480263c50826eefb96ab63-3500x2333.png",
+        "alt": "Stromer ST5 Detail",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/dc6aa8fde62212035e1c39d3c64ec832cf2a2926-1778x1000.jpg",
+        "alt": "Stromer ST5 Fahrszene",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "weightKg",
+      "fork",
+      "frame.material",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "stromer",
+    "name": "Stromer ST7",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: 12990 EUR Liste",
+    "sourceUrl": "https://www.stromerbike.com/en/bikes/st7",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Stromer",
+      "model": "SYNO Sport II (940 W)",
+      "torqueNm": 52
+    },
+    "battery": {
+      "wh": 1440,
+      "removable": null
+    },
+    "rangeKm": 260,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Pinion C1.12 Smart.Shift, 12-Gang, Riemenantrieb",
+    "brakes": "TRP HD944, 4-Kolben, ABS, 203/203 mm",
+    "fork": null,
+    "display": "OMNI C",
+    "tires": "Pirelli Angel ST Sport 57-584",
+    "lighting": "Supernova M99 Pro 2 (1200/1900 lm), M99 Rücklicht",
+    "rackKg": 22.5,
+    "colours": [
+      "Platinum Grey"
+    ],
+    "description": "Topmodell der Stromer-Reihe mit 1440-Wh-Akku und Pinion-12-Gang-Smart.Shift-Getriebe. Reichweite laut Hersteller bis 260 km, Unterstützung bis 45 km/h, integrierter Lenker.",
+    "features": [
+      "Pinion C1.12 Smart.Shift",
+      "ABS",
+      "Integrierter Lenker",
+      "Bis 45 km/h (EU L1e-B)"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/e112070fb4ffe822478055ef36a51792b9ccf547-1350x900.jpg",
+        "alt": "Stromer ST7 Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/43935053d83e031b258e4ad41f27e637e43b9939-1350x900.jpg",
+        "alt": "Stromer ST7 Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/24a40bf6c46471595314472ea4c0412639fb4fe0-1583x1055.jpg",
+        "alt": "Stromer ST7 Detail",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/fc2deac0d8dae6f4704c4ce566bcc42fcb47c65c-1127x1578.png",
+        "alt": "Stromer ST7 Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.sanity.io/images/odfp6kjd/production/4ce828b0a0763ec9037148ad879614da38e462cc-1778x1000.jpg",
+        "alt": "Stromer ST7 Gesamtansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "weightKg",
+      "fork",
+      "frame.material",
+      "priceCHF"
+    ]
+  }
+]

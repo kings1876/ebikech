@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { BrandDef, CategoryDef, Language, Product } from '../types';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
-import { ALL_PRODUCTS } from '../data/productsGenerator';
+import { ALL_PRODUCTS } from '../data/products';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount } from '../utils/routes';
 import { ProductCard } from '../components/ProductCard';
 import { I18N } from '../data/i18n';
@@ -143,14 +143,14 @@ export function BrandHubView({
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
               <div className="text-red-600 font-bold text-xs uppercase tracking-wider">
-                {brand.name} · {category.name[lang]}
+                {brand.name} Â· {category.name[lang]}
               </div>
               <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
                 {brand.name} {category.name[lang]} Schweiz
               </h1>
               <p className="text-xs sm:text-sm text-slate-600 max-w-2xl mt-1">
                 {lang === 'fr'
-                  ? `Tous les modèles ${brand.name} du segment ${category.name[lang]} avec prix en CHF et tests TCS.`
+                  ? `Tous les modÃ¨les ${brand.name} du segment ${category.name[lang]} avec prix en CHF et tests TCS.`
                   : lang === 'it'
                   ? `Tutti i modelli ${brand.name} nel segmento ${category.name[lang]} con prezzi in CHF e recensioni TCS.`
                   : `Alle ${brand.name} Modelle im Segment ${category.name[lang]} mit Schweizer Fachhandelspreisen und TCS-Bewertungen.`}
@@ -234,7 +234,7 @@ export function BrandHubView({
             </span>
             {brand.isSwiss && (
               <span className="px-2.5 py-0.5 rounded-full bg-white text-slate-900">
-                🇨🇭 {lang === 'fr' ? 'Marque suisse' : lang === 'it' ? 'Marchio svizzero' : 'Schweizer Traditionsmarke'}
+                ðŸ‡¨ðŸ‡­ {lang === 'fr' ? 'Marque suisse' : lang === 'it' ? 'Marchio svizzero' : 'Schweizer Traditionsmarke'}
               </span>
             )}
             <span className="text-slate-400">
@@ -269,7 +269,7 @@ export function BrandHubView({
         </div>
       </div>
 
-      {/* Brand × Type Category Hub (Demonstrates the >=3 products rule) */}
+      {/* Brand Ã— Type Category Hub (Demonstrates the >=3 products rule) */}
       <div className="space-y-4">
         <div>
           <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">
@@ -365,7 +365,7 @@ function BrandCard({ brand, lang, onNavigate }: { brand: BrandDef; lang: Languag
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <span className="text-lg font-black text-slate-900">{brand.name}</span>
-            {brand.isSwiss && <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">🇨🇭 CH</span>}
+            {brand.isSwiss && <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">ðŸ‡¨ðŸ‡­ CH</span>}
           </div>
           <span className="font-mono text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
             {brand.targetCount} {I18N[lang].header.models}
@@ -383,7 +383,7 @@ function BrandCard({ brand, lang, onNavigate }: { brand: BrandDef; lang: Languag
       </div>
 
       <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600">
-        <span>{lang === 'fr' ? 'Voir la marque & modèles' : lang === 'it' ? 'Vedi pagina marchio & modelli' : 'Markenseite & Modelle ansehen'}</span>
+        <span>{lang === 'fr' ? 'Voir la marque & modÃ¨les' : lang === 'it' ? 'Vedi pagina marchio & modelli' : 'Markenseite & Modelle ansehen'}</span>
         <ChevronRight className="w-4 h-4" />
       </div>
     </div>

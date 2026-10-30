@@ -42,7 +42,7 @@ export interface BrandDef {
 }
 
 export type SpeedClass = 'e-bike-25' | 'e-bike-45';
-export type MotorBrand = 'Bosch' | 'Shimano Steps' | 'Brose' | 'Yamaha' | 'Fazua' | 'Stromer CYRO' | 'Specialized' | 'TQ' | 'Mahle';
+export type MotorBrand = 'Bosch' | 'Shimano Steps' | 'Brose' | 'Yamaha' | 'Fazua' | 'Stromer CYRO' | 'Specialized' | 'TQ' | 'Mahle' | 'Other';
 export type BatteryBracket = '<500' | '500-625' | '625-750' | '>750';
 export type FrameType = 'diamond' | 'step-through' | 'trapeze';
 export type FrameSize = 'XS' | 'S' | 'M' | 'L' | 'XL';
@@ -92,15 +92,15 @@ export interface Product {
   priceCHF: number;
   motorBrand: MotorBrand;
   motorModel: string;
-  torqueNm: number;
+  torqueNm: number | null;
   batteryWh: number;
   batteryBracket: BatteryBracket;
   batteryRemovable: boolean;
-  rangeKmEst: { min: number; max: number };
+  rangeKmEst?: { min: number; max: number };
   frameType: FrameType;
-  frameMaterial: 'Aluminium' | 'Carbon';
-  frameSizes: FrameSize[];
-  weightKg: number;
+  frameMaterial: string;
+  frameSizes: string[];
+  weightKg: number | null;
   useCase: UseCase[];
   priceBracket: PriceBracket;
   imageUrl: string;
@@ -109,12 +109,11 @@ export interface Product {
   userReviews: UserReview[];
   ratingAverage: number;
   reviewCount: number;
-  trustpilotStats: {
+  trustpilotStats?: {
     score: number;
     reviewCount: number;
     badgeText: LocalizedString;
   };
-  inStockSwissDealers: number;
   year: number;
   specs: {
     gears: string;
@@ -125,6 +124,16 @@ export interface Product {
     lighting: string;
     cargoRackKg?: number;
   };
+  // Real-product sourcing data
+  description?: string;
+  features?: string[];
+  colours?: string[];
+  sourceUrl: string;
+  priceNote?: string;
+  /** True when the sourced price is a "from" (ab) price for the cheapest variant. */
+  priceFrom?: boolean;
+  /** Official manufacturer image URLs. Not displayed until usage rights are confirmed. */
+  imageSources: { url: string; alt: string }[];
 }
 
 export interface FacetFilters {

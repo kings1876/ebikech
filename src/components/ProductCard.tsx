@@ -160,7 +160,7 @@ export function ProductCard({
           <div className="grid grid-cols-2 gap-1.5 my-3 text-[11px] text-slate-600">
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.torque}>
               <Zap className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-              <span className="truncate">{product.motorBrand} {product.torqueNm}Nm</span>
+              <span className="truncate">{product.motorBrand}{product.torqueNm ? ` ${product.torqueNm}Nm` : ''}</span>
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.battery}>
               <Battery className="w-3.5 h-3.5 text-blue-500 shrink-0" />
@@ -168,7 +168,7 @@ export function ProductCard({
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.weight}>
               <Weight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-              <span>{product.weightKg} kg</span>
+              <span>{product.weightKg ? `${product.weightKg} kg` : '–'}</span>
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.frame}>
               <span className="text-slate-400 font-bold shrink-0">◇</span>
@@ -183,12 +183,9 @@ export function ProductCard({
         <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
           <div>
             <div className="text-base font-black text-slate-900 font-mono tracking-tight">
-              CHF {product.priceCHF.toLocaleString('de-CH')}.-
+              {product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
             </div>
-            <div className="text-[10px] text-emerald-700 font-medium flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-              <span>{product.inStockSwissDealers} {tCard.dealersInStock}</span>
-            </div>
+            <div className="text-[10px] text-slate-500 font-medium">UVP · {product.year}</div>
           </div>
 
           <button

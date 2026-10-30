@@ -1,0 +1,1381 @@
+[
+  {
+    "brandId": "merida",
+    "name": "Merida LITHOS 10K",
+    "modelYear": 2027,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5725/lithos-10k",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX-R",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "weightKg": 24.8,
+    "gears": "SRAM X0 Eagle Transmission AXS, 12-Gang",
+    "brakes": "SRAM Maven Ultimate, 4-Kolben",
+    "fork": "Fox Podium Factory, 170 mm",
+    "display": "Bosch Kiox 400C",
+    "tires": "Continental Kryptotal-F 29x2.4 / Kryptotal-R 27.5x2.4",
+    "lighting": "Litemove SC160 vorne, Chance Good CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Grey / Wild Honey"
+    ],
+    "description": "Carbon-Enduro-E-MTB mit Bosch CX-R Motor und 800-Wh-Akku. Gemischte Laufradgroessen 29/27.5 Zoll, 170 mm Federweg vorne.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2027/LITHOS_10K_gryhon_MY27.tif?p1",
+        "alt": "Merida LITHOS 10K Seitenansicht in Grey / Wild Honey",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida LITHOS 8000",
+    "modelYear": 2027,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5726/lithos-8000",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX-R",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "weightKg": 25.5,
+    "gears": "SRAM GX Eagle Transmission AXS, 12-Gang",
+    "brakes": "SRAM Maven Bronze, 4-Kolben",
+    "fork": "RockShox Zeb Ultimate, 170 mm",
+    "display": "Bosch Kiox 400C",
+    "tires": "Continental Kryptotal-F 29x2.4 / Kryptotal-R 27.5x2.4",
+    "lighting": "Litemove SC160 vorne, Chance Good CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Halo Green / Wildberry"
+    ],
+    "description": "Carbon-Enduro-E-MTB der Lithos-Reihe mit Bosch CX-R Motor und 800-Wh-Akku. Ausgestattet mit elektronischer SRAM-Transmission.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2027/LITHOS_8000_grnber_MY27.tif?p1",
+        "alt": "Merida LITHOS 8000 Seitenansicht in Halo Green / Wildberry",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida LITHOS 6000",
+    "modelYear": 2027,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5727/lithos-6000",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XShort",
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "weightKg": 24.9,
+    "gears": "SRAM Eagle 70 Transmission, 12-Gang",
+    "brakes": "SRAM DB6 Stealth, 4-Kolben",
+    "fork": "RockShox Zeb Select, 170 mm",
+    "display": "Bosch Kiox 400C",
+    "tires": "Continental Kryptotal-F 29x2.4 / Kryptotal-R 27.5x2.4",
+    "lighting": "Litemove SEC110 vorne, Chance Good CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Wild Honey / Wildberry"
+    ],
+    "description": "Einstiegsmodell der Lithos-Carbon-Enduro-Reihe mit Bosch CX Motor und 800-Wh-Akku. Vier Rahmengroessen inklusive XShort.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2027/LITHOS_6000_honber_MY27.tif?p1",
+        "alt": "Merida LITHOS 6000 Seitenansicht in Wild Honey / Wildberry",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida ETMO 800",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5735/etmo-800",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": 26.8,
+    "gears": "Shimano XT M8130, 11-Gang",
+    "brakes": "Shimano XT M8220, 4-Kolben",
+    "fork": "Marzocchi Bomber Z eMTB, 160 mm",
+    "display": "Bosch Purion 400",
+    "tires": "Continental Kryptotal-F 29x2.4 / Kryptotal-R 27.5x2.4",
+    "lighting": "Lezyne Hekto StVZO E350+ vorne, CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Anaconda Green / Grey"
+    ],
+    "description": "Aluminium-Enduro-E-MTB mit 160 mm Federweg und 800-Wh-Akku. Die Seite nennt widerspruechlich 120 bzw. 100 Nm.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2026/ETMO_800_grngry_MY26.tif?p1",
+        "alt": "Merida ETMO 800 Seitenansicht in Anaconda Green / Grey",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida ETMO 500 PRO",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5738/etmo-500-pro",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 120
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES, 10-Gang",
+    "brakes": "SRAM DB4 Stealth, 4-Kolben",
+    "fork": "SR Suntour Zeron 36X, 140 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Maxxis Minion DHF 29x2.5 / Dissector 27.5x2.4",
+    "lighting": "Chance Good CG-119PG vorne, CG-404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Wild Honey / High Cream"
+    ],
+    "description": "Preisguenstigeres Aluminium-E-MTB der ETMO-Reihe mit 140 mm Federweg und Bosch-CX-Motor. Gewicht auf der Seite nicht angegeben.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2026/ETMO_500_PRO_honcrm_MY26.tif?p1",
+        "alt": "Merida ETMO 500 PRO Seitenansicht in Wild Honey / High Cream",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "weightKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-SIXTY SL 10K",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5722/eone-sixty-sl-10k",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": 55
+    },
+    "battery": {
+      "wh": 400,
+      "removable": false
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XShort",
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": 19.7,
+    "gears": "SRAM XX Eagle Transmission AXS, 12-Gang",
+    "brakes": "SRAM Maven Ultimate, 4-Kolben",
+    "fork": "Fox 36 Float Factory, 160 mm",
+    "display": "Bosch Kiox 400C",
+    "tires": "Maxxis Assegai 29x2.5 / Minion DHR II 29x2.4",
+    "lighting": "Chance Good CG-119PG vorne, CG-404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Silk Anaconda Green / Brown Dots"
+    ],
+    "description": "Leichtes Carbon-Light-E-MTB mit Bosch SX Motor und fest verbautem 400-Wh-Akku. Optional ist ein 250-Wh-Range-Extender erhaeltlich.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eONE-SIXTY_SL_10K_grnear_MY25.tif?p1",
+        "alt": "Merida eONE-SIXTY SL 10K Seitenansicht in Silk Anaconda Green / Brown Dots",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-SIXTY SL 8000",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/5723/eone-sixty-sl-8000",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": 55
+    },
+    "battery": {
+      "wh": 400,
+      "removable": false
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "XShort",
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": 20.5,
+    "gears": "SRAM GX Eagle Transmission, 12-Gang",
+    "brakes": "SRAM Maven Base, 4-Kolben",
+    "fork": "RockShox Lyrik Select+, 160 mm",
+    "display": "Bosch Kiox 400C",
+    "tires": "Maxxis Assegai 29x2.5 / Minion DHR II 29x2.4",
+    "lighting": "Chance Good CG-119PG vorne, CG-404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Guarded Gold / Cream"
+    ],
+    "description": "Carbon-Light-E-MTB mit Bosch SX Motor, 400-Wh-Akku und 160 mm Federweg. Das Gewicht liegt laut Hersteller bei 20,5 kg.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2026/eONE-SIXTY_SL_8000_gldcrm_MY26.tif?p1",
+        "alt": "Merida eONE-SIXTY SL 8000 Seitenansicht in Guarded Gold / Cream",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-SIXTY SL 6000",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4628/eone-sixty-sl-6000",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": 55
+    },
+    "battery": {
+      "wh": 400,
+      "removable": false
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "weightKg": 20.8,
+    "gears": "Shimano Deore, 12-Gang",
+    "brakes": "Shimano Deore M6120, 4-Kolben",
+    "fork": "Marzocchi Z1 eMTB, 160 mm",
+    "display": "Bosch Purion 400",
+    "tires": "Maxxis Assegai 29x2.5 / Minion DHR II 29x2.4",
+    "lighting": "Chance Good CG-119PG vorne, CG-404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Silk River Clay / Gold"
+    ],
+    "description": "Einstiegs-Carbon-Light-E-MTB mit Bosch SX Motor und fest verbautem 400-Wh-Akku. Shimano-Deore-Ausstattung.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eONE-SIXTY_SL_6000_clygld_MY25.tif?p1",
+        "alt": "Merida eONE-SIXTY SL 6000 Seitenansicht in Silk River Clay / Gold",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-SIXTY 875",
+    "modelYear": 2024,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4028/eone-sixty-875",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP801",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": 26.1,
+    "gears": "Shimano XT M8130 LinkGlide, 11-Gang",
+    "brakes": "Shimano XT, 4-Kolben",
+    "fork": "RockShox ZEB Select, 170 mm",
+    "display": "Shimano SC-EM800",
+    "tires": "Maxxis Assegai 29x2.5 / DHR II 27.5x2.4",
+    "lighting": "Lezyne Power E115 vorne, Femto hinten",
+    "rackKg": null,
+    "colours": [
+      "Guarded Gold / Grey"
+    ],
+    "description": "Aluminium-All-Mountain-E-MTB mit Shimano EP801 und 750-Wh-Akku. Optional gibt es einen 360-Wh-Zusatzakku.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eONE-SIXTY_875_gldgry_MY24.tif?p1",
+        "alt": "Merida eONE-SIXTY 875 Seitenansicht in Guarded Gold / Grey",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-SIXTY 675",
+    "modelYear": 2024,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4029/eone-sixty-675",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP801",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": 25.6,
+    "gears": "Shimano Deore LinkGlide, 10-Gang",
+    "brakes": "Shimano Deore M6120, 4-Kolben",
+    "fork": "Marzocchi Z1 eMTB, 170 mm",
+    "display": "Shimano SC-EM800",
+    "tires": "Maxxis Assegai 29x2.5 / DHR II 27.5x2.4",
+    "lighting": "Lezyne Power E115 vorne, Femto hinten",
+    "rackKg": null,
+    "colours": [
+      "Gunmetal Grey / Black"
+    ],
+    "description": "Aluminium-E-MTB mit 174 mm Federweg hinten und Shimano EP801. Akku mit 750 Wh.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eONE-SIXTY_675_gryblk_MY24.tif?p1",
+        "alt": "Merida eONE-SIXTY 675 Seitenansicht in Gunmetal Grey / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-SIXTY 400",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4625/eone-sixty-400",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP801",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 630,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES U4000, 9-Gang",
+    "brakes": "Tektro Gemini M535, 4-Kolben",
+    "fork": "RockShox Psylo Silver R, 160 mm",
+    "display": "Shimano SC-EN500",
+    "tires": "Maxxis Assegai 29x2.5 / Minion DHR II 27.5x2.4",
+    "lighting": "Lezyne Hecto StVZO E350+ vorne, CG-404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Heritage Red / River Clay"
+    ],
+    "description": "Preiswerter Einstieg in die eONE-SIXTY-Reihe mit Shimano EP801 und 630-Wh-Akku. Die Seite nennt zusaetzlich 750 Wh, was widerspruechlich ist.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eONE-SIXTY_400_redbrn_MY25.tif?p1",
+        "alt": "Merida eONE-SIXTY 400 Seitenansicht in Heritage Red / River Clay",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "weightKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-FORTY 475 EQ",
+    "modelYear": 2024,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4036/eone-forty-475-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP801",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT420, 4-Kolben",
+    "fork": "SR Suntour Zeron 36 X, 150 mm",
+    "display": "Shimano SC-EN600",
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": "Lezyne Power E115 vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "Gunmetal Grey / Black"
+    ],
+    "description": "Trail-E-MTB mit Schutzblechen und Gepaecktraeger (EQ-Ausstattung), Shimano EP801 und 750-Wh-Akku. 150 mm Federweg vorne.",
+    "features": [
+      "Gepaecktraeger: Merida MIK HD Gepaecktraeger"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eONE-FORTY_475_EQ_gryblk_MY24.tif?p1",
+        "alt": "Merida eONE-FORTY 475 EQ Seitenansicht in Gunmetal Grey / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "weightKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-FORTY 475",
+    "modelYear": 2024,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4033/eone-forty-475",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP801",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
+      ]
+    },
+    "weightKg": 26.3,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT420, 4-Kolben",
+    "fork": "SR Suntour Zeron 36 X, 150 mm",
+    "display": "Shimano SC-EN600",
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": "Lezyne Power E115 vorne, Chance Good CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "High Cream / Black"
+    ],
+    "description": "Trail-E-MTB mit Shimano EP801 und 750-Wh-Akku. Die Variante ohne Gepaecktraeger wiegt 26,3 kg.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eONE-FORTY_475_sndblk_MY24.tif?p1",
+        "alt": "Merida eONE-FORTY 475 Seitenansicht in High Cream / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-EIGHTY 900",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4609/eone-eighty-900",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "weightKg": 27.2,
+    "gears": "Shimano XT, 11-Gang",
+    "brakes": "Shimano XT, 4-Kolben",
+    "fork": "RockShox Zeb Ultimate, 180 mm",
+    "display": "Bosch Purion 400",
+    "tires": "Maxxis Assegai 29x2.5 / Minion DHR II 27.5x2.4",
+    "lighting": "Lezyne Hecto StVZO E350+ vorne, CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Anaconda Green / Black"
+    ],
+    "description": "Freeride-E-MTB mit 180 mm Federweg und Bosch-CX-Motor. Die Seite ordnet es der Kategorie FR + Downhill zu.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eONE-EIGHTY_900_grnblk_MY25.tif?p1",
+        "alt": "Merida eONE-EIGHTY 900 Seitenansicht in Anaconda Green / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-FORTY 400 SE",
+    "modelYear": 2024,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30; Seite zeigt \"CHF 4099.-\" neben der Akku-Notiz fuer Gr. S, Zuordnung zum Bike-Preis unklar, daher nicht uebernommen",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4037/eone-forty-400-se",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP6",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 630,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "weightKg": 24.38,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT420 vorne, Shimano M4100 hinten",
+    "fork": "SR Suntour XCR34 LOR DS, 140 mm",
+    "display": "Shimano SC-EN600",
+    "tires": "Maxxis Rekon 29x2.4 / 27.5x2.6",
+    "lighting": "Chance Good 119PG vorne, 404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Silk Dark Silver / Black"
+    ],
+    "description": "Leichtes Trail-E-MTB mit Shimano EP6 und 630-Wh-Akku (Gr. S 504 Wh). Gewicht 24,38 kg in Gr. M.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eONE-FORTY_400_SE_slvblk_MY24.tif?p1",
+        "alt": "Merida eONE-FORTY 400 SE Seitenansicht in Silk Dark Silver / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eONE-EIGHTY 500",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4611/eone-eighty-500",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "weightKg": 27,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Tektro Gemini M535, 4-Kolben",
+    "fork": "RockShox Zeb Base, 180 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Maxxis Assegai 29x2.5 / Minion DHR II 27.5x2.4",
+    "lighting": "Lezyne Hecto StVZO E350+ vorne, CG-214RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Gunmetal Grey / Black"
+    ],
+    "description": "Preiswerteres Freeride-E-MTB mit 180 mm Federweg, Bosch CX und 800-Wh-Akku.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eONE-EIGHTY_500_gryblk_MY25.tif?p1",
+        "alt": "Merida eONE-EIGHTY 500 Seitenansicht in Gunmetal Grey / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eBIG.NINE 475",
+    "modelYear": 2024,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4042/ebignine-475",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP6",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 24.1,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT-200, 2-Kolben",
+    "fork": "SR Suntour XCM34-Boost, 100 mm",
+    "display": "Shimano SC-EN500",
+    "tires": "Maxxis Ikon 29x2.2",
+    "lighting": "Chance Good 119PG vorne, 404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Cool Grey / Black"
+    ],
+    "description": "Hardtail-E-MTB fuer Cross-Country und Trail mit Shimano EP6 und im Unterrohr integriertem 750-Wh-Akku.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eBIG_NINE_400_gryblk_MY24.tif?p1",
+        "alt": "Merida eBIG.NINE 475 Seitenansicht in Cool Grey / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eBIG.TOUR 475 EQ",
+    "modelYear": 2024,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4046/ebigtour-475-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP6",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 27.4,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT-200, 2-Kolben",
+    "fork": "SR Suntour XCM34-Boost, 100 mm",
+    "display": "Shimano SC-EN500",
+    "tires": "Kenda Booster 29x2.2",
+    "lighting": "Lezyne Hecto StVZO E65 vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "Matt Evergreen / Green"
+    ],
+    "description": "Trekking-E-Bike mit tiefem Einstieg, Gepaecktraeger und Beleuchtung. Shimano EP6 und 750-Wh-Akku.",
+    "features": [
+      "Gepaecktraeger: Merida MA008-1 mit Federklappe"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eBIG_TOUR_475_EQ_grnblk_MY24.tif?p1",
+        "alt": "Merida eBIG.TOUR 475 EQ Seitenansicht in Matt Evergreen / Green",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eSPRESSO CC 675 EQ",
+    "modelYear": 2024,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4015/espresso-cc-675-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP6",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28.6,
+    "gears": "Shimano CUES U6000, 11-Gang",
+    "brakes": "Shimano MT410, 2-Kolben",
+    "fork": "SR Suntour MOBIE A32, 75 mm",
+    "display": "Shimano SC-EN610",
+    "tires": "Maxxis Crossmark II 27.5x2.25",
+    "lighting": "Herrmans H-Black MR4 E vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "Silk Titan / Black"
+    ],
+    "description": "Komfortables Trekking-E-Bike mit tiefem Einstieg, Gepaecktraeger und Federgabel. Shimano EP6 und 750-Wh-Akku.",
+    "features": [
+      "Gepaecktraeger: Merida MIK HD Carrier"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eSPRESSO_CC_600_ttnblk_MY24.tif?p1",
+        "alt": "Merida eSPRESSO CC 675 EQ Seitenansicht in Silk Titan / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eSPRESSO CC 575 EQ",
+    "modelYear": 2024,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4016/espresso-cc-575-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP6",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT-200, 2-Kolben",
+    "fork": "SR Suntour NVX30 DS, 80 mm",
+    "display": "Shimano SC-EN500",
+    "tires": "Maxxis Crossmark II 27.5x2.25",
+    "lighting": "Herrmans H-Black MR4 E vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "Matt Sparkling Gold / Black"
+    ],
+    "description": "Alltagstaugliches Trekking-E-Bike mit Gepaecktraeger und Beleuchtung. Shimano EP6 und 750-Wh-Akku.",
+    "features": [
+      "Gepaecktraeger: Merida MIK HD Carrier"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2024/eSPRESSO_CC_575_brzblk_MY24.tif?p1",
+        "alt": "Merida eSPRESSO CC 575 EQ Seitenansicht in Matt Sparkling Gold / Black",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "battery.removable",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eFLOAT CITY 400 EQ",
+    "modelYear": 2025,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4598/efloat-city-400-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 625,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 29.3,
+    "gears": "Shimano CUES U4000, 9-Gang",
+    "brakes": "Shimano MT200, 2-Kolben",
+    "fork": "SR Suntour NEX E25, 63 mm",
+    "display": null,
+    "tires": "Maxxis Metropass 700x50C",
+    "lighting": "Herrmans H-Black MR4 E vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "Pearl White / Gunmetal Grey"
+    ],
+    "description": "City-E-Bike mit breiten 50-mm-Reifen, Gepaecktraeger und Beleuchtung. Bosch-Antrieb mit 625-Wh-Akku.",
+    "features": [
+      "Gepaecktraeger: Merida MIK HD Carrier"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eFLOAT_CITY_400_whtgry_MY25.tif?p1",
+        "alt": "Merida eFLOAT CITY 400 EQ Seitenansicht in Pearl White / Gunmetal Grey",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "motor.torqueNm",
+      "display"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eFLOAT CC 500 EQ",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4592/efloat-cc-500-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 28.7,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT200, 2-Kolben",
+    "fork": "SR Suntour X1-Boost, 120 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": "Lezyne Hecto StVZO E350+ vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "High Cream / Brown"
+    ],
+    "description": "Trekking-E-Bike mit Bosch CX, 800-Wh-Akku und 120 mm Federgabel. Mit Gepaecktraeger und Beleuchtung.",
+    "features": [
+      "Gepaecktraeger: Merida MIK HD Carrier"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eFLOAT_CC_500_EQ_crmbrn_MY25.tif?p1",
+        "alt": "Merida eFLOAT CC 500 EQ Seitenansicht in High Cream / Brown",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "motor.torqueNm",
+      "frame.type"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eFLOAT CC L 500 EQ",
+    "modelYear": 2025,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4595/efloat-cc-l-500-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "step-through",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 28.7,
+    "gears": "Shimano CUES U6000, 10-Gang",
+    "brakes": "Shimano MT200, 2-Kolben",
+    "fork": "SR Suntour X1-Boost, 120 mm",
+    "display": "Bosch Purion 200",
+    "tires": "Maxxis Rekon 29x2.4",
+    "lighting": "Lezyne Hecto StVZO E350+ vorne, Spanninga Commuter Glow XE hinten",
+    "rackKg": null,
+    "colours": [
+      "High Cream / Brown"
+    ],
+    "description": "Tiefeinsteiger-Variante des eFLOAT CC 500 EQ mit Bosch CX und 800-Wh-Akku. Gepaecktraeger und Beleuchtung inklusive.",
+    "features": [
+      "Gepaecktraeger: Merida MIK HD Carrier"
+    ],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eFLOAT_L_CC_500_EQ_crmbrn_MY25.tif?p1",
+        "alt": "Merida eFLOAT CC L 500 EQ Seitenansicht in High Cream / Brown",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "merida",
+    "name": "Merida eSILEX 400",
+    "modelYear": 2024,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf merida-bikes.com/de-ch (Bikefinder und Produktseite), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.merida-bikes.com/de-ch/bike/4630/esilex-400",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Mahle",
+      "model": "X30",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 237,
+      "removable": false
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": null,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 14.4,
+    "gears": "Shimano 10-Gang, 11-36T",
+    "brakes": "Shimano GRX400, 2-Kolben",
+    "fork": "Merida SILEX CF2 Carbon-Gabel",
+    "display": null,
+    "tires": "Maxxis Rambler 700x40C",
+    "lighting": "Chance Good CG-119PG vorne, CG-404RG hinten",
+    "rackKg": null,
+    "colours": [
+      "Low Key Green / Brown"
+    ],
+    "description": "Leichtes Gravel-E-Bike mit Mahle-X30-Nabenmotor und integriertem 237-Wh-Akku. Gewicht 14,4 kg in Gr. M.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://merida-cdn.m-c-g.net/merida-v2/crud-zoom-img/master/bikes/2025/eSILEX_400_grnbrn_MY24.tif?p1",
+        "alt": "Merida eSILEX 400 Seitenansicht in Low Key Green / Brown",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "rackKg",
+      "motor.torqueNm",
+      "frame.type",
+      "display"
+    ]
+  }
+]

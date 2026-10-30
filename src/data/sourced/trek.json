@@ -1,0 +1,2320 @@
+[
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ LX 9.9 X0 AXS Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 11699,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-lx/fuel-lx-9-9-x0-axs-gen-2/p/81581/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ LX 9.9 X0 AXS Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusLX99X0AXS-27-81737-B-Primary",
+        "alt": "Trek Fuel+ LX 9.9 X0 AXS Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ EX 9.9 X0 AXS Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 11499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-9-x0-axs-gen-2/p/81573/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.9 X0 AXS Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX99X0AXS-27-81574-B-Primary",
+        "alt": "Trek Fuel+ EX 9.9 X0 AXS Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ EX 9.8 XT Di2 Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-8-xt-di2-gen-2/p/81570/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.8 XT Di2 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX98XTDi2-27-81572-B-Primary",
+        "alt": "Trek Fuel+ EX 9.8 XT Di2 Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ EX 9.8 XT Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-8-xt-gen-2/p/81567/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.8 XT Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX98XT-27-81568-D-Primary",
+        "alt": "Trek Fuel+ EX 9.8 XT Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ EX 9.8 Eagle 90 Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-8-eagle-90-gen-2/p/79619/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.8 Eagle 90 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX98Eagle90-27-79618-B-Primary",
+        "alt": "Trek Fuel+ EX 9.8 Eagle 90 Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ EX 9.7 Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-9-7-gen-2/p/56295/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 9.7 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX97-26-56291-B-Primary",
+        "alt": "Trek Fuel+ EX 9.7 Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel+ EX 8 Gen 2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel/fuel-ex/fuel-ex-8-gen-2/p/79616/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel+ (Modellbezeichnung Fuel+ EX 8 Gen 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX8-27-79614-B-Primary",
+        "alt": "Trek Fuel+ EX 8 Gen 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Rail+ 9.8 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-9-8-gen-5/p/79227/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 9.8 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/RailPlus98-27-79227-A-Primary",
+        "alt": "Trek Rail+ 9.8 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Rail+ 9.7 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5949,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-9-7-gen-5/p/79287/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 9.7 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/RailPlus97-27-79287-A-Primary",
+        "alt": "Trek Rail+ 9.7 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Rail+ 8 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-8-gen-5/p/48470/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 8 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/Rail8-25-48474-A-Primary",
+        "alt": "Trek Rail+ 8 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Rail+ 5 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/rail/rail-5-gen-5/p/48458/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Rail+ (Modellbezeichnung Rail+ 5 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/Rail5-25-48471-B-Primary",
+        "alt": "Trek Rail+ 5 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Slash+ 9.9 X0 AXS T-Type",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 10499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/slash/slash-9-9-x0-axs-t-type/p/47096/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Slash+ (Modellbezeichnung Slash+ 9.9 X0 AXS T-Type). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/SlashPlus99-25-47093-A-Primary",
+        "alt": "Trek Slash+ 9.9 X0 AXS T-Type, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Slash+ 9.7",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 6999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/slash/slash-9-7/p/57132/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Slash+ (Modellbezeichnung Slash+ 9.7). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/SlashPlus97-26-57406-A-Primary",
+        "alt": "Trek Slash+ 9.7, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ FS 8 Gen 4",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5949,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-full-suspension/powerfly-fs-8-gen-4/p/79981/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ FS 8 Gen 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/PowerflyFSPlus8-27-79981-C-Primary",
+        "alt": "Trek Powerfly+ FS 8 Gen 4, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ FS 6 Gen 4",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-full-suspension/powerfly-fs-6-gen-4/p/79853/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ FS 6 Gen 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/PowerflyFSPlus6-27-79853-D-Primary",
+        "alt": "Trek Powerfly+ FS 6 Gen 4, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ FS 4 800 Gen 4",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-full-suspension/powerfly-fs-4-800-gen-4/p/79832/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ FS 4 800 Gen 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/PowerflyFS4800-27-79832-B-Primary",
+        "alt": "Trek Powerfly+ FS 4 800 Gen 4, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ 8 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-8-gen-5/p/79351/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 8 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/PowerflyPlus8-27-79351-C-Primary",
+        "alt": "Trek Powerfly+ 8 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ 6 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3799,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-6-gen-5/p/79352/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 6 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/PowerflyPlus6-27-79352-C-Primary",
+        "alt": "Trek Powerfly+ 6 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ 4 800 Wh Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3299,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-4-800-wh-gen-5/p/61707/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 4 800 Wh Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/Powerfly4625W-25-48619-A-Primary",
+        "alt": "Trek Powerfly+ 4 800 Wh Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Powerfly+ 4 Gen 5",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 2999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/powerfly/powerfly-hardtail/powerfly-4-gen-5/p/48619/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Powerfly+ (Modellbezeichnung Powerfly+ 4 Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/Powerfly4625W-25-48619-B-Primary",
+        "alt": "Trek Powerfly+ 4 Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fuel EXe 9.7",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/mountainbikes/e-mountainbikes/fuel-exe/fuel-exe-9-7/p/41519/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike der Trek-Serie Fuel (Modellbezeichnung Fuel EXe 9.7). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelEXe97US-24-41526-A-Primary",
+        "alt": "Trek Fuel EXe 9.7, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Domane+ SL 9 AXS Gen 5",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 8999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-sl/domane-sl-9-axs-gen-5/p/81602/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ SL 9 AXS Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusSL9AXS-27-81601-D-Primary",
+        "alt": "Trek Domane+ SL 9 AXS Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Domane+ SL 7 AXS Gen 5",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-sl/domane-sl-7-axs-gen-5/p/81610/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ SL 7 AXS Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusSL7AXS-27-81609-D-Primary",
+        "alt": "Trek Domane+ SL 7 AXS Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Domane+ SL 6 AXS Gen 5",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5949,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-sl/domane-sl-6-axs-gen-5/p/77734/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ SL 6 AXS Gen 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusSL6AXS-27-81607-A-Primary",
+        "alt": "Trek Domane+ SL 6 AXS Gen 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Domane+ ALR 5",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4299,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/e-rennr%C3%A4der/domane-alr-5/p/56167/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Domane+ (Modellbezeichnung Domane+ ALR 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusALR5-26-56175-B-Primary",
+        "alt": "Trek Domane+ ALR 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Checkpoint+ SL 7 AXS",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/rennr%C3%A4der/gravelbikes/e-gravelbikes/checkpoint/checkpoint-sl-7-axs/p/57447/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Checkpoint+ (Modellbezeichnung Checkpoint+ SL 7 AXS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/CheckpointPlusSL7AXS-26-58122-A-Primary",
+        "alt": "Trek Checkpoint+ SL 7 AXS, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Checkpoint+ SL 5",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/rennr%C3%A4der/gravelbikes/e-gravelbikes/checkpoint/checkpoint-sl-5/p/57446/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Rennrad/Gravel-E-Bike der Trek-Serie Checkpoint+ (Modellbezeichnung Checkpoint+ SL 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/CheckpointPlusSL5-26-58107-A-Primary",
+        "alt": "Trek Checkpoint+ SL 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Allant+ FS 6 R11 Auto",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5949,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/allant/allant-fs/allant-fs-6-r11-auto/p/85248/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Allant+ (Modellbezeichnung Allant+ FS 6 R11 Auto). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/AllantPLUSFS6R11SO-27-85248-A-Primary",
+        "alt": "Trek Allant+ FS 6 R11 Auto, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Allant+ FS 6 R10",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/allant/allant-fs/allant-fs-6-r10/p/85247/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Allant+ (Modellbezeichnung Allant+ FS 6 R10). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/AllantPLUSFS6R10SO-27-85247-A-Primary",
+        "alt": "Trek Allant+ FS 6 R10, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Allant+ 6",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3949,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/allant/allant-5-6/allant-6/p/41023/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Allant+ (Modellbezeichnung Allant+ 6). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/AllantPlus6Men-24-41023-A-Primary",
+        "alt": "Trek Allant+ 6, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek District+ 4 R10 LS",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-4-r10-ls/p/81591/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 4 R10 LS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DistrictPlus4R10Lowstep-27-81591-C-Primary",
+        "alt": "Trek District+ 4 R10 LS, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek District+ 3 R9 360 LS",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-3-r9-360-ls/p/81593/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 3 R9 360 LS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DistrictPlus3R9360Lowstep-27-81593-C-Primary",
+        "alt": "Trek District+ 3 R9 360 LS, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek District+ 5",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5249,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-5/p/41754/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 5). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DistrictPlus5Men-24-41754-A-Primary",
+        "alt": "Trek District+ 5, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek District+ 4",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3899,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/district/district-4/p/36971/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Citybike der Trek-Serie District+ (Modellbezeichnung District+ 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/District_Plus_4_Men725wh_23_36971_A_Primary",
+        "alt": "Trek District+ 4, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Verve+ 4",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3399,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/verve/verve-4/p/40514/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Citybike der Trek-Serie Verve+ (Modellbezeichnung Verve+ 4). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/VervePlus4Men800wh-24-40514-A-Primary",
+        "alt": "Trek Verve+ 4, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek FX+ 7",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fx/fx-7/p/48016/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie FX+ (Modellbezeichnung FX+ 7). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FXPlus7Stepover-25-48016-A-Primary",
+        "alt": "Trek FX+ 7, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek FX+ 2",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2649,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fx/fx-2/p/35840/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie FX+ (Modellbezeichnung FX+ 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FXPlus2_23_35842_B_Primary",
+        "alt": "Trek FX+ 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Fetch+ 2",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fetch/fetch-2/p/37063/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Lastenvelo der Trek-Serie Fetch+ (Modellbezeichnung Fetch+ 2). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-C-Primary",
+        "alt": "Trek Fetch+ 2, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Charter+ 5 Auto 800Wh Lowstep",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5099,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/charter/charter-5-auto-800wh-lowstep/p/61485/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Trekkingbike/Hybrid-E-Bike der Trek-Serie Charter+ (Modellbezeichnung Charter+ 5 Auto 800Wh Lowstep). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/CharterPlus5AutoB800Lowstep-26-61485-B-Primary",
+        "alt": "Trek Charter+ 5 Auto 800Wh Lowstep, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "trek",
+    "name": "Trek Inbound+ 2 R10 LS",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2499,
+    "priceNote": "Preis in CHF aus der Produktliste von trekbikes.com/ch/de_CH (E-Bikes), abgerufen 2026-10-30; nicht auf Modelljahr/UVP-Bezeichnung geprueft.",
+    "sourceUrl": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/inbound/inbound-2-r10-ls/p/81951/",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": null
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Citybike der Trek-Serie Inbound+ (Modellbezeichnung Inbound+ 2 R10 LS). Auf der Schweizer Trek-Seite ist es mit einem CHF-Preis gelistet; Ausstattungsdetails sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/InboundPlus2R10Lowstep-27-81951-A-Primary",
+        "alt": "Trek Inbound+ 2 R10 LS, Produktbild",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor",
+      "xbattery.wh",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "frame.sizes",
+      "colours"
+    ]
+  }
+]

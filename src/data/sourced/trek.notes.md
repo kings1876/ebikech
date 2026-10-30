@@ -1,0 +1,5 @@
+# Trek sourcing notes (2026-10-30)
+Found 40 of target 40 (CHF price 40, images 40 but only 1 each).
+Source: https://www.trekbikes.com/ch/de_CH/bikes/e-bikes/c/B507/ (163 colour/size-level listings, ~149 distinct names; only Trek-branded picked, Diamant/Electra/Suvea/Zing excluded). Name, product code, CHF price, product URL and primary image URL read from the server-rendered product cards.
+Not found: modelYear, motor, torque, battery (except where the model name states Wh), range, weight, frame material/sizes, colours, components, gallery images. Product pages are JS-rendered and yielded nothing via fetch; I did not use Trek's private API.
+Uncertain: speedClass set to e-bike-25 by assumption (no Speed variants selected); category/subcategory inferred from model family (Powerfly+ without FS = hardtail); frame.type inferred from "Lowstep/Midstep/LS" in the name; the listing is current but not verified as MY2025/2026. ~100 further listings (other colours, Charter+/District+/Verve+/Zing/Suvea variants) were not recorded.

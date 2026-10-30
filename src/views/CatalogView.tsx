@@ -13,7 +13,7 @@ import {
   UseCase,
 } from '../types';
 import { CATEGORIES } from '../data/categories';
-import { ALL_PRODUCTS } from '../data/productsGenerator';
+import { ALL_PRODUCTS } from '../data/products';
 import { I18N } from '../data/i18n';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { ProductCard } from '../components/ProductCard';
@@ -226,7 +226,7 @@ export function CatalogView({
     if (sub) headerTitle = sub.name[lang];
   }
   if (route.view === 'search') {
-    headerTitle = `${t.catalog.showingCount} «${route.queryString}»`;
+    headerTitle = `${t.catalog.showingCount} Â«${route.queryString}Â»`;
   }
 
   return (
@@ -349,7 +349,7 @@ export function CatalogView({
                 className="bg-slate-50 border border-slate-200 rounded-lg py-1 px-2.5 font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
               >
                 <option value="popular">{t.catalog.sortPopular}</option>
-                <option value="trustpilot-score">★ Trustpilot Score ({lang === 'fr' ? 'Avis vérifiés' : lang === 'it' ? 'Recensioni verificate' : 'Verifiziert'})</option>
+                <option value="trustpilot-score">â˜… Trustpilot Score ({lang === 'fr' ? 'Avis vÃ©rifiÃ©s' : lang === 'it' ? 'Recensioni verificate' : 'Verifiziert'})</option>
                 <option value="tcs-score">{t.catalog.sortTcs}</option>
                 <option value="price-asc">{t.catalog.sortPriceAsc}</option>
                 <option value="price-desc">{t.catalog.sortPriceDesc}</option>

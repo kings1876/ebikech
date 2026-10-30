@@ -2,7 +2,7 @@ import { Language, CategoryDef, BrandDef, GuideCluster, GuideArticle } from '../
 import { SECTION_ROOTS, CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
-import { ALL_PRODUCTS } from '../data/productsGenerator';
+import { ALL_PRODUCTS } from '../data/products';
 
 export interface ParsedRoute {
   lang: Language;

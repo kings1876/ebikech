@@ -1,0 +1,785 @@
+[
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale FlyingV",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/flyingv",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das FlyingV ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Mavaro",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/mavaro",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Mavaro ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [
+      "Drehmoment 85 Nm laut Herstellertext"
+    ],
+    "images": [
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/collection/c24_mavaro_collection_desktop_02.ashx",
+        "alt": "Cannondale Mavaro E-Bike, Galeriebild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/collection/c24_mavaro_collection_desktop_03.ashx",
+        "alt": "Cannondale Mavaro E-Bike, Galeriebild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/collection/c24_mavaro_collection_desktop_04.ashx",
+        "alt": "Cannondale Mavaro E-Bike, Galeriebild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/collection/c24_mavaro_collection_desktop_05.ashx",
+        "alt": "Cannondale Mavaro E-Bike, Galeriebild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/collection/c24_mavaro_collection_desktop_06.ashx",
+        "alt": "Cannondale Mavaro E-Bike, Galeriebild 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Tesoro Neo Carbon",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/tesoro-neo-carbon",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Tesoro Neo Carbon ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Cargowagen Neo",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-cargo/cargowagen-neo",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Cargowagen Neo ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Wonderwagen Neo",
+    "modelYear": null,
+    "categoryId": "e-lastenvelos",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-cargo/wonderwagen-neo",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Wonderwagen Neo ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Tesoro Neo",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-touring/tesoro",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Tesoro Neo ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Habit Neo",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/habit-neo",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Habit Neo ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Moterra Neo",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Moterra Neo ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Moterra Neo EQ",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-eq",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Moterra Neo EQ ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Moterra Neo LT",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo-lt",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Moterra Neo LT ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Moterra SL",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Moterra SL ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/collection-page/c24_moterrasl_collection_desktop_4_v2.ashx",
+        "alt": "Cannondale Moterra SL E-Bike, Galeriebild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/collection-page/c24_moterrasl_collection_desktop_5.ashx",
+        "alt": "Cannondale Moterra SL E-Bike, Galeriebild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/collection-page/c24_moterrasl_collection_desktop_7.ashx",
+        "alt": "Cannondale Moterra SL E-Bike, Galeriebild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/collection-page/c24_moterrasl_collection_desktop_8.ashx",
+        "alt": "Cannondale Moterra SL E-Bike, Galeriebild 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Synapse Neo",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-road/synapse-neo",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Synapse Neo ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo/collection-page/c24_synapseneo_collections_desktop_2.ashx",
+        "alt": "Cannondale Synapse Neo E-Bike, Galeriebild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "cannondale",
+    "name": "Cannondale Synapse Neo Allroad",
+    "modelYear": null,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": null,
+    "priceCHF": null,
+    "priceNote": "Auf cannondale.com/de-ch nur Modellfamilien-Seite ohne CHF-Preis und ohne Spezifikationswerte (abgerufen 2026-10-30).",
+    "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-road/synapse-neo-allroad",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": null,
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Das Synapse Neo Allroad ist eine Modellfamilie von Cannondale und auf der Schweizer Herstellerseite gelistet. Detaildaten und Preise waren dort nicht abrufbar.",
+    "features": [],
+    "images": [],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "speedClass",
+      "motor",
+      "battery",
+      "rangeKm",
+      "frame",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "colours"
+    ]
+  }
+]

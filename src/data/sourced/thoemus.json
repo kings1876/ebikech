@@ -1,0 +1,685 @@
+[
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Oberrider",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5490,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/oberrider",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Avinox",
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 19.5,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Leichtes E-Mountainbike mit Avinox-Antrieb ab 19,5 kg, in den Varianten SL (150/140 mm) und ST (170 mm). Geometriedaten für S bis XL sind auf der Herstellerseite angegeben.",
+    "features": [
+      "Varianten SL und ST",
+      "Rahmengrössen S-XL"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2026/02/OBERRIEDER-041-e1775741646802-1400x738.png",
+        "alt": "Thömus Oberrider Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2026/02/DSF0107_1-1-2-scaled-e1772114185257-1400x930.jpg",
+        "alt": "Thömus Oberrider Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2026/02/DSF0022-1-1400x933.jpg",
+        "alt": "Thömus Oberrider Detailansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Lightrider E3 Pro",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5990,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/lightrider-e3-pro",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Shimano",
+      "model": "EP801",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": 23,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Trail-E-Mountainbike mit Shimano EP801 und 800-Wh-Akku, optional mit 250-Wh-Range-Extender. Ab 23 kg, mit integrierter Vario-Sattelstütze.",
+    "features": [
+      "Optionaler 250-Wh-Range-Extender",
+      "EightPins-Vario-Sattelstütze",
+      "Geometrien für Trail, All Mountain, Enduro"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2024/11/Lightrider_E3_Pro.jpg",
+        "alt": "Thömus Lightrider E3 Pro Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2024/11/250919_thoemus_s26_mtb_lightrider_e3_product_0055_av_edited-e1776263758764-1400x797.jpg",
+        "alt": "Thömus Lightrider E3 Pro Fahrszene",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.torqueNm",
+      "battery.removable",
+      "rangeKm",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Lightrider E_MAX",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5990,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/lightrider-e-max",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "maxon",
+      "model": "Air S",
+      "torqueNm": 90
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "140 mm Federweg (Cross Country)",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Mountainbike mit maxon-Air-S-Motor (620 W Spitze) in den Ausführungen Cross Country mit 140 mm und Trail. Das auf der Seite genannte Gewicht von 2 kg ist offensichtlich ein Teilgewicht und wurde nicht übernommen.",
+    "features": [
+      "Varianten Cross Country und Trail",
+      "140 mm Federweg (CC)"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/06/thoemus-bike-mtb-lightrider-e-max-red-1-e1775829643790.jpg",
+        "alt": "Thömus Lightrider E_MAX Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2026/04/250919_thoemus_s26_mtb_lightrider_emax_action_1702_av-2_edited-1400x933.jpg",
+        "alt": "Thömus Lightrider E_MAX Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/06/250919_thoemus_s26_mtb_lightrider_emax_action_1817_av-2-1400x788.jpg",
+        "alt": "Thömus Lightrider E_MAX Detailansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Lightrider E-Ultimate",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5990,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/lightrider-e-ultimate-2",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "maxon",
+      "model": "BIKEDRIVE AIR",
+      "torqueNm": 40
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon (Ultra High Modulus)",
+      "type": "diamond",
+      "sizes": [
+        "XS/S",
+        "M/L",
+        "L/XL"
+      ]
+    },
+    "weightKg": 15,
+    "gears": null,
+    "brakes": null,
+    "fork": "140 mm Federweg",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "Weiss"
+    ],
+    "description": "Besonders leichtes Cross-Country-E-Mountainbike mit Carbonrahmen und maxon-BIKEDRIVE-AIR-Motor (rund 3,5 kg). Das Gesamtgewicht liegt laut Hersteller unter 15 kg, Federweg 140 mm.",
+    "features": [
+      "Unter 15 kg",
+      "maxon BIKEDRIVE AIR",
+      "140 mm Federweg"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2022/08/thoemus-bike-mtb-lightrider-e-ultimate-white.jpg",
+        "alt": "Thömus Lightrider E-Ultimate Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2022/07/THOMUS-LIGHTRIDER-ELT-MAXON-KIFCAT-29-scaled.jpg",
+        "alt": "Thömus Lightrider E-Ultimate Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2022/07/THOMUS-LIGHTRIDER-ELT-MAXON-KIFCAT-3-1-1400x933.jpg",
+        "alt": "Thömus Lightrider E-Ultimate Detailansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "gears",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Longrider E3",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4590,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/longrider-e3",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "XS/S",
+        "M/L",
+        "L/XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "Rot"
+    ],
+    "description": "Trekking- und Urban-E-Bike aus der Longrider-Reihe mit Rahmengrössen XS/S bis L/XL. Technische Daten zu Antrieb und Akku sind auf der Herstellerseite nicht angegeben.",
+    "features": [
+      "Rahmengrössen XS/S, M/L, L/XL"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/10/Longrider_E3_red_1024x574px.jpg",
+        "alt": "Thömus Longrider E3 Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/10/DSC06838-1400x933.jpg",
+        "alt": "Thömus Longrider E3 Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/10/DSC08085-1400x933.jpg",
+        "alt": "Thömus Longrider E3 Detailansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Longrider E3 Comfort",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4590,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/longrider-e3-comfort",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "XS/S",
+        "M/L",
+        "L/XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Komfort-Variante des Longrider E3 für Trekking und Alltag. Technische Daten zu Antrieb und Akku sind auf der Herstellerseite nicht angegeben.",
+    "features": [
+      "Rahmengrössen XS/S, M/L, L/XL"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/10/Longrider_E3_Comfort_1024x574px.jpg",
+        "alt": "Thömus Longrider E3 Comfort Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/10/DSC06754-Bearbeitet-1400x933.jpg",
+        "alt": "Thömus Longrider E3 Comfort Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2025/10/DSC04008-Bearbeitet-1400x933.jpg",
+        "alt": "Thömus Longrider E3 Comfort Detailansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Twinner T1 Pro LE",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": 12950,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/twinner-t1-pro",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Carbon-S-Pedelec, das Thömus in Oberried entwickelt hat. Auf der Herstellerseite sind ausser Preis und Konzept keine technischen Daten angegeben.",
+    "features": [
+      "S-Pedelec",
+      "Carbon"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2023/06/Twinner-Founders-Edition-1400x788.png",
+        "alt": "Thömus Twinner T1 Pro LE Founders Edition",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2023/06/Stills_Concrete_02.png",
+        "alt": "Thömus Twinner T1 Pro LE Studioansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Swissrider Urban",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4750,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/swissrider-flat",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "maxon",
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": 11.5,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Leichtes Carbon-E-Bike (ab 11,5 kg) mit integriertem maxon-Antrieb, Rahmenlicht, Schutzblech und Gepäckträger. Reifen für Strasse oder Gravel sowie Lenker und Antrieb sind konfigurierbar.",
+    "features": [
+      "Ab 11,5 kg",
+      "Integriertes Rahmenlicht",
+      "Konfigurierbar"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2023/01/SWISSRIDER_RED-XTR_fomrat-1400x780.jpg",
+        "alt": "Thömus Swissrider Urban Gesamtansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours"
+    ]
+  },
+  {
+    "brandId": "thoemus",
+    "name": "Thömus Swissrider Comfort",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4750,
+    "priceNote": "Ab-Preis in CHF laut thoemus.ch; abgerufen 2026-10-30",
+    "sourceUrl": "https://thoemus.ch/bikes/swissrider-comfort",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "maxon",
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": 11.5,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Leichtes Carbon-E-Bike (ab 11,5 kg) mit tiefem Oberrohr für bequemen Einstieg und maxon-Antrieb. Ausgestattet mit Schutzblechen, Gepäckträger und integriertem Rahmenlicht, für Fahrer bis 175 cm.",
+    "features": [
+      "Tiefer Einstieg",
+      "Ab 11,5 kg",
+      "Integriertes Rahmenlicht"
+    ],
+    "images": [
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2024/02/THOEMUS-SWISSRIDER_017-scaled-e1707404639246-1400x784.jpg",
+        "alt": "Thömus Swissrider Comfort Gesamtansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2024/02/THOEMUS-SWISSRIDER_048-1400x1046.jpg",
+        "alt": "Thömus Swissrider Comfort Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://thoemus.ch/wp-content/uploads/2024/02/THOEMUS-SWISSRIDER_142-1400x1046.jpg",
+        "alt": "Thömus Swissrider Comfort Detailansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes"
+    ]
+  }
+]

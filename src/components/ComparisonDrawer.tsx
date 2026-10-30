@@ -154,56 +154,13 @@ export function ComparisonDrawer({
                     ))}
                   </tr>
 
-                  {/* TCS Test Score */}
-                  <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.tcsScore}</td>
-                    {comparedProducts.map((p) => {
-                      const tcs = p.testVerdicts.find((v) => v.source === 'TCS');
-                      return (
-                        <td key={p.id} className="p-3">
-                          {tcs ? (
-                            <div>
-                              <span className="font-bold text-red-600 text-xs">{tcs.scoreText}</span>
-                              <div className="text-[10px] text-slate-500 mt-0.5">{tcs.summary[lang]?.slice(0, 75)}...</div>
-                            </div>
-                          ) : (
-                            <span className="text-slate-400">
-                              {lang === 'fr' ? 'Test en cours' : lang === 'it' ? 'Test in corso' : 'Laborprüfung anstehend'}
-                            </span>
-                          )}
-                        </td>
-                      );
-                    })}
-                  </tr>
-
-                  {/* Trustpilot Verified Reviews */}
-                  <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">Trustpilot (Verifiziert)</td>
-                    {comparedProducts.map((p) => (
-                      <td key={p.id} className="p-3">
-                        <div className="flex items-center gap-1.5">
-                          <span className="w-2.5 h-2.5 rounded-full bg-[#00b67a]" />
-                          <span className="font-bold font-mono text-slate-900 text-xs">
-                            {p.trustpilotStats?.score || 4.7} / 5
-                          </span>
-                          <span className="text-[10px] bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.2 rounded">
-                            {p.trustpilotStats?.badgeText[lang] || 'Hervorragend'}
-                          </span>
-                        </div>
-                        <div className="text-[10px] text-slate-500 mt-0.5">
-                          {p.trustpilotStats?.reviewCount || 38} {lang === 'fr' ? 'commandes vérifiées' : lang === 'it' ? 'ordini verificati' : 'verifizierte Käufe'}
-                        </div>
-                      </td>
-                    ))}
-                  </tr>
-
                   {/* Motor */}
                   <tr>
                     <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.motorTorque}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
                         <div className="font-bold text-slate-900">{p.motorModel}</div>
-                        <div className="text-slate-500 font-mono mt-0.5">{p.torqueNm} Nm</div>
+                        {p.torqueNm ? <div className="text-slate-500 font-mono mt-0.5">{p.torqueNm} Nm</div> : null}
                       </td>
                     ))}
                   </tr>
@@ -214,9 +171,7 @@ export function ComparisonDrawer({
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
                         <div className="font-bold text-slate-900">{p.batteryWh} Wh</div>
-                        <div className="text-emerald-700 text-[11px] mt-0.5">
-                          {t.rangeEst}: {p.rangeKmEst.min} – {p.rangeKmEst.max} km
-                        </div>
+                        {p.rangeKmEst ? (<div className="text-emerald-700 text-[11px] mt-0.5">{t.rangeEst}: {p.rangeKmEst.min === p.rangeKmEst.max ? p.rangeKmEst.max : `${p.rangeKmEst.min} - ${p.rangeKmEst.max}`} km</div>) : null}
                       </td>
                     ))}
                   </tr>
@@ -226,7 +181,7 @@ export function ComparisonDrawer({
                     <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.weightMaterial}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
-                        <span className="font-bold">{p.weightKg} kg</span> ({p.frameMaterial})
+                        <span className="font-bold">{p.weightKg ? `${p.weightKg} kg` : '-'}</span> ({p.frameMaterial})
                       </td>
                     ))}
                   </tr>
@@ -265,19 +220,7 @@ export function ComparisonDrawer({
                     ))}
                   </tr>
 
-                  {/* Stock Availability */}
-                  <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.dealers}</td>
-                    {comparedProducts.map((p) => (
-                      <td key={p.id} className="p-3">
-                        <span className="inline-flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded font-semibold text-[11px]">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                          {p.inStockSwissDealers} {I18N[lang].card.dealersInStock}
-                        </span>
-                      </td>
-                    ))}
-                  </tr>
-                </tbody>
+                  </tbody>
               </table>
             </div>
 

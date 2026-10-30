@@ -1,6 +1,6 @@
 import { SeoMeta, Language, Product } from '../types';
 import { ParsedRoute, buildLocalizedUrl, getHreflangs, getBrandCategoryCount } from './routes';
-import { ALL_PRODUCTS } from '../data/productsGenerator';
+import { ALL_PRODUCTS } from '../data/products';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
   const lang = route.lang;
@@ -26,6 +26,17 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     robots = 'noindex, follow';
   }
 
+  // Rule: listing pages with no products are thin -> noindex
+  if (route.view === 'category' && route.category) {
+    if (!ALL_PRODUCTS.some((p) => p.categoryId === route.category!.id)) robots = 'noindex, follow';
+  }
+  if (route.view === 'subcategory' && route.category) {
+    if (!ALL_PRODUCTS.some((p) => p.categoryId === route.category!.id && p.subcategoryId === route.subcategorySlug)) robots = 'noindex, follow';
+  }
+  if (route.view === 'brand' && route.brand) {
+    if (!ALL_PRODUCTS.some((p) => p.brandId === route.brand!.id)) robots = 'noindex, follow';
+  }
+
   // Rule: brand x type only if >= 3 products!
   if (route.view === 'brand-category') {
     if (route.brand && route.category) {
@@ -41,18 +52,18 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
   const homeLabel = lang === 'fr' ? 'Accueil' : lang === 'it' ? 'Home' : 'Startseite';
   breadcrumbs.push({ name: homeLabel, url: buildLocalizedUrl(lang, { lang, view: 'home' }) });
 
-  let title = 'VeloSchweiz – Das Schweizer E-Bike Vergleichsportal';
-  let description = 'Finden Sie Ihr Traum-E-Bike: 500 Modelle im Schweizer Vergleich mit TCS & Kassensturz Tests, Fachhändlern und Förderbeiträgen.';
+  let title = 'VeloSchweiz â€“ Das Schweizer E-Bike Vergleichsportal';
+  let description = 'Finden Sie Ihr Traum-E-Bike: 500 Modelle im Schweizer Vergleich mit TCS & Kassensturz Tests, FachhÃ¤ndlern und FÃ¶rderbeitrÃ¤gen.';
   let ogType: 'website' | 'article' | 'product' = 'website';
   let jsonLd: Record<string, unknown> | Array<Record<string, unknown>> = {};
 
   switch (route.view) {
     case 'home': {
       if (lang === 'fr') {
-        title = 'VeloSuisse – Comparateur de Vélos Électriques en Suisse';
-        description = 'Comparez 500 modèles d’e-bikes en Suisse avec tests TCS et Kassensturz, revendeurs agréés et guide des subventions cantonales.';
+        title = 'VeloSuisse â€“ Comparateur de VÃ©los Ã‰lectriques en Suisse';
+        description = 'Comparez 500 modÃ¨les dâ€™e-bikes en Suisse avec tests TCS et Kassensturz, revendeurs agrÃ©Ã©s et guide des subventions cantonales.';
       } else if (lang === 'it') {
-        title = 'VeloSvizzera – Portale e Comparatore E-Bike in Svizzera';
+        title = 'VeloSvizzera â€“ Portale e Comparatore E-Bike in Svizzera';
         description = 'Confronta 500 modelli di e-bike in Svizzera con test TCS, rivenditori specializzati e guida agli incentivi cantonali.';
       }
       jsonLd = {
@@ -71,18 +82,18 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     }
 
     case 'catalog-root': {
-      const catRootLabel = lang === 'fr' ? 'Vélos électriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes';
+      const catRootLabel = lang === 'fr' ? 'VÃ©los Ã©lectriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes';
       breadcrumbs.push({ name: catRootLabel, url: canonicalPath });
 
       if (lang === 'fr') {
-        title = 'Tous les Vélos Électriques en Suisse – 500 Modèles Comparés | VeloSuisse';
-        description = 'Catalogue complet des vélos électriques en Suisse : VTT, trekking, ville, cargos et 45 km/h avec fiches techniques et notes de test.';
+        title = 'Tous les VÃ©los Ã‰lectriques en Suisse â€“ 500 ModÃ¨les ComparÃ©s | VeloSuisse';
+        description = 'Catalogue complet des vÃ©los Ã©lectriques en Suisse : VTT, trekking, ville, cargos et 45 km/h avec fiches techniques et notes de test.';
       } else if (lang === 'it') {
-        title = 'Catalogo Completo E-Bike in Svizzera – 500 Modelli | VeloSvizzera';
-        description = 'Catalogo completo delle e-bike in Svizzera: mountain bike, trekking, città, cargo e speed pedelec 45 km/h con test ufficiali.';
+        title = 'Catalogo Completo E-Bike in Svizzera â€“ 500 Modelli | VeloSvizzera';
+        description = 'Catalogo completo delle e-bike in Svizzera: mountain bike, trekking, cittÃ , cargo e speed pedelec 45 km/h con test ufficiali.';
       } else {
-        title = 'Alle E-Bikes der Schweiz – 500 Modelle im Test & Vergleich | VeloSchweiz';
-        description = 'Vollständiger Schweizer E-Bike Katalog: Mountainbikes, Trekking, City, Lastenvelos und schnelle 45 km/h E-Bikes mit TCS-Prüfbericht.';
+        title = 'Alle E-Bikes der Schweiz â€“ 500 Modelle im Test & Vergleich | VeloSchweiz';
+        description = 'VollstÃ¤ndiger Schweizer E-Bike Katalog: Mountainbikes, Trekking, City, Lastenvelos und schnelle 45 km/h E-Bikes mit TCS-PrÃ¼fbericht.';
       }
       break;
     }
@@ -91,20 +102,20 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       if (route.category) {
         const catName = route.category.name[lang];
         breadcrumbs.push({
-          name: lang === 'fr' ? 'Vélos électriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
+          name: lang === 'fr' ? 'VÃ©los Ã©lectriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
           url: buildLocalizedUrl(lang, { lang, view: 'catalog-root' }),
         });
         breadcrumbs.push({ name: catName, url: canonicalPath });
 
         if (lang === 'fr') {
-          title = `${catName} – Comparatif & Meilleurs Modèles en Suisse | VeloSuisse`;
-          description = `Découvrez notre sélection de ${route.category.targetCount} ${catName} en Suisse avec tests comparatifs, autonomie et revendeurs.`;
+          title = `${catName} â€“ Comparatif & Meilleurs ModÃ¨les en Suisse | VeloSuisse`;
+          description = `DÃ©couvrez notre sÃ©lection de ${route.category.targetCount} ${catName} en Suisse avec tests comparatifs, autonomie et revendeurs.`;
         } else if (lang === 'it') {
-          title = `${catName} – Confronto & Migliori Modelli in Svizzera | VeloSvizzera`;
+          title = `${catName} â€“ Confronto & Migliori Modelli in Svizzera | VeloSvizzera`;
           description = `Guida e catalogo con ${route.category.targetCount} ${catName} in Svizzera con punteggi TCS, motori e prezzi in CHF.`;
         } else {
-          title = `${catName} Schweiz – ${route.category.targetCount} Modelle im Test & Preisvergleich | VeloSchweiz`;
-          description = `Die besten ${catName} der Schweiz im Test: Reichweite, Bosch/Shimano Motoren, Schweizer Fachhändler und Preise in CHF.`;
+          title = `${catName} Schweiz â€“ ${route.category.targetCount} Modelle im Test & Preisvergleich | VeloSchweiz`;
+          description = `Die besten ${catName} der Schweiz im Test: Reichweite, Bosch/Shimano Motoren, Schweizer FachhÃ¤ndler und Preise in CHF.`;
         }
 
         jsonLd = {
@@ -136,7 +147,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         const catName = route.category.name[lang];
 
         breadcrumbs.push({
-          name: lang === 'fr' ? 'Vélos électriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
+          name: lang === 'fr' ? 'VÃ©los Ã©lectriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
           url: buildLocalizedUrl(lang, { lang, view: 'catalog-root' }),
         });
         breadcrumbs.push({
@@ -146,14 +157,14 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         breadcrumbs.push({ name: subName, url: canonicalPath });
 
         if (lang === 'fr') {
-          title = `${subName} – Guide, Tests & Prix en Suisse | VeloSuisse`;
-          description = `Tous les modèles ${subName} (${sub?.targetCount} vélos) testés pour les sentiers suisses avec moteurs puissants et suspension.`;
+          title = `${subName} â€“ Guide, Tests & Prix en Suisse | VeloSuisse`;
+          description = `Tous les modÃ¨les ${subName} (${sub?.targetCount} vÃ©los) testÃ©s pour les sentiers suisses avec moteurs puissants et suspension.`;
         } else if (lang === 'it') {
-          title = `${subName} – Test, Autonomia e Prezzi in Svizzera | VeloSvizzera`;
+          title = `${subName} â€“ Test, Autonomia e Prezzi in Svizzera | VeloSvizzera`;
           description = `Guida e prezzi in CHF per ${subName} (${sub?.targetCount} modelli) adatte a salite impegnative e discese tecniche.`;
         } else {
-          title = `${subName} Schweiz – ${sub?.targetCount} Modelle im Vergleich | VeloSchweiz`;
-          description = `Die besten ${subName} im Schweizer Praxistest: Federung, Akku-Leistung am Berg und Verfügbarkeit bei Schweizer Händlern.`;
+          title = `${subName} Schweiz â€“ ${sub?.targetCount} Modelle im Vergleich | VeloSchweiz`;
+          description = `Die besten ${subName} im Schweizer Praxistest: Federung, Akku-Leistung am Berg und VerfÃ¼gbarkeit bei Schweizer HÃ¤ndlern.`;
         }
       }
       break;
@@ -165,7 +176,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       if (product && route.category) {
         const catName = route.category.name[lang];
         breadcrumbs.push({
-          name: lang === 'fr' ? 'Vélos électriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
+          name: lang === 'fr' ? 'VÃ©los Ã©lectriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
           url: buildLocalizedUrl(lang, { lang, view: 'catalog-root' }),
         });
         breadcrumbs.push({
@@ -174,8 +185,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         });
         breadcrumbs.push({ name: product.name, url: canonicalPath });
 
-        title = `${product.name} (CHF ${product.priceCHF.toLocaleString('de-CH')}.-) – Test & Technische Daten | VeloSchweiz`;
-        description = `${product.name} im Schweizer Test: ${product.motorModel}, ${product.batteryWh} Wh Akku, TCS Urteil: ${product.testVerdicts[0]?.scoreText}. Bei ${product.inStockSwissDealers} Fachhändlern verfügbar.`;
+        title = `${product.name} (CHF ${product.priceCHF.toLocaleString('de-CH')}.-) â€“ Test & Technische Daten | VeloSchweiz`;
+        description = `${product.name}: ${product.motorModel}, ${product.batteryWh} Wh Akku${product.weightKg ? `, ${product.weightKg} kg` : ''}. Preis ab CHF ${product.priceCHF.toLocaleString('de-CH')}.-, technische Daten und Details.`;
 
         jsonLd = {
           '@context': 'https://schema.org',
@@ -195,7 +206,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
             priceValidUntil: '2026-12-31',
             seller: {
               '@type': 'Organization',
-              name: 'Schweizer Fachhändler Netzwerk',
+              name: 'Schweizer FachhÃ¤ndler Netzwerk',
             },
           },
           // aggregateRating / review intentionally omitted: current ratings and test verdicts are
@@ -209,11 +220,11 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       const brandRootLabel = lang === 'fr' ? 'Marques' : lang === 'it' ? 'Marchi' : 'Marken';
       breadcrumbs.push({ name: brandRootLabel, url: canonicalPath });
       title = lang === 'fr'
-        ? 'Toutes les Marques de Vélos Électriques en Suisse | VeloSuisse'
+        ? 'Toutes les Marques de VÃ©los Ã‰lectriques en Suisse | VeloSuisse'
         : lang === 'it'
         ? 'Tutti i Marchi di E-Bike in Svizzera | VeloSvizzera'
-        : 'Alle E-Bike Marken der Schweiz – Scott, Flyer, Stromer, Cube u.v.m. | VeloSchweiz';
-      description = 'Entdecken Sie die Top E-Bike Marken in der Schweiz: Schweizer Pioniere (Flyer, Stromer, Scott, BMC, Thömus) und internationale Marktführer.';
+        : 'Alle E-Bike Marken der Schweiz â€“ Scott, Flyer, Stromer, Cube u.v.m. | VeloSchweiz';
+      description = 'Entdecken Sie die Top E-Bike Marken in der Schweiz: Schweizer Pioniere (Flyer, Stromer, Scott, BMC, ThÃ¶mus) und internationale MarktfÃ¼hrer.';
       break;
     }
 
@@ -226,8 +237,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         });
         breadcrumbs.push({ name: route.brand.name, url: canonicalPath });
 
-        title = `${route.brand.name} E-Bikes Schweiz – ${route.brand.targetCount} Modelle & Händler | VeloSchweiz`;
-        description = `${route.brand.description[lang]} Übersicht aller ${route.brand.targetCount} Modelle, TCS Testnoten und Schweizer Fachhändler.`;
+        title = `${route.brand.name} E-Bikes Schweiz â€“ ${route.brand.targetCount} Modelle & HÃ¤ndler | VeloSchweiz`;
+        description = `${route.brand.description[lang]} Ãœbersicht aller ${route.brand.targetCount} Modelle, TCS Testnoten und Schweizer FachhÃ¤ndler.`;
 
         jsonLd = {
           '@context': 'https://schema.org',
@@ -264,11 +275,11 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       const guideRootLabel = lang === 'fr' ? 'Guide E-Bike' : lang === 'it' ? 'Guida E-Bike' : 'E-Bike Ratgeber';
       breadcrumbs.push({ name: guideRootLabel, url: canonicalPath });
       title = lang === 'fr'
-        ? 'Guide & Conseils Vélo Électrique en Suisse (25 vs 45 km/h, Achat, Subventions) | VeloSuisse'
+        ? 'Guide & Conseils VÃ©lo Ã‰lectrique en Suisse (25 vs 45 km/h, Achat, Subventions) | VeloSuisse'
         : lang === 'it'
         ? 'Guida E-Bike Svizzera : Norme 25 vs 45 km/h, Acquisto, Manutenzione e Incentivi | VeloSvizzera'
-        : 'Schweizer E-Bike Ratgeber 2026: Kaufberatung, Schweizer Recht (25 vs 45 km/h), Akku-Pflege & Fördergelder';
-      description = 'Expertenratgeber für Schweizer E-Biker: Alles zu ASTRA-Gesetzen, Helmpflicht, kantonalen Förderbeiträgen bis 1’000 CHF und Rahmengrössen.';
+        : 'Schweizer E-Bike Ratgeber 2026: Kaufberatung, Schweizer Recht (25 vs 45 km/h), Akku-Pflege & FÃ¶rdergelder';
+      description = 'Expertenratgeber fÃ¼r Schweizer E-Biker: Alles zu ASTRA-Gesetzen, Helmpflicht, kantonalen FÃ¶rderbeitrÃ¤gen bis 1â€™000 CHF und RahmengrÃ¶ssen.';
       break;
     }
 
@@ -280,7 +291,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           url: buildLocalizedUrl(lang, { lang, view: 'guide-root' }),
         });
         breadcrumbs.push({ name: route.guideCluster.title[lang], url: canonicalPath });
-        title = `${route.guideCluster.title[lang]} – Schweizer Expertenwissen | VeloSchweiz`;
+        title = `${route.guideCluster.title[lang]} â€“ Schweizer Expertenwissen | VeloSchweiz`;
         description = route.guideCluster.shortDesc[lang];
       }
       break;
@@ -325,15 +336,15 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
 
     case 'canton-subsidies': {
       breadcrumbs.push({
-        name: lang === 'fr' ? 'Subventions cantonales' : lang === 'it' ? 'Incentivi cantonali' : 'Kantonale Förderbeiträge',
+        name: lang === 'fr' ? 'Subventions cantonales' : lang === 'it' ? 'Incentivi cantonali' : 'Kantonale FÃ¶rderbeitrÃ¤ge',
         url: canonicalPath,
       });
       title = lang === 'fr'
-        ? 'Subventions E-Bike par Canton en Suisse (Jusqu’à 1’000 CHF) | VeloSuisse'
+        ? 'Subventions E-Bike par Canton en Suisse (Jusquâ€™Ã  1â€™000 CHF) | VeloSuisse'
         : lang === 'it'
-        ? 'Incentivi E-Bike per Cantone in Svizzera (Fino a 1’000 CHF) | VeloSvizzera'
-        : 'E-Bike Förderbeiträge Schweiz: Alle Kantone & Gemeinden im Überblick | VeloSchweiz';
-      description = 'Bis zu 1’000 CHF Zuschuss für Ihr E-Bike oder Cargo-Velo: Übersicht über Förderprogramme in Zürich, Bern, Basel, Genf, Waadt, Tessin u.v.m.';
+        ? 'Incentivi E-Bike per Cantone in Svizzera (Fino a 1â€™000 CHF) | VeloSvizzera'
+        : 'E-Bike FÃ¶rderbeitrÃ¤ge Schweiz: Alle Kantone & Gemeinden im Ãœberblick | VeloSchweiz';
+      description = 'Bis zu 1â€™000 CHF Zuschuss fÃ¼r Ihr E-Bike oder Cargo-Velo: Ãœbersicht Ã¼ber FÃ¶rderprogramme in ZÃ¼rich, Bern, Basel, Genf, Waadt, Tessin u.v.m.';
       break;
     }
 
@@ -343,17 +354,17 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         url: canonicalPath,
       });
       title = lang === 'fr'
-        ? 'Comparateur de Vélos Électriques en Suisse | VeloSuisse'
+        ? 'Comparateur de VÃ©los Ã‰lectriques en Suisse | VeloSuisse'
         : lang === 'it'
         ? 'Confronto E-Bike : Specifiche e Test a Confronto | VeloSvizzera'
         : 'E-Bike Vergleichstool: Vergleichen Sie bis zu 4 Modelle Seite an Seite | VeloSchweiz';
-      description = 'Interaktiver E-Bike Modellvergleich: Motordrehmoment, Akkukapazität Wh, TCS Testergebnisse, Gewicht und Preise in CHF nebeneinander.';
+      description = 'Interaktiver E-Bike Modellvergleich: Motordrehmoment, AkkukapazitÃ¤t Wh, TCS Testergebnisse, Gewicht und Preise in CHF nebeneinander.';
       break;
     }
 
     case 'about': {
-      title = 'Über VeloSchweiz – Die Schweizer E-Bike Plattform';
-      description = 'VeloSchweiz ist die unabhängige Schweizer Vergleichs- und Informationsplattform für Elektrovelos, TCS-geprüfte Qualität und Fachhändler.';
+      title = 'Ãœber VeloSchweiz â€“ Die Schweizer E-Bike Plattform';
+      description = 'VeloSchweiz ist die unabhÃ¤ngige Schweizer Vergleichs- und Informationsplattform fÃ¼r Elektrovelos, TCS-geprÃ¼fte QualitÃ¤t und FachhÃ¤ndler.';
       break;
     }
 
@@ -364,13 +375,13 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     }
 
     case 'search': {
-      title = `Suche nach «${route.queryString}» – VeloSchweiz`;
-      description = `Suchergebnisse für «${route.queryString}» in der Schweizer E-Bike Datenbank.`;
+      title = `Suche nach Â«${route.queryString}Â» â€“ VeloSchweiz`;
+      description = `Suchergebnisse fÃ¼r Â«${route.queryString}Â» in der Schweizer E-Bike Datenbank.`;
       break;
     }
 
     default: {
-      title = '404 – Seite nicht gefunden | VeloSchweiz';
+      title = '404 â€“ Seite nicht gefunden | VeloSchweiz';
       description = 'Die angeforderte Seite existiert nicht auf VeloSchweiz.';
       break;
     }

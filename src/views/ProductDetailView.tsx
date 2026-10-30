@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Product, Language, ReviewPlatform } from '../types';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
-import { ALL_PRODUCTS } from '../data/productsGenerator';
+import { ALL_PRODUCTS } from '../data/products';
 import { buildLocalizedUrl } from '../utils/routes';
 import { ProductCard } from '../components/ProductCard';
 import { I18N } from '../data/i18n';
@@ -40,7 +40,10 @@ export function ProductDetailView({
   onToggleCompare,
   onOpenTestRide,
 }: ProductDetailViewProps) {
-  const [activeTab, setActiveTab] = useState<'tests' | 'reviews' | 'specs'>('tests');
+  const initialProduct = ALL_PRODUCTS.find((p) => p.slug === productSlug);
+  const [activeTab, setActiveTab] = useState<'tests' | 'reviews' | 'specs'>(
+    initialProduct?.testVerdicts.length ? 'tests' : initialProduct?.userReviews.length ? 'reviews' : 'specs'
+  );
   const [reviewFilter, setReviewFilter] = useState<'all' | ReviewPlatform>('all');
   const [helpfulVotes, setHelpfulVotes] = useState<Record<string, boolean>>({});
 
@@ -53,20 +56,20 @@ export function ProductDetailView({
     return (
       <div className="max-w-4xl mx-auto py-20 px-4 text-center">
         <h2 className="text-2xl font-bold text-slate-900">
-          {lang === 'fr' ? 'Modèle non trouvé' : lang === 'it' ? 'Modello non trovato' : 'E-Bike Modell nicht gefunden'}
+          {lang === 'fr' ? 'ModÃ¨le non trouvÃ©' : lang === 'it' ? 'Modello non trovato' : 'E-Bike Modell nicht gefunden'}
         </h2>
         <p className="text-sm text-slate-500 mt-2">
           {lang === 'fr'
-            ? 'Ce modèle n’est pas disponible dans le catalogue suisse.'
+            ? 'Ce modÃ¨le nâ€™est pas disponible dans le catalogue suisse.'
             : lang === 'it'
-            ? 'Questo modello non è disponibile nel catalogo svizzero.'
-            : 'Das gewünschte Modell ist im Schweizer Katalog nicht verfügbar.'}
+            ? 'Questo modello non Ã¨ disponibile nel catalogo svizzero.'
+            : 'Das gewÃ¼nschte Modell ist im Schweizer Katalog nicht verfÃ¼gbar.'}
         </p>
         <button
           onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
           className="mt-4 px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold cursor-pointer"
         >
-          {lang === 'fr' ? 'Retour au catalogue' : lang === 'it' ? 'Torna al catalogo' : 'Zurück zum Gesamtkatalog'}
+          {lang === 'fr' ? 'Retour au catalogue' : lang === 'it' ? 'Torna al catalogo' : 'ZurÃ¼ck zum Gesamtkatalog'}
         </button>
       </div>
     );
@@ -151,7 +154,7 @@ export function ProductDetailView({
 
               {brand?.isSwiss && (
                 <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-red-50 text-red-700 border border-red-200 flex items-center gap-1">
-                  <span>🇨🇭 Swiss Engineering</span>
+                  <span>ðŸ‡¨ðŸ‡­ Swiss Engineering</span>
                 </span>
               )}
             </div>
@@ -194,7 +197,7 @@ export function ProductDetailView({
                 <Zap className="w-3.5 h-3.5 text-amber-500" />
                 <span>{tPdp.torque}</span>
               </div>
-              <div className="font-bold text-slate-900 text-sm">{product.torqueNm} Nm</div>
+              <div className="font-bold text-slate-900 text-sm">{product.torqueNm ? `${product.torqueNm} Nm` : '-'}</div>
             </div>
 
             <div className="p-3 bg-slate-50 rounded-xl">
@@ -210,7 +213,7 @@ export function ProductDetailView({
                 <Weight className="w-3.5 h-3.5 text-slate-400" />
                 <span>{tPdp.weight}</span>
               </div>
-              <div className="font-bold text-slate-900 text-sm">{product.weightKg} kg</div>
+              <div className="font-bold text-slate-900 text-sm">{product.weightKg ? `${product.weightKg} kg` : '-'}</div>
             </div>
 
             <div className="p-3 bg-slate-50 rounded-xl">
@@ -219,7 +222,7 @@ export function ProductDetailView({
                 <span>{tPdp.range}</span>
               </div>
               <div className="font-bold text-slate-900 text-sm">
-                {tPdp.upTo} {product.rangeKmEst.max} km
+                {product.rangeKmEst ? `${tPdp.upTo} ${product.rangeKmEst.max} km` : '-'}
               </div>
             </div>
           </div>
@@ -235,7 +238,7 @@ export function ProductDetailView({
               >
                 {brand?.name}
               </button>
-              <span className="text-slate-300">·</span>
+              <span className="text-slate-300">Â·</span>
               <span className="text-xs text-slate-500 lowercase">{category?.name[lang]}</span>
             </div>
 
@@ -254,13 +257,13 @@ export function ProductDetailView({
               <div>
                 <span className="text-xs text-slate-500 block">{tPdp.retailPrice}</span>
                 <span className="text-3xl font-black text-slate-900 font-mono tracking-tight">
-                  CHF {product.priceCHF.toLocaleString('de-CH')}.-
+                  {product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
                 </span>
               </div>
               <div className="text-right">
                 <span className="inline-flex items-center gap-1 text-emerald-800 bg-emerald-100/80 px-2.5 py-1 rounded-full text-xs font-bold">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
-                  <span>{product.inStockSwissDealers} {tPdp.dealersAvailable}</span>
+                  <span>UVP {product.year}</span>
                 </span>
               </div>
             </div>
@@ -291,7 +294,7 @@ export function ProductDetailView({
                 </div>
 
                 <span className="text-[11px] font-bold text-emerald-700 group-hover:underline">
-                  {product.trustpilotStats.reviewCount} verifiziert →
+                  {product.trustpilotStats.reviewCount} verifiziert â†’
                 </span>
               </div>
             )}
@@ -353,6 +356,7 @@ export function ProductDetailView({
       {/* Tabs: Tests / Legit Reviews / Detailed Technical Specs */}
       <div className="space-y-6">
         <div className="flex border-b border-slate-200 text-sm font-bold gap-6">
+          {product.testVerdicts.length > 0 && (
           <button
             onClick={() => setActiveTab('tests')}
             className={`pb-3 border-b-2 transition-colors cursor-pointer ${
@@ -361,6 +365,8 @@ export function ProductDetailView({
           >
             {tPdp.tabTests} ({product.testVerdicts.length})
           </button>
+          )}
+          {product.userReviews.length > 0 && (
           <button
             onClick={() => setActiveTab('reviews')}
             className={`pb-3 border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 ${
@@ -369,9 +375,10 @@ export function ProductDetailView({
           >
             <span>{tPdp.tabReviews}</span>
             <span className="px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-mono">
-              ★ {product.trustpilotStats?.score || 4.7}
+              â˜… {product.trustpilotStats?.score || 4.7}
             </span>
           </button>
+          )}
           <button
             onClick={() => setActiveTab('specs')}
             className={`pb-3 border-b-2 transition-colors cursor-pointer ${
@@ -420,7 +427,7 @@ export function ProductDetailView({
                     <ul className="space-y-1 text-emerald-950 text-[11px]">
                       {tv.pros.map((p, i) => (
                         <li key={i} className="flex items-start gap-1">
-                          <span className="text-emerald-600 font-bold">✓</span>
+                          <span className="text-emerald-600 font-bold">âœ“</span>
                           <span>{p}</span>
                         </li>
                       ))}
@@ -435,7 +442,7 @@ export function ProductDetailView({
                     <ul className="space-y-1 text-amber-950 text-[11px]">
                       {tv.cons.map((c, i) => (
                         <li key={i} className="flex items-start gap-1">
-                          <span className="text-amber-600 font-bold">✗</span>
+                          <span className="text-amber-600 font-bold">âœ—</span>
                           <span>{c}</span>
                         </li>
                       ))}
@@ -487,7 +494,7 @@ export function ProductDetailView({
                       </div>
                     ))}
                     <span className="text-xs font-bold text-slate-700 ml-2 font-mono">
-                      {product.trustpilotStats?.reviewCount || 38} {lang === 'fr' ? 'avis vérifiés' : lang === 'it' ? 'recensioni verificate' : 'verifizierte Bewertungen'}
+                      {product.trustpilotStats?.reviewCount || 38} {lang === 'fr' ? 'avis vÃ©rifiÃ©s' : lang === 'it' ? 'recensioni verificate' : 'verifizierte Bewertungen'}
                     </span>
                   </div>
 
@@ -558,7 +565,7 @@ export function ProductDetailView({
                         : 'bg-emerald-50 text-emerald-900 border border-emerald-200 hover:bg-emerald-100'
                     }`}
                   >
-                    <span>★ Trustpilot ({trustpilotReviews.length})</span>
+                    <span>â˜… Trustpilot ({trustpilotReviews.length})</span>
                   </button>
                   <button
                     onClick={() => setReviewFilter('Google')}
@@ -618,7 +625,7 @@ export function ProductDetailView({
                         </div>
 
                         <div className="text-[10px] text-slate-400 mt-0.5">
-                          {rev.kmRidden.toLocaleString('de-CH')} {tPdp.kmRidden} · {tPdp.date} {rev.date}
+                          {rev.kmRidden.toLocaleString('de-CH')} {tPdp.kmRidden} Â· {tPdp.date} {rev.date}
                         </div>
                       </div>
 
@@ -685,7 +692,7 @@ export function ProductDetailView({
               <tbody className="divide-y divide-slate-100">
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700 w-1/3">{tPdp.motorSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.motorModel} ({product.torqueNm} Nm)</td>
+                  <td className="p-3.5 font-medium text-slate-900">{product.motorModel} ({product.torqueNm ? `${product.torqueNm} Nm` : '-'})</td>
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.batterySpec}</td>
@@ -712,7 +719,7 @@ export function ProductDetailView({
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.frameSpec}</td>
                   <td className="p-3.5 font-medium text-slate-900">
-                    {product.frameMaterial} · {frameTypeLabel}
+                    {product.frameMaterial} Â· {frameTypeLabel}
                   </td>
                 </tr>
                 <tr>
@@ -721,11 +728,11 @@ export function ProductDetailView({
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.weightSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.weightKg} kg</td>
+                  <td className="p-3.5 font-medium text-slate-900">{product.weightKg ? `${product.weightKg} kg` : '-'}</td>
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.lightingSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.specs.lighting} · {product.specs.display}</td>
+                  <td className="p-3.5 font-medium text-slate-900">{product.specs.lighting} Â· {product.specs.display}</td>
                 </tr>
               </tbody>
             </table>

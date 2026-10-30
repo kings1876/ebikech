@@ -3,7 +3,7 @@
 import { useState, useEffect, useTransition } from 'react';
 import { SITE_URL } from './utils/site';
 import { Product, Language } from './types';
-import { ALL_PRODUCTS } from './data/productsGenerator';
+import { ALL_PRODUCTS } from './data/products';
 import { parseRoute, ParsedRoute, buildLocalizedUrl } from './utils/routes';
 import { resolveSeoMetadata } from './utils/seo';
 import { Header } from './components/Header';
@@ -259,7 +259,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
           <div className="max-w-2xl mx-auto py-24 px-4 text-center space-y-4">
             <div className="text-6xl font-black text-red-600 font-mono">404</div>
             <h1 className="text-2xl font-black text-slate-900">
-              {lang === 'fr' ? 'Page non trouvée' : lang === 'it' ? 'Pagina non trovata' : 'Seite nicht gefunden'}
+              {lang === 'fr' ? 'Page non trouvÃ©e' : lang === 'it' ? 'Pagina non trovata' : 'Seite nicht gefunden'}
             </h1>
             <p className="text-sm text-slate-600">
               Die aufgerufene Schweizer URL existiert nicht oder wurde verschoben.
@@ -269,7 +269,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
                 onClick={() => handleNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
                 className="px-6 py-2.5 bg-red-600 text-white rounded-xl text-xs font-bold hover:bg-red-700 transition-colors cursor-pointer"
               >
-                Zurück zur Startseite
+                ZurÃ¼ck zur Startseite
               </button>
             </div>
           </div>

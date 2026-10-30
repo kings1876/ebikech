@@ -3,7 +3,7 @@ import { Language, CategoryDef } from '../types';
 import { CATEGORIES, SECTION_ROOTS } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
-import { ALL_PRODUCTS } from '../data/productsGenerator';
+import { ALL_PRODUCTS } from '../data/products';
 import { I18N } from '../data/i18n';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import {
@@ -107,7 +107,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               {t.header.topBanner}
             </span>
             <span className="font-medium text-slate-300 sm:hidden">
-              {portalName} – 500 {t.header.models}
+              {portalName} â€“ 500 {t.header.models}
             </span>
           </div>
 
@@ -133,7 +133,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                 className={`px-2 py-0.5 rounded text-[11px] font-bold transition-colors cursor-pointer ${
                   lang === 'fr' ? 'bg-red-600 text-white shadow-xs' : 'text-slate-300 hover:text-white'
                 }`}
-                title="Français (fr-CH)"
+                title="FranÃ§ais (fr-CH)"
               >
                 FR
               </button>
@@ -225,7 +225,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                         </div>
                         {cat.subcategories && (
                           <div className="text-[10px] text-slate-600">
-                            {cat.subcategories.map((s) => s.name[lang]).join(' · ')}
+                            {cat.subcategories.map((s) => s.name[lang]).join(' Â· ')}
                           </div>
                         )}
                       </div>
@@ -275,7 +275,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                       className="flex items-center justify-between px-2.5 py-1.5 rounded-lg hover:bg-slate-50 text-left text-xs cursor-pointer group"
                     >
                       <span className="font-medium text-slate-800 group-hover:text-red-700 flex items-center gap-1">
-                        {brand.isSwiss && <span className="text-[10px]" title="Swiss Made">🇨🇭</span>}
+                        {brand.isSwiss && <span className="text-[10px]" title="Swiss Made">ðŸ‡¨ðŸ‡­</span>}
                         {brand.name}
                       </span>
                       <span className="text-[10px] text-slate-600 font-mono">
@@ -340,7 +340,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             <Coins className="w-4 h-4 text-emerald-600" />
             <span>{t.header.subsidies}</span>
             <span className="text-[10px] font-bold bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded">
-              CHF 1’000.-
+              CHF 1â€™000.-
             </span>
           </button>
         </nav>
@@ -383,7 +383,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                       >
                         <div>
                           <div className="font-semibold text-slate-900">{product.name}</div>
-                          <div className="text-[10px] text-slate-600">{product.motorModel} · {product.batteryWh} Wh</div>
+                          <div className="text-[10px] text-slate-600">{product.motorModel} Â· {product.batteryWh} Wh</div>
                         </div>
                         <div className="font-bold text-red-600 font-mono text-[11px]">
                           CHF {product.priceCHF.toLocaleString('de-CH')}.-
@@ -404,7 +404,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                 ? 'bg-red-600 text-white shadow-md shadow-red-600/30 hover:bg-red-700 animate-pulse'
                 : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
             }`}
-            title="E-Bike Vergleich öffnen"
+            title="E-Bike Vergleich Ã¶ffnen"
           >
             <SlidersHorizontal className="w-3.5 h-3.5" />
             <span className="hidden sm:inline">
@@ -441,7 +441,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               onClick={() => handleLanguageChange('fr')}
               className={`py-1.5 rounded-lg text-center font-bold text-xs ${lang === 'fr' ? 'bg-red-600 text-white' : 'bg-slate-100 text-slate-700'}`}
             >
-              Français (fr-CH)
+              FranÃ§ais (fr-CH)
             </button>
             <button
               onClick={() => handleLanguageChange('it')}

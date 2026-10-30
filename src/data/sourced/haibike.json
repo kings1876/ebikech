@@ -1,0 +1,1971 @@
+[
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN 2",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-2-hmbu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "sparkling black/frosted indigo - matt"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-2-Mullet_27.5Inch_90_HMBU1-uberarbeitet-web.jpg?v=1776838501",
+        "alt": "Haibike ALLMTN 2 2026, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm",
+      "battery.wh"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRACK 10",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4199,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrack-10-hkiu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "blue/titan/yellow glossy"
+    ],
+    "description": "E-Mountainbike (Hardtail) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-10-27.5_C1_27.5Inch_90_HKIT1_web.png?v=1764240173",
+        "alt": "Haibike ALLTRACK 10 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-10-27.5_C1_27.5Inch_45_HKIT1_web.png?v=1764240221",
+        "alt": "Haibike ALLTRACK 10 2026, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-10-27.5_C1_27.5Inch_DETAIL-2_HKIT1_web.jpg?v=1764240325",
+        "alt": "Haibike ALLTRACK 10 2026, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-10-27.5_C1_27.5Inch_DETAIL-1_HKIT1_web.jpg?v=1764240322",
+        "alt": "Haibike ALLTRACK 10 2026, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-10-27.5_C1_27.5Inch_DETAIL-3_HKIT1_web.jpg?v=1764240321",
+        "alt": "Haibike ALLTRACK 10 2026, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-10-27.5_C1_27.5Inch_DETAIL-5_HKIT1_web.jpg?v=1764240318",
+        "alt": "Haibike ALLTRACK 10 2026, Produktbild 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN 4",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-4-hmcu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "silver/red/black glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_90_HMCT1_web.png?v=1764240174",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_45_HMCT1_web.png?v=1765386317",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_DETAIL-1_HMCT1_web.jpg?v=1765099875",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_DETAIL_4_HMCT1_web.jpg?v=1764240335",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_DETAIL-3_HMCT1_web.jpg?v=1764240335",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_DETAIL-2_HMCT1_web.jpg?v=1765099875",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-4_C1_Mullet_DETAIL-5_HMCT1_web.jpg?v=1764240335",
+        "alt": "Haibike ALLMTN 4 2026, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 10",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-10-hleu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "black/ninja gold/grey glossy",
+      "slate blue/blue/black glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-27.5_C1_27.5Inch_90_HLET1_web.png?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-27.5_C2_27.5Inch_90_HLET4_web.png?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-27.5_C2_27.5Inch_45_HLET4_web.png?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-27.5_C1_27.5Inch_45_HLET1_web.png?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-29_C2_29Inch_DETAIL-5_HLET3_web.jpg?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-29_C2_29Inch_DETAIL-1_HLET3_web.jpg?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-27.5_C2_27.5Inch_DETAIL-5_HLET4_web.jpg?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-10-27.5_C2_27.5Inch_DETAIL-2_HLET4_web.jpg?v=1765454402",
+        "alt": "Haibike ALLTRAIL 10 2026, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 8",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-8-hldu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "white/blue/gold glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 600-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-8_29Inch_90_HLDU2.png?v=1764684189",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-8-LOW_27.5Inch_90_HLDU3.png?v=1764684189",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-8-Low-27.5_C1_27.5Inch_DETAIL-2_HLDT3.png?v=1765359571",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-8-29_C1_29Inch_DETAIL-4_HLDT2.png?v=1765359566",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-8-Low-27.5_C1_27.5Inch_DETAIL-5_HLDT3.png?v=1765359567",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-8-Low-27.5_C1_27.5Inch_DETAIL-4_HLDT3.png?v=1765359553",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRAIL-8-29_C1_29Inch_DETAIL-2_HLDT2.png?v=1765359536",
+        "alt": "Haibike ALLTRAIL 8 2026, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN CF 9.5 ABS",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8000,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-cf-95-abs-hmwu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "red/black/platinum glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-CF-9.5-ABS-C1_Mullet_90_HMWU1.png?v=1764684281",
+        "alt": "Haibike ALLMTN CF 9.5 ABS 2026, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ADVENTR 6",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/adventr-6-halu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "sparkling black/platinum chrome glossy"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit Bosch Performance Line PX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-6_27.5Inch_90_HALU1.png?v=1764684709",
+        "alt": "Haibike ADVENTR 6 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-6-LOW_27.5Inch_90_HALU2.png?v=1764684709",
+        "alt": "Haibike ADVENTR 6 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ADVENTR 4",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/adventr-4-haku1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "grey/bamboo green matt/glossy"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit Bosch Performance Line PX und 600-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4_27.5Inch_90_HAKU1.png?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_90_HAKU2_web.png?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_45_HAKU2_web.png?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_DETAIL-1_HAKU2_web_65f1b158-172e-4c7e-9653-2699f4dca7e3.jpg?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_DETAIL-3_HAKU2_web.jpg?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_DETAIL-5_HAKU2_web.jpg?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_DETAIL-6_HAKU2_web_1b57b526-998f-40b8-9ad3-2edddb90fbe0.jpg?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_DETAIL-4_HAKU2_web_676807ed-c099-4df5-bf0b-acc2c3c4734e.jpg?v=1768812181",
+        "alt": "Haibike ADVENTR 4 2026, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 4",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-4-htnu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "calm sand/lime glossy"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit Bosch Performance Line PX und 600-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-4-HIGH_27.5Inch_90_HTNU1.png?v=1764684443",
+        "alt": "Haibike TREKKING 4 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-4-LOW_27.5Inch_90_HTNU2.png?v=1764684443",
+        "alt": "Haibike TREKKING 4 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 7.5",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3799,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-75-htou1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "sparkling black/gold matt"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit Bosch Performance Line PX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-7.5-HIGH_27.5Inch_90_HTOU1.png?v=1764684600",
+        "alt": "Haibike TREKKING 7.5 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-7.5-LOW_27.5Inch_90_HTOU2.png?v=1764684601",
+        "alt": "Haibike TREKKING 7.5 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 6",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-6-hlnu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "leather/platinum blue glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-6_Mullet_90_HLNU1.png?v=1764685710",
+        "alt": "Haibike ALLTRAIL 6 2026, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRACK 6",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3399,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrack-6-hklu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "cosmic slate/sparkling black glossy"
+    ],
+    "description": "E-Mountainbike (Hardtail) von Haibike (Modelljahr 2026) mit Bosch Performance Line PX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRACK-6_27.5Inch_90_HKLU1.png?v=1764685828",
+        "alt": "Haibike ALLTRACK 6 2026, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRAIL 4",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrail-4-hlmu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "nebular royal blue/silver glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 600-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-4_Mullet_90_HLMU1.png?v=1764685893",
+        "alt": "Haibike ALLTRAIL 4 2026, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 6.5",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 3999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-65-htpu2",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "stardust/titan glossy"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit Bosch Performance Line CX. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-6.5-HIGH_C2_27.5Inch_90_HTPU2.png?v=1764684954",
+        "alt": "Haibike TREKKING 6.5 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-6.5-LOW_C2_27.5Inch_90_HTPU4.png?v=1764684953",
+        "alt": "Haibike TREKKING 6.5 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm",
+      "battery.wh"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN CF 9",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 7199,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-cf-9-hmlu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "red/black/platinum glossy",
+      "black/platinum glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-CF-9_C1_Mullet_90_HMLU1.png?v=1764685997",
+        "alt": "Haibike ALLMTN CF 9 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-CF-9_C2_Mullet_90_HMLU2.png?v=1764685997",
+        "alt": "Haibike ALLMTN CF 9 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLMTN 6",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 5499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/allmtn-6-hmku1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "ocean black/grey glossy",
+      "swamp/midnight plum matt"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-6-C2_Mullet_90_HMKU2.png?v=1764686098",
+        "alt": "Haibike ALLMTN 6 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-6_C1_Mullet_90_HMKU1.png?v=1764686097",
+        "alt": "Haibike ALLMTN 6 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike HYBE CF 11",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 11000,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/hybe-cf-11-hmtu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX-R",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "sparkling white/splatter black/radiant green glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2026) mit Bosch Performance Line CX-R und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_90_HMTU1_web.png?v=1768575670",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_45_HMTU1_web.png?v=1768575676",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_DETAIL-5_HMTU1_web.jpg?v=1768811810",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_DETAIL-2_HMTU1_web.jpg?v=1768811810",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_DETAIL-1_HMTU1_web.jpg?v=1768811810",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_DETAIL-4_HMTU1_web.jpg?v=1768811810",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_HYBE-CF-11_Mullet_DETAIL-3_HMTU1_web.jpg?v=1768811810",
+        "alt": "Haibike HYBE CF 11 2026, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ADVENTR 8.5",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 5399,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/adventr-85-haiu1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "copper/mystery glossy"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-8.5-HIGH_27.5Inch_90_HAIU1.png?v=1764685142",
+        "alt": "Haibike ADVENTR 8.5 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-8.5-LOW_27.5Inch_90_HAIU2.png?v=1764685142",
+        "alt": "Haibike ADVENTR 8.5 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike TREKKING 3",
+    "modelYear": 2026,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": 2999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/trekking-3-htbu1",
+    "sourceType": "manufacturer",
+    "motor": null,
+    "battery": {
+      "wh": 540,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "dark silver/stardust matt"
+    ],
+    "description": "Trekking-E-Bike von Haibike (Modelljahr 2026) mit einem Elektroantrieb und 540-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [
+      "Als Hoch- und Tiefeinstieg-Variante erhaeltlich"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-3-HIGH_27.5Inch_90_HTBU1.png?v=1764685049",
+        "alt": "Haibike TREKKING 3 2026, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-3-LOW_27.5Inch_90_HTBU2.png?v=1764685050",
+        "alt": "Haibike TREKKING 3 2026, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm",
+      "motor"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRACK 4",
+    "modelYear": 2026,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 2999,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrack-4-hkku1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line PX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "stealth blue/dark silver glossy"
+    ],
+    "description": "E-Mountainbike (Hardtail) von Haibike (Modelljahr 2026) mit Bosch Performance Line PX und 600-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRACK-4_27.5Inch_90_HKKU1.png?v=1764686369",
+        "alt": "Haibike ALLTRACK 4 2026, Produktbild 1",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRACK 11 ABS",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 4799,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrack-11-abs-hkct1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "L",
+        "M",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "blue/titan/yellow glossy"
+    ],
+    "description": "E-Mountainbike (Hardtail) von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-29_C1_29Inch_90_HKCT2_web.png?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-27.5_C1_27.5Inch_45_HKCT1_web.png?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-27.5_C1_27.5Inch_DETAIL-3_HKCT1_web.jpg?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-29_C1_29Inch_DETAIL-3_HKCT2.png?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-29_C1_29Inch_DETAIL-2_HKCT2.png?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-29_C1_29Inch_DETAIL-1_HKCT2.png?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-29_C1_29Inch_DETAIL-5_HKCT2.png?v=1766387315",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 7",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-11-ABS-27.5_C1_27.5Inch_90_HKCT1_web.png?v=1764240174",
+        "alt": "Haibike ALLTRACK 11 ABS 2025, Produktbild 8",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike ALLTRACK 6.5",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": 3599,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/alltrack-65-hkjt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "grey/blue/yellow glossy"
+    ],
+    "description": "E-Mountainbike (Hardtail) von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 600-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-6.5-29_C1_29Inch_90_HKJT1_web_efcb3551-db3a-40a6-b80c-2e227f5c11f7.png?v=1764681756",
+        "alt": "Haibike ALLTRACK 6.5 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-6.5-29_C1_29Inch_45_HKJT1_web.png?v=1764240220",
+        "alt": "Haibike ALLTRACK 6.5 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-6.5-29_C1_29Inch_DETAIL-3_HKJT1_web.jpg?v=1764240320",
+        "alt": "Haibike ALLTRACK 6.5 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-6.5-29_C1_29Inch_DETAIL-5_HKJT1_web.jpg?v=1764240321",
+        "alt": "Haibike ALLTRACK 6.5 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-6.5-29_C1_29Inch_DETAIL-1_HKJT1_web.jpg?v=1764240320",
+        "alt": "Haibike ALLTRACK 6.5 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLTRACK-6.5-29_C1_29Inch_DETAIL-2_HKJT1_web.jpg?v=1764240320",
+        "alt": "Haibike ALLTRACK 6.5 2025, Produktbild 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike HYBE CF 9",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 7499,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/hybe-cf-9-hmst1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "bronze/azure/black glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Bosch Performance Line CX und 800-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_HYBE-CF-9_C1_Mullet_90_HMST1_web_c85bfe75-07bb-448f-ad07-fe9d016fbfff.png?v=1764681751",
+        "alt": "Haibike HYBE CF 9 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_HYBE-CF-9_C1_Mullet_45_HMST1_web.png?v=1764240220",
+        "alt": "Haibike HYBE CF 9 2025, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike LYKE CF SE",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 13000,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/lyke-cf-se-hmrt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Fazua",
+      "model": "Ride 60",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "black gold/leaf glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Fazua Ride 60. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-SE_C1_29Inch_90_HMRT1_web_ec6586d9-0696-43c4-a15b-438d3ebf2507.png?v=1764681745",
+        "alt": "Haibike LYKE CF SE 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-SE_C1_29Inch_45_HMRT1_web.png?v=1764240220",
+        "alt": "Haibike LYKE CF SE 2025, Produktbild 2",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm",
+      "battery.wh"
+    ]
+  },
+  {
+    "brandId": "haibike",
+    "name": "Haibike LYKE CF 11",
+    "modelYear": 2025,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": 8000,
+    "priceNote": "Shop-Preis auf haibike.com/de-ch (Shopify-Katalog products.json, CHF), abgerufen 2026-10-30. Ob UVP oder aktueller Verkaufspreis ist nicht ausgewiesen (kein Streichpreis hinterlegt).",
+    "sourceUrl": "https://haibike.com/de-ch/products/lyke-cf-11-hmqt1",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Fazua",
+      "model": "Ride 60",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 480,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [
+      "carbon/sand/lime - gloss glossy"
+    ],
+    "description": "E-Mountainbike (Fully) von Haibike (Modelljahr 2025) mit Fazua Ride 60 und 480-Wh-Akku. Der Hersteller nennt das Modell auf seinem Schweizer Shop; technische Details sind dort je Variante hinterlegt.",
+    "features": [],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_90_HMQT1_web_e7382130-d03d-41cc-b5c4-4aa2c414d8ba.png?v=1764681745",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_45_HMQT1_web.png?v=1764240219",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_DETAIL-5_HMQT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_DETAIL-4_HMQT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_DETAIL-2_HMQT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_DETAIL-3_HMQT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 6",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_LYKE-CF-11_C1_29Inch_DETAIL-1_HMQT1_web.jpg?v=1764240280",
+        "alt": "Haibike LYKE CF 11 2025, Produktbild 7",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "frame.material",
+      "motor.torqueNm"
+    ]
+  }
+]

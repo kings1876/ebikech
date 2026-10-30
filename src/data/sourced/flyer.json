@@ -1,0 +1,1198 @@
+[
+  {
+    "brandId": "flyer",
+    "name": "Flyer Uproc SL:X",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/uprocslx",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": 55
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "130 mm Federweg",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Leichtes Carbon-Trail-Fully mit Bosch-SX-Motor und 130 mm Federweg vorne und hinten. Der integrierte 400-Wh-Akku lässt sich mit einem externen 250-Wh-Zusatzakku ergänzen. Das Gewicht liegt laut Hersteller unter 18 kg.",
+    "features": [
+      "130/130 mm Federweg",
+      "29-Zoll-Laufräder",
+      "Optionaler 250-Wh-Zusatzakku (bei 8.70 und 9.50 inklusive)"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:6a4ba586-0c25-4dcb-9c38-615ba5e568ac/UprocSL-X-Desktop.2025-04-23-11-41-13.png",
+        "alt": "Flyer Uproc SL:X Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:7dded11f-c899-424f-b567-faf9ca775248/UprocSLX.2025-07-07-08-04-58.png",
+        "alt": "Flyer Uproc SL:X Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:6cc43cf7-1bc1-4013-b6c2-19f191cb754a/PDP-UprocSLX-Imagegrid1.2025-04-24-09-28-27.png",
+        "alt": "Flyer Uproc SL:X Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:f8b917bb-d286-4ffc-aaca-5daff98a62b2/PDP-UprocSLX-Imagegrid2.2025-04-24-09-28-27.png",
+        "alt": "Flyer Uproc SL:X Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:711d35b4-77bb-4f1a-bc1e-89f21516cb2e/PDP-UprocSLX-Imagegrid3.2025-04-24-09-28-27.png",
+        "alt": "Flyer Uproc SL:X Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:c1ffaa0b-390d-47e0-99a8-53a19ef9471d/PDP-UprocSLX-Imagegrid4.2025-04-24-09-28-27.png",
+        "alt": "Flyer Uproc SL:X Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Uproc EVO:X",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/uprocevox",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX (Smart System)",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": "Scheiben 220 mm vorne / 203 mm hinten",
+    "fork": "180 mm Federweg",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Enduro-Fully mit Bosch CX, 180 mm Federweg vorne und 170 mm hinten. Der 800-Wh-Akku wird nach unten entnommen, ein 250-Wh-PowerMore-Zusatzakku ist optional. Mixed-Wheel-Bereifung (29 Zoll vorne, 27,5 Zoll hinten).",
+    "features": [
+      "180/170 mm Federweg",
+      "Mixed Wheel 29\"/27,5\"",
+      "Bremsscheiben 220/203 mm",
+      "Optional 250-Wh-Zusatzakku"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:4fe6cc93-9573-48d8-aa1e-0dfc5427d719/UprocEVOX.2025-04-23-11-41-13.jpg",
+        "alt": "Flyer Uproc EVO:X Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:282a894b-d510-48da-a4fe-773d0b92677a/G2UprocEVOX-ImageGrid3-new.2025-04-24-09-29-25.jpg",
+        "alt": "Flyer Uproc EVO:X Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:c44ebc98-ea60-4b05-a016-b7489d1be118/G2UprocEVOX-ImageGrid1-new.2025-04-24-09-29-25.jpg",
+        "alt": "Flyer Uproc EVO:X Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:69718422-b73a-4c53-8bdc-e218e0fa4059/G2UprocEVOX-ImageGrid4-new.2025-04-24-09-29-25.jpg",
+        "alt": "Flyer Uproc EVO:X Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:1075c7af-8694-4ab2-addc-521edbeeeb39/G2UprocEVOX-ImageGrid5-new.2025-04-24-09-29-25.jpg",
+        "alt": "Flyer Uproc EVO:X Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:74624be4-bace-4063-b218-f95cc8efad45/LP-G2-UprocEVOX-TextMedia1.2025-07-07-13-18-24.jpg",
+        "alt": "Flyer Uproc EVO:X Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Uproc X",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/uprocx",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 750,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "150 mm Federweg",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Allmountain-Fully mit Carbonrahmen, Bosch CX und 750-Wh-Akku im Unterrohr. 150 mm Federweg vorne und hinten, Mixed Wheel (29 Zoll vorne, 27,5 Zoll hinten) und Vario-Sattelstütze.",
+    "features": [
+      "150/150 mm Federweg",
+      "Mixed Wheel",
+      "Vario-Sattelstütze",
+      "GPS-ConnectModule"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:a3289e84-1d74-4343-8043-3f1a8fda9ff6/LP-UprocXBosch-Slider5.2025-07-07-13-19-17.png",
+        "alt": "Flyer Uproc X Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:726e0f31-5c01-4221-bf59-2cd31003a1eb/LP-UprocXBosch-Slider1-Desktop.2025-07-07-13-19-17.png",
+        "alt": "Flyer Uproc X Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:a119f279-ad4c-4a95-8b20-942b7f895317/LP-UprocXBosch-Slider2-Desktop.2025-07-07-13-19-17.png",
+        "alt": "Flyer Uproc X Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:169c6233-60a7-4215-95db-dc07bbf5f67b/LP-UprocXBosch-Slider3-Desktop.2025-07-07-13-19-17.png",
+        "alt": "Flyer Uproc X Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:006a64fe-2e40-40b5-858e-6532f1094a8a/3600px-UprocX-2023-4.2025-07-07-13-19-17.jpg",
+        "alt": "Flyer Uproc X Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:6f663c91-f2f8-4fab-b356-08d3c3abab5b/3600px-UprocX-2023-1.2025-07-07-13-19-16.jpg",
+        "alt": "Flyer Uproc X Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Uproc2",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/ebikes/mountain/uproc2",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Hardtail-E-Mountainbike aus der Uproc-Reihe, laut Hersteller auf Kraft, Komfort und Fahrstabilität ausgelegt. Auf der Schweizer Seite sind keine technischen Daten veröffentlicht.",
+    "features": [
+      "Hardtail"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:d4a370fe-fd0b-4a40-86dc-29857d8525aa/Uproc2.2025-04-23-11-41-13.jpg",
+        "alt": "Flyer Uproc2 Seitenansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Goroc X",
+    "modelYear": null,
+    "categoryId": "e-mountainbikes",
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/goroc-x",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX (Smart System)",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": "140 mm Federweg",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Vollgefedertes Crossover-E-Bike mit Bosch CX und 800-Wh-Akku, erweiterbar um 250 Wh. 140 mm Federweg vorne, 125 mm hinten; Laufradgrösse 27,5 Zoll bei XS/S, 29 Zoll bei M bis XL.",
+    "features": [
+      "140/125 mm Federweg",
+      "27,5\" (XS, S) bzw. 29\" (M-XL)",
+      "Optional 250-Wh-Zusatzakku"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:c4b7ea43-13a4-4033-afda-0076cfdf1367/GorocX.2025-04-23-11-41-13.jpg",
+        "alt": "Flyer Goroc X Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:dce19bcf-5b34-4409-b3ac-9ab071276af1/Slider-Desktop-45-.2025-07-08-12-15-36.png",
+        "alt": "Flyer Goroc X Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:8a882601-2fa4-4330-ba75-c6db3317346a/39.2025-07-08-12-15-35.jpg",
+        "alt": "Flyer Goroc X Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:458be1b0-3b7f-4c85-b6cf-2b1e3cedbddf/40.2025-07-08-12-15-35.jpg",
+        "alt": "Flyer Goroc X Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:19da9d0e-84bf-4613-8524-5ed33176ffcd/33.2025-07-08-12-15-35.jpg",
+        "alt": "Flyer Goroc X Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:4512b0c8-056a-4345-8347-876acbdea1fd/Imagegrid-1-2-1-.2025-04-24-11-01-18.jpg",
+        "alt": "Flyer Goroc X Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Goroc TR",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/goroc-tr",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Pinion",
+      "model": "MGU E1.9",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": "Pinion 9-Gang, automatische Schaltung",
+    "brakes": null,
+    "fork": "100 mm Federgabel",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Pflegeleichtes Crossover-E-Bike mit Pinion-Motor-Getriebe-Einheit und 9 Gängen mit automatischer Schaltung. 800-Wh-Akku, 100 mm Federgabel und gefederte Sattelstütze.",
+    "features": [
+      "Pinion 9-Gang",
+      "Gefederte Sattelstütze",
+      "29-Zoll-Laufräder"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:ef290f5e-2b97-4e0d-bc5d-7905efae46e1/GorocTR.2025-04-23-11-41-13.png",
+        "alt": "Flyer Goroc TR Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:5b79b5dc-c952-4a93-a8aa-77d79b974429/G1-GorocTR-10611-2-.2025-07-08-12-15-05.jpg",
+        "alt": "Flyer Goroc TR Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:7a1e2fd6-028c-4cc1-8935-cbfa3f86a6e4/G1-GorocTR-1204.2025-07-08-12-15-04.jpg",
+        "alt": "Flyer Goroc TR Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:3cdf334f-b71c-4031-8231-c56213cecadd/G1-GorocTR-1024.2025-07-08-12-15-04.jpg",
+        "alt": "Flyer Goroc TR Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:098f5788-d3b7-4b67-884d-20f9a4a8f84f/GorocTR-Imagegrid1.2025-04-24-09-55-37.jpg",
+        "alt": "Flyer Goroc TR Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:78064bda-355c-4406-a7d8-c0a64c60e6ed/GorocTR-Imagegrid4.2025-04-24-09-55-37.jpg",
+        "alt": "Flyer Goroc TR Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.torqueNm",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Goroc TR:X",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/goroc-tr-x",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Pinion",
+      "model": "MGU (E-Drive)",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": 700,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon (Hauptrahmen), Aluminium (Hinterbau)",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": "Pinion 12-Gang",
+    "brakes": null,
+    "fork": "130 mm Federweg",
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Vollgefedertes Crossover-E-Bike mit Pinion-Motor-Getriebe-Einheit und 12 Gängen. 130 mm Federweg vorne und hinten, 700-Wh-Akku mit optionalem Zusatzakku, 29-Zoll-Laufräder.",
+    "features": [
+      "Pinion 12-Gang",
+      "130/130 mm Federweg",
+      "Carbon-Hauptrahmen"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:939d6677-5418-446c-9e7d-28c5d9427e77/Goroc-TR-X.2025-04-23-11-41-13.jpg",
+        "alt": "Flyer Goroc TR:X Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:0e8a80a8-18d5-47ab-9d2a-fea7b5a273c8/GorocTRX-MissionAdventure.2025-07-08-12-15-17.jpg",
+        "alt": "Flyer Goroc TR:X Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:f304c0c9-0882-4bcc-87dd-05678d0e330e/PDP-GorocTRX-Imagegrid1.2025-04-24-10-00-15.png",
+        "alt": "Flyer Goroc TR:X Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:23395ac7-b159-42be-8088-4ea7c06f1f4a/PDP-GorocTRX-Imagegrid3.2025-04-24-10-00-15.png",
+        "alt": "Flyer Goroc TR:X Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:07e87ffc-b1b2-4c59-89ab-aad9161972d5/PDP-GorocTRX-Imagegrid5.2025-04-24-10-00-15.png",
+        "alt": "Flyer Goroc TR:X Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:63745571-cf25-4151-9d2a-2ea82f3deb4a/3600px-GorocTRX-2023-Reil-5111.2025-07-08-12-15-16.jpg",
+        "alt": "Flyer Goroc TR:X Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "brakes",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Goroc2",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/ebikes/crossover/goroc2",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Crossover-E-Bike, vom Hersteller als SUV unter den E-Bikes für Stadt und unebenes Gelände beschrieben. Auf der Schweizer Seite sind keine technischen Daten veröffentlicht.",
+    "features": [
+      "Crossover"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:ca0ac9d7-6105-4538-aa15-ba5637dd09da/Goroc2.2025-04-23-11-41-13.jpg",
+        "alt": "Flyer Goroc2 Seitenansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Gotour EL",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/gotour-el",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line (Smart System)",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 625,
+      "removable": true
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": [
+        "XS/S",
+        "M",
+        "L"
+      ]
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Leichter Alltags- und Citybegleiter mit Bosch-Smart-System-Motor und 625-Wh-Akku. Der Akku ist entnehmbar, die Rahmengrössen reichen von XS/S bis L.",
+    "features": [
+      "Bosch Smart System",
+      "Akkuentnahme",
+      "Rahmengrössen XS/S bis L"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:a9a07d42-2f08-4ed9-b796-51e6f15ff1f3/GotourEL.2025-04-23-11-41-14.png",
+        "alt": "Flyer Gotour EL Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:e70091ed-1b82-404f-8ec2-8cbc3fba280e/GotourEL-Imagegrid1.2025-04-28-12-26-01.jpg",
+        "alt": "Flyer Gotour EL Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:58cbaf30-15de-435b-8649-57ffdfe42b12/GotourEL-Imagegrid3.2025-04-28-12-26-01.jpg",
+        "alt": "Flyer Gotour EL Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:9c1b17a1-6926-449a-badb-1bbc34a35909/GotourEL-Imagegrid4.2025-04-28-12-26-01.jpg",
+        "alt": "Flyer Gotour EL Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:6ea37ae8-9e10-432a-b767-b92ab1418826/LP-GotourEL-Rahmengr-sse.2025-07-08-12-16-09.png",
+        "alt": "Flyer Gotour EL Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:278ba628-d9d0-40ec-8f51-bccb4c18cd67/LP-GotourEL-Akkuentnahme.2025-07-08-12-16-08.png",
+        "alt": "Flyer Gotour EL Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Gotour",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/gotour",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX (Smart System)",
+      "torqueNm": 85
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Touren-Allrounder für lange Fahrten, Alltag und Einkauf mit Bosch CX. Die Seite nennt widersprüchlich 800 Wh und 625 Wh Akkukapazität, deshalb ist sie hier nicht festgehalten.",
+    "features": [
+      "Bosch Smart System",
+      "Fokus auf Komfort und Sicherheit"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:c3c01846-19e8-49db-90a6-b4f5403f98c8/GotourG2-Desktop.2025-04-23-11-41-14.jpg",
+        "alt": "Flyer Gotour Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:9e4aeafb-55c1-4063-ae36-d71765108995/Gotour-Sicherheit.2025-07-08-12-16-20.jpg",
+        "alt": "Flyer Gotour Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:33368d5b-89ac-4e19-a405-e94be7450b93/Gotour-Komfort.2025-07-08-12-16-20.jpg",
+        "alt": "Flyer Gotour Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:c4195ccd-672d-4d64-a60e-28bf6df4ee76/G2-Gotour-DSC8250.2025-07-08-12-16-20.jpg",
+        "alt": "Flyer Gotour Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:b0e2b310-1fc0-456e-bd98-1b5651a05e68/G2-Gotour-Imagegrid1.2025-04-28-12-29-20.jpg",
+        "alt": "Flyer Gotour Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:3be5dd79-83ed-412a-96aa-1e601ef04d0d/G2-Gotour-Imagegrid5.2025-04-28-12-29-20.jpg",
+        "alt": "Flyer Gotour Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Tandem",
+    "modelYear": null,
+    "categoryId": "e-trekkingbikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/ebikes/tour/tandem",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": null,
+      "model": null,
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "E-Bike-Tandem für zwei Personen, laut Hersteller mit verstellbarem Komfort für beide Fahrer. Auf der Schweizer Seite sind keine technischen Daten veröffentlicht.",
+    "features": [
+      "Tandem für zwei Personen"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:50061c0f-054f-4b0a-9fed-02df91b5e7ec/Tandem.2025-04-23-11-41-14.jpg",
+        "alt": "Flyer Tandem Seitenansicht",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.model",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Upstreet TR:CF",
+    "modelYear": null,
+    "categoryId": "schnelle-e-bikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-45",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/upstreet-tr-cf",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Pinion",
+      "model": "MGU E1.12",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 700,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": "Pinion 12-Gang",
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Urbanes Carbon-Pendlerbike mit Pinion-Motor-Getriebe-Einheit und 12 Gängen. Als S-Pedelec mit Unterstützung bis 45 km/h auf 29-Zoll-Laufrädern.",
+    "features": [
+      "Pinion 12-Gang",
+      "S-Pedelec bis 45 km/h",
+      "Carbonrahmen"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:80ea9583-df0a-4d28-8d90-5d50b82e9a48/UpstreetTRCF-Desktop.2025-04-23-11-41-14.png",
+        "alt": "Flyer Upstreet TR:CF Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:d5a9cff2-d64f-4126-8f9d-549e24b4e197/G1-UpstreetTRCF-0733-1-.2025-07-09-11-53-15.png",
+        "alt": "Flyer Upstreet TR:CF Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:96ed668f-8d01-4b4d-a8e8-e9e2b1ab5f90/G1-UpstreetTRCF-0733-1-.2025-07-08-12-16-46.jpg",
+        "alt": "Flyer Upstreet TR:CF Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:2b705553-a762-43c5-b093-fb779ced4eca/G1-UpstreetTRCF-Frame.2025-07-08-12-16-46.png",
+        "alt": "Flyer Upstreet TR:CF Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:9a3cb868-167c-4134-9027-53fd17873e98/LP-UpstreetTRCF.2025-07-08-12-16-47.png",
+        "alt": "Flyer Upstreet TR:CF Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:da23be86-fd04-42e2-a563-245d232fe5e9/G1-UpstreetTRCF-0300.2025-07-08-12-16-46.jpg",
+        "alt": "Flyer Upstreet TR:CF Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "motor.torqueNm",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Upstreet SL",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/upstreet-sl",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line SX",
+      "torqueNm": 55
+    },
+    "battery": {
+      "wh": 400,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "diamond",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Leichtes Urban-E-Bike, laut Hersteller das leichteste Flyer-Modell, mit Bosch SX und 400-Wh-Akku (optional 250 Wh Zusatzakku). Das Modell 3.63 hat eine Zweigang-Nabenschaltung (Classified Powershift).",
+    "features": [
+      "Optionaler Zusatzakku 250 Wh",
+      "Zweigang-Nabe (3.63)",
+      "Beleuchtung, Gepäckträger, Schutzbleche"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:f025adff-a10e-479b-8e3d-31e08ad8aa3a/PDP-UpstreetSL-Imagegrid4.2025-04-29-08-39-13.png",
+        "alt": "Flyer Upstreet SL Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:a9fa9c97-9e90-44c4-9502-0be5684f8a4b/PDP-UpstreetSL-Imagegrid5.2025-04-29-08-39-13.png",
+        "alt": "Flyer Upstreet SL Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:cabcfe63-4e55-448d-a73a-d79464f4f42f/3600px-UpstreetSL-2023-MG-7560.2025-07-09-12-44-54.png",
+        "alt": "Flyer Upstreet SL Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:eade84ca-07a8-49d9-a2e0-28225baac5a5/Upstreet-SL-voll-easy.2025-07-08-12-17-03.jpg",
+        "alt": "Flyer Upstreet SL Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:a6a26520-2593-44f7-aecc-b41b4f8b1d01/Upstreet-SL-Neat-clean.2025-07-08-12-17-03.jpg",
+        "alt": "Flyer Upstreet SL Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:6e7801c9-a8ef-4b60-ae00-bc3779c3daab/Upstreet-SL-hochwertig.2025-07-08-12-17-03.jpg",
+        "alt": "Flyer Upstreet SL Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  },
+  {
+    "brandId": "flyer",
+    "name": "Flyer Upstreet",
+    "modelYear": null,
+    "categoryId": "e-citybikes",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "priceNote": "Kein CHF-Preis auf flyer-bikes.com/ch-de veroeffentlicht (Preise nur ueber Fachhaendler); abgerufen 2026-10-30; HS-Variante bis 45 km/h optional",
+    "sourceUrl": "https://www.flyer-bikes.com/ch-de/upstreet",
+    "sourceType": "manufacturer",
+    "motor": {
+      "brand": "Panasonic",
+      "model": "GX Ultimate",
+      "torqueNm": 95
+    },
+    "battery": {
+      "wh": 750,
+      "removable": null
+    },
+    "rangeKm": null,
+    "frame": {
+      "material": null,
+      "type": "step-through",
+      "sizes": []
+    },
+    "weightKg": null,
+    "gears": null,
+    "brakes": null,
+    "fork": null,
+    "display": null,
+    "tires": null,
+    "lighting": null,
+    "rackKg": null,
+    "colours": [],
+    "description": "Eleganter Stadt-E-Bike mit Panasonic-GX-Ultimate-Motor und Akku bis 750 Wh. Zusätzlich ist eine High-Speed-Variante mit Unterstützung bis 45 km/h erhältlich.",
+    "features": [
+      "Akku bis 750 Wh",
+      "HS-Variante 45 km/h erhältlich"
+    ],
+    "images": [
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:1a9ee253-8c11-4824-a310-1a11fe8134c0/Upstreet.2025-04-23-11-41-14.jpg",
+        "alt": "Flyer Upstreet Seitenansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:3f3a345c-910d-49a3-b308-31833c80c2b4/LP-Upstreet-2-Desktop.2025-07-08-12-17-15.png",
+        "alt": "Flyer Upstreet Detailansicht",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:5c023d9d-2c11-430a-b684-16ad67a856d2/Upstreet-easy-acceleration.2025-07-08-12-17-15.jpg",
+        "alt": "Flyer Upstreet Detail Rahmen",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:68be1e90-954f-48b8-aab1-0f324c0f9447/Upstreet-easy-night-shopping.2025-07-08-12-17-15.jpg",
+        "alt": "Flyer Upstreet Fahrszene",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:affc0a56-e636-4af1-aac3-37e3075e2201/Upstreet-easy-discovering.2025-07-08-12-17-15.jpg",
+        "alt": "Flyer Upstreet Cockpit",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.flyer-bikes.com/dam/jcr:371b42c6-97f3-4d72-9b37-eac2c541a400/PDP-Upstreet-Imagegrid1.2025-07-09-13-49-11.png",
+        "alt": "Flyer Upstreet Antrieb",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "battery.removable",
+      "rangeKm",
+      "weightKg",
+      "gears",
+      "brakes",
+      "fork",
+      "display",
+      "tires",
+      "lighting",
+      "rackKg",
+      "colours",
+      "frame.material",
+      "frame.sizes",
+      "priceCHF"
+    ]
+  }
+]

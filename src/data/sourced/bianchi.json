@@ -1,0 +1,420 @@
+[
+  {
+    "brandId": "bianchi",
+    "modelYear": null,
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "weightKg": null,
+    "display": "LED",
+    "lighting": "LED-Frontlicht, Ruecklicht im Akku",
+    "fork": "Bianchi Stahl",
+    "tires": "Unda Sport 37-622",
+    "name": "Bianchi E-Spillo Classic",
+    "categoryId": "e-citybikes",
+    "priceNote": "Kein CHF-Preis veroeffentlicht; bianchi.com/ch zeigt keine CHF-Preise. UVP 1290 EUR laut bianchi.com Produktseite (nicht umgerechnet), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bianchi.com/shop/e-bike/e-active/urban/e-spillo/e-spillo-classic/e-spillo-classic/",
+    "motor": {
+      "brand": "EGoing",
+      "model": "Hinterradnabe 250 W, 36 V",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 418,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "53"
+      ]
+    },
+    "gears": "Shimano Altus 8-Gang",
+    "brakes": "V-Brake",
+    "colours": [
+      "Gun Metal / Black Full Matt",
+      "CK16 / Black Full Glossy"
+    ],
+    "description": "Urbanes E-Citybike im Retro-Stil mit Hinterradmotor (250 W) und 418-Wh-Akku. Aluminiumrahmen mit Stahlgabel und Shimano-Altus-8-Gang-Schaltung.",
+    "features": [
+      "Hinterradmotor 250 W",
+      "Stahlgabel",
+      "V-Brakes"
+    ],
+    "images": [
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/1544Wx1544H_YRBT2E-ST.jpg",
+        "alt": "Bianchi E-Spillo Classic - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/ST.png",
+        "alt": "Bianchi E-Spillo Classic - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/SU.png",
+        "alt": "Bianchi E-Spillo Classic - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YRBT2E-scaled-uai-1440x1058.jpg",
+        "alt": "Bianchi E-Spillo Classic - Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "rangeKm",
+      "motor.torqueNm",
+      "weightKg",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "bianchi",
+    "modelYear": null,
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "weightKg": null,
+    "display": "iWoc ONE Head Unit",
+    "lighting": null,
+    "fork": "Carbon Aero, Steckachse 12x100",
+    "tires": "Vittoria Rubino V 28-622",
+    "name": "Bianchi E-Oltre (105)",
+    "categoryId": "e-rennvelos-gravel",
+    "priceNote": "Kein CHF-Preis veroeffentlicht; bianchi.com/ch zeigt keine CHF-Preise. UVP 5250 EUR laut bianchi.com Produktseite (nicht umgerechnet), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bianchi.com/shop/e-bike/e-road/e-oltre/e-oltre-3/",
+    "motor": {
+      "brand": "Mahle",
+      "model": "X30",
+      "torqueNm": 40
+    },
+    "battery": {
+      "wh": 250,
+      "removable": null
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "50",
+        "53",
+        "55",
+        "57",
+        "59",
+        "61"
+      ]
+    },
+    "gears": "Shimano 105 2x12-Gang, 50/34T, 11-34T",
+    "brakes": "Shimano 105 hydraulisch, Scheibe 160 mm",
+    "colours": [
+      "Alba Celeste",
+      "CK16 Metallic / Matt"
+    ],
+    "description": "Leichtes Carbon-E-Rennvelo mit Mahle-X30-Antrieb (250 W, 40 Nm) und 250-Wh-Akku. Shimano 105 2x12 und 50-mm-Carbonlaufraeder.",
+    "features": [
+      "Mahle X30, 40 Nm",
+      "Carbon-Laufraeder 50 mm",
+      "Shimano 105"
+    ],
+    "images": [
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/1544x1544H_eOltre_Render.jpg",
+        "alt": "Bianchi E-Oltre - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/E-Oltre-2-scaled-uai-1440x1058.jpg",
+        "alt": "Bianchi E-Oltre - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/07/FQ.png",
+        "alt": "Bianchi E-Oltre - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/ZQ.png",
+        "alt": "Bianchi E-Oltre - Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "rangeKm",
+      "weightKg",
+      "rackKg",
+      "lighting",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "bianchi",
+    "modelYear": null,
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "weightKg": null,
+    "display": "Bosch Purion 200",
+    "lighting": "Lezyne Mini E65 vorne, Spanninga Pimento hinten",
+    "fork": "Suntour NVX32, 80 mm Federweg",
+    "tires": "Rubena Cityhopper 28x2.00",
+    "name": "Bianchi T-Tronik C 8.2",
+    "categoryId": "e-trekkingbikes",
+    "priceNote": "Kein CHF-Preis veroeffentlicht; bianchi.com/ch zeigt keine CHF-Preise. UVP 3290 EUR laut bianchi.com Produktseite (nicht umgerechnet), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bianchi.com/shop/e-bike/e-active/urban/t-tronik/t-tronik-c/t-tronik-c-8-2-2/",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line BDU3460",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "SM",
+        "MD",
+        "LG",
+        "XL"
+      ]
+    },
+    "gears": "Shimano Deore 10-Gang, 11-42T",
+    "brakes": "Shimano Deore BR-MT410 hydraulisch, 180 mm",
+    "colours": [
+      "Graphite / Sage Green",
+      "Rose Metallic / Bordeaux Matt",
+      "Celeste Metallic / Dark Celeste"
+    ],
+    "description": "Alltagstaugliches 28-Zoll-E-Bike mit Bosch-Performance-Line-Motor (75 Nm) und 600-Wh-Powertube-Akku. Hydraulische Scheibenbremsen, Deore-10-Gang und Lichtanlage.",
+    "features": [
+      "Bosch 75 Nm",
+      "600 Wh",
+      "Federgabel 80 mm",
+      "Beleuchtung"
+    ],
+    "images": [
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/1544Wx1544H_YVB3AI-YI_Ph.jpg",
+        "alt": "Bianchi T-Tronik C 8.2 - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YF.png",
+        "alt": "Bianchi T-Tronik C 8.2 - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YI.png",
+        "alt": "Bianchi T-Tronik C 8.2 - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YJ.png",
+        "alt": "Bianchi T-Tronik C 8.2 - Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YVB3AI.jpg",
+        "alt": "Bianchi T-Tronik C 8.2 - Ansicht 5",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/1544Wx1544H_YVB3AI-YI_Ph-uai-1440x890.jpg",
+        "alt": "Bianchi T-Tronik C 8.2 - Ansicht 6",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "rangeKm",
+      "weightKg",
+      "rackKg",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "bianchi",
+    "modelYear": null,
+    "subcategoryId": "e-hardtails",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "weightKg": null,
+    "display": "Bosch Purion 200",
+    "lighting": null,
+    "fork": "Suntour XCR34X Air, 120 mm",
+    "tires": "Obor Mike Bear 29x2.35",
+    "name": "Bianchi T-Tronik X 9.2",
+    "categoryId": "e-mountainbikes",
+    "priceNote": "Kein CHF-Preis veroeffentlicht; bianchi.com/ch zeigt keine CHF-Preise. UVP 3190 EUR laut bianchi.com Produktseite (nicht umgerechnet), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bianchi.com/shop/e-bike/e-mtb/sport/t-tronik/t-tronik-x/t-tronik-x-9-2/",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line BDU3460",
+      "torqueNm": 75
+    },
+    "battery": {
+      "wh": 600,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "SM",
+        "MD",
+        "LG",
+        "XL"
+      ]
+    },
+    "gears": "Shimano Deore 10-Gang, 11-42T",
+    "brakes": "Shimano Deore BR-MT410 hydraulisch, 203/180 mm",
+    "colours": [
+      "Dark Celeste Metallic / Celeste Metallic",
+      "White / Iridescent Blue-Violet"
+    ],
+    "description": "E-Hardtail mit Bosch-Performance-Line-Motor (75 Nm), 600-Wh-Akku und 120 mm Federgabel. Hydraulische Scheibenbremsen und Deore-10-Gang.",
+    "features": [
+      "Bosch 75 Nm",
+      "120 mm Federweg",
+      "29 Zoll"
+    ],
+    "images": [
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/1544Wx1544H_YVB8TI-YP.jpg",
+        "alt": "Bianchi T-Tronik X 9.2 - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YVB7TI.jpg",
+        "alt": "Bianchi T-Tronik X 9.2 - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YN.png",
+        "alt": "Bianchi T-Tronik X 9.2 - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YP.png",
+        "alt": "Bianchi T-Tronik X 9.2 - Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "rangeKm",
+      "weightKg",
+      "rackKg",
+      "lighting",
+      "battery.removable"
+    ]
+  },
+  {
+    "brandId": "bianchi",
+    "modelYear": null,
+    "subcategoryId": "e-fullys",
+    "speedClass": "e-bike-25",
+    "priceCHF": null,
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "weightKg": null,
+    "display": "Bosch Intuvia 100",
+    "lighting": null,
+    "fork": "RockShox Lyrik 29\", 150 mm",
+    "tires": "Pirelli Scorpion 29x2.6 E-MTB R, tubeless ready",
+    "name": "Bianchi E-Vertic FX Type",
+    "categoryId": "e-mountainbikes",
+    "priceNote": "Kein CHF-Preis veroeffentlicht; bianchi.com/ch zeigt keine CHF-Preise. UVP 4990 EUR laut bianchi.com Produktseite (nicht umgerechnet), abgerufen 2026-10-30",
+    "sourceUrl": "https://www.bianchi.com/shop/e-bike/e-mtb/trail/e-vertic/e-vertic-fx/e-vertic-fx-type-4/",
+    "motor": {
+      "brand": "Bosch",
+      "model": "Performance Line CX BDU3840",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 800,
+      "removable": null
+    },
+    "frame": {
+      "material": "Aluminium",
+      "type": "diamond",
+      "sizes": [
+        "40",
+        "44",
+        "48",
+        "53"
+      ]
+    },
+    "gears": "SRAM SX Eagle 1x12, 11-50T",
+    "brakes": "SRAM DB4 4-Kolben hydraulisch, 200/200 mm",
+    "colours": [
+      "Graphite / Grey Silver Iridescent",
+      "Greenish Water / Metallic Celeste Acid"
+    ],
+    "description": "E-Fully mit Bosch-Performance-Line-CX-Antrieb und 800-Wh-Akku. 150 mm Federweg vorne, 140 mm hinten, RockShox-Lyrik-Gabel und SRAM-4-Kolben-Bremsen.",
+    "features": [
+      "Bosch CX",
+      "800 Wh",
+      "150/140 mm Federweg"
+    ],
+    "images": [
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/1544Wx1544H_YUBA7I-EV.jpg",
+        "alt": "Bianchi E-Vertic FX Type - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/ET.png",
+        "alt": "Bianchi E-Vertic FX Type - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/EV.png",
+        "alt": "Bianchi E-Vertic FX Type - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://www.bianchi.com/wp-content/uploads/2026/05/YVB2DI.jpg",
+        "alt": "Bianchi E-Vertic FX Type - Ansicht 4",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "modelYear",
+      "priceCHF",
+      "rangeKm",
+      "motor.torqueNm",
+      "weightKg",
+      "rackKg",
+      "lighting",
+      "battery.removable"
+    ]
+  }
+]

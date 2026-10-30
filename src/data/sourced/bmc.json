@@ -1,0 +1,345 @@
+[
+  {
+    "brandId": "bmc",
+    "modelYear": 2027,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "priceNote": "CHF-Preis laut bmc-switzerland.com, abgerufen 2026-10-30 (Shop-Datenfeed ohne Waehrungscode; Seite zeigt CHF)",
+    "name": "BMC Teammachine 01 AMP ONE",
+    "priceCHF": 12999,
+    "sourceUrl": "https://bmc-switzerland.com/products/teammachine-01-amp-one-bikes-bmc-27a-000040",
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR40",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 290,
+      "removable": false
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "51",
+        "54",
+        "56",
+        "58",
+        "61"
+      ]
+    },
+    "weightKg": 9.4,
+    "gears": "Shimano Dura-Ace Di2 2x12-Gang, 50-34T / 11-34T",
+    "brakes": "Shimano Dura-Ace BR-R9270, Scheibe 160/160 mm",
+    "fork": "01 Premium Carbon",
+    "display": "TQ 2\" O-LED, Bluetooth/ANT+",
+    "tires": "Pirelli P Zero Race TLR RS 28 mm, tubeless",
+    "lighting": null,
+    "colours": [
+      "Black"
+    ],
+    "description": "Leichtes Carbon-E-Rennvelo mit TQ-HPR40-Motor (200 W Unterstuetzung) und integriertem 290-Wh-Akku. Ausgestattet mit Dura-Ace Di2 und DT-Swiss-Laufraedern, laut Hersteller rund 9,4 kg ohne Pedale.",
+    "features": [
+      "TQ HPR40, 200 W Unterstuetzung",
+      "Dura-Ace Di2",
+      "DT Swiss ARC 1100 38 mm",
+      "Display im Oberrohr"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-one-road-e-bike-black-1.jpg?v=1793011224",
+        "alt": "BMC Teammachine 01 AMP ONE E-Rennvelo schwarz - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-one-road-e-bike-black-2.jpg?v=1793011224",
+        "alt": "BMC Teammachine 01 AMP ONE E-Rennvelo schwarz - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-one-road-e-bike-black-3.jpg?v=1793011224",
+        "alt": "BMC Teammachine 01 AMP ONE E-Rennvelo schwarz - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-one-road-e-bike-black-4.jpg?v=1793011225",
+        "alt": "BMC Teammachine 01 AMP ONE E-Rennvelo schwarz - Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-one-road-e-bike-black-5.jpg?v=1793011225",
+        "alt": "BMC Teammachine 01 AMP ONE E-Rennvelo schwarz - Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "rackKg",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "bmc",
+    "modelYear": 2027,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "priceNote": "CHF-Preis laut bmc-switzerland.com, abgerufen 2026-10-30 (Shop-Datenfeed ohne Waehrungscode; Seite zeigt CHF)",
+    "name": "BMC Teammachine 01 AMP TWO",
+    "priceCHF": 9999,
+    "sourceUrl": "https://bmc-switzerland.com/products/teammachine-01-amp-two-bikes-bmc-27a-000042",
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR40",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 290,
+      "removable": false
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "51",
+        "54",
+        "56",
+        "58",
+        "61"
+      ]
+    },
+    "weightKg": 10.2,
+    "gears": "Shimano Ultegra Di2 2x12-Gang, 50-34T / 11-34T",
+    "brakes": "Shimano Ultegra BR-R8170, Scheibe 160/160 mm",
+    "fork": "01 Premium Carbon",
+    "display": "TQ 2\" O-LED, Bluetooth/ANT+",
+    "tires": "Pirelli P Zero Race TLR RS 28 mm, tubeless",
+    "lighting": null,
+    "colours": [
+      "Metallic White"
+    ],
+    "description": "Carbon-E-Rennvelo mit TQ-HPR40-Motor (200 W Unterstuetzung) und integriertem 290-Wh-Akku. Ultegra Di2 und 40-mm-Carbonlaufraeder; Herstellerangabe 10,2 kg ohne Pedale.",
+    "features": [
+      "TQ HPR40, 200 W Unterstuetzung",
+      "Ultegra Di2",
+      "CR 40 Carbon Laufraeder"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-two-road-e-bike-white-1_33d59287-bacc-4d30-838e-ccdc39ba81fa.jpg?v=1793010079",
+        "alt": "BMC Teammachine 01 AMP TWO E-Rennvelo weiss - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-two-road-e-bike-white-2_dfc57b4e-1851-40bd-a6e5-063b19bb5078.jpg?v=1793010079",
+        "alt": "BMC Teammachine 01 AMP TWO E-Rennvelo weiss - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-two-road-e-bike-white-3.jpg?v=1793010079",
+        "alt": "BMC Teammachine 01 AMP TWO E-Rennvelo weiss - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-two-road-e-bike-white-4.jpg?v=1793010079",
+        "alt": "BMC Teammachine 01 AMP TWO E-Rennvelo weiss - Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-two-road-e-bike-white-5.jpg?v=1793010079",
+        "alt": "BMC Teammachine 01 AMP TWO E-Rennvelo weiss - Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "rackKg",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "bmc",
+    "modelYear": 2027,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "priceNote": "CHF-Preis laut bmc-switzerland.com, abgerufen 2026-10-30 (Shop-Datenfeed ohne Waehrungscode; Seite zeigt CHF)",
+    "name": "BMC Teammachine 01 AMP THREE",
+    "priceCHF": 7999,
+    "sourceUrl": "https://bmc-switzerland.com/products/teammachine-01-amp-three-bikes-bmc-27a-000041",
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR40",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": null,
+      "removable": null
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "51",
+        "54",
+        "56",
+        "58",
+        "61"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano 105 Di2",
+    "brakes": null,
+    "fork": "01 Premium Carbon",
+    "display": "TQ OLED-Steuereinheit",
+    "tires": null,
+    "lighting": null,
+    "colours": [
+      "Blue Glitter Carbon"
+    ],
+    "description": "Carbon-E-Rennvelo fuer lange Distanzen und Anstiege mit TQ-HPR40-Motor (200 W Unterstuetzung). Ausgestattet mit Shimano 105 Di2 und AR-27-Laufraedern.",
+    "features": [
+      "TQ HPR40, 200 W Unterstuetzung",
+      "Shimano 105 Di2",
+      "AR 27 Laufraeder"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-three-road-bike-blue-1_c57f5ce1-db07-459b-8911-67c95083bf30.jpg?v=1793017021",
+        "alt": "BMC Teammachine 01 AMP THREE E-Rennvelo blau - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-three-road-bike-blue-2_6124cc8f-4a9d-4943-945b-a275a079a58d.jpg?v=1793017020",
+        "alt": "BMC Teammachine 01 AMP THREE E-Rennvelo blau - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-three-road-bike-blue-3_bd9ec65d-3158-4b95-a889-a81665fba542.jpg?v=1793017021",
+        "alt": "BMC Teammachine 01 AMP THREE E-Rennvelo blau - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-three-road-bike-blue-4_a83c01cd-7a47-474b-bcb6-39252fefeff7.jpg?v=1793017020",
+        "alt": "BMC Teammachine 01 AMP THREE E-Rennvelo blau - Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-teammachine-01-amp-three-road-bike-blue-5_ff2b82f4-f7a2-4041-a920-08dd86e051a5.jpg?v=1793017021",
+        "alt": "BMC Teammachine 01 AMP THREE E-Rennvelo blau - Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "battery.wh",
+      "battery.removable",
+      "weightKg",
+      "brakes",
+      "tires",
+      "rackKg",
+      "lighting"
+    ]
+  },
+  {
+    "brandId": "bmc",
+    "modelYear": 2027,
+    "categoryId": "e-rennvelos-gravel",
+    "subcategoryId": null,
+    "speedClass": "e-bike-25",
+    "sourceType": "manufacturer",
+    "rangeKm": null,
+    "rackKg": null,
+    "priceNote": "CHF-Preis laut bmc-switzerland.com, abgerufen 2026-10-30 (Shop-Datenfeed ohne Waehrungscode; Seite zeigt CHF)",
+    "name": "BMC Roadmachine 01 AMP ONE",
+    "priceCHF": 7499,
+    "sourceUrl": "https://bmc-switzerland.com/products/roadmachine-01-amp-one-bikes-bmc-27a-000013",
+    "motor": {
+      "brand": "TQ",
+      "model": "HPR60",
+      "torqueNm": null
+    },
+    "battery": {
+      "wh": 360,
+      "removable": false
+    },
+    "frame": {
+      "material": "Carbon",
+      "type": "diamond",
+      "sizes": [
+        "47",
+        "51",
+        "54",
+        "56",
+        "58",
+        "61"
+      ]
+    },
+    "weightKg": null,
+    "gears": "Shimano 105 Di2 1x12-Gang, Kassette 11-36T",
+    "brakes": "Shimano 105, Scheibe 180/180 mm",
+    "fork": "01 Premium Carbon",
+    "display": "TQ 2\" O-LED, Bluetooth/ANT+",
+    "tires": "Reifenfreiheit bis 38 mm (Vittoria Rubino V 34 mm laut Seite)",
+    "lighting": null,
+    "colours": [
+      "Black Carbon"
+    ],
+    "description": "Carbon-E-Allroad-Rennvelo mit TQ-HPR60-Antrieb (250 W Unterstuetzung) und 360-Wh-Akku. Grosse Reifenfreiheit und Shimano 105 Di2.",
+    "features": [
+      "TQ HPR60, 250 W Unterstuetzung",
+      "Reifenfreiheit bis 38 mm",
+      "Shimano 105 Di2 1x12"
+    ],
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-roadmachine-01-amp-one-road-e-bike-black-1.jpg?v=1793015742",
+        "alt": "BMC Roadmachine 01 AMP ONE E-Allroad schwarz - Ansicht 1",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-roadmachine-01-amp-one-road-e-bike-black-2.jpg?v=1793015743",
+        "alt": "BMC Roadmachine 01 AMP ONE E-Allroad schwarz - Ansicht 2",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-roadmachine-01-amp-one-road-e-bike-black-3.jpg?v=1793015742",
+        "alt": "BMC Roadmachine 01 AMP ONE E-Allroad schwarz - Ansicht 3",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-roadmachine-01-amp-one-road-e-bike-black-4.jpg?v=1793015743",
+        "alt": "BMC Roadmachine 01 AMP ONE E-Allroad schwarz - Ansicht 4",
+        "licence": "unverified"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/2361/3567/files/bmc-2027-roadmachine-01-amp-one-road-e-bike-black-5.jpg?v=1793015742",
+        "alt": "BMC Roadmachine 01 AMP ONE E-Allroad schwarz - Ansicht 5",
+        "licence": "unverified"
+      }
+    ],
+    "missing": [
+      "rangeKm",
+      "motor.torqueNm",
+      "weightKg",
+      "rackKg",
+      "lighting"
+    ]
+  }
+]
