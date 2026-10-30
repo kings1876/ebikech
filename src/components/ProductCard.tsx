@@ -1,0 +1,205 @@
+import { Product, Language } from '../types';
+import { BRANDS } from '../data/brands';
+import { CATEGORIES } from '../data/categories';
+import { buildLocalizedUrl } from '../utils/routes';
+import { I18N } from '../data/i18n';
+import { Zap, Battery, Weight, Check, SlidersHorizontal, ArrowUpRight, Gauge } from 'lucide-react';
+
+interface ProductCardProps {
+  product: Product;
+  lang: Language;
+  onNavigate: (path: string) => void;
+  isCompared: boolean;
+  onToggleCompare: (product: Product) => void;
+}
+
+export function ProductCard({
+  product,
+  lang,
+  onNavigate,
+  isCompared,
+  onToggleCompare,
+}: ProductCardProps) {
+  const tCard = I18N[lang].card;
+  const tFilter = I18N[lang].filter;
+
+  const brand = BRANDS.find((b) => b.id === product.brandId);
+  const category = CATEGORIES.find((c) => c.id === product.categoryId);
+
+  const tcsVerdict = product.testVerdicts.find((v) => v.source === 'TCS');
+
+  const productUrl = category ? buildLocalizedUrl(lang, { lang, view: 'product', category, productSlug: product.slug }) : '#';
+
+  const frameTypeLabel =
+    product.frameType === 'step-through'
+      ? tFilter.stepThrough
+      : product.frameType === 'trapeze'
+      ? tFilter.trapeze
+      : tFilter.diamond;
+
+  return (
+    <div className="group bg-white rounded-2xl border border-slate-200/90 hover:border-slate-300 hover:shadow-xl transition-all duration-200 flex flex-col justify-between overflow-hidden relative">
+      {/* Top Badges Bar */}
+      <div className="p-3 pb-0 flex items-start justify-between gap-2 z-10">
+        <div className="flex flex-wrap gap-1.5 items-center">
+          {/* Speed Badge */}
+          {product.speedMaxKmH === 45 ? (
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500 text-white shadow-xs">
+              <Gauge className="w-3 h-3" />
+              <span>{tCard.speed45}</span>
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+              <span>{tCard.speed25}</span>
+            </span>
+          )}
+
+          {/* Swiss Brand Badge */}
+          {brand?.isSwiss && (
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-red-50 text-red-700 border border-red-200">
+              <span>{tCard.swissMade}</span>
+            </span>
+          )}
+        </div>
+
+        {/* Compare Checkbox Button */}
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleCompare(product);
+          }}
+          className={`flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-medium transition-colors cursor-pointer ${
+            isCompared
+              ? 'bg-red-600 text-white shadow-xs'
+              : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+          }`}
+          title={isCompared ? tCard.inComparison : tCard.compare}
+        >
+          {isCompared ? <Check className="w-3 h-3 stroke-[3]" /> : <SlidersHorizontal className="w-3 h-3" />}
+          <span className="hidden sm:inline">{isCompared ? tCard.inComparison : tCard.compare}</span>
+        </button>
+      </div>
+
+      {/* Visual / Bike Silhouette Area */}
+      <div
+        onClick={() => onNavigate(productUrl)}
+        className="px-4 py-5 flex flex-col items-center justify-center cursor-pointer relative bg-radial from-slate-50 to-white"
+      >
+        <div className="w-48 h-32 flex items-center justify-center relative">
+          <div className="relative text-slate-400 group-hover:scale-105 group-hover:text-red-600 transition-all duration-300">
+            <svg
+              className="w-40 h-28 drop-shadow-sm"
+              viewBox="0 0 200 120"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <circle cx="45" cy="85" r="30" stroke="currentColor" strokeWidth="4" />
+              <circle cx="45" cy="85" r="4" fill="currentColor" />
+              <circle cx="155" cy="85" r="30" stroke="currentColor" strokeWidth="4" />
+              <circle cx="155" cy="85" r="4" fill="currentColor" />
+              <path d="M45 85 L85 85 L125 45 L155 85" stroke="currentColor" strokeWidth="5" />
+              <path d="M85 85 L105 45 L45 85" stroke="currentColor" strokeWidth="5" />
+              <path d="M105 45 L135 45" stroke="currentColor" strokeWidth="5" />
+              <path d="M145 32 L155 85" stroke="currentColor" strokeWidth="5" />
+              <path d="M140 28 L152 28" stroke="currentColor" strokeWidth="6" />
+              <path d="M85 85 L100 35" stroke="currentColor" strokeWidth="5" />
+              <path d="M90 35 L112 35" stroke="currentColor" strokeWidth="7" />
+              <rect x="80" y="58" width="30" height="9" rx="3" fill="currentColor" fillOpacity="0.25" stroke="none" />
+            </svg>
+          </div>
+        </div>
+
+        {/* Legit Test Verdict Badge & Trustpilot Rating */}
+        <div className="mt-1 flex flex-wrap items-center justify-center gap-1.5">
+          {tcsVerdict && (
+            <div className="flex items-center gap-1 px-2 py-0.5 rounded-full bg-slate-900 text-white text-[10px] font-medium shadow-xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+              <span className="font-bold text-red-400">TCS:</span>
+              <span>{tcsVerdict.scoreText.split('–')[0]?.trim()}</span>
+            </div>
+          )}
+
+          {product.trustpilotStats && (
+            <div
+              className="flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50/90 text-emerald-950 border border-emerald-300/80 text-[10px] font-semibold"
+              title={`${product.trustpilotStats.score} / 5 ${tCard.trustpilotRating} (${product.trustpilotStats.reviewCount})`}
+            >
+              <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                <path fill="#00b67a" d="M12 0l3.09 9.51h10l-8.09 5.88 3.09 9.51-8-5.88-8 5.88 3.09-9.51-8.09-5.88h10z" />
+                <path fill="#005128" d="M12 19.02l-4.94 3.63 1.91-5.88 4.97-3.61-4.97-3.66h6.14l1.9-5.87v15.39z" />
+              </svg>
+              <span className="font-bold font-mono text-emerald-900">{product.trustpilotStats.score}</span>
+              <span className="text-emerald-700 font-medium">Trustpilot</span>
+              <span className="text-emerald-600 font-mono text-[9px]">({product.trustpilotStats.reviewCount})</span>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Product Content Details */}
+      <div className="p-4 pt-1 flex-1 flex flex-col justify-between border-t border-slate-100">
+        <div>
+          {/* Brand & Category link */}
+          <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mb-1 flex items-center justify-between">
+            <span>{brand?.name}</span>
+            <span className="text-[10px] font-normal lowercase">{category?.name[lang]}</span>
+          </div>
+
+          {/* Model Name */}
+          <h4
+            onClick={() => onNavigate(productUrl)}
+            className="font-bold text-sm text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer line-clamp-1"
+          >
+            {product.name}
+          </h4>
+
+          {/* Specifications Pills */}
+          <div className="grid grid-cols-2 gap-1.5 my-3 text-[11px] text-slate-600">
+            <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.torque}>
+              <Zap className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+              <span className="truncate">{product.motorBrand} {product.torqueNm}Nm</span>
+            </div>
+            <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.battery}>
+              <Battery className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+              <span className="truncate">{product.batteryWh} Wh</span>
+            </div>
+            <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.weight}>
+              <Weight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+              <span>{product.weightKg} kg</span>
+            </div>
+            <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.frame}>
+              <span className="text-slate-400 font-bold shrink-0">◇</span>
+              <span className="capitalize truncate">
+                {frameTypeLabel}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Price & Swiss Dealer stock footer */}
+        <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
+          <div>
+            <div className="text-base font-black text-slate-900 font-mono tracking-tight">
+              CHF {product.priceCHF.toLocaleString('de-CH')}.-
+            </div>
+            <div className="text-[10px] text-emerald-700 font-medium flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+              <span>{product.inStockSwissDealers} {tCard.dealersInStock}</span>
+            </div>
+          </div>
+
+          <button
+            onClick={() => onNavigate(productUrl)}
+            className="w-8 h-8 rounded-full bg-slate-100 group-hover:bg-red-600 group-hover:text-white flex items-center justify-center text-slate-700 transition-all cursor-pointer shadow-xs"
+            title={tCard.viewDetails}
+          >
+            <ArrowUpRight className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

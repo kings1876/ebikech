@@ -1,0 +1,6 @@
+{
+  "name": "VeloSchweiz – Das Schweizer E-Bike Portal",
+  "description": "Offizielles Schweizer E-Bike Vergleichsportal mit 500 Modellen, TCS & Kassensturz Tests, Fachhändlern und dreisprachigem Ratgeber (DE, FR, IT).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
