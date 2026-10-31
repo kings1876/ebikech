@@ -653,13 +653,7 @@
     "alt": "Cannondale Mavaro 4, Produktbild 3"
    }
   ],
-  "images": [
-   {
-    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-neo-4---5/c24_mavaroneo_4_pdp_desktop_02.ashx",
-    "alt": "Cannondale Mavaro 4, Produktbild 1",
-    "bg": "white"
-   }
-  ]
+  "images": []
  },
  {
   "id": "p-9",
@@ -11247,7 +11241,18 @@
     "alt": "Haibike ALLTRAIL 8 2026, Produktbild 7"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-8-LOW_27.5Inch_90_HLDU3.png?v=1764684189",
+    "alt": "Haibike ALLTRAIL 8 2026, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-8_29Inch_90_HLDU2.png?v=1764684189",
+    "alt": "Haibike ALLTRAIL 8 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-133",
@@ -11310,7 +11315,13 @@
     "alt": "Haibike ALLMTN CF 9.5 ABS 2026, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-CF-9.5-ABS-C1_Mullet_90_HMWU1.png?v=1764684281",
+    "alt": "Haibike ALLMTN CF 9.5 ABS 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-134",
@@ -11379,7 +11390,18 @@
     "alt": "Haibike ADVENTR 6 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-6_27.5Inch_90_HALU1.png?v=1764684709",
+    "alt": "Haibike ADVENTR 6 2026, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-6-LOW_27.5Inch_90_HALU2.png?v=1764684709",
+    "alt": "Haibike ADVENTR 6 2026, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-135",
@@ -11474,6 +11496,11 @@
   ],
   "images": [
    {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4_27.5Inch_90_HAKU1.png?v=1768812181",
+    "alt": "Haibike ADVENTR 4 2026, Produktbild 1",
+    "bg": "white"
+   },
+   {
     "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-4-Low_27.5Inch_90_HAKU2_web.png?v=1768812181",
     "alt": "Haibike ADVENTR 4 2026, Produktbild 2",
     "bg": "white"
@@ -11552,7 +11579,18 @@
     "alt": "Haibike TREKKING 4 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-4-LOW_27.5Inch_90_HTNU2.png?v=1764684443",
+    "alt": "Haibike TREKKING 4 2026, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-4-HIGH_27.5Inch_90_HTNU1.png?v=1764684443",
+    "alt": "Haibike TREKKING 4 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-137",
@@ -11621,7 +11659,18 @@
     "alt": "Haibike TREKKING 7.5 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-7.5-LOW_27.5Inch_90_HTOU2.png?v=1764684601",
+    "alt": "Haibike TREKKING 7.5 2026, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-7.5-HIGH_27.5Inch_90_HTOU1.png?v=1764684600",
+    "alt": "Haibike TREKKING 7.5 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-138",
@@ -11684,7 +11733,13 @@
     "alt": "Haibike ALLTRAIL 6 2026, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-6_Mullet_90_HLNU1.png?v=1764685710",
+    "alt": "Haibike ALLTRAIL 6 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-139",
@@ -11747,7 +11802,13 @@
     "alt": "Haibike ALLTRACK 6 2026, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRACK-6_27.5Inch_90_HKLU1.png?v=1764685828",
+    "alt": "Haibike ALLTRACK 6 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-140",
@@ -11810,7 +11871,13 @@
     "alt": "Haibike ALLTRAIL 4 2026, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRAIL-4_Mullet_90_HLMU1.png?v=1764685893",
+    "alt": "Haibike ALLTRAIL 4 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-141",
@@ -11879,7 +11946,18 @@
     "alt": "Haibike TREKKING 6.5 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-6.5-LOW_C2_27.5Inch_90_HTPU4.png?v=1764684953",
+    "alt": "Haibike TREKKING 6.5 2026, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_TREKKING-6.5-HIGH_C2_27.5Inch_90_HTPU2.png?v=1764684954",
+    "alt": "Haibike TREKKING 6.5 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-142",
@@ -11947,7 +12025,18 @@
     "alt": "Haibike ALLMTN CF 9 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-CF-9_C2_Mullet_90_HMLU2.png?v=1764685997",
+    "alt": "Haibike ALLMTN CF 9 2026, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-CF-9_C1_Mullet_90_HMLU1.png?v=1764685997",
+    "alt": "Haibike ALLMTN CF 9 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-143",
@@ -12015,7 +12104,18 @@
     "alt": "Haibike ALLMTN 6 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-6-C2_Mullet_90_HMKU2.png?v=1764686098",
+    "alt": "Haibike ALLMTN 6 2026, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLMTN-6_C1_Mullet_90_HMKU1.png?v=1764686097",
+    "alt": "Haibike ALLMTN 6 2026, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-144",
@@ -12182,7 +12282,13 @@
     "alt": "Haibike ADVENTR 8.5 2026, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ADVENTR-8.5-HIGH_27.5Inch_90_HAIU1.png?v=1764685142",
+    "alt": "Haibike ADVENTR 8.5 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-146",
@@ -12314,7 +12420,13 @@
     "alt": "Haibike ALLTRACK 4 2026, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY26_ALLTRACK-4_27.5Inch_90_HKKU1.png?v=1764686369",
+    "alt": "Haibike ALLTRACK 4 2026, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-148",
@@ -13088,7 +13200,13 @@
     "alt": "Haibike ALLMTN CF 10 TRN/IQ 2025, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0965/1126/3068/files/HAIBIKE_MY25_ALLMTN-CF-10_Mullet_90_HMFT1_54d6fede-0072-4030-92f3-46a554948c13.png?v=1764685595",
+    "alt": "Haibike ALLMTN CF 10 TRN/IQ 2025, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-157",
@@ -21029,8 +21147,18 @@
   ],
   "images": [
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778120943/2260843.png",
+    "alt": "Scott Voltage 900 Tuned, Ansicht 2",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778120943/2260844.png",
     "alt": "Scott Voltage 900 Tuned, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114273/2222879.png",
+    "alt": "Scott Voltage 900 Tuned, Ansicht 1",
     "bg": "white"
    }
   ]
@@ -21119,7 +21247,23 @@
     "alt": "Scott Voltage 910, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120945/2260847.png",
+    "alt": "Scott Voltage 910, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120945/2260846.png",
+    "alt": "Scott Voltage 910, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114274/2222880.png",
+    "alt": "Scott Voltage 910, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-229",
@@ -21206,6 +21350,11 @@
    }
   ],
   "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120945/2260849.png",
+    "alt": "Scott Voltage 920, Ansicht 2",
+    "bg": "white"
+   },
    {
     "url": "https://static.scott-sports.com/image/upload/v1778120941/2260841.png",
     "alt": "Scott Voltage 920, Ansicht 3",
@@ -21303,8 +21452,18 @@
   ],
   "images": [
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778121172/2261035.png",
+    "alt": "Scott Patron 900 Ultimate, Ansicht 2",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778121161/2261012.png",
     "alt": "Scott Patron 900 Ultimate, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114263/2222691.png",
+    "alt": "Scott Patron 900 Ultimate, Ansicht 1",
     "bg": "white"
    }
   ]
@@ -21392,7 +21551,23 @@
     "alt": "Scott Patron 900, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121163/2261014.png",
+    "alt": "Scott Patron 900, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121163/2261015.png",
+    "alt": "Scott Patron 900, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114263/2222692.png",
+    "alt": "Scott Patron 900, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-232",
@@ -21486,6 +21661,11 @@
    {
     "url": "https://static.scott-sports.com/image/upload/v1778121164/2261018.png",
     "alt": "Scott Patron 910, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114263/2222693.png",
+    "alt": "Scott Patron 910, Ansicht 1",
     "bg": "white"
    }
   ]
@@ -21581,6 +21761,16 @@
     "url": "https://static.scott-sports.com/image/upload/v1778121165/2261020.png",
     "alt": "Scott Patron 920, Ansicht 2",
     "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121165/2261021.png",
+    "alt": "Scott Patron 920, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114264/2222694.png",
+    "alt": "Scott Patron 920, Ansicht 1",
+    "bg": "white"
    }
   ]
  },
@@ -21669,7 +21859,23 @@
     "alt": "Scott Patron ST 900 Tuned, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120946/2260851.png",
+    "alt": "Scott Patron ST 900 Tuned, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120947/2260852.png",
+    "alt": "Scott Patron ST 900 Tuned, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114276/2222885.png",
+    "alt": "Scott Patron ST 900 Tuned, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-235",
@@ -21756,7 +21962,23 @@
     "alt": "Scott Patron ST 900, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778125525/2274578.png",
+    "alt": "Scott Patron ST 900, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778125526/2274579.png",
+    "alt": "Scott Patron ST 900, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114322/2224216.png",
+    "alt": "Scott Patron ST 900, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-236",
@@ -21845,8 +22067,18 @@
   ],
   "images": [
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778120948/2260854.png",
+    "alt": "Scott Patron ST 910, Ansicht 2",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778125532/2274612.png",
     "alt": "Scott Patron ST 910, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114276/2222886.png",
+    "alt": "Scott Patron ST 910, Ansicht 1",
     "bg": "white"
    }
   ]
@@ -21935,7 +22167,23 @@
     "alt": "Scott Patron 10, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783339000/4276328563B.png",
+    "alt": "Scott Patron 10, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783338984/4276328563A.png",
+    "alt": "Scott Patron 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778130709/2286433.png",
+    "alt": "Scott Patron 10, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-238",
@@ -22022,7 +22270,23 @@
     "alt": "Scott Patron 20, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581349/4276338566B.png",
+    "alt": "Scott Patron 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581380/4276338566A.png",
+    "alt": "Scott Patron 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778130710/2286434.png",
+    "alt": "Scott Patron 20, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-239",
@@ -22117,6 +22381,11 @@
     "bg": "white"
    },
    {
+    "url": "https://static.scott-sports.com/image/upload/v1783581364/4276343020B.png",
+    "alt": "Scott Patron 30, Ansicht 3",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778130699/2286419.png",
     "alt": "Scott Patron 30, Ansicht 1",
     "bg": "white"
@@ -22207,7 +22476,23 @@
     "alt": "Scott Patron ST Tuned, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581402/4276408518B.png",
+    "alt": "Scott Patron ST Tuned, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581335/4276408518A.png",
+    "alt": "Scott Patron ST Tuned, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778130704/2286428.png",
+    "alt": "Scott Patron ST Tuned, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-241",
@@ -22293,7 +22578,23 @@
     "alt": "Scott Patron ST 10, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581317/4276418556B.png",
+    "alt": "Scott Patron ST 10, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581405/4276418556A.png",
+    "alt": "Scott Patron ST 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778130704/2286429.png",
+    "alt": "Scott Patron ST 10, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-242",
@@ -22381,6 +22682,11 @@
    }
   ],
   "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581410/4276350001A.png",
+    "alt": "Scott Strike 10, Ansicht 2",
+    "bg": "white"
+   },
    {
     "url": "https://static.scott-sports.com/image/upload/v1783581412/4276350001B.png",
     "alt": "Scott Strike 10, Ansicht 3",
@@ -22477,7 +22783,18 @@
     "alt": "Scott Strike 20, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581397/4276368535B.png",
+    "alt": "Scott Strike 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581393/4276368535A.png",
+    "alt": "Scott Strike 20, Ansicht 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-244",
@@ -22565,7 +22882,23 @@
     "alt": "Scott Strike 30, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581318/4276370001B.png",
+    "alt": "Scott Strike 30, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1783581328/4276370001A.png",
+    "alt": "Scott Strike 30, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778130702/2286425.png",
+    "alt": "Scott Strike 30, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-245",
@@ -22653,6 +22986,11 @@
    }
   ],
   "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1784015194/4277202101A.png",
+    "alt": "Scott Strike 40, Ansicht 2",
+    "bg": "white"
+   },
    {
     "url": "https://static.scott-sports.com/image/upload/v1784015193/4277202101B.png",
     "alt": "Scott Strike 40, Ansicht 3",
@@ -22904,6 +23242,11 @@
     "url": "https://static.scott-sports.com/image/upload/v1778120950/2260858.png",
     "alt": "Scott Fastlane Premium, Ansicht 3",
     "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114279/2222928.png",
+    "alt": "Scott Fastlane Premium, Ansicht 1",
+    "bg": "white"
    }
   ]
  },
@@ -22991,7 +23334,23 @@
     "alt": "Scott Fastlane 10, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120951/2260860.png",
+    "alt": "Scott Fastlane 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120951/2260861.png",
+    "alt": "Scott Fastlane 10, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114279/2222929.png",
+    "alt": "Scott Fastlane 10, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-250",
@@ -23084,6 +23443,11 @@
     "bg": "white"
    },
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778120952/2260864.png",
+    "alt": "Scott Fastlane 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778114279/2222930.png",
     "alt": "Scott Fastlane 20, Ansicht 1",
     "bg": "white"
@@ -23173,7 +23537,23 @@
     "alt": "Scott Solace Gravel 10, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120921/2260803.png",
+    "alt": "Scott Solace Gravel 10, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120921/2260802.png",
+    "alt": "Scott Solace Gravel 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114276/2222920.png",
+    "alt": "Scott Solace Gravel 10, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-252",
@@ -23258,7 +23638,23 @@
     "alt": "Scott Solace Gravel 20, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778125519/2274571.png",
+    "alt": "Scott Solace Gravel 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778125521/2274572.png",
+    "alt": "Scott Solace Gravel 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114320/2224214.png",
+    "alt": "Scott Solace Gravel 20, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-253",
@@ -23345,7 +23741,23 @@
     "alt": "Scott Solace Gravel 30, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1784530758/4254973020A.png",
+    "alt": "Scott Solace Gravel 30, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1784530764/4254973020B.png",
+    "alt": "Scott Solace Gravel 30, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114277/2222922.png",
+    "alt": "Scott Solace Gravel 30, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-254",
@@ -23434,7 +23846,23 @@
     "alt": "Scott Axis 10, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1781526506/4276537936A.png",
+    "alt": "Scott Axis 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778131420/2288089.png",
+    "alt": "Scott Axis 10, Ansicht 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1781526506/4276537936B.png",
+    "alt": "Scott Axis 10, Ansicht 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-255",
@@ -23524,13 +23952,28 @@
   ],
   "images": [
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778108379/2182412.png",
+    "alt": "Scott Axis 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778120803/2260554.png",
     "alt": "Scott Axis 20, Ansicht 4",
     "bg": "white"
    },
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778120804/2260555.png",
+    "alt": "Scott Axis 20, Ansicht 5",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778098481/2136178.png",
     "alt": "Scott Axis 20, Ansicht 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114269/2222864.png",
+    "alt": "Scott Axis 20, Ansicht 3",
     "bg": "white"
    }
   ]
@@ -23628,6 +24071,11 @@
     "bg": "white"
    },
    {
+    "url": "https://static.scott-sports.com/image/upload/v1778120956/2260873.png",
+    "alt": "Scott Axis 30, Ansicht 3",
+    "bg": "white"
+   },
+   {
     "url": "https://static.scott-sports.com/image/upload/v1778114508/2228693.png",
     "alt": "Scott Axis 30, Ansicht 1",
     "bg": "white"
@@ -23713,7 +24161,28 @@
     "alt": "Scott Axis 40, Ansicht 4"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778108382/2182419.png",
+    "alt": "Scott Axis 40, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778108382/2182418.png",
+    "alt": "Scott Axis 40, Ansicht 4",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778098493/2136226.png",
+    "alt": "Scott Axis 40, Ansicht 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778098495/2136229.png",
+    "alt": "Scott Axis 40, Ansicht 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-258",
@@ -23799,6 +24268,11 @@
    {
     "url": "https://static.scott-sports.com/image/upload/v1778120982/2260924.png",
     "alt": "Scott Sub Tour 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120970/2260898.png",
+    "alt": "Scott Sub Tour 10, Ansicht 3",
     "bg": "white"
    },
    {
@@ -23888,7 +24362,23 @@
     "alt": "Scott Sub Tour 20, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120973/2260906.png",
+    "alt": "Scott Sub Tour 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120973/2260907.png",
+    "alt": "Scott Sub Tour 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114262/2222659.png",
+    "alt": "Scott Sub Tour 20, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-260",
@@ -23975,7 +24465,23 @@
     "alt": "Scott Sub Tour 30, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120977/2260915.png",
+    "alt": "Scott Sub Tour 30, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120977/2260916.png",
+    "alt": "Scott Sub Tour 30, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114263/2222662.png",
+    "alt": "Scott Sub Tour 30, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-261",
@@ -24073,6 +24579,11 @@
     "url": "https://static.scott-sports.com/image/upload/v1778121188/2261071.png",
     "alt": "Scott Sub Tour 40, Ansicht 3",
     "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114257/2222557.png",
+    "alt": "Scott Sub Tour 40, Ansicht 1",
+    "bg": "white"
    }
   ]
  },
@@ -24164,7 +24675,23 @@
     "alt": "Scott Sub Sport 10, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121187/2261068.png",
+    "alt": "Scott Sub Sport 10, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121173/2261042.png",
+    "alt": "Scott Sub Sport 10, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114266/2222701.png",
+    "alt": "Scott Sub Sport 10, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-263",
@@ -24253,7 +24780,23 @@
     "alt": "Scott Sub Sport 20, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121177/2261050.png",
+    "alt": "Scott Sub Sport 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121178/2261051.png",
+    "alt": "Scott Sub Sport 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114267/2222704.png",
+    "alt": "Scott Sub Sport 20, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-264",
@@ -24342,7 +24885,23 @@
     "alt": "Scott Sub Sport 30, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121182/2261059.png",
+    "alt": "Scott Sub Sport 30, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778121182/2261060.png",
+    "alt": "Scott Sub Sport 30, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114268/2222707.png",
+    "alt": "Scott Sub Sport 30, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-265",
@@ -24429,7 +24988,23 @@
     "alt": "Scott Sub 10 Belt, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778108601/2184363.png",
+    "alt": "Scott Sub 10 Belt, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778098367/2136100.png",
+    "alt": "Scott Sub 10 Belt, Ansicht 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778110644/2188544.jpg",
+    "alt": "Scott Sub 10 Belt, Ansicht 4",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-266",
@@ -24518,7 +25093,23 @@
     "alt": "Scott Sub 30, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778108605/2184371.png",
+    "alt": "Scott Sub 30, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778098371/2136107.png",
+    "alt": "Scott Sub 30, Ansicht 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778110644/2188544.jpg",
+    "alt": "Scott Sub 30, Ansicht 4",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-267",
@@ -24607,7 +25198,23 @@
     "alt": "Scott Passage 10 Belt, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120969/2260897.png",
+    "alt": "Scott Passage 10 Belt, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778120960/2260877.png",
+    "alt": "Scott Passage 10 Belt, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778114281/2222940.png",
+    "alt": "Scott Passage 10 Belt, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-268",
@@ -24688,7 +25295,23 @@
     "alt": "Scott Passage 20, Ansicht 5"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778113189/2205633.png",
+    "alt": "Scott Passage 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778111158/2191194.jpg",
+    "alt": "Scott Passage 20, Ansicht 4",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778098496/2136231.png",
+    "alt": "Scott Passage 20, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-269",
@@ -24777,7 +25400,28 @@
     "alt": "Scott Passage 30, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778112068/2198903.png",
+    "alt": "Scott Passage 30, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778111155/2191189.jpg",
+    "alt": "Scott Passage 30, Ansicht 4",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778111158/2191194.jpg",
+    "alt": "Scott Passage 30, Ansicht 6",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778098498/2136234.png",
+    "alt": "Scott Passage 30, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-270",
@@ -24865,7 +25509,23 @@
     "alt": "Scott E-Ville 20, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1782812401/4276868350A.png",
+    "alt": "Scott E-Ville 20, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1782812383/4276868350B.png",
+    "alt": "Scott E-Ville 20, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778131418/2288086.png",
+    "alt": "Scott E-Ville 20, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-271",
@@ -24954,7 +25614,23 @@
     "alt": "Scott Sub Tour 50, Ansicht 6"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1782812345/4277210001A.png",
+    "alt": "Scott Sub Tour 50, Ansicht 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1782812342/4277210001B.png",
+    "alt": "Scott Sub Tour 50, Ansicht 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://static.scott-sports.com/image/upload/v1778131518/2288229.png",
+    "alt": "Scott Sub Tour 50, Ansicht 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-272",
@@ -25014,7 +25690,13 @@
     "alt": "Specialized S-Works Levo 4 X, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3EjCHFm5BfUsxt0IQd99uQHaln2/95226-08_LEVO-X-SW-G4-FRYRED-BLK_HERO-PDP_DARK.webp",
+    "alt": "Specialized S-Works Levo 4 X, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-273",
@@ -25149,7 +25831,13 @@
     "alt": "Specialized Turbo Levo R Pro, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcaaAbkqZteDw67FwMUSTCVxm/95727-10_LEVO-R-PRO-REDBLKCMLN-BLK-DLMMET-S2--_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo R Pro, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-275",
@@ -25217,6 +25905,11 @@
    {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyT7LbzUElWMaSNTNqqVHIqMh/95226-31_LEVO-R-4-EXPERT-PST-DKMOS-S1--_HERO-PDP.webp",
     "alt": "Specialized Turbo Levo R Expert, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyT34nkshOOfLjtiyejK9gf2R/95226-30_LEVO-R-4-EXPERT-CARB-BNTGLDMET-S1--_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo R Expert, Produktbild 1",
     "bg": "white"
    }
   ]
@@ -25291,6 +25984,16 @@
    {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcUkkSoeXgvLBkYrInS1J9sSK/95227-64_LEVO-COMP-CARBON-G4-BLK-CLGRY_HERO-PDP.webp",
     "alt": "Specialized Turbo Levo 4 Comp, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcWG002Mo7t3Vjx1fUDYVZuzl/95227-66_LEVO-COMP-CARBON-G4-DLMMET-SHDWSIL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Comp, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcUlybZ1GZI9vqN14mUKDc98P/95227-65_LEVO-COMP-CARBON-G4-BDXMET-RBYMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Comp, Produktbild 3",
     "bg": "white"
    }
   ]
@@ -25510,7 +26213,18 @@
     "alt": "Specialized Turbo Vado 3 6.0 IGH, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbRggfRyUr3214P01aNr42KUZ/95027-13_VADO-3-60-IGH-AGVE-PRPPRL-BLKPRL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 6.0 IGH, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbRqNXi7Vs7DH9lI4sCF3Z9pI/95027-12_VADO-3-60-IGH-WRMSMKMET-BLKPRL-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 6.0 IGH, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-280",
@@ -25575,7 +26289,18 @@
     "alt": "Specialized Turbo Vado 3 EVO 6.0, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEFqU91MN7tMXcUUsjZP4ggui/95127-13_VADO-EVO-3-60-AGVE-PRPPRL-BLKPRL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 EVO 6.0, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEEmmMaamAcsvSOZImjf4oNRV/95127-12_VADO-EVO-3-60-WRMSMKMET-BLKPRL-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 EVO 6.0, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-281",
@@ -25640,7 +26365,18 @@
     "alt": "Specialized Turbo Vado 3 6.0, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEIiCux2IQ67PfZ03AH0TN4kG/95027-11_VADO-3-60-AGVE-PRPPRL-BLKPRL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 6.0, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEGUBtzXYYttZhB6NJvaQgdK4/95027-10_VADO-3-60-WRMSMKMET-BLKPRL-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 6.0, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-282",
@@ -25706,6 +26442,11 @@
    }
   ],
   "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbR28Gvdi0rsn0AS3Qk2WjqTo/95027-32_VADO-3-50-IGH-AMTHFRST-BDXMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 5.0 IGH, Produktbild 1",
+    "bg": "white"
+   },
    {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbT1bUoVgxZyEqQMLn6ss3UQi/95027-33_VADO-3-50-IGH-METOBSD-DLMMET-BRSHCP_HERO-PDP.webp",
     "alt": "Specialized Turbo Vado 3 5.0 IGH, Produktbild 2",
@@ -25776,7 +26517,18 @@
     "alt": "Specialized Vado 3 X 4.0, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFTxslW4lD0igMAyFPZ0ACz6s/91627-50_VADO-X-3-40-AGVE-OAKGRNMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Vado 3 X 4.0, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvFV1LbMxjWamkrYew0XRj8b5y/91627-52_VADO-X-3-40-OBSD-SILDST-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Vado 3 X 4.0, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-284",
@@ -25841,6 +26593,11 @@
    }
   ],
   "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvDTzxy0EPuQeNgYl2YgZLog67/95727-53_LEVO-R-COMP-ALLOY-METDPMRNBLU-SHDWSIL-S1--_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo R Comp Alloy, Produktbild 2",
+    "bg": "white"
+   },
    {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvDTwCfgAJeHiuHuqU2s6VVHs9/95727-52_LEVO-R-COMP-ALLOY-ESTSRS-SNDSTNMET-S1--_HERO-PDP.webp",
     "alt": "Specialized Turbo Levo R Comp Alloy, Produktbild 1",
@@ -25910,7 +26667,18 @@
     "alt": "Specialized Turbo Levo R Comp, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyWSjzmKvKUHSoyB7Qeda7QmL/95226-80_LEVO-R-4-COMP-GUN-WHTMTN-S1--_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo R Comp, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyWfjEjVH8UTeUYwqpTBxHq0L/95226-81_LEVO-R-4-COMP-BNTGLDMET-SNDSTNMET-S1--_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo R Comp, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-286",
@@ -25975,7 +26743,18 @@
     "alt": "Specialized Turbo Vado 3 EVO 5.0, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEXTXb1FA8CYvjJ9cOzUZA3Iy/95127-30_VADO-EVO-3-50-AMTHFRST-BDXMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 EVO 5.0, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEZ9Nqt54NXPCqcjgxgiLoM98/95127-31_VADO-EVO-3-50-METOBSD-DLMMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 EVO 5.0, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-287",
@@ -26040,7 +26819,18 @@
     "alt": "Specialized Turbo Vado 3 5.0, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEGTvnzZBFoZS9AaVy2EcbTxB/95027-30_VADO-3-50-AMTHFRST-BDXMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 5.0, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEHB0v9MpmPLpqI4mvxx4PGsD/95027-31_VADO-3-50-METOBSD-DLMMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 5.0, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-288",
@@ -26111,6 +26901,11 @@
   ],
   "images": [
    {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbajILY4jdKg6AZmtBQUU2G4u/95027-56_VADO-3-40-IGH-PCFBLUMET-DUNEWHT-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 4.0 IGH, Produktbild 1",
+    "bg": "white"
+   },
+   {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbSXhLpRtFROxoi7RV1KyEq9L/95027-57_VADO-3-40-IGH-NBLMET-SILDST-BRSHCP_HERO-PDP.webp",
     "alt": "Specialized Turbo Vado 3 4.0 IGH, Produktbild 2",
     "bg": "white"
@@ -26177,7 +26972,13 @@
     "alt": "Specialized Turbo Creo 2 Expert, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL22wUF8cHTJzUer3Sa1SbMuWJ/98126-31_CREO-SL-EXPERT-CARBON-FJDMET-BRCH_HERO-PDP.webp",
+    "alt": "Specialized Turbo Creo 2 Expert, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-290",
@@ -26240,7 +27041,13 @@
     "alt": "Specialized Turbo Como 5.0 IGH, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrfYBTv52r27XEuWm01NEQgLv/90427-21_COMO-50-IGH-AGVE-OAKGRNMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 5.0 IGH, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-291",
@@ -26311,6 +27118,11 @@
   ],
   "images": [
    {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEAaJIbq65EhQJAY8SyMS1RAL/95027-50_VADO-3-40-PCFBLUMET-DUNEWHT-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 4.0, Produktbild 1",
+    "bg": "white"
+   },
+   {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEAUqzlJMq1gbLkYVQJVDho2V/95027-51_VADO-3-40-NBLMET-SILDST-BRSHCP_HERO-PDP.webp",
     "alt": "Specialized Turbo Vado 3 4.0, Produktbild 2",
     "bg": "white"
@@ -26380,7 +27192,13 @@
     "alt": "Specialized S-Works Turbo Levo R Ultralight, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEbwy33xQLfCTRj9pRtchFmsSk/95727-04_LEVO-R-SW-LTD-UL-CARB-SILHLG-S2--_HERO-PDP_DARK.webp",
+    "alt": "Specialized S-Works Turbo Levo R Ultralight, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-293",
@@ -26451,8 +27269,18 @@
   ],
   "images": [
    {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEZzHlEIc9stNMhPuQHwS0nMM/95127-50_VADO-EVO-3-40-PCFBLUMET-DUNEWHT-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 EVO 4.0, Produktbild 1",
+    "bg": "white"
+   },
+   {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEXzuRoC8NE03C2Z3EaFzsSIE/95127-51_VADO-EVO-3-40-NBLMET-SILDST-BRSHCP_HERO-PDP.webp",
     "alt": "Specialized Turbo Vado 3 EVO 4.0, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEXVJazU8Fro2NZ4q5TDXtlDG/95127-52_VADO-EVO-3-40-SNDSTNMET-WRMSMKMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 3 EVO 4.0, Produktbild 3",
     "bg": "white"
    }
   ]
@@ -26513,7 +27341,13 @@
     "alt": "Specialized S-Works Turbo Creo 2, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL22KvwgIPMrs0KsRp66XG2Avk/98126-01_CREO-SL-SW-CARBON-CARB-CHRM_HERO_DARK-PDP.webp",
+    "alt": "Specialized S-Works Turbo Creo 2, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-295",
@@ -26580,7 +27414,23 @@
     "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrhOHn6mgmvCtptRcmiCeuexF/90427-43_COMO-40-IGH-AGVE-OAKGRNMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrhqymdqLO2rPskCa1iwbJWHC/90427-45_COMO-40-IGH-TNGORG-SNSTYEL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrhhGALL04g82xwbIXgAAEeTq/90427-44_COMO-40-IGH-METDKNVY-SILDST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 4.0 IGH, Produktbild 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-296",
@@ -26649,6 +27499,16 @@
    }
   ],
   "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyTrRhZ6ASdqtwAaNyBDhzd1F/95226-50_LEVO-COMP-ALLOY-G4-DPLAKEMET-DUNEWHT_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Comp Alloy, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyUEFNB8DikI3yKxez7sRucNF/95226-51_LEVO-COMP-ALLOY-G4-DSKPNK-CYPRMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Comp Alloy, Produktbild 1",
+    "bg": "white"
+   },
    {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyUn4Va8KJ0omNlYDeIp9QdfP/95226-52_LEVO-COMP-ALLOY-G4-GUN-OBSD_HERO-PDP.webp",
     "alt": "Specialized Turbo Levo 4 Comp Alloy, Produktbild 3",
@@ -26719,6 +27579,11 @@
   ],
   "images": [
    {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvp9sLURReOrNDnVQFqFUL5Gm/93927-56_VADO-SL-40-2-PST-OAKGRNMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0, Produktbild 2",
+    "bg": "white"
+   },
+   {
     "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvnYVFXuRP17dcJrM7chNx8mx/93927-51_VADO-SL-40-2-GUN-AGVE_HERO-PDP.webp",
     "alt": "Specialized Turbo Vado SL 2 4.0, Produktbild 1",
     "bg": "white"
@@ -26786,7 +27651,18 @@
     "alt": "Specialized Turbo Vado SL 2 4.0 EQ, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvjEsuz79DRbM09f3kGmo4lb7/93924-51_VADO-SL-40-EQ-2-GUN-SMK_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 EQ, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvinUUv5PLeYQQaOJrMAKHOvo/93924-50_VADO-SL-40-EQ-2-OIS-DUNEWHT_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 EQ, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-299",
@@ -26853,7 +27729,23 @@
     "alt": "Specialized Turbo Como 4.0, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrgp24tV6viKACld1xp5OAfsL/90427-42_COMO-40-TNGORG-SNSTYEL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 4.0, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrgHLaDnlGdkYFfpEsLKNdLJf/90427-40_COMO-40-AGVE-OAKGRNMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 4.0, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKrgZQjwH9YRi2VmZ2oAtvWBWB/90427-41_COMO-40-METDKNVY-SILDST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Como 4.0, Produktbild 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-300",
@@ -26921,7 +27813,23 @@
     "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvndoKUjPRLYbOHUDGywQE6Y6/93927-52_VADO-SL-40-ST-2-BRSYYEL-METWHTSIL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvnugJSM6oZ83c9LN6H3qR13Y/93927-53_VADO-SL-40-ST-2-GUN-AGVE_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvpTEmZLxSu5tnLzaD634HsY5/93927-57_VADO-SL-40-ST-2-PST-OAKGRNMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through, Produktbild 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-301",
@@ -26989,7 +27897,23 @@
     "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyVeAaY1VGWNOKsvSFkp3Q1km/95226-71_LEVO-ALLOY-G4-METOBSD-SILDST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyW0c7JYTemYmJ5g4lD0quvv3/95226-72_LEVO-ALLOY-G4-CYPRMET-DKMOS_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKyV0Kg3J6JQUxCdYHcwweWiIK/95226-70_LEVO-ALLOY-G4-DPORG-DPLAKE_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Alloy, Produktbild 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-302",
@@ -27053,7 +27977,18 @@
     "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvl0BbYUEuEh3K0g3lYyAFME9/93925-51_VADO-SL-40-ST-EQ-2-GUN-SMK_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvkdYxmP5JYJnIwShV3uC3wKq/93925-50_VADO-SL-40-ST-EQ-2-OIS-DUNEWHT_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-303",
@@ -27121,7 +28056,23 @@
     "alt": "Specialized S-Works Turbo Levo 4, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcQcwd1IOJcTuKe7u6i5oKNOx/95227-02_LEVO-SW-CARBON-G4-SILDST-BLKPRL-CHRM_HERO-PDP_DARK.webp",
+    "alt": "Specialized S-Works Turbo Levo 4, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcRrRvmiByjazjCmqFqZ5x90W/95227-01_LEVO-SW-CARBON-G4-GLDPRL-CARB-CHRM_HERO-PDP_DARK.webp",
+    "alt": "Specialized S-Works Turbo Levo 4, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcO0zk1DBT1eKLTBLWRKPBLvp/95227-00_LEVO-SW-CARBON-G4-REDTNT-SILDST-METWHTSIL_HERO-PDP_DARK.webp",
+    "alt": "Specialized S-Works Turbo Levo 4, Produktbild 3",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-304",
@@ -27185,7 +28136,18 @@
     "alt": "Specialized Turbo Levo 4 Expert, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcXkyX1y3JNZ1Bk3asCCr5wuM/95227-30_LEVO-EXPERT-CARBON-G4-METDPMRNBLU-SILDST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Expert, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcVr9Nk0swicOi7ynamymKObL/95227-31_LEVO-EXPERT-CARBON-G4-SNDSTNMET-BLKPRL-BNTGLDMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Expert, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-305",
@@ -27247,7 +28209,18 @@
     "alt": "Specialized Turbo Creo 2 Comp E5, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL23w18O2aeTCumkJToDZC4Lng/98126-53_CREO-SL-E5-COMP-PST-SMK_HERO-PDP.webp",
+    "alt": "Specialized Turbo Creo 2 Comp E5, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DL23ODXsBleU9ZwzkIOx7FugsQ/98126-52_CREO-SL-E5-COMP-DLMMET-METDKNVY_HERO-PDP.webp",
+    "alt": "Specialized Turbo Creo 2 Comp E5, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-306",
@@ -27311,7 +28284,18 @@
     "alt": "Specialized Turbo Levo 4 Pro, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcTnEzNVpgGU0hCNZpAoD9QvL/95227-15_LEVO-PRO-CARBON-G4-BTLGRN-BLKPRL-SILDST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Pro, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3HEcdCd2BjaByeb9FpoDnpAAesX/95227-14_LEVO-PRO-CARBON-G4-DLMMET-BLUPRL-SMK_HERO-PDP.webp",
+    "alt": "Specialized Turbo Levo 4 Pro, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-307",
@@ -27374,7 +28358,18 @@
     "alt": "Specialized Levo 4 EVO Pro, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvESV7WCJ7DB8vGHEAzsrBfNL5/95227-10_LEVO-PRO-EVO-G4-SHDWSIL-BLKPRL-SILDST_HERO-PDP.webp",
+    "alt": "Specialized Levo 4 EVO Pro, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvESLZRVr0ehkksCdc96pJGKMD/95227-11_LEVO-PRO-EVO-G4-CARB-DLMMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Levo 4 EVO Pro, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-308",
@@ -27443,7 +28438,23 @@
     "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxWNM668gqz0WaU4fdva8bLki/95026-24_VADO-50-IGH-CSTBLK-FLKSIL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxWlg7RdEgd18gVMDgBdUbxpN/95026-25_VADO-50-IGH-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxX76lB6P54rD7kGk08x31uBZ/95026-26_VADO-50-IGH-NB-CALSUN-ORGZST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 5.0 IGH, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-309",
@@ -27508,7 +28519,18 @@
     "alt": "Specialized Turbo Tero 5.0 EQ Step-Through, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxq2kKskuzBtl0zNUEsBAS2Mj/95126-36_TERO-50-ST-EQ-NB-PST-DLMMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Tero 5.0 EQ Step-Through, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxpgqh8yyHbMr5pi4snZgOgf0/95126-35_TERO-50-ST-EQ-WHTMTN-GUN_HERO-PDP.webp",
+    "alt": "Specialized Turbo Tero 5.0 EQ Step-Through, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-310",
@@ -27578,7 +28600,23 @@
     "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxYZVILTcS7pRF9Td4iHUbS9w/95026-39_VADO-50-ST-CSTBLK-FLKSIL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxYn1ltgnfZhgUFgRLmpk9gOS/95026-40_VADO-50-ST-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxZNODIN4beF3TNMEVfXP2RbE/95026-41_VADO-50-ST-NB-CALSUN-ORGZST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 5.0 Step-Through, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-311",
@@ -27697,7 +28735,18 @@
     "alt": "Specialized Turbo Vado SL 2 5.0 EQ, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKviD2YLhq6m2AsJCRD8h2veEA/93924-31_VADO-SL-50-EQ-2-DPLAKEMET-BLKLQDMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 5.0 EQ, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvhpg75yDv6AHanWy4yZFsIlM/93924-30_VADO-SL-50-EQ-2-DOVGRY-CLGRY_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 5.0 EQ, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-313",
@@ -27766,7 +28815,23 @@
     "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxardQ3Te4nq2O9MgX8qb679k/95026-55_VADO-40-IGH-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxbfXLVXXDZzMFb59wYbBhuoq/95026-56_VADO-40-IGH-NB-CALSUN-ORGZSTT_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxaYxQxgrXvx0G8JVNs9xxQba/95026-54_VADO-40-IGH-CSTBLK-FLKSIL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 4.0 IGH, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-314",
@@ -27836,7 +28901,23 @@
     "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 3"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxc3XpJFN6vS65WCxf4FKRNbc/95026-64_VADO-40-ST-SEA-CMLNLPS-GCLMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 3",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxbYVyS85AxEZZEwE9IemtYs9/95026-63_VADO-40-ST-CSTBLK-FLKSIL_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 2",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKxbdqZLCtzq6v1Fs7xzlzenpc/95026-62_VADO-40-ST-CALSUN-ORGZST_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado 2 4.0 Step-Through, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-315",
@@ -27895,7 +28976,13 @@
     "alt": "Specialized Turbo Vado SL 2 6.0 EQ Carbon, Produktbild 1"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DKvmdCMXx675Zpr3KOuwuYxrGA/93927-12_VADO-SL-60-CARBON-EQ-2-GRYBLU-MVEMET-DSRTMET_HERO-PDP.webp",
+    "alt": "Specialized Turbo Vado SL 2 6.0 EQ Carbon, Produktbild 1",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-316",
@@ -27958,7 +29045,18 @@
     "alt": "Specialized Levo 4 EVO Comp, Produktbild 2"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEUW01fU056Tn8DU49RODZeU1/95227-50_LEVO-COMP-EVO-G4-WRMSMKMET-PST-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Levo 4 EVO Comp, Produktbild 1",
+    "bg": "white"
+   },
+   {
+    "url": "https://resources.specialized.com/media-libraries/mleF1gIlpsGs/images/containers/3DvEV7YGx4XsCUkFIxrerffNK80/95227-51_LEVO-COMP-EVO-G4-AGVE-DSRTMET-BRSHCP_HERO-PDP.webp",
+    "alt": "Specialized Levo 4 EVO Comp, Produktbild 2",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-317",
@@ -28147,7 +29245,23 @@
     "alt": "Stromer ST2 Gesamtansicht"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/bb5054823b5a47eb7ceaffd9352ade8179b67ce8-1441x960.jpg",
+    "alt": "Stromer ST2 Detailansicht",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/0d11db98b1966378fcbf79a6cbda51b37db3907a-1474x982.jpg",
+    "alt": "Stromer ST2 Detail",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/fe1aa6d17faea29ed9de9068684dc3fc16f9cdf7-1526x1017.jpg",
+    "alt": "Stromer ST2 Seitenansicht",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-319",
@@ -28240,7 +29354,23 @@
     "alt": "Stromer ST3 Detail Antrieb"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/b7f4dd3f77a2feebf41a8f400d2ef02c67e48480-2844x1896.png",
+    "alt": "Stromer ST3 Detailansicht",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/9cf573e157467219a3844c6ca23861f5fd588cc0-1447x965.jpg",
+    "alt": "Stromer ST3 Detail",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/d201c1b9a5807103057c8b909d9c6fe35e0e38b4-1348x898.jpg",
+    "alt": "Stromer ST3 Seitenansicht",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-320",
@@ -28324,7 +29454,23 @@
     "alt": "Stromer ST5 Fahrszene"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/990d1e1b01b30da7d5143746d92ecd454d087cce-3500x2333.png",
+    "alt": "Stromer ST5 Detailansicht",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/1525491e29b8711927480263c50826eefb96ab63-3500x2333.png",
+    "alt": "Stromer ST5 Detail",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/7c2450b1be29ee38bc260e602424415603fc1142-3500x2333.png",
+    "alt": "Stromer ST5 Seitenansicht",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-321",
@@ -28412,7 +29558,23 @@
     "alt": "Stromer ST7 Gesamtansicht"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/43935053d83e031b258e4ad41f27e637e43b9939-1350x900.jpg",
+    "alt": "Stromer ST7 Detailansicht",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/24a40bf6c46471595314472ea4c0412639fb4fe0-1583x1055.jpg",
+    "alt": "Stromer ST7 Detail",
+    "bg": "white"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/e112070fb4ffe822478055ef36a51792b9ccf547-1350x900.jpg",
+    "alt": "Stromer ST7 Seitenansicht",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-322",
@@ -28482,7 +29644,13 @@
     "alt": "Thömus Lightrider E3 Pro Fahrszene"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://thoemus.ch/wp-content/uploads/2024/11/Lightrider_E3_Pro.jpg",
+    "alt": "Thömus Lightrider E3 Pro Gesamtansicht",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-323",
@@ -28544,7 +29712,13 @@
     "alt": "Trek Fuel+ LX 9.9 X0 AXS Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusLX99X0AXS-27-81737-B-Primary",
+    "alt": "Trek Fuel+ LX 9.9 X0 AXS Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-324",
@@ -28600,7 +29774,13 @@
     "alt": "Trek Fuel+ EX 9.9 X0 AXS Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX99X0AXS-27-81574-B-Primary",
+    "alt": "Trek Fuel+ EX 9.9 X0 AXS Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-325",
@@ -28656,7 +29836,13 @@
     "alt": "Trek Fuel+ EX 9.8 XT Di2 Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX98XTDi2-27-81572-B-Primary",
+    "alt": "Trek Fuel+ EX 9.8 XT Di2 Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-326",
@@ -28712,7 +29898,13 @@
     "alt": "Trek Fuel+ EX 9.8 XT Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX98XT-27-81568-D-Primary",
+    "alt": "Trek Fuel+ EX 9.8 XT Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-327",
@@ -28768,7 +29960,13 @@
     "alt": "Trek Fuel+ EX 9.8 Eagle 90 Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX98Eagle90-27-79618-B-Primary",
+    "alt": "Trek Fuel+ EX 9.8 Eagle 90 Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-328",
@@ -28824,7 +30022,13 @@
     "alt": "Trek Fuel+ EX 9.7 Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX97-26-56291-B-Primary",
+    "alt": "Trek Fuel+ EX 9.7 Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-329",
@@ -28885,7 +30089,13 @@
     "alt": "Trek Fuel+ EX 8 Gen 2, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FuelPlusEX8-27-79614-B-Primary",
+    "alt": "Trek Fuel+ EX 8 Gen 2, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-330",
@@ -28946,7 +30156,13 @@
     "alt": "Trek Rail+ 9.8 Gen 5, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/RailPlus98-27-79227-A-Primary",
+    "alt": "Trek Rail+ 9.8 Gen 5, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-331",
@@ -29007,7 +30223,13 @@
     "alt": "Trek Rail+ 9.7 Gen 5, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/RailPlus97-27-79287-A-Primary",
+    "alt": "Trek Rail+ 9.7 Gen 5, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-332",
@@ -29068,7 +30290,13 @@
     "alt": "Trek Rail+ 8 Gen 5, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/Rail8-25-48474-A-Primary",
+    "alt": "Trek Rail+ 8 Gen 5, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-333",
@@ -29751,7 +30979,13 @@
     "alt": "Trek Domane+ SL 9 AXS Gen 5, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusSL9AXS-27-81601-D-Primary",
+    "alt": "Trek Domane+ SL 9 AXS Gen 5, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-344",
@@ -29806,7 +31040,13 @@
     "alt": "Trek Domane+ SL 7 AXS Gen 5, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusSL7AXS-27-81609-D-Primary",
+    "alt": "Trek Domane+ SL 7 AXS Gen 5, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-345",
@@ -29922,7 +31162,13 @@
     "alt": "Trek Domane+ ALR 5, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DomanePlusALR5-26-56175-B-Primary",
+    "alt": "Trek Domane+ ALR 5, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-347",
@@ -30100,7 +31346,13 @@
     "alt": "Trek Allant+ FS 6 R11 Auto, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/AllantPLUSFS6R11SO-27-85248-A-Primary",
+    "alt": "Trek Allant+ FS 6 R11 Auto, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-350",
@@ -30156,7 +31408,13 @@
     "alt": "Trek Allant+ FS 6 R10, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/AllantPLUSFS6R10SO-27-85247-A-Primary",
+    "alt": "Trek Allant+ FS 6 R10, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-351",
@@ -30212,7 +31470,13 @@
     "alt": "Trek District+ 4 R10 LS, Produktbild"
    }
   ],
-  "images": []
+  "images": [
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/DistrictPlus4R10Lowstep-27-81591-C-Primary",
+    "alt": "Trek District+ 4 R10 LS, Produktbild",
+    "bg": "white"
+   }
+  ]
  },
  {
   "id": "p-352",

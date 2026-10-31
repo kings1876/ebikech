@@ -18,8 +18,9 @@ const redo = args.includes('--redo');
 const cache = !redo && fs.existsSync(outFile) ? JSON.parse(fs.readFileSync(outFile, 'utf8')) : {};
 const retryErrors = args.includes('--retry-errors');
 if (retryErrors) for (const [u, v] of Object.entries(cache)) if (v.error) delete cache[u];
-const TIMEOUT = retryErrors ? 120000 : 30000;
-const CONCURRENCY = retryErrors ? 3 : 6;
+const slow = retryErrors || redo;
+const TIMEOUT = slow ? 120000 : 30000;
+const CONCURRENCY = slow ? 4 : 6;
 
 const urls = [...new Set(products.flatMap((p) => p.imageSources.map((i) => i.url)))]
   .filter((u) => status[u] !== false && !(u in cache))
@@ -69,12 +70,20 @@ async function classify(url) {
     }
   }
   if (count < w * h * 0.03) return { bg, whole: false, w, h, empty: true };
+  // Wheels check: in the bottom 18% of the subject box, a side-view bike has content across a large
+  // share of the width (two wheels); handlebar / cockpit / frame close-ups do not.
+  const y0 = Math.floor(maxY - (maxY - minY) * 0.18);
+  let covered = 0;
+  for (let x = minX; x <= maxX; x++) {
+    for (let y = y0; y <= maxY; y++) { if (isSubject(x, y)) { covered++; break; } }
+  }
+  const bottomCover = covered / (maxX - minX + 1);
   const bw = (maxX - minX + 1) / w, bh = (maxY - minY + 1) / h;
   const aspect = (maxX - minX + 1) / (maxY - minY + 1);
   const m = 0.012; // margin: the bike must not touch the frame
   const touches = minX <= w * m || maxX >= w * (1 - m) || minY <= h * m || maxY >= h * (1 - m);
   const whole = !touches && bw >= 0.5 && aspect >= 1.15 && aspect <= 3.4;
-  return { bg, whole, w, h, bw: +bw.toFixed(2), bh: +bh.toFixed(2), aspect: +aspect.toFixed(2) };
+  return { bg, whole, w, h, bw: +bw.toFixed(2), bh: +bh.toFixed(2), aspect: +aspect.toFixed(2), bottomCover: +bottomCover.toFixed(2) };
 }
 
 let i = 0, done = 0;
