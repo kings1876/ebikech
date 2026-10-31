@@ -17,8 +17,8 @@ export const COLLECTIONS: CollectionDef[] = [
   {
     id: 'damen',
     slug: { de: 'damen-e-bikes', fr: 'velos-electriques-femme', it: 'e-bike-donna' },
-    name: { de: 'Damen E-Bikes', fr: 'Vélos électriques femme', it: 'E-Bike donna' },
-    keyword: { de: 'Damen E-Bike', fr: 'Vélo électrique femme', it: 'E-Bike donna' },
+    name: { de: 'Damen E-Bikes', fr: 'Vélos électriques dame', it: 'Biciclette elettriche donna' },
+    keyword: { de: 'Damen E-Bike', fr: 'Vélo électrique dame', it: 'Bicicletta elettrica donna' },
     // Models with a low step-through frame (what shops sell as "Damen" / Tiefeinsteiger)
     filter: (p) => p.frameType === 'step-through',
     guideId: 'damen-e-bike-kaufen',
@@ -44,11 +44,11 @@ export const LANDING_CONTENT: Record<string, LandingContent> = {
         'In unserem Katalog finden Sie {n} Modelle mit Tiefeinstieg von {brands} u. a. – vom City- über das Trekking- bis zum Mountainbike, ab CHF {min}. Filtern Sie nach Motor, Akku, Gewicht und Preis.',
       ],
       fr: [
-        'Les vélos électriques femme ont un cadre bas : on monte et descend facilement, même avec un sac de courses ou un siège enfant. Sous ce cadre se trouve la même technique que sur tout autre vélo électrique – moteur central, batterie et suspension.',
+        'Les vélos électriques dame (ou femme) ont un cadre bas : on monte et descend facilement, même avec un sac de courses ou un siège enfant. Sous ce cadre se trouve la même technique que sur tout autre vélo électrique – moteur central, batterie et suspension.',
         'Notre catalogue compte {n} modèles à cadre bas de {brands} et d’autres marques – du vélo de ville au VTT en passant par le trekking, dès CHF {min}. Filtrez par moteur, batterie, poids et prix.',
       ],
       it: [
-        'Le e-bike donna hanno un telaio basso: si sale e si scende comodamente, anche con la borsa della spesa o il seggiolino. Sotto il telaio c’è la stessa tecnica di ogni altra e-bike – motore centrale, batteria e sospensioni.',
+        'Le biciclette elettriche donna hanno un telaio basso: si sale e si scende comodamente, anche con la borsa della spesa o il seggiolino. Sotto il telaio c’è la stessa tecnica di ogni altra e-bike – motore centrale, batteria e sospensioni.',
         'Il nostro catalogo conta {n} modelli a telaio basso di {brands} e altri – dalla city alla trekking fino alla mountain bike, da CHF {min}. Filtrate per motore, batteria, peso e prezzo.',
       ],
     },

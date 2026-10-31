@@ -74,8 +74,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           title = fitTitle(`Vélos électriques en Suisse : ${top}`, lang);
           description = fitDescription(`${s.count} vélos électriques de ${s.brandCount} marques : VTT, trekking, ville, gravel et cargo. Prix en CHF, moteur, batterie et fiches techniques.`);
         } else if (lang === 'it') {
-          title = fitTitle(`E-Bike in Svizzera: ${top}`, lang);
-          description = fitDescription(`${s.count} e-bike di ${s.brandCount} marchi: mountain bike, trekking, city, gravel e cargo. Prezzi in CHF, motore, batteria e dati tecnici.`);
+          title = fitTitle(`Biciclette elettriche in Svizzera: ${top}`, lang);
+          description = fitDescription(`${s.count} biciclette elettriche (e-bike) di ${s.brandCount} marchi: mountain bike, trekking, city, gravel e cargo. Prezzi in CHF, motore, batteria e dati tecnici.`);
         } else {
           title = fitTitle(`E-Bikes Schweiz: ${top} & mehr`, lang);
           description = fitDescription(`${s.count} E-Bikes von ${s.brandCount} Marken: E-Mountainbikes, Trekking, City, Gravel und Cargo. Preise in CHF, Motor, Akku und technische Daten.`);
@@ -106,7 +106,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           title = fitTitle(`Vélos électriques en Suisse – ${s.count} modèles`, lang);
           description = fitDescription(`Catalogue de ${s.count} vélos électriques de ${s.brandCount} marques dès CHF ${s.minPrice.toLocaleString('de-CH')} : VTT, trekking, ville, gravel, cargo. Fiches techniques et prix.`);
         } else if (lang === 'it') {
-          title = fitTitle(`E-Bike in Svizzera – ${s.count} modelli`, lang);
+          title = fitTitle(`Biciclette elettriche in Svizzera – ${s.count} modelli`, lang);
           description = fitDescription(`Catalogo di ${s.count} e-bike di ${s.brandCount} marchi da CHF ${s.minPrice.toLocaleString('de-CH')}: mountain bike, trekking, city, gravel, cargo. Dati tecnici e prezzi.`);
         } else {
           title = fitTitle(`E-Bikes kaufen Schweiz – ${s.count} Modelle`, lang);
@@ -463,10 +463,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         url: canonicalPath,
       });
       title = lang === 'fr'
-        ? 'Subventions E-Bike par Canton en Suisse (Jusqu’à 1’000 CHF) | VeloSuisse'
+        ? 'Subventions e-bike par canton en Suisse | VeloSuisse'
         : lang === 'it'
-        ? 'Incentivi E-Bike per Cantone in Svizzera (Fino a 1’000 CHF) | VeloSvizzera'
-        : 'E-Bike Förderbeiträge Schweiz: Alle Kantone & Gemeinden im Überblick | VeloSchweiz';
+        ? 'Incentivi e-bike per cantone in Svizzera | VeloSvizzera'
+        : 'E-Bike Förderbeiträge Schweiz nach Kanton | VeloSchweiz';
       description = 'Bis zu 1’000 CHF Zuschuss für Ihr E-Bike oder Cargo-Velo: Übersicht über Förderprogramme in Zürich, Bern, Basel, Genf, Waadt, Tessin u.v.m.';
       break;
     }

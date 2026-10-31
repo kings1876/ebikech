@@ -5,14 +5,14 @@ import { CollectionDef, LANDING_CONTENT } from '../data/collections';
 
 // Keyword phrases per category (from docs/keywords-de-ch.md for German; FR/IT use natural Swiss phrasing).
 export const CATEGORY_KEYWORD: Record<string, Record<Language, string>> = {
-  'e-mountainbikes': { de: 'E-Mountainbike', fr: 'VTT électrique', it: 'E-Mountain bike' },
-  'e-trekkingbikes': { de: 'Trekking E-Bike', fr: 'Vélo de trekking électrique', it: 'E-Bike Trekking' },
-  'e-citybikes': { de: 'City E-Bike', fr: 'Vélo de ville électrique', it: 'E-Bike City' },
-  'e-rennvelos-gravel': { de: 'Gravel E-Bike', fr: 'Vélo gravel électrique', it: 'E-Bike Gravel' },
-  'e-lastenvelos': { de: 'Cargo E-Bike', fr: 'Vélo cargo électrique', it: 'E-Bike Cargo' },
-  'schnelle-e-bikes': { de: 'E-Bike 45 km/h', fr: 'Vélo électrique 45 km/h', it: 'E-Bike 45 km/h' },
-  'e-faltvelos': { de: 'Falt E-Bike', fr: 'Vélo pliant électrique', it: 'E-Bike pieghevole' },
-  'e-bikes-jugend': { de: 'E-Bike Jugend', fr: 'Vélo électrique ado', it: 'E-Bike ragazzi' },
+  'e-mountainbikes': { de: 'E-Mountainbike', fr: 'VTT électrique', it: 'Mountain bike elettrica' },
+  'e-trekkingbikes': { de: 'Trekking E-Bike', fr: 'Vélo de trekking électrique', it: 'Bicicletta elettrica trekking' },
+  'e-citybikes': { de: 'City E-Bike', fr: 'Vélo de ville électrique', it: 'Bicicletta elettrica city' },
+  'e-rennvelos-gravel': { de: 'Gravel E-Bike', fr: 'Vélo gravel électrique', it: 'Bicicletta elettrica gravel' },
+  'e-lastenvelos': { de: 'Cargo E-Bike', fr: 'Vélo cargo électrique', it: 'Bicicletta elettrica cargo' },
+  'schnelle-e-bikes': { de: 'E-Bike 45 km/h', fr: 'Vélo électrique 45 km/h', it: 'Bicicletta elettrica 45 km/h' },
+  'e-faltvelos': { de: 'Falt E-Bike', fr: 'Vélo électrique pliant', it: 'Bicicletta elettrica pieghevole' },
+  'e-bikes-jugend': { de: 'E-Bike Jugend', fr: 'Vélo électrique ado', it: 'Bicicletta elettrica ragazzi' },
 };
 
 export const SITE_NAME: Record<Language, string> = { de: 'VeloSchweiz', fr: 'VeloSuisse', it: 'VeloSvizzera' };
@@ -102,7 +102,8 @@ export function brandSeo(brandId: string, lang: Language) {
   const brand = BRANDS.find((b) => b.id === brandId);
   const name = brand?.name || brandId;
   const s = catalogueStats((p) => p.brandId === brandId);
-  const cats = [...new Set(ALL_PRODUCTS.filter((p) => p.brandId === brandId).map((p) => CATEGORY_KEYWORD[p.categoryId]?.[lang]).filter(Boolean))];
+  const short = (s: string) => (lang === 'de' ? s : s.replace(/^Bicicletta elettrica /, '').replace(/^Vélo (de |électrique )?/, '').replace(/ électrique$/, '').replace(/^E-Bike /, '').toLowerCase());
+  const cats = [...new Set(ALL_PRODUCTS.filter((p) => p.brandId === brandId).map((p) => CATEGORY_KEYWORD[p.categoryId]?.[lang]).filter(Boolean).map((s) => short(s as string)))];
   const catList = cats.slice(0, 3).join(', ');
   const title = fitTitle(
     lang === 'de' ? `${name} E-Bike Schweiz – ${s.count} Modelle ab ${chf(s.minPrice)}`
@@ -122,16 +123,16 @@ export function brandCategorySeo(brandId: string, categoryId: string, lang: Lang
   const name = BRANDS.find((b) => b.id === brandId)?.name || brandId;
   const kw = CATEGORY_KEYWORD[categoryId]?.[lang] || categoryId;
   const s = catalogueStats((p) => p.brandId === brandId && p.categoryId === categoryId);
-  const title = fitTitle(
+  const withPrice =
     lang === 'de' ? `${name} ${kw} – ${s.count} Modelle ab ${chf(s.minPrice)}`
     : lang === 'fr' ? `${name} ${kw} – ${s.count} modèles dès ${chf(s.minPrice)}`
-    : `${name} ${kw} – ${s.count} modelli da ${chf(s.minPrice)}`,
-    lang,
-  );
+    : `${name} ${kw} – ${s.count} modelli da ${chf(s.minPrice)}`;
+  const withoutPrice = lang === 'de' ? `${name} ${kw} – ${s.count} Modelle` : lang === 'fr' ? `${name} ${kw} – ${s.count} modèles` : `${name} ${kw} – ${s.count} modelli`;
+  const title = [withPrice, withoutPrice].map((m) => fitTitle(m, lang)).find((x) => x.length <= 60) || withoutPrice;
   const description = fitDescription(
-    lang === 'de' ? `${s.count} ${kw} von ${name} ab ${chf(s.minPrice)}. Motor, Akku, Gewicht und Preise in CHF im direkten Vergleich.`
-    : lang === 'fr' ? `${s.count} ${kw} ${name} dès ${chf(s.minPrice)}. Moteur, batterie, poids et prix en CHF en un coup d’œil.`
-    : `${s.count} ${kw} ${name} da ${chf(s.minPrice)}. Motore, batteria, peso e prezzi in CHF a confronto.`,
+    lang === 'de' ? `${kw} von ${name}: ${s.count} Modelle ab ${chf(s.minPrice)}. Motor, Akku, Gewicht und Preise in CHF im direkten Vergleich.`
+    : lang === 'fr' ? `${kw} ${name} : ${s.count} modèles dès ${chf(s.minPrice)}. Moteur, batterie, poids et prix en CHF en un coup d’œil.`
+    : `${kw} ${name}: ${s.count} modelli da ${chf(s.minPrice)}. Motore, batteria, peso e prezzi in CHF a confronto.`,
   );
   return { title, description, ...s };
 }
