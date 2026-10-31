@@ -138,7 +138,7 @@ export function ProductCard({
           <div className="grid grid-cols-2 gap-1.5 my-3 text-[11px] text-slate-600">
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.torque}>
               <Zap className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-              <span className="truncate">{product.motorBrand}{product.torqueNm ? ` ${product.torqueNm}Nm` : ''}</span>
+              <span className="truncate">{product.motorBrand === 'Other' ? product.motorModel.split(' ')[0] : product.motorBrand}{product.torqueNm ? ` ${product.torqueNm}Nm` : ''}</span>
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.battery}>
               <Battery className="w-3.5 h-3.5 text-blue-500 shrink-0" />

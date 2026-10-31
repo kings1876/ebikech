@@ -79,11 +79,35 @@ export function HomeView({
     onNavigate(fullUrl);
   };
 
-  // Top TCS Test winners
-  const topTestedProducts = ALL_PRODUCTS.filter((p) => {
-    const tcs = p.testVerdicts.find((v) => v.source === 'TCS');
-    return tcs && tcs.numericScore >= 88;
-  }).slice(0, 4);
+  // Featured selection: 12 products, one per brand, spread across different categories
+  const featuredProducts = (() => {
+    const brandIds = [...new Set(ALL_PRODUCTS.map((p) => p.brandId))];
+    const catUse: Record<string, number> = {};
+    const picked: typeof ALL_PRODUCTS = [];
+    for (const brandId of brandIds) {
+      const options = ALL_PRODUCTS.filter((p) => p.brandId === brandId);
+      // prefer the category used least so far, then the middle-priced model of that category
+      const best = options
+        .map((p) => ({ p, use: catUse[p.categoryId] || 0 }))
+        .sort((x, y) => x.use - y.use)[0];
+      const inCat = options.filter((p) => p.categoryId === best.p.categoryId).sort((x, y) => x.priceCHF - y.priceCHF);
+      const choice = inCat[Math.floor(inCat.length / 2)];
+      catUse[choice.categoryId] = (catUse[choice.categoryId] || 0) + 1;
+      picked.push(choice);
+    }
+    return picked.slice(0, 12);
+  })();
+  const brandCount = new Set(ALL_PRODUCTS.map((p) => p.brandId)).size;
+  const featuredCopy = {
+    badge: { de: 'Auswahl', fr: 'Sélection', it: 'Selezione' },
+    title: { de: 'Ausgewählte E-Bikes', fr: 'Vélos électriques sélectionnés', it: 'E-bike selezionate' },
+    desc: {
+      de: `Eine Auswahl aus ${brandCount} Marken, vom Mountainbike bis zum Lastenvelo – insgesamt ${ALL_PRODUCTS.length} Modelle im Katalog.`,
+      fr: `Une sélection parmi ${brandCount} marques, du VTT au vélo cargo – ${ALL_PRODUCTS.length} modèles au catalogue.`,
+      it: `Una selezione di ${brandCount} marchi, dalla mountain bike alla cargo bike – ${ALL_PRODUCTS.length} modelli a catalogo.`,
+    },
+    cta: { de: 'Alle E-Bikes ansehen', fr: 'Voir tous les e-bikes', it: 'Vedi tutte le e-bike' },
+  };
 
   // Swiss Made brands highlight
   const swissBrands = BRANDS.filter((b) => b.isSwiss);
@@ -385,43 +409,33 @@ export function HomeView({
         </div>
       </section>
 
-      {/* 3. TCS & Kassensturz Testsieger Spotlight */}
+      {/* 3. Featured e-bikes */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="bg-slate-950 rounded-3xl p-6 sm:p-10 text-white">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4 border-b border-slate-800 pb-6">
-            <div>
-              <div className="flex items-center gap-2 text-red-400 font-bold text-xs uppercase tracking-wider mb-2">
-                <span className="w-2 h-2 rounded-full bg-red-500 animate-ping" />
-                <span>{t.home.tcsSectionBadge}</span>
-              </div>
-              <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
-                {t.home.tcsSectionTitle}
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-xl">
-                {t.home.tcsSectionDesc}
-              </p>
-            </div>
-
-            <button
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
-              className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs transition-colors self-start cursor-pointer"
-            >
-              {t.home.allReportsCta}
-            </button>
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">{featuredCopy.badge[lang]}</div>
+            <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-slate-900">{featuredCopy.title[lang]}</h2>
+            <p className="text-sm text-slate-600 mt-1 max-w-2xl">{featuredCopy.desc[lang]}</p>
           </div>
+          <button
+            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+            className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-colors self-start cursor-pointer"
+          >
+            {featuredCopy.cta[lang]}
+          </button>
+        </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {topTestedProducts.map((p) => (
-              <ProductCard
-                key={p.id}
-                product={p}
-                lang={lang}
-                onNavigate={onNavigate}
-                isCompared={comparedProducts.some((cp) => cp.id === p.id)}
-                onToggleCompare={onToggleCompare}
-              />
-            ))}
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {featuredProducts.map((p) => (
+            <ProductCard
+              key={p.id}
+              product={p}
+              lang={lang}
+              onNavigate={onNavigate}
+              isCompared={comparedProducts.some((cp) => cp.id === p.id)}
+              onToggleCompare={onToggleCompare}
+            />
+          ))}
         </div>
       </section>
 
