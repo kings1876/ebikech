@@ -6,6 +6,8 @@ import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { I18N } from '../data/i18n';
 import { NavLink } from './NavLink';
 import { COLLECTIONS } from '../data/collections';
+import { SITE_NAME } from '../config/brand';
+import { LogoMark } from './Logo';
 
 interface FooterProps {
   currentRoute: ParsedRoute;
@@ -16,8 +18,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
   const lang = currentRoute.lang;
   const t = I18N[lang].footer;
 
-  const portalName =
-    lang === 'fr' ? 'VeloSuisse.ch' : lang === 'it' ? 'VeloSvizzera.ch' : 'VeloSchweiz.ch';
+  const portalName = SITE_NAME[lang];
 
   return (
     <footer className="bg-slate-950 text-slate-400 text-xs border-t border-slate-800">
@@ -26,9 +27,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
         {/* Col 1: Portal Summary */}
         <div className="lg:col-span-2 space-y-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-red-600 flex items-center justify-center text-white font-black text-lg">
-              +
-            </div>
+            <LogoMark className="w-8 h-8 rounded-lg" />
             <span className="text-xl font-black text-white tracking-tight">{portalName}</span>
           </div>
           <p className="text-slate-400 text-xs leading-relaxed max-w-sm">

@@ -4,7 +4,8 @@ import { ALL_PRODUCTS } from '../data/products';
 import { FAQ_ITEMS } from '../data/faq';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
-import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, fitDescription, SITE_NAME } from './seoText';
+import { SITE_NAME, DOMAIN, TAGLINE } from '../config/brand';
+import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, fitDescription } from './seoText';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
   const lang = route.lang;
@@ -60,7 +61,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
   const homeLabel = lang === 'fr' ? 'Accueil' : lang === 'it' ? 'Home' : 'Startseite';
   breadcrumbs.push({ name: homeLabel, url: buildLocalizedUrl(lang, { lang, view: 'home' }) });
 
-  let title = 'VeloSchweiz – E-Bikes für die Schweiz';
+  let title = `${SITE_NAME.de} – E-Bikes für die Schweiz`;
   let description = 'E-Bikes mit Preisen in CHF und technischen Daten für die Schweiz.';
   let ogType: 'website' | 'article' | 'product' = 'website';
   let jsonLd: Record<string, unknown> | Array<Record<string, unknown>> = {};
@@ -71,28 +72,37 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         const s = catalogueStats();
         const top = s.topBrands.slice(0, 3).join(', ');
         if (lang === 'fr') {
-          title = fitTitle(`Vélos électriques en Suisse : ${top}`, lang);
+          title = `E-Bikes à vendre en Suisse : ${top}`;
           description = fitDescription(`${s.count} vélos électriques de ${s.brandCount} marques : VTT, trekking, ville, gravel et cargo. Prix en CHF, moteur, batterie et fiches techniques.`);
         } else if (lang === 'it') {
-          title = fitTitle(`Biciclette elettriche in Svizzera: ${top}`, lang);
+          title = `E-Bike in vendita in Svizzera: ${top}`;
           description = fitDescription(`${s.count} biciclette elettriche (e-bike) di ${s.brandCount} marchi: mountain bike, trekking, city, gravel e cargo. Prezzi in CHF, motore, batteria e dati tecnici.`);
         } else {
-          title = fitTitle(`E-Bikes Schweiz: ${top} & mehr`, lang);
+          title = `E-Bikes zu verkaufen Schweiz: ${top}`;
           description = fitDescription(`${s.count} E-Bikes von ${s.brandCount} Marken: E-Mountainbikes, Trekking, City, Gravel und Cargo. Preise in CHF, Motor, Akku und technische Daten.`);
         }
       }
-      jsonLd = {
+      jsonLd = [{
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'VeloSchweiz',
-        alternateName: lang === 'fr' ? 'VeloSuisse' : lang === 'it' ? 'VeloSvizzera' : 'VeloSchweiz',
+        name: SITE_NAME[lang],
+        alternateName: DOMAIN,
         url: `${origin}/`,
         potentialAction: {
           '@type': 'SearchAction',
           target: `${origin}/?q={search_term_string}`,
           'query-input': 'required name=search_term_string',
         },
-      };
+      }, {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: SITE_NAME[lang],
+        url: `${origin}/`,
+        logo: { '@type': 'ImageObject', url: `${origin}/logo.png`, width: 512, height: 512 },
+        description: TAGLINE[lang],
+        areaServed: { '@type': 'Country', name: 'CH' },
+        knowsLanguage: ['de-CH', 'fr-CH', 'it-CH'],
+      }];
       break;
     }
 
@@ -319,9 +329,9 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       const guideRootLabel = lang === 'fr' ? 'Guide E-Bike' : lang === 'it' ? 'Guida E-Bike' : 'E-Bike Ratgeber';
       breadcrumbs.push({ name: guideRootLabel, url: canonicalPath });
       title = lang === 'fr'
-        ? 'Guide & Conseils Vélo Électrique en Suisse (25 vs 45 km/h, Achat, Subventions) | VeloSuisse'
+        ? `Guide & Conseils Vélo Électrique en Suisse (25 vs 45 km/h, Achat, Subventions) | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? 'Guida E-Bike Svizzera : Norme 25 vs 45 km/h, Acquisto, Manutenzione e Incentivi | VeloSvizzera'
+        ? `Guida E-Bike Svizzera : Norme 25 vs 45 km/h, Acquisto, Manutenzione e Incentivi | ${SITE_NAME.it}`
         : 'Schweizer E-Bike Ratgeber 2026: Kaufberatung, Schweizer Recht (25 vs 45 km/h), Akku-Pflege & Fördergelder';
       description = 'Expertenratgeber für Schweizer E-Biker: Alles zu ASTRA-Gesetzen, Helmpflicht, kantonalen Förderbeiträgen bis 1’000 CHF und Rahmengrössen.';
       break;
@@ -364,13 +374,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           headline: route.guideArticle.title[lang],
           description: route.guideArticle.excerpt[lang],
           datePublished: route.guideArticle.publishedDate,
-          author: {
-            '@type': 'Person',
-            name: route.guideArticle.author,
-          },
+          author: { '@type': 'Organization', name: SITE_NAME[lang] },
           publisher: {
             '@type': 'Organization',
-            name: 'VeloSchweiz',
+            name: SITE_NAME[lang],
             logo: { '@type': 'ImageObject', url: `${origin}/logo.png` },
           },
         };
@@ -381,10 +388,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     case 'blog-root': {
       breadcrumbs.push({ name: 'Blog', url: canonicalPath });
       title = lang === 'fr'
-        ? 'Guides d’achat vélo électrique | VeloSuisse'
+        ? `Guides d’achat vélo électrique | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? 'Guide all’acquisto e-bike | VeloSvizzera'
-        : 'E-Bike Kaufberatung Schweiz: Ratgeber | VeloSchweiz';
+        ? `Guide all’acquisto e-bike | ${SITE_NAME.it}`
+        : `E-Bike Kaufberatung Schweiz: Ratgeber | ${SITE_NAME.de}`;
       description = lang === 'fr'
         ? 'Guides d’achat pour vélos électriques en Suisse : VTT, 45 km/h, vélos femme – critères de choix, modèles et prix en CHF.'
         : lang === 'it'
@@ -396,7 +403,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     case 'blog-post': {
       ogType = 'article';
       if (route.blogPost) {
-        const portal = lang === 'fr' ? 'VeloSuisse' : lang === 'it' ? 'VeloSvizzera' : 'VeloSchweiz';
+        const portal = SITE_NAME[lang];
         breadcrumbs.push({ name: 'Blog', url: buildLocalizedUrl(lang, { lang, view: 'blog-root' }) });
         breadcrumbs.push({ name: route.blogPost.title[lang], url: canonicalPath });
         title = fitTitle(route.blogPost.title[lang], lang);
@@ -420,10 +427,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     case 'contact': {
       breadcrumbs.push({ name: lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt', url: canonicalPath });
       title = lang === 'fr'
-        ? 'Contact : questions sur nos vélos électriques | VeloSuisse'
+        ? `Contact : questions sur nos vélos électriques | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? 'Contatti: domande sulle nostre e-bike | VeloSvizzera'
-        : 'Kontakt: Fragen zu unseren E-Bikes | VeloSchweiz';
+        ? `Contatti: domande sulle nostre e-bike | ${SITE_NAME.it}`
+        : `Kontakt: Fragen zu unseren E-Bikes | ${SITE_NAME.de}`;
       description = lang === 'fr'
         ? 'Une question sur un modèle, une taille ou un prix ? Contactez-nous : nous vous répondons dès que possible.'
         : lang === 'it'
@@ -435,10 +442,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     case 'faq': {
       breadcrumbs.push({ name: 'FAQ', url: canonicalPath });
       title = lang === 'fr'
-        ? 'FAQ vélo électrique en Suisse | VeloSuisse'
+        ? `FAQ vélo électrique en Suisse | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? 'FAQ e-bike in Svizzera | VeloSvizzera'
-        : 'FAQ: E-Bikes in der Schweiz | VeloSchweiz';
+        ? `FAQ e-bike in Svizzera | ${SITE_NAME.it}`
+        : `FAQ: E-Bikes in der Schweiz | ${SITE_NAME.de}`;
       description = lang === 'fr'
         ? 'Réponses sur e-bike 25 et 45, casque et permis, autonomie, entretien de la batterie, taille du cadre et prix.'
         : lang === 'it'
@@ -463,10 +470,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         url: canonicalPath,
       });
       title = lang === 'fr'
-        ? 'Subventions e-bike par canton en Suisse | VeloSuisse'
+        ? `Subventions e-bike par canton en Suisse | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? 'Incentivi e-bike per cantone in Svizzera | VeloSvizzera'
-        : 'E-Bike Förderbeiträge Schweiz nach Kanton | VeloSchweiz';
+        ? `Incentivi e-bike per cantone in Svizzera | ${SITE_NAME.it}`
+        : `E-Bike Förderbeiträge Schweiz nach Kanton | ${SITE_NAME.de}`;
       description = 'Bis zu 1’000 CHF Zuschuss für Ihr E-Bike oder Cargo-Velo: Übersicht über Förderprogramme in Zürich, Bern, Basel, Genf, Waadt, Tessin u.v.m.';
       break;
     }
@@ -477,38 +484,42 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         url: canonicalPath,
       });
       title = lang === 'fr'
-        ? 'Comparateur de Vélos Électriques en Suisse | VeloSuisse'
+        ? `Comparateur de Vélos Électriques en Suisse | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? 'Confronto E-Bike : Specifiche e Test a Confronto | VeloSvizzera'
-        : 'E-Bike Vergleichstool: Vergleichen Sie bis zu 4 Modelle Seite an Seite | VeloSchweiz';
+        ? `Confronto E-Bike : Specifiche e Test a Confronto | ${SITE_NAME.it}`
+        : `E-Bike Vergleichstool: Vergleichen Sie bis zu 4 Modelle Seite an Seite | ${SITE_NAME.de}`;
       description = 'Interaktiver E-Bike Modellvergleich: Motordrehmoment, Akkukapazität Wh, Gewicht und Preise in CHF nebeneinander.';
       break;
     }
 
     case 'about': {
-      title = lang === 'fr' ? 'À propos de VeloSuisse – vélos électriques en Suisse' : lang === 'it' ? 'Chi siamo – VeloSvizzera, e-bike in Svizzera' : 'Über VeloSchweiz – E-Bikes für die Schweiz';
-      description = lang === 'fr' ? 'VeloSuisse : vélos électriques avec prix en CHF, fiches techniques et conseils pour la Suisse.' : lang === 'it' ? 'VeloSvizzera: e-bike con prezzi in CHF, dati tecnici e consulenza per la Svizzera.' : 'VeloSchweiz: E-Bikes mit Preisen in CHF, technischen Daten und Beratung für die Schweiz.';
+      title = lang === 'fr' ? `À propos de ${SITE_NAME.fr} – vélos électriques en Suisse` : lang === 'it' ? `Chi siamo – ${SITE_NAME.it}, e-bike in Svizzera` : `Über ${SITE_NAME.de} – E-Bikes für die Schweiz`;
+      description = lang === 'fr' ? `${SITE_NAME.fr} : vélos électriques avec prix en CHF, fiches techniques et conseils pour la Suisse.` : lang === 'it' ? `${SITE_NAME.it}: e-bike con prezzi in CHF, dati tecnici e consulenza per la Svizzera.` : `${SITE_NAME.de}: E-Bikes mit Preisen in CHF, technischen Daten und Beratung für die Schweiz.`;
       break;
     }
 
     case 'legal': {
-      title = lang === 'fr' ? 'Mentions légales et protection des données | VeloSuisse' : lang === 'it' ? 'Note legali e protezione dei dati | VeloSvizzera' : 'Impressum, Datenschutz & Rechtliches | VeloSchweiz';
-      description = lang === 'fr' ? 'Mentions légales, protection des données (LPD) et informations sur l’éditeur de VeloSuisse.' : lang === 'it' ? 'Note legali, protezione dei dati (LPD) e informazioni sull’editore di VeloSvizzera.' : 'Rechtliche Hinweise, Schweizer Datenschutzgesetz (DSG) und Impressum von VeloSchweiz.';
+      title = lang === 'fr' ? `Mentions légales et protection des données | ${SITE_NAME.fr}` : lang === 'it' ? `Note legali e protezione dei dati | ${SITE_NAME.it}` : `Impressum, Datenschutz & Rechtliches | ${SITE_NAME.de}`;
+      description = lang === 'fr' ? `Mentions légales, protection des données (LPD) et informations sur l’éditeur de ${SITE_NAME.fr}.` : lang === 'it' ? `Note legali, protezione dei dati (LPD) e informazioni sull’editore di ${SITE_NAME.it}.` : `Rechtliche Hinweise, Schweizer Datenschutzgesetz (DSG) und Impressum von ${SITE_NAME.de}.`;
       break;
     }
 
     case 'search': {
-      title = `Suche nach «${route.queryString}» – VeloSchweiz`;
-      description = `Suchergebnisse für «${route.queryString}» in der Schweizer E-Bike Datenbank.`;
+      title = `Suche nach «${route.queryString}» – ${SITE_NAME[lang]}`;
+      description = `Suchergebnisse für «${route.queryString}» im E-Bike Katalog.`;
       break;
     }
 
     default: {
-      title = '404 – Seite nicht gefunden | VeloSchweiz';
-      description = 'Die angeforderte Seite existiert nicht auf VeloSchweiz.';
+      title = `404 – Seite nicht gefunden | ${SITE_NAME.de}`;
+      description = `Die angeforderte Seite existiert nicht auf ${SITE_NAME.de}.`;
       break;
     }
   }
+
+  // Keep titles within the length budget: drop the brand suffix when it would push the title over 60 characters
+  const brandSuffix = `| ${SITE_NAME[lang]}`;
+  if (title.length > 60 && title.endsWith(brandSuffix)) title = title.slice(0, -brandSuffix.length).trimEnd();
 
   // Append Breadcrumbs structured data if not home
   if (breadcrumbs.length > 1) {

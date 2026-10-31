@@ -39,7 +39,7 @@ export const GUIDE_CLUSTERS: GuideCluster[] = [
         },
         readTimeMin: 7,
         publishedDate: '2026-02-15',
-        author: 'Reto Baumgartner, Schweizer Velo-Experte',
+        author: 'Redaktion',
         keyTakeaways: [
           {
             de: 'Citybikes mit tiefem Einstieg bieten maximale Sicherheit im dichten Stadtverkehr von Zürich, Bern oder Basel.',
@@ -124,7 +124,7 @@ La scelta dell’e-bike giusta dipende dal tipo di tragitto e dalle pendenze del
         },
         readTimeMin: 5,
         publishedDate: '2026-01-20',
-        author: 'Sandra Meier, Velo-Biomechanikerin Zürich',
+        author: 'Redaktion',
         keyTakeaways: [
           {
             de: 'Die Schrittlänge ist ausschlaggebend, nicht allein die Körpergrösse.',
@@ -213,7 +213,7 @@ La scelta dell’e-bike giusta dipende dal tipo di tragitto e dalle pendenze del
         },
         readTimeMin: 8,
         publishedDate: '2026-03-01',
-        author: 'Marc Vögele, Verkehrsrechtsexperte Bern',
+        author: 'Redaktion',
         keyTakeaways: [
           {
             de: '25 km/h: Keine Helmpflicht (ab 2024 Velohelm dringend empfohlen), kein Kontrollschild, ab 14 Jahren mit Kat. M, ab 16 Jahren prüfungsfrei.',
@@ -300,7 +300,7 @@ L’USTRA stabilisce regole precise per la sicurezza su strade e piste ciclabili
         },
         readTimeMin: 6,
         publishedDate: '2026-01-10',
-        author: 'Florian Stucki, Akku-Ingenieur Bern',
+        author: 'Redaktion',
         keyTakeaways: [
           {
             de: 'Niemals einen eiskalten Akku laden! Zuerst bei Raumtemperatur (18–22 °C) aufwärmen lassen.',
@@ -380,7 +380,7 @@ A temperature inferiori a 0 °C l’elettrolita diventa più denso aumentando la
         },
         readTimeMin: 6,
         publishedDate: '2026-02-28',
-        author: 'Nathalie Dupont, Mobilitätsberaterin Romandie',
+        author: 'Redaktion',
         keyTakeaways: [
           {
             de: 'Besonders E-Lastenvelos (Cargo) werden massiv gefördert: Oft 500 bis 1’000 CHF Zuschuss pro Haushalt.',

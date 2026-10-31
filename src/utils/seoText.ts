@@ -15,7 +15,8 @@ export const CATEGORY_KEYWORD: Record<string, Record<Language, string>> = {
   'e-bikes-jugend': { de: 'E-Bike Jugend', fr: 'Vélo électrique ado', it: 'Bicicletta elettrica ragazzi' },
 };
 
-export const SITE_NAME: Record<Language, string> = { de: 'VeloSchweiz', fr: 'VeloSuisse', it: 'VeloSvizzera' };
+export { SITE_NAME } from '../config/brand';
+import { SITE_NAME } from '../config/brand';
 
 const chf = (n: number) => `CHF ${Math.round(n).toLocaleString('de-CH')}`;
 

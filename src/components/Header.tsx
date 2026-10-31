@@ -28,6 +28,8 @@ import {
   Check,
 } from 'lucide-react';
 import { NavLink } from './NavLink';
+import { LogoMark } from './Logo';
+import { SITE_NAME, WORDMARK } from '../config/brand';
 
 interface HeaderProps {
   currentRoute: ParsedRoute;
@@ -93,7 +95,8 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
     setSearchFocused(false);
   };
 
-  const portalName = lang === 'fr' ? 'VeloSuisse' : lang === 'it' ? 'VeloSvizzera' : 'VeloSchweiz';
+  const portalName = SITE_NAME[lang];
+  const wordmark = WORDMARK[lang];
 
   // Real counts from the published catalogue (only show categories/brands that have products)
   const catCounts: Record<string, number> = {};
@@ -182,14 +185,11 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           className="flex items-center gap-2.5 text-left group cursor-pointer shrink-0"
           aria-label={portalName}
         >
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-red-600 to-red-700 flex items-center justify-center text-white shadow-md shadow-red-600/20 group-hover:scale-105 transition-transform">
-            <span className="font-black text-xl leading-none">+</span>
-          </div>
+          <LogoMark className="w-9 h-9 shadow-md shadow-red-600/20 rounded-xl group-hover:scale-105 transition-transform" />
           <div className="leading-none">
             <div className="text-xl font-black tracking-tight text-slate-900 flex items-center gap-1.5">
-              <span>{portalName.slice(0, 4)}</span>
-              <span className="text-red-600">{portalName.slice(4)}</span>
-              <span className="hidden sm:inline text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 bg-red-100 text-red-700 rounded">.CH</span>
+              <span>{wordmark.lead}</span>
+              <span className="text-red-600 font-semibold">{wordmark.tail}</span>
             </div>
             <p className="hidden xl:block text-[10px] text-slate-600 font-medium mt-1">{t.header.tagline}</p>
           </div>

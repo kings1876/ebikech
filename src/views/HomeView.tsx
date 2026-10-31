@@ -26,6 +26,7 @@ import {
   Star,
 } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
+import { SITE_NAME } from '../config/brand';
 
 interface HomeViewProps {
   lang: Language;
@@ -54,7 +55,7 @@ export function HomeView({
   onOpenCompare,
 }: HomeViewProps) {
   const t = I18N[lang];
-  const portalName = lang === 'fr' ? 'VeloSuisse.ch' : lang === 'it' ? 'VeloSvizzera.ch' : 'VeloSchweiz.ch';
+  const portalName = SITE_NAME[lang];
 
   // Quick Finder state
   const [finderCategory, setFinderCategory] = useState(CATEGORIES[0].id);

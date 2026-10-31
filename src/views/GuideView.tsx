@@ -15,6 +15,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
+import { SITE_NAME } from '../config/brand';
 
 interface GuideViewProps {
   route: ParsedRoute;
@@ -95,7 +96,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           <div className="flex items-center gap-4 text-xs text-slate-400 pt-1">
             <span className="flex items-center gap-1">
               <User className="w-3.5 h-3.5" />
-              <span>{article.author}</span>
+              <span>{SITE_NAME[lang]}</span>
             </span>
             <span>·</span>
             <span className="flex items-center gap-1">
@@ -334,7 +335,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
             >
               <div className="space-y-2">
                 <div className="flex items-center gap-2 text-[11px] text-slate-400">
-                  <span>{g.author}</span>
+                  <span>{SITE_NAME[lang]}</span>
                   <span>·</span>
                   <span>{g.readTimeMin} {t.readTime}</span>
                 </div>

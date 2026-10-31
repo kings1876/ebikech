@@ -5,6 +5,7 @@ import { parseRoute } from './routes';
 import { resolveSeoMetadata } from './seo';
 import { staticSlugs } from './allRoutes';
 import { SITE_URL } from './site';
+import { SITE_NAME } from '../config/brand';
 
 type Props = { params: Promise<{ slug?: string[] }> };
 
@@ -27,8 +28,8 @@ export function makePage(lang: Language) {
         canonical: seo.canonicalUrl,
         languages: Object.fromEntries(seo.hreflangs.map((h) => [h.lang, h.href])),
       },
-      openGraph: { title: seo.title, description: seo.description, url: seo.canonicalUrl, siteName: 'VeloSchweiz', type: 'website', locale: lang === 'de' ? 'de_CH' : lang === 'fr' ? 'fr_CH' : 'it_CH' },
-      twitter: { card: 'summary_large_image', title: seo.title, description: seo.description },
+      openGraph: { title: seo.title, description: seo.description, url: seo.canonicalUrl, siteName: SITE_NAME[lang], images: [{ url: `${SITE_URL}/og/og-${lang}.png`, width: 1200, height: 630, alt: SITE_NAME[lang] }], type: 'website', locale: lang === 'de' ? 'de_CH' : lang === 'fr' ? 'fr_CH' : 'it_CH' },
+      twitter: { card: 'summary_large_image', title: seo.title, description: seo.description, images: [`${SITE_URL}/og/og-${lang}.png`] },
     };
   };
 

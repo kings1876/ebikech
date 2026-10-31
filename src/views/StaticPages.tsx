@@ -21,7 +21,7 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-10">
         <div className="border-b border-slate-200 pb-6 space-y-2">
           <div className="text-red-600 font-bold text-xs uppercase tracking-wider">
-            {pick(lang, 'Über VeloSchweiz', 'À propos de VeloSuisse', 'Chi siamo')}
+            {pick(lang, 'Über uns', 'À propos', 'Chi siamo')}
           </div>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
             {pick(lang, 'E-Bikes für die Schweiz', 'Vélos électriques pour la Suisse', 'E-bike per la Svizzera')}

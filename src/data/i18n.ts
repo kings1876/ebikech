@@ -1,4 +1,5 @@
 import { Language } from '../types';
+import { TAGLINE } from '../config/brand';
 import productsRaw from './products.json';
 
 // Real catalogue numbers (not the original 500-product target)
@@ -291,7 +292,7 @@ export const I18N: Record<Language, Translations> = {
     header: {
       topBanner: `${N} E-Bikes von ${B} Marken – Preise in CHF, technische Daten und Beratung für die Schweiz`,
       independent: `Preise in CHF`,
-      tagline: 'Das Schweizer E-Bike Portal',
+      tagline: TAGLINE.de,
       catalogue: 'E-Bikes',
       brands: 'Marken',
       guides: 'Ratgeber',
@@ -305,7 +306,7 @@ export const I18N: Record<Language, Translations> = {
       total: 'Total',
     },
     home: {
-      heroBadge: 'Offizielle Schweizer E-Bike Vergleichsplattform',
+      heroBadge: 'Neue E-Bikes · Preise in CHF',
       heroTitle: 'Das passende E-Bike für die Schweiz.',
       heroDesc: `Entdecken Sie ${N} E-Bikes aus 8 Kategorien von ${B} Marken – mit Preisen in CHF sowie technischen Daten zu Motor, Akku und Gewicht.`,
       tcsTested: `Technische Daten vom Hersteller`,
@@ -554,8 +555,8 @@ export const I18N: Record<Language, Translations> = {
       cantonsDesc: 'Fördergelder bis CHF 1’000.-',
       swissEngTitle: 'Swiss Engineering',
       swissEngDesc: 'Flyer, Stromer, Scott, BMC, Thömus',
-      portalDesc: `VeloSchweiz zeigt ${N} E-Bikes von ${B} Marken mit Preisen in CHF und technischen Daten – dazu Ratgeber zu Gesetzgebung (25 vs 45 km/h) und kantonaler Förderung.`,
-      dsgNote: '🇨🇭 Entwickelt nach Schweizer Datenschutzgesetz (DSG) & ASTRA-Richtlinien für Leicht-Motorfahrräder.',
+      portalDesc: `Neue E-Bikes für die Schweiz: ${N} Modelle von ${B} Marken mit Preisen in CHF und technischen Daten – dazu Ratgeber zu Gesetzgebung (25 vs 45 km/h) und kantonaler Förderung.`,
+      dsgNote: "🇨🇭 Preise in CHF · Texte in Deutsch, Französisch und Italienisch.",
       categoriesTitle: 'Kategorien',
       allCategoriesLink: `→ Alle 8 Kategorien (${N})`,
       brandsTitle: 'Top Marken',
@@ -564,7 +565,7 @@ export const I18N: Record<Language, Translations> = {
       cantonSubsidiesLink: '🇨🇭 Kantonale Förderbeiträge',
       legalLink: 'Impressum & Schweizer DSG',
       allRightsReserved: 'Alle Rechte vorbehalten.',
-      astraCompliance: 'ASTRA VTS / VRV Konform',
+      astraCompliance: "Neue E-Bikes",
     },
   },
 
@@ -572,7 +573,7 @@ export const I18N: Record<Language, Translations> = {
     header: {
       topBanner: `${N} vélos électriques de ${B} marques – prix en CHF, fiches techniques et conseils pour la Suisse`,
       independent: `Prix en CHF`,
-      tagline: 'Le Portail Suisse du Vélo Électrique',
+      tagline: TAGLINE.fr,
       catalogue: 'Vélos électriques',
       brands: 'Marques',
       guides: 'Guide & Conseils',
@@ -586,7 +587,7 @@ export const I18N: Record<Language, Translations> = {
       total: 'Total',
     },
     home: {
-      heroBadge: 'Plateforme suisse officielle de comparaison e-bike',
+      heroBadge: 'Vélos électriques neufs · Prix en CHF',
       heroTitle: 'Le vélo électrique idéal pour la Suisse.',
       heroDesc: `Découvrez ${N} vélos électriques de 8 catégories et ${B} marques – avec prix en CHF et données techniques sur le moteur, la batterie et le poids.`,
       tcsTested: `Données techniques du fabricant`,
@@ -835,8 +836,8 @@ export const I18N: Record<Language, Translations> = {
       cantonsDesc: 'Subventions jusqu’à CHF 1’000.-',
       swissEngTitle: 'Ingénierie suisse',
       swissEngDesc: 'Flyer, Stromer, Scott, BMC, Thömus',
-      portalDesc: `VeloSuisse présente ${N} vélos électriques de ${B} marques avec prix en CHF et données techniques – ainsi que des guides sur la législation (25 vs 45 km/h) et les subventions cantonales.`,
-      dsgNote: '🇨🇭 Développé conformément à la Loi fédérale sur la protection des données (LPD) et aux ordonnances OFROU.',
+      portalDesc: `Vélos électriques neufs pour la Suisse : ${N} modèles de ${B} marques avec prix en CHF et données techniques – ainsi que des guides sur la législation (25 vs 45 km/h) et les subventions cantonales.`,
+      dsgNote: "🇨🇭 Prix en CHF · Textes en allemand, français et italien.",
       categoriesTitle: 'Catégories',
       allCategoriesLink: `→ Toutes les 8 catégories (${N})`,
       brandsTitle: 'Grandes Marques',
@@ -845,7 +846,7 @@ export const I18N: Record<Language, Translations> = {
       cantonSubsidiesLink: '🇨🇭 Subventions cantonales',
       legalLink: 'Mentions légales & LPD',
       allRightsReserved: 'Tous droits réservés.',
-      astraCompliance: 'Conforme aux directives OFROU OETV / OCR',
+      astraCompliance: "Vélos électriques neufs",
     },
   },
 
@@ -853,7 +854,7 @@ export const I18N: Record<Language, Translations> = {
     header: {
       topBanner: `${N} e-bike di ${B} marchi – prezzi in CHF, dati tecnici e consulenza per la Svizzera`,
       independent: `Prezzi in CHF`,
-      tagline: 'Il Portale E-Bike Svizzero',
+      tagline: TAGLINE.it,
       catalogue: 'E-Bike',
       brands: 'Marchi',
       guides: 'Guida & Norme',
@@ -867,7 +868,7 @@ export const I18N: Record<Language, Translations> = {
       total: 'Totale',
     },
     home: {
-      heroBadge: 'Piattaforma ufficiale svizzera per il confronto e-bike',
+      heroBadge: 'E-bike nuove · Prezzi in CHF',
       heroTitle: 'L’e-bike ideale per la Svizzera.',
       heroDesc: `Scopri ${N} e-bike di 8 categorie e ${B} marchi – con prezzi in CHF e dati tecnici su motore, batteria e peso.`,
       tcsTested: `Dati tecnici del produttore`,
@@ -1116,8 +1117,8 @@ export const I18N: Record<Language, Translations> = {
       cantonsDesc: 'Incentivi fino a CHF 1’000.-',
       swissEngTitle: 'Ingegneria Svizzera',
       swissEngDesc: 'Flyer, Stromer, Scott, BMC, Thömus',
-      portalDesc: `VeloSvizzera presenta ${N} e-bike di ${B} marchi con prezzi in CHF e dati tecnici – oltre a guide su normativa (25 vs 45 km/h) e incentivi cantonali.`,
-      dsgNote: '🇨🇭 Sviluppato in conformità con la Legge federale sulla protezione dei dati (LPD) e le ordinanze USTRA.',
+      portalDesc: `E-bike nuove per la Svizzera: ${N} modelli di ${B} marchi con prezzi in CHF e dati tecnici – oltre a guide su normativa (25 vs 45 km/h) e incentivi cantonali.`,
+      dsgNote: "🇨🇭 Prezzi in CHF · Testi in tedesco, francese e italiano.",
       categoriesTitle: 'Categorie',
       allCategoriesLink: `→ Tutte le 8 categorie (${N})`,
       brandsTitle: 'Marchi Principali',
@@ -1126,7 +1127,7 @@ export const I18N: Record<Language, Translations> = {
       cantonSubsidiesLink: '🇨🇭 Incentivi cantonali',
       legalLink: 'Colophon & LPD Svizzera',
       allRightsReserved: 'Tutti i diritti riservati.',
-      astraCompliance: 'Conforme alle norme USTRA OETV / ONC',
+      astraCompliance: "E-bike nuove",
     },
   },
 };
