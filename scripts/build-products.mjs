@@ -128,6 +128,9 @@ for (const p of rawAll) {
 
   const desc = (p.description || '').trim();
   const na = 'Nicht angegeben';
+  // Shop policy: a product is only published with a qualifying main image.
+  const images = pickImages(p);
+  if (imageClass && !images.length) { why('no qualifying main image'); slugs.delete(slug); continue; }
   products.push({
     id: `p-${id++}`,
     slug,
@@ -175,7 +178,7 @@ for (const p of rawAll) {
     priceFrom: /\bab\s*CHF|Einstiegspreis|ab-Preis|\bfrom\b/i.test(p.priceNote || '') || undefined,
     priceEstimated: estimated || undefined,
     imageSources: (p.images || []).filter((i) => i.url).map((i) => ({ url: i.url, alt: i.alt || p.name })),
-    images: pickImages(p),
+    images,
   });
 }
 
