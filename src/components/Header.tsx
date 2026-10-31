@@ -343,6 +343,12 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           >
             FAQ
           </button>
+        <button
+            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'contact' }))}
+            className={linkClass(currentRoute.view === 'contact')}
+          >
+            {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
+          </button>
         </nav>
 
         {/* Search & actions */}
@@ -506,6 +512,17 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
               <span>FAQ</span>
+              <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
+            </button>
+
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                onNavigate(buildLocalizedUrl(lang, { lang, view: 'contact' }));
+              }}
+              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+            >
+              <span>{lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}</span>
               <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
             </button>
           </div>

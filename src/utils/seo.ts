@@ -374,6 +374,21 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       break;
     }
 
+    case 'contact': {
+      breadcrumbs.push({ name: lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt', url: canonicalPath });
+      title = lang === 'fr'
+        ? 'Contact : questions sur nos vélos électriques | VeloSuisse'
+        : lang === 'it'
+        ? 'Contatti: domande sulle nostre e-bike | VeloSvizzera'
+        : 'Kontakt: Fragen zu unseren E-Bikes | VeloSchweiz';
+      description = lang === 'fr'
+        ? 'Une question sur un modèle, une taille ou un prix ? Contactez-nous : nous vous répondons dès que possible.'
+        : lang === 'it'
+        ? 'Domande su un modello, una taglia o un prezzo? Contattateci: vi rispondiamo il prima possibile.'
+        : 'Fragen zu einem Modell, zur Grösse oder zum Preis? Kontaktieren Sie uns – wir melden uns so rasch wie möglich.';
+      break;
+    }
+
     case 'faq': {
       breadcrumbs.push({ name: 'FAQ', url: canonicalPath });
       title = lang === 'fr'

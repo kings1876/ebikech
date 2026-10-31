@@ -179,6 +179,14 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 FAQ
               </button>
             </li>
+            <li>
+              <button
+                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'contact' }))}
+                className="hover:text-white transition-colors cursor-pointer text-left"
+              >
+                {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
+              </button>
+            </li>
             <li className="pt-2 border-t border-slate-800">
               <button
                 onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'legal' }))}

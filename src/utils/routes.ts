@@ -22,6 +22,7 @@ export interface ParsedRoute {
     | 'blog-root'
     | 'blog-post'
     | 'faq'
+    | 'contact'
     | 'canton-subsidies'
     | 'comparison'
     | 'about'
@@ -120,6 +121,11 @@ export function parseRoute(pathname: string, search: string = ''): ParsedRoute {
   }
 
   const firstSeg = segments[0];
+
+  // Contact
+  if (['kontakt', 'contact', 'contatti'].includes(firstSeg)) {
+    return segments.length === 1 ? { lang, view: 'contact' } : { lang, view: '404' };
+  }
 
   // Blog and FAQ
   if (firstSeg === 'faq') {
@@ -338,6 +344,9 @@ export function buildLocalizedUrl(targetLang: Language, route: ParsedRoute): str
 
     case 'faq':
       return `${langPrefix}/faq/`;
+
+    case 'contact':
+      return targetLang === 'fr' ? '/fr/contact/' : targetLang === 'it' ? '/it/contatti/' : '/kontakt/';
 
     case 'search':
       return targetLang === 'de' ? `/?q=${encodeURIComponent(route.queryString || '')}` : `${langPrefix}/?q=${encodeURIComponent(route.queryString || '')}`;

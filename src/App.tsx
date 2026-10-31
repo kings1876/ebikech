@@ -20,6 +20,7 @@ import { CantonSubsidiesView } from './views/CantonSubsidiesView';
 import { StaticPages } from './views/StaticPages';
 import { BlogView } from './views/BlogView';
 import { FaqView } from './views/FaqView';
+import { ContactView } from './views/ContactView';
 
 export default function App({ initialPath = '/' }: { initialPath?: string }) {
   // Server renders the requested path; query string is read after hydration to avoid mismatches.
@@ -248,6 +249,8 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
         )}
 
         {route.view === 'faq' && <FaqView lang={lang} onNavigate={handleNavigate} />}
+
+        {route.view === 'contact' && <ContactView lang={lang} onNavigate={handleNavigate} />}
 
         {route.view === 'comparison' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">

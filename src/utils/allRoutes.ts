@@ -23,6 +23,7 @@ export function allRoutes(): ParsedRoute[] {
   r({ view: 'legal' });
   r({ view: 'blog-root' });
   r({ view: 'faq' });
+  r({ view: 'contact' });
   for (const blogPost of BLOG_POSTS) r({ view: 'blog-post', blogPost });
 
   for (const category of CATEGORIES) {
