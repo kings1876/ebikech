@@ -344,15 +344,15 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     case 'blog-root': {
       breadcrumbs.push({ name: 'Blog', url: canonicalPath });
       title = lang === 'fr'
-        ? 'Blog vélo électrique : loi, batterie, moteur | VeloSuisse'
+        ? 'Guides d’achat vélo électrique | VeloSuisse'
         : lang === 'it'
-        ? 'Blog e-bike Svizzera: norme, batteria, motore | VeloSvizzera'
-        : 'E-Bike Blog Schweiz: Recht, Akku, Antrieb | VeloSchweiz';
+        ? 'Guide all’acquisto e-bike | VeloSvizzera'
+        : 'E-Bike Kaufberatung Schweiz: Ratgeber | VeloSchweiz';
       description = lang === 'fr'
-        ? 'Articles clairs sur la loi, la batterie, l’autonomie, la motorisation et l’entretien des vélos électriques en Suisse.'
+        ? 'Guides d’achat pour vélos électriques en Suisse : VTT, 45 km/h, vélos femme – critères de choix, modèles et prix en CHF.'
         : lang === 'it'
-        ? 'Articoli chiari su normativa, batteria, autonomia, motore e manutenzione delle e-bike in Svizzera.'
-        : 'Verständliche Artikel zu E-Bike-Recht, Akku und Reichweite, Antrieb und Pflege – für Ihre Kaufentscheidung in der Schweiz.';
+        ? 'Guide all’acquisto di e-bike in Svizzera: mountain bike, 45 km/h, e-bike donna – criteri di scelta, modelli e prezzi in CHF.'
+        : 'Kaufberatung für E-Bikes in der Schweiz: E-Mountainbike, 45 km/h, Damen-E-Bike – Auswahlkriterien, Modelle und Preise in CHF.';
       break;
     }
 

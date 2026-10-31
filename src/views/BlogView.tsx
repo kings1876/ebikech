@@ -1,5 +1,8 @@
-import { Language } from '../types';
-import { BLOG_POSTS } from '../data/blog';
+import { Language, Product } from '../types';
+import { BLOG_POSTS, BlogPost } from '../data/blog';
+import { ALL_PRODUCTS } from '../data/products';
+import { CATEGORIES } from '../data/categories';
+import { CardImage } from '../components/ProductImages';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { ArrowRight, Clock } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
@@ -14,14 +17,14 @@ const L = {
   blog: { de: 'Blog', fr: 'Blog', it: 'Blog' },
   home: { de: 'Startseite', fr: 'Accueil', it: 'Home' },
   heroTitle: {
-    de: 'E-Bike Blog: Wissen für Ihre Kaufentscheidung',
-    fr: 'Blog e-bike : le savoir pour bien choisir',
-    it: 'Blog e-bike: la conoscenza per scegliere bene',
+    de: 'E-Bike Kaufberatung: Ratgeber für Ihre Kaufentscheidung',
+    fr: 'Guides d’achat e-bike : bien choisir son vélo électrique',
+    it: 'Guide all’acquisto e-bike: scegliere la bici giusta',
   },
   heroText: {
-    de: 'Verständliche Artikel zu Recht, Akku, Antrieb und Pflege von Elektrovelos in der Schweiz.',
-    fr: 'Des articles clairs sur la loi, la batterie, la motorisation et l’entretien des vélos électriques en Suisse.',
-    it: 'Articoli chiari su normativa, batteria, motore e manutenzione delle biciclette elettriche in Svizzera.',
+    de: 'Worauf es beim Kauf eines E-Bikes ankommt – mit passenden Modellen und Preisen in CHF.',
+    fr: 'Les points clés pour acheter un vélo électrique – avec des modèles adaptés et des prix en CHF.',
+    it: 'Cosa conta nell’acquisto di una e-bike – con modelli adatti e prezzi in CHF.',
   },
   read: { de: 'Artikel lesen', fr: 'Lire l’article', it: 'Leggi l’articolo' },
   min: { de: 'Min. Lesezeit', fr: 'min de lecture', it: 'min di lettura' },
@@ -33,6 +36,31 @@ const L = {
     it: 'Trovate i modelli adatti nel nostro catalogo.',
   },
 };
+
+const LP = {
+  models: { de: 'Passende Modelle', fr: 'Modèles adaptés', it: 'Modelli adatti' },
+  from: { de: 'ab', fr: 'dès', it: 'da' },
+  approx: { de: 'ca.', fr: 'env.', it: 'ca.' },
+  all: { de: 'Alle Modelle ansehen', fr: 'Voir tous les modèles', it: 'Vedi tutti i modelli' },
+  advice: { de: 'Beratung anfragen', fr: 'Demander conseil', it: 'Richiedi consulenza' },
+};
+
+/** Up to 4 real catalogue products matching a post, spread across the price range (best-photographed first). */
+function relatedProducts(post: BlogPost): Product[] {
+  const r = post.related;
+  if (!r) return [];
+  const pool = ALL_PRODUCTS.filter(
+    (p) =>
+      (!r.categoryId || p.categoryId === r.categoryId) &&
+      (!r.brandId || p.brandId === r.brandId) &&
+      (!r.speedClass || p.speedClass === r.speedClass) &&
+      (!r.frameType || p.frameType === r.frameType) &&
+      (p.images?.length || 0) > 0,
+  ).sort((a, b) => a.priceCHF - b.priceCHF);
+  if (pool.length <= 4) return pool;
+  const picks = [0.1, 0.4, 0.7, 0.95].map((q) => pool[Math.min(pool.length - 1, Math.floor(q * pool.length))]);
+  return [...new Set(picks)];
+}
 
 const fmtDate = (iso: string, lang: Language) =>
   new Date(iso + 'T12:00:00Z').toLocaleDateString(lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH', {
@@ -48,6 +76,11 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
   if (route.view === 'blog-post' && route.blogPost) {
     const post = route.blogPost;
     const others = BLOG_POSTS.filter((p) => p.id !== post.id);
+    const relatedList = relatedProducts(post);
+    const ctaCategory = CATEGORIES.find((c) => c.id === (post.related?.categoryId || post.related?.ctaCategoryId));
+    const ctaHref = ctaCategory
+      ? buildLocalizedUrl(lang, { lang, view: 'category', category: ctaCategory })
+      : buildLocalizedUrl(lang, { lang, view: 'catalog-root' });
     return (
       <article className="max-w-3xl mx-auto px-4 sm:px-6 py-10 space-y-8">
         <nav aria-label="Breadcrumb" className="text-xs text-slate-500 flex items-center gap-1.5">
@@ -76,14 +109,48 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           ))}
         </div>
 
+        {relatedList.length > 0 && (
+          <section className="space-y-3">
+            <h2 className="text-xl font-bold text-slate-900">{LP.models[lang]}</h2>
+            <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              {relatedList.map((p) => {
+                const cat = CATEGORIES.find((c) => c.id === p.categoryId);
+                return (
+                  <li key={p.id}>
+                    <NavLink
+                      href={buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: p.slug })}
+                      onNavigate={onNavigate}
+                      className="h-full rounded-xl border border-slate-200 bg-white p-3 hover:border-red-300 hover:shadow-md transition-all cursor-pointer flex flex-col"
+                    >
+                      <div className="h-24 flex items-center justify-center mb-2 overflow-hidden">
+                        <CardImage images={p.images || []} name={p.name} />
+                      </div>
+                      <div className="text-xs font-bold text-slate-900 line-clamp-2">{p.name}</div>
+                      <div className="mt-auto pt-2 text-xs text-slate-600">
+                        {LP.from[lang]} {p.priceEstimated ? LP.approx[lang] + ' ' : ''}CHF {Math.round(p.priceCHF).toLocaleString('de-CH')}
+                      </div>
+                    </NavLink>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+
         <aside className="rounded-2xl bg-slate-50 border border-slate-200 p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <p className="text-sm text-slate-700">{L.ctaText[lang]}</p>
-          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
-            
-            className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-red-600 text-white text-sm font-bold hover:bg-red-700 cursor-pointer"
-          >
-            {L.cta[lang]} <ArrowRight className="w-4 h-4" />
-          </NavLink>
+          <div className="flex flex-wrap gap-2">
+            <NavLink href={ctaHref} onNavigate={onNavigate}
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-red-600 text-white text-sm font-bold hover:bg-red-700 cursor-pointer"
+            >
+              {post.related ? LP.all[lang] : L.cta[lang]} <ArrowRight className="w-4 h-4" />
+            </NavLink>
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm font-bold hover:bg-slate-100 cursor-pointer"
+            >
+              {LP.advice[lang]}
+            </NavLink>
+          </div>
         </aside>
 
         <section className="space-y-3">
