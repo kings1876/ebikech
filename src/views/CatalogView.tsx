@@ -293,7 +293,7 @@ export function CatalogView({
             >
               {t.catalog.allInCat} {category.name[lang]} ({category.targetCount})
             </button>
-            {category.subcategories.map((sub) => (
+            {category.subcategories.filter((sub) => sub.targetCount > 0).map((sub) => (
               <button
                 key={sub.id}
                 onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'subcategory', category, subcategorySlug: sub.id }))}

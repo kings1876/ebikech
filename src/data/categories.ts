@@ -1,4 +1,5 @@
 import { CategoryDef } from '../types';
+import productsRaw from './products.json';
 
 export const SECTION_ROOTS = {
   catalogue: {
@@ -212,3 +213,12 @@ export const CATEGORIES: CategoryDef[] = [
     },
   },
 ];
+
+// Display counts reflect the real catalogue, not the original 500-product target.
+const _catalogue = productsRaw as unknown as { categoryId: string; subcategoryId?: string }[];
+for (const c of CATEGORIES) {
+  c.targetCount = _catalogue.filter((p) => p.categoryId === c.id).length;
+  for (const s of c.subcategories || []) {
+    s.targetCount = _catalogue.filter((p) => p.categoryId === c.id && p.subcategoryId === s.id).length;
+  }
+}

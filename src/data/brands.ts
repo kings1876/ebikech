@@ -1,4 +1,5 @@
 import { BrandDef } from '../types';
+import productsRaw from './products.json';
 
 export const BRANDS: BrandDef[] = [
   // Tier A (300 total)
@@ -359,3 +360,7 @@ export const BRANDS: BrandDef[] = [
     logoText: 'BIANCHI',
   },
 ];
+
+// Display counts reflect the real catalogue, not the original 500-product target.
+const _catalogue = productsRaw as unknown as { brandId: string }[];
+for (const b of BRANDS) b.targetCount = _catalogue.filter((p) => p.brandId === b.id).length;
