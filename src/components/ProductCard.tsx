@@ -1,4 +1,5 @@
 import { Product, Language } from '../types';
+import { CardImage } from './ProductImages';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
@@ -86,30 +87,7 @@ export function ProductCard({
         className="px-4 py-5 flex flex-col items-center justify-center cursor-pointer relative bg-radial from-slate-50 to-white"
       >
         <div className="w-48 h-32 flex items-center justify-center relative">
-          <div className="relative text-slate-400 group-hover:scale-105 group-hover:text-red-600 transition-all duration-300">
-            <svg
-              className="w-40 h-28 drop-shadow-sm"
-              viewBox="0 0 200 120"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="4"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="45" cy="85" r="30" stroke="currentColor" strokeWidth="4" />
-              <circle cx="45" cy="85" r="4" fill="currentColor" />
-              <circle cx="155" cy="85" r="30" stroke="currentColor" strokeWidth="4" />
-              <circle cx="155" cy="85" r="4" fill="currentColor" />
-              <path d="M45 85 L85 85 L125 45 L155 85" stroke="currentColor" strokeWidth="5" />
-              <path d="M85 85 L105 45 L45 85" stroke="currentColor" strokeWidth="5" />
-              <path d="M105 45 L135 45" stroke="currentColor" strokeWidth="5" />
-              <path d="M145 32 L155 85" stroke="currentColor" strokeWidth="5" />
-              <path d="M140 28 L152 28" stroke="currentColor" strokeWidth="6" />
-              <path d="M85 85 L100 35" stroke="currentColor" strokeWidth="5" />
-              <path d="M90 35 L112 35" stroke="currentColor" strokeWidth="7" />
-              <rect x="80" y="58" width="30" height="9" rx="3" fill="currentColor" fillOpacity="0.25" stroke="none" />
-            </svg>
-          </div>
+          <CardImage images={product.images || []} name={product.name} />
         </div>
 
         {/* Legit Test Verdict Badge & Trustpilot Rating */}

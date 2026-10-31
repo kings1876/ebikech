@@ -9,6 +9,8 @@ const srcDir = path.join(root, 'src/data/sourced');
 const out = path.join(root, 'src/data/products.json');
 
 const fx = JSON.parse(fs.readFileSync(path.join(root, 'src/data/fx.json'), 'utf8'));
+const imageStatusFile = path.join(root, 'src/data/image-status.json');
+const imageStatus = fs.existsSync(imageStatusFile) ? JSON.parse(fs.readFileSync(imageStatusFile, 'utf8')) : {};
 const read = (p) => fs.readFileSync(path.join(root, p), 'utf8');
 const idsIn = (file) => [...read(file).matchAll(/^\s{2,6}id: '([^']+)'/gm)].map((m) => m[1]);
 const brandIds = new Set(idsIn('src/data/brands.ts'));
@@ -135,6 +137,10 @@ for (const p of rawAll) {
     priceFrom: /\bab\s*CHF|Einstiegspreis|ab-Preis|\bfrom\b/i.test(p.priceNote || '') || undefined,
     priceEstimated: estimated || undefined,
     imageSources: (p.images || []).filter((i) => i.url).map((i) => ({ url: i.url, alt: i.alt || p.name })),
+    images: (p.images || [])
+      .filter((i) => i.url && imageStatus[i.url] !== false)
+      .slice(0, 8)
+      .map((i) => ({ url: i.url, alt: i.alt || p.name })),
   });
 }
 

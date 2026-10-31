@@ -192,7 +192,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           '@context': 'https://schema.org',
           '@type': 'Product',
           name: product.name,
-          image: `${origin}${product.imageUrl}`,
+          image: (product.images || []).map((i) => i.url).slice(0, 6),
           description: product.shortDesc[lang],
           brand: {
             '@type': 'Brand',

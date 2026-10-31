@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ProductGallery } from '../components/ProductImages';
 import { Product, Language, ReviewPlatform } from '../types';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
@@ -164,31 +165,7 @@ export function ProductDetailView({
             </div>
           </div>
 
-          {/* Bike Graphic */}
-          <div className="w-72 h-48 sm:w-96 sm:h-64 flex items-center justify-center text-slate-800 py-6">
-            <svg
-              className="w-full h-full drop-shadow-md"
-              viewBox="0 0 200 120"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="45" cy="85" r="30" stroke="currentColor" strokeWidth="4" />
-              <circle cx="45" cy="85" r="4" fill="currentColor" />
-              <circle cx="155" cy="85" r="30" stroke="currentColor" strokeWidth="4" />
-              <circle cx="155" cy="85" r="4" fill="currentColor" />
-              <path d="M45 85 L85 85 L125 45 L155 85" stroke="currentColor" strokeWidth="5" />
-              <path d="M85 85 L105 45 L45 85" stroke="currentColor" strokeWidth="5" />
-              <path d="M105 45 L135 45" stroke="currentColor" strokeWidth="5" />
-              <path d="M145 32 L155 85" stroke="currentColor" strokeWidth="5" />
-              <path d="M140 28 L152 28" stroke="currentColor" strokeWidth="6" />
-              <path d="M85 85 L100 35" stroke="currentColor" strokeWidth="5" />
-              <path d="M90 35 L112 35" stroke="currentColor" strokeWidth="7" />
-              <rect x="80" y="58" width="30" height="9" rx="3" fill="#dc2626" stroke="none" />
-            </svg>
-          </div>
+          <ProductGallery images={product.images || []} name={product.name} />
 
           {/* Quick Spec Highlights Grid */}
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 pt-6 border-t border-slate-100 text-xs text-slate-600">
