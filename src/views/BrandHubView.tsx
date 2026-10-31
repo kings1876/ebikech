@@ -6,6 +6,7 @@ import { ALL_PRODUCTS } from '../data/products';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount } from '../utils/routes';
 import { ProductCard } from '../components/ProductCard';
 import { I18N } from '../data/i18n';
+import { CATEGORY_KEYWORD } from '../utils/seoText';
 import {
   ChevronRight,
   ShieldCheck,
@@ -36,9 +37,10 @@ export function BrandHubView({
 
   // View 1: Brand Root (/marken/)
   if (route.view === 'brand-root' || !brand) {
-    const tierA = BRANDS.filter((b) => b.tier === 'A');
-    const tierB = BRANDS.filter((b) => b.tier === 'B');
-    const tierC = BRANDS.filter((b) => b.tier === 'C');
+    const listed = BRANDS.filter((b) => ALL_PRODUCTS.some((p) => p.brandId === b.id));
+    const tierA = listed.filter((b) => b.tier === 'A');
+    const tierB = listed.filter((b) => b.tier === 'B');
+    const tierC = listed.filter((b) => b.tier === 'C');
 
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 space-y-12">
@@ -55,6 +57,7 @@ export function BrandHubView({
         </div>
 
         {/* Tier A */}
+        {tierA.length > 0 && (
         <div className="space-y-4">
           <div className="flex items-center gap-2">
             <span className="w-3 h-3 rounded-full bg-red-600" />
@@ -68,8 +71,10 @@ export function BrandHubView({
             ))}
           </div>
         </div>
+        )}
 
         {/* Tier B */}
+        {tierB.length > 0 && (
         <div className="space-y-4 pt-4 border-t border-slate-100">
           <div className="flex items-center gap-2">
             <span className="w-3 h-3 rounded-full bg-amber-500" />
@@ -83,8 +88,10 @@ export function BrandHubView({
             ))}
           </div>
         </div>
+        )}
 
         {/* Tier C */}
+        {tierC.length > 0 && (
         <div className="space-y-4 pt-4 border-t border-slate-100">
           <div className="flex items-center gap-2">
             <span className="w-3 h-3 rounded-full bg-blue-600" />
@@ -98,6 +105,7 @@ export function BrandHubView({
             ))}
           </div>
         </div>
+        )}
       </div>
     );
   }
@@ -147,14 +155,14 @@ export function BrandHubView({
                 {brand.name} · {category.name[lang]}
               </div>
               <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
-                {brand.name} {category.name[lang]} Schweiz
+                {brand.name} {CATEGORY_KEYWORD[category.id]?.[lang] || category.name[lang]}{lang === 'de' ? ' Schweiz' : ''}
               </h1>
               <p className="text-xs sm:text-sm text-slate-600 max-w-2xl mt-1">
                 {lang === 'fr'
-                  ? `Tous les modèles ${brand.name} du segment ${category.name[lang]} avec prix en CHF et tests TCS.`
+                  ? `Tous les modèles ${brand.name} du segment ${category.name[lang]} avec prix en CHF, moteur et batterie.`
                   : lang === 'it'
-                  ? `Tutti i modelli ${brand.name} nel segmento ${category.name[lang]} con prezzi in CHF e recensioni TCS.`
-                  : `Alle ${brand.name} Modelle im Segment ${category.name[lang]} mit Schweizer Fachhandelspreisen und TCS-Bewertungen.`}
+                  ? `Tutti i modelli ${brand.name} nel segmento ${category.name[lang]} con prezzi in CHF, motore e batteria.`
+                  : `Alle ${brand.name} Modelle im Segment ${category.name[lang]} mit Preisen in CHF, Motor und Akku.`}
               </p>
             </div>
 
@@ -230,9 +238,6 @@ export function BrandHubView({
       <div className="bg-slate-950 text-white rounded-3xl p-6 sm:p-10 relative overflow-hidden border border-slate-800">
         <div className="max-w-3xl space-y-4">
           <div className="flex flex-wrap items-center gap-2 text-xs font-bold">
-            <span className="px-2.5 py-0.5 rounded-full bg-red-600 text-white">
-              Tier {brand.tier}
-            </span>
             {brand.isSwiss && (
               <span className="px-2.5 py-0.5 rounded-full bg-white text-slate-900">
                 🇨🇭 {lang === 'fr' ? 'Marque suisse' : lang === 'it' ? 'Marchio svizzero' : 'Schweizer Traditionsmarke'}
@@ -244,7 +249,7 @@ export function BrandHubView({
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white">
-            {brand.name} E-Bikes Schweiz
+            {lang === 'fr' ? `Vélos électriques ${brand.name} en Suisse` : lang === 'it' ? `E-Bike ${brand.name} in Svizzera` : `${brand.name} E-Bikes Schweiz`}
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
@@ -257,13 +262,6 @@ export function BrandHubView({
               <div>
                 <strong className="block text-white">{t.headquarters}:</strong>
                 <span>{brand.headquarters}</span>
-              </div>
-            </div>
-            <div className="flex items-center gap-2 bg-slate-900/90 p-3 rounded-xl border border-slate-800">
-              <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
-              <div>
-                <strong className="block text-white">{t.serviceHub}:</strong>
-                <span>{brand.swissServiceHub}</span>
               </div>
             </div>
           </div>
@@ -279,9 +277,6 @@ export function BrandHubView({
           <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
             {brand.name} {t.categoriesInBrand} ({brandCategories.length})
           </h2>
-          <p className="text-xs text-slate-500">
-            {t.typeRuleNotice}
-          </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

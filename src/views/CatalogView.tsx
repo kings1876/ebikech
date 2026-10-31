@@ -16,6 +16,8 @@ import { CATEGORIES } from '../data/categories';
 import { ALL_PRODUCTS } from '../data/products';
 import { I18N } from '../data/i18n';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
+import { BRANDS } from '../data/brands';
+import { CATEGORY_KEYWORD } from '../utils/seoText';
 import { ProductCard } from '../components/ProductCard';
 import { FilterSidebar } from '../components/FilterSidebar';
 import {
@@ -221,7 +223,12 @@ export function CatalogView({
   };
 
   // Title text
-  let headerTitle = category ? category.name[lang] : t.catalog.allBikesTitle;
+  const categoryKeyword = category ? CATEGORY_KEYWORD[category.id]?.[lang] : undefined;
+  let headerTitle = category
+    ? categoryKeyword
+      ? `${categoryKeyword} ${lang === 'fr' ? 'en Suisse' : lang === 'it' ? 'in Svizzera' : 'Schweiz'}`
+      : category.name[lang]
+    : t.catalog.allBikesTitle;
   if (subcategoryId && category?.subcategories) {
     const sub = category.subcategories.find((s) => s.id === subcategoryId);
     if (sub) headerTitle = sub.name[lang];
@@ -439,6 +446,51 @@ export function CatalogView({
           )}
         </div>
       </div>
+
+      {/* Internal links: brands in this category + other categories (real anchors for crawlers and users) */}
+      {route.view === 'category' && category && (
+        <nav className="border-t border-slate-200 pt-8 grid gap-8 sm:grid-cols-2" aria-label={categoryKeyword}>
+          <div>
+            <h2 className="text-sm font-black text-slate-900 mb-3">
+              {lang === 'fr' ? `Marques – ${categoryKeyword}` : lang === 'it' ? `Marchi – ${categoryKeyword}` : `Marken – ${categoryKeyword}`}
+            </h2>
+            <ul className="flex flex-wrap gap-2">
+              {BRANDS.map((b) => ({ b, n: ALL_PRODUCTS.filter((p) => p.brandId === b.id && p.categoryId === category.id).length }))
+                .filter((x) => x.n > 0)
+                .sort((x, y) => y.n - x.n)
+                .map(({ b, n }) => (
+                  <li key={b.id}>
+                    <NavLink
+                      href={n >= 3 ? buildLocalizedUrl(lang, { lang, view: 'brand-category', brand: b, category }) : buildLocalizedUrl(lang, { lang, view: 'brand', brand: b })}
+                      onNavigate={onNavigate}
+                      className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                    >
+                      {b.name} ({n})
+                    </NavLink>
+                  </li>
+                ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-sm font-black text-slate-900 mb-3">
+              {lang === 'fr' ? 'Autres catégories' : lang === 'it' ? 'Altre categorie' : 'Weitere Kategorien'}
+            </h2>
+            <ul className="flex flex-wrap gap-2">
+              {CATEGORIES.filter((c) => c.id !== category.id && ALL_PRODUCTS.some((p) => p.categoryId === c.id)).map((c) => (
+                <li key={c.id}>
+                  <NavLink
+                    href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })}
+                    onNavigate={onNavigate}
+                    className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                  >
+                    {c.name[lang]}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
+      )}
 
       {/* Mobile Filters Slide-over / Modal */}
       {mobileFilterOpen && (
