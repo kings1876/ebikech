@@ -3,6 +3,7 @@ import { SECTION_ROOTS, CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
 import { BLOG_POSTS, BlogPost } from '../data/blog';
+import { CollectionDef, findCollectionBySlug } from '../data/collections';
 import { ALL_PRODUCTS } from '../data/products';
 
 export interface ParsedRoute {
@@ -12,6 +13,7 @@ export interface ParsedRoute {
     | 'catalog-root'
     | 'category'
     | 'subcategory'
+    | 'collection'
     | 'product'
     | 'brand-root'
     | 'brand'
@@ -30,6 +32,7 @@ export interface ParsedRoute {
     | 'search'
     | '404';
   category?: CategoryDef;
+  collection?: CollectionDef;
   subcategorySlug?: string;
   brand?: BrandDef;
   productSlug?: string;
@@ -160,6 +163,10 @@ export function parseRoute(pathname: string, search: string = ''): ParsedRoute {
     }
 
     const catSlug = segments[1];
+    const collection = segments.length === 2 ? findCollectionBySlug(catSlug) : undefined;
+    if (collection) {
+      return { lang, view: 'collection', collection, page, hasFacets };
+    }
     const catMatch = findCategoryBySlug(catSlug);
     if (!catMatch) {
       return { lang, view: '404' };
@@ -280,6 +287,10 @@ export function buildLocalizedUrl(targetLang: Language, route: ParsedRoute): str
     case 'category':
       if (!route.category) return `${langPrefix}/`;
       return `${langPrefix}/${SECTION_ROOTS.catalogue[targetLang]}/${route.category.slug[targetLang]}/`;
+
+    case 'collection':
+      if (!route.collection) return `${langPrefix}/`;
+      return `${langPrefix}/${SECTION_ROOTS.catalogue[targetLang]}/${route.collection.slug[targetLang]}/`;
 
     case 'subcategory': {
       if (!route.category || !route.subcategorySlug) return `${langPrefix}/`;

@@ -3,7 +3,8 @@ import { ParsedRoute, buildLocalizedUrl, getHreflangs, getBrandCategoryCount } f
 import { ALL_PRODUCTS } from '../data/products';
 import { FAQ_ITEMS } from '../data/faq';
 import { BRANDS } from '../data/brands';
-import { categorySeo, brandSeo, brandCategorySeo, productSeo, catalogueStats, fitTitle, fitDescription, SITE_NAME } from './seoText';
+import { CATEGORIES } from '../data/categories';
+import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, fitDescription, SITE_NAME } from './seoText';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
   const lang = route.lang;
@@ -38,6 +39,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
   }
   if (route.view === 'brand' && route.brand) {
     if (!ALL_PRODUCTS.some((p) => p.brandId === route.brand!.id)) robots = 'noindex, follow';
+  }
+
+  if (route.view === 'collection' && route.collection) {
+    if (ALL_PRODUCTS.filter(route.collection.filter).length < 3) robots = 'noindex, follow';
   }
 
   // Rule: brand x type only if >= 3 products!
@@ -126,7 +131,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           description = cs.description;
         }
 
-        jsonLd = {
+        const categoryFaq = faqJsonLd(route.category.id, lang);
+        const categoryPage = {
           '@context': 'https://schema.org',
           '@type': 'CollectionPage',
           name: title,
@@ -144,6 +150,41 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
               })),
           },
         };
+        jsonLd = categoryFaq ? [categoryPage, categoryFaq] : categoryPage;
+      }
+      break;
+    }
+
+    case 'collection': {
+      if (route.collection) {
+        breadcrumbs.push({
+          name: lang === 'fr' ? 'Vélos électriques' : lang === 'it' ? 'E-Bike' : 'E-Bikes',
+          url: buildLocalizedUrl(lang, { lang, view: 'catalog-root' }),
+        });
+        breadcrumbs.push({ name: route.collection.name[lang], url: canonicalPath });
+        const cs = collectionSeo(route.collection, lang);
+        title = cs.title;
+        description = cs.description;
+        const collectionPage = {
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: title,
+          description,
+          url: canonicalUrl,
+          mainEntity: {
+            '@type': 'ItemList',
+            itemListElement: ALL_PRODUCTS.filter(route.collection.filter)
+              .slice(0, 10)
+              .map((p, idx) => ({
+                '@type': 'ListItem',
+                position: idx + 1,
+                name: p.name,
+                url: `${origin}${buildLocalizedUrl(lang, { lang, view: 'product', category: CATEGORIES.find((c) => c.id === p.categoryId), productSlug: p.slug })}`,
+              })),
+          },
+        };
+        const collectionFaq = faqJsonLd(route.collection.id, lang);
+        jsonLd = collectionFaq ? [collectionPage, collectionFaq] : collectionPage;
       }
       break;
     }
@@ -223,12 +264,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
     case 'brand-root': {
       const brandRootLabel = lang === 'fr' ? 'Marques' : lang === 'it' ? 'Marchi' : 'Marken';
       breadcrumbs.push({ name: brandRootLabel, url: canonicalPath });
-      title = lang === 'fr'
-        ? 'Toutes les Marques de Vélos Électriques en Suisse | VeloSuisse'
-        : lang === 'it'
-        ? 'Tutti i Marchi di E-Bike in Svizzera | VeloSvizzera'
-        : 'Alle E-Bike Marken der Schweiz – Scott, Flyer, Stromer, Cube u.v.m. | VeloSchweiz';
-      description = 'Entdecken Sie die Top E-Bike Marken in der Schweiz: Schweizer Pioniere (Flyer, Stromer, Scott, BMC, Thömus) und internationale Marktführer.';
+      title = fitTitle(lang === 'fr' ? 'Marques de vélos électriques en Suisse' : lang === 'it' ? 'Marchi di e-bike in Svizzera' : 'E-Bike Marken Schweiz: Cube, Scott, Trek u.v.m.', lang);
+      { const s = catalogueStats(); description = fitDescription(lang === 'fr' ? `${s.brandCount} marques de vélos électriques : ${s.topBrands.slice(0, 5).join(', ')} et d’autres. Prix en CHF et fiches techniques.` : lang === 'it' ? `${s.brandCount} marchi di e-bike: ${s.topBrands.slice(0, 5).join(', ')} e altri. Prezzi in CHF e dati tecnici.` : `${s.brandCount} E-Bike Marken: ${s.topBrands.slice(0, 5).join(', ')} u.a. Preise in CHF und technische Daten zu jedem Modell.`); }
       break;
     }
 

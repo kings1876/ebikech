@@ -5,6 +5,7 @@ import { GUIDE_CLUSTERS } from '../data/guides';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { I18N } from '../data/i18n';
 import { NavLink } from './NavLink';
+import { COLLECTIONS } from '../data/collections';
 
 interface FooterProps {
   currentRoute: ParsedRoute;
@@ -52,6 +53,15 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
                   {cat.name[lang]} <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
+                </NavLink>
+              </li>
+            ))}
+            {COLLECTIONS.map((col) => (
+              <li key={col.id}>
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: col })} onNavigate={onNavigate}
+                  className="hover:text-white transition-colors cursor-pointer text-left"
+                >
+                  {col.name[lang]} <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter(col.filter).length})</span>
                 </NavLink>
               </li>
             ))}

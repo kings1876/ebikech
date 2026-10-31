@@ -186,6 +186,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
         {(route.view === 'catalog-root' ||
           route.view === 'category' ||
           route.view === 'subcategory' ||
+          route.view === 'collection' ||
           route.view === 'search') && (
           <CatalogView
             route={route}

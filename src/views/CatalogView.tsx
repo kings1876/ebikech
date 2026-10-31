@@ -17,6 +17,9 @@ import { ALL_PRODUCTS } from '../data/products';
 import { I18N } from '../data/i18n';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { BRANDS } from '../data/brands';
+import { LandingContent } from '../components/LandingContent';
+import { LANDING_CONTENT, COLLECTIONS } from '../data/collections';
+import { catalogueStats } from '../utils/seoText';
 import { CATEGORY_KEYWORD } from '../utils/seoText';
 import { ProductCard } from '../components/ProductCard';
 import { FilterSidebar } from '../components/FilterSidebar';
@@ -96,6 +99,10 @@ export function CatalogView({
   const baseCategoryProducts = useMemo(() => {
     let list = ALL_PRODUCTS;
 
+    if (route.view === 'collection' && route.collection) {
+      return list.filter(route.collection.filter);
+    }
+
     if (route.view === 'search' && route.queryString) {
       const q = route.queryString.toLowerCase();
       return list.filter((p) =>
@@ -112,7 +119,7 @@ export function CatalogView({
       }
     }
     return list;
-  }, [category, subcategoryId, route.view, route.queryString]);
+  }, [category, subcategoryId, route.view, route.queryString, route.collection]);
 
   // Apply facet filters
   const filteredProducts = useMemo(() => {
@@ -233,9 +240,17 @@ export function CatalogView({
     const sub = category.subcategories.find((s) => s.id === subcategoryId);
     if (sub) headerTitle = sub.name[lang];
   }
+  if (route.view === 'collection' && route.collection) {
+    headerTitle = `${route.collection.name[lang]} ${lang === 'fr' ? 'en Suisse' : lang === 'it' ? 'in Svizzera' : 'Schweiz'}`;
+  }
   if (route.view === 'search') {
     headerTitle = `${t.catalog.showingCount} «${route.queryString}»`;
   }
+
+  const baseIds = new Set(baseCategoryProducts.map((p) => p.id));
+  const landingStats = catalogueStats((p) => baseIds.has(p.id));
+  const landingKey = route.view === 'collection' ? route.collection?.id : route.view === 'category' ? category?.id : undefined;
+  const landingHeading = route.view === 'collection' ? route.collection?.name[lang] : categoryKeyword || category?.name[lang];
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-6">
@@ -248,6 +263,12 @@ export function CatalogView({
           >
             {t.header.catalogue}
           </NavLink>
+          {route.collection && (
+            <>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+              <span className="font-bold text-slate-900">{route.collection.name[lang]}</span>
+            </>
+          )}
           {category && (
             <>
               <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
@@ -447,6 +468,56 @@ export function CatalogView({
         </div>
       </div>
 
+      {/* Landing content: intro text and FAQ for keyword landing pages */}
+      {landingKey && LANDING_CONTENT[landingKey] && (
+        <LandingContent contentKey={landingKey} heading={landingHeading || ''} lang={lang} onNavigate={onNavigate} stats={landingStats} />
+      )}
+
+      {/* Internal links for collection pages: brands in the collection + categories */}
+      {route.view === 'collection' && route.collection && (
+        <nav className="border-t border-slate-200 pt-8 grid gap-8 sm:grid-cols-2" aria-label={route.collection.name[lang]}>
+          <div>
+            <h2 className="text-sm font-black text-slate-900 mb-3">
+              {lang === 'fr' ? 'Marques' : lang === 'it' ? 'Marchi' : 'Marken'}
+            </h2>
+            <ul className="flex flex-wrap gap-2">
+              {BRANDS.map((b) => ({ b, n: baseCategoryProducts.filter((p) => p.brandId === b.id).length }))
+                .filter((x) => x.n > 0)
+                .sort((x, y) => y.n - x.n)
+                .map(({ b, n }) => (
+                  <li key={b.id}>
+                    <NavLink
+                      href={buildLocalizedUrl(lang, { lang, view: 'brand', brand: b })}
+                      onNavigate={onNavigate}
+                      className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                    >
+                      {b.name} ({n})
+                    </NavLink>
+                  </li>
+                ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-sm font-black text-slate-900 mb-3">
+              {lang === 'fr' ? 'Catégories' : lang === 'it' ? 'Categorie' : 'Kategorien'}
+            </h2>
+            <ul className="flex flex-wrap gap-2">
+              {CATEGORIES.filter((c) => baseCategoryProducts.some((p) => p.categoryId === c.id)).map((c) => (
+                <li key={c.id}>
+                  <NavLink
+                    href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })}
+                    onNavigate={onNavigate}
+                    className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                  >
+                    {c.name[lang]} ({baseCategoryProducts.filter((p) => p.categoryId === c.id).length})
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
+      )}
+
       {/* Internal links: brands in this category + other categories (real anchors for crawlers and users) */}
       {route.view === 'category' && category && (
         <nav className="border-t border-slate-200 pt-8 grid gap-8 sm:grid-cols-2" aria-label={categoryKeyword}>
@@ -484,6 +555,17 @@ export function CatalogView({
                     className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
                   >
                     {c.name[lang]}
+                  </NavLink>
+                </li>
+              ))}
+              {COLLECTIONS.map((col) => (
+                <li key={col.id}>
+                  <NavLink
+                    href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: col })}
+                    onNavigate={onNavigate}
+                    className="px-3 py-1.5 rounded-full bg-red-50 hover:bg-red-100 text-xs font-bold text-red-700 cursor-pointer"
+                  >
+                    {col.name[lang]}
                   </NavLink>
                 </li>
               ))}

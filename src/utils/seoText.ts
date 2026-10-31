@@ -1,6 +1,7 @@
 import { Language, Product } from '../types';
 import { ALL_PRODUCTS } from '../data/products';
 import { BRANDS } from '../data/brands';
+import { CollectionDef, LANDING_CONTENT } from '../data/collections';
 
 // Keyword phrases per category (from docs/keywords-de-ch.md for German; FR/IT use natural Swiss phrasing).
 export const CATEGORY_KEYWORD: Record<string, Record<Language, string>> = {
@@ -65,6 +66,36 @@ export function categorySeo(categoryId: string, lang: Language) {
     : `${kw}: ${s.count} modelli da ${chf(s.minPrice)}, tra cui ${brands}. Dati tecnici di motore, batteria e peso, prezzi in CHF.`,
   );
   return { kw, title, description, ...s, w };
+}
+
+export function collectionSeo(collection: CollectionDef, lang: Language) {
+  const kw = collection.keyword[lang];
+  const s = catalogueStats(collection.filter);
+  const brands = s.topBrands.slice(0, 3).join(', ');
+  const title = fitTitle(
+    lang === 'de' ? `${kw} kaufen Schweiz – ${s.count} Modelle`
+    : lang === 'fr' ? `${kw} en Suisse – ${s.count} modèles`
+    : `${kw} in Svizzera – ${s.count} modelli`,
+    lang,
+  );
+  const description = fitDescription(
+    lang === 'de' ? `${kw}: ${s.count} Modelle mit Tiefeinstieg ab ${chf(s.minPrice)} von ${brands} u.a. Motor, Akku, Gewicht und Preise in CHF im Vergleich.`
+    : lang === 'fr' ? `${kw} : ${s.count} modèles à cadre bas dès ${chf(s.minPrice)}, dont ${brands}. Moteur, batterie, poids et prix en CHF.`
+    : `${kw}: ${s.count} modelli a telaio basso da ${chf(s.minPrice)}, tra cui ${brands}. Motore, batteria, peso e prezzi in CHF.`,
+  );
+  return { kw, title, description, ...s };
+}
+
+/** schema.org FAQPage for a landing page's FAQ block (or undefined when the page has none). */
+export function faqJsonLd(contentKey: string, lang: Language) {
+  const c = LANDING_CONTENT[contentKey];
+  if (!c) return undefined;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
+    mainEntity: c.faq[lang].map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  };
 }
 
 export function brandSeo(brandId: string, lang: Language) {

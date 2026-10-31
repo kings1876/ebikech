@@ -4,6 +4,7 @@ import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
 import { BLOG_POSTS } from '../data/blog';
 import { ALL_PRODUCTS } from '../data/products';
+import { COLLECTIONS } from '../data/collections';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount } from './routes';
 
 const LANGS: Language[] = ['de', 'fr', 'it'];
@@ -32,6 +33,7 @@ export function allRoutes(): ParsedRoute[] {
       r({ view: 'subcategory', category, subcategorySlug: sub.id });
     }
   }
+  for (const collection of COLLECTIONS) r({ view: 'collection', collection });
   for (const product of ALL_PRODUCTS) {
     const category = CATEGORIES.find((c) => c.id === product.categoryId);
     if (category) r({ view: 'product', category, productSlug: product.slug });

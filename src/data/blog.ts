@@ -13,6 +13,8 @@ export interface BlogRelated {
   frameType?: string;
   /** Category used for the "see all" button when the filter is not a plain category (defaults to the catalogue). */
   ctaCategoryId?: string;
+  /** Keyword collection landing page the "see all" button should open. */
+  ctaCollectionId?: string;
 }
 
 export interface BlogPost {
@@ -281,7 +283,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     publishedDate: '2026-10-31',
     readMinutes: 4,
-    related: { frameType: 'step-through' },
+    related: { frameType: 'step-through', ctaCollectionId: 'damen' },
     body: {
       de: [
         {

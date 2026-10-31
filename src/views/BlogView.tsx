@@ -3,6 +3,7 @@ import { BLOG_POSTS, BlogPost } from '../data/blog';
 import { ALL_PRODUCTS } from '../data/products';
 import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
+import { COLLECTIONS } from '../data/collections';
 import { CardImage } from '../components/ProductImages';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { ArrowRight, Clock } from 'lucide-react';
@@ -80,7 +81,10 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
     const relatedList = relatedProducts(post);
     const ctaCategory = CATEGORIES.find((c) => c.id === (post.related?.categoryId || post.related?.ctaCategoryId));
     const ctaBrand = BRANDS.find((b) => b.id === post.related?.brandId);
-    const ctaHref = ctaCategory
+    const ctaCollection = COLLECTIONS.find((c) => c.id === post.related?.ctaCollectionId);
+    const ctaHref = ctaCollection
+      ? buildLocalizedUrl(lang, { lang, view: 'collection', collection: ctaCollection })
+      : ctaCategory
       ? buildLocalizedUrl(lang, { lang, view: 'category', category: ctaCategory })
       : ctaBrand
       ? buildLocalizedUrl(lang, { lang, view: 'brand', brand: ctaBrand })
