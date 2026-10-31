@@ -2,6 +2,7 @@ import { Language } from '../types';
 import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
+import { BLOG_POSTS } from '../data/blog';
 import { ALL_PRODUCTS } from '../data/products';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount } from './routes';
 
@@ -20,6 +21,9 @@ export function allRoutes(): ParsedRoute[] {
   r({ view: 'canton-subsidies' });
   r({ view: 'about' });
   r({ view: 'legal' });
+  r({ view: 'blog-root' });
+  r({ view: 'faq' });
+  for (const blogPost of BLOG_POSTS) r({ view: 'blog-post', blogPost });
 
   for (const category of CATEGORIES) {
     r({ view: 'category', category });

@@ -116,6 +116,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
   };
 
   return (
+    <>
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs">
       {/* Top Banner: Swiss Official Quality & Language Switcher */}
       <div className="bg-slate-900 text-slate-200 text-xs py-1.5 px-4 sm:px-6">
@@ -329,12 +330,18 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             )}
           </div>
 
-          {/* Subsidies */}
+          {/* Blog & FAQ */}
           <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' }))}
-            className={linkClass(currentRoute.view === 'canton-subsidies')}
+            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }))}
+            className={linkClass(currentRoute.view === 'blog-root' || currentRoute.view === 'blog-post')}
           >
-            {t.header.subsidies}
+            Blog
+          </button>
+          <button
+            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'faq' }))}
+            className={linkClass(currentRoute.view === 'faq')}
+          >
+            FAQ
           </button>
         </nav>
 
@@ -387,22 +394,6 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               </div>
             )}
           </div>
-
-          <button
-            onClick={onOpenCompare}
-            className={`relative flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-semibold transition-all cursor-pointer ${
-              compareCount > 0 ? 'bg-red-600 text-white shadow-md shadow-red-600/30 hover:bg-red-700' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-            }`}
-            title={t.header.compare}
-          >
-            <SlidersHorizontal className="w-4 h-4" />
-            <span className="hidden xl:inline">{t.header.compare}</span>
-            {compareCount > 0 && (
-              <span className="w-5 h-5 rounded-full bg-white text-red-600 text-[11px] font-black flex items-center justify-center">
-                {compareCount}
-              </span>
-            )}
-          </button>
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -499,16 +490,39 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
-                onNavigate(buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' }));
+                onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }));
               }}
-              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-emerald-800 bg-emerald-50"
+              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
-              <span>{t.header.subsidies}</span>
-              <Coins className="w-4 h-4 text-emerald-600" />
+              <span>Blog</span>
+              <BookOpen className="w-4 h-4 text-slate-400" />
+            </button>
+
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                onNavigate(buildLocalizedUrl(lang, { lang, view: 'faq' }));
+              }}
+              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+            >
+              <span>FAQ</span>
+              <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
             </button>
           </div>
         </div>
       )}
     </header>
+    {compareCount > 0 && (
+      <button
+        onClick={onOpenCompare}
+        className="fixed bottom-5 right-5 z-40 flex items-center gap-2 px-4 py-3 rounded-full bg-red-600 text-white text-sm font-bold shadow-xl shadow-red-600/30 hover:bg-red-700 cursor-pointer"
+        aria-label={t.header.compare}
+      >
+        <SlidersHorizontal className="w-4 h-4" />
+        <span>{t.header.compare}</span>
+        <span className="w-5 h-5 rounded-full bg-white text-red-600 text-[11px] font-black flex items-center justify-center">{compareCount}</span>
+      </button>
+    )}
+    </>
   );
 }

@@ -1,6 +1,7 @@
 import { SeoMeta, Language, Product } from '../types';
 import { ParsedRoute, buildLocalizedUrl, getHreflangs, getBrandCategoryCount } from './routes';
 import { ALL_PRODUCTS } from '../data/products';
+import { FAQ_ITEMS } from '../data/faq';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
   const lang = route.lang;
@@ -331,6 +332,70 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           },
         };
       }
+      break;
+    }
+
+    case 'blog-root': {
+      breadcrumbs.push({ name: 'Blog', url: canonicalPath });
+      title = lang === 'fr'
+        ? 'Blog vélo électrique Suisse : loi, batterie, moteur | VeloSuisse'
+        : lang === 'it'
+        ? 'Blog e-bike Svizzera: norme, batteria, motore | VeloSvizzera'
+        : 'E-Bike Blog Schweiz: Recht, Akku, Antrieb & Pflege | VeloSchweiz';
+      description = lang === 'fr'
+        ? 'Articles clairs sur la loi, la batterie, l’autonomie, la motorisation et l’entretien des vélos électriques en Suisse.'
+        : lang === 'it'
+        ? 'Articoli chiari su normativa, batteria, autonomia, motore e manutenzione delle e-bike in Svizzera.'
+        : 'Verständliche Artikel zu E-Bike-Recht, Akku und Reichweite, Antrieb und Pflege – für Ihre Kaufentscheidung in der Schweiz.';
+      break;
+    }
+
+    case 'blog-post': {
+      ogType = 'article';
+      if (route.blogPost) {
+        const portal = lang === 'fr' ? 'VeloSuisse' : lang === 'it' ? 'VeloSvizzera' : 'VeloSchweiz';
+        breadcrumbs.push({ name: 'Blog', url: buildLocalizedUrl(lang, { lang, view: 'blog-root' }) });
+        breadcrumbs.push({ name: route.blogPost.title[lang], url: canonicalPath });
+        title = `${route.blogPost.title[lang]} | ${portal}`;
+        description = route.blogPost.excerpt[lang];
+        jsonLd = {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: route.blogPost.title[lang],
+          description: route.blogPost.excerpt[lang],
+          inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
+          datePublished: route.blogPost.publishedDate,
+          dateModified: route.blogPost.publishedDate,
+          mainEntityOfPage: `${origin}${canonicalPath}`,
+          author: { '@type': 'Organization', name: portal },
+          publisher: { '@type': 'Organization', name: portal },
+        };
+      }
+      break;
+    }
+
+    case 'faq': {
+      breadcrumbs.push({ name: 'FAQ', url: canonicalPath });
+      title = lang === 'fr'
+        ? 'FAQ : questions fréquentes sur les vélos électriques en Suisse | VeloSuisse'
+        : lang === 'it'
+        ? 'FAQ: domande frequenti sulle e-bike in Svizzera | VeloSvizzera'
+        : 'FAQ: Häufige Fragen zu E-Bikes in der Schweiz | VeloSchweiz';
+      description = lang === 'fr'
+        ? 'Réponses sur e-bike 25 et 45, casque et permis, autonomie, entretien de la batterie, taille du cadre et prix.'
+        : lang === 'it'
+        ? 'Risposte su e-bike 25 e 45, casco e licenza, autonomia, cura della batteria, taglia del telaio e prezzi.'
+        : 'Antworten zu E-Bike 25 und 45, Helm und Führerausweis, Reichweite, Akku-Pflege, Rahmengrösse und Preisen.';
+      jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
+        mainEntity: FAQ_ITEMS.map((f) => ({
+          '@type': 'Question',
+          name: f.q[lang],
+          acceptedAnswer: { '@type': 'Answer', text: f.a[lang] },
+        })),
+      };
       break;
     }
 

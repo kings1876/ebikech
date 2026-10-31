@@ -1,4 +1,5 @@
 import { CATEGORIES } from '../data/categories';
+import { ALL_PRODUCTS } from '../data/products';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
@@ -88,13 +89,13 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             {t.categoriesTitle}
           </div>
           <ul className="space-y-1.5 text-xs">
-            {CATEGORIES.slice(0, 6).map((cat) => (
+            {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.categoryId === b.id).length - ALL_PRODUCTS.filter((p) => p.categoryId === a.id).length).slice(0, 6).map((cat) => (
               <li key={cat.id}>
                 <button
                   onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category: cat }))}
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
-                  {cat.name[lang]} <span className="text-slate-600 font-mono">({cat.targetCount})</span>
+                  {cat.name[lang]} <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
                 </button>
               </li>
             ))}
@@ -115,7 +116,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             {t.brandsTitle}
           </div>
           <ul className="space-y-1.5 text-xs">
-            {BRANDS.slice(0, 7).map((brand) => (
+            {BRANDS.filter((b) => ALL_PRODUCTS.some((p) => p.brandId === b.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.brandId === b.id).length - ALL_PRODUCTS.filter((p) => p.brandId === a.id).length).slice(0, 7).map((brand) => (
               <li key={brand.id}>
                 <button
                   onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand }))}
@@ -123,7 +124,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 >
                   <span>{brand.name}</span>
                   {brand.isSwiss && <span className="text-[10px] text-red-400 font-bold">CH</span>}
-                  <span className="text-slate-600 font-mono">({brand.targetCount})</span>
+                  <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})</span>
                 </button>
               </li>
             ))}
@@ -160,6 +161,22 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 className="text-emerald-400 hover:text-emerald-300 font-semibold cursor-pointer flex items-center gap-1"
               >
                 <span>{t.cantonSubsidiesLink}</span>
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }))}
+                className="hover:text-white transition-colors cursor-pointer text-left"
+              >
+                Blog
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'faq' }))}
+                className="hover:text-white transition-colors cursor-pointer text-left"
+              >
+                FAQ
               </button>
             </li>
             <li className="pt-2 border-t border-slate-800">

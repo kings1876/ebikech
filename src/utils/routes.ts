@@ -2,6 +2,7 @@ import { Language, CategoryDef, BrandDef, GuideCluster, GuideArticle } from '../
 import { SECTION_ROOTS, CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
+import { BLOG_POSTS, BlogPost } from '../data/blog';
 import { ALL_PRODUCTS } from '../data/products';
 
 export interface ParsedRoute {
@@ -18,6 +19,9 @@ export interface ParsedRoute {
     | 'guide-root'
     | 'guide-cluster'
     | 'guide-detail'
+    | 'blog-root'
+    | 'blog-post'
+    | 'faq'
     | 'canton-subsidies'
     | 'comparison'
     | 'about'
@@ -30,6 +34,7 @@ export interface ParsedRoute {
   productSlug?: string;
   guideCluster?: GuideCluster;
   guideArticle?: GuideArticle;
+  blogPost?: BlogPost;
   page?: number;
   hasFacets?: boolean;
   queryString?: string;
@@ -115,6 +120,17 @@ export function parseRoute(pathname: string, search: string = ''): ParsedRoute {
   }
 
   const firstSeg = segments[0];
+
+  // Blog and FAQ
+  if (firstSeg === 'faq') {
+    return segments.length === 1 ? { lang, view: 'faq' } : { lang, view: '404' };
+  }
+  if (firstSeg === 'blog') {
+    if (segments.length === 1) return { lang, view: 'blog-root' };
+    const post = BLOG_POSTS.find((p) => p.slug.de === segments[1] || p.slug.fr === segments[1] || p.slug.it === segments[1]);
+    if (segments.length === 2 && post) return { lang, view: 'blog-post', blogPost: post };
+    return { lang, view: '404' };
+  }
 
   // Static Pages
   if (['ueber-uns', 'a-propos', 'chi-siamo'].includes(firstSeg)) {
@@ -312,6 +328,16 @@ export function buildLocalizedUrl(targetLang: Language, route: ParsedRoute): str
       if (targetLang === 'fr') return '/fr/mentions-legales/';
       if (targetLang === 'it') return '/it/note-legali/';
       return '/impressum-rechtliches/';
+
+    case 'blog-root':
+      return `${langPrefix}/blog/`;
+
+    case 'blog-post':
+      if (!route.blogPost) return `${langPrefix}/blog/`;
+      return `${langPrefix}/blog/${route.blogPost.slug[targetLang]}/`;
+
+    case 'faq':
+      return `${langPrefix}/faq/`;
 
     case 'search':
       return targetLang === 'de' ? `/?q=${encodeURIComponent(route.queryString || '')}` : `${langPrefix}/?q=${encodeURIComponent(route.queryString || '')}`;
