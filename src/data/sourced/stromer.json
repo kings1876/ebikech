@@ -85,7 +85,9 @@
       "fork",
       "frame.material",
       "priceCHF"
-    ]
+    ],
+    "priceEUR": 5565,
+    "priceEURSource": "https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)"
   },
   {
     "brandId": "stromer",
@@ -168,7 +170,9 @@
       "fork",
       "frame.material",
       "priceCHF"
-    ]
+    ],
+    "priceEUR": 7921,
+    "priceEURSource": "https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)"
   },
   {
     "brandId": "stromer",
@@ -258,7 +262,9 @@
       "fork",
       "frame.material",
       "priceCHF"
-    ]
+    ],
+    "priceEUR": 8882,
+    "priceEURSource": "https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)"
   },
   {
     "brandId": "stromer",
@@ -337,7 +343,9 @@
       "fork",
       "frame.material",
       "priceCHF"
-    ]
+    ],
+    "priceEUR": 10990,
+    "priceEURSource": "https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)"
   },
   {
     "brandId": "stromer",
@@ -421,6 +429,8 @@
       "fork",
       "frame.material",
       "priceCHF"
-    ]
+    ],
+    "priceEUR": 12990,
+    "priceEURSource": "https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)"
   }
 ]

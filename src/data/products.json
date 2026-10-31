@@ -251,6 +251,2516 @@
  },
  {
   "id": "p-4",
+  "slug": "cannondale-flyingv-1",
+  "name": "Cannondale FlyingV 1",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4799,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": 60,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das FlyingV 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das FlyingV 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das FlyingV 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Nexus Inter-5E Di2 elektronisch, 5-Gang Nabe",
+   "brakes": "Shimano UR300 hydraulische Scheibenbremse, 180/180mm",
+   "fork": "FlyingV Carbon-Gabel, Steckachse 12x",
+   "display": "Bosch System Controller w/ Mini Remote",
+   "tires": "Continental Pure Contact, 700x50c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das FlyingV 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Drehmoment 60 Nm",
+   "Rahmen: FlyingV, lightweight carbon construction, internal downtube battery",
+   "Modellnummer C64125U"
+  ],
+  "colours": [
+   "Silver"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/flyingv/flyingv-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C64125U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_1-eu/c25_flyingv1_pdp_desktop_01_v2.ashx",
+    "alt": "Cannondale FlyingV 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_1-eu/c25_flyingv1_pdp_desktop_02.ashx",
+    "alt": "Cannondale FlyingV 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_1-eu/c25_flyingv1_pdp_desktop_03.ashx",
+    "alt": "Cannondale FlyingV 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_1-eu/c25_flyingv1_pdp_desktop_04.ashx",
+    "alt": "Cannondale FlyingV 1, Produktbild 4"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_1-eu/c25_flyingv1_pdp_desktop_05.ashx",
+    "alt": "Cannondale FlyingV 1, Produktbild 5"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_1-eu/c25_flyingv1_pdp_desktop_06.ashx",
+    "alt": "Cannondale FlyingV 1, Produktbild 6"
+   }
+  ]
+ },
+ {
+  "id": "p-5",
+  "slug": "cannondale-flyingv-2",
+  "name": "Cannondale FlyingV 2",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4299,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": 60,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das FlyingV 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das FlyingV 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das FlyingV 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Nexus Inter-5E, 5-Gang Nabe",
+   "brakes": "Shimano UR300 hydraulische Scheibenbremse, 180/180mm",
+   "fork": "FlyingV Carbon-Gabel, Steckachse 12x",
+   "display": "Bosch LED Controller",
+   "tires": "Continental Contact Urban, 700x50c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das FlyingV 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Drehmoment 60 Nm",
+   "Rahmen: FlyingV, lightweight carbon construction, internal downtube battery",
+   "Modellnummer C64135U"
+  ],
+  "colours": [
+   "Tiger Eye"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/flyingv/flyingv-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C64135U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_2-eu/c25_flyingv2_pdp_desktop_02.ashx",
+    "alt": "Cannondale FlyingV 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_2-eu/c25_flyingv2_pdp_desktop_03.ashx",
+    "alt": "Cannondale FlyingV 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_2-eu/c25_flyingv2_pdp_desktop_04.ashx",
+    "alt": "Cannondale FlyingV 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-urban/flyingv/pdp/flyingv_2-eu/c25_flyingv2_pdp_desktop_05.ashx",
+    "alt": "Cannondale FlyingV 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-6",
+  "slug": "cannondale-mavaro-1",
+  "name": "Cannondale Mavaro 1",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 5499,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W 2025",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Mavaro 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Mavaro 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Mavaro 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Enviolo stufenlose Nabenschaltung, Gates CDX 22T",
+   "brakes": "Tektro HD-M530 Gemini, 4-Kolben hydraulisch, 203mm vorne",
+   "fork": "Cannondale HeadShok, 50mm Federweg",
+   "display": "Bosch Kiox 300 w/ Mini Remote & System Controller",
+   "tires": "Continental eContact Plus 27.5x2.20 / 29x2.20",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Mavaro 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Mavaro, SmartForm C1 Alloy, removable 800Wh downtube battery",
+   "Modellnummer C64014U"
+  ],
+  "colours": [
+   "Deep Teal"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/mavaro/mavaro-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C64014U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_02.ashx",
+    "alt": "Cannondale Mavaro 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_03.ashx",
+    "alt": "Cannondale Mavaro 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_04.ashx",
+    "alt": "Cannondale Mavaro 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_06.ashx",
+    "alt": "Cannondale Mavaro 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-7",
+  "slug": "cannondale-mavaro-2",
+  "name": "Cannondale Mavaro 2",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W 2025",
+  "torqueNm": null,
+  "batteryWh": 600,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Mavaro 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Mavaro 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Mavaro 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Nexus Inter-5E, 5-Gang Nabe, Gates CDX 34T",
+   "brakes": "Tektro HD-M530 Gemini, 4-Kolben hydraulisch, 203mm vorne",
+   "fork": "Cannondale HeadShok, 50mm Federweg",
+   "display": "Bosch Kiox 300 w/ Mini Remote & System Controller",
+   "tires": "Continental eContact Plus 27.5x2.20 / 29x2.20",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Mavaro 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 600 Wh",
+   "Rahmen: Mavaro, SmartForm C1 Alloy, removable 600Wh downtube battery",
+   "Modellnummer C64034U"
+  ],
+  "colours": [
+   "Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/mavaro/mavaro-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C64034U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_02.ashx",
+    "alt": "Cannondale Mavaro 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_03.ashx",
+    "alt": "Cannondale Mavaro 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_04.ashx",
+    "alt": "Cannondale Mavaro 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-1-2/c24_mavaro_pdp_desktop_06.ashx",
+    "alt": "Cannondale Mavaro 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-8",
+  "slug": "cannondale-mavaro-4",
+  "name": "Cannondale Mavaro 4",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 2999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Active Line Plus",
+  "torqueNm": null,
+  "batteryWh": 500,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "2000-3500",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Mavaro 4 ist ein E-Citybike von Cannondale mit Bosch Active Line Plus und 500-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Mavaro 4 ist ein E-Citybike von Cannondale mit Bosch Active Line Plus und 500-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Mavaro 4 ist ein E-Citybike von Cannondale mit Bosch Active Line Plus und 500-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Nexus Inter-5E, 5-Gang Nabe, Gates CDC 34T",
+   "brakes": "Shimano MT200 hydraulische Scheibenbremse, 180/160mm",
+   "fork": "SR Suntour Mobie A32, 63mm Federweg",
+   "display": "Bosch Purion 200",
+   "tires": "Continental eContact Plus 27.5x2.2 / 29x2.2",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Mavaro 4 ist ein E-Citybike von Cannondale mit Bosch Active Line Plus und 500-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 500 Wh",
+   "Rahmen: Mavaro, SmartForm C2 Alloy, removable 500Wh downtube battery",
+   "Modellnummer C64175U"
+  ],
+  "colours": [
+   "Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/mavaro/mavaro-4",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C64175U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-neo-4---5/c24_mavaroneo_4_pdp_desktop_02.ashx",
+    "alt": "Cannondale Mavaro 4, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-neo-4---5/c24_mavaroneo_4_pdp_desktop_03.ashx",
+    "alt": "Cannondale Mavaro 4, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-urban/mavaro-neo-4---5/c24_mavaroneo_4_pdp_desktop_04.ashx",
+    "alt": "Cannondale Mavaro 4, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-9",
+  "slug": "cannondale-mavaro-neo-1",
+  "name": "Cannondale Mavaro Neo 1",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W",
+  "torqueNm": null,
+  "batteryWh": 750,
+  "batteryBracket": "625-750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Mavaro Neo 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Mavaro Neo 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Mavaro Neo 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Enviolo stufenlose Nabenschaltung, Gates CDX 22T",
+   "brakes": "Magura MT C 2-Kolben hydraulisch, 203/203mm",
+   "fork": "Cannondale HeadShok, 50mm Federweg",
+   "display": "Bosch Kiox 300 w/ LED remote",
+   "tires": "Continental eContact Plus 29x2.2 / 27.5x2.2 (S)",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Mavaro Neo 1 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 750 Wh",
+   "Rahmen: SmartForm C1 Alloy, removable 750Wh downtube battery",
+   "Modellnummer C66112M"
+  ],
+  "colours": [
+   "Matte Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/mavaro-neo/mavaro-neo-1-c66112m",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C66112M)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my21/bikes/electric/e-urban/mavaro-neo/mavaro-neo-1/desktop/c21_mavaroneo_pdp_-neo_1_0975-desktop.ashx",
+    "alt": "Cannondale Mavaro Neo 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my21/bikes/electric/e-urban/mavaro-neo/mavaro-neo-1/desktop/c21_mavaroneo_pdp_-neo_1_1067-desktop.ashx",
+    "alt": "Cannondale Mavaro Neo 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my21/bikes/electric/e-urban/mavaro-neo/mavaro-neo-1/desktop/c21_mavaroneo_pdp_-radar-montage-desktop.ashx",
+    "alt": "Cannondale Mavaro Neo 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my21/bikes/electric/e-urban/mavaro-neo/mavaro-neo-1/desktop/c21_mavaroneo_pdp_-neo_1_1106-desktop.ashx",
+    "alt": "Cannondale Mavaro Neo 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-10",
+  "slug": "cannondale-mavaro-neo-2",
+  "name": "Cannondale Mavaro Neo 2",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4299,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W",
+  "torqueNm": null,
+  "batteryWh": 750,
+  "batteryBracket": "625-750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Mavaro Neo 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Mavaro Neo 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Mavaro Neo 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Nexus 5-Gang Nabe, Gates CDX 34T",
+   "brakes": "Tektro M535 4-Kolben hydraulisch, 203/203mm",
+   "fork": "Cannondale HeadShok, 50mm Federweg",
+   "display": "Bosch Kiox 300 w/ LED remote",
+   "tires": "Continental Contact Cruiser 29x2.2 / Urban Contact 27.5x2.2 (S)",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Mavaro Neo 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line CX 250W und 750-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 750 Wh",
+   "Rahmen: SmartForm C1 Alloy, removable 750Wh downtube battery",
+   "Modellnummer C64212U"
+  ],
+  "colours": [
+   "Mercury"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/mavaro-neo/mavaro-neo-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C64212U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/mavaro-neo/pdp/c23_mavaroneo_pdp_desktop_2.ashx",
+    "alt": "Cannondale Mavaro Neo 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/mavaro-neo/pdp/c23_mavaroneo_pdp_desktop_4.ashx",
+    "alt": "Cannondale Mavaro Neo 2, Produktbild 2"
+   }
+  ]
+ },
+ {
+  "id": "p-11",
+  "slug": "cannondale-tesoro-neo-carbon-2",
+  "name": "Cannondale Tesoro Neo Carbon 2",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": null,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Tesoro Neo Carbon 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Tesoro Neo Carbon 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Tesoro Neo Carbon 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM Apex Eagle, SRAM Eagle PG-1230 11-50, 12-fach",
+   "brakes": "SRAM S-300, 160/160mm CenterLine X",
+   "fork": "Tesoro Carbon Gabel, 12x110 Steckachse",
+   "display": "Top-tube System Controller w/ mini remote",
+   "tires": "Vittoria Terreno Zero, 700x35c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Tesoro Neo Carbon 2 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Rahmen: Tesoro Carbon, internal downtube battery",
+   "Modellnummer C67064U"
+  ],
+  "colours": [
+   "Storm Cloud"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/tesoro-neo-carbon/tesoro-neo-carbon-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C67064U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_2_europe.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_3b.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_3a_v2.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 2, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-12",
+  "slug": "cannondale-tesoro-neo-carbon-3",
+  "name": "Cannondale Tesoro Neo Carbon 3",
+  "brandId": "cannondale",
+  "categoryId": "e-citybikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 3999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": 60,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-citybikes.svg",
+  "shortDesc": {
+   "de": "Das Tesoro Neo Carbon 3 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Tesoro Neo Carbon 3 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Tesoro Neo Carbon 3 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 10-fach, Kassette 11-48",
+   "brakes": "Shimano U300 Bremssättel, RT30 180mm",
+   "fork": "Tesoro Carbon Gabel, 12x110 Steckachse",
+   "display": "Top-tube System Controller w/ mini remote",
+   "tires": "Schwalbe G-One Comp, 700x40c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Tesoro Neo Carbon 3 ist ein E-Citybike von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Drehmoment 60 Nm",
+   "Rahmen: Tesoro Carbon, internal downtube battery",
+   "Modellnummer C6618GU SMU"
+  ],
+  "colours": [
+   "Cherry Lacquer"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-urban/tesoro-neo-carbon/tesoro-carbon-3-smu",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C6618GU SMU)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_2_europe.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 3, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_3b.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 3, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_3a_v2.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 3, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-13",
+  "slug": "cannondale-cargowagen-neo-1",
+  "name": "Cannondale Cargowagen Neo 1",
+  "brandId": "cannondale",
+  "categoryId": "e-lastenvelos",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 5299,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Cargo Line",
+  "torqueNm": null,
+  "batteryWh": 725,
+  "batteryBracket": "625-750",
+  "batteryRemovable": true,
+  "frameType": "step-through",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "family",
+   "senior"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-lastenvelos.svg",
+  "shortDesc": {
+   "de": "Das Cargowagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Cargowagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Cargowagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Enviolo Pro stufenlose Nabenschaltung",
+   "brakes": "Shimano MT420 4-Kolben hydraulisch, 203/180mm",
+   "fork": "SR Suntour Mobie 34 Cargo, 80mm Federweg",
+   "display": "Bosch Kiox 300 w/ LED Remote",
+   "tires": "Schwalbe Pick-Up, 20x2.6\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Cargowagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 725 Wh",
+   "Rahmen: SmartForm C2 Alloy step-thru frame, integrated rear cargo rack (80kg)",
+   "Modellnummer C67103U"
+  ],
+  "colours": [
+   "Midnight Blue"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-cargo/cargowagen-neo/cargowagen-neo-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C67103U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c23_cargowagen_pdp_desktop_1a.ashx",
+    "alt": "Cannondale Cargowagen Neo 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c25_cargowagen_boschpowered_pdp_update_desktop.ashx",
+    "alt": "Cannondale Cargowagen Neo 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c23_cargowagen_pdp_desktop_3a.ashx",
+    "alt": "Cannondale Cargowagen Neo 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c23_cargowagen_pdp_desktop_4a.ashx",
+    "alt": "Cannondale Cargowagen Neo 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-14",
+  "slug": "cannondale-cargowagen-neo-2",
+  "name": "Cannondale Cargowagen Neo 2",
+  "brandId": "cannondale",
+  "categoryId": "e-lastenvelos",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4499,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Cargo Line",
+  "torqueNm": null,
+  "batteryWh": 545,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "step-through",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "family",
+   "senior"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-lastenvelos.svg",
+  "shortDesc": {
+   "de": "Das Cargowagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Cargowagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Cargowagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Deore 5130, 10-fach, Kassette 11-41",
+   "brakes": "Shimano MT420 4-Kolben hydraulisch, 180/203mm",
+   "fork": "SR Suntour Mobie 34 Cargo, 80mm Federweg",
+   "display": "Bosch Kiox 300 w/ LED Remote",
+   "tires": "Schwalbe Pick-Up, 20x2.6\" vorne / 20x2.15\" hinten",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Cargowagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 545 Wh",
+   "Rahmen: SmartForm C2 Alloy step-thru frame, integrated rear cargo rack (80kg)",
+   "Modellnummer C67253U"
+  ],
+  "colours": [
+   "Grey"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-cargo/cargowagen-neo/cargowagen-neo-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C67253U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c23_cargowagen_pdp_desktop_1a.ashx",
+    "alt": "Cannondale Cargowagen Neo 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c25_cargowagen_boschpowered_pdp_update_desktop.ashx",
+    "alt": "Cannondale Cargowagen Neo 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c23_cargowagen_pdp_desktop_3a.ashx",
+    "alt": "Cannondale Cargowagen Neo 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/cargowagen/pdps/c23_cargowagen_pdp_desktop_4a.ashx",
+    "alt": "Cannondale Cargowagen Neo 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-15",
+  "slug": "cannondale-wonderwagen-neo-1",
+  "name": "Cannondale Wonderwagen Neo 1",
+  "brandId": "cannondale",
+  "categoryId": "e-lastenvelos",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 5999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Cargo Line",
+  "torqueNm": null,
+  "batteryWh": 725,
+  "batteryBracket": "625-750",
+  "batteryRemovable": true,
+  "frameType": "step-through",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "family",
+   "senior"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-lastenvelos.svg",
+  "shortDesc": {
+   "de": "Das Wonderwagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Wonderwagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Wonderwagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Enviolo Pro stufenlose Nabenschaltung",
+   "brakes": "Magura MT C 4-Kolben hydraulisch, 180mm vorne / 203mm hinten",
+   "fork": "SR Suntour Mobie 34 Cargo, 80mm Federweg",
+   "display": "Bosch LED remote + Smartphone Grip",
+   "tires": "Schwalbe Pick-Up, 20x2.6\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Wonderwagen Neo 1 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 725-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 725 Wh",
+   "Rahmen: SmartForm C2 Alloy low step cargo frame, cable steering, weatherproof double kid cabin",
+   "Modellnummer C68103U"
+  ],
+  "colours": [
+   "Grey"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-cargo/wonderwagen-neo/wonderwagen-neo-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C68103U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_1a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_2a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_3a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_4a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-16",
+  "slug": "cannondale-wonderwagen-neo-2",
+  "name": "Cannondale Wonderwagen Neo 2",
+  "brandId": "cannondale",
+  "categoryId": "e-lastenvelos",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Cargo Line",
+  "torqueNm": null,
+  "batteryWh": 545,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "step-through",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "family",
+   "senior"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-lastenvelos.svg",
+  "shortDesc": {
+   "de": "Das Wonderwagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Wonderwagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Wonderwagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Deore M6000, 10-fach, Kassette 11-36",
+   "brakes": "Magura MT C 4-Kolben hydraulisch, 180mm vorne / 203mm hinten",
+   "fork": "SR Suntour Mobie 34 Cargo, 80mm Federweg",
+   "display": "Bosch LED remote",
+   "tires": "Schwalbe Pick-Up 20x2.6\" / Pick-Up Performance Super Defense 20x2.35\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Wonderwagen Neo 2 ist ein E-Lastenvelo von Cannondale mit Bosch Cargo Line und 545-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 545 Wh",
+   "Rahmen: SmartForm C2 Alloy low step cargo frame, cable steering, weatherproof double kid cabin",
+   "Modellnummer C68203U"
+  ],
+  "colours": [
+   "Grey"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-cargo/wonderwagen-neo/wonderwagen-neo-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C68203U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_1a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_2a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_3a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-cargo/wonderwagen/pdps/c23_wonderwagen_pdp_desktop_4a.ashx",
+    "alt": "Cannondale Wonderwagen Neo 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-17",
+  "slug": "cannondale-tesoro-neo-1",
+  "name": "Cannondale Tesoro Neo 1",
+  "brandId": "cannondale",
+  "categoryId": "e-trekkingbikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W 2025",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute",
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-trekkingbikes.svg",
+  "shortDesc": {
+   "de": "Das Tesoro Neo 1 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Tesoro Neo 1 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Tesoro Neo 1 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 10-fach, Kassette 11-48",
+   "brakes": "Tektro T535 4-Kolben hydraulisch, 203/180mm",
+   "fork": "SR Suntour Mobie XCR34, 100mm Federweg",
+   "display": "Bosch Kiox 300 w/ Mini Remote & System Controller",
+   "tires": "Schwalbe Johnny Watts LR, 27.5x2.35\" / 29x2.35\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Tesoro Neo 1 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Tesoro, SmartForm C1 Alloy, removable 800Wh downtube battery",
+   "Modellnummer C66064U"
+  ],
+  "colours": [
+   "Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-touring/tesoro/tesoro-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C66064U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_2.ashx",
+    "alt": "Cannondale Tesoro Neo 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_3.ashx",
+    "alt": "Cannondale Tesoro Neo 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_4.ashx",
+    "alt": "Cannondale Tesoro Neo 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_5a.ashx",
+    "alt": "Cannondale Tesoro Neo 1, Produktbild 4"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_6.ashx",
+    "alt": "Cannondale Tesoro Neo 1, Produktbild 5"
+   }
+  ]
+ },
+ {
+  "id": "p-18",
+  "slug": "cannondale-tesoro-neo-2",
+  "name": "Cannondale Tesoro Neo 2",
+  "brandId": "cannondale",
+  "categoryId": "e-trekkingbikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4399,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W 2025",
+  "torqueNm": null,
+  "batteryWh": 600,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute",
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-trekkingbikes.svg",
+  "shortDesc": {
+   "de": "Das Tesoro Neo 2 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Tesoro Neo 2 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Tesoro Neo 2 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 10-fach, Kassette 11-48",
+   "brakes": "Tektro T535 4-Kolben hydraulisch, 203/180mm",
+   "fork": "SR Suntour Mobie XCR34, 100mm Federweg",
+   "display": "Bosch Mini Remote & System Controller",
+   "tires": "Schwalbe Johnny Watts LR, 27.5x2.35\" / 29x2.35\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Tesoro Neo 2 ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 600 Wh",
+   "Rahmen: Tesoro, SmartForm C1 Alloy, removable 600Wh downtube battery",
+   "Modellnummer C66085U"
+  ],
+  "colours": [
+   "Storm Cloud"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-touring/tesoro/tesoro-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C66085U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_2.ashx",
+    "alt": "Cannondale Tesoro Neo 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_4.ashx",
+    "alt": "Cannondale Tesoro Neo 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_5a.ashx",
+    "alt": "Cannondale Tesoro Neo 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_6.ashx",
+    "alt": "Cannondale Tesoro Neo 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-19",
+  "slug": "cannondale-tesoro-neo-3",
+  "name": "Cannondale Tesoro Neo 3+",
+  "brandId": "cannondale",
+  "categoryId": "e-trekkingbikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 3799,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line",
+  "torqueNm": null,
+  "batteryWh": 625,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute",
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-trekkingbikes.svg",
+  "shortDesc": {
+   "de": "Das Tesoro Neo 3+ ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line und 625-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Tesoro Neo 3+ ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line und 625-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Tesoro Neo 3+ ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line und 625-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U4000, Kassette 11-46, 9-fach",
+   "brakes": "Shimano MT200 hydraulische Scheibenbremse, 180/180mm",
+   "fork": "SR Suntour Mobie A32, 63mm Federweg",
+   "display": "Bosch Purion 200",
+   "tires": "Continental Race King, 27.5x2.2\" / 29x2.2\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Tesoro Neo 3+ ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line und 625-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 625 Wh",
+   "Rahmen: Tesoro, SmartForm C2 Alloy, removable 625Wh downtube battery",
+   "Modellnummer C66125U"
+  ],
+  "colours": [
+   "Gunmetal Green"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-touring/tesoro/tesoro-3-plus",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C66125U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-touring/tesoro-x-image-updates/pdps/c25_tesorox_pdp_desktop_2.ashx",
+    "alt": "Cannondale Tesoro Neo 3+, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-touring/tesoro-x-image-updates/pdps/c25_tesorox_pdp_desktop_3.ashx",
+    "alt": "Cannondale Tesoro Neo 3+, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-touring/tesoro-x-image-updates/pdps/c25_tesorox_pdp_desktop_4.ashx",
+    "alt": "Cannondale Tesoro Neo 3+, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-20",
+  "slug": "cannondale-tesoro-neo-automatiq",
+  "name": "Cannondale Tesoro Neo Automatiq",
+  "brandId": "cannondale",
+  "categoryId": "e-trekkingbikes",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 5899,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX 250W 2025",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "commute",
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-trekkingbikes.svg",
+  "shortDesc": {
+   "de": "Das Tesoro Neo Automatiq ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Tesoro Neo Automatiq ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Tesoro Neo Automatiq ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Enviolo stufenlose Nabe mit Automatiq-Schaltung, Gates CDX 22T",
+   "brakes": "Tektro T535 4-Kolben hydraulisch, 203/180mm",
+   "fork": "SR Suntour Mobie XCR34, 100mm Federweg",
+   "display": "Bosch Kiox 300 w/ Mini Remote & System Controller",
+   "tires": "Schwalbe Johnny Watts LR, 27.5x2.35\" / 29x2.35\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Tesoro Neo Automatiq ist ein E-Trekkingbike von Cannondale mit Bosch Performance Line CX 250W 2025 und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Tesoro, SmartForm C1 Alloy, removable 800Wh downtube battery",
+   "Modellnummer C66165U"
+  ],
+  "colours": [
+   "Sea Green"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-touring/tesoro/tesoro-automatiq",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C66165U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_2.ashx",
+    "alt": "Cannondale Tesoro Neo Automatiq, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_3.ashx",
+    "alt": "Cannondale Tesoro Neo Automatiq, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_4.ashx",
+    "alt": "Cannondale Tesoro Neo Automatiq, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_5.ashx",
+    "alt": "Cannondale Tesoro Neo Automatiq, Produktbild 4"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-touring/tesoro-1-2-automatiq/c24_tesoro_pdp_desktop_6.ashx",
+    "alt": "Cannondale Tesoro Neo Automatiq, Produktbild 5"
+   }
+  ]
+ },
+ {
+  "id": "p-21",
+  "slug": "cannondale-habit-neo-1",
+  "name": "Cannondale Habit Neo 1",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 12499,
+  "motorBrand": "Fazua",
+  "motorModel": "Fazua Fazua Ride 60 (2026)",
+  "torqueNm": 60,
+  "batteryWh": 480,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Habit Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Habit Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Habit Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM XX SL Eagle AXS T-Type, Kassette 10-52, 12-fach",
+   "brakes": "SRAM Code Ultimate Stealth, 200/200mm",
+   "fork": "RockShox Lyrik Ultimate, 150mm",
+   "display": "Fazua top tube LED Hub w/ Mode Control remote",
+   "tires": "Maxxis Dissector 29x2.4\" / Rekon 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Habit Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 480 Wh",
+   "Drehmoment 60 Nm",
+   "Rahmen: Habit Neo Carbon, 140mm travel, FlexPivot Chainstay",
+   "Modellnummer C65025U"
+  ],
+  "colours": [
+   "Silver"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/habit-neo/habit-neo-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65025U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_02.ashx",
+    "alt": "Cannondale Habit Neo 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_03.ashx",
+    "alt": "Cannondale Habit Neo 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_04.ashx",
+    "alt": "Cannondale Habit Neo 1, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-22",
+  "slug": "cannondale-habit-neo-2",
+  "name": "Cannondale Habit Neo 2",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 8999,
+  "motorBrand": "Fazua",
+  "motorModel": "Fazua Fazua Ride 60 (2026)",
+  "torqueNm": 60,
+  "batteryWh": 480,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Habit Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Habit Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Habit Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM GX Eagle AXS T-Type, Kassette 10-52, 12-fach",
+   "brakes": "Magura MT7 4-Kolben hydraulisch, 203/203mm",
+   "fork": "RockShox Lyrik Select+, 150mm",
+   "display": "Fazua top tube LED Hub w/ Mode Control remote",
+   "tires": "Maxxis Dissector 29x2.4\" / Rekon 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Habit Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 480 Wh",
+   "Drehmoment 60 Nm",
+   "Rahmen: Habit Neo Carbon, 140mm travel, FlexPivot Chainstay",
+   "Modellnummer C65065U"
+  ],
+  "colours": [
+   "Tiger Eye"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/habit-neo/habit-neo-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65065U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_02.ashx",
+    "alt": "Cannondale Habit Neo 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_03.ashx",
+    "alt": "Cannondale Habit Neo 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_04.ashx",
+    "alt": "Cannondale Habit Neo 2, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-23",
+  "slug": "cannondale-habit-neo-3",
+  "name": "Cannondale Habit Neo 3",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 6999,
+  "motorBrand": "Fazua",
+  "motorModel": "Fazua Fazua Ride 60 (2026)",
+  "torqueNm": 60,
+  "batteryWh": 480,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Habit Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Habit Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Habit Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano XT M8100, Kassette M7100 10-51, 12-fach",
+   "brakes": "Shimano Deore M6120 4-Kolben hydraulisch, 203/203mm",
+   "fork": "RockShox Lyrik Select, 150mm",
+   "display": "Fazua top tube LED Hub w/ Mode Control remote",
+   "tires": "Maxxis Dissector 29x2.4\" / Rekon 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Habit Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Fazua Ride 60 (2026) und 480-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 480 Wh",
+   "Drehmoment 60 Nm",
+   "Rahmen: Habit Neo Carbon, 140mm travel, FlexPivot Chainstay",
+   "Modellnummer C65085U"
+  ],
+  "colours": [
+   "Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/habit-neo/habit-neo-3",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65085U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_02.ashx",
+    "alt": "Cannondale Habit Neo 3, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_03.ashx",
+    "alt": "Cannondale Habit Neo 3, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/habit-neo/pdp/c25_habitneo_pdps_desktop_04.ashx",
+    "alt": "Cannondale Habit Neo 3, Produktbild 3"
+   }
+  ]
+ },
+ {
+  "id": "p-24",
+  "slug": "cannondale-moterra-neo-1",
+  "name": "Cannondale Moterra Neo 1",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 8799,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM XO Eagle AXS T-Type, Kassette GX 10-52, 12-fach",
+   "brakes": "Magura MT7 4-Kolben hydraulisch, 220/203mm",
+   "fork": "Fox Float Factory 38, 160mm",
+   "display": "Bosch Kiox 500 + Mini Remote",
+   "tires": "Continental Kryptotal-F / -R, 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Moterra Carbon, 29\" wheels, 150mm travel, removable downtube battery",
+   "Modellnummer C65014U"
+  ],
+  "colours": [
+   "Matte Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65014U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra Neo 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_powerpedalrepeat_v3.ashx",
+    "alt": "Cannondale Moterra Neo 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra Neo 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_4.ashx",
+    "alt": "Cannondale Moterra Neo 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-25",
+  "slug": "cannondale-moterra-neo-2",
+  "name": "Cannondale Moterra Neo 2",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 6999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Deore Di2 M6260 11-fach, Kassette CUES LG700 11-50",
+   "brakes": "Magura Louise Elite 4-Kolben hydraulisch, 203/203mm",
+   "fork": "RockShox ZEB Select, 160mm",
+   "display": "Bosch Kiox 300 + Mini Remote",
+   "tires": "Continental Kryptotal-F / -R, 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo 2 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Moterra Carbon, 29\" wheels, 150mm travel, removable downtube battery",
+   "Modellnummer C6504GU SMU"
+  ],
+  "colours": [
+   "Matte Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-2-smu",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C6504GU SMU)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra Neo 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_powerpedalrepeat_v3.ashx",
+    "alt": "Cannondale Moterra Neo 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra Neo 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra/pdp/c25_moterra_pdp_desktop_4.ashx",
+    "alt": "Cannondale Moterra Neo 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-26",
+  "slug": "cannondale-moterra-neo-3",
+  "name": "Cannondale Moterra Neo 3",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4799,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 LinkGlide, Kassette LG400 11-50, 11-fach",
+   "brakes": "Shimano MT520 4-Kolben hydraulisch, 203mm",
+   "fork": "RockShox Psylo Silver RC, 160mm",
+   "display": "Bosch Purion 200",
+   "tires": "Continental Kryptotal-F / -R, 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo 3 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Moterra, SmartForm C1 Alloy, 29\" wheels, 150mm travel",
+   "Modellnummer C65194U"
+  ],
+  "colours": [
+   "Chalk"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-3",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65194U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-3-4/pdp/c25_moterraalloy_pdp_3_desktop_1.ashx",
+    "alt": "Cannondale Moterra Neo 3, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-3-4/pdp/c25_moterraalloy_pdp_3_desktop_2.ashx",
+    "alt": "Cannondale Moterra Neo 3, Produktbild 2"
+   }
+  ]
+ },
+ {
+  "id": "p-27",
+  "slug": "cannondale-moterra-neo-4",
+  "name": "Cannondale Moterra Neo 4",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 3999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 600,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo 4 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo 4 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo 4 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 LinkGlide, Kassette LG400 11-50, 11-fach",
+   "brakes": "Tektro Gemini SL 4-Kolben hydraulisch, 203mm",
+   "fork": "SR Suntour Zeron 36-X Boost, 160mm",
+   "display": "Bosch LED Remote",
+   "tires": "Schwalbe Magic Mary Performance, 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo 4 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 600-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 600 Wh",
+   "Rahmen: Moterra, SmartForm C1 Alloy, 29\" wheels, 150mm travel",
+   "Modellnummer C65214U"
+  ],
+  "colours": [
+   "Obsidian"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-4",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65214U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-3-4/pdp/c25_moterraalloy_pdp_3_desktop_1.ashx",
+    "alt": "Cannondale Moterra Neo 4, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-3-4/pdp/c25_moterraalloy_pdp_3_desktop_2.ashx",
+    "alt": "Cannondale Moterra Neo 4, Produktbild 2"
+   }
+  ]
+ },
+ {
+  "id": "p-28",
+  "slug": "cannondale-moterra-neo-4-28",
+  "name": "Cannondale Moterra Neo 4+",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4299,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo 4+ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo 4+ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo 4+ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 LinkGlide, Kassette LG400 11-50, 11-fach",
+   "brakes": "Tektro Gemini SL 4-Kolben hydraulisch, 203mm",
+   "fork": "SR Suntour Zeron 36-X Boost, 160mm",
+   "display": "Bosch LED Remote",
+   "tires": "Schwalbe Magic Mary Performance, 29x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo 4+ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Moterra, SmartForm C1 Alloy, 29\" wheels, 150mm travel",
+   "Modellnummer C6550GU"
+  ],
+  "colours": [
+   "Tiger Eye"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-4-plus",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C6550GU)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-3-4/pdp/c25_moterraalloy_pdp_3_desktop_1.ashx",
+    "alt": "Cannondale Moterra Neo 4+, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-3-4/pdp/c25_moterraalloy_pdp_3_desktop_2.ashx",
+    "alt": "Cannondale Moterra Neo 4+, Produktbild 2"
+   }
+  ]
+ },
+ {
+  "id": "p-29",
+  "slug": "cannondale-moterra-neo-eq",
+  "name": "Cannondale Moterra Neo EQ",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Aluminium",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo EQ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo EQ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo EQ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano CUES U6000 LinkGlide, Kassette LG400 11-50, 11-fach",
+   "brakes": "Tektro Gemini SL 4-Kolben hydraulisch, 203mm",
+   "fork": "SR Suntour Zeron 36-X Boost, 150mm",
+   "display": "Bosch Purion 200",
+   "tires": "Continental eRuban Plus, 29x2.3\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo EQ ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Aluminium. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Moterra, SmartForm C1 Alloy, 29\" wheels, 130mm travel, Urban Tuned Suspension",
+   "Modellnummer C65155U"
+  ],
+  "colours": [
+   "Tungsten Blue"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo/moterra-eq",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65155U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-eq/c25_moterraeq_pdp_m_1.ashx",
+    "alt": "Cannondale Moterra Neo EQ, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-eq/c25_moterraeq_pdp_d_1.ashx",
+    "alt": "Cannondale Moterra Neo EQ, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-eq/c25_moterraeq_pdp_m_2.ashx",
+    "alt": "Cannondale Moterra Neo EQ, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-eq/c25_moterraeq_pdp_d_2.ashx",
+    "alt": "Cannondale Moterra Neo EQ, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-30",
+  "slug": "cannondale-moterra-neo-lt-1",
+  "name": "Cannondale Moterra Neo LT 1",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 7399,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line CX",
+  "torqueNm": null,
+  "batteryWh": 800,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra Neo LT 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra Neo LT 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra Neo LT 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM Eagle 90 T-Type, Kassette Eagle 70 10-52, 12-fach",
+   "brakes": "TRP EVO Pro 4-Kolben hydraulisch, 220/203mm",
+   "fork": "Fox Float Performance 38, 170mm",
+   "display": "Top Tube System Controller w/ Mini Remote",
+   "tires": "Schwalbe Shredda Front 29x2.5\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra Neo LT 1 ist ein E-Mountainbike (Fully) von Cannondale mit Bosch Performance Line CX und 800-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 800 Wh",
+   "Rahmen: Moterra LT Carbon, 165mm travel, 27.5\" rear / 29\" front",
+   "Modellnummer C65134U"
+  ],
+  "colours": [
+   "Tiger Shark"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-neo-lt/moterra-lt-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65134U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-lt/pdp/c25_moterralt_pdp_desktop_1_v3.ashx",
+    "alt": "Cannondale Moterra Neo LT 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-lt/pdp/c25_moterralt_pdp_desktop_2.ashx",
+    "alt": "Cannondale Moterra Neo LT 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-lt/pdp/c25_moterralt_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra Neo LT 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my25/bikes/electric/e-mountain/moterra-lt/pdp/c25_moterralt_pdp_desktop_4.ashx",
+    "alt": "Cannondale Moterra Neo LT 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-31",
+  "slug": "cannondale-moterra-sl-1-c65104u",
+  "name": "Cannondale Moterra SL 1 (C65104U)",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 8999,
+  "motorBrand": "Shimano Steps",
+  "motorModel": "Shimano Shimano EP801",
+  "torqueNm": 85,
+  "batteryWh": 601,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra SL 1 (C65104U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra SL 1 (C65104U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra SL 1 (C65104U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM XO Eagle AXS T-Type, Kassette 10-52, 12-fach",
+   "brakes": "Magura MT7 4-Kolben hydraulisch, 203mm",
+   "fork": "Fox Float Factory 36, 160mm",
+   "display": "Shimano SC-EM800 Cycle Computer, Bluetooth LE",
+   "tires": "Maxxis DHF 29x2.5\" / Dissector 27.5x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra SL 1 (C65104U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 601 Wh",
+   "Drehmoment 85 Nm",
+   "Rahmen: Moterra SL Carbon, 150mm travel, FlexPivot Chainstay",
+   "Modellnummer C65104U"
+  ],
+  "colours": [
+   "Raw"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65104U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65104U), Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_2_v2.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65104U), Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65104U), Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_flexpivot.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65104U), Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-32",
+  "slug": "cannondale-moterra-sl-1-c65195u",
+  "name": "Cannondale Moterra SL 1 (C65195U)",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 8499,
+  "motorBrand": "Shimano Steps",
+  "motorModel": "Shimano Shimano EP801",
+  "torqueNm": 85,
+  "batteryWh": 601,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra SL 1 (C65195U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra SL 1 (C65195U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra SL 1 (C65195U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM XO Eagle AXS T-Type, Kassette 10-52, 12-fach",
+   "brakes": "Magura MT7 4-Kolben hydraulisch, 203mm",
+   "fork": "Fox Float Factory 36, 160mm",
+   "display": "Shimano SC-EM800 Cycle Computer, Bluetooth LE",
+   "tires": "Maxxis DHF 29x2.5\" / Dissector 27.5x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra SL 1 (C65195U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 601 Wh",
+   "Drehmoment 85 Nm",
+   "Rahmen: Moterra SL Carbon, 150mm travel, FlexPivot Chainstay",
+   "Modellnummer C65195U"
+  ],
+  "colours": [
+   "Tungsten Blue"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-1-c65195u",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65195U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65195U), Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_2_v2.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65195U), Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65195U), Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_flexpivot.ashx",
+    "alt": "Cannondale Moterra SL 1 (C65195U), Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-33",
+  "slug": "cannondale-moterra-sl-2",
+  "name": "Cannondale Moterra SL 2",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 6999,
+  "motorBrand": "Shimano Steps",
+  "motorModel": "Shimano Shimano EP801",
+  "torqueNm": 85,
+  "batteryWh": 601,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra SL 2 ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra SL 2 ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra SL 2 ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano XT / Deore 12-fach, Kassette 10-51",
+   "brakes": "Magura MT5 4-Kolben hydraulisch, 203mm",
+   "fork": "Fox Performance 36, 160mm",
+   "display": "Shimano SC-EM800 Cycle Computer, Bluetooth LE",
+   "tires": "Maxxis DHF 29x2.5\" / Dissector 27.5x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra SL 2 ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 601 Wh",
+   "Drehmoment 85 Nm",
+   "Rahmen: Moterra SL Carbon, 150mm travel, FlexPivot Chainstay",
+   "Modellnummer C65204U"
+  ],
+  "colours": [
+   "Tiger Shark"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65204U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra SL 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_2_v2.ashx",
+    "alt": "Cannondale Moterra SL 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra SL 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_flexpivot.ashx",
+    "alt": "Cannondale Moterra SL 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-34",
+  "slug": "cannondale-moterra-sl-lab71-c65054u",
+  "name": "Cannondale Moterra SL LAB71 (C65054U)",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 13999,
+  "motorBrand": "Shimano Steps",
+  "motorModel": "Shimano Shimano EP801",
+  "torqueNm": 85,
+  "batteryWh": 601,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra SL LAB71 (C65054U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra SL LAB71 (C65054U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra SL LAB71 (C65054U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM XX Eagle AXS T-Type, Kassette 10-52, 12-fach",
+   "brakes": "SRAM Code Ultimate Stealth 4-Kolben, 200mm",
+   "fork": "Fox Float Factory 36, 160mm",
+   "display": "Shimano SC-EM800 Cycle Computer, Bluetooth LE",
+   "tires": "Maxxis DHF 29x2.5\" / Dissector 27.5x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra SL LAB71 (C65054U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 601 Wh",
+   "Drehmoment 85 Nm",
+   "Rahmen: LAB71 Moterra SL Carbon, 150mm travel, FlexPivot Chainstay",
+   "Modellnummer C65054U"
+  ],
+  "colours": [
+   "Burnt Pewter"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-lab71",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65054U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65054U), Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_2_v2.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65054U), Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65054U), Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_flexpivot.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65054U), Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-35",
+  "slug": "cannondale-moterra-sl-lab71-c65165u",
+  "name": "Cannondale Moterra SL LAB71 (C65165U)",
+  "brandId": "cannondale",
+  "categoryId": "e-mountainbikes",
+  "subcategoryId": "e-fullys",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 13999,
+  "motorBrand": "Shimano Steps",
+  "motorModel": "Shimano Shimano EP801",
+  "torqueNm": 85,
+  "batteryWh": 601,
+  "batteryBracket": "500-625",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-mountainbikes.svg",
+  "shortDesc": {
+   "de": "Das Moterra SL LAB71 (C65165U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Moterra SL LAB71 (C65165U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Moterra SL LAB71 (C65165U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano XTR Di2 M9260 elektronisch, Kassette XTR 10-51, 12-fach",
+   "brakes": "Shimano XTR M9220 4-Kolben hydraulisch, 203mm",
+   "fork": "Fox Float Factory 36, 160mm",
+   "display": "Shimano SC-EM800 Cycle Computer, Bluetooth LE",
+   "tires": "Maxxis DHF 29x2.5\" / Dissector 27.5x2.4\"",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Moterra SL LAB71 (C65165U) ist ein E-Mountainbike (Fully) von Cannondale mit Shimano EP801 und 601-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 601 Wh",
+   "Drehmoment 85 Nm",
+   "Rahmen: LAB71 Moterra SL Carbon, 150mm travel, FlexPivot Chainstay",
+   "Modellnummer C65165U"
+  ],
+  "colours": [
+   "Black Marble"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-lab71-c65165u",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C65165U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_1.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65165U), Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_2_v2.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65165U), Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_desktop_3.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65165U), Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-mountain/moterra-sl/pdp/c24_moterrasl_pdp_flexpivot.ashx",
+    "alt": "Cannondale Moterra SL LAB71 (C65165U), Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-36",
+  "slug": "cannondale-synapse-neo",
+  "name": "Cannondale Synapse Neo",
+  "brandId": "cannondale",
+  "categoryId": "e-rennvelos-gravel",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 8499,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": null,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-rennvelos-gravel.svg",
+  "shortDesc": {
+   "de": "Das Synapse Neo ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Synapse Neo ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Synapse Neo ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano Ultegra Di2 R8150, Kassette 11-34, 12-fach",
+   "brakes": "Shimano Ultegra Di2 hydraulisch, 160/160mm",
+   "fork": "Synapse Neo Carbon, 12x110 Steckachse",
+   "display": "Bosch Kiox 500",
+   "tires": "Vittoria Corsa, 700x30c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Synapse Neo ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Rahmen: Synapse Neo Carbon, internal downtube battery",
+   "Modellnummer C67014U"
+  ],
+  "colours": [
+   "Black"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-road/synapse-neo/synapse-neo",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C67014U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo/pdp/c24_synapseneo_pdp_desktop_1.ashx",
+    "alt": "Cannondale Synapse Neo, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo/pdp/c24_synapseneo_pdp_desktop_2.ashx",
+    "alt": "Cannondale Synapse Neo, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo/pdp/c24_synapseneo_pdp_desktop_3.ashx",
+    "alt": "Cannondale Synapse Neo, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo/pdp/c24_synapseneo_pdp_desktop_4.ashx",
+    "alt": "Cannondale Synapse Neo, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-37",
+  "slug": "cannondale-synapse-neo-allroad-1",
+  "name": "Cannondale Synapse Neo Allroad 1",
+  "brandId": "cannondale",
+  "categoryId": "e-rennvelos-gravel",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 6999,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": null,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/e-rennvelos-gravel.svg",
+  "shortDesc": {
+   "de": "Das Synapse Neo Allroad 1 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Synapse Neo Allroad 1 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Synapse Neo Allroad 1 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "SRAM Force AXS XPLR, Kassette XG-1271 10-44, 12-fach",
+   "brakes": "SRAM Force AXS, 160/160mm",
+   "fork": "Synapse Neo Carbon, 12x110 Steckachse",
+   "display": "Bosch Kiox 300",
+   "tires": "Vittoria Terreno Dry, 700x40c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Synapse Neo Allroad 1 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Rahmen: Synapse Neo Carbon, internal downtube battery",
+   "Modellnummer C67034U"
+  ],
+  "colours": [
+   "Mantis"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-road/synapse-neo-allroad/synapse-neo-allroad-1",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C67034U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_desktop_1.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 1, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_desktop_2.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 1, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_na_desktop_3.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 1, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_desktop_4.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 1, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-38",
+  "slug": "cannondale-synapse-neo-allroad-2",
+  "name": "Cannondale Synapse Neo Allroad 2",
+  "brandId": "cannondale",
+  "categoryId": "e-rennvelos-gravel",
+  "speedClass": "e-bike-25",
+  "speedMaxKmH": 25,
+  "priceCHF": 4499,
+  "motorBrand": "Bosch",
+  "motorModel": "Bosch Bosch Performance Line SX",
+  "torqueNm": null,
+  "batteryWh": 400,
+  "batteryBracket": "<500",
+  "batteryRemovable": true,
+  "frameType": "diamond",
+  "frameMaterial": "Carbon",
+  "frameSizes": [],
+  "weightKg": null,
+  "useCase": [
+   "touring"
+  ],
+  "priceBracket": "3500-5000",
+  "imageUrl": "/images/bikes/e-rennvelos-gravel.svg",
+  "shortDesc": {
+   "de": "Das Synapse Neo Allroad 2 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "fr": "Das Synapse Neo Allroad 2 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+   "it": "Das Synapse Neo Allroad 2 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Shimano GRX 820, Kassette 105 11-34, 12-fach",
+   "brakes": "Shimano GRX 800 hydraulisch, 160/160mm",
+   "fork": "Synapse Neo Carbon, 12x110 Steckachse",
+   "display": "Bosch Kiox 300",
+   "tires": "Vittoria Terreno Dry, 700x40c",
+   "lighting": "Nicht angegeben"
+  },
+  "description": "Das Synapse Neo Allroad 2 ist ein E-Gravel-/Rennvelo von Cannondale mit Bosch Performance Line SX und 400-Wh-Akku. Rahmenmaterial laut Datenblatt: Carbon. Der CHF-Preis stammt von der Schweizer Herstellerseite.",
+  "features": [
+   "Akku 400 Wh",
+   "Rahmen: Synapse Neo Carbon, internal downtube battery",
+   "Modellnummer C67074U"
+  ],
+  "colours": [
+   "Grey"
+  ],
+  "sourceUrl": "https://www.cannondale.com/de-ch/bikes/electric/e-road/synapse-neo-allroad/synapse-neo-allroad-2",
+  "priceNote": "CHF-Preis laut cannondale.com/de-ch Produktseite, abgerufen 2026-10-31 (Modellnummer C67074U)",
+  "imageSources": [
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_desktop_1.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 2, Produktbild 1"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_desktop_2.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 2, Produktbild 2"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_na_desktop_3.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 2, Produktbild 3"
+   },
+   {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my24/bikes/electric/e-road/synapse-neo-allroad/pdp/c24_synapseneoallroad_pdp_desktop_4.ashx",
+    "alt": "Cannondale Synapse Neo Allroad 2, Produktbild 4"
+   }
+  ]
+ },
+ {
+  "id": "p-39",
   "slug": "cube-kathmandu-hybrid-one11-hpc-slt-800",
   "name": "Cube Kathmandu Hybrid ONE11 HPC SLT 800",
   "brandId": "cube",
@@ -323,7 +2833,7 @@
   ]
  },
  {
-  "id": "p-5",
+  "id": "p-40",
   "slug": "cube-kathmandu-hybrid-one11-hpc-slx-800",
   "name": "Cube Kathmandu Hybrid ONE11 HPC SLX 800",
   "brandId": "cube",
@@ -411,7 +2921,7 @@
   ]
  },
  {
-  "id": "p-6",
+  "id": "p-41",
   "slug": "cube-kathmandu-hybrid-deluxe-slx-800",
   "name": "Cube Kathmandu Hybrid Deluxe SLX 800",
   "brandId": "cube",
@@ -499,7 +3009,7 @@
   ]
  },
  {
-  "id": "p-7",
+  "id": "p-42",
   "slug": "cube-kathmandu-hybrid-deluxe-exc-800",
   "name": "Cube Kathmandu Hybrid Deluxe EXC 800",
   "brandId": "cube",
@@ -586,7 +3096,7 @@
   ]
  },
  {
-  "id": "p-8",
+  "id": "p-43",
   "slug": "cube-kathmandu-hybrid-c-62-slt-400x",
   "name": "Cube Kathmandu Hybrid C:62 SLT 400X",
   "brandId": "cube",
@@ -673,7 +3183,7 @@
   ]
  },
  {
-  "id": "p-9",
+  "id": "p-44",
   "slug": "cube-kathmandu-hybrid-slt-800",
   "name": "Cube Kathmandu Hybrid SLT 800",
   "brandId": "cube",
@@ -760,7 +3270,7 @@
   ]
  },
  {
-  "id": "p-10",
+  "id": "p-45",
   "slug": "cube-kathmandu-hybrid-slx-800",
   "name": "Cube Kathmandu Hybrid SLX 800",
   "brandId": "cube",
@@ -848,7 +3358,7 @@
   ]
  },
  {
-  "id": "p-11",
+  "id": "p-46",
   "slug": "cube-kathmandu-hybrid-45-800",
   "name": "Cube Kathmandu Hybrid 45 800",
   "brandId": "cube",
@@ -934,7 +3444,7 @@
   ]
  },
  {
-  "id": "p-12",
+  "id": "p-47",
   "slug": "cube-reaction-hybrid-slt-800",
   "name": "Cube Reaction Hybrid SLT 800",
   "brandId": "cube",
@@ -1021,7 +3531,7 @@
   ]
  },
  {
-  "id": "p-13",
+  "id": "p-48",
   "slug": "cube-reaction-hybrid-slx-800-fe",
   "name": "Cube Reaction Hybrid SLX 800 FE",
   "brandId": "cube",
@@ -1111,7 +3621,7 @@
   ]
  },
  {
-  "id": "p-14",
+  "id": "p-49",
   "slug": "cube-reaction-hybrid-slx-800",
   "name": "Cube Reaction Hybrid SLX 800",
   "brandId": "cube",
@@ -1199,7 +3709,7 @@
   ]
  },
  {
-  "id": "p-15",
+  "id": "p-50",
   "slug": "cube-reaction-hybrid-race-800-fe",
   "name": "Cube Reaction Hybrid Race 800 FE",
   "brandId": "cube",
@@ -1288,7 +3798,7 @@
   ]
  },
  {
-  "id": "p-16",
+  "id": "p-51",
   "slug": "cube-reaction-hybrid-race-800",
   "name": "Cube Reaction Hybrid Race 800",
   "brandId": "cube",
@@ -1376,7 +3886,7 @@
   ]
  },
  {
-  "id": "p-17",
+  "id": "p-52",
   "slug": "cube-reaction-hybrid-pro-800-fe",
   "name": "Cube Reaction Hybrid Pro 800 FE",
   "brandId": "cube",
@@ -1466,7 +3976,7 @@
   ]
  },
  {
-  "id": "p-18",
+  "id": "p-53",
   "slug": "cube-stereo-hybrid-one77-hpc-slt-800",
   "name": "Cube Stereo Hybrid ONE77 HPC SLT 800",
   "brandId": "cube",
@@ -1551,7 +4061,7 @@
   ]
  },
  {
-  "id": "p-19",
+  "id": "p-54",
   "slug": "cube-stereo-hybrid-one44-hpc-slt-800",
   "name": "Cube Stereo Hybrid ONE44 HPC SLT 800",
   "brandId": "cube",
@@ -1636,7 +4146,7 @@
   ]
  },
  {
-  "id": "p-20",
+  "id": "p-55",
   "slug": "cube-stereo-hybrid-one77-hpc-at-800",
   "name": "Cube Stereo Hybrid ONE77 HPC AT 800",
   "brandId": "cube",
@@ -1721,7 +4231,7 @@
   ]
  },
  {
-  "id": "p-21",
+  "id": "p-56",
   "slug": "cube-stereo-hybrid-one44-hpc-at-800",
   "name": "Cube Stereo Hybrid ONE44 HPC AT 800",
   "brandId": "cube",
@@ -1807,7 +4317,7 @@
   ]
  },
  {
-  "id": "p-22",
+  "id": "p-57",
   "slug": "cube-stereo-hybrid-one44-hpc-super-tm-800",
   "name": "Cube Stereo Hybrid ONE44 HPC Super TM 800",
   "brandId": "cube",
@@ -1893,7 +4403,7 @@
   ]
  },
  {
-  "id": "p-23",
+  "id": "p-58",
   "slug": "cube-stereo-hybrid-one77-hpc-tm-800",
   "name": "Cube Stereo Hybrid ONE77 HPC TM 800",
   "brandId": "cube",
@@ -1978,7 +4488,7 @@
   ]
  },
  {
-  "id": "p-24",
+  "id": "p-59",
   "slug": "cube-stereo-hybrid-one44-hpc-tm-800",
   "name": "Cube Stereo Hybrid ONE44 HPC TM 800",
   "brandId": "cube",
@@ -2063,7 +4573,7 @@
   ]
  },
  {
-  "id": "p-25",
+  "id": "p-60",
   "slug": "cube-stereo-hybrid-one44-hpc-slx-evo-800",
   "name": "Cube Stereo Hybrid ONE44 HPC SLX EVO 800",
   "brandId": "cube",
@@ -2148,7 +4658,7 @@
   ]
  },
  {
-  "id": "p-26",
+  "id": "p-61",
   "slug": "cube-stereo-hybrid-one44-hpc-slx-800",
   "name": "Cube Stereo Hybrid ONE44 HPC SLX 800",
   "brandId": "cube",
@@ -2233,7 +4743,7 @@
   ]
  },
  {
-  "id": "p-27",
+  "id": "p-62",
   "slug": "cube-stereo-hybrid-one77-hpc-slx-800",
   "name": "Cube Stereo Hybrid ONE77 HPC SLX 800",
   "brandId": "cube",
@@ -2320,7 +4830,7 @@
   ]
  },
  {
-  "id": "p-28",
+  "id": "p-63",
   "slug": "cube-stereo-hybrid-one44-slx-800-fe",
   "name": "Cube Stereo Hybrid ONE44 SLX 800 FE",
   "brandId": "cube",
@@ -2409,7 +4919,7 @@
   ]
  },
  {
-  "id": "p-29",
+  "id": "p-64",
   "slug": "cube-stereo-hybrid-one44-hpc-exc-800",
   "name": "Cube Stereo Hybrid ONE44 HPC EXC 800",
   "brandId": "cube",
@@ -2496,7 +5006,7 @@
   ]
  },
  {
-  "id": "p-30",
+  "id": "p-65",
   "slug": "cube-stereo-hybrid-one44-slx-800",
   "name": "Cube Stereo Hybrid ONE44 SLX 800",
   "brandId": "cube",
@@ -2583,7 +5093,7 @@
   ]
  },
  {
-  "id": "p-31",
+  "id": "p-66",
   "slug": "cube-stereo-hybrid-one22-slx-800-fe",
   "name": "Cube Stereo Hybrid ONE22 SLX 800 FE",
   "brandId": "cube",
@@ -2672,7 +5182,7 @@
   ]
  },
  {
-  "id": "p-32",
+  "id": "p-67",
   "slug": "cube-stereo-hybrid-one44-hpc-race-800",
   "name": "Cube Stereo Hybrid ONE44 HPC Race 800",
   "brandId": "cube",
@@ -2759,7 +5269,7 @@
   ]
  },
  {
-  "id": "p-33",
+  "id": "p-68",
   "slug": "cube-stereo-hybrid-one77-hpc-race-800",
   "name": "Cube Stereo Hybrid ONE77 HPC Race 800",
   "brandId": "cube",
@@ -2845,7 +5355,7 @@
   ]
  },
  {
-  "id": "p-34",
+  "id": "p-69",
   "slug": "cube-stereo-hybrid-one22-slx-800",
   "name": "Cube Stereo Hybrid ONE22 SLX 800",
   "brandId": "cube",
@@ -2932,7 +5442,7 @@
   ]
  },
  {
-  "id": "p-35",
+  "id": "p-70",
   "slug": "cube-ams-hybrid-177-c-62-super-tm-600x",
   "name": "Cube AMS Hybrid 177 C:62 Super TM 600X",
   "brandId": "cube",
@@ -3013,7 +5523,7 @@
   ]
  },
  {
-  "id": "p-36",
+  "id": "p-71",
   "slug": "cube-ams-hybrid-one44-c-68x-slt-400x",
   "name": "Cube AMS Hybrid ONE44 C:68X SLT 400X",
   "brandId": "cube",
@@ -3089,7 +5599,7 @@
   ]
  },
  {
-  "id": "p-37",
+  "id": "p-72",
   "slug": "cube-ams-hybrid-177-c-62-at-600x",
   "name": "Cube AMS Hybrid 177 C:62 AT 600X",
   "brandId": "cube",
@@ -3170,7 +5680,7 @@
   ]
  },
  {
-  "id": "p-38",
+  "id": "p-73",
   "slug": "cube-ams-hybrid-one44-c-68x-tm-400x",
   "name": "Cube AMS Hybrid ONE44 C:68X TM 400X",
   "brandId": "cube",
@@ -3242,7 +5752,7 @@
   ]
  },
  {
-  "id": "p-39",
+  "id": "p-74",
   "slug": "cube-ams-hybrid-one44-c-68x-slx-400x",
   "name": "Cube AMS Hybrid ONE44 C:68X SLX 400X",
   "brandId": "cube",
@@ -3314,7 +5824,7 @@
   ]
  },
  {
-  "id": "p-40",
+  "id": "p-75",
   "slug": "cube-ams-hybrid-177-c-62-tm-600x",
   "name": "Cube AMS Hybrid 177 C:62 TM 600X",
   "brandId": "cube",
@@ -3395,7 +5905,7 @@
   ]
  },
  {
-  "id": "p-41",
+  "id": "p-76",
   "slug": "cube-ams-hybrid-one44-c-62-race-400x",
   "name": "Cube AMS Hybrid ONE44 C:62 Race 400X",
   "brandId": "cube",
@@ -3471,7 +5981,7 @@
   ]
  },
  {
-  "id": "p-42",
+  "id": "p-77",
   "slug": "cube-ams-hybrid-one44-c-62-pro-400x",
   "name": "Cube AMS Hybrid ONE44 C:62 Pro 400X",
   "brandId": "cube",
@@ -3547,7 +6057,7 @@
   ]
  },
  {
-  "id": "p-43",
+  "id": "p-78",
   "slug": "cube-touring-hybrid-deluxe-slx-800",
   "name": "Cube Touring Hybrid Deluxe SLX 800",
   "brandId": "cube",
@@ -3630,7 +6140,7 @@
   ]
  },
  {
-  "id": "p-44",
+  "id": "p-79",
   "slug": "cube-touring-hybrid-pro-800",
   "name": "Cube Touring Hybrid Pro 800",
   "brandId": "cube",
@@ -3713,7 +6223,7 @@
   ]
  },
  {
-  "id": "p-45",
+  "id": "p-80",
   "slug": "cube-touring-hybrid-one-600",
   "name": "Cube Touring Hybrid ONE 600",
   "brandId": "cube",
@@ -3796,7 +6306,7 @@
   ]
  },
  {
-  "id": "p-46",
+  "id": "p-81",
   "slug": "cube-nuride-hybrid-one11-hpc-slx-800",
   "name": "Cube Nuride Hybrid ONE11 HPC SLX 800",
   "brandId": "cube",
@@ -3880,7 +6390,7 @@
   ]
  },
  {
-  "id": "p-47",
+  "id": "p-82",
   "slug": "cube-nuride-hybrid-exc-800",
   "name": "Cube Nuride Hybrid EXC 800",
   "brandId": "cube",
@@ -3963,7 +6473,7 @@
   ]
  },
  {
-  "id": "p-48",
+  "id": "p-83",
   "slug": "cube-nuride-hybrid-pro-800",
   "name": "Cube Nuride Hybrid Pro 800",
   "brandId": "cube",
@@ -4046,7 +6556,7 @@
   ]
  },
  {
-  "id": "p-49",
+  "id": "p-84",
   "slug": "cube-nuride-hybrid-performance-720",
   "name": "Cube Nuride Hybrid Performance 720",
   "brandId": "cube",
@@ -4129,7 +6639,7 @@
   ]
  },
  {
-  "id": "p-50",
+  "id": "p-85",
   "slug": "cube-editor-hybrid-slt-400x-fe",
   "name": "Cube Editor Hybrid SLT 400X FE",
   "brandId": "cube",
@@ -4210,7 +6720,7 @@
   ]
  },
  {
-  "id": "p-51",
+  "id": "p-86",
   "slug": "cube-editor-hybrid-slx-400x-fe",
   "name": "Cube Editor Hybrid SLX 400X FE",
   "brandId": "cube",
@@ -4291,7 +6801,7 @@
   ]
  },
  {
-  "id": "p-52",
+  "id": "p-87",
   "slug": "cube-editor-hybrid-pro-360-fe",
   "name": "Cube Editor Hybrid Pro 360 FE",
   "brandId": "cube",
@@ -4374,7 +6884,7 @@
   ]
  },
  {
-  "id": "p-53",
+  "id": "p-88",
   "slug": "cube-editor-hybrid-one-360-fe",
   "name": "Cube Editor Hybrid ONE 360 FE",
   "brandId": "cube",
@@ -4457,7 +6967,7 @@
   ]
  },
  {
-  "id": "p-54",
+  "id": "p-89",
   "slug": "cube-nulane-hybrid-c-62-slx-400x-fe",
   "name": "Cube Nulane Hybrid C:62 SLX 400X FE",
   "brandId": "cube",
@@ -4539,7 +7049,7 @@
   ]
  },
  {
-  "id": "p-55",
+  "id": "p-90",
   "slug": "cube-nulane-hybrid-c-62-slx-400x",
   "name": "Cube Nulane Hybrid C:62 SLX 400X",
   "brandId": "cube",
@@ -4620,7 +7130,7 @@
   ]
  },
  {
-  "id": "p-56",
+  "id": "p-91",
   "slug": "cube-nulane-hybrid-c-62-race-400x-fe",
   "name": "Cube Nulane Hybrid C:62 Race 400X FE",
   "brandId": "cube",
@@ -4702,7 +7212,7 @@
   ]
  },
  {
-  "id": "p-57",
+  "id": "p-92",
   "slug": "cube-nulane-hybrid-c-62-race-400x",
   "name": "Cube Nulane Hybrid C:62 Race 400X",
   "brandId": "cube",
@@ -4783,7 +7293,7 @@
   ]
  },
  {
-  "id": "p-58",
+  "id": "p-93",
   "slug": "cube-supreme-hybrid-deluxe-slt-600",
   "name": "Cube Supreme Hybrid Deluxe SLT 600",
   "brandId": "cube",
@@ -4865,7 +7375,7 @@
   ]
  },
  {
-  "id": "p-59",
+  "id": "p-94",
   "slug": "cube-supreme-hybrid-deluxe-slx-600",
   "name": "Cube Supreme Hybrid Deluxe SLX 600",
   "brandId": "cube",
@@ -4948,7 +7458,7 @@
   ]
  },
  {
-  "id": "p-60",
+  "id": "p-95",
   "slug": "cube-supreme-hybrid-deluxe-pro-600",
   "name": "Cube Supreme Hybrid Deluxe Pro 600",
   "brandId": "cube",
@@ -5032,7 +7542,7 @@
   ]
  },
  {
-  "id": "p-61",
+  "id": "p-96",
   "slug": "cube-supreme-hybrid-comfort-pro-600",
   "name": "Cube Supreme Hybrid Comfort Pro 600",
   "brandId": "cube",
@@ -5116,7 +7626,7 @@
   ]
  },
  {
-  "id": "p-62",
+  "id": "p-97",
   "slug": "cube-supreme-rt-hybrid-deluxe-ex-600",
   "name": "Cube Supreme RT Hybrid Deluxe EX 600",
   "brandId": "cube",
@@ -5200,7 +7710,7 @@
   ]
  },
  {
-  "id": "p-63",
+  "id": "p-98",
   "slug": "cube-supreme-hybrid-comfort-one-600",
   "name": "Cube Supreme Hybrid Comfort ONE 600",
   "brandId": "cube",
@@ -5284,7 +7794,7 @@
   ]
  },
  {
-  "id": "p-64",
+  "id": "p-99",
   "slug": "cube-aruba-hybrid-600",
   "name": "Cube Aruba Hybrid 600",
   "brandId": "cube",
@@ -5369,7 +7879,7 @@
   ]
  },
  {
-  "id": "p-65",
+  "id": "p-100",
   "slug": "cube-compact-hybrid-deluxe-540",
   "name": "Cube Compact Hybrid Deluxe 540",
   "brandId": "cube",
@@ -5449,7 +7959,7 @@
   ]
  },
  {
-  "id": "p-66",
+  "id": "p-101",
   "slug": "cube-compact-hybrid-540",
   "name": "Cube Compact Hybrid 540",
   "brandId": "cube",
@@ -5529,7 +8039,7 @@
   ]
  },
  {
-  "id": "p-67",
+  "id": "p-102",
   "slug": "cube-fold-hybrid-deluxe-540",
   "name": "Cube Fold Hybrid Deluxe 540",
   "brandId": "cube",
@@ -5610,7 +8120,7 @@
   ]
  },
  {
-  "id": "p-68",
+  "id": "p-103",
   "slug": "cube-fold-hybrid-540",
   "name": "Cube Fold Hybrid 540",
   "brandId": "cube",
@@ -5690,7 +8200,7 @@
   ]
  },
  {
-  "id": "p-69",
+  "id": "p-104",
   "slug": "cube-nuroad-hybrid-c-62-slt-400x",
   "name": "Cube Nuroad Hybrid C:62 SLT 400X",
   "brandId": "cube",
@@ -5771,7 +8281,7 @@
   ]
  },
  {
-  "id": "p-70",
+  "id": "p-105",
   "slug": "cube-nuroad-hybrid-c-62-slx-400x-fe",
   "name": "Cube Nuroad Hybrid C:62 SLX 400X FE",
   "brandId": "cube",
@@ -5853,7 +8363,7 @@
   ]
  },
  {
-  "id": "p-71",
+  "id": "p-106",
   "slug": "cube-nuroad-hybrid-c-62-slx-400x",
   "name": "Cube Nuroad Hybrid C:62 SLX 400X",
   "brandId": "cube",
@@ -5934,7 +8444,7 @@
   ]
  },
  {
-  "id": "p-72",
+  "id": "p-107",
   "slug": "cube-nuroad-hybrid-c-62-exc-400x-fe",
   "name": "Cube Nuroad Hybrid C:62 EXC 400X FE",
   "brandId": "cube",
@@ -6016,7 +8526,7 @@
   ]
  },
  {
-  "id": "p-73",
+  "id": "p-108",
   "slug": "cube-nuroad-hybrid-c-62-exc-400x",
   "name": "Cube Nuroad Hybrid C:62 EXC 400X",
   "brandId": "cube",
@@ -6097,7 +8607,7 @@
   ]
  },
  {
-  "id": "p-74",
+  "id": "p-109",
   "slug": "cube-nuroad-hybrid-c-62-race-400x-fe",
   "name": "Cube Nuroad Hybrid C:62 Race 400X FE",
   "brandId": "cube",
@@ -6179,7 +8689,7 @@
   ]
  },
  {
-  "id": "p-75",
+  "id": "p-110",
   "slug": "cube-nuroad-hybrid-c-62-race-400x",
   "name": "Cube Nuroad Hybrid C:62 Race 400X",
   "brandId": "cube",
@@ -6260,7 +8770,7 @@
   ]
  },
  {
-  "id": "p-76",
+  "id": "p-111",
   "slug": "cube-cargo-hybrid-comfort-slx-800",
   "name": "Cube Cargo Hybrid Comfort SLX 800",
   "brandId": "cube",
@@ -6337,7 +8847,7 @@
   ]
  },
  {
-  "id": "p-77",
+  "id": "p-112",
   "slug": "cube-cargo-hybrid-comfort-pro-family-800",
   "name": "Cube Cargo Hybrid Comfort Pro Family 800",
   "brandId": "cube",
@@ -6410,7 +8920,7 @@
   ]
  },
  {
-  "id": "p-78",
+  "id": "p-113",
   "slug": "cube-cargo-hybrid-comfort-pro-800",
   "name": "Cube Cargo Hybrid Comfort Pro 800",
   "brandId": "cube",
@@ -6487,7 +8997,7 @@
   ]
  },
  {
-  "id": "p-79",
+  "id": "p-114",
   "slug": "cube-cargo-hybrid-800",
   "name": "Cube Cargo Hybrid 800",
   "brandId": "cube",
@@ -6564,7 +9074,7 @@
   ]
  },
  {
-  "id": "p-80",
+  "id": "p-115",
   "slug": "cube-longtail-hybrid-deluxe-family-800",
   "name": "Cube Longtail Hybrid Deluxe Family 800",
   "brandId": "cube",
@@ -6644,7 +9154,7 @@
   ]
  },
  {
-  "id": "p-81",
+  "id": "p-116",
   "slug": "cube-longtail-hybrid-deluxe-800",
   "name": "Cube Longtail Hybrid Deluxe 800",
   "brandId": "cube",
@@ -6726,7 +9236,7 @@
   ]
  },
  {
-  "id": "p-82",
+  "id": "p-117",
   "slug": "cube-longtail-hybrid-800",
   "name": "Cube Longtail Hybrid 800",
   "brandId": "cube",
@@ -6807,7 +9317,7 @@
   ]
  },
  {
-  "id": "p-83",
+  "id": "p-118",
   "slug": "cube-reaction-hybrid-rookie-540",
   "name": "Cube Reaction Hybrid Rookie 540",
   "brandId": "cube",
@@ -6885,7 +9395,7 @@
   ]
  },
  {
-  "id": "p-84",
+  "id": "p-119",
   "slug": "giant-reign-advanced-e-2027",
   "name": "Giant Reign Advanced E+ (2027)",
   "brandId": "giant",
@@ -6951,7 +9461,7 @@
   ]
  },
  {
-  "id": "p-85",
+  "id": "p-120",
   "slug": "giant-trance-advanced-e-2027",
   "name": "Giant Trance Advanced E+ (2027)",
   "brandId": "giant",
@@ -7014,7 +9524,7 @@
   ]
  },
  {
-  "id": "p-86",
+  "id": "p-121",
   "slug": "giant-fathom-e-2027",
   "name": "Giant Fathom E+ (2027)",
   "brandId": "giant",
@@ -7078,7 +9588,7 @@
   ]
  },
  {
-  "id": "p-87",
+  "id": "p-122",
   "slug": "giant-talon-e-2027",
   "name": "Giant Talon E+ (2027)",
   "brandId": "giant",
@@ -7160,7 +9670,7 @@
   ]
  },
  {
-  "id": "p-88",
+  "id": "p-123",
   "slug": "giant-stance-e-2027",
   "name": "Giant Stance E+ (2027)",
   "brandId": "giant",
@@ -7231,7 +9741,7 @@
   ]
  },
  {
-  "id": "p-89",
+  "id": "p-124",
   "slug": "giant-defy-advanced-e-elite",
   "name": "Giant Defy Advanced E+ Elite",
   "brandId": "giant",
@@ -7321,7 +9831,7 @@
   ]
  },
  {
-  "id": "p-90",
+  "id": "p-125",
   "slug": "giant-reign-advanced-e-2026",
   "name": "Giant Reign Advanced E+ (2026)",
   "brandId": "giant",
@@ -7385,7 +9895,7 @@
   ]
  },
  {
-  "id": "p-91",
+  "id": "p-126",
   "slug": "giant-talon-e-2026",
   "name": "Giant Talon E+ (2026)",
   "brandId": "giant",
@@ -7464,7 +9974,7 @@
   ]
  },
  {
-  "id": "p-92",
+  "id": "p-127",
   "slug": "giant-talon-e-ex-2026",
   "name": "Giant Talon E+ EX (2026)",
   "brandId": "giant",
@@ -7529,7 +10039,7 @@
   ]
  },
  {
-  "id": "p-93",
+  "id": "p-128",
   "slug": "haibike-allmtn-2",
   "name": "Haibike ALLMTN 2",
   "brandId": "haibike",
@@ -7591,7 +10101,7 @@
   ]
  },
  {
-  "id": "p-94",
+  "id": "p-129",
   "slug": "haibike-alltrack-10",
   "name": "Haibike ALLTRACK 10",
   "brandId": "haibike",
@@ -7673,7 +10183,7 @@
   ]
  },
  {
-  "id": "p-95",
+  "id": "p-130",
   "slug": "haibike-allmtn-4",
   "name": "Haibike ALLMTN 4",
   "brandId": "haibike",
@@ -7759,7 +10269,7 @@
   ]
  },
  {
-  "id": "p-96",
+  "id": "p-131",
   "slug": "haibike-alltrail-10",
   "name": "Haibike ALLTRAIL 10",
   "brandId": "haibike",
@@ -7850,7 +10360,7 @@
   ]
  },
  {
-  "id": "p-97",
+  "id": "p-132",
   "slug": "haibike-alltrail-8",
   "name": "Haibike ALLTRAIL 8",
   "brandId": "haibike",
@@ -7938,7 +10448,7 @@
   ]
  },
  {
-  "id": "p-98",
+  "id": "p-133",
   "slug": "haibike-allmtn-cf-9-5-abs",
   "name": "Haibike ALLMTN CF 9.5 ABS",
   "brandId": "haibike",
@@ -8000,7 +10510,7 @@
   ]
  },
  {
-  "id": "p-99",
+  "id": "p-134",
   "slug": "haibike-adventr-6",
   "name": "Haibike ADVENTR 6",
   "brandId": "haibike",
@@ -8068,7 +10578,7 @@
   ]
  },
  {
-  "id": "p-100",
+  "id": "p-135",
   "slug": "haibike-adventr-4",
   "name": "Haibike ADVENTR 4",
   "brandId": "haibike",
@@ -8160,7 +10670,7 @@
   ]
  },
  {
-  "id": "p-101",
+  "id": "p-136",
   "slug": "haibike-trekking-4",
   "name": "Haibike TREKKING 4",
   "brandId": "haibike",
@@ -8228,7 +10738,7 @@
   ]
  },
  {
-  "id": "p-102",
+  "id": "p-137",
   "slug": "haibike-trekking-7-5",
   "name": "Haibike TREKKING 7.5",
   "brandId": "haibike",
@@ -8296,7 +10806,7 @@
   ]
  },
  {
-  "id": "p-103",
+  "id": "p-138",
   "slug": "haibike-alltrail-6",
   "name": "Haibike ALLTRAIL 6",
   "brandId": "haibike",
@@ -8358,7 +10868,7 @@
   ]
  },
  {
-  "id": "p-104",
+  "id": "p-139",
   "slug": "haibike-alltrack-6",
   "name": "Haibike ALLTRACK 6",
   "brandId": "haibike",
@@ -8420,7 +10930,7 @@
   ]
  },
  {
-  "id": "p-105",
+  "id": "p-140",
   "slug": "haibike-alltrail-4",
   "name": "Haibike ALLTRAIL 4",
   "brandId": "haibike",
@@ -8482,7 +10992,7 @@
   ]
  },
  {
-  "id": "p-106",
+  "id": "p-141",
   "slug": "haibike-trekking-6-5",
   "name": "Haibike TREKKING 6.5",
   "brandId": "haibike",
@@ -8550,7 +11060,7 @@
   ]
  },
  {
-  "id": "p-107",
+  "id": "p-142",
   "slug": "haibike-allmtn-cf-9",
   "name": "Haibike ALLMTN CF 9",
   "brandId": "haibike",
@@ -8617,7 +11127,7 @@
   ]
  },
  {
-  "id": "p-108",
+  "id": "p-143",
   "slug": "haibike-allmtn-6",
   "name": "Haibike ALLMTN 6",
   "brandId": "haibike",
@@ -8684,7 +11194,7 @@
   ]
  },
  {
-  "id": "p-109",
+  "id": "p-144",
   "slug": "haibike-hybe-cf-11",
   "name": "Haibike HYBE CF 11",
   "brandId": "haibike",
@@ -8770,7 +11280,7 @@
   ]
  },
  {
-  "id": "p-110",
+  "id": "p-145",
   "slug": "haibike-adventr-8-5",
   "name": "Haibike ADVENTR 8.5",
   "brandId": "haibike",
@@ -8838,7 +11348,7 @@
   ]
  },
  {
-  "id": "p-111",
+  "id": "p-146",
   "slug": "haibike-trekking-3",
   "name": "Haibike TREKKING 3",
   "brandId": "haibike",
@@ -8906,7 +11416,7 @@
   ]
  },
  {
-  "id": "p-112",
+  "id": "p-147",
   "slug": "haibike-alltrack-4",
   "name": "Haibike ALLTRACK 4",
   "brandId": "haibike",
@@ -8968,7 +11478,7 @@
   ]
  },
  {
-  "id": "p-113",
+  "id": "p-148",
   "slug": "haibike-alltrack-11-abs",
   "name": "Haibike ALLTRACK 11 ABS",
   "brandId": "haibike",
@@ -9058,7 +11568,7 @@
   ]
  },
  {
-  "id": "p-114",
+  "id": "p-149",
   "slug": "haibike-alltrack-6-5",
   "name": "Haibike ALLTRACK 6.5",
   "brandId": "haibike",
@@ -9140,7 +11650,7 @@
   ]
  },
  {
-  "id": "p-115",
+  "id": "p-150",
   "slug": "haibike-hybe-cf-9",
   "name": "Haibike HYBE CF 9",
   "brandId": "haibike",
@@ -9206,7 +11716,7 @@
   ]
  },
  {
-  "id": "p-116",
+  "id": "p-151",
   "slug": "haibike-lyke-cf-se",
   "name": "Haibike LYKE CF SE",
   "brandId": "haibike",
@@ -9272,7 +11782,7 @@
   ]
  },
  {
-  "id": "p-117",
+  "id": "p-152",
   "slug": "haibike-lyke-cf-11",
   "name": "Haibike LYKE CF 11",
   "brandId": "haibike",
@@ -9358,7 +11868,7 @@
   ]
  },
  {
-  "id": "p-118",
+  "id": "p-153",
   "slug": "haibike-lyke-cf-10",
   "name": "Haibike LYKE CF 10",
   "brandId": "haibike",
@@ -9440,7 +11950,7 @@
   ]
  },
  {
-  "id": "p-119",
+  "id": "p-154",
   "slug": "haibike-nduro-8-freeride",
   "name": "Haibike NDURO 8 Freeride",
   "brandId": "haibike",
@@ -9502,7 +12012,7 @@
   ]
  },
  {
-  "id": "p-120",
+  "id": "p-155",
   "slug": "haibike-allmtn-cf-11-trn-iq",
   "name": "Haibike ALLMTN CF 11 TRN/IQ",
   "brandId": "haibike",
@@ -9588,7 +12098,7 @@
   ]
  },
  {
-  "id": "p-121",
+  "id": "p-156",
   "slug": "haibike-allmtn-cf-10-trn-iq",
   "name": "Haibike ALLMTN CF 10 TRN/IQ",
   "brandId": "haibike",
@@ -9650,7 +12160,7 @@
   ]
  },
  {
-  "id": "p-122",
+  "id": "p-157",
   "slug": "haibike-adventr-se",
   "name": "Haibike ADVENTR SE",
   "brandId": "haibike",
@@ -9736,7 +12246,7 @@
   ]
  },
  {
-  "id": "p-123",
+  "id": "p-158",
   "slug": "haibike-adventr-11-abs",
   "name": "Haibike ADVENTR 11 ABS",
   "brandId": "haibike",
@@ -9828,7 +12338,7 @@
   ]
  },
  {
-  "id": "p-124",
+  "id": "p-159",
   "slug": "haibike-adventr-10",
   "name": "Haibike ADVENTR 10",
   "brandId": "haibike",
@@ -9920,7 +12430,7 @@
   ]
  },
  {
-  "id": "p-125",
+  "id": "p-160",
   "slug": "haibike-trekking-9-abs",
   "name": "Haibike TREKKING 9 ABS",
   "brandId": "haibike",
@@ -10012,7 +12522,7 @@
   ]
  },
  {
-  "id": "p-126",
+  "id": "p-161",
   "slug": "haibike-trekking-7",
   "name": "Haibike TREKKING 7",
   "brandId": "haibike",
@@ -10106,7 +12616,7 @@
   ]
  },
  {
-  "id": "p-127",
+  "id": "p-162",
   "slug": "haibike-trekking-5",
   "name": "Haibike TREKKING 5",
   "brandId": "haibike",
@@ -10200,7 +12710,7 @@
   ]
  },
  {
-  "id": "p-128",
+  "id": "p-163",
   "slug": "haibike-alltrail-9",
   "name": "Haibike ALLTRAIL 9",
   "brandId": "haibike",
@@ -10286,7 +12796,7 @@
   ]
  },
  {
-  "id": "p-129",
+  "id": "p-164",
   "slug": "haibike-alltrail-5",
   "name": "Haibike ALLTRAIL 5",
   "brandId": "haibike",
@@ -10372,7 +12882,7 @@
   ]
  },
  {
-  "id": "p-130",
+  "id": "p-165",
   "slug": "haibike-alltrail-3",
   "name": "Haibike ALLTRAIL 3",
   "brandId": "haibike",
@@ -10463,7 +12973,7 @@
   ]
  },
  {
-  "id": "p-131",
+  "id": "p-166",
   "slug": "haibike-alltrail-10-5-abs",
   "name": "Haibike ALLTRAIL 10.5 ABS",
   "brandId": "haibike",
@@ -10555,7 +13065,7 @@
   ]
  },
  {
-  "id": "p-132",
+  "id": "p-167",
   "slug": "kalkhoff-image-1-advance",
   "name": "Kalkhoff Image 1 Advance",
   "brandId": "kalkhoff",
@@ -10650,7 +13160,7 @@
   ]
  },
  {
-  "id": "p-133",
+  "id": "p-168",
   "slug": "kalkhoff-image-3-advance",
   "name": "Kalkhoff Image 3 Advance",
   "brandId": "kalkhoff",
@@ -10743,7 +13253,7 @@
   ]
  },
  {
-  "id": "p-134",
+  "id": "p-169",
   "slug": "kalkhoff-image-3-excite",
   "name": "Kalkhoff Image 3 Excite",
   "brandId": "kalkhoff",
@@ -10837,7 +13347,7 @@
   ]
  },
  {
-  "id": "p-135",
+  "id": "p-170",
   "slug": "kalkhoff-image-5-advance",
   "name": "Kalkhoff Image 5+ Advance",
   "brandId": "kalkhoff",
@@ -10932,7 +13442,7 @@
   ]
  },
  {
-  "id": "p-136",
+  "id": "p-171",
   "slug": "kalkhoff-image-5-season",
   "name": "Kalkhoff Image 5 Season",
   "brandId": "kalkhoff",
@@ -11025,7 +13535,7 @@
   ]
  },
  {
-  "id": "p-137",
+  "id": "p-172",
   "slug": "kalkhoff-image-5-auto",
   "name": "Kalkhoff Image 5 Auto",
   "brandId": "kalkhoff",
@@ -11118,7 +13628,7 @@
   ]
  },
  {
-  "id": "p-138",
+  "id": "p-173",
   "slug": "kalkhoff-image-l-season",
   "name": "Kalkhoff Image L Season",
   "brandId": "kalkhoff",
@@ -11211,7 +13721,7 @@
   ]
  },
  {
-  "id": "p-139",
+  "id": "p-174",
   "slug": "kalkhoff-image-l-excite",
   "name": "Kalkhoff Image L Excite",
   "brandId": "kalkhoff",
@@ -11304,7 +13814,7 @@
   ]
  },
  {
-  "id": "p-140",
+  "id": "p-175",
   "slug": "kalkhoff-endeavour-3-move",
   "name": "Kalkhoff Endeavour 3 Move",
   "brandId": "kalkhoff",
@@ -11398,7 +13908,7 @@
   ]
  },
  {
-  "id": "p-141",
+  "id": "p-176",
   "slug": "kalkhoff-endeavour-3-excite",
   "name": "Kalkhoff Endeavour 3 Excite",
   "brandId": "kalkhoff",
@@ -11492,7 +14002,7 @@
   ]
  },
  {
-  "id": "p-142",
+  "id": "p-177",
   "slug": "kalkhoff-endeavour-5-season",
   "name": "Kalkhoff Endeavour 5 Season",
   "brandId": "kalkhoff",
@@ -11586,7 +14096,7 @@
   ]
  },
  {
-  "id": "p-143",
+  "id": "p-178",
   "slug": "kalkhoff-endeavour-5-advance",
   "name": "Kalkhoff Endeavour 5+ Advance",
   "brandId": "kalkhoff",
@@ -11682,7 +14192,7 @@
   ]
  },
  {
-  "id": "p-144",
+  "id": "p-179",
   "slug": "kalkhoff-endeavour-l-touring",
   "name": "Kalkhoff Endeavour L Touring",
   "brandId": "kalkhoff",
@@ -11767,7 +14277,7 @@
   ]
  },
  {
-  "id": "p-145",
+  "id": "p-180",
   "slug": "kalkhoff-endeavour-l-move",
   "name": "Kalkhoff Endeavour L Move",
   "brandId": "kalkhoff",
@@ -11844,7 +14354,7 @@
   ]
  },
  {
-  "id": "p-146",
+  "id": "p-181",
   "slug": "kalkhoff-entice-3-advance",
   "name": "Kalkhoff Entice 3 Advance",
   "brandId": "kalkhoff",
@@ -11938,7 +14448,7 @@
   ]
  },
  {
-  "id": "p-147",
+  "id": "p-182",
   "slug": "kalkhoff-entice-5-advance",
   "name": "Kalkhoff Entice 5+ Advance",
   "brandId": "kalkhoff",
@@ -12028,7 +14538,7 @@
   ]
  },
  {
-  "id": "p-148",
+  "id": "p-183",
   "slug": "kalkhoff-entice-5-move",
   "name": "Kalkhoff Entice 5+ Move",
   "brandId": "kalkhoff",
@@ -12118,7 +14628,7 @@
   ]
  },
  {
-  "id": "p-149",
+  "id": "p-184",
   "slug": "kalkhoff-entice-7-advance",
   "name": "Kalkhoff Entice 7+ Advance",
   "brandId": "kalkhoff",
@@ -12207,7 +14717,7 @@
   ]
  },
  {
-  "id": "p-150",
+  "id": "p-185",
   "slug": "kalkhoff-entice-l-advance",
   "name": "Kalkhoff Entice L Advance",
   "brandId": "kalkhoff",
@@ -12301,7 +14811,7 @@
   ]
  },
  {
-  "id": "p-151",
+  "id": "p-186",
   "slug": "kalkhoff-entice-5-advance-belt",
   "name": "Kalkhoff Entice 5+ Advance Belt",
   "brandId": "kalkhoff",
@@ -12391,7 +14901,7 @@
   ]
  },
  {
-  "id": "p-152",
+  "id": "p-187",
   "slug": "kalkhoff-image-5-advance-blx",
   "name": "Kalkhoff Image 5+ Advance BLX",
   "brandId": "kalkhoff",
@@ -12472,7 +14982,7 @@
   ]
  },
  {
-  "id": "p-153",
+  "id": "p-188",
   "slug": "kalkhoff-image-5-move",
   "name": "Kalkhoff Image 5+ Move",
   "brandId": "kalkhoff",
@@ -12562,7 +15072,7 @@
   ]
  },
  {
-  "id": "p-154",
+  "id": "p-189",
   "slug": "kalkhoff-endeavour-l-season",
   "name": "Kalkhoff Endeavour L Season",
   "brandId": "kalkhoff",
@@ -12648,7 +15158,7 @@
   ]
  },
  {
-  "id": "p-155",
+  "id": "p-190",
   "slug": "kalkhoff-image-3-advance-blx",
   "name": "Kalkhoff Image 3 Advance BLX",
   "brandId": "kalkhoff",
@@ -12728,7 +15238,7 @@
   ]
  },
  {
-  "id": "p-156",
+  "id": "p-191",
   "slug": "kalkhoff-endeavour-3-air",
   "name": "Kalkhoff Endeavour 3 Air",
   "brandId": "kalkhoff",
@@ -12818,7 +15328,7 @@
   ]
  },
  {
-  "id": "p-157",
+  "id": "p-192",
   "slug": "kalkhoff-entice-7-move",
   "name": "Kalkhoff Entice 7+ Move",
   "brandId": "kalkhoff",
@@ -12903,7 +15413,7 @@
   ]
  },
  {
-  "id": "p-158",
+  "id": "p-193",
   "slug": "kalkhoff-endeavour-5-auto",
   "name": "Kalkhoff Endeavour 5 Auto",
   "brandId": "kalkhoff",
@@ -12993,7 +15503,7 @@
   ]
  },
  {
-  "id": "p-159",
+  "id": "p-194",
   "slug": "kalkhoff-image-1-move",
   "name": "Kalkhoff Image 1 Move",
   "brandId": "kalkhoff",
@@ -13080,7 +15590,7 @@
   ]
  },
  {
-  "id": "p-160",
+  "id": "p-195",
   "slug": "kalkhoff-endeavour-1-move",
   "name": "Kalkhoff Endeavour 1 Move",
   "brandId": "kalkhoff",
@@ -13168,7 +15678,7 @@
   ]
  },
  {
-  "id": "p-161",
+  "id": "p-196",
   "slug": "kalkhoff-image-3-excite-380",
   "name": "Kalkhoff Image 3 Excite 380",
   "brandId": "kalkhoff",
@@ -13253,7 +15763,7 @@
   ]
  },
  {
-  "id": "p-162",
+  "id": "p-197",
   "slug": "kalkhoff-image-3-excite-blx",
   "name": "Kalkhoff Image 3 Excite BLX",
   "brandId": "kalkhoff",
@@ -13329,7 +15839,7 @@
   ]
  },
  {
-  "id": "p-163",
+  "id": "p-198",
   "slug": "kalkhoff-entice-3-excite-belt",
   "name": "Kalkhoff Entice 3 Excite Belt",
   "brandId": "kalkhoff",
@@ -13419,7 +15929,7 @@
   ]
  },
  {
-  "id": "p-164",
+  "id": "p-199",
   "slug": "kalkhoff-endeavour-3-season",
   "name": "Kalkhoff Endeavour 3 Season",
   "brandId": "kalkhoff",
@@ -13496,7 +16006,7 @@
   ]
  },
  {
-  "id": "p-165",
+  "id": "p-200",
   "slug": "kalkhoff-entice-3-season",
   "name": "Kalkhoff Entice 3 Season",
   "brandId": "kalkhoff",
@@ -13573,7 +16083,7 @@
   ]
  },
  {
-  "id": "p-166",
+  "id": "p-201",
   "slug": "kalkhoff-endeavour-l-excite",
   "name": "Kalkhoff Endeavour L Excite",
   "brandId": "kalkhoff",
@@ -13654,7 +16164,7 @@
   ]
  },
  {
-  "id": "p-167",
+  "id": "p-202",
   "slug": "riese-mueller-nevo5",
   "name": "Riese & Müller Nevo5",
   "brandId": "riese-mueller",
@@ -13744,7 +16254,7 @@
   ]
  },
  {
-  "id": "p-168",
+  "id": "p-203",
   "slug": "riese-mueller-charger5",
   "name": "Riese & Müller Charger5",
   "brandId": "riese-mueller",
@@ -13833,7 +16343,7 @@
   ]
  },
  {
-  "id": "p-169",
+  "id": "p-204",
   "slug": "riese-mueller-charger5-mixte",
   "name": "Riese & Müller Charger5 Mixte",
   "brandId": "riese-mueller",
@@ -13923,7 +16433,7 @@
   ]
  },
  {
-  "id": "p-170",
+  "id": "p-205",
   "slug": "riese-mueller-charger4",
   "name": "Riese & Müller Charger4",
   "brandId": "riese-mueller",
@@ -14010,7 +16520,7 @@
   ]
  },
  {
-  "id": "p-171",
+  "id": "p-206",
   "slug": "riese-mueller-delite5",
   "name": "Riese & Müller Delite5",
   "brandId": "riese-mueller",
@@ -14097,7 +16607,7 @@
   ]
  },
  {
-  "id": "p-172",
+  "id": "p-207",
   "slug": "riese-mueller-delite4",
   "name": "Riese & Müller Delite4",
   "brandId": "riese-mueller",
@@ -14184,7 +16694,7 @@
   ]
  },
  {
-  "id": "p-173",
+  "id": "p-208",
   "slug": "riese-mueller-superdelite5",
   "name": "Riese & Müller Superdelite5",
   "brandId": "riese-mueller",
@@ -14271,7 +16781,7 @@
   ]
  },
  {
-  "id": "p-174",
+  "id": "p-209",
   "slug": "riese-mueller-homage5",
   "name": "Riese & Müller Homage5",
   "brandId": "riese-mueller",
@@ -14359,7 +16869,7 @@
   ]
  },
  {
-  "id": "p-175",
+  "id": "p-210",
   "slug": "riese-mueller-swing5",
   "name": "Riese & Müller Swing5",
   "brandId": "riese-mueller",
@@ -14448,7 +16958,7 @@
   ]
  },
  {
-  "id": "p-176",
+  "id": "p-211",
   "slug": "riese-mueller-swing4",
   "name": "Riese & Müller Swing4",
   "brandId": "riese-mueller",
@@ -14537,7 +17047,7 @@
   ]
  },
  {
-  "id": "p-177",
+  "id": "p-212",
   "slug": "riese-mueller-culture",
   "name": "Riese & Müller Culture",
   "brandId": "riese-mueller",
@@ -14622,7 +17132,7 @@
   ]
  },
  {
-  "id": "p-178",
+  "id": "p-213",
   "slug": "riese-mueller-culture-mixte",
   "name": "Riese & Müller Culture Mixte",
   "brandId": "riese-mueller",
@@ -14708,7 +17218,7 @@
   ]
  },
  {
-  "id": "p-179",
+  "id": "p-214",
   "slug": "riese-mueller-ubn-five",
   "name": "Riese & Müller UBN Five",
   "brandId": "riese-mueller",
@@ -14793,7 +17303,7 @@
   ]
  },
  {
-  "id": "p-180",
+  "id": "p-215",
   "slug": "riese-mueller-ubn-six",
   "name": "Riese & Müller UBN Six",
   "brandId": "riese-mueller",
@@ -14879,7 +17389,7 @@
   ]
  },
  {
-  "id": "p-181",
+  "id": "p-216",
   "slug": "riese-mueller-ubn-seven",
   "name": "Riese & Müller UBN Seven",
   "brandId": "riese-mueller",
@@ -14964,7 +17474,7 @@
   ]
  },
  {
-  "id": "p-182",
+  "id": "p-217",
   "slug": "riese-mueller-multicharger3",
   "name": "Riese & Müller Multicharger3",
   "brandId": "riese-mueller",
@@ -15051,7 +17561,7 @@
   ]
  },
  {
-  "id": "p-183",
+  "id": "p-218",
   "slug": "riese-mueller-multicharger3-mixte",
   "name": "Riese & Müller Multicharger3 Mixte",
   "brandId": "riese-mueller",
@@ -15139,7 +17649,7 @@
   ]
  },
  {
-  "id": "p-184",
+  "id": "p-219",
   "slug": "riese-mueller-multitinker2",
   "name": "Riese & Müller Multitinker2",
   "brandId": "riese-mueller",
@@ -15225,7 +17735,7 @@
   ]
  },
  {
-  "id": "p-185",
+  "id": "p-220",
   "slug": "riese-mueller-carrie2",
   "name": "Riese & Müller Carrie2",
   "brandId": "riese-mueller",
@@ -15312,7 +17822,7 @@
   ]
  },
  {
-  "id": "p-186",
+  "id": "p-221",
   "slug": "riese-mueller-load5-60",
   "name": "Riese & Müller Load5 60",
   "brandId": "riese-mueller",
@@ -15398,7 +17908,7 @@
   ]
  },
  {
-  "id": "p-187",
+  "id": "p-222",
   "slug": "riese-mueller-load5-75",
   "name": "Riese & Müller Load5 75",
   "brandId": "riese-mueller",
@@ -15484,7 +17994,7 @@
   ]
  },
  {
-  "id": "p-188",
+  "id": "p-223",
   "slug": "riese-mueller-packster2-70",
   "name": "Riese & Müller Packster2 70",
   "brandId": "riese-mueller",
@@ -15568,7 +18078,7 @@
   ]
  },
  {
-  "id": "p-189",
+  "id": "p-224",
   "slug": "riese-mueller-packster2-70-ct",
   "name": "Riese & Müller Packster2 70 CT",
   "brandId": "riese-mueller",
@@ -15652,7 +18162,7 @@
   ]
  },
  {
-  "id": "p-190",
+  "id": "p-225",
   "slug": "riese-mueller-transporter2-65",
   "name": "Riese & Müller Transporter2 65",
   "brandId": "riese-mueller",
@@ -15735,7 +18245,7 @@
   ]
  },
  {
-  "id": "p-191",
+  "id": "p-226",
   "slug": "riese-mueller-transporter2-85",
   "name": "Riese & Müller Transporter2 85",
   "brandId": "riese-mueller",
@@ -15818,7 +18328,7 @@
   ]
  },
  {
-  "id": "p-192",
+  "id": "p-227",
   "slug": "scott-voltage-900-tuned",
   "name": "Scott Voltage 900 Tuned",
   "brandId": "scott",
@@ -15903,7 +18413,7 @@
   ]
  },
  {
-  "id": "p-193",
+  "id": "p-228",
   "slug": "scott-voltage-910",
   "name": "Scott Voltage 910",
   "brandId": "scott",
@@ -15988,7 +18498,7 @@
   ]
  },
  {
-  "id": "p-194",
+  "id": "p-229",
   "slug": "scott-voltage-920",
   "name": "Scott Voltage 920",
   "brandId": "scott",
@@ -16073,7 +18583,7 @@
   ]
  },
  {
-  "id": "p-195",
+  "id": "p-230",
   "slug": "scott-patron-900-ultimate",
   "name": "Scott Patron 900 Ultimate",
   "brandId": "scott",
@@ -16157,7 +18667,7 @@
   ]
  },
  {
-  "id": "p-196",
+  "id": "p-231",
   "slug": "scott-patron-900",
   "name": "Scott Patron 900",
   "brandId": "scott",
@@ -16241,7 +18751,7 @@
   ]
  },
  {
-  "id": "p-197",
+  "id": "p-232",
   "slug": "scott-patron-910",
   "name": "Scott Patron 910",
   "brandId": "scott",
@@ -16325,7 +18835,7 @@
   ]
  },
  {
-  "id": "p-198",
+  "id": "p-233",
   "slug": "scott-patron-920",
   "name": "Scott Patron 920",
   "brandId": "scott",
@@ -16412,7 +18922,7 @@
   ]
  },
  {
-  "id": "p-199",
+  "id": "p-234",
   "slug": "scott-patron-st-900-tuned",
   "name": "Scott Patron ST 900 Tuned",
   "brandId": "scott",
@@ -16498,7 +19008,7 @@
   ]
  },
  {
-  "id": "p-200",
+  "id": "p-235",
   "slug": "scott-patron-st-900",
   "name": "Scott Patron ST 900",
   "brandId": "scott",
@@ -16584,7 +19094,7 @@
   ]
  },
  {
-  "id": "p-201",
+  "id": "p-236",
   "slug": "scott-patron-st-910",
   "name": "Scott Patron ST 910",
   "brandId": "scott",
@@ -16670,7 +19180,7 @@
   ]
  },
  {
-  "id": "p-202",
+  "id": "p-237",
   "slug": "scott-patron-10",
   "name": "Scott Patron 10",
   "brandId": "scott",
@@ -16755,7 +19265,7 @@
   ]
  },
  {
-  "id": "p-203",
+  "id": "p-238",
   "slug": "scott-patron-20",
   "name": "Scott Patron 20",
   "brandId": "scott",
@@ -16841,7 +19351,7 @@
   ]
  },
  {
-  "id": "p-204",
+  "id": "p-239",
   "slug": "scott-patron-30",
   "name": "Scott Patron 30",
   "brandId": "scott",
@@ -16928,7 +19438,7 @@
   ]
  },
  {
-  "id": "p-205",
+  "id": "p-240",
   "slug": "scott-patron-st-tuned",
   "name": "Scott Patron ST Tuned",
   "brandId": "scott",
@@ -17013,7 +19523,7 @@
   ]
  },
  {
-  "id": "p-206",
+  "id": "p-241",
   "slug": "scott-patron-st-10",
   "name": "Scott Patron ST 10",
   "brandId": "scott",
@@ -17098,7 +19608,7 @@
   ]
  },
  {
-  "id": "p-207",
+  "id": "p-242",
   "slug": "scott-strike-10",
   "name": "Scott Strike 10",
   "brandId": "scott",
@@ -17184,7 +19694,7 @@
   ]
  },
  {
-  "id": "p-208",
+  "id": "p-243",
   "slug": "scott-strike-20",
   "name": "Scott Strike 20",
   "brandId": "scott",
@@ -17269,7 +19779,7 @@
   ]
  },
  {
-  "id": "p-209",
+  "id": "p-244",
   "slug": "scott-strike-30",
   "name": "Scott Strike 30",
   "brandId": "scott",
@@ -17356,7 +19866,7 @@
   ]
  },
  {
-  "id": "p-210",
+  "id": "p-245",
   "slug": "scott-strike-40",
   "name": "Scott Strike 40",
   "brandId": "scott",
@@ -17442,7 +19952,7 @@
   ]
  },
  {
-  "id": "p-211",
+  "id": "p-246",
   "slug": "scott-aspect-eride-900-wave",
   "name": "Scott Aspect eRIDE 900 Wave",
   "brandId": "scott",
@@ -17512,7 +20022,7 @@
   ]
  },
  {
-  "id": "p-212",
+  "id": "p-247",
   "slug": "scott-aspect-eride-910",
   "name": "Scott Aspect eRIDE 910",
   "brandId": "scott",
@@ -17575,7 +20085,7 @@
   ]
  },
  {
-  "id": "p-213",
+  "id": "p-248",
   "slug": "scott-fastlane-premium",
   "name": "Scott Fastlane Premium",
   "brandId": "scott",
@@ -17659,7 +20169,7 @@
   ]
  },
  {
-  "id": "p-214",
+  "id": "p-249",
   "slug": "scott-fastlane-10",
   "name": "Scott Fastlane 10",
   "brandId": "scott",
@@ -17744,7 +20254,7 @@
   ]
  },
  {
-  "id": "p-215",
+  "id": "p-250",
   "slug": "scott-fastlane-20",
   "name": "Scott Fastlane 20",
   "brandId": "scott",
@@ -17829,7 +20339,7 @@
   ]
  },
  {
-  "id": "p-216",
+  "id": "p-251",
   "slug": "scott-solace-gravel-10",
   "name": "Scott Solace Gravel 10",
   "brandId": "scott",
@@ -17913,7 +20423,7 @@
   ]
  },
  {
-  "id": "p-217",
+  "id": "p-252",
   "slug": "scott-solace-gravel-20",
   "name": "Scott Solace Gravel 20",
   "brandId": "scott",
@@ -17997,7 +20507,7 @@
   ]
  },
  {
-  "id": "p-218",
+  "id": "p-253",
   "slug": "scott-solace-gravel-30",
   "name": "Scott Solace Gravel 30",
   "brandId": "scott",
@@ -18083,7 +20593,7 @@
   ]
  },
  {
-  "id": "p-219",
+  "id": "p-254",
   "slug": "scott-axis-10",
   "name": "Scott Axis 10",
   "brandId": "scott",
@@ -18171,7 +20681,7 @@
   ]
  },
  {
-  "id": "p-220",
+  "id": "p-255",
   "slug": "scott-axis-20",
   "name": "Scott Axis 20",
   "brandId": "scott",
@@ -18258,7 +20768,7 @@
   ]
  },
  {
-  "id": "p-221",
+  "id": "p-256",
   "slug": "scott-axis-30",
   "name": "Scott Axis 30",
   "brandId": "scott",
@@ -18345,7 +20855,7 @@
   ]
  },
  {
-  "id": "p-222",
+  "id": "p-257",
   "slug": "scott-axis-40",
   "name": "Scott Axis 40",
   "brandId": "scott",
@@ -18425,7 +20935,7 @@
   ]
  },
  {
-  "id": "p-223",
+  "id": "p-258",
   "slug": "scott-sub-tour-10",
   "name": "Scott Sub Tour 10",
   "brandId": "scott",
@@ -18506,7 +21016,7 @@
   ]
  },
  {
-  "id": "p-224",
+  "id": "p-259",
   "slug": "scott-sub-tour-20",
   "name": "Scott Sub Tour 20",
   "brandId": "scott",
@@ -18587,7 +21097,7 @@
   ]
  },
  {
-  "id": "p-225",
+  "id": "p-260",
   "slug": "scott-sub-tour-30",
   "name": "Scott Sub Tour 30",
   "brandId": "scott",
@@ -18673,7 +21183,7 @@
   ]
  },
  {
-  "id": "p-226",
+  "id": "p-261",
   "slug": "scott-sub-tour-40",
   "name": "Scott Sub Tour 40",
   "brandId": "scott",
@@ -18760,7 +21270,7 @@
   ]
  },
  {
-  "id": "p-227",
+  "id": "p-262",
   "slug": "scott-sub-sport-10",
   "name": "Scott Sub Sport 10",
   "brandId": "scott",
@@ -18849,7 +21359,7 @@
   ]
  },
  {
-  "id": "p-228",
+  "id": "p-263",
   "slug": "scott-sub-sport-20",
   "name": "Scott Sub Sport 20",
   "brandId": "scott",
@@ -18937,7 +21447,7 @@
   ]
  },
  {
-  "id": "p-229",
+  "id": "p-264",
   "slug": "scott-sub-sport-30",
   "name": "Scott Sub Sport 30",
   "brandId": "scott",
@@ -19025,7 +21535,7 @@
   ]
  },
  {
-  "id": "p-230",
+  "id": "p-265",
   "slug": "scott-sub-10-belt",
   "name": "Scott Sub 10 Belt",
   "brandId": "scott",
@@ -19111,7 +21621,7 @@
   ]
  },
  {
-  "id": "p-231",
+  "id": "p-266",
   "slug": "scott-sub-30",
   "name": "Scott Sub 30",
   "brandId": "scott",
@@ -19199,7 +21709,7 @@
   ]
  },
  {
-  "id": "p-232",
+  "id": "p-267",
   "slug": "scott-passage-10-belt",
   "name": "Scott Passage 10 Belt",
   "brandId": "scott",
@@ -19287,7 +21797,7 @@
   ]
  },
  {
-  "id": "p-233",
+  "id": "p-268",
   "slug": "scott-passage-20",
   "name": "Scott Passage 20",
   "brandId": "scott",
@@ -19367,7 +21877,7 @@
   ]
  },
  {
-  "id": "p-234",
+  "id": "p-269",
   "slug": "scott-passage-30",
   "name": "Scott Passage 30",
   "brandId": "scott",
@@ -19455,7 +21965,7 @@
   ]
  },
  {
-  "id": "p-235",
+  "id": "p-270",
   "slug": "scott-e-ville-20",
   "name": "Scott E-Ville 20",
   "brandId": "scott",
@@ -19542,7 +22052,7 @@
   ]
  },
  {
-  "id": "p-236",
+  "id": "p-271",
   "slug": "scott-sub-tour-50",
   "name": "Scott Sub Tour 50",
   "brandId": "scott",
@@ -19630,7 +22140,7 @@
   ]
  },
  {
-  "id": "p-237",
+  "id": "p-272",
   "slug": "specialized-s-works-levo-4-x",
   "name": "Specialized S-Works Levo 4 X",
   "brandId": "specialized",
@@ -19689,7 +22199,7 @@
   ]
  },
  {
-  "id": "p-238",
+  "id": "p-273",
   "slug": "specialized-s-works-turbo-levo-r",
   "name": "Specialized S-Works Turbo Levo R",
   "brandId": "specialized",
@@ -19752,7 +22262,7 @@
   ]
  },
  {
-  "id": "p-239",
+  "id": "p-274",
   "slug": "specialized-turbo-levo-r-pro",
   "name": "Specialized Turbo Levo R Pro",
   "brandId": "specialized",
@@ -19811,7 +22321,7 @@
   ]
  },
  {
-  "id": "p-240",
+  "id": "p-275",
   "slug": "specialized-turbo-levo-r-expert",
   "name": "Specialized Turbo Levo R Expert",
   "brandId": "specialized",
@@ -19874,7 +22384,7 @@
   ]
  },
  {
-  "id": "p-241",
+  "id": "p-276",
   "slug": "specialized-turbo-levo-4-comp",
   "name": "Specialized Turbo Levo 4 Comp",
   "brandId": "specialized",
@@ -19941,7 +22451,7 @@
   ]
  },
  {
-  "id": "p-242",
+  "id": "p-277",
   "slug": "specialized-vado-3-x-5-0",
   "name": "Specialized Vado 3 X 5.0",
   "brandId": "specialized",
@@ -20005,7 +22515,7 @@
   ]
  },
  {
-  "id": "p-243",
+  "id": "p-278",
   "slug": "specialized-vado-3-x-6-0",
   "name": "Specialized Vado 3 X 6.0",
   "brandId": "specialized",
@@ -20069,7 +22579,7 @@
   ]
  },
  {
-  "id": "p-244",
+  "id": "p-279",
   "slug": "specialized-turbo-vado-3-6-0-igh",
   "name": "Specialized Turbo Vado 3 6.0 IGH",
   "brandId": "specialized",
@@ -20133,7 +22643,7 @@
   ]
  },
  {
-  "id": "p-245",
+  "id": "p-280",
   "slug": "specialized-turbo-vado-3-evo-6-0",
   "name": "Specialized Turbo Vado 3 EVO 6.0",
   "brandId": "specialized",
@@ -20197,7 +22707,7 @@
   ]
  },
  {
-  "id": "p-246",
+  "id": "p-281",
   "slug": "specialized-turbo-vado-3-6-0",
   "name": "Specialized Turbo Vado 3 6.0",
   "brandId": "specialized",
@@ -20261,7 +22771,7 @@
   ]
  },
  {
-  "id": "p-247",
+  "id": "p-282",
   "slug": "specialized-turbo-vado-3-5-0-igh",
   "name": "Specialized Turbo Vado 3 5.0 IGH",
   "brandId": "specialized",
@@ -20325,7 +22835,7 @@
   ]
  },
  {
-  "id": "p-248",
+  "id": "p-283",
   "slug": "specialized-vado-3-x-4-0",
   "name": "Specialized Vado 3 X 4.0",
   "brandId": "specialized",
@@ -20389,7 +22899,7 @@
   ]
  },
  {
-  "id": "p-249",
+  "id": "p-284",
   "slug": "specialized-turbo-levo-r-comp-alloy",
   "name": "Specialized Turbo Levo R Comp Alloy",
   "brandId": "specialized",
@@ -20452,7 +22962,7 @@
   ]
  },
  {
-  "id": "p-250",
+  "id": "p-285",
   "slug": "specialized-turbo-levo-r-comp",
   "name": "Specialized Turbo Levo R Comp",
   "brandId": "specialized",
@@ -20515,7 +23025,7 @@
   ]
  },
  {
-  "id": "p-251",
+  "id": "p-286",
   "slug": "specialized-turbo-vado-3-evo-5-0",
   "name": "Specialized Turbo Vado 3 EVO 5.0",
   "brandId": "specialized",
@@ -20579,7 +23089,7 @@
   ]
  },
  {
-  "id": "p-252",
+  "id": "p-287",
   "slug": "specialized-turbo-vado-3-5-0",
   "name": "Specialized Turbo Vado 3 5.0",
   "brandId": "specialized",
@@ -20643,7 +23153,7 @@
   ]
  },
  {
-  "id": "p-253",
+  "id": "p-288",
   "slug": "specialized-turbo-vado-3-4-0-igh",
   "name": "Specialized Turbo Vado 3 4.0 IGH",
   "brandId": "specialized",
@@ -20711,7 +23221,7 @@
   ]
  },
  {
-  "id": "p-254",
+  "id": "p-289",
   "slug": "specialized-turbo-creo-2-expert",
   "name": "Specialized Turbo Creo 2 Expert",
   "brandId": "specialized",
@@ -20772,7 +23282,7 @@
   ]
  },
  {
-  "id": "p-255",
+  "id": "p-290",
   "slug": "specialized-turbo-como-5-0-igh",
   "name": "Specialized Turbo Como 5.0 IGH",
   "brandId": "specialized",
@@ -20834,7 +23344,7 @@
   ]
  },
  {
-  "id": "p-256",
+  "id": "p-291",
   "slug": "specialized-turbo-vado-3-4-0",
   "name": "Specialized Turbo Vado 3 4.0",
   "brandId": "specialized",
@@ -20902,7 +23412,7 @@
   ]
  },
  {
-  "id": "p-257",
+  "id": "p-292",
   "slug": "specialized-s-works-turbo-levo-r-ultralight",
   "name": "Specialized S-Works Turbo Levo R Ultralight",
   "brandId": "specialized",
@@ -20961,7 +23471,7 @@
   ]
  },
  {
-  "id": "p-258",
+  "id": "p-293",
   "slug": "specialized-turbo-vado-3-evo-4-0",
   "name": "Specialized Turbo Vado 3 EVO 4.0",
   "brandId": "specialized",
@@ -21029,7 +23539,7 @@
   ]
  },
  {
-  "id": "p-259",
+  "id": "p-294",
   "slug": "specialized-s-works-turbo-creo-2",
   "name": "Specialized S-Works Turbo Creo 2",
   "brandId": "specialized",
@@ -21086,7 +23596,7 @@
   ]
  },
  {
-  "id": "p-260",
+  "id": "p-295",
   "slug": "specialized-turbo-como-4-0-igh",
   "name": "Specialized Turbo Como 4.0 IGH",
   "brandId": "specialized",
@@ -21152,7 +23662,7 @@
   ]
  },
  {
-  "id": "p-261",
+  "id": "p-296",
   "slug": "specialized-turbo-levo-4-comp-alloy",
   "name": "Specialized Turbo Levo 4 Comp Alloy",
   "brandId": "specialized",
@@ -21219,7 +23729,7 @@
   ]
  },
  {
-  "id": "p-262",
+  "id": "p-297",
   "slug": "specialized-turbo-vado-sl-2-4-0",
   "name": "Specialized Turbo Vado SL 2 4.0",
   "brandId": "specialized",
@@ -21281,7 +23791,7 @@
   ]
  },
  {
-  "id": "p-263",
+  "id": "p-298",
   "slug": "specialized-turbo-vado-sl-2-4-0-eq",
   "name": "Specialized Turbo Vado SL 2 4.0 EQ",
   "brandId": "specialized",
@@ -21343,7 +23853,7 @@
   ]
  },
  {
-  "id": "p-264",
+  "id": "p-299",
   "slug": "specialized-turbo-como-4-0",
   "name": "Specialized Turbo Como 4.0",
   "brandId": "specialized",
@@ -21409,7 +23919,7 @@
   ]
  },
  {
-  "id": "p-265",
+  "id": "p-300",
   "slug": "specialized-turbo-vado-sl-2-4-0-step-through",
   "name": "Specialized Turbo Vado SL 2 4.0 Step-Through",
   "brandId": "specialized",
@@ -21476,7 +23986,7 @@
   ]
  },
  {
-  "id": "p-266",
+  "id": "p-301",
   "slug": "specialized-turbo-levo-4-alloy",
   "name": "Specialized Turbo Levo 4 Alloy",
   "brandId": "specialized",
@@ -21543,7 +24053,7 @@
   ]
  },
  {
-  "id": "p-267",
+  "id": "p-302",
   "slug": "specialized-turbo-vado-sl-2-4-0-step-through-eq",
   "name": "Specialized Turbo Vado SL 2 4.0 Step-Through EQ",
   "brandId": "specialized",
@@ -21606,7 +24116,7 @@
   ]
  },
  {
-  "id": "p-268",
+  "id": "p-303",
   "slug": "specialized-s-works-turbo-levo-4",
   "name": "Specialized S-Works Turbo Levo 4",
   "brandId": "specialized",
@@ -21673,7 +24183,7 @@
   ]
  },
  {
-  "id": "p-269",
+  "id": "p-304",
   "slug": "specialized-turbo-levo-4-expert",
   "name": "Specialized Turbo Levo 4 Expert",
   "brandId": "specialized",
@@ -21736,7 +24246,7 @@
   ]
  },
  {
-  "id": "p-270",
+  "id": "p-305",
   "slug": "specialized-turbo-creo-2-comp-e5",
   "name": "Specialized Turbo Creo 2 Comp E5",
   "brandId": "specialized",
@@ -21797,7 +24307,7 @@
   ]
  },
  {
-  "id": "p-271",
+  "id": "p-306",
   "slug": "specialized-turbo-levo-4-pro",
   "name": "Specialized Turbo Levo 4 Pro",
   "brandId": "specialized",
@@ -21860,7 +24370,7 @@
   ]
  },
  {
-  "id": "p-272",
+  "id": "p-307",
   "slug": "specialized-levo-4-evo-pro",
   "name": "Specialized Levo 4 EVO Pro",
   "brandId": "specialized",
@@ -21922,7 +24432,7 @@
   ]
  },
  {
-  "id": "p-273",
+  "id": "p-308",
   "slug": "specialized-turbo-vado-2-5-0-igh",
   "name": "Specialized Turbo Vado 2 5.0 IGH",
   "brandId": "specialized",
@@ -21990,7 +24500,7 @@
   ]
  },
  {
-  "id": "p-274",
+  "id": "p-309",
   "slug": "specialized-turbo-tero-5-0-eq-step-through",
   "name": "Specialized Turbo Tero 5.0 EQ Step-Through",
   "brandId": "specialized",
@@ -22054,7 +24564,7 @@
   ]
  },
  {
-  "id": "p-275",
+  "id": "p-310",
   "slug": "specialized-turbo-vado-2-5-0-step-through",
   "name": "Specialized Turbo Vado 2 5.0 Step-Through",
   "brandId": "specialized",
@@ -22123,7 +24633,7 @@
   ]
  },
  {
-  "id": "p-276",
+  "id": "p-311",
   "slug": "specialized-turbo-vado-2-5-0",
   "name": "Specialized Turbo Vado 2 5.0",
   "brandId": "specialized",
@@ -22178,7 +24688,7 @@
   "imageSources": []
  },
  {
-  "id": "p-277",
+  "id": "p-312",
   "slug": "specialized-turbo-vado-sl-2-5-0-eq",
   "name": "Specialized Turbo Vado SL 2 5.0 EQ",
   "brandId": "specialized",
@@ -22240,7 +24750,7 @@
   ]
  },
  {
-  "id": "p-278",
+  "id": "p-313",
   "slug": "specialized-turbo-vado-2-4-0-igh",
   "name": "Specialized Turbo Vado 2 4.0 IGH",
   "brandId": "specialized",
@@ -22308,7 +24818,7 @@
   ]
  },
  {
-  "id": "p-279",
+  "id": "p-314",
   "slug": "specialized-turbo-vado-2-4-0-step-through",
   "name": "Specialized Turbo Vado 2 4.0 Step-Through",
   "brandId": "specialized",
@@ -22377,7 +24887,7 @@
   ]
  },
  {
-  "id": "p-280",
+  "id": "p-315",
   "slug": "specialized-turbo-vado-sl-2-6-0-eq-carbon",
   "name": "Specialized Turbo Vado SL 2 6.0 EQ Carbon",
   "brandId": "specialized",
@@ -22435,7 +24945,7 @@
   ]
  },
  {
-  "id": "p-281",
+  "id": "p-316",
   "slug": "specialized-levo-4-evo-comp",
   "name": "Specialized Levo 4 EVO Comp",
   "brandId": "specialized",
@@ -22497,7 +25007,445 @@
   ]
  },
  {
-  "id": "p-282",
+  "id": "p-317",
+  "slug": "stromer-st1",
+  "name": "Stromer ST1",
+  "brandId": "stromer",
+  "categoryId": "schnelle-e-bikes",
+  "speedClass": "e-bike-45",
+  "speedMaxKmH": 45,
+  "priceCHF": 5116,
+  "motorBrand": "Stromer CYRO",
+  "motorModel": "Stromer CYRO Drive II (670 W)",
+  "torqueNm": 35,
+  "batteryWh": 983,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "rangeKmEst": {
+   "min": 180,
+   "max": 180
+  },
+  "frameType": "diamond",
+  "frameMaterial": "Nicht angegeben",
+  "frameSizes": [
+   "M",
+   "L"
+  ],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/schnelle-e-bikes.svg",
+  "shortDesc": {
+   "de": "Einstiegsmodell der Stromer-S-Pedelecs mit 983-Wh-Akku und 9-Gang-Kettenschaltung. Unterstützung bis 45 km/h, Reichweite laut Hersteller bis 180 km.",
+   "fr": "Einstiegsmodell der Stromer-S-Pedelecs mit 983-Wh-Akku und 9-Gang-Kettenschaltung. Unterstützung bis 45 km/h, Reichweite laut Hersteller bis 180 km.",
+   "it": "Einstiegsmodell der Stromer-S-Pedelecs mit 983-Wh-Akku und 9-Gang-Kettenschaltung. Unterstützung bis 45 km/h, Reichweite laut Hersteller bis 180 km."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Microshift 9-Gang 11-42",
+   "brakes": "Stromer HD922 (Tektro), 2-Kolben, 203 mm",
+   "fork": "Nicht angegeben",
+   "display": "OMNI C",
+   "tires": "Stromer Custom TA754 (Vee Tire) 54-584",
+   "lighting": "Roxim Z4 Elite 600 lm, Roxim R3E mit Bremslicht",
+   "cargoRackKg": 22.5
+  },
+  "description": "Einstiegsmodell der Stromer-S-Pedelecs mit 983-Wh-Akku und 9-Gang-Kettenschaltung. Unterstützung bis 45 km/h, Reichweite laut Hersteller bis 180 km.",
+  "features": [
+   "Bis 45 km/h (EU L1e-B)",
+   "Racktime-Gepäckträger bis 22,5 kg",
+   "Tagfahrlicht"
+  ],
+  "colours": [
+   "Dark Grey",
+   "Deep Petrol"
+  ],
+  "sourceUrl": "https://www.stromerbike.com/en/bikes/st1",
+  "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: ab 5565 EUR | UVP EUR 5565 (https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)) umgerechnet zum EZB-Kurs 0.9194 (2026-10-30)",
+  "priceEstimated": true,
+  "imageSources": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/40ff052b242ce71555d9760ea15b62cca9efb1f6-1414x942.jpg",
+    "alt": "Stromer ST1 Seitenansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/642714f78e799a41a6fc0ba08c75bf15e497e25e-3464x2309.jpg",
+    "alt": "Stromer ST1 Detailansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/a2cfebc4090c6330526c6328bc0fe867350a9f77-1280x720.png",
+    "alt": "Stromer ST1 Detail"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/4900bc87b182e8d11119cb2b3472a28588ab371d-1130x631.png",
+    "alt": "Stromer ST1 Fahrszene"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/b798b93b065e663f0e5797604c4c8801c3d7fc53-1280x720.png",
+    "alt": "Stromer ST1 Gesamtansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/7657e4415d59324c740e249f5497554be655e607-3464x2309.jpg",
+    "alt": "Stromer ST1 Detail Antrieb"
+   }
+  ]
+ },
+ {
+  "id": "p-318",
+  "slug": "stromer-st2",
+  "name": "Stromer ST2",
+  "brandId": "stromer",
+  "categoryId": "schnelle-e-bikes",
+  "speedClass": "e-bike-45",
+  "speedMaxKmH": 45,
+  "priceCHF": 7283,
+  "motorBrand": "Stromer CYRO",
+  "motorModel": "Stromer CYRO Drive 3 (750 W)",
+  "torqueNm": 40,
+  "batteryWh": 983,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "rangeKmEst": {
+   "min": 180,
+   "max": 180
+  },
+  "frameType": "diamond",
+  "frameMaterial": "Nicht angegeben",
+  "frameSizes": [
+   "M",
+   "L"
+  ],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/schnelle-e-bikes.svg",
+  "shortDesc": {
+   "de": "S-Pedelec mit wartungsarmem Pinion-6-Gang-Getriebe und Riemenantrieb. 983-Wh-Akku, Unterstützung bis 45 km/h.",
+   "fr": "S-Pedelec mit wartungsarmem Pinion-6-Gang-Getriebe und Riemenantrieb. 983-Wh-Akku, Unterstützung bis 45 km/h.",
+   "it": "S-Pedelec mit wartungsarmem Pinion-6-Gang-Getriebe und Riemenantrieb. 983-Wh-Akku, Unterstützung bis 45 km/h."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Pinion C1.6, 6-Gang, Riemenantrieb",
+   "brakes": "Stromer HD922 (Tektro), 2|2-Kolben, 203/203 mm",
+   "fork": "Nicht angegeben",
+   "display": "OMNI C",
+   "tires": "Pirelli Angel GT Urban 57-584",
+   "lighting": "Roxim Z4E Pro 700 lm, Roxim R3E mit Bremslicht",
+   "cargoRackKg": 22.5
+  },
+  "description": "S-Pedelec mit wartungsarmem Pinion-6-Gang-Getriebe und Riemenantrieb. 983-Wh-Akku, Unterstützung bis 45 km/h.",
+  "features": [
+   "Pinion C1.6 6-Gang",
+   "Riemenantrieb",
+   "Bis 45 km/h (EU L1e-B)"
+  ],
+  "colours": [
+   "Dark Grey",
+   "Moon Grey"
+  ],
+  "sourceUrl": "https://www.stromerbike.com/en/bikes/st2",
+  "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: ab 6890 EUR | UVP EUR 7921 (https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)) umgerechnet zum EZB-Kurs 0.9194 (2026-10-30)",
+  "priceEstimated": true,
+  "imageSources": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/fe1aa6d17faea29ed9de9068684dc3fc16f9cdf7-1526x1017.jpg",
+    "alt": "Stromer ST2 Seitenansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/bb5054823b5a47eb7ceaffd9352ade8179b67ce8-1441x960.jpg",
+    "alt": "Stromer ST2 Detailansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/0d11db98b1966378fcbf79a6cbda51b37db3907a-1474x982.jpg",
+    "alt": "Stromer ST2 Detail"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/04872ccc795c950dd839073c343bab629addf9a0-6122x3443.png",
+    "alt": "Stromer ST2 Fahrszene"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/d590847ac1facc7c6155959033a616376e36d923-5031x7543.jpg",
+    "alt": "Stromer ST2 Gesamtansicht"
+   }
+  ]
+ },
+ {
+  "id": "p-319",
+  "slug": "stromer-st3",
+  "name": "Stromer ST3",
+  "brandId": "stromer",
+  "categoryId": "schnelle-e-bikes",
+  "speedClass": "e-bike-45",
+  "speedMaxKmH": 45,
+  "priceCHF": 8166,
+  "motorBrand": "Stromer CYRO",
+  "motorModel": "Stromer SYNO Drive II (820 W)",
+  "torqueNm": 44,
+  "batteryWh": 983,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "rangeKmEst": {
+   "min": 180,
+   "max": 180
+  },
+  "frameType": "diamond",
+  "frameMaterial": "Nicht angegeben",
+  "frameSizes": [
+   "M",
+   "L",
+   "XL"
+  ],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/schnelle-e-bikes.svg",
+  "shortDesc": {
+   "de": "S-Pedelec mit Pinion-9-Gang-Getriebe, Riemenantrieb und ABS-Vierkolbenbremsen. Akku 983 Wh, Reichweite laut Hersteller bis 180 km, Unterstützung bis 45 km/h.",
+   "fr": "S-Pedelec mit Pinion-9-Gang-Getriebe, Riemenantrieb und ABS-Vierkolbenbremsen. Akku 983 Wh, Reichweite laut Hersteller bis 180 km, Unterstützung bis 45 km/h.",
+   "it": "S-Pedelec mit Pinion-9-Gang-Getriebe, Riemenantrieb und ABS-Vierkolbenbremsen. Akku 983 Wh, Reichweite laut Hersteller bis 180 km, Unterstützung bis 45 km/h."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Pinion C1.9 XR, 9-Gang, Riemenantrieb",
+   "brakes": "Stromer HD942 (TRP), 4-Kolben, ABS, 203/203 mm",
+   "fork": "Nicht angegeben",
+   "display": "OMNI C",
+   "tires": "Pirelli Angel ST Urban 57-584",
+   "lighting": "Roxim Z4E Pro 700 lm, Roxim R3E mit Bremslicht",
+   "cargoRackKg": 22.5
+  },
+  "description": "S-Pedelec mit Pinion-9-Gang-Getriebe, Riemenantrieb und ABS-Vierkolbenbremsen. Akku 983 Wh, Reichweite laut Hersteller bis 180 km, Unterstützung bis 45 km/h.",
+  "features": [
+   "Pinion C1.9 XR 9-Gang",
+   "ABS",
+   "Bis 45 km/h (EU L1e-B)",
+   "Rahmen Sport oder Comfort"
+  ],
+  "colours": [
+   "Cool White",
+   "Deep Black"
+  ],
+  "sourceUrl": "https://www.stromerbike.com/en/bikes/st3",
+  "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: 8882 EUR | UVP EUR 8882 (https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)) umgerechnet zum EZB-Kurs 0.9194 (2026-10-30)",
+  "priceEstimated": true,
+  "imageSources": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/d201c1b9a5807103057c8b909d9c6fe35e0e38b4-1348x898.jpg",
+    "alt": "Stromer ST3 Seitenansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/b7f4dd3f77a2feebf41a8f400d2ef02c67e48480-2844x1896.png",
+    "alt": "Stromer ST3 Detailansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/9cf573e157467219a3844c6ca23861f5fd588cc0-1447x965.jpg",
+    "alt": "Stromer ST3 Detail"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/5d5f833f72d6fa0bdb4c2e65d46a3d76febba924-8192x5464.jpg",
+    "alt": "Stromer ST3 Fahrszene"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/a361a73c9c94c1fb77b45f1f88fef12511ac9dcd-8192x5464.jpg",
+    "alt": "Stromer ST3 Gesamtansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/af5c4e6f5a88ec375f5e01889ae9fb914d1a5c07-8192x5464.jpg",
+    "alt": "Stromer ST3 Detail Antrieb"
+   }
+  ]
+ },
+ {
+  "id": "p-320",
+  "slug": "stromer-st5",
+  "name": "Stromer ST5",
+  "brandId": "stromer",
+  "categoryId": "schnelle-e-bikes",
+  "speedClass": "e-bike-45",
+  "speedMaxKmH": 45,
+  "priceCHF": 10104,
+  "motorBrand": "Stromer CYRO",
+  "motorModel": "Stromer SYNO Sport (850 W)",
+  "torqueNm": 48,
+  "batteryWh": 983,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "rangeKmEst": {
+   "min": 180,
+   "max": 180
+  },
+  "frameType": "diamond",
+  "frameMaterial": "Nicht angegeben",
+  "frameSizes": [
+   "M",
+   "L",
+   "XL"
+  ],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/schnelle-e-bikes.svg",
+  "shortDesc": {
+   "de": "Sportliches S-Pedelec mit Pinion-9-Gang-Getriebe samt elektrischer Smart.Shift-Schaltung. ABS-Bremsen und Supernova-Licht, Akku 983 Wh, bis 45 km/h.",
+   "fr": "Sportliches S-Pedelec mit Pinion-9-Gang-Getriebe samt elektrischer Smart.Shift-Schaltung. ABS-Bremsen und Supernova-Licht, Akku 983 Wh, bis 45 km/h.",
+   "it": "Sportliches S-Pedelec mit Pinion-9-Gang-Getriebe samt elektrischer Smart.Shift-Schaltung. ABS-Bremsen und Supernova-Licht, Akku 983 Wh, bis 45 km/h."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Pinion C1.9 XR, 9-Gang, Smart.Shift, Riemenantrieb",
+   "brakes": "Stromer HD944 (TRP), 4-Kolben, ABS, 203/203 mm",
+   "fork": "Nicht angegeben",
+   "display": "OMNI C",
+   "tires": "Pirelli Angel ST Sport 57-584",
+   "lighting": "Supernova M99 Pro 2 (1200/1900 lm), Supernova M99 Rücklicht",
+   "cargoRackKg": 22.5
+  },
+  "description": "Sportliches S-Pedelec mit Pinion-9-Gang-Getriebe samt elektrischer Smart.Shift-Schaltung. ABS-Bremsen und Supernova-Licht, Akku 983 Wh, bis 45 km/h.",
+  "features": [
+   "Smart.Shift",
+   "ABS",
+   "Supernova M99 Pro 2",
+   "Bis 45 km/h (EU L1e-B)"
+  ],
+  "colours": [
+   "Aventurine Green"
+  ],
+  "sourceUrl": "https://www.stromerbike.com/en/bikes/st5",
+  "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: ab 10990 EUR | UVP EUR 10990 (https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)) umgerechnet zum EZB-Kurs 0.9194 (2026-10-30)",
+  "priceEstimated": true,
+  "imageSources": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/7c2450b1be29ee38bc260e602424415603fc1142-3500x2333.png",
+    "alt": "Stromer ST5 Seitenansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/990d1e1b01b30da7d5143746d92ecd454d087cce-3500x2333.png",
+    "alt": "Stromer ST5 Detailansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/1525491e29b8711927480263c50826eefb96ab63-3500x2333.png",
+    "alt": "Stromer ST5 Detail"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/dc6aa8fde62212035e1c39d3c64ec832cf2a2926-1778x1000.jpg",
+    "alt": "Stromer ST5 Fahrszene"
+   }
+  ]
+ },
+ {
+  "id": "p-321",
+  "slug": "stromer-st7",
+  "name": "Stromer ST7",
+  "brandId": "stromer",
+  "categoryId": "schnelle-e-bikes",
+  "speedClass": "e-bike-45",
+  "speedMaxKmH": 45,
+  "priceCHF": 11943,
+  "motorBrand": "Stromer CYRO",
+  "motorModel": "Stromer SYNO Sport II (940 W)",
+  "torqueNm": 52,
+  "batteryWh": 1440,
+  "batteryBracket": ">750",
+  "batteryRemovable": true,
+  "rangeKmEst": {
+   "min": 260,
+   "max": 260
+  },
+  "frameType": "diamond",
+  "frameMaterial": "Nicht angegeben",
+  "frameSizes": [
+   "M",
+   "L",
+   "XL"
+  ],
+  "weightKg": null,
+  "useCase": [
+   "commute"
+  ],
+  "priceBracket": ">5000",
+  "imageUrl": "/images/bikes/schnelle-e-bikes.svg",
+  "shortDesc": {
+   "de": "Topmodell der Stromer-Reihe mit 1440-Wh-Akku und Pinion-12-Gang-Smart.Shift-Getriebe. Reichweite laut Hersteller bis 260 km, Unterstützung bis 45 km/h, integrierter Lenker.",
+   "fr": "Topmodell der Stromer-Reihe mit 1440-Wh-Akku und Pinion-12-Gang-Smart.Shift-Getriebe. Reichweite laut Hersteller bis 260 km, Unterstützung bis 45 km/h, integrierter Lenker.",
+   "it": "Topmodell der Stromer-Reihe mit 1440-Wh-Akku und Pinion-12-Gang-Smart.Shift-Getriebe. Reichweite laut Hersteller bis 260 km, Unterstützung bis 45 km/h, integrierter Lenker."
+  },
+  "testVerdicts": [],
+  "userReviews": [],
+  "ratingAverage": 0,
+  "reviewCount": 0,
+  "year": 2025,
+  "specs": {
+   "gears": "Pinion C1.12 Smart.Shift, 12-Gang, Riemenantrieb",
+   "brakes": "TRP HD944, 4-Kolben, ABS, 203/203 mm",
+   "fork": "Nicht angegeben",
+   "display": "OMNI C",
+   "tires": "Pirelli Angel ST Sport 57-584",
+   "lighting": "Supernova M99 Pro 2 (1200/1900 lm), M99 Rücklicht",
+   "cargoRackKg": 22.5
+  },
+  "description": "Topmodell der Stromer-Reihe mit 1440-Wh-Akku und Pinion-12-Gang-Smart.Shift-Getriebe. Reichweite laut Hersteller bis 260 km, Unterstützung bis 45 km/h, integrierter Lenker.",
+  "features": [
+   "Pinion C1.12 Smart.Shift",
+   "ABS",
+   "Integrierter Lenker",
+   "Bis 45 km/h (EU L1e-B)"
+  ],
+  "colours": [
+   "Platinum Grey"
+  ],
+  "sourceUrl": "https://www.stromerbike.com/en/bikes/st7",
+  "priceNote": "Kein CHF-Preis auf stromerbike.com abrufbar (en-Seite zeigt nur EUR/Leasing, ch-de-Seite nicht abrufbar); abgerufen 2026-10-30; Vergleich: 12990 EUR Liste | UVP EUR 12990 (https://www.stromerbike.com/de/configurator (Preis ab, EUR, abgerufen 2026-10-31; Region Schweiz gewaehlt, weiterhin nur EUR angezeigt)) umgerechnet zum EZB-Kurs 0.9194 (2026-10-30)",
+  "priceEstimated": true,
+  "imageSources": [
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/e112070fb4ffe822478055ef36a51792b9ccf547-1350x900.jpg",
+    "alt": "Stromer ST7 Seitenansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/43935053d83e031b258e4ad41f27e637e43b9939-1350x900.jpg",
+    "alt": "Stromer ST7 Detailansicht"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/24a40bf6c46471595314472ea4c0412639fb4fe0-1583x1055.jpg",
+    "alt": "Stromer ST7 Detail"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/fc2deac0d8dae6f4704c4ce566bcc42fcb47c65c-1127x1578.png",
+    "alt": "Stromer ST7 Fahrszene"
+   },
+   {
+    "url": "https://cdn.sanity.io/images/odfp6kjd/production/4ce828b0a0763ec9037148ad879614da38e462cc-1778x1000.jpg",
+    "alt": "Stromer ST7 Gesamtansicht"
+   }
+  ]
+ },
+ {
+  "id": "p-322",
   "slug": "thoemus-lightrider-e3-pro",
   "name": "Thömus Lightrider E3 Pro",
   "brandId": "thoemus",
@@ -22566,7 +25514,7 @@
   ]
  },
  {
-  "id": "p-283",
+  "id": "p-323",
   "slug": "trek-fuel-lx-9-9-x0-axs-gen-2",
   "name": "Trek Fuel+ LX 9.9 X0 AXS Gen 2",
   "brandId": "trek",
@@ -22627,7 +25575,7 @@
   ]
  },
  {
-  "id": "p-284",
+  "id": "p-324",
   "slug": "trek-fuel-ex-9-9-x0-axs-gen-2",
   "name": "Trek Fuel+ EX 9.9 X0 AXS Gen 2",
   "brandId": "trek",
@@ -22682,7 +25630,7 @@
   ]
  },
  {
-  "id": "p-285",
+  "id": "p-325",
   "slug": "trek-fuel-ex-9-8-xt-di2-gen-2",
   "name": "Trek Fuel+ EX 9.8 XT Di2 Gen 2",
   "brandId": "trek",
@@ -22737,7 +25685,7 @@
   ]
  },
  {
-  "id": "p-286",
+  "id": "p-326",
   "slug": "trek-fuel-ex-9-8-xt-gen-2",
   "name": "Trek Fuel+ EX 9.8 XT Gen 2",
   "brandId": "trek",
@@ -22792,7 +25740,7 @@
   ]
  },
  {
-  "id": "p-287",
+  "id": "p-327",
   "slug": "trek-fuel-ex-9-8-eagle-90-gen-2",
   "name": "Trek Fuel+ EX 9.8 Eagle 90 Gen 2",
   "brandId": "trek",
@@ -22847,7 +25795,7 @@
   ]
  },
  {
-  "id": "p-288",
+  "id": "p-328",
   "slug": "trek-fuel-ex-9-7-gen-2",
   "name": "Trek Fuel+ EX 9.7 Gen 2",
   "brandId": "trek",
@@ -22902,7 +25850,7 @@
   ]
  },
  {
-  "id": "p-289",
+  "id": "p-329",
   "slug": "trek-fuel-ex-8-gen-2",
   "name": "Trek Fuel+ EX 8 Gen 2",
   "brandId": "trek",
@@ -22962,7 +25910,7 @@
   ]
  },
  {
-  "id": "p-290",
+  "id": "p-330",
   "slug": "trek-rail-9-8-gen-5",
   "name": "Trek Rail+ 9.8 Gen 5",
   "brandId": "trek",
@@ -23022,7 +25970,7 @@
   ]
  },
  {
-  "id": "p-291",
+  "id": "p-331",
   "slug": "trek-rail-9-7-gen-5",
   "name": "Trek Rail+ 9.7 Gen 5",
   "brandId": "trek",
@@ -23082,7 +26030,7 @@
   ]
  },
  {
-  "id": "p-292",
+  "id": "p-332",
   "slug": "trek-rail-8-gen-5",
   "name": "Trek Rail+ 8 Gen 5",
   "brandId": "trek",
@@ -23142,7 +26090,7 @@
   ]
  },
  {
-  "id": "p-293",
+  "id": "p-333",
   "slug": "trek-rail-5-gen-5",
   "name": "Trek Rail+ 5 Gen 5",
   "brandId": "trek",
@@ -23202,7 +26150,7 @@
   ]
  },
  {
-  "id": "p-294",
+  "id": "p-334",
   "slug": "trek-slash-9-9-x0-axs-t-type",
   "name": "Trek Slash+ 9.9 X0 AXS T-Type",
   "brandId": "trek",
@@ -23261,7 +26209,7 @@
   ]
  },
  {
-  "id": "p-295",
+  "id": "p-335",
   "slug": "trek-slash-9-7",
   "name": "Trek Slash+ 9.7",
   "brandId": "trek",
@@ -23321,7 +26269,7 @@
   ]
  },
  {
-  "id": "p-296",
+  "id": "p-336",
   "slug": "trek-powerfly-fs-8-gen-4",
   "name": "Trek Powerfly+ FS 8 Gen 4",
   "brandId": "trek",
@@ -23376,7 +26324,7 @@
   ]
  },
  {
-  "id": "p-297",
+  "id": "p-337",
   "slug": "trek-powerfly-fs-6-gen-4",
   "name": "Trek Powerfly+ FS 6 Gen 4",
   "brandId": "trek",
@@ -23431,7 +26379,7 @@
   ]
  },
  {
-  "id": "p-298",
+  "id": "p-338",
   "slug": "trek-powerfly-fs-4-800-gen-4",
   "name": "Trek Powerfly+ FS 4 800 Gen 4",
   "brandId": "trek",
@@ -23486,7 +26434,7 @@
   ]
  },
  {
-  "id": "p-299",
+  "id": "p-339",
   "slug": "trek-powerfly-8-gen-5",
   "name": "Trek Powerfly+ 8 Gen 5",
   "brandId": "trek",
@@ -23541,7 +26489,7 @@
   ]
  },
  {
-  "id": "p-300",
+  "id": "p-340",
   "slug": "trek-powerfly-6-gen-5",
   "name": "Trek Powerfly+ 6 Gen 5",
   "brandId": "trek",
@@ -23596,7 +26544,7 @@
   ]
  },
  {
-  "id": "p-301",
+  "id": "p-341",
   "slug": "trek-powerfly-4-800-wh-gen-5",
   "name": "Trek Powerfly+ 4 800 Wh Gen 5",
   "brandId": "trek",
@@ -23651,7 +26599,7 @@
   ]
  },
  {
-  "id": "p-302",
+  "id": "p-342",
   "slug": "trek-powerfly-4-gen-5",
   "name": "Trek Powerfly+ 4 Gen 5",
   "brandId": "trek",
@@ -23706,7 +26654,7 @@
   ]
  },
  {
-  "id": "p-303",
+  "id": "p-343",
   "slug": "trek-domane-sl-9-axs-gen-5",
   "name": "Trek Domane+ SL 9 AXS Gen 5",
   "brandId": "trek",
@@ -23760,7 +26708,7 @@
   ]
  },
  {
-  "id": "p-304",
+  "id": "p-344",
   "slug": "trek-domane-sl-7-axs-gen-5",
   "name": "Trek Domane+ SL 7 AXS Gen 5",
   "brandId": "trek",
@@ -23814,7 +26762,7 @@
   ]
  },
  {
-  "id": "p-305",
+  "id": "p-345",
   "slug": "trek-domane-sl-6-axs-gen-5",
   "name": "Trek Domane+ SL 6 AXS Gen 5",
   "brandId": "trek",
@@ -23868,7 +26816,7 @@
   ]
  },
  {
-  "id": "p-306",
+  "id": "p-346",
   "slug": "trek-domane-alr-5",
   "name": "Trek Domane+ ALR 5",
   "brandId": "trek",
@@ -23922,7 +26870,7 @@
   ]
  },
  {
-  "id": "p-307",
+  "id": "p-347",
   "slug": "trek-checkpoint-sl-7-axs",
   "name": "Trek Checkpoint+ SL 7 AXS",
   "brandId": "trek",
@@ -23976,7 +26924,7 @@
   ]
  },
  {
-  "id": "p-308",
+  "id": "p-348",
   "slug": "trek-checkpoint-sl-5",
   "name": "Trek Checkpoint+ SL 5",
   "brandId": "trek",
@@ -24030,7 +26978,7 @@
   ]
  },
  {
-  "id": "p-309",
+  "id": "p-349",
   "slug": "trek-allant-fs-6-r11-auto",
   "name": "Trek Allant+ FS 6 R11 Auto",
   "brandId": "trek",
@@ -24085,7 +27033,7 @@
   ]
  },
  {
-  "id": "p-310",
+  "id": "p-350",
   "slug": "trek-allant-fs-6-r10",
   "name": "Trek Allant+ FS 6 R10",
   "brandId": "trek",
@@ -24140,7 +27088,7 @@
   ]
  },
  {
-  "id": "p-311",
+  "id": "p-351",
   "slug": "trek-district-4-r10-ls",
   "name": "Trek District+ 4 R10 LS",
   "brandId": "trek",
@@ -24195,7 +27143,7 @@
   ]
  },
  {
-  "id": "p-312",
+  "id": "p-352",
   "slug": "trek-district-3-r9-360-ls",
   "name": "Trek District+ 3 R9 360 LS",
   "brandId": "trek",
@@ -24250,7 +27198,7 @@
   ]
  },
  {
-  "id": "p-313",
+  "id": "p-353",
   "slug": "trek-fx-7",
   "name": "Trek FX+ 7",
   "brandId": "trek",
@@ -24305,7 +27253,7 @@
   ]
  },
  {
-  "id": "p-314",
+  "id": "p-354",
   "slug": "trek-fx-2",
   "name": "Trek FX+ 2",
   "brandId": "trek",
@@ -24360,7 +27308,7 @@
   ]
  },
  {
-  "id": "p-315",
+  "id": "p-355",
   "slug": "trek-fetch-2",
   "name": "Trek Fetch+ 2",
   "brandId": "trek",
@@ -24414,7 +27362,7 @@
   ]
  },
  {
-  "id": "p-316",
+  "id": "p-356",
   "slug": "trek-charter-5-auto-800wh-lowstep",
   "name": "Trek Charter+ 5 Auto 800Wh Lowstep",
   "brandId": "trek",
@@ -24470,7 +27418,7 @@
   ]
  },
  {
-  "id": "p-317",
+  "id": "p-357",
   "slug": "trek-inbound-2-r10-ls",
   "name": "Trek Inbound+ 2 R10 LS",
   "brandId": "trek",

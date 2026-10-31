@@ -10,3 +10,8 @@ Gaps / uncertain:
 - All models are 45 km/h (L1e-B) -> categoryId schnelle-e-bikes.
 - Images are Sanity CDN originals (cdn.sanity.io); up to 6 per product, may include some graphics/screens. Licence unverified.
 - Older/discontinued models (e.g. ST4, DS-series) deliberately not included.
+
+## Update 2026-10-31 (browser pass)
+stromerbike.com: /de-ch and /ch-de do not exist (redirect to the global site). Selecting region 'Schweiz | DE' in the region modal still showed EUR prices only (ST3 'ab 8 882 EUR', configurator likewise), leasing 'ask dealer'. No CHF price is published, so priceCHF stays null for all 5 (EUR not converted).
+
+priceEUR/priceEURSource added (EUR list prices from configurator; ST7 also shown reduced 11490 EUR; ST2 shows 7921 on configurator vs 6890 in the earlier pass, configurator value used). priceCHF null.

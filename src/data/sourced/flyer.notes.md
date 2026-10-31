@@ -13,3 +13,6 @@ Gaps / uncertain:
 - Upstreet TR:CF is the only S-Pedelec found (category page /high-speed was empty); Upstreet has an optional HS (45 km/h) variant.
 - Images: relative /dam paths prefixed with https://www.flyer-bikes.com; icons/logos/flags excluded; some are marketing slider images, not pure product shots. Licence unverified.
 - Likely more current models exist (e.g. Uproc4/6 families, Gotour variants, Goroc-based S-Pedelecs) but were not on the pages fetched; none invented.
+
+## Update 2026-10-31 (browser pass)
+Checked flyer-bikes.com/ch-de (home, Uproc SL:X page) in Chrome: no CHF price anywhere, no Swiss online shop (/ch-de/shop = 404); bikes are sold via dealers only ('Jetzt bei Ihrem Fachhaendler bestellen'). priceCHF stays null for all 14. No specs changed.
