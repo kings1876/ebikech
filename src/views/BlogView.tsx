@@ -2,6 +2,7 @@ import { Language } from '../types';
 import { BLOG_POSTS } from '../data/blog';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { ArrowRight, Clock } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface BlogViewProps {
   route: ParsedRoute;
@@ -42,7 +43,6 @@ const fmtDate = (iso: string, lang: Language) =>
   });
 
 export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
-  const go = (r: Parameters<typeof buildLocalizedUrl>[1]) => onNavigate(buildLocalizedUrl(lang, r));
   const blogRoot = { lang, view: 'blog-root' as const };
 
   if (route.view === 'blog-post' && route.blogPost) {
@@ -51,9 +51,9 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
     return (
       <article className="max-w-3xl mx-auto px-4 sm:px-6 py-10 space-y-8">
         <nav aria-label="Breadcrumb" className="text-xs text-slate-500 flex items-center gap-1.5">
-          <button onClick={() => go({ lang, view: 'home' })} className="hover:text-red-600 cursor-pointer">{L.home[lang]}</button>
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}  className="hover:text-red-600 cursor-pointer">{L.home[lang]}</NavLink>
           <span>/</span>
-          <button onClick={() => go(blogRoot)} className="hover:text-red-600 cursor-pointer">{L.blog[lang]}</button>
+          <NavLink href={buildLocalizedUrl(lang, blogRoot)} onNavigate={onNavigate}  className="hover:text-red-600 cursor-pointer">{L.blog[lang]}</NavLink>
         </nav>
 
         <header className="space-y-3 border-b border-slate-200 pb-6">
@@ -78,12 +78,12 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
 
         <aside className="rounded-2xl bg-slate-50 border border-slate-200 p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <p className="text-sm text-slate-700">{L.ctaText[lang]}</p>
-          <button
-            onClick={() => go({ lang, view: 'catalog-root' })}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+            
             className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-red-600 text-white text-sm font-bold hover:bg-red-700 cursor-pointer"
           >
             {L.cta[lang]} <ArrowRight className="w-4 h-4" />
-          </button>
+          </NavLink>
         </aside>
 
         <section className="space-y-3">
@@ -91,13 +91,13 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           <ul className="grid sm:grid-cols-2 gap-3">
             {others.map((p) => (
               <li key={p.id}>
-                <button
-                  onClick={() => go({ lang, view: 'blog-post', blogPost: p })}
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: p })} onNavigate={onNavigate}
+                  
                   className="w-full text-left p-4 rounded-xl border border-slate-200 hover:border-red-300 hover:bg-red-50/30 transition-colors cursor-pointer"
                 >
                   <div className="font-semibold text-slate-900 text-sm">{p.title[lang]}</div>
                   <div className="text-xs text-slate-500 mt-1 line-clamp-2">{p.excerpt[lang]}</div>
-                </button>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -117,8 +117,8 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
       <ul className="grid md:grid-cols-2 gap-5">
         {BLOG_POSTS.map((p) => (
           <li key={p.id}>
-            <button
-              onClick={() => go({ lang, view: 'blog-post', blogPost: p })}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: p })} onNavigate={onNavigate}
+              
               className="group h-full w-full text-left rounded-2xl border border-slate-200 bg-white p-6 hover:border-red-300 hover:shadow-lg transition-all cursor-pointer flex flex-col"
             >
               <div className="flex items-center gap-3 text-xs text-slate-500 mb-3">
@@ -130,7 +130,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
               <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-red-600">
                 {L.read[lang]} <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </span>
-            </button>
+            </NavLink>
           </li>
         ))}
       </ul>

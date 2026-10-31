@@ -14,6 +14,7 @@ import {
   User,
   ArrowRight,
 } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface GuideViewProps {
   route: ParsedRoute;
@@ -52,26 +53,26 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-8">
         {/* Breadcrumb Trail */}
         <div className="flex items-center gap-2 text-xs text-slate-500 overflow-x-auto whitespace-nowrap">
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].pdp.home}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].header.guides}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {cluster.title[lang]}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
           <span className="font-bold text-slate-900 truncate">{article.title[lang]}</span>
         </div>
@@ -197,12 +198,12 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                 <span className="text-xs text-slate-500 block">{t.sizeCode}</span>
                 <span className="text-2xl font-black text-red-600 font-mono">{lang === 'fr' ? 'Taille' : lang === 'it' ? 'Taglia' : 'Grösse'} {frameSizeTShirt}</span>
               </div>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+                
                 className="px-4 py-2 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-red-600 transition-colors cursor-pointer"
               >
                 {t.showMatchingBikes}
-              </button>
+              </NavLink>
             </div>
           </div>
         )}
@@ -274,18 +275,18 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 
         {/* Back Link */}
         <div className="pt-6 border-t border-slate-200 flex items-center justify-between">
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
+            
             className="text-xs font-bold text-slate-700 hover:text-red-600 transition-colors cursor-pointer"
           >
             ← {t.backTo} {cluster.title[lang]}
-          </button>
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+          </NavLink>
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+            
             className="px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold hover:bg-red-700 transition-colors cursor-pointer"
           >
             {t.findBikesCta}
-          </button>
+          </NavLink>
         </div>
       </div>
     );
@@ -298,19 +299,19 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
     return (
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 space-y-8">
         <div className="flex items-center gap-2 text-xs text-slate-500">
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].pdp.home}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].header.guides}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
           <span className="font-bold text-slate-900">{cluster.title[lang]}</span>
         </div>
@@ -326,9 +327,9 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {cluster.guides.map((g) => (
-            <div
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-detail', guideCluster: cluster, guideArticle: g })} onNavigate={onNavigate}
               key={g.id}
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-detail', guideCluster: cluster, guideArticle: g }))}
+              
               className="bg-white rounded-3xl border border-slate-200/90 p-6 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
             >
               <div className="space-y-2">
@@ -349,7 +350,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                 <span>{t.readArticle}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       </div>
@@ -373,9 +374,9 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {GUIDE_CLUSTERS.map((cl) => (
-          <div
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
             key={cl.id}
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl }))}
+            
             className="bg-white rounded-3xl border border-slate-200/90 p-6 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
           >
             <div>
@@ -394,7 +395,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
               <span>{cl.guides.length} {lang === 'fr' ? 'articles spécialisés' : lang === 'it' ? 'articoli di approfondimento' : 'Fachartikel anzeigen'}</span>
               <ChevronRight className="w-4 h-4" />
             </div>
-          </div>
+          </NavLink>
         ))}
       </div>
     </div>

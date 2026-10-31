@@ -27,6 +27,7 @@ import {
   ShieldAlert,
   Info,
 } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface CatalogViewProps {
   route: ParsedRoute;
@@ -234,21 +235,21 @@ export function CatalogView({
       {/* Category Header & Breadcrumb Info */}
       <div className="border-b border-slate-200 pb-6 space-y-2">
         <div className="flex items-center gap-2 text-xs text-slate-500">
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {t.header.catalogue}
-          </button>
+          </NavLink>
           {category && (
             <>
               <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
+                
                 className={subcategoryId ? 'hover:text-red-600 cursor-pointer' : 'font-bold text-slate-900'}
               >
                 {category.name[lang]}
-              </button>
+              </NavLink>
             </>
           )}
           {subcategoryId && category?.subcategories && (
@@ -283,8 +284,8 @@ export function CatalogView({
         {/* Subcategory Pills */}
         {category?.subcategories && category.subcategories.length > 0 && (
           <div className="flex flex-wrap gap-2 pt-3">
-            <button
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category }))}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
+              
               className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors cursor-pointer ${
                 !subcategoryId
                   ? 'bg-slate-900 text-white shadow-xs'
@@ -292,11 +293,11 @@ export function CatalogView({
               }`}
             >
               {t.catalog.allInCat} {category.name[lang]} ({category.targetCount})
-            </button>
+            </NavLink>
             {category.subcategories.filter((sub) => sub.targetCount > 0).map((sub) => (
-              <button
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'subcategory', category, subcategorySlug: sub.id })} onNavigate={onNavigate}
                 key={sub.id}
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'subcategory', category, subcategorySlug: sub.id }))}
+                
                 className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors cursor-pointer ${
                   subcategoryId === sub.id
                     ? 'bg-red-600 text-white shadow-xs'
@@ -304,7 +305,7 @@ export function CatalogView({
                 }`}
               >
                 {sub.name[lang]} ({sub.targetCount})
-              </button>
+              </NavLink>
             ))}
           </div>
         )}

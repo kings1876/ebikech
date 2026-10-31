@@ -25,6 +25,7 @@ import {
   ChevronRight,
   Star,
 } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface HomeViewProps {
   lang: Language;
@@ -286,9 +287,9 @@ export function HomeView({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {CATEGORIES.map((cat) => (
-            <div
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
               key={cat.id}
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category: cat }))}
+              
               className="group bg-white rounded-2xl border border-slate-200/90 hover:border-red-500/50 p-5 hover:shadow-xl transition-all duration-200 cursor-pointer flex flex-col justify-between"
             >
               <div>
@@ -314,7 +315,7 @@ export function HomeView({
                 <span>{t.home.viewModels}</span>
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       </section>
@@ -427,12 +428,12 @@ export function HomeView({
             <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-slate-900">{featuredCopy.title[lang]}</h2>
             <p className="text-sm text-slate-600 mt-1 max-w-2xl">{featuredCopy.desc[lang]}</p>
           </div>
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+            
             className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-colors self-start cursor-pointer"
           >
             {featuredCopy.cta[lang]}
-          </button>
+          </NavLink>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -461,19 +462,19 @@ export function HomeView({
               {t.home.swissBrandsTitle}
             </h2>
           </div>
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
+            
             className="text-xs font-bold text-red-600 hover:text-red-700 cursor-pointer hidden sm:block"
           >
             {t.home.allBrandsCta}
-          </button>
+          </NavLink>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {swissBrands.map((b) => (
-            <div
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand: b })} onNavigate={onNavigate}
               key={b.id}
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand: b }))}
+              
               className="bg-white rounded-2xl border border-slate-200/90 hover:border-red-500/50 p-5 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
             >
               <div>
@@ -492,7 +493,7 @@ export function HomeView({
                 <span className="font-mono text-red-600 font-bold">{b.targetCount} {t.header.models}</span>
                 <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       </section>
@@ -515,12 +516,12 @@ export function HomeView({
             </p>
 
             <div className="pt-2">
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' })} onNavigate={onNavigate}
+                
                 className="px-6 py-3 rounded-xl bg-white text-emerald-950 font-black text-xs hover:bg-emerald-50 transition-colors shadow-lg cursor-pointer"
               >
                 {t.home.subsidiesBannerCta}
-              </button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -537,19 +538,19 @@ export function HomeView({
               {t.home.guidesSectionTitle}
             </h2>
           </div>
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
+            
             className="text-xs font-bold text-red-600 hover:text-red-700 cursor-pointer hidden sm:block"
           >
             {t.home.allGuidesCta}
-          </button>
+          </NavLink>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {GUIDE_CLUSTERS.map((cluster) => (
-            <div
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
               key={cluster.id}
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster }))}
+              
               className="bg-white rounded-2xl border border-slate-200/90 p-5 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
             >
               <div>
@@ -568,7 +569,7 @@ export function HomeView({
                 <span>{cluster.guides.length} {t.home.articlesCount}</span>
                 <ChevronRight className="w-4 h-4" />
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       </section>

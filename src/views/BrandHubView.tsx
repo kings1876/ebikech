@@ -13,6 +13,7 @@ import {
   MapPin,
   ArrowRight,
 } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface BrandHubViewProps {
   route: ParsedRoute;
@@ -114,26 +115,26 @@ export function BrandHubView({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-8">
         {/* Breadcrumb Trail */}
         <div className="flex items-center gap-2 text-xs text-slate-500">
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].pdp.home}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3 h-3 text-slate-400" />
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].header.brands}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3 h-3 text-slate-400" />
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
+            
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {brand.name}
-          </button>
+          </NavLink>
           <ChevronRight className="w-3 h-3 text-slate-400" />
           <span className="font-bold text-slate-900">{category.name[lang]}</span>
         </div>
@@ -208,19 +209,19 @@ export function BrandHubView({
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-10">
       {/* Breadcrumb Trail */}
       <div className="flex items-center gap-2 text-xs text-slate-500">
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+          
           className="hover:text-red-600 transition-colors cursor-pointer"
         >
           {I18N[lang].pdp.home}
-        </button>
+        </NavLink>
         <ChevronRight className="w-3 h-3 text-slate-400" />
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand-root' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
+          
           className="hover:text-red-600 transition-colors cursor-pointer"
         >
           {I18N[lang].header.brands}
-        </button>
+        </NavLink>
         <ChevronRight className="w-3 h-3 text-slate-400" />
         <span className="font-bold text-slate-900">{brand.name}</span>
       </div>
@@ -285,18 +286,14 @@ export function BrandHubView({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {brandCategories.map((bc) => (
-            <div
-              key={bc.category.id}
-              onClick={() =>
-                onNavigate(
-                  buildLocalizedUrl(lang, {
+            <NavLink href={buildLocalizedUrl(lang, {
                     lang,
                     view: 'brand-category',
                     brand,
                     category: bc.category,
-                  })
-                )
-              }
+                  })} onNavigate={onNavigate}
+              key={bc.category.id}
+              
               className="bg-white rounded-2xl border border-slate-200/90 p-4 hover:border-red-500/50 hover:shadow-lg transition-all cursor-pointer flex flex-col justify-between"
             >
               <div>
@@ -327,7 +324,7 @@ export function BrandHubView({
                 )}
                 <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       </div>
@@ -357,8 +354,8 @@ export function BrandHubView({
 // Simple Brand Card for index
 function BrandCard({ brand, lang, onNavigate }: { brand: BrandDef; lang: Language; onNavigate: (path: string) => void }) {
   return (
-    <div
-      onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand }))}
+    <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
+      
       className="bg-white rounded-2xl border border-slate-200/90 p-5 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
     >
       <div>
@@ -386,6 +383,6 @@ function BrandCard({ brand, lang, onNavigate }: { brand: BrandDef; lang: Languag
         <span>{lang === 'fr' ? 'Voir la marque & modèles' : lang === 'it' ? 'Vedi pagina marchio & modelli' : 'Markenseite & Modelle ansehen'}</span>
         <ChevronRight className="w-4 h-4" />
       </div>
-    </div>
+    </NavLink>
   );
 }

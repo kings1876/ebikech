@@ -3,6 +3,7 @@ import { Language } from '../types';
 import { CONTACT, hasContactDetails } from '../config/contact';
 import { buildLocalizedUrl } from '../utils/routes';
 import { Mail, Phone, MapPin, Clock, MessageCircle, CheckCircle2, AlertCircle } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface ContactViewProps {
   lang: Language;
@@ -185,9 +186,9 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
               <input type="checkbox" name="consent" required className="mt-1 w-4 h-4 accent-red-600" />
               <span>
                 {L.consent[lang]}{' '}
-                <button type="button" onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'legal' }))} className="underline text-red-700 cursor-pointer">
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}  className="underline text-red-700 cursor-pointer">
                   {L.privacy[lang]}
-                </button>
+                </NavLink>
               </span>
             </label>
 

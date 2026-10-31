@@ -4,6 +4,7 @@ import { CANTON_SUBSIDIES } from '../data/cantonSubsidies';
 import { Coins, ChevronRight, ArrowRight } from 'lucide-react';
 import { buildLocalizedUrl } from '../utils/routes';
 import { I18N } from '../data/i18n';
+import { NavLink } from '../components/NavLink';
 
 interface CantonSubsidiesViewProps {
   lang: Language;
@@ -22,12 +23,12 @@ export function CantonSubsidiesView({ lang, onNavigate }: CantonSubsidiesViewPro
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-10">
       {/* Breadcrumb Trail */}
       <div className="flex items-center gap-2 text-xs text-slate-500">
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+          
           className="hover:text-red-600 transition-colors cursor-pointer"
         >
           {I18N[lang].pdp.home}
-        </button>
+        </NavLink>
         <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
         <span className="font-bold text-slate-900">
           {lang === 'fr' ? 'Subventions cantonales' : lang === 'it' ? 'Incentivi cantonali' : 'Kantonale Förderbeiträge'}
@@ -124,13 +125,13 @@ export function CantonSubsidiesView({ lang, onNavigate }: CantonSubsidiesViewPro
               <span className="text-slate-400 font-mono text-[11px]">
                 {t.officialPortal} {s.officialLinkText}
               </span>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+                
                 className="font-bold text-emerald-700 hover:text-emerald-900 flex items-center gap-1 cursor-pointer"
               >
                 <span>{t.matchingModels}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
-              </button>
+              </NavLink>
             </div>
           </div>
         ))}

@@ -2,6 +2,7 @@ import { Language } from '../types';
 import { FAQ_ITEMS } from '../data/faq';
 import { buildLocalizedUrl } from '../utils/routes';
 import { ChevronDown } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface FaqViewProps {
   lang: Language;
@@ -48,18 +49,18 @@ export function FaqView({ lang, onNavigate }: FaqViewProps) {
       <section className="rounded-2xl bg-slate-50 border border-slate-200 p-5 space-y-3">
         <h2 className="font-bold text-slate-900">{L.moreTitle[lang]}</h2>
         <div className="flex flex-wrap gap-3">
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-root' })} onNavigate={onNavigate}
+            
             className="px-4 py-2 rounded-xl bg-white border border-slate-200 text-sm font-semibold text-slate-800 hover:border-red-300 cursor-pointer"
           >
             {L.blog[lang]}
-          </button>
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+          </NavLink>
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+            
             className="px-4 py-2 rounded-xl bg-red-600 text-sm font-semibold text-white hover:bg-red-700 cursor-pointer"
           >
             {L.catalogue[lang]}
-          </button>
+          </NavLink>
         </div>
       </section>
     </div>

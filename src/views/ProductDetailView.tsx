@@ -23,6 +23,7 @@ import {
   ShieldCheck,
   Check,
 } from 'lucide-react';
+import { NavLink } from '../components/NavLink';
 
 interface ProductDetailViewProps {
   productSlug: string;
@@ -66,12 +67,12 @@ export function ProductDetailView({
             ? 'Questo modello non è disponibile nel catalogo svizzero.'
             : 'Das gewünschte Modell ist im Schweizer Katalog nicht verfügbar.'}
         </p>
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+          
           className="mt-4 px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold cursor-pointer"
         >
           {lang === 'fr' ? 'Retour au catalogue' : lang === 'it' ? 'Torna al catalogo' : 'Zurück zum Gesamtkatalog'}
-        </button>
+        </NavLink>
       </div>
     );
   }
@@ -110,28 +111,28 @@ export function ProductDetailView({
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-12">
       {/* Breadcrumb Trail */}
       <div className="flex items-center gap-2 text-xs text-slate-500 overflow-x-auto whitespace-nowrap pb-1">
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+          
           className="hover:text-red-600 transition-colors cursor-pointer"
         >
           {tPdp.home}
-        </button>
+        </NavLink>
         <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+          
           className="hover:text-red-600 transition-colors cursor-pointer"
         >
           {tPdp.catalogue}
-        </button>
+        </NavLink>
         {category && (
           <>
             <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
-            <button
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category }))}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
+              
               className="hover:text-red-600 transition-colors cursor-pointer"
             >
               {category.name[lang]}
-            </button>
+            </NavLink>
           </>
         )}
         <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
@@ -209,12 +210,12 @@ export function ProductDetailView({
         <div className="lg:col-span-5 space-y-5">
           <div className="space-y-2">
             <div className="flex items-center gap-2">
-              <button
-                onClick={() => brand && onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
+                
                 className="font-bold text-xs uppercase tracking-wider text-red-600 hover:underline cursor-pointer"
               >
                 {brand?.name}
-              </button>
+              </NavLink>
               <span className="text-slate-300">·</span>
               <span className="text-xs text-slate-500 lowercase">{category?.name[lang]}</span>
             </div>
