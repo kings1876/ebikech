@@ -57,20 +57,20 @@ export function ProductDetailView({
     return (
       <div className="max-w-4xl mx-auto py-20 px-4 text-center">
         <h2 className="text-2xl font-bold text-slate-900">
-          {lang === 'fr' ? 'ModÃƒÂ¨le non trouvÃƒÂ©' : lang === 'it' ? 'Modello non trovato' : 'E-Bike Modell nicht gefunden'}
+          {lang === 'fr' ? 'Modèle non trouvé' : lang === 'it' ? 'Modello non trovato' : 'E-Bike Modell nicht gefunden'}
         </h2>
         <p className="text-sm text-slate-500 mt-2">
           {lang === 'fr'
-            ? 'Ce modÃƒÂ¨le nÃ¢â‚¬â„¢est pas disponible dans le catalogue suisse.'
+            ? 'Ce modèle n’est pas disponible dans le catalogue suisse.'
             : lang === 'it'
-            ? 'Questo modello non ÃƒÂ¨ disponibile nel catalogo svizzero.'
-            : 'Das gewÃƒÂ¼nschte Modell ist im Schweizer Katalog nicht verfÃƒÂ¼gbar.'}
+            ? 'Questo modello non è disponibile nel catalogo svizzero.'
+            : 'Das gewünschte Modell ist im Schweizer Katalog nicht verfügbar.'}
         </p>
         <button
           onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
           className="mt-4 px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold cursor-pointer"
         >
-          {lang === 'fr' ? 'Retour au catalogue' : lang === 'it' ? 'Torna al catalogo' : 'ZurÃƒÂ¼ck zum Gesamtkatalog'}
+          {lang === 'fr' ? 'Retour au catalogue' : lang === 'it' ? 'Torna al catalogo' : 'Zurück zum Gesamtkatalog'}
         </button>
       </div>
     );
@@ -155,7 +155,7 @@ export function ProductDetailView({
 
               {brand?.isSwiss && (
                 <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-red-50 text-red-700 border border-red-200 flex items-center gap-1">
-                  <span>Ã°Å¸â€¡Â¨Ã°Å¸â€¡Â­ Swiss Engineering</span>
+                  <span>🇨🇭 Swiss Engineering</span>
                 </span>
               )}
             </div>
@@ -215,7 +215,7 @@ export function ProductDetailView({
               >
                 {brand?.name}
               </button>
-              <span className="text-slate-300">Ã‚Â·</span>
+              <span className="text-slate-300">·</span>
               <span className="text-xs text-slate-500 lowercase">{category?.name[lang]}</span>
             </div>
 
@@ -271,7 +271,7 @@ export function ProductDetailView({
                 </div>
 
                 <span className="text-[11px] font-bold text-emerald-700 group-hover:underline">
-                  {product.trustpilotStats.reviewCount} verifiziert Ã¢â€ â€™
+                  {product.trustpilotStats.reviewCount} verifiziert →
                 </span>
               </div>
             )}
@@ -352,7 +352,7 @@ export function ProductDetailView({
           >
             <span>{tPdp.tabReviews}</span>
             <span className="px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-mono">
-              Ã¢Ëœâ€¦ {product.trustpilotStats?.score || 4.7}
+              ★ {product.trustpilotStats?.score || 4.7}
             </span>
           </button>
           )}
@@ -404,7 +404,7 @@ export function ProductDetailView({
                     <ul className="space-y-1 text-emerald-950 text-[11px]">
                       {tv.pros.map((p, i) => (
                         <li key={i} className="flex items-start gap-1">
-                          <span className="text-emerald-600 font-bold">Ã¢Å“â€œ</span>
+                          <span className="text-emerald-600 font-bold">✓</span>
                           <span>{p}</span>
                         </li>
                       ))}
@@ -419,7 +419,7 @@ export function ProductDetailView({
                     <ul className="space-y-1 text-amber-950 text-[11px]">
                       {tv.cons.map((c, i) => (
                         <li key={i} className="flex items-start gap-1">
-                          <span className="text-amber-600 font-bold">Ã¢Å“â€”</span>
+                          <span className="text-amber-600 font-bold">✗</span>
                           <span>{c}</span>
                         </li>
                       ))}
@@ -471,7 +471,7 @@ export function ProductDetailView({
                       </div>
                     ))}
                     <span className="text-xs font-bold text-slate-700 ml-2 font-mono">
-                      {product.trustpilotStats?.reviewCount || 38} {lang === 'fr' ? 'avis vÃƒÂ©rifiÃƒÂ©s' : lang === 'it' ? 'recensioni verificate' : 'verifizierte Bewertungen'}
+                      {product.trustpilotStats?.reviewCount || 38} {lang === 'fr' ? 'avis vérifiés' : lang === 'it' ? 'recensioni verificate' : 'verifizierte Bewertungen'}
                     </span>
                   </div>
 
@@ -542,7 +542,7 @@ export function ProductDetailView({
                         : 'bg-emerald-50 text-emerald-900 border border-emerald-200 hover:bg-emerald-100'
                     }`}
                   >
-                    <span>Ã¢Ëœâ€¦ Trustpilot ({trustpilotReviews.length})</span>
+                    <span>★ Trustpilot ({trustpilotReviews.length})</span>
                   </button>
                   <button
                     onClick={() => setReviewFilter('Google')}
@@ -602,7 +602,7 @@ export function ProductDetailView({
                         </div>
 
                         <div className="text-[10px] text-slate-400 mt-0.5">
-                          {rev.kmRidden.toLocaleString('de-CH')} {tPdp.kmRidden} Ã‚Â· {tPdp.date} {rev.date}
+                          {rev.kmRidden.toLocaleString('de-CH')} {tPdp.kmRidden} · {tPdp.date} {rev.date}
                         </div>
                       </div>
 
@@ -696,7 +696,7 @@ export function ProductDetailView({
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.frameSpec}</td>
                   <td className="p-3.5 font-medium text-slate-900">
-                    {product.frameMaterial} Ã‚Â· {frameTypeLabel}
+                    {product.frameMaterial} · {frameTypeLabel}
                   </td>
                 </tr>
                 <tr>
@@ -709,7 +709,7 @@ export function ProductDetailView({
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.lightingSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.specs.lighting} Ã‚Â· {product.specs.display}</td>
+                  <td className="p-3.5 font-medium text-slate-900">{product.specs.lighting} · {product.specs.display}</td>
                 </tr>
               </tbody>
             </table>

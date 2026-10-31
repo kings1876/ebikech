@@ -99,7 +99,7 @@ export function HomeView({
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-600/20 border border-red-500/40 text-red-300 text-xs font-semibold backdrop-blur-xs">
-                <span>ðŸ‡¨ðŸ‡­</span>
+                <span>🇨🇭</span>
                 <span>{t.home.heroBadge}</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
               </div>
@@ -306,17 +306,17 @@ export function HomeView({
                 </div>
                 <div className="text-xs text-emerald-200">
                   {lang === 'fr'
-                    ? 'Plus de 3â€™200 avis clients vÃ©rifiÃ©s sur Trustpilot et Google en Suisse'
+                    ? 'Plus de 3’200 avis clients vérifiés sur Trustpilot et Google en Suisse'
                     : lang === 'it'
-                    ? 'Oltre 3â€™200 recensioni verificate su Trustpilot e Google in Svizzera'
-                    : 'Ãœber 3â€™200 verifizierte Kundenbewertungen auf Trustpilot & Google Schweiz'}
+                    ? 'Oltre 3’200 recensioni verificate su Trustpilot e Google in Svizzera'
+                    : 'Über 3’200 verifizierte Kundenbewertungen auf Trustpilot & Google Schweiz'}
                 </div>
               </div>
             </div>
 
             <div className="text-xs text-emerald-300 flex items-center gap-1.5 self-start sm:self-center">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>100% {lang === 'fr' ? 'commandes vÃ©rifiÃ©es' : lang === 'it' ? 'ordini verificati' : 'echte Schweizer KÃ¤ufer'}</span>
+              <span>100% {lang === 'fr' ? 'commandes vérifiées' : lang === 'it' ? 'ordini verificati' : 'echte Schweizer Käufer'}</span>
             </div>
           </div>
 
@@ -334,11 +334,11 @@ export function HomeView({
                 <span className="text-[10px] text-emerald-300 font-mono">#TP-CH-8491</span>
               </div>
               <p className="text-xs text-emerald-100 leading-relaxed italic">
-                Â«Kaufberatung und TCS-Testergebnisse haben mir geholfen, das perfekte Flyer E-Bike fÃ¼r das Berner Oberland auszuwÃ¤hlen. Probefahrt war top!Â»
+                «Kaufberatung und TCS-Testergebnisse haben mir geholfen, das perfekte Flyer E-Bike für das Berner Oberland auszuwählen. Probefahrt war top!»
               </p>
               <div className="text-[11px] font-bold text-white flex items-center justify-between pt-1 border-t border-emerald-800/60">
                 <span>Beat M. (Kanton BE)</span>
-                <span className="text-emerald-400 font-normal">Trustpilot âœ“</span>
+                <span className="text-emerald-400 font-normal">Trustpilot ✓</span>
               </div>
             </div>
 
@@ -354,11 +354,11 @@ export function HomeView({
                 <span className="text-[10px] text-emerald-300 font-mono">#TP-CH-7294</span>
               </div>
               <p className="text-xs text-emerald-100 leading-relaxed italic">
-                Â«Comparateur super clair et neutre. Jâ€™ai trouvÃ© mon vÃ©lo Stromer 45 km/h pour faire GenÃ¨ve-Nyon tous les jours sans encombre.Â»
+                «Comparateur super clair et neutre. J’ai trouvé mon vélo Stromer 45 km/h pour faire Genève-Nyon tous les jours sans encombre.»
               </p>
               <div className="text-[11px] font-bold text-white flex items-center justify-between pt-1 border-t border-emerald-800/60">
                 <span>Sylvie D. (Canton GE)</span>
-                <span className="text-emerald-400 font-normal">Trustpilot âœ“</span>
+                <span className="text-emerald-400 font-normal">Trustpilot ✓</span>
               </div>
             </div>
 
@@ -374,11 +374,11 @@ export function HomeView({
                 <span className="text-[10px] text-emerald-300 font-mono">#TP-CH-9130</span>
               </div>
               <p className="text-xs text-emerald-100 leading-relaxed italic">
-                Â«Grazie alle schede tecniche e ai test indipendenti abbiamo scelto la Scott da trekking. Sussidio del comune ottenuto in 2 settimane!Â»
+                «Grazie alle schede tecniche e ai test indipendenti abbiamo scelto la Scott da trekking. Sussidio del comune ottenuto in 2 settimane!»
               </p>
               <div className="text-[11px] font-bold text-white flex items-center justify-between pt-1 border-t border-emerald-800/60">
                 <span>Marco T. (Cantone TI)</span>
-                <span className="text-emerald-400 font-normal">Trustpilot âœ“</span>
+                <span className="text-emerald-400 font-normal">Trustpilot ✓</span>
               </div>
             </div>
           </div>
@@ -430,7 +430,7 @@ export function HomeView({
         <div className="flex items-center justify-between mb-8">
           <div>
             <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">
-              ðŸ‡¨ðŸ‡­ {t.home.swissBrandsBadge}
+              🇨🇭 {t.home.swissBrandsBadge}
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
               {t.home.swissBrandsTitle}
@@ -455,7 +455,7 @@ export function HomeView({
                 <div className="flex items-center justify-between mb-3">
                   <span className="font-black text-base text-slate-900">{b.name}</span>
                   <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
-                    ðŸ‡¨ðŸ‡­ {b.headquarters.split(',')[0]}
+                    🇨🇭 {b.headquarters.split(',')[0]}
                   </span>
                 </div>
                 <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
