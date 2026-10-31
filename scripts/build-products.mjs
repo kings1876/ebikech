@@ -11,6 +11,27 @@ const out = path.join(root, 'src/data/products.json');
 const fx = JSON.parse(fs.readFileSync(path.join(root, 'src/data/fx.json'), 'utf8'));
 const imageStatusFile = path.join(root, 'src/data/image-status.json');
 const imageStatus = fs.existsSync(imageStatusFile) ? JSON.parse(fs.readFileSync(imageStatusFile, 'utf8')) : {};
+const imageClassFile = path.join(root, 'src/data/image-class.json');
+const imageClass = fs.existsSync(imageClassFile) ? JSON.parse(fs.readFileSync(imageClassFile, 'utf8')) : null;
+
+// Image policy: the main image must be a complete bike on a white studio background;
+// the gallery may add clean white- or black-background shots. Lifestyle/outdoor photos are dropped.
+function pickImages(p) {
+  const all = (p.images || []).filter((i) => i.url && imageStatus[i.url] !== false);
+  if (!imageClass) return all.slice(0, 8).map((i) => ({ url: i.url, alt: i.alt || p.name }));
+  const info = all.map((i) => ({ i, c: imageClass[i.url] })).filter((x) => x.c && (x.c.bg === 'white' || x.c.bg === 'black'));
+  // "Whole bike": fully inside the frame, or a tight studio crop that spans the frame as a side view.
+  // A full side view is wide AND tall (handlebar/detail close-ups are not).
+  const whole = (c) => (c.bh || 0) >= 0.6 && (c.whole || ((c.bw || 0) >= 0.85 && (c.aspect || 0) >= 1.4 && (c.aspect || 0) <= 2.3));
+  // Prefer the proportion of a typical bike side view (~1.7:1); ties keep the manufacturer's image order.
+  const heroes = info.filter((x) => x.c.bg === 'white' && whole(x.c)).sort((a, b) => Math.abs((a.c.aspect || 0) - 1.7) - Math.abs((b.c.aspect || 0) - 1.7));
+  if (!heroes.length) return [];
+  const hero = heroes[0];
+  const rest = info
+    .filter((x) => x !== hero)
+    .sort((a, b) => Number(whole(b.c)) - Number(whole(a.c)) || (b.c.bw || 0) - (a.c.bw || 0));
+  return [hero, ...rest].slice(0, 8).map((x) => ({ url: x.i.url, alt: x.i.alt || p.name, bg: x.c.bg }));
+}
 const read = (p) => fs.readFileSync(path.join(root, p), 'utf8');
 const idsIn = (file) => [...read(file).matchAll(/^\s{2,6}id: '([^']+)'/gm)].map((m) => m[1]);
 const brandIds = new Set(idsIn('src/data/brands.ts'));
@@ -137,10 +158,7 @@ for (const p of rawAll) {
     priceFrom: /\bab\s*CHF|Einstiegspreis|ab-Preis|\bfrom\b/i.test(p.priceNote || '') || undefined,
     priceEstimated: estimated || undefined,
     imageSources: (p.images || []).filter((i) => i.url).map((i) => ({ url: i.url, alt: i.alt || p.name })),
-    images: (p.images || [])
-      .filter((i) => i.url && imageStatus[i.url] !== false)
-      .slice(0, 8)
-      .map((i) => ({ url: i.url, alt: i.alt || p.name })),
+    images: pickImages(p),
   });
 }
 

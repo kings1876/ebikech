@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-type Img = { url: string; alt: string };
+type Img = { url: string; alt: string; bg?: 'white' | 'black' };
 
 function BikeFallback({ className = '' }: { className?: string }) {
   return (
@@ -83,7 +83,7 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
         if (e.key === 'ArrowLeft') go(-1);
       }}
     >
-      <div className="relative w-full aspect-[4/3] bg-white rounded-2xl border border-slate-100 flex items-center justify-center overflow-hidden">
+      <div className={`relative w-full aspect-[4/3] rounded-2xl border border-slate-100 flex items-center justify-center overflow-hidden ${current.bg === 'black' ? 'bg-black' : 'bg-white'}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           key={current.url}
@@ -131,7 +131,7 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
                 onClick={() => setIndex(i)}
                 aria-label={`Image ${i + 1}`}
                 aria-current={i === Math.min(index, list.length - 1)}
-                className={`block w-full aspect-[4/3] rounded-lg border bg-white overflow-hidden cursor-pointer ${
+                className={`block w-full aspect-[4/3] rounded-lg border ${img.bg === 'black' ? 'bg-black' : 'bg-white'} overflow-hidden cursor-pointer ${
                   i === Math.min(index, list.length - 1) ? 'border-red-600 ring-1 ring-red-600' : 'border-slate-200 hover:border-slate-400'
                 }`}
               >

@@ -137,7 +137,7 @@ export interface Product {
   /** Official manufacturer image URLs. Not displayed until usage rights are confirmed. */
   imageSources: { url: string; alt: string }[];
   /** Official image URLs verified to load (see scripts/check-images.mjs). Shown in cards and the gallery. */
-  images: { url: string; alt: string }[];
+  images: { url: string; alt: string; bg?: 'white' | 'black' }[];
 }
 
 export interface FacetFilters {
