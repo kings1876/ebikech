@@ -11,6 +11,17 @@ const out = path.join(root, 'src/data/products.json');
 const fx = JSON.parse(fs.readFileSync(path.join(root, 'src/data/fx.json'), 'utf8'));
 const imageStatusFile = path.join(root, 'src/data/image-status.json');
 const imageStatus = fs.existsSync(imageStatusFile) ? JSON.parse(fs.readFileSync(imageStatusFile, 'utf8')) : {};
+const extraDir = path.join(root, 'src/data/extra-images');
+const extraImages = {};
+if (fs.existsSync(extraDir)) {
+  for (const f of fs.readdirSync(extraDir).filter((x) => x.endsWith('.json'))) {
+    try {
+      for (const e of JSON.parse(fs.readFileSync(path.join(extraDir, f), 'utf8'))) {
+        if (e.slug && Array.isArray(e.images)) extraImages[e.slug] = [...(extraImages[e.slug] || []), ...e.images];
+      }
+    } catch (err) { console.error(`!! extra-images/${f}: ${err.message}`); }
+  }
+}
 const imageClassFile = path.join(root, 'src/data/image-class.json');
 const imageClass = fs.existsSync(imageClassFile) ? JSON.parse(fs.readFileSync(imageClassFile, 'utf8')) : null;
 
@@ -22,9 +33,10 @@ function pickImages(p) {
   const info = all.map((i) => ({ i, c: imageClass[i.url] })).filter((x) => x.c && (x.c.bg === 'white' || x.c.bg === 'black'));
   // "Whole bike": fully inside the frame, or a tight studio crop that spans the frame as a side view.
   // A full side view is wide AND tall (handlebar/detail close-ups are not).
-  const whole = (c) => (c.bh || 0) >= 0.6 && (c.bottomCover === undefined || c.bottomCover >= 0.3) && (c.whole || ((c.bw || 0) >= 0.85 && (c.aspect || 0) >= 1.4 && (c.aspect || 0) <= 2.3));
+  const whole = (c) => (c.bh || 0) >= 0.6 && (c.bottomCover === undefined || c.bottomCover >= 0.3) && (c.whole || ((c.bw || 0) >= 0.85 && (c.aspect || 0) >= 1.1 && (c.aspect || 0) <= 2.3));
   // Prefer the proportion of a typical bike side view (~1.7:1); ties keep the manufacturer's image order.
-  const heroes = info.filter((x) => x.c.bg === 'white' && whole(x.c)).sort((a, b) => Math.abs((a.c.aspect || 0) - 1.7) - Math.abs((b.c.aspect || 0) - 1.7));
+  const isDetailShot = (u) => /[_-]D\d+(\.|$)/i.test(u) || /detail/i.test(u);
+  const heroes = info.filter((x) => x.c.bg === 'white' && whole(x.c) && !isDetailShot(x.i.url)).sort((a, b) => Math.abs((a.c.aspect || 0) - 1.7) - Math.abs((b.c.aspect || 0) - 1.7));
   if (!heroes.length) return [];
   const hero = heroes[0];
   const rest = info
@@ -93,6 +105,11 @@ for (const p of rawAll) {
   if (slugs.has(slug)) slug = `${slug}-${p.modelYear || id}`;
   if (slugs.has(slug)) slug = `${slug}-${id}`;
   slugs.add(slug);
+  // Extra official image URLs found later for products that lacked a usable main image.
+  if (extraImages[slug]) {
+    const have = new Set((p.images || []).map((i) => i.url));
+    p.images = [...(p.images || []), ...extraImages[slug].filter((i) => i.url && !have.has(i.url))];
+  }
 
   const wh = p.battery.wh;
   const batteryBracket = wh < 500 ? '<500' : wh <= 625 ? '500-625' : wh <= 750 ? '625-750' : '>750';
