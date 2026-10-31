@@ -27,6 +27,7 @@ import {
   ShieldCheck,
   Check,
 } from 'lucide-react';
+import { NavLink } from './NavLink';
 
 interface HeaderProps {
   currentRoute: ParsedRoute;
@@ -176,8 +177,8 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
       {/* Main Nav Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center gap-4 lg:gap-6">
         {/* Brand Logo */}
-        <button
-          onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
+          
           className="flex items-center gap-2.5 text-left group cursor-pointer shrink-0"
           aria-label={portalName}
         >
@@ -192,7 +193,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             </div>
             <p className="hidden xl:block text-[10px] text-slate-600 font-medium mt-1">{t.header.tagline}</p>
           </div>
-        </button>
+        </NavLink>
 
         {/* Desktop Menu Links */}
         <nav className="hidden lg:flex items-center gap-1 ml-2" aria-label="Main">
@@ -204,26 +205,23 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             onFocus={() => setCatDropdownOpen(true)}
             onBlur={closeOnBlur(() => setCatDropdownOpen(false))}
           >
-            <button
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+              
               className={linkClass(isCatalogue)}
               aria-haspopup="true"
               aria-expanded={catDropdownOpen}
             >
               <span>{t.header.catalogue}</span>
               <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-            </button>
+            </NavLink>
             {catDropdownOpen && (
               <div className="absolute left-0 top-full pt-2 z-50">
                 <div className="w-[460px] bg-white rounded-2xl shadow-2xl border border-slate-200/90 p-3">
                   <div className="grid grid-cols-2 gap-1">
                     {activeCats.map((cat) => (
-                      <button
+                      <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
                         key={cat.id}
-                        onClick={() => {
-                          setCatDropdownOpen(false);
-                          onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category: cat }));
-                        }}
+                        onClick={() => { setCatDropdownOpen(false); }}
                         className="flex items-center justify-between gap-2 px-3 py-2.5 rounded-xl hover:bg-slate-50 text-left transition-colors cursor-pointer group"
                       >
                         <span className="flex items-center gap-2.5 min-w-0">
@@ -231,19 +229,16 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                           <span className="text-sm font-semibold text-slate-800 group-hover:text-red-700 truncate">{cat.name[lang]}</span>
                         </span>
                         <span className="text-xs text-slate-500 font-mono">{catCounts[cat.id]}</span>
-                      </button>
+                      </NavLink>
                     ))}
                   </div>
-                  <button
-                    onClick={() => {
-                      setCatDropdownOpen(false);
-                      onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }));
-                    }}
+                  <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+                    onClick={() => { setCatDropdownOpen(false); }}
                     className="mt-2 w-full flex items-center justify-between px-3 py-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-sm font-semibold text-slate-800 cursor-pointer"
                   >
                     <span>{t.header.allCategories}</span>
                     <span className="text-red-600 font-mono text-xs">{ALL_PRODUCTS.length}</span>
-                  </button>
+                  </NavLink>
                 </div>
               </div>
             )}
@@ -257,26 +252,23 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             onFocus={() => setBrandDropdownOpen(true)}
             onBlur={closeOnBlur(() => setBrandDropdownOpen(false))}
           >
-            <button
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand-root' }))}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
+              
               className={linkClass(isBrands)}
               aria-haspopup="true"
               aria-expanded={brandDropdownOpen}
             >
               <span>{t.header.brands}</span>
               <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-            </button>
+            </NavLink>
             {brandDropdownOpen && (
               <div className="absolute left-0 top-full pt-2 z-50">
                 <div className="w-[420px] bg-white rounded-2xl shadow-2xl border border-slate-200/90 p-3">
                   <div className="grid grid-cols-2 gap-1">
                     {activeBrands.map((brand) => (
-                      <button
+                      <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
                         key={brand.id}
-                        onClick={() => {
-                          setBrandDropdownOpen(false);
-                          onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand }));
-                        }}
+                        onClick={() => { setBrandDropdownOpen(false); }}
                         className="flex items-center justify-between gap-2 px-3 py-2 rounded-xl hover:bg-slate-50 text-left cursor-pointer group"
                       >
                         <span className="text-sm font-semibold text-slate-800 group-hover:text-red-700 flex items-center gap-1.5">
@@ -284,7 +276,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                           {brand.isSwiss && <span className="text-[11px]" title="Swiss">🇨🇭</span>}
                         </span>
                         <span className="text-xs text-slate-500 font-mono">{brandCounts[brand.id]}</span>
-                      </button>
+                      </NavLink>
                     ))}
                   </div>
                 </div>
@@ -300,30 +292,27 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             onFocus={() => setGuideDropdownOpen(true)}
             onBlur={closeOnBlur(() => setGuideDropdownOpen(false))}
           >
-            <button
-              onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-root' }))}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
+              
               className={linkClass(isGuides)}
               aria-haspopup="true"
               aria-expanded={guideDropdownOpen}
             >
               <span>{t.header.guides}</span>
               <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-            </button>
+            </NavLink>
             {guideDropdownOpen && (
               <div className="absolute left-0 top-full pt-2 z-50">
                 <div className="w-[380px] bg-white rounded-2xl shadow-2xl border border-slate-200/90 p-3 space-y-1">
                   {GUIDE_CLUSTERS.map((cl) => (
-                    <button
+                    <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
                       key={cl.id}
-                      onClick={() => {
-                        setGuideDropdownOpen(false);
-                        onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl }));
-                      }}
+                      onClick={() => { setGuideDropdownOpen(false); }}
                       className="w-full text-left p-2.5 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer group"
                     >
                       <div className="font-semibold text-sm text-slate-800 group-hover:text-red-700">{cl.title[lang]}</div>
                       <div className="text-xs text-slate-600 line-clamp-1 mt-0.5">{cl.shortDesc[lang]}</div>
-                    </button>
+                    </NavLink>
                   ))}
                 </div>
               </div>
@@ -331,24 +320,24 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           </div>
 
           {/* Blog & FAQ */}
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }))}
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-root' })} onNavigate={onNavigate}
+            
             className={linkClass(currentRoute.view === 'blog-root' || currentRoute.view === 'blog-post')}
           >
             Blog
-          </button>
-          <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'faq' }))}
+          </NavLink>
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'faq' })} onNavigate={onNavigate}
+            
             className={linkClass(currentRoute.view === 'faq')}
           >
             FAQ
-          </button>
-        <button
-            onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'contact' }))}
+          </NavLink>
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
+            
             className={linkClass(currentRoute.view === 'contact')}
           >
             {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
-          </button>
+          </NavLink>
         </nav>
 
         {/* Search & actions */}
@@ -451,12 +440,9 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           <div className="space-y-1">
             <div className="text-[11px] font-bold text-slate-600 uppercase tracking-wider px-2">{t.header.catalogue}</div>
             {activeCats.map((cat) => (
-              <button
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
                 key={cat.id}
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category: cat }));
-                }}
+                onClick={() => { setMobileMenuOpen(false); }}
                 className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
               >
                 <div className="flex items-center gap-2">
@@ -466,65 +452,50 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                 <span className="text-[10px] text-slate-600 font-mono bg-slate-100 px-1.5 py-0.5 rounded">
                   {catCounts[cat.id]}
                 </span>
-              </button>
+              </NavLink>
             ))}
           </div>
 
           <div className="pt-2 border-t border-slate-100 space-y-1">
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand-root' }));
-              }}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
+              onClick={() => { setMobileMenuOpen(false); }}
               className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
               <span>{t.header.brands}</span>
               <Award className="w-4 h-4 text-amber-500" />
-            </button>
+            </NavLink>
 
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-root' }));
-              }}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
+              onClick={() => { setMobileMenuOpen(false); }}
               className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
               <span>{t.header.guides}</span>
               <BookOpen className="w-4 h-4 text-blue-500" />
-            </button>
+            </NavLink>
 
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }));
-              }}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-root' })} onNavigate={onNavigate}
+              onClick={() => { setMobileMenuOpen(false); }}
               className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
               <span>Blog</span>
               <BookOpen className="w-4 h-4 text-slate-400" />
-            </button>
+            </NavLink>
 
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onNavigate(buildLocalizedUrl(lang, { lang, view: 'faq' }));
-              }}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'faq' })} onNavigate={onNavigate}
+              onClick={() => { setMobileMenuOpen(false); }}
               className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
               <span>FAQ</span>
               <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
-            </button>
+            </NavLink>
 
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onNavigate(buildLocalizedUrl(lang, { lang, view: 'contact' }));
-              }}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
+              onClick={() => { setMobileMenuOpen(false); }}
               className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
             >
               <span>{lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}</span>
               <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
-            </button>
+            </NavLink>
           </div>
         </div>
       )}

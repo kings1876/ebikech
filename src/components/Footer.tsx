@@ -4,6 +4,7 @@ import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { I18N } from '../data/i18n';
+import { NavLink } from './NavLink';
 
 interface FooterProps {
   currentRoute: ParsedRoute;
@@ -91,21 +92,21 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <ul className="space-y-1.5 text-xs">
             {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.categoryId === b.id).length - ALL_PRODUCTS.filter((p) => p.categoryId === a.id).length).slice(0, 6).map((cat) => (
               <li key={cat.id}>
-                <button
-                  onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'category', category: cat }))}
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
+                  
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
                   {cat.name[lang]} <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
-                </button>
+                </NavLink>
               </li>
             ))}
             <li>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'catalog-root' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+                
                 className="text-red-400 hover:text-red-300 font-semibold cursor-pointer"
               >
                 {t.allCategoriesLink}
-              </button>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -118,23 +119,23 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <ul className="space-y-1.5 text-xs">
             {BRANDS.filter((b) => ALL_PRODUCTS.some((p) => p.brandId === b.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.brandId === b.id).length - ALL_PRODUCTS.filter((p) => p.brandId === a.id).length).slice(0, 7).map((brand) => (
               <li key={brand.id}>
-                <button
-                  onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand', brand }))}
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
+                  
                   className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-1.5"
                 >
                   <span>{brand.name}</span>
                   {brand.isSwiss && <span className="text-[10px] text-red-400 font-bold">CH</span>}
                   <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})</span>
-                </button>
+                </NavLink>
               </li>
             ))}
             <li>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'brand-root' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
+                
                 className="text-red-400 hover:text-red-300 font-semibold cursor-pointer"
               >
                 {t.allBrandsLink}
-              </button>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -147,53 +148,53 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <ul className="space-y-1.5 text-xs">
             {GUIDE_CLUSTERS.map((cl) => (
               <li key={cl.id}>
-                <button
-                  onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl }))}
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
+                  
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
                   {cl.title[lang]}
-                </button>
+                </NavLink>
               </li>
             ))}
             <li>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' })} onNavigate={onNavigate}
+                
                 className="text-emerald-400 hover:text-emerald-300 font-semibold cursor-pointer flex items-center gap-1"
               >
                 <span>{t.cantonSubsidiesLink}</span>
-              </button>
+              </NavLink>
             </li>
             <li>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'blog-root' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-root' })} onNavigate={onNavigate}
+                
                 className="hover:text-white transition-colors cursor-pointer text-left"
               >
                 Blog
-              </button>
+              </NavLink>
             </li>
             <li>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'faq' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'faq' })} onNavigate={onNavigate}
+                
                 className="hover:text-white transition-colors cursor-pointer text-left"
               >
                 FAQ
-              </button>
+              </NavLink>
             </li>
             <li>
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'contact' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
+                
                 className="hover:text-white transition-colors cursor-pointer text-left"
               >
                 {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
-              </button>
+              </NavLink>
             </li>
             <li className="pt-2 border-t border-slate-800">
-              <button
-                onClick={() => onNavigate(buildLocalizedUrl(lang, { lang, view: 'legal' }))}
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}
+                
                 className="hover:text-white text-slate-500 cursor-pointer"
               >
                 {t.legalLink}
-              </button>
+              </NavLink>
             </li>
           </ul>
         </div>

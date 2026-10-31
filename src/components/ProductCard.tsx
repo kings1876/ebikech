@@ -5,6 +5,7 @@ import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
 import { I18N } from '../data/i18n';
 import { Zap, Battery, Weight, Check, SlidersHorizontal, ArrowUpRight, Gauge } from 'lucide-react';
+import { NavLink } from './NavLink';
 
 interface ProductCardProps {
   /** Show a swipeable image gallery instead of a single image */
@@ -136,11 +137,10 @@ export function ProductCard({
           </div>
 
           {/* Model Name */}
-          <h4
-            onClick={() => onNavigate(productUrl)}
-            className="font-bold text-sm text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer line-clamp-1"
-          >
-            {product.name}
+          <h4 className="font-bold text-sm text-slate-900 group-hover:text-red-600 transition-colors line-clamp-1">
+            <NavLink href={productUrl} onNavigate={onNavigate} className="cursor-pointer">
+              {product.name}
+            </NavLink>
           </h4>
 
           {/* Specifications Pills */}
@@ -175,13 +175,13 @@ export function ProductCard({
             <div className="text-[10px] text-slate-500 font-medium">UVP · {product.year}</div>
           </div>
 
-          <button
-            onClick={() => onNavigate(productUrl)}
+          <NavLink href={productUrl} onNavigate={onNavigate}
+            
             className="w-8 h-8 rounded-full bg-slate-100 group-hover:bg-red-600 group-hover:text-white flex items-center justify-center text-slate-700 transition-all cursor-pointer shadow-xs"
             title={tCard.viewDetails}
           >
             <ArrowUpRight className="w-4 h-4" />
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>
