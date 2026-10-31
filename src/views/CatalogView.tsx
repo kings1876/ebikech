@@ -358,7 +358,7 @@ export function CatalogView({
               >
                 <option value="popular">{t.catalog.sortPopular}</option>
                 <option value="trustpilot-score">★ Trustpilot Score ({lang === 'fr' ? 'Avis vérifiés' : lang === 'it' ? 'Recensioni verificate' : 'Verifiziert'})</option>
-                <option value="tcs-score">{t.catalog.sortTcs}</option>
+                {ALL_PRODUCTS.some((p) => p.testVerdicts.length > 0) && <option value="tcs-score">{t.catalog.sortTcs}</option>}
                 <option value="price-asc">{t.catalog.sortPriceAsc}</option>
                 <option value="price-desc">{t.catalog.sortPriceDesc}</option>
                 <option value="battery-desc">{t.catalog.sortBatteryDesc}</option>

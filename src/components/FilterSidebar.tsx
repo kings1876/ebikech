@@ -11,6 +11,7 @@ import {
 } from '../types';
 import { I18N } from '../data/i18n';
 import { RotateCcw, Filter, ShieldAlert, Check } from 'lucide-react';
+import { ALL_PRODUCTS } from '../data/products';
 
 interface FilterSidebarProps {
   filters: FacetFilters;
@@ -316,7 +317,8 @@ export function FilterSidebar({
         </div>
       </div>
 
-      {/* 8. Minimum Test Score Filter */}
+      {/* 8. Minimum Test Score Filter (only when products carry test verdicts) */}
+      {ALL_PRODUCTS.some((p) => p.testVerdicts.length > 0) && (
       <div className="space-y-2 pt-2 border-t border-slate-100">
         <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
           {t.tcsScoreTitle}
@@ -336,6 +338,7 @@ export function FilterSidebar({
           </button>
         </div>
       </div>
+      )}
 
       {/* 9. Trustpilot Verified Score Filter */}
       <div className="space-y-2 pt-2 border-t border-slate-100">

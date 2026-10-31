@@ -20,51 +20,6 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
 
   return (
     <footer className="bg-slate-950 text-slate-400 text-xs border-t border-slate-800">
-      {/* Swiss Trust & Test Authorities Banner */}
-      <div className="border-b border-slate-800/80 bg-slate-900/60 py-6 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/40 border border-slate-700/50">
-            <div className="w-10 h-10 rounded-lg bg-red-600/20 text-red-400 flex items-center justify-center font-black text-sm">
-              TCS
-            </div>
-            <div>
-              <div className="font-bold text-slate-200 text-xs">{t.tcsReports}</div>
-              <div className="text-[11px] text-slate-400">{t.tcsDesc}</div>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/40 border border-slate-700/50">
-            <div className="w-10 h-10 rounded-lg bg-amber-600/20 text-amber-400 flex items-center justify-center font-black text-sm">
-              {lang === 'fr' ? 'RTS' : lang === 'it' ? 'RSI' : 'SRF'}
-            </div>
-            <div>
-              <div className="font-bold text-slate-200 text-xs">{t.kassensturzScores}</div>
-              <div className="text-[11px] text-slate-400">{t.kassensturzDesc}</div>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/40 border border-slate-700/50">
-            <div className="w-10 h-10 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center font-black text-sm">
-              26
-            </div>
-            <div>
-              <div className="font-bold text-slate-200 text-xs">{t.cantonsCount}</div>
-              <div className="text-[11px] text-slate-400">{t.cantonsDesc}</div>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/40 border border-slate-700/50">
-            <div className="w-10 h-10 rounded-lg bg-emerald-600/20 text-emerald-400 flex items-center justify-center font-black text-sm">
-              🇨🇭
-            </div>
-            <div>
-              <div className="font-bold text-slate-200 text-xs">{t.swissEngTitle}</div>
-              <div className="text-[11px] text-slate-400">{t.swissEngDesc}</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Main Footer Links */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Col 1: Portal Summary */}

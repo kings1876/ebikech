@@ -234,9 +234,9 @@ export const BRANDS: BrandDef[] = [
     country: 'Taiwan / Deutschland',
     isSwiss: false,
     tagline: {
-      de: 'Mehrfacher E-MTB Testsieger mit Shimano EP801 Kraftpaket.',
-      fr: 'VTT électriques multi-primés équipés des moteurs Shimano EP801.',
-      it: 'Pluripremiate e-MTB con la spinta del motore Shimano EP801.',
+      de: 'E-MTB mit Shimano-EP801-Antrieb.',
+      fr: 'VTT électriques équipés du moteur Shimano EP801.',
+      it: 'E-MTB con motore Shimano EP801.',
     },
     description: {
       de: 'Merida entwickelt seine E-Bikes im Forschungszentrum Magstadt (Deutschland). Herausragende Testergebnisse bei Stiftung Warentest und Fachmagazinen.',
