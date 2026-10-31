@@ -1,0 +1,20 @@
+[
+ {
+  "slug": "cube-kathmandu-hybrid-slx-800",
+  "images": [
+   { "url": "https://file.cube.eu/azwesc1xfg346/media/ae/ea/61/1785303326/synqup_1112600_P_00.jpg", "alt": "Cube Kathmandu Hybrid SLX 800 Dreiviertelansicht vorne" },
+   { "url": "https://file.cube.eu/azwesc1xfg346/media/5c/82/ed/1785303327/synqup_1112600_P_01.jpg", "alt": "Cube Kathmandu Hybrid SLX 800 Dreiviertelansicht hinten" },
+   { "url": "https://file.cube.eu/azwesc1xfg346/media/1a/ce/78/1785303327/synqup_1112600_P_02.jpg", "alt": "Cube Kathmandu Hybrid SLX 800 Dreiviertelansicht vorne links" },
+   { "url": "https://file.cube.eu/azwesc1xfg346/media/d4/96/3a/1785303328/synqup_1112600_P_03.jpg", "alt": "Cube Kathmandu Hybrid SLX 800 Dreiviertelansicht hinten rechts" }
+  ],
+  "source": "https://www.cube.eu/cube-kathmandu-hybrid-slx-800-flashstone-n-chrome/1112600"
+ },
+ {
+  "slug": "trek-fetch-2",
+  "images": [
+   { "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-A-Primary", "alt": "Trek Fetch+ 2 Seitenansicht" },
+   { "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-B-Primary", "alt": "Trek Fetch+ 2 Seitenansicht in Rot" }
+  ],
+  "source": "https://www.trekbikes.com/ch/de_CH/bikes/alltagsr%C3%A4der/elektrische-alltagsr%C3%A4der/fetch/fetch-2/p/37063/"
+ }
+]

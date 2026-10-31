@@ -16,8 +16,10 @@ const args = process.argv.slice(2);
 const limit = args.includes('--limit') ? Number(args[args.indexOf('--limit') + 1]) : Infinity;
 const redo = args.includes('--redo');
 const cache = !redo && fs.existsSync(outFile) ? JSON.parse(fs.readFileSync(outFile, 'utf8')) : {};
-const retryErrors = args.includes('--retry-errors');
-if (retryErrors) for (const [u, v] of Object.entries(cache)) if (v.error) delete cache[u];
+const retryErrors = args.includes('--retry-errors') || args.includes('--reclassify-null');
+if (args.includes('--retry-errors')) for (const [u, v] of Object.entries(cache)) if (v.error) delete cache[u];
+// re-check images previously rejected as "no uniform background" (used after changing thresholds)
+if (args.includes('--reclassify-null')) for (const [u, v] of Object.entries(cache)) if (!v.bg) delete cache[u];
 const slow = retryErrors || redo;
 const TIMEOUT = slow ? 120000 : 30000;
 const CONCURRENCY = slow ? 4 : 6;
@@ -50,7 +52,7 @@ async function classify(url) {
   const ring = (x, y) => {
     const [r, g, b] = px(x, y); n++;
     if (r >= 238 && g >= 238 && b >= 238) white++;
-    else if (r <= 22 && g <= 22 && b <= 22) black++;
+    else if (r <= 48 && g <= 48 && b <= 48) black++; // dark studio backdrops are charcoal, not pure black
   };
   for (let y = 0; y < h; y++) for (const x of [0, 1, 2, w - 3, w - 2, w - 1]) ring(x, y);
   for (let x = 3; x < w - 3; x++) for (const y of [0, 1, 2, h - 3, h - 2, h - 1]) ring(x, y);
@@ -61,7 +63,7 @@ async function classify(url) {
   // Subject mask = pixels that differ from the background
   const isSubject = (x, y) => {
     const [r, g, b] = px(x, y);
-    return bg === 'white' ? (r < 232 || g < 232 || b < 232) : (r > 40 || g > 40 || b > 40);
+    return bg === 'white' ? (r < 232 || g < 232 || b < 232) : (r > 75 || g > 75 || b > 75);
   };
   let minX = w, maxX = -1, minY = h, maxY = -1, count = 0;
   for (let y = 0; y < h; y += 1) {

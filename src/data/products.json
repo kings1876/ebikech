@@ -847,6 +847,11 @@
     "bg": "white"
    },
    {
+    "url": "https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/my23/bikes/electric/e-urban/tesoro-neo-carbon/pdp/c23_tesoroneocarbon_pdp_desktop_3a_v2.ashx",
+    "alt": "Cannondale Tesoro Neo Carbon 3, Produktbild 3",
+    "bg": "black"
+   },
+   {
     "url": "https://embed.widencdn.net/img/dorelrl/qozhvvz9ok/2000px@1x/C26_C6618GU_Tesoro_Crb_EU_CHL_D1.png",
     "alt": "Cannondale Tesoro Neo Carbon 3 Detailansicht",
     "bg": "white"
@@ -2413,6 +2418,11 @@
     "url": "https://embed.widencdn.net/img/dorelrl/86xh88jijc/2000px@1x/C25_C65155U_Moterra_1_EQ_EU_TUB_3Q.png",
     "alt": "Cannondale Moterra Neo EQ Dreiviertelansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://embed.widencdn.net/img/dorelrl/gfpobduwsl/2000px@1x/C25_C65155U_Moterra_1_EQ_EU_TUB_D1.png",
+    "alt": "Cannondale Moterra Neo EQ Detailansicht",
+    "bg": "white"
    }
   ]
  },
@@ -3112,6 +3122,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/f3/57/87/1784795588/synqup_1113560_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid ONE11 HPC SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d4/58/c9/1785301340/synqup_1113560_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid ONE11 HPC SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ce/94/fa/1785301340/synqup_1113560_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid ONE11 HPC SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/50/e5/7d/1785301341/synqup_1113560_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid ONE11 HPC SLX 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/22/3c/5f/1785301341/synqup_1113560_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid ONE11 HPC SLX 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -3207,6 +3237,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/ee/a9/1a/1784795676/synqup_1112700_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid Deluxe SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/46/e5/4e/1785303386/synqup_1112700_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/61/93/59/1785303386/synqup_1112700_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/fa/6e/6f/1785303387/synqup_1112700_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe SLX 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ba/e9/1e/1785303387/synqup_1112700_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe SLX 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -3301,6 +3351,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/de/2c/c8/1784795657/synqup_1112510_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid Deluxe EXC 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d9/26/9e/1785303320/synqup_1112510_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe EXC 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1d/5e/b4/1785303321/synqup_1112510_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe EXC 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7c/41/22/1785303322/synqup_1112510_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe EXC 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/8d/8b/91/1785303322/synqup_1112510_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid Deluxe EXC 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -3395,6 +3465,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c8/fd/72/1785493583/synqup_1113300_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid C:62 SLT 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6f/d7/2f/1785493586/synqup_1113300_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid C:62 SLT 400X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/c1/45/04/1785493587/synqup_1113300_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid C:62 SLT 400X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/75/ae/88/1785493587/synqup_1113300_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid C:62 SLT 400X Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7b/e8/aa/1785493578/synqup_1113300_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid C:62 SLT 400X Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -3489,6 +3579,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/9a/g0/55/1784795684/synqup_1112900_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid SLT 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/05/e3/91/1785303390/synqup_1112900_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid SLT 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/dc/f4/16/1785303390/synqup_1112900_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid SLT 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/5a/9d/c0/1785303391/synqup_1112900_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid SLT 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/00/30/95/1785303391/synqup_1112900_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid SLT 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -3584,6 +3694,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/5c/10/31/1784795662/synqup_1112600_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d4/96/3a/1785303328/synqup_1112600_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid SLX 800 Produktfoto 5",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ae/ea/61/1785303326/synqup_1112600_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/5c/82/ed/1785303327/synqup_1112600_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1a/ce/78/1785303327/synqup_1112600_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid SLX 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -3677,6 +3807,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/6c/41/1d/1784795593/synqup_1113700_S_00.jpg",
     "alt": "Cube Kathmandu Hybrid 45 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/9a/80/ae/1785473721/synqup_1113700_P_00.jpg",
+    "alt": "Cube Kathmandu Hybrid 45 800 Produktfoto 1",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/38/87/20/1785473722/synqup_1113700_P_01.jpg",
+    "alt": "Cube Kathmandu Hybrid 45 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/3c/60/0e/1785473722/synqup_1113700_P_02.jpg",
+    "alt": "Cube Kathmandu Hybrid 45 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/25/ab/84/1785473723/synqup_1113700_P_03.jpg",
+    "alt": "Cube Kathmandu Hybrid 45 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -3771,6 +3921,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/1d/15/04/1784795931/synqup_1107900_S_00.jpg",
     "alt": "Cube Reaction Hybrid SLT 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/63/ec/fd/1785244253/synqup_1107900_P_00.jpg",
+    "alt": "Cube Reaction Hybrid SLT 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7c/2e/14/1785244253/synqup_1107900_P_01.jpg",
+    "alt": "Cube Reaction Hybrid SLT 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/5c/26/66/1785244254/synqup_1107900_P_02.jpg",
+    "alt": "Cube Reaction Hybrid SLT 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/64/67/78/1785244254/synqup_1107900_P_03.jpg",
+    "alt": "Cube Reaction Hybrid SLT 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4059,6 +4229,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/ea/15/c8/1784795940/synqup_1107350_S_00.jpg",
     "alt": "Cube Reaction Hybrid Race 800 FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/e9/2c/5d/1785244265/synqup_1107350_P_00.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/9a/08/e3/1785244240/synqup_1107350_P_01.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ea/89/74/1785244240/synqup_1107350_P_02.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 FE Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d3/e2/0f/1785244241/synqup_1107350_P_03.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 FE Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4154,6 +4344,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/a0/g0/2f/1784795935/synqup_1107300_S_00.jpg",
     "alt": "Cube Reaction Hybrid Race 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d0/23/4a/1785244238/synqup_1107300_P_00.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a9/80/b0/1785244240/synqup_1107300_P_01.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/01/20/3f/1785244240/synqup_1107300_P_02.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b3/62/8b/1785244240/synqup_1107300_P_03.jpg",
+    "alt": "Cube Reaction Hybrid Race 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4251,6 +4461,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c1/9c/ec/1784795933/synqup_1107270_S_00.jpg",
     "alt": "Cube Reaction Hybrid Pro 800 FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/06/7b/e8/1785244233/synqup_1107270_P_00.jpg",
+    "alt": "Cube Reaction Hybrid Pro 800 FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/4f/a3/c9/1785244235/synqup_1107270_P_03.jpg",
+    "alt": "Cube Reaction Hybrid Pro 800 FE Produktfoto 5",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/06/4a/b3/1785244234/synqup_1107270_P_01.jpg",
+    "alt": "Cube Reaction Hybrid Pro 800 FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6d/38/41/1785244234/synqup_1107270_P_02.jpg",
+    "alt": "Cube Reaction Hybrid Pro 800 FE Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -4343,6 +4573,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/67/17/85/1784795911/synqup_1104900_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE77 HPC SLT 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/00/bb/9d/1786166026/synqup_1104900_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLT 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ca/5e/1d/1786166026/synqup_1104900_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLT 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/56/e9/6c/1788430996/synqup_1104900_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLT 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2e/37/66/1788430997/synqup_1104900_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLT 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4435,6 +4685,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c3/38/19/1784795901/synqup_1103900_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC SLT 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a6/d6/b7/1785244168/synqup_1103900_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLT 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/51/ef/5e/1786166005/synqup_1103900_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLT 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/91/32/21/1788430984/synqup_1103900_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLT 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7f/84/58/1788430985/synqup_1103900_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLT 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4527,6 +4797,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c4/65/d5/1784795909/synqup_1104810_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE77 HPC AT 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/fa/f0/g0/1785244166/synqup_1104810_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC AT 800 Produktfoto 5",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/35/aa/b0/1785244165/synqup_1104810_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC AT 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/00/8d/64/1785244165/synqup_1104810_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC AT 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/86/92/6f/1785244166/synqup_1104810_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC AT 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -4620,6 +4910,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/eb/eb/72/1784795900/synqup_1103810_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC AT 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/e5/1c/61/1785244166/synqup_1103810_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC AT 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f2/28/a3/1785244167/synqup_1103810_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC AT 800 Produktfoto 5",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/0e/eb/4e/1785244166/synqup_1103810_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC AT 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a5/22/77/1785244167/synqup_1103810_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC AT 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -4713,6 +5023,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/41/be/b1/1786042150/synqup_1203850_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC Super TM 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/8f/49/75/1786042153/synqup_1203850_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Super TM 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/42/be/38/1786042153/synqup_1203850_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Super TM 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/33/c0/3c/1786042154/synqup_1203850_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Super TM 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b0/d6/63/1786042132/synqup_1203850_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Super TM 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4805,6 +5135,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c7/4f/80/1784795908/synqup_1104700_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE77 HPC TM 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/8e/3d/3a/1785244162/synqup_1104700_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC TM 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/72/49/43/1785244163/synqup_1104700_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC TM 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b4/aa/0c/1785244163/synqup_1104700_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC TM 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7f/74/f4/1785244164/synqup_1104700_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC TM 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4897,6 +5247,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/5f/af/ca/1784795923/synqup_1103700_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC TM 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6c/ae/dd/1785244161/synqup_1103700_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC TM 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/c2/05/37/1785244161/synqup_1103700_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC TM 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/09/fb/27/1785244162/synqup_1103700_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC TM 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/70/4c/07/1785244162/synqup_1103700_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC TM 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -4989,6 +5359,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/77/98/2e/1784795922/synqup_1103660_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC SLX EVO 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/56/8e/b6/1785244157/synqup_1103660_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX EVO 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2d/08/8a/1785244158/synqup_1103660_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX EVO 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/8a/eb/76/1785244158/synqup_1103660_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX EVO 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b6/fa/3c/1785244159/synqup_1103660_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX EVO 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5081,6 +5471,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/5c/41/29/1784795918/synqup_1103600_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/03/03/56/1785244147/synqup_1103600_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/e0/9c/47/1785244147/synqup_1103600_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/65/7b/32/1785244148/synqup_1103600_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6e/a8/f3/1785244148/synqup_1103600_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC SLX 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5175,6 +5585,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/af/55/79/1784795904/synqup_1104600_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE77 HPC SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1a/9d/a8/1785244155/synqup_1104600_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/80/d1/g0/1785244155/synqup_1104600_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/0c/25/28/1785244156/synqup_1104600_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLX 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/25/d5/3b/1785244156/synqup_1104600_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC SLX 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5365,6 +5795,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/95/ab/73/1786042140/synqup_1203410_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC EXC 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/69/b5/9f/1786042143/synqup_1203410_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC EXC 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/61/c8/e4/1786042143/synqup_1203410_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC EXC 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/90/6a/a6/1786042144/synqup_1203410_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC EXC 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f0/f3/52/1786042144/synqup_1203410_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC EXC 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5555,6 +6005,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/df/6f/49/1784795899/synqup_1101660_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE22 SLX 800 FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/e0/8b/f3/1785244125/synqup_1101660_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/84/61/5f/1785244124/synqup_1101660_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f5/2e/41/1785244125/synqup_1101660_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 FE Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1c/66/0a/1785244126/synqup_1101660_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 FE Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5649,6 +6119,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/ff/bd/f3/1784795915/synqup_1103300_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE44 HPC Race 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/8e/87/ea/1785244166/synqup_1103300_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Race 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/g0/4c/7a/1785244166/synqup_1103300_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Race 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2f/b9/a5/1785244167/synqup_1103300_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Race 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/39/fc/a2/1785244167/synqup_1103300_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE44 HPC Race 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5742,6 +6232,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/68/32/21/1784795903/synqup_1104310_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE77 HPC Race 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/60/e1/e9/1785244152/synqup_1104310_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC Race 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/fe/33/a2/1785244153/synqup_1104310_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC Race 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/25/dd/f1/1785244153/synqup_1104310_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC Race 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7f/29/d4/1785244154/synqup_1104310_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE77 HPC Race 800 Produktfoto 5",
+    "bg": "black"
    }
   ]
  },
@@ -5836,6 +6346,26 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/34/24/9d/1784795911/synqup_1101610_S_00.jpg",
     "alt": "Cube Stereo Hybrid ONE22 SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a8/8b/83/1785244201/synqup_1101610_P_03.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 Produktfoto 5",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/18/45/b3/1785244199/synqup_1101610_P_00.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2d/9b/da/1785244199/synqup_1101610_P_01.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2b/e3/74/1785244200/synqup_1101610_P_02.jpg",
+    "alt": "Cube Stereo Hybrid ONE22 SLX 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -5924,6 +6454,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/8b/04/e5/1784795922/synqup_1106900_S_00.jpg",
     "alt": "Cube AMS Hybrid 177 C:62 Super TM 600X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6f/ee/d8/1785244199/synqup_1106900_P_00.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 Super TM 600X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ed/78/57/1785244199/synqup_1106900_P_01.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 Super TM 600X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ea/ef/a4/1785244200/synqup_1106900_P_02.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 Super TM 600X Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6095,6 +6640,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/87/4a/4a/1784795921/synqup_1106800_S_00.jpg",
     "alt": "Cube AMS Hybrid 177 C:62 AT 600X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/37/c7/55/1785244196/synqup_1106800_P_00.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 AT 600X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f5/02/fd/1785244197/synqup_1106800_P_01.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 AT 600X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/e6/6d/b7/1785244197/synqup_1106800_P_02.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 AT 600X Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6341,6 +6901,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/05/44/2d/1784795912/synqup_1106700_S_00.jpg",
     "alt": "Cube AMS Hybrid 177 C:62 TM 600X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/bd/3c/8e/1785244172/synqup_1106700_P_00.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 TM 600X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d5/d1/db/1785244173/synqup_1106700_P_01.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 TM 600X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/25/94/01/1785244173/synqup_1106700_P_02.jpg",
+    "alt": "Cube AMS Hybrid 177 C:62 TM 600X Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6597,6 +7172,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/49/23/01/1784795964/synqup_1111610_S_00.jpg",
     "alt": "Cube Touring Hybrid Deluxe SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/61/32/b4/1785303288/synqup_1111610_P_00.jpg",
+    "alt": "Cube Touring Hybrid Deluxe SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/08/41/15/1785303288/synqup_1111610_P_01.jpg",
+    "alt": "Cube Touring Hybrid Deluxe SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f5/bc/b9/1785303288/synqup_1111610_P_02.jpg",
+    "alt": "Cube Touring Hybrid Deluxe SLX 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6687,6 +7277,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c8/65/50/1784795956/synqup_1111210_S_00.jpg",
     "alt": "Cube Touring Hybrid Pro 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/11/6d/59/1785303297/synqup_1111210_P_00.jpg",
+    "alt": "Cube Touring Hybrid Pro 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2a/87/71/1785303298/synqup_1111210_P_01.jpg",
+    "alt": "Cube Touring Hybrid Pro 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a3/ae/1d/1785303298/synqup_1111210_P_02.jpg",
+    "alt": "Cube Touring Hybrid Pro 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6777,6 +7382,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/00/34/07/1784795942/synqup_1111100_S_00.jpg",
     "alt": "Cube Touring Hybrid ONE 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/4a/94/f3/1785303286/synqup_1111100_P_00.jpg",
+    "alt": "Cube Touring Hybrid ONE 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2e/b2/74/1785303286/synqup_1111100_P_01.jpg",
+    "alt": "Cube Touring Hybrid ONE 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f5/9e/52/1785303287/synqup_1111100_P_02.jpg",
+    "alt": "Cube Touring Hybrid ONE 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6868,6 +7488,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/0f/ab/87/1784795944/synqup_1110600_S_00.jpg",
     "alt": "Cube Nuride Hybrid ONE11 HPC SLX 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/73/75/f4/1785244279/synqup_1110600_P_00.jpg",
+    "alt": "Cube Nuride Hybrid ONE11 HPC SLX 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/79/ff/9a/1785244280/synqup_1110600_P_01.jpg",
+    "alt": "Cube Nuride Hybrid ONE11 HPC SLX 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/7a/1f/fb/1785244280/synqup_1110600_P_02.jpg",
+    "alt": "Cube Nuride Hybrid ONE11 HPC SLX 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -6958,6 +7593,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/4e/66/29/1784795945/synqup_1110400_S_00.jpg",
     "alt": "Cube Nuride Hybrid EXC 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/82/73/db/1785244291/synqup_1110400_P_00.jpg",
+    "alt": "Cube Nuride Hybrid EXC 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/71/0d/f3/1785244292/synqup_1110400_P_01.jpg",
+    "alt": "Cube Nuride Hybrid EXC 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/cd/fa/77/1785244292/synqup_1110400_P_02.jpg",
+    "alt": "Cube Nuride Hybrid EXC 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -7048,6 +7698,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/a6/a5/9a/1784795944/synqup_1110210_S_00.jpg",
     "alt": "Cube Nuride Hybrid Pro 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b1/0e/4e/1785244282/synqup_1110210_P_01.jpg",
+    "alt": "Cube Nuride Hybrid Pro 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/78/e8/da/1785244282/synqup_1110210_P_00.jpg",
+    "alt": "Cube Nuride Hybrid Pro 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/9e/bd/27/1785244283/synqup_1110210_P_02.jpg",
+    "alt": "Cube Nuride Hybrid Pro 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -7138,6 +7803,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/90/9d/51/1784795937/synqup_1110010_S_00.jpg",
     "alt": "Cube Nuride Hybrid Performance 720 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ea/f2/f4/1785244267/synqup_1110010_P_01.jpg",
+    "alt": "Cube Nuride Hybrid Performance 720 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/84/18/56/1785244268/synqup_1110010_P_02.jpg",
+    "alt": "Cube Nuride Hybrid Performance 720 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/fd/f1/93/1785244267/synqup_1110010_P_00.jpg",
+    "alt": "Cube Nuride Hybrid Performance 720 Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -7226,6 +7906,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/b1/c1/1c/1784795683/synqup_1122900_S_00.jpg",
     "alt": "Cube Editor Hybrid SLT 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/31/81/3d/1785303392/synqup_1122900_P_01.jpg",
+    "alt": "Cube Editor Hybrid SLT 400X FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/83/01/1f/1785303393/synqup_1122900_P_02.jpg",
+    "alt": "Cube Editor Hybrid SLT 400X FE Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b4/01/51/1785303392/synqup_1122900_P_00.jpg",
+    "alt": "Cube Editor Hybrid SLT 400X FE Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -7314,6 +8009,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/7c/9c/77/1784795681/synqup_1122600_S_00.jpg",
     "alt": "Cube Editor Hybrid SLX 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/75/79/d1/1785303388/synqup_1122600_P_00.jpg",
+    "alt": "Cube Editor Hybrid SLX 400X FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/51/9b/51/1785303389/synqup_1122600_P_01.jpg",
+    "alt": "Cube Editor Hybrid SLX 400X FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/18/44/9d/1785303389/synqup_1122600_P_02.jpg",
+    "alt": "Cube Editor Hybrid SLX 400X FE Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -7404,6 +8114,16 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/26/a6/bd/1785909593/synqup_1122310_S_00.jpg",
     "alt": "Cube Editor Hybrid Pro 360 FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/92/c2/d7/1785560763/synqup_1122310_D_00.jpg",
+    "alt": "Cube Editor Hybrid Pro 360 FE Detailansicht",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/c8/bc/b2/1785909594/synqup_1122310_P_00.jpg",
+    "alt": "Cube Editor Hybrid Pro 360 FE Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -7494,6 +8214,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/c1/12/30/1784795675/synqup_1122100_S_00.jpg",
     "alt": "Cube Editor Hybrid ONE 360 FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/95/dd/4e/1785303383/synqup_1122100_P_00.jpg",
+    "alt": "Cube Editor Hybrid ONE 360 FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/0b/56/c7/1785303383/synqup_1122100_P_01.jpg",
+    "alt": "Cube Editor Hybrid ONE 360 FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/0e/ae/42/1785303383/synqup_1122100_P_02.jpg",
+    "alt": "Cube Editor Hybrid ONE 360 FE Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -7583,6 +8318,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/09/0d/3a/1784795601/synqup_1118650_S_00.jpg",
     "alt": "Cube Nulane Hybrid C:62 SLX 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/13/ae/29/1785301486/synqup_1118650_P_00.jpg",
+    "alt": "Cube Nulane Hybrid C:62 SLX 400X FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/28/49/da/1785301487/synqup_1118650_P_01.jpg",
+    "alt": "Cube Nulane Hybrid C:62 SLX 400X FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1c/0f/37/1785301487/synqup_1118650_P_02.jpg",
+    "alt": "Cube Nulane Hybrid C:62 SLX 400X FE Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -7671,6 +8421,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/a2/02/70/1784795626/synqup_1118600_S_00.jpg",
     "alt": "Cube Nulane Hybrid C:62 SLX 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/85/5b/e0/1785301483/synqup_1118600_P_00.jpg",
+    "alt": "Cube Nulane Hybrid C:62 SLX 400X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f2/26/6c/1785301483/synqup_1118600_P_01.jpg",
+    "alt": "Cube Nulane Hybrid C:62 SLX 400X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2f/97/7d/1785301484/synqup_1118600_P_02.jpg",
+    "alt": "Cube Nulane Hybrid C:62 SLX 400X Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -7760,6 +8525,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/8b/5d/a9/1784795615/synqup_1118350_S_00.jpg",
     "alt": "Cube Nulane Hybrid C:62 Race 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/09/39/35/1785301498/synqup_1118350_P_02.jpg",
+    "alt": "Cube Nulane Hybrid C:62 Race 400X FE Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/14/6e/93/1785301498/synqup_1118350_P_01.jpg",
+    "alt": "Cube Nulane Hybrid C:62 Race 400X FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/86/3c/62/1785301497/synqup_1118350_P_00.jpg",
+    "alt": "Cube Nulane Hybrid C:62 Race 400X FE Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -7848,6 +8628,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/d4/fe/7d/1784795611/synqup_1118300_S_00.jpg",
     "alt": "Cube Nulane Hybrid C:62 Race 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f0/02/81/1785473878/synqup_1118300_P_02.jpg",
+    "alt": "Cube Nulane Hybrid C:62 Race 400X Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ee/63/0b/1785473877/synqup_1118300_P_00.jpg",
+    "alt": "Cube Nulane Hybrid C:62 Race 400X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/12/d6/49/1785473877/synqup_1118300_P_01.jpg",
+    "alt": "Cube Nulane Hybrid C:62 Race 400X Produktfoto 3",
+    "bg": "black"
    }
   ]
  },
@@ -7937,6 +8732,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/96/23/23/1784795590/synqup_1115900_S_00.jpg",
     "alt": "Cube Supreme Hybrid Deluxe SLT 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/58/37/5e/1785301377/synqup_1115900_P_00.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe SLT 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/87/16/dc/1785301377/synqup_1115900_P_01.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe SLT 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/89/b6/83/1785301378/synqup_1115900_P_02.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe SLT 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -8027,6 +8837,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/97/fc/6f/1784795591/synqup_1115600_S_00.jpg",
     "alt": "Cube Supreme Hybrid Deluxe SLX 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/54/72/f4/1785301478/synqup_1115600_P_00.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe SLX 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/53/e1/b1/1785301479/synqup_1115600_P_01.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe SLX 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a1/6a/e4/1785301479/synqup_1115600_P_02.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe SLX 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -8118,6 +8943,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/0c/76/bd/1784795581/synqup_1115210_S_00.jpg",
     "alt": "Cube Supreme Hybrid Deluxe Pro 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/45/59/38/1785301371/synqup_1115210_P_00.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe Pro 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/5f/e5/4b/1785301372/synqup_1115210_P_01.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe Pro 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/02/f3/c4/1785301372/synqup_1115210_P_02.jpg",
+    "alt": "Cube Supreme Hybrid Deluxe Pro 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -8209,6 +9049,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/07/a7/76/1784795587/synqup_1114210_S_00.jpg",
     "alt": "Cube Supreme Hybrid Comfort Pro 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/0a/96/3c/1785301351/synqup_1114210_P_00.jpg",
+    "alt": "Cube Supreme Hybrid Comfort Pro 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/00/91/39/1785301351/synqup_1114210_P_01.jpg",
+    "alt": "Cube Supreme Hybrid Comfort Pro 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/bd/0a/ea/1785301352/synqup_1114210_P_02.jpg",
+    "alt": "Cube Supreme Hybrid Comfort Pro 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -8300,6 +9155,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/b6/e9/ef/1784795572/synqup_1115150_S_00.jpg",
     "alt": "Cube Supreme RT Hybrid Deluxe EX 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/da/8f/6b/1785301366/synqup_1115150_P_00.jpg",
+    "alt": "Cube Supreme RT Hybrid Deluxe EX 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/50/55/93/1785301367/synqup_1115150_P_01.jpg",
+    "alt": "Cube Supreme RT Hybrid Deluxe EX 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/43/33/26/1785301367/synqup_1115150_P_02.jpg",
+    "alt": "Cube Supreme RT Hybrid Deluxe EX 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -8391,6 +9261,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/e3/b8/a6/1784795568/synqup_1114100_S_00.jpg",
     "alt": "Cube Supreme Hybrid Comfort ONE 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ff/97/e9/1785301350/synqup_1114100_P_00.jpg",
+    "alt": "Cube Supreme Hybrid Comfort ONE 600 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/79/36/5a/1785301351/synqup_1114100_P_01.jpg",
+    "alt": "Cube Supreme Hybrid Comfort ONE 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ae/f5/80/1785301352/synqup_1114100_P_02.jpg",
+    "alt": "Cube Supreme Hybrid Comfort ONE 600 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -8483,6 +9368,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/4c/b4/13/1784795586/synqup_1117110_S_00.jpg",
     "alt": "Cube Aruba Hybrid 600 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/33/f3/89/1785301389/synqup_1117110_P_01.jpg",
+    "alt": "Cube Aruba Hybrid 600 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1b/b6/fa/1785301390/synqup_1117110_P_02.jpg",
+    "alt": "Cube Aruba Hybrid 600 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/db/35/66/1785301389/synqup_1117110_P_00.jpg",
+    "alt": "Cube Aruba Hybrid 600 Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -8595,6 +9495,36 @@
     "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/72/1e/d0/1784795602/synqup_1120100_S_00_1920x1920.jpg",
     "alt": "Cube Compact Hybrid Deluxe 540 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/da/fd/dc/1785301488/synqup_1120100_P_00.jpg",
+    "alt": "Cube Compact Hybrid Deluxe 540 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/15/52/30/1785301488/synqup_1120100_P_01.jpg",
+    "alt": "Cube Compact Hybrid Deluxe 540 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/3b/3a/27/1785301489/synqup_1120100_P_02.jpg",
+    "alt": "Cube Compact Hybrid Deluxe 540 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/da/fd/dc/1785301488/synqup_1120100_P_00_1920x1920.jpg",
+    "alt": "Cube Compact Hybrid Deluxe 540 Ansicht 1",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/15/52/30/1785301488/synqup_1120100_P_01_1920x1920.jpg",
+    "alt": "Cube Compact Hybrid Deluxe 540 Ansicht 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/3b/3a/27/1785301489/synqup_1120100_P_02_1920x1920.jpg",
+    "alt": "Cube Compact Hybrid Deluxe 540 Ansicht 3",
+    "bg": "black"
    }
   ]
  },
@@ -8707,6 +9637,36 @@
     "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/70/8c/0c/1784795603/synqup_1120200_S_00_1920x1920.jpg",
     "alt": "Cube Compact Hybrid 540 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6d/97/7f/1785301490/synqup_1120200_P_00.jpg",
+    "alt": "Cube Compact Hybrid 540 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/58/c6/aa/1785301490/synqup_1120200_P_01.jpg",
+    "alt": "Cube Compact Hybrid 540 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/10/d2/3d/1785301491/synqup_1120200_P_02.jpg",
+    "alt": "Cube Compact Hybrid 540 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/6d/97/7f/1785301490/synqup_1120200_P_00_1920x1920.jpg",
+    "alt": "Cube Compact Hybrid 540 Ansicht 1",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/58/c6/aa/1785301490/synqup_1120200_P_01_1920x1920.jpg",
+    "alt": "Cube Compact Hybrid 540 Ansicht 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/10/d2/3d/1785301491/synqup_1120200_P_02_1920x1920.jpg",
+    "alt": "Cube Compact Hybrid 540 Ansicht 3",
+    "bg": "black"
    }
   ]
  },
@@ -8820,6 +9780,36 @@
     "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/a2/21/be/1784795611/synqup_1120300_S_00_1920x1920.jpg",
     "alt": "Cube Fold Hybrid Deluxe 540 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/50/72/92/1785301499/synqup_1120300_P_00.jpg",
+    "alt": "Cube Fold Hybrid Deluxe 540 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/36/c7/d5/1785301500/synqup_1120300_P_01.jpg",
+    "alt": "Cube Fold Hybrid Deluxe 540 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b3/82/ef/1785301500/synqup_1120300_P_02.jpg",
+    "alt": "Cube Fold Hybrid Deluxe 540 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/50/72/92/1785301499/synqup_1120300_P_00_1920x1920.jpg",
+    "alt": "Cube Fold Hybrid Deluxe 540 Ansicht 1",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/36/c7/d5/1785301500/synqup_1120300_P_01_1920x1920.jpg",
+    "alt": "Cube Fold Hybrid Deluxe 540 Ansicht 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/b3/82/ef/1785301500/synqup_1120300_P_02_1920x1920.jpg",
+    "alt": "Cube Fold Hybrid Deluxe 540 Ansicht 3",
+    "bg": "black"
    }
   ]
  },
@@ -8932,6 +9922,36 @@
     "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/bd/34/24/1784795617/synqup_1120400_S_00_1920x1920.jpg",
     "alt": "Cube Fold Hybrid 540 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/d9/6a/d9/1785301491/synqup_1120400_P_00.jpg",
+    "alt": "Cube Fold Hybrid 540 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/58/ff/05/1785301492/synqup_1120400_P_01.jpg",
+    "alt": "Cube Fold Hybrid 540 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/5b/24/ef/1785301492/synqup_1120400_P_02.jpg",
+    "alt": "Cube Fold Hybrid 540 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/d9/6a/d9/1785301491/synqup_1120400_P_00_1920x1920.jpg",
+    "alt": "Cube Fold Hybrid 540 Ansicht 1",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/58/ff/05/1785301492/synqup_1120400_P_01_1920x1920.jpg",
+    "alt": "Cube Fold Hybrid 540 Ansicht 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/thumbnail/5b/24/ef/1785301492/synqup_1120400_P_02_1920x1920.jpg",
+    "alt": "Cube Fold Hybrid 540 Ansicht 3",
+    "bg": "black"
    }
   ]
  },
@@ -9020,6 +10040,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/14/69/d5/1784795608/synqup_1117900_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 SLT 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/98/8e/8d/1785301496/synqup_1117900_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLT 400X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/2f/0c/22/1785301496/synqup_1117900_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLT 400X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/96/ce/09/1785301497/synqup_1117900_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLT 400X Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -9109,6 +10144,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/3b/01/bc/1784795603/synqup_1117650_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 SLX 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1e/96/f1/1785301492/synqup_1117650_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLX 400X FE Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/be/b0/b7/1785301491/synqup_1117650_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLX 400X FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/63/c2/c6/1785301492/synqup_1117650_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLX 400X FE Produktfoto 3",
+    "bg": "black"
    }
   ]
  },
@@ -9197,6 +10247,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/3e/fb/ac/1784795599/synqup_1117600_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 SLX 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/6f/5d/4c/1785301488/synqup_1117600_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLX 400X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/95/a1/f9/1785301489/synqup_1117600_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLX 400X Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/a9/45/4d/1785301486/synqup_1117600_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 SLX 400X Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -9286,6 +10351,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/2e/2a/be/1784795600/synqup_1117450_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 EXC 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/3e/e5/ca/1785473866/synqup_1117450_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 EXC 400X FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ae/cf/bc/1785473867/synqup_1117450_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 EXC 400X FE Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b5/71/48/1785473866/synqup_1117450_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 EXC 400X FE Produktfoto 3",
+    "bg": "black"
    }
   ]
  },
@@ -9374,6 +10454,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/36/f4/28/1784795605/synqup_1117400_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 EXC 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/66/f7/26/1785301481/synqup_1117400_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 EXC 400X Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b7/26/1b/1785301481/synqup_1117400_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 EXC 400X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ab/94/78/1785301482/synqup_1117400_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 EXC 400X Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -9463,6 +10558,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/2d/75/36/1784795594/synqup_1117350_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 Race 400X FE Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b4/fc/07/1785301483/synqup_1117350_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 Race 400X FE Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/1c/cf/b0/1785301483/synqup_1117350_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 Race 400X FE Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/4c/07/be/1785301484/synqup_1117350_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 Race 400X FE Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -9551,6 +10661,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/8e/a9/be/1784795599/synqup_1117300_S_00.jpg",
     "alt": "Cube Nuroad Hybrid C:62 Race 400X Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/70/22/a7/1785301476/synqup_1117300_P_00.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 Race 400X Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/17/04/d9/1785301477/synqup_1117300_P_02.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 Race 400X Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/b6/3e/37/1785301477/synqup_1117300_P_01.jpg",
+    "alt": "Cube Nuroad Hybrid C:62 Race 400X Produktfoto 3",
+    "bg": "black"
    }
   ]
  },
@@ -9970,6 +11095,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/98/19/59/1786009631/synqup_1121150_S_00.jpg",
     "alt": "Cube Longtail Hybrid Deluxe Family 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/02/d8/8f/1786009632/synqup_1121150_P_00.jpg",
+    "alt": "Cube Longtail Hybrid Deluxe Family 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/ca/61/7a/1786009632/synqup_1121150_P_01.jpg",
+    "alt": "Cube Longtail Hybrid Deluxe Family 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/29/67/9a/1786009633/synqup_1121150_P_02.jpg",
+    "alt": "Cube Longtail Hybrid Deluxe Family 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -10059,6 +11199,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/b6/42/60/1786010020/synqup_1121100_S_00.jpg",
     "alt": "Cube Longtail Hybrid Deluxe 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/15/99/f3/1786010021/synqup_1121100_P_00.jpg",
+    "alt": "Cube Longtail Hybrid Deluxe 800 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/24/39/b6/1786010021/synqup_1121100_P_01.jpg",
+    "alt": "Cube Longtail Hybrid Deluxe 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/e8/17/38/1786010022/synqup_1121100_P_02.jpg",
+    "alt": "Cube Longtail Hybrid Deluxe 800 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -10147,6 +11302,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/80/2d/18/1786009628/synqup_1121200_S_00.jpg",
     "alt": "Cube Longtail Hybrid 800 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/37/ed/c2/1786009630/synqup_1121200_P_02.jpg",
+    "alt": "Cube Longtail Hybrid 800 Produktfoto 4",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/0d/8a/e6/1786009629/synqup_1121200_P_01.jpg",
+    "alt": "Cube Longtail Hybrid 800 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/01/f8/d8/1786009629/synqup_1121200_P_00.jpg",
+    "alt": "Cube Longtail Hybrid 800 Produktfoto 2",
+    "bg": "black"
    }
   ]
  },
@@ -10232,6 +11402,21 @@
     "url": "https://file.cube.eu/azwesc1xfg346/media/7f/fd/92/1784795640/synqup_1155100_S_00.jpg",
     "alt": "Cube Reaction Hybrid Rookie 540 Seitenansicht",
     "bg": "white"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/be/36/2d/1785560180/synqup_1155100_P_00.jpg",
+    "alt": "Cube Reaction Hybrid Rookie 540 Produktfoto 2",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/9f/04/73/1785560180/synqup_1155100_P_01.jpg",
+    "alt": "Cube Reaction Hybrid Rookie 540 Produktfoto 3",
+    "bg": "black"
+   },
+   {
+    "url": "https://file.cube.eu/azwesc1xfg346/media/f8/47/4a/1785560181/synqup_1155100_P_02.jpg",
+    "alt": "Cube Reaction Hybrid Rookie 540 Produktfoto 4",
+    "bg": "black"
    }
   ]
  },
@@ -32038,12 +33223,30 @@
    {
     "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-C-Primary",
     "alt": "Trek Fetch+ 2, Produktbild"
+   },
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-A-Primary",
+    "alt": "Trek Fetch+ 2 Seitenansicht"
+   },
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-B-Primary",
+    "alt": "Trek Fetch+ 2 Seitenansicht in Rot"
    }
   ],
   "images": [
    {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-B-Primary",
+    "alt": "Trek Fetch+ 2 Seitenansicht in Rot",
+    "bg": "white"
+   },
+   {
     "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-C-Primary",
     "alt": "Trek Fetch+ 2, Produktbild",
+    "bg": "white"
+   },
+   {
+    "url": "https://media.trekbikes.com/image/upload/c_pad,w_1360,h_1020,f_jpg,fl_progressive:semi,q_auto,fl_strip_profile/FetchPlus2EU-24-37063-A-Primary",
+    "alt": "Trek Fetch+ 2 Seitenansicht",
     "bg": "white"
    }
   ]

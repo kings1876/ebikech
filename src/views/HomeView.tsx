@@ -79,21 +79,31 @@ export function HomeView({
     onNavigate(fullUrl);
   };
 
-  // Featured selection: 12 products, one per brand, spread across different categories
+  // Featured selection: 12 products that all have a real image gallery (2+ photos).
+  // One per brand first, spread across categories; remaining slots go to the brands with the richest galleries.
   const featuredProducts = (() => {
-    const brandIds = [...new Set(ALL_PRODUCTS.map((p) => p.brandId))];
+    const eligible = ALL_PRODUCTS.filter((p) => (p.images?.length || 0) >= 2);
     const catUse: Record<string, number> = {};
     const picked: typeof ALL_PRODUCTS = [];
-    for (const brandId of brandIds) {
-      const options = ALL_PRODUCTS.filter((p) => p.brandId === brandId);
-      // prefer the category used least so far, then the middle-priced model of that category
-      const best = options
-        .map((p) => ({ p, use: catUse[p.categoryId] || 0 }))
-        .sort((x, y) => x.use - y.use)[0];
+    const take = (options: typeof ALL_PRODUCTS) => {
+      if (!options.length) return;
+      const best = options.map((p) => ({ p, use: catUse[p.categoryId] || 0 })).sort((x, y) => x.use - y.use)[0];
       const inCat = options.filter((p) => p.categoryId === best.p.categoryId).sort((x, y) => x.priceCHF - y.priceCHF);
       const choice = inCat[Math.floor(inCat.length / 2)];
       catUse[choice.categoryId] = (catUse[choice.categoryId] || 0) + 1;
       picked.push(choice);
+    };
+    const galleryRichness = (brandId: string) =>
+      Math.max(...eligible.filter((p) => p.brandId === brandId).map((p) => p.images.length));
+    const brandIds = [...new Set(eligible.map((p) => p.brandId))].sort((x, y) => galleryRichness(y) - galleryRichness(x));
+    for (const brandId of brandIds) take(eligible.filter((p) => p.brandId === brandId));
+    // fill up to 12 with a second model from the richest brands
+    let guard = 0;
+    while (picked.length < 12 && guard++ < 48) {
+      for (const brandId of brandIds) {
+        if (picked.length >= 12) break;
+        take(eligible.filter((p) => p.brandId === brandId && !picked.includes(p)));
+      }
     }
     return picked.slice(0, 12);
   })();
@@ -429,6 +439,7 @@ export function HomeView({
           {featuredProducts.map((p) => (
             <ProductCard
               key={p.id}
+              gallery
               product={p}
               lang={lang}
               onNavigate={onNavigate}

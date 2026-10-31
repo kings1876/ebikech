@@ -1,5 +1,5 @@
 import { Product, Language } from '../types';
-import { CardImage } from './ProductImages';
+import { CardImage, CardGallery } from './ProductImages';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
@@ -7,6 +7,8 @@ import { I18N } from '../data/i18n';
 import { Zap, Battery, Weight, Check, SlidersHorizontal, ArrowUpRight, Gauge } from 'lucide-react';
 
 interface ProductCardProps {
+  /** Show a swipeable image gallery instead of a single image */
+  gallery?: boolean;
   product: Product;
   lang: Language;
   onNavigate: (path: string) => void;
@@ -15,6 +17,7 @@ interface ProductCardProps {
 }
 
 export function ProductCard({
+  gallery = false,
   product,
   lang,
   onNavigate,
@@ -86,9 +89,15 @@ export function ProductCard({
         onClick={() => onNavigate(productUrl)}
         className="px-4 py-5 flex flex-col items-center justify-center cursor-pointer relative bg-radial from-slate-50 to-white"
       >
-        <div className="w-48 h-32 flex items-center justify-center relative">
-          <CardImage images={product.images || []} name={product.name} />
-        </div>
+        {gallery ? (
+          <div className="w-full h-44 flex items-center justify-center relative" onClick={(e) => e.stopPropagation()}>
+            <CardGallery images={product.images || []} name={product.name} />
+          </div>
+        ) : (
+          <div className="w-48 h-32 flex items-center justify-center relative">
+            <CardImage images={product.images || []} name={product.name} />
+          </div>
+        )}
 
         {/* Legit Test Verdict Badge & Trustpilot Rating */}
         <div className="mt-1 flex flex-wrap items-center justify-center gap-1.5">

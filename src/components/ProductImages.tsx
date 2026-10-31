@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 type Img = { url: string; alt: string; bg?: 'white' | 'black' };
 
@@ -151,6 +151,102 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
             </li>
           ))}
         </ul>
+      )}
+    </div>
+  );
+}
+
+/** Image carousel for listing cards: arrows, dots, swipe on touch, keyboard arrows; preloads on first interaction. */
+export function CardGallery({ images, name }: { images: Img[]; name: string }) {
+  const [i, setI] = useState(0);
+  const [broken, setBroken] = useState<Record<string, boolean>>({});
+  const touchX = useRef<number | null>(null);
+  const swiped = useRef(false);
+  const preloaded = useRef(false);
+  const list = (images || []).filter((x) => !broken[x.url]);
+  const idx = Math.min(i, Math.max(0, list.length - 1));
+
+  if (!list.length) {
+    return <BikeFallback className="w-40 h-28 text-slate-400 drop-shadow-sm" />;
+  }
+
+  const preload = () => {
+    if (preloaded.current) return;
+    preloaded.current = true;
+    for (const im of list) {
+      const el = new Image();
+      el.referrerPolicy = 'no-referrer';
+      el.src = im.url;
+    }
+  };
+  const go = (d: number) => setI((idx + d + list.length) % list.length);
+  const arrow =
+    'absolute top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 border border-slate-200 shadow-sm text-slate-700 text-lg leading-none flex items-center justify-center cursor-pointer hover:bg-white transition-opacity opacity-0 group-hover/gal:opacity-100 focus:opacity-100 [@media(hover:none)]:opacity-100';
+
+  return (
+    <div
+      className="relative w-full h-full group/gal"
+      role="group"
+      aria-roledescription="carousel"
+      aria-label={name}
+      onMouseEnter={preload}
+      onFocus={preload}
+      onTouchStart={(e) => {
+        preload();
+        touchX.current = e.touches[0].clientX;
+        swiped.current = false;
+      }}
+      onTouchEnd={(e) => {
+        if (touchX.current == null) return;
+        const dx = e.changedTouches[0].clientX - touchX.current;
+        touchX.current = null;
+        if (Math.abs(dx) > 40) {
+          swiped.current = true;
+          go(dx < 0 ? 1 : -1);
+        }
+      }}
+      onClickCapture={(e) => {
+        // a swipe must not count as a tap on the card
+        if (swiped.current) {
+          e.stopPropagation();
+          swiped.current = false;
+        }
+      }}
+      onKeyDown={(e) => {
+        if (e.key === 'ArrowRight') { e.stopPropagation(); go(1); }
+        if (e.key === 'ArrowLeft') { e.stopPropagation(); go(-1); }
+      }}
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        key={list[idx].url}
+        src={list[idx].url}
+        alt={list[idx].alt || name}
+        width={480}
+        height={320}
+        loading={idx === 0 ? 'lazy' : 'eager'}
+        decoding="async"
+        referrerPolicy="no-referrer"
+        onError={() => setBroken((b) => ({ ...b, [list[idx].url]: true }))}
+        className="w-full h-full object-contain"
+      />
+      {list.length > 1 && (
+        <>
+          <button type="button" aria-label="Previous image" onClick={(e) => { e.stopPropagation(); go(-1); }} className={arrow + ' left-0'}>‹</button>
+          <button type="button" aria-label="Next image" onClick={(e) => { e.stopPropagation(); go(1); }} className={arrow + ' right-0'}>›</button>
+          <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-1.5">
+            {list.map((im, n) => (
+              <button
+                key={im.url}
+                type="button"
+                aria-label={`Image ${n + 1}`}
+                aria-current={n === idx}
+                onClick={(e) => { e.stopPropagation(); setI(n); }}
+                className={`h-1.5 rounded-full cursor-pointer transition-all ${n === idx ? 'w-4 bg-red-600' : 'w-1.5 bg-slate-300 hover:bg-slate-400'}`}
+              />
+            ))}
+          </div>
+        </>
       )}
     </div>
   );
