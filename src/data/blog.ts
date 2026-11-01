@@ -177,7 +177,7 @@ export const BLOG_POSTS: BlogPost[] = [
         {
           heading: 'Voraussetzungen für Fahrerin und Fahrer',
           paragraphs: [
-            'Sie brauchen einen Führerausweis (mindestens Kategorie M), ein Kontrollschild mit Haftpflichtversicherung, und der Helm ist Pflicht. Das Licht muss auch tagsüber eingeschaltet sein. Auf Radwegen dürfen schnelle E-Bikes nur fahren, wo es signalisiert ist.',
+            'Sie brauchen einen Führerausweis (mindestens Kategorie M), ein Kontrollschild mit Haftpflichtversicherung, und der Helm ist Pflicht. Das Licht muss auch tagsüber eingeschaltet sein. Radwege dürfen Sie in der Regel benutzen; wo Motorfahrräder verboten sind, muss das Rad geschoben werden. Massgebend ist die Signalisation vor Ort.',
           ],
         },
         {
@@ -210,7 +210,7 @@ export const BLOG_POSTS: BlogPost[] = [
         {
           heading: 'Conditions pour le conducteur',
           paragraphs: [
-            'Il faut un permis de conduire (au minimum catégorie M), une plaque de contrôle avec assurance responsabilité civile, et le casque est obligatoire. Les feux doivent aussi être allumés de jour. Les vélos électriques rapides ne peuvent emprunter les pistes cyclables que là où c’est signalé.',
+            'Il faut un permis de conduire (au minimum catégorie M), une plaque de contrôle avec assurance responsabilité civile, et le casque est obligatoire. Les feux doivent aussi être allumés de jour. Vous pouvez en règle générale emprunter les pistes cyclables ; là où les cyclomoteurs sont interdits, il faut pousser le vélo. La signalisation sur place fait foi.',
           ],
         },
         {
@@ -243,7 +243,7 @@ export const BLOG_POSTS: BlogPost[] = [
         {
           heading: 'Requisiti per chi guida',
           paragraphs: [
-            'Servono una licenza di condurre (almeno categoria M), una targa con assicurazione di responsabilità civile, e il casco è obbligatorio. Le luci devono essere accese anche di giorno. Sulle piste ciclabili le e-bike veloci possono circolare solo dove è segnalato.',
+            'Servono una licenza di condurre (almeno categoria M), una targa con assicurazione di responsabilità civile, e il casco è obbligatorio. Le luci devono essere accese anche di giorno. Di regola potete usare le piste ciclabili; dove i ciclomotori sono vietati bisogna spingere la bici. Fa fede la segnaletica sul posto.',
           ],
         },
         {
@@ -1050,6 +1050,133 @@ export const BLOG_POSTS: BlogPost[] = [
           heading: 'Come scegliere il modello giusto',
           paragraphs: [
             'Definite prima l’impiego, poi forma e taglia del telaio, poi batteria e budget. All’interno di una famiglia i livelli di dotazione differiscono soprattutto per sospensioni, freni e trasmissione.',
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: 'e-bike-45-kmh-vorschriften',
+    slug: { de: 'e-bike-45-km-h-vorschriften-zulassung', fr: 'velo-electrique-45-km-h-regles-immatriculation', it: 'e-bike-45-km-h-regole-immatricolazione' },
+    title: {
+      de: 'E-Bike 45 km/h in der Schweiz: Vorschriften, Zulassung, Radweg',
+      fr: 'Vélo électrique 45 km/h en Suisse : règles et immatriculation',
+      it: 'E-bike 45 km/h in Svizzera: regole e immatricolazione',
+    },
+    excerpt: {
+      de: 'Führerausweis ab 14, Kontrollschild mit Vignette, Helm, Rückspiegel und Radweg: die wichtigsten Vorschriften für das E-Bike 45 auf einen Blick.',
+      fr: 'Permis dès 14 ans, plaque avec vignette, casque, rétroviseur et pistes cyclables : les règles essentielles pour le vélo électrique 45 en un coup d’œil.',
+      it: 'Licenza dai 14 anni, targa con vignetta, casco, specchietto e piste ciclabili: le regole essenziali per la e-bike 45 in sintesi.',
+    },
+    publishedDate: '2026-11-01',
+    readMinutes: 4,
+    related: { speedClass: 'e-bike-45', ctaCategoryId: 'schnelle-e-bikes' },
+    body: {
+      de: [
+        {
+          heading: 'Was gilt für ein E-Bike 45 in der Schweiz?',
+          paragraphs: [
+            'Ein E-Bike 45 unterstützt das Treten bis 45 km/h und gilt in der Schweiz als Motorfahrrad. Es ist deutlich strenger geregelt als ein E-Bike 25: Es braucht einen Führerausweis, ein Kontrollschild und eine Haftpflichtversicherung.',
+          ],
+        },
+        {
+          heading: 'Zulassung: Kontrollschild, Fahrzeugausweis und Vignette',
+          paragraphs: [
+            'Ein E-Bike 45 muss vor der ersten Fahrt beim kantonalen Strassenverkehrsamt angemeldet werden. Sie erhalten einen Fahrzeugausweis und ein gelbes Kontrollschild, das am Rad befestigt wird.',
+            'Dazu kommt jedes Jahr eine Vignette. Sie gilt bis zum 31. Mai des Folgejahres und bestätigt die obligatorische Haftpflichtversicherung. Fahren Sie nie ohne Kontrollschild. Fragen Sie vor dem Kauf nach, ob das gewünschte Modell als E-Bike 45 zugelassen werden kann.',
+          ],
+        },
+        {
+          heading: 'Vorschriften für Fahrerin und Fahrer',
+          paragraphs: [
+            'Sie brauchen mindestens den Führerausweis Kategorie M. Das Mindestalter beträgt 14 Jahre, und auch Erwachsene brauchen einen Ausweis. Der Velohelm ist Pflicht.',
+            'Am Rad sind ein Rückspiegel, eine Glocke und Licht vorgeschrieben, und das Licht muss auch tagsüber eingeschaltet sein.',
+          ],
+        },
+        {
+          heading: 'Wo darf ich mit dem E-Bike 45 fahren?',
+          paragraphs: [
+            'Radwege dürfen Sie in der Regel benutzen, ebenso Strasse und Radstreifen. Wo Motorfahrräder verboten sind, muss das Rad geschoben werden. Auf dem Trottoir ist das Fahren nicht erlaubt. Massgebend ist die Signalisation vor Ort.',
+          ],
+        },
+        {
+          heading: 'Worauf Sie vor dem Kauf achten',
+          paragraphs: [
+            'Rechnen Sie neben dem Kaufpreis mit Kontrollschild, Haftpflichtversicherung und gegebenenfalls dem Führerausweis. Die Höhe hängt von Kanton und Versicherung ab.',
+            'Passende Modelle mit Motor, Akku und Preis finden Sie in unserem Katalog der schnellen E-Bikes.',
+            NOTE.de,
+          ],
+        },
+      ],
+      fr: [
+        {
+          heading: 'Que prévoit la loi pour un vélo électrique 45 en Suisse ?',
+          paragraphs: [
+            'Un vélo électrique 45 assiste le pédalage jusqu’à 45 km/h et est considéré en Suisse comme un cyclomoteur. Il est bien plus encadré qu’un vélo électrique 25 : il faut un permis, une plaque de contrôle et une assurance responsabilité civile.',
+          ],
+        },
+        {
+          heading: 'Immatriculation : plaque, permis de circulation et vignette',
+          paragraphs: [
+            'Un vélo électrique 45 doit être annoncé au service cantonal des automobiles avant la première sortie. Vous recevez un permis de circulation et une plaque de contrôle jaune à fixer sur le vélo.',
+            'S’y ajoute chaque année une vignette, valable jusqu’au 31 mai de l’année suivante, qui atteste l’assurance responsabilité civile obligatoire. Ne roulez jamais sans plaque. Avant l’achat, demandez si le modèle souhaité peut être immatriculé comme vélo électrique 45.',
+          ],
+        },
+        {
+          heading: 'Règles pour le conducteur',
+          paragraphs: [
+            'Il faut au minimum le permis de catégorie M. L’âge minimum est de 14 ans, et les adultes aussi ont besoin d’un permis. Le casque de vélo est obligatoire.',
+            'Le vélo doit avoir un rétroviseur, une sonnette et un éclairage, et les feux doivent être allumés aussi de jour.',
+          ],
+        },
+        {
+          heading: 'Où puis-je rouler avec un vélo électrique 45 ?',
+          paragraphs: [
+            'Vous pouvez en règle générale emprunter les pistes cyclables, ainsi que la route et les bandes cyclables. Là où les cyclomoteurs sont interdits, il faut pousser le vélo. Le trottoir est interdit. La signalisation sur place fait foi.',
+          ],
+        },
+        {
+          heading: 'À vérifier avant l’achat',
+          paragraphs: [
+            'Outre le prix d’achat, comptez la plaque, l’assurance responsabilité civile et éventuellement le permis. Le montant dépend du canton et de l’assureur.',
+            'Vous trouverez des modèles adaptés, avec moteur, batterie et prix, dans notre catalogue de vélos électriques rapides.',
+            NOTE.fr,
+          ],
+        },
+      ],
+      it: [
+        {
+          heading: 'Cosa vale per una e-bike 45 in Svizzera?',
+          paragraphs: [
+            'Una e-bike 45 assiste la pedalata fino a 45 km/h ed è considerata in Svizzera un ciclomotore. È regolata in modo molto più severo di una e-bike 25: servono una licenza, una targa e un’assicurazione di responsabilità civile.',
+          ],
+        },
+        {
+          heading: 'Immatricolazione: targa, licenza di circolazione e vignetta',
+          paragraphs: [
+            'Una e-bike 45 va annunciata all’ufficio cantonale della circolazione prima del primo utilizzo. Ricevete una licenza di circolazione e una targa gialla da fissare alla bici.',
+            'Ogni anno si aggiunge una vignetta, valida fino al 31 maggio dell’anno successivo, che conferma l’assicurazione di responsabilità civile obbligatoria. Non circolate mai senza targa. Prima dell’acquisto chiedete se il modello desiderato può essere immatricolato come e-bike 45.',
+          ],
+        },
+        {
+          heading: 'Regole per chi guida',
+          paragraphs: [
+            'Serve almeno la licenza di categoria M. L’età minima è di 14 anni e anche gli adulti hanno bisogno della licenza. Il casco da bici è obbligatorio.',
+            'La bici deve avere specchietto retrovisore, campanello e luci, e le luci devono essere accese anche di giorno.',
+          ],
+        },
+        {
+          heading: 'Dove posso circolare con una e-bike 45?',
+          paragraphs: [
+            'Di regola potete usare le piste ciclabili, oltre a strada e corsie ciclabili. Dove i ciclomotori sono vietati bisogna spingere la bici. Sul marciapiede non è ammesso circolare. Fa fede la segnaletica sul posto.',
+          ],
+        },
+        {
+          heading: 'Cosa verificare prima dell’acquisto',
+          paragraphs: [
+            'Oltre al prezzo d’acquisto, calcolate targa, assicurazione di responsabilità civile ed eventualmente la licenza. L’importo dipende da cantone e assicurazione.',
+            'Trovate modelli adatti, con motore, batteria e prezzo, nel nostro catalogo di e-bike veloci.',
+            NOTE.it,
           ],
         },
       ],

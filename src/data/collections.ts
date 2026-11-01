@@ -179,20 +179,20 @@ export const LANDING_CONTENT: Record<string, LandingContent> = {
     faq: {
       de: [
         { q: 'Brauche ich einen Führerausweis für ein E-Bike 45?', a: 'Ja, mindestens Kategorie M. Zusätzlich sind ein Kontrollschild mit Haftpflichtversicherung und ein Helm Pflicht, und das Licht muss auch tagsüber eingeschaltet sein.' },
-        { q: 'Wo darf ich mit einem E-Bike 45 fahren?', a: 'Auf der Strasse und auf Radstreifen. Auf Radwegen sind schnelle E-Bikes nur erlaubt, wo es signalisiert ist.' },
-        { q: 'Ab welchem Alter darf man ein E-Bike 45 fahren?', a: 'In der Regel ab 16 Jahren mit dem passenden Führerausweis. Massgebend sind die geltenden Vorschriften.' },
+        { q: 'Wo darf ich mit einem E-Bike 45 fahren?', a: 'Auf der Strasse, auf Radstreifen und in der Regel auch auf Radwegen. Wo Motorfahrräder verboten sind, muss das Rad geschoben werden; auf dem Trottoir ist das Fahren nicht erlaubt.' },
+        { q: 'Ab welchem Alter darf man ein E-Bike 45 fahren?', a: 'Ab 14 Jahren, mit dem Führerausweis Kategorie M. Massgebend sind die geltenden Vorschriften.' },
         { q: 'Was kostet ein E-Bike 45 zusätzlich?', a: 'Rechnen Sie neben dem Kaufpreis mit Kontrollschild, Haftpflichtversicherung und gegebenenfalls dem Führerausweis. Die Höhe hängt von Kanton und Versicherung ab.' },
       ],
       fr: [
         { q: 'Faut-il un permis pour un e-bike 45 ?', a: 'Oui, au minimum la catégorie M. Une plaque de contrôle avec assurance responsabilité civile et le casque sont aussi obligatoires, et les feux doivent être allumés de jour.' },
-        { q: 'Où puis-je rouler avec un e-bike 45 ?', a: 'Sur la route et sur les bandes cyclables. Sur les pistes cyclables, les vélos électriques rapides ne sont autorisés que là où c’est signalé.' },
-        { q: 'À partir de quel âge peut-on conduire un e-bike 45 ?', a: 'En général dès 16 ans avec le permis approprié. Les prescriptions en vigueur font foi.' },
+        { q: 'Où puis-je rouler avec un e-bike 45 ?', a: 'Sur la route, sur les bandes cyclables et en règle générale aussi sur les pistes cyclables. Là où les cyclomoteurs sont interdits, il faut pousser le vélo ; le trottoir est interdit.' },
+        { q: 'À partir de quel âge peut-on conduire un e-bike 45 ?', a: 'Dès 14 ans, avec le permis de catégorie M. Les prescriptions en vigueur font foi.' },
         { q: 'Combien coûte un e-bike 45 en plus ?', a: 'Outre le prix d’achat, comptez la plaque, l’assurance responsabilité civile et éventuellement le permis. Le montant dépend du canton et de l’assureur.' },
       ],
       it: [
         { q: 'Serve la licenza per una e-bike 45?', a: 'Sì, almeno la categoria M. Sono obbligatori anche una targa con assicurazione di responsabilità civile e il casco, e le luci devono essere accese anche di giorno.' },
-        { q: 'Dove posso circolare con una e-bike 45?', a: 'Sulla strada e sulle corsie ciclabili. Sulle piste ciclabili le e-bike veloci sono ammesse solo dove è segnalato.' },
-        { q: 'Da che età si può guidare una e-bike 45?', a: 'In genere dai 16 anni con la licenza adeguata. Fanno fede le disposizioni vigenti.' },
+        { q: 'Dove posso circolare con una e-bike 45?', a: 'Sulla strada, sulle corsie ciclabili e di regola anche sulle piste ciclabili. Dove i ciclomotori sono vietati bisogna spingere la bici; sul marciapiede non è ammesso circolare.' },
+        { q: 'Da che età si può guidare una e-bike 45?', a: 'Dai 14 anni, con la licenza di categoria M. Fanno fede le disposizioni vigenti.' },
         { q: 'Quanto costa in più una e-bike 45?', a: 'Oltre al prezzo d’acquisto, calcolate targa, assicurazione di responsabilità civile ed eventualmente la licenza. L’importo dipende da cantone e assicurazione.' },
       ],
     },
