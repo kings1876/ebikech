@@ -131,8 +131,8 @@ export function brandSeo(brandId: string, lang: Language) {
   const catList = cats.slice(0, 3).join(', ');
   const title = fitTitle(
     lang === 'de' ? `${name} E-Bike Schweiz – ${s.count} Modelle ab ${chf(s.minPrice)}`
-    : lang === 'fr' ? `${name} vélo électrique – ${s.count} modèles dès ${chf(s.minPrice)}`
-    : `${name} e-bike – ${s.count} modelli da ${chf(s.minPrice)}`,
+    : lang === 'fr' ? `${name} vélo électrique en Suisse – ${s.count} modèles dès ${chf(s.minPrice)}`
+    : `${name} e-bike in Svizzera – ${s.count} modelli da ${chf(s.minPrice)}`,
     lang,
   );
   const description = fitDescription(

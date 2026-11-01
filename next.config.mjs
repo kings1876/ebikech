@@ -6,8 +6,6 @@ const nextConfig = {
     minimumCacheTTL: 31536000,
     remotePatterns: [{ protocol: 'https', hostname: 'cdn.shopify.com' }, { protocol: 'https', hostname: 'embed.widencdn.net' }, { protocol: 'https', hostname: 'd1mo5ln9tjltxq.cloudfront.net' }, { protocol: 'https', hostname: 'file.cube.eu' }, { protocol: 'https', hostname: 'images2.giant-bicycles.com' }, { protocol: 'https', hostname: 'haibike.com' }, { protocol: 'https', hostname: 'resource.pon.bike' }, { protocol: 'https', hostname: 'assets.r-m.de' }, { protocol: 'https', hostname: 'static.scott-sports.com' }, { protocol: 'https', hostname: 'resources.specialized.com' }, { protocol: 'https', hostname: 'cdn.sanity.io' }, { protocol: 'https', hostname: 'thoemus.ch' }, { protocol: 'https', hostname: 'media.trekbikes.com' }],
   },
-  // Styles arrive with the HTML, so the first paint does not wait for a stylesheet request
-  experimental: { inlineCss: true },
   reactStrictMode: true,
   poweredByHeader: false,
   // Old blog posts were replaced by buying guides; keep their URLs working.
