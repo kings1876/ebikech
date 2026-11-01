@@ -34,6 +34,7 @@ interface ProductDetailViewProps {
   comparedProducts: Product[];
   onToggleCompare: (product: Product) => void;
   onOpenTestRide: (product: Product) => void;
+  onOpenOrder: (product: Product) => void;
 }
 
 export function ProductDetailView({
@@ -43,6 +44,7 @@ export function ProductDetailView({
   comparedProducts,
   onToggleCompare,
   onOpenTestRide,
+  onOpenOrder,
 }: ProductDetailViewProps) {
   const initialProduct = ALL_PRODUCTS.find((p) => p.slug === productSlug);
   const [activeTab, setActiveTab] = useState<'tests' | 'reviews' | 'specs'>(
@@ -292,8 +294,16 @@ export function ProductDetailView({
             {/* Action Buttons */}
             <div className="space-y-2 pt-2">
               <button
-                onClick={() => onOpenTestRide(product)}
+                onClick={() => onOpenOrder(product)}
                 className="w-full py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold rounded-2xl shadow-lg shadow-red-600/30 transition-all flex items-center justify-center gap-2 cursor-pointer text-sm"
+              >
+                <Coins className="w-4 h-4" />
+                <span>{lang === 'fr' ? 'Commander par virement bancaire' : lang === 'it' ? 'Ordina con bonifico bancario' : 'Per Banküberweisung bestellen'}</span>
+              </button>
+
+              <button
+                onClick={() => onOpenTestRide(product)}
+                className="w-full py-3 bg-white hover:bg-slate-50 text-slate-900 border border-slate-300 font-bold rounded-2xl transition-all flex items-center justify-center gap-2 cursor-pointer text-sm"
               >
                 <Calendar className="w-4 h-4" />
                 <span>{tPdp.bookTestRideBtn}</span>

@@ -11,6 +11,7 @@ import { Footer } from './components/Footer';
 import { SeoInspector } from './components/SeoInspector';
 import { ComparisonDrawer } from './components/ComparisonDrawer';
 import { TestRideModal } from './components/TestRideModal';
+import { OrderRequestModal } from './components/OrderRequestModal';
 import { HomeView } from './views/HomeView';
 import { CatalogView } from './views/CatalogView';
 import { ProductDetailView } from './views/ProductDetailView';
@@ -33,6 +34,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
   const [comparedProducts, setComparedProducts] = useState<Product[]>([]);
   const [comparisonModalOpen, setComparisonModalOpen] = useState(false);
   const [testRideProduct, setTestRideProduct] = useState<Product | null>(null);
+  const [orderProduct, setOrderProduct] = useState<Product | null>(null);
 
   const [, startTransition] = useTransition();
 
@@ -210,6 +212,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
             comparedProducts={comparedProducts}
             onToggleCompare={handleToggleCompare}
             onOpenTestRide={(prod) => setTestRideProduct(prod)}
+            onOpenOrder={(prod) => setOrderProduct(prod)}
           />
         )}
 
@@ -313,6 +316,9 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
         onClose={() => setTestRideProduct(null)}
         lang={lang}
       />
+
+      {/* Order request (bank transfer) */}
+      <OrderRequestModal product={orderProduct} onClose={() => setOrderProduct(null)} lang={lang} />
 
       {/* Live SEO Inspector */}
       {process.env.NEXT_PUBLIC_SEO_INSPECTOR === '1' && (

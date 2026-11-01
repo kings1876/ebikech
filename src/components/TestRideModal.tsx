@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Product, Language } from '../types';
 import { I18N } from '../data/i18n';
 import { X, MapPin, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { REPLY } from '../config/reply';
 
 interface TestRideModalProps {
   product: Product | null;
@@ -31,14 +32,48 @@ export function TestRideModal({ product, onClose, lang }: TestRideModalProps) {
   const [phone, setPhone] = useState('');
   const [preferredDate, setPreferredDate] = useState('2026-11-05');
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
+  const [consent, setConsent] = useState(false);
 
   if (!product) return null;
 
   const t = I18N[lang].testRide;
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const failText = (): string =>
+    lang === 'fr' ? 'L’envoi a échoué. Écrivez-nous à ' + REPLY.channels.email
+    : lang === 'it' ? 'Invio non riuscito. Scriveteci a ' + REPLY.channels.email
+    : 'Senden fehlgeschlagen. Bitte schreiben Sie uns an ' + REPLY.channels.email;
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSending(true);
+    setError('');
+    try {
+      const r = await fetch('/api/contact/', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          formName: 'testride',
+          lang,
+          name,
+          email,
+          phone,
+          consent,
+          product: product.name,
+          canton,
+          preferredDate,
+          website: new FormData(e.currentTarget).get('website'),
+          message: 'Anfrage zu ' + product.name + ' (' + canton + '). Wunschtermin: ' + preferredDate + '. Telefon: ' + phone + '.',
+        }),
+      });
+      if (r.ok) setSubmitted(true);
+      else setError(failText());
+    } catch {
+      setError(failText());
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -131,9 +166,16 @@ export function TestRideModal({ product, onClose, lang }: TestRideModalProps) {
               </div>
 
               <div className="pt-2">
+                <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
+                <label className="flex items-start gap-2 text-slate-600 leading-snug mb-3">
+                  <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5" />
+                  <span>{lang === 'fr' ? 'J’accepte que mes données soient utilisées pour traiter cette demande.' : lang === 'it' ? 'Accetto che i miei dati vengano utilizzati per elaborare questa richiesta.' : 'Ich bin einverstanden, dass meine Angaben zur Bearbeitung dieser Anfrage verwendet werden.'}</span>
+                </label>
+                {error && <p className="text-red-700 font-semibold mb-2" role="alert">{error}</p>}
                 <button
                   type="submit"
-                  className="w-full py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl shadow-md shadow-red-600/30 transition-all cursor-pointer text-sm"
+                  disabled={sending}
+                  className="w-full py-3 bg-red-600 hover:bg-red-700 disabled:opacity-60 text-white font-bold rounded-xl shadow-md shadow-red-600/30 transition-all cursor-pointer text-sm"
                 >
                   {t.submitBtn}
                 </button>

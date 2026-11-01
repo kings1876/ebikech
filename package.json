@@ -11,6 +11,7 @@
         "prebuild": "node scripts/build-products.mjs"
     },
     "dependencies": {
+        "@upstash/redis": "^1.40.0",
         "lucide-react": "^0.546.0",
         "motion": "^12.23.24",
         "next": "^16.0.0",
