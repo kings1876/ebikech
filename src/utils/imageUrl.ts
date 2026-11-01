@@ -69,3 +69,43 @@ export function sizedImage(url: string, width: number): string {
 export const IMG_CARD = 640;
 export const IMG_DETAIL = 1100;
 export const IMG_THUMB = 320;
+
+/**
+ * Hosts the Next.js image optimizer may fetch; keep in sync with images.remotePatterns in next.config.mjs.
+ * Only the lead image of each bike goes through the optimizer (smaller WebP, served from our own domain);
+ * the other gallery images are loaded from the manufacturer with sizedImage().
+ */
+export const OPTIMIZED_HOSTS = [
+  'cdn.shopify.com',
+  'embed.widencdn.net',
+  'd1mo5ln9tjltxq.cloudfront.net',
+  'file.cube.eu',
+  'images2.giant-bicycles.com',
+  'haibike.com',
+  'resource.pon.bike',
+  'assets.r-m.de',
+  'static.scott-sports.com',
+  'resources.specialized.com',
+  'cdn.sanity.io',
+  'thoemus.ch',
+  'media.trekbikes.com',
+];
+
+/** URL of the optimized rendition of a manufacturer image; the original (sized) URL if its host is not allowed. */
+export function optimizedImage(url: string, width: number): string {
+  try {
+    if (!OPTIMIZED_HOSTS.includes(new URL(url).host)) return sizedImage(url, width);
+  } catch {
+    return url;
+  }
+  return `/_next/image?url=${encodeURIComponent(sizedImage(url, IMG_DETAIL))}&w=${width}&q=75`;
+}
+
+/** srcset for optimized renditions at the given widths. */
+export function optimizedSrcSet(url: string, widths: number[]): string {
+  return widths.map((w) => `${optimizedImage(url, w)} ${w}w`).join(', ');
+}
+
+/** Widths the optimizer renders (all are in Next's default size lists). */
+export const OPT_CARD = [384, 640];
+export const OPT_DETAIL = [640, 750, 1080];

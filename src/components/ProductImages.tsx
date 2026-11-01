@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react';
 import { preconnect } from 'react-dom';
-import { sizedImage, IMG_CARD, IMG_DETAIL, IMG_THUMB } from '../utils/imageUrl';
+import { sizedImage, optimizedImage, optimizedSrcSet, OPT_CARD, OPT_DETAIL, IMG_CARD, IMG_DETAIL, IMG_THUMB } from '../utils/imageUrl';
 
 type Img = { url: string; alt: string; bg?: 'white' | 'black' };
 
@@ -51,18 +51,20 @@ function BikeFallback({ className = '' }: { className?: string }) {
 
 /** Small product image for listing cards; falls back to the bike drawing if the image fails. */
 export function CardImage({ images, name, priority = false }: { images: Img[]; name: string; priority?: boolean }) {
-  const [failed, setFailed] = useState(false);
-  const [original, setOriginal] = useState(false);
+  // stage 0: optimized copy from our domain, 1: manufacturer rendition, 2: manufacturer original
+  const [stage, setStage] = useState(0);
   const first = images?.[0];
-  if (!first || failed) {
+  if (!first || stage > 2) {
     return <BikeFallback className="w-40 h-28 text-slate-400 drop-shadow-sm" />;
   }
-  const src = original ? first.url : sizedImage(first.url, IMG_CARD);
-  if (priority) connectTo(src);
+  const src = stage === 0 ? optimizedImage(first.url, 640) : stage === 1 ? sizedImage(first.url, IMG_CARD) : first.url;
+  if (priority && stage > 0) connectTo(src);
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={src}
+      srcSet={stage === 0 ? optimizedSrcSet(first.url, OPT_CARD) : undefined}
+      sizes="(min-width: 1280px) 360px, (min-width: 640px) 45vw, calc(100vw - 2rem)"
       alt={first.alt || name}
       width={320}
       height={224}
@@ -70,7 +72,7 @@ export function CardImage({ images, name, priority = false }: { images: Img[]; n
       fetchPriority={priority ? 'high' : undefined}
       decoding="async"
       referrerPolicy="no-referrer"
-      onError={() => (src !== first.url ? setOriginal(true) : setFailed(true))}
+      onError={() => setStage((s) => s + 1)}
       className="w-full h-full object-contain"
     />
   );
@@ -81,11 +83,14 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
   const gt = GALLERY_TEXT[lang];
   const [broken, setBroken] = useState<Record<string, boolean>>({});
   const [orig, setOrig] = useState<Record<string, boolean>>({});
+  const [optFailed, setOptFailed] = useState<Record<string, boolean>>({});
   const list = (images || []).filter((i) => !broken[i.url]);
   const [index, setIndex] = useState(0);
   const failImg = (url: string) => (orig[url] || sizedImage(url, IMG_DETAIL) === url ? setBroken((b) => ({ ...b, [url]: true })) : setOrig((o) => ({ ...o, [url]: true })));
   const current = list[Math.min(index, Math.max(0, list.length - 1))];
-  if (current) connectTo(current.url);
+  // the lead image comes from our own optimizer; the other gallery images straight from the manufacturer
+  const useOptimized = !!current && current === list[0] && !optFailed[current.url];
+  if (current && !useOptimized) connectTo(current.url);
 
   if (!current) {
     return (
@@ -113,8 +118,8 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           key={current.url}
-          src={orig[current.url] ? current.url : sizedImage(current.url, IMG_DETAIL)}
-          srcSet={orig[current.url] ? undefined : [IMG_CARD, 800, IMG_DETAIL].map((w) => `${sizedImage(current.url, w)} ${w}w`).join(", ")}
+          src={useOptimized ? optimizedImage(current.url, 750) : orig[current.url] ? current.url : sizedImage(current.url, IMG_DETAIL)}
+          srcSet={useOptimized ? optimizedSrcSet(current.url, OPT_DETAIL) : orig[current.url] ? undefined : [IMG_CARD, 800, IMG_DETAIL].map((w) => `${sizedImage(current.url, w)} ${w}w`).join(", ")}
           sizes="(min-width: 1024px) 560px, calc(100vw - 2rem)"
           alt={current.alt || name}
           width={1200}
@@ -123,7 +128,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
           fetchPriority="high"
           decoding="async"
           referrerPolicy="no-referrer"
-          onError={() => failImg(current.url)}
+          onError={() => (useOptimized ? setOptFailed((o) => ({ ...o, [current.url]: true })) : failImg(current.url))}
           className="max-w-full max-h-full object-contain"
         />
         {list.length > 1 && (
@@ -191,6 +196,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
   const [i, setI] = useState(0);
   const [broken, setBroken] = useState<Record<string, boolean>>({});
   const [orig, setOrig] = useState<Record<string, boolean>>({});
+  const [optFailed, setOptFailed] = useState<Record<string, boolean>>({});
   const touchX = useRef<number | null>(null);
   const swiped = useRef(false);
   const preloaded = useRef(false);
@@ -251,7 +257,9 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         key={list[idx].url}
-        src={orig[list[idx].url] ? list[idx].url : sizedImage(list[idx].url, IMG_CARD)}
+        src={idx === 0 && !optFailed[list[0].url] ? optimizedImage(list[0].url, 640) : orig[list[idx].url] ? list[idx].url : sizedImage(list[idx].url, IMG_CARD)}
+        srcSet={idx === 0 && !optFailed[list[0].url] ? optimizedSrcSet(list[0].url, OPT_CARD) : undefined}
+        sizes="(min-width: 1280px) 360px, (min-width: 640px) 45vw, calc(100vw - 2rem)"
         alt={list[idx].alt || name}
         width={480}
         height={320}
@@ -261,6 +269,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
         referrerPolicy="no-referrer"
         onError={() => {
           const u = list[idx].url;
+          if (idx === 0 && !optFailed[u]) return setOptFailed((o) => ({ ...o, [u]: true }));
           if (!orig[u] && sizedImage(u, IMG_CARD) !== u) setOrig((o) => ({ ...o, [u]: true }));
           else setBroken((b) => ({ ...b, [u]: true }));
         }}
