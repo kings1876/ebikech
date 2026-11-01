@@ -7,6 +7,7 @@ import { I18N } from '../data/i18n';
 import { NavLink } from './NavLink';
 import { COLLECTIONS } from '../data/collections';
 import { SITE_NAME } from '../config/brand';
+import { CONTACT } from '../config/contact';
 import { LogoMark } from './Logo';
 
 interface FooterProps {
@@ -159,6 +160,11 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 {lang === 'fr' ? 'À propos' : lang === 'it' ? 'Chi siamo' : 'Über uns'}
               </NavLink>
             </li>
+            {CONTACT.email && (
+              <li>
+                <a href={`mailto:${CONTACT.email}`} className="hover:text-white transition-colors break-all">{CONTACT.email}</a>
+              </li>
+            )}
             <li className="pt-2 border-t border-slate-800">
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}
                 

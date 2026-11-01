@@ -5,6 +5,7 @@ import { FAQ_ITEMS } from '../data/faq';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { SITE_NAME, DOMAIN, TAGLINE } from '../config/brand';
+import { CONTACT } from '../config/contact';
 import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, fitDescription } from './seoText';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
@@ -100,6 +101,8 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         url: `${origin}/`,
         logo: { '@type': 'ImageObject', url: `${origin}/logo.png`, width: 512, height: 512 },
         description: TAGLINE[lang],
+        email: CONTACT.email,
+        contactPoint: { '@type': 'ContactPoint', contactType: 'customer service', email: CONTACT.email, availableLanguage: ['de', 'fr', 'it'], areaServed: 'CH' },
         areaServed: { '@type': 'Country', name: 'CH' },
         knowsLanguage: ['de-CH', 'fr-CH', 'it-CH'],
       }];
