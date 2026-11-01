@@ -8,6 +8,7 @@ import { CardImage } from '../components/ProductImages';
 import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { ArrowRight, Clock } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
+import { linkify, newLinkContext } from '../utils/autoLink';
 
 interface BlogViewProps {
   route: ParsedRoute;
@@ -45,7 +46,36 @@ const LP = {
   approx: { de: 'ca.', fr: 'env.', it: 'ca.' },
   all: { de: 'Alle Modelle ansehen', fr: 'Voir tous les modèles', it: 'Vedi tutti i modelli' },
   advice: { de: 'Beratung anfragen', fr: 'Demander conseil', it: 'Richiedi consulenza' },
+  shop: { de: 'Weiter im Shop', fr: 'Poursuivre dans la boutique', it: 'Continua nel negozio' },
+  allBikes: { de: 'Alle E-Bikes', fr: 'Tous les vélos électriques', it: 'Tutte le e-bike' },
+  byCategory: { de: 'Nach Kategorie', fr: 'Par catégorie', it: 'Per categoria' },
+  byBrand: { de: 'Nach Marke', fr: 'Par marque', it: 'Per marca' },
 };
+
+/** Shop pages that fit a post: its category / collection, the brands behind its models, and brand x category pages. */
+function shopLinks(post: BlogPost, lang: Language) {
+  const r = post.related;
+  const scope = ALL_PRODUCTS.filter(
+    (p) =>
+      (!r?.categoryId || p.categoryId === r.categoryId) &&
+      (!r?.brandId || p.brandId === r.brandId) &&
+      (!r?.speedClass || p.speedClass === r.speedClass) &&
+      (!r?.frameType || p.frameType === r.frameType),
+  );
+  const top = (ids: string[], n: number) => {
+    const c: Record<string, number> = {};
+    ids.forEach((id) => (c[id] = (c[id] || 0) + 1));
+    return Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, n);
+  };
+  const categories = r?.brandId
+    ? top(scope.map((p) => p.categoryId), 5)
+    : r?.categoryId || r?.ctaCategoryId
+    ? [[(r.categoryId || r.ctaCategoryId) as string, scope.length] as [string, number]]
+    : top(ALL_PRODUCTS.map((p) => p.categoryId), 6);
+  const brands = r?.brandId ? [] : top(scope.length ? scope.map((p) => p.brandId) : ALL_PRODUCTS.map((p) => p.brandId), 6);
+  const collection = COLLECTIONS.find((c) => c.id === r?.ctaCollectionId);
+  return { categories, brands, collection, brand: BRANDS.find((b) => b.id === r?.brandId) };
+}
 
 /** Up to 4 real catalogue products matching a post, spread across the price range (best-photographed first). */
 function relatedProducts(post: BlogPost): Product[] {
@@ -77,7 +107,11 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
 
   if (route.view === 'blog-post' && route.blogPost) {
     const post = route.blogPost;
-    const others = BLOG_POSTS.filter((p) => p.id !== post.id);
+    // Only two follow-up articles: the blog should lead readers to the shop, not around itself
+    const at = BLOG_POSTS.findIndex((p) => p.id === post.id);
+    const others = [1, 2].map((n) => BLOG_POSTS[(at + n) % BLOG_POSTS.length]).filter((p) => p && p.id !== post.id);
+    const linkCtx = newLinkContext();
+    const shop = shopLinks(post, lang);
     const relatedList = relatedProducts(post);
     const ctaCategory = CATEGORIES.find((c) => c.id === (post.related?.categoryId || post.related?.ctaCategoryId));
     const ctaBrand = BRANDS.find((b) => b.id === post.related?.brandId);
@@ -111,7 +145,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
             <section key={s.heading} className="space-y-3">
               <h2 className="text-xl font-bold text-slate-900">{s.heading}</h2>
               {s.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
+                <p key={i}>{linkify(p, lang, linkCtx, onNavigate)}</p>
               ))}
             </section>
           ))}
@@ -144,6 +178,74 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
             </ul>
           </section>
         )}
+
+        <section className="space-y-4" aria-label={LP.shop[lang]}>
+          <h2 className="text-xl font-bold text-slate-900">{LP.shop[lang]}</h2>
+          <div className="flex flex-wrap gap-2">
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-red-600 text-white text-sm font-bold hover:bg-red-700 cursor-pointer"
+            >
+              {LP.allBikes[lang]} <ArrowRight className="w-4 h-4" />
+            </NavLink>
+            {shop.collection && (
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: shop.collection })} onNavigate={onNavigate}
+                className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm font-semibold hover:border-red-300 cursor-pointer"
+              >
+                {shop.collection.name[lang]}
+              </NavLink>
+            )}
+            {shop.brand && (
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand: shop.brand })} onNavigate={onNavigate}
+                className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm font-semibold hover:border-red-300 cursor-pointer"
+              >
+                {shop.brand.name}
+              </NavLink>
+            )}
+          </div>
+          {shop.categories.length > 0 && (
+            <div className="space-y-2">
+              <div className="text-xs font-bold uppercase tracking-wide text-slate-500">{LP.byCategory[lang]}</div>
+              <ul className="flex flex-wrap gap-2">
+                {shop.categories.map(([id, n]) => {
+                  const category = CATEGORIES.find((c) => c.id === id);
+                  if (!category) return null;
+                  const href = shop.brand
+                    ? buildLocalizedUrl(lang, { lang, view: 'brand-category', brand: shop.brand, category })
+                    : buildLocalizedUrl(lang, { lang, view: 'category', category });
+                  return (
+                    <li key={id}>
+                      <NavLink href={href} onNavigate={onNavigate}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
+                      >
+                        {shop.brand ? `${shop.brand.name} ${category.name[lang]}` : category.name[lang]} <span className="text-xs text-slate-500">({n})</span>
+                      </NavLink>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
+          {shop.brands.length > 0 && (
+            <div className="space-y-2">
+              <div className="text-xs font-bold uppercase tracking-wide text-slate-500">{LP.byBrand[lang]}</div>
+              <ul className="flex flex-wrap gap-2">
+                {shop.brands.map(([id, n]) => {
+                  const brand = BRANDS.find((b) => b.id === id);
+                  if (!brand) return null;
+                  return (
+                    <li key={id}>
+                      <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
+                      >
+                        {brand.name} <span className="text-xs text-slate-500">({n})</span>
+                      </NavLink>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
+        </section>
 
         <aside className="rounded-2xl bg-slate-50 border border-slate-200 p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <p className="text-sm text-slate-700">{L.ctaText[lang]}</p>
