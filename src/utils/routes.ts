@@ -44,6 +44,9 @@ export interface ParsedRoute {
   queryString?: string;
 }
 
+/** A brand x category page exists only from this many models. */
+export const MIN_BRAND_CATEGORY_PRODUCTS = 3;
+
 // Helper to get count of brand x category products
 export function getBrandCategoryCount(brandId: string, categoryId: string): number {
   return ALL_PRODUCTS.filter((p) => p.brandId === brandId && p.categoryId === categoryId).length;

@@ -35,6 +35,18 @@ export function fitTitle(main: string, lang: Language, max = 60): string {
   return full.length <= max ? full : main;
 }
 
+/** Like fitTitle, but never ends up identical to the page heading: a long title is cut at its lead phrase and gets the site name. */
+export function distinctTitle(main: string, lang: Language, max = 60): string {
+  const fit = fitTitle(main, lang, max);
+  if (fit !== main) return fit;
+  const suffix = ` | ${SITE_NAME[lang]}`;
+  const lead = main.split(/\s*[:–—]\s/)[0].trim();
+  if (lead.length >= 12 && lead.length + suffix.length <= max) return lead + suffix;
+  const room = max - suffix.length;
+  const cut = main.slice(0, room + 1);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:\s-]+$/, '') + suffix;
+}
+
 /** Trims to a word boundary within max characters. */
 export function fitDescription(text: string, max = 155): string {
   if (text.length <= max) return text;

@@ -473,6 +473,28 @@ export function CatalogView({
         </div>
       </div>
 
+      {/* Plain links to the models that are not on this page, so every model is one click from its listing */}
+      {sortedProducts.length > itemsPerPage && (
+        <nav aria-label={lang === 'fr' ? 'Tous les modèles' : lang === 'it' ? 'Tutti i modelli' : 'Alle Modelle'} className="rounded-3xl border border-slate-200 bg-white p-6 space-y-3">
+          <h2 className="font-black text-base text-slate-900">
+            {lang === 'fr' ? `Tous les modèles (${sortedProducts.length})` : lang === 'it' ? `Tutti i modelli (${sortedProducts.length})` : `Alle Modelle (${sortedProducts.length})`}
+          </h2>
+          <ul className="columns-1 sm:columns-2 xl:columns-3 gap-x-6 text-sm text-slate-700">
+            {sortedProducts.filter((p) => !paginatedProducts.includes(p)).map((p) => {
+              const cat = CATEGORIES.find((c) => c.id === p.categoryId);
+              if (!cat) return null;
+              return (
+                <li key={p.id} className="break-inside-avoid py-0.5">
+                  <NavLink href={buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: p.slug })} onNavigate={onNavigate} className="hover:text-red-600 hover:underline cursor-pointer">
+                    {p.name}
+                  </NavLink>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      )}
+
       {/* Landing content: intro text and FAQ for keyword landing pages */}
       {landingKey && LANDING_CONTENT[landingKey] && (
         <LandingContent contentKey={landingKey} heading={landingHeading || ''} lang={lang} onNavigate={onNavigate} stats={landingStats} />

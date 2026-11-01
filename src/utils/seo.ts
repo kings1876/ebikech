@@ -6,7 +6,7 @@ import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { SITE_NAME, DOMAIN, TAGLINE } from '../config/brand';
 import { CONTACT } from '../config/contact';
-import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, fitDescription } from './seoText';
+import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, distinctTitle, fitDescription } from './seoText';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
   const lang = route.lang;
@@ -332,10 +332,10 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       const guideRootLabel = lang === 'fr' ? 'Guide E-Bike' : lang === 'it' ? 'Guida E-Bike' : 'E-Bike Ratgeber';
       breadcrumbs.push({ name: guideRootLabel, url: canonicalPath });
       title = lang === 'fr'
-        ? `Guide & Conseils Vélo Électrique en Suisse (25 vs 45 km/h, Achat, Subventions) | ${SITE_NAME.fr}`
+        ? `Guide vélo électrique Suisse : 25 vs 45 km/h | ${SITE_NAME.fr}`
         : lang === 'it'
-        ? `Guida E-Bike Svizzera : Norme 25 vs 45 km/h, Acquisto, Manutenzione e Incentivi | ${SITE_NAME.it}`
-        : 'Schweizer E-Bike Ratgeber 2026: Kaufberatung, Schweizer Recht (25 vs 45 km/h), Akku-Pflege & Fördergelder';
+        ? `Guida e-bike Svizzera: norme 25 vs 45 km/h | ${SITE_NAME.it}`
+        : 'Schweizer E-Bike Ratgeber 2026: Kauf, Recht (25 vs 45 km/h)';
       description = lang === 'fr'
         ? 'Guides pour cyclistes électriques en Suisse : règles 25 vs 45 km/h, casque, entretien de la batterie, taille du cadre et subventions.'
         : lang === 'it'
@@ -352,7 +352,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           url: buildLocalizedUrl(lang, { lang, view: 'guide-root' }),
         });
         breadcrumbs.push({ name: route.guideCluster.title[lang], url: canonicalPath });
-        title = fitTitle(route.guideCluster.title[lang], lang);
+        title = distinctTitle(route.guideCluster.title[lang], lang);
         description = fitDescription(route.guideCluster.shortDesc[lang]);
       }
       break;
@@ -372,7 +372,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         });
         breadcrumbs.push({ name: route.guideArticle.title[lang], url: canonicalPath });
 
-        title = fitTitle(route.guideArticle.title[lang], lang);
+        title = distinctTitle(route.guideArticle.title[lang], lang);
         description = fitDescription(route.guideArticle.excerpt[lang]);
 
         jsonLd = {
@@ -413,7 +413,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         const portal = SITE_NAME[lang];
         breadcrumbs.push({ name: 'Blog', url: buildLocalizedUrl(lang, { lang, view: 'blog-root' }) });
         breadcrumbs.push({ name: route.blogPost.title[lang], url: canonicalPath });
-        title = fitTitle(route.blogPost.title[lang], lang);
+        title = distinctTitle(route.blogPost.title[lang], lang);
         description = fitDescription(route.blogPost.excerpt[lang]);
         jsonLd = {
           '@context': 'https://schema.org',

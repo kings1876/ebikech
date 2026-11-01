@@ -22,6 +22,12 @@ const L = {
     fr: 'Une question sur un modèle, une taille ou un prix ? Écrivez-nous, nous vous répondons dès que possible.',
     it: 'Domande su un modello, una taglia o un prezzo? Scriveteci, vi rispondiamo il prima possibile.',
   },
+  tipsTitle: { de: 'Damit wir schneller antworten können', fr: 'Pour une réponse plus rapide', it: 'Per rispondere più in fretta' },
+  tips: {
+    de: 'Nennen Sie uns das gewünschte Modell, Ihre Körpergrösse und, wenn möglich, Ihr Budget in CHF. Alle E-Bikes in unserem Katalog sind neu und stammen aus eigenem Lager, bezahlt wird per Banküberweisung. Unsere Antwort erhalten Sie per E-Mail an die angegebene Adresse.',
+    fr: 'Indiquez-nous le modèle souhaité, votre taille et, si possible, votre budget en CHF. Tous les vélos électriques de notre catalogue sont neufs et proviennent de notre propre stock ; le paiement se fait par virement bancaire. Notre réponse vous parvient par e-mail, à l’adresse indiquée.',
+    it: 'Indicateci il modello desiderato, la vostra altezza e, se possibile, il budget in CHF. Tutte le e-bike del nostro catalogo sono nuove e provengono dal nostro magazzino; il pagamento avviene tramite bonifico bancario. Riceverete la risposta via e-mail all’indirizzo indicato.',
+  },
   address: { de: 'Adresse', fr: 'Adresse', it: 'Indirizzo' },
   hours: { de: 'Öffnungszeiten', fr: 'Heures d’ouverture', it: 'Orari di apertura' },
   email: { de: 'E-Mail', fr: 'E-mail', it: 'E-mail' },
@@ -214,6 +220,11 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
           </form>
         )}
       </div>
+
+      <section className="max-w-3xl space-y-2 border-t border-slate-200 pt-6">
+        <h2 className="text-lg font-bold text-slate-900">{L.tipsTitle[lang]}</h2>
+        <p className="text-sm text-slate-600 leading-relaxed">{L.tips[lang]}</p>
+      </section>
     </div>
   );
 }

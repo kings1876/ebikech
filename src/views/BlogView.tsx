@@ -5,7 +5,7 @@ import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { COLLECTIONS } from '../data/collections';
 import { CardImage } from '../components/ProductImages';
-import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
+import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGORY_PRODUCTS } from '../utils/routes';
 import { ArrowRight, Clock } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
 import { linkify, newLinkContext } from '../utils/autoLink';
@@ -209,7 +209,8 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                 {shop.categories.map(([id, n]) => {
                   const category = CATEGORIES.find((c) => c.id === id);
                   if (!category) return null;
-                  const href = shop.brand
+                  const hasBrandPage = shop.brand && getBrandCategoryCount(shop.brand.id, id) >= MIN_BRAND_CATEGORY_PRODUCTS;
+                  const href = hasBrandPage && shop.brand
                     ? buildLocalizedUrl(lang, { lang, view: 'brand-category', brand: shop.brand, category })
                     : buildLocalizedUrl(lang, { lang, view: 'category', category });
                   return (
@@ -217,7 +218,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                       <NavLink href={href} onNavigate={onNavigate}
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
                       >
-                        {shop.brand ? `${shop.brand.name} ${category.name[lang]}` : category.name[lang]} <span className="text-xs text-slate-500">({n})</span>
+                        {hasBrandPage && shop.brand ? `${shop.brand.name} ${category.name[lang]}` : category.name[lang]} <span className="text-xs text-slate-500">({n})</span>
                       </NavLink>
                     </li>
                   );

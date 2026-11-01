@@ -152,6 +152,20 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
 
         <section className="space-y-2">
           <h2 className="text-base font-bold text-slate-900">
+            {pick(lang, 'Bestellung & Zahlung', 'Commande et paiement', 'Ordine e pagamento')}
+          </h2>
+          <p>
+            {pick(
+              lang,
+              'Alle E-Bikes sind Neuware aus eigenem Lager. Nach Ihrer Bestellung erhalten Sie die Zahlungsangaben für die Banküberweisung per E-Mail. Bei Fragen zu Bestellung oder Zahlung nutzen Sie bitte die Kontaktseite oder schreiben Sie uns direkt per E-Mail.',
+              'Tous les vélos électriques sont neufs et proviennent de notre propre stock. Après votre commande, vous recevez par e-mail les coordonnées bancaires pour le virement. Pour toute question sur la commande ou le paiement, utilisez la page de contact ou écrivez-nous directement par e-mail.',
+              'Tutte le e-bike sono nuove e provengono dal nostro magazzino. Dopo l’ordine ricevete via e-mail i dati per il bonifico bancario. Per domande sull’ordine o sul pagamento usate la pagina dei contatti o scriveteci direttamente via e-mail.',
+            )}
+          </p>
+        </section>
+
+        <section className="space-y-2">
+          <h2 className="text-base font-bold text-slate-900">
             {pick(lang, 'Haftungsausschluss für Preise & Angaben', 'Clause de non-responsabilité pour les prix et données', 'Disclaimer per prezzi e dati')}
           </h2>
           <p>

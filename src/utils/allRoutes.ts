@@ -5,10 +5,9 @@ import { GUIDE_CLUSTERS } from '../data/guides';
 import { BLOG_POSTS } from '../data/blog';
 import { ALL_PRODUCTS } from '../data/products';
 import { COLLECTIONS } from '../data/collections';
-import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount } from './routes';
+import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGORY_PRODUCTS } from './routes';
 
 const LANGS: Language[] = ['de', 'fr', 'it'];
-const MIN_BRAND_CATEGORY_PRODUCTS = 3;
 
 /** Every indexable route, language-agnostic. Each is rendered for de, fr and it. */
 export function allRoutes(): ParsedRoute[] {

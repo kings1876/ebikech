@@ -122,7 +122,7 @@ export function HomeView({
   };
 
   // Swiss Made brands highlight
-  const swissBrands = BRANDS.filter((b) => b.isSwiss);
+  const swissBrands = BRANDS.filter((b) => b.isSwiss && ALL_PRODUCTS.some((p) => p.brandId === b.id));
 
   return (
     <div className="space-y-16 pb-16">
