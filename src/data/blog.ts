@@ -1090,7 +1090,7 @@ export const BLOG_POSTS: BlogPost[] = [
           heading: 'Vorschriften für Fahrerin und Fahrer',
           paragraphs: [
             'Sie brauchen mindestens den Führerausweis Kategorie M. Das Mindestalter beträgt 14 Jahre, und auch Erwachsene brauchen einen Ausweis. Der Velohelm ist Pflicht.',
-            'Am Rad sind ein Rückspiegel, eine Glocke und Licht vorgeschrieben, und das Licht muss auch tagsüber eingeschaltet sein.',
+            'Am Rad sind ein Rückspiegel, eine Glocke und Licht vorgeschrieben, und das Licht muss auch tagsüber eingeschaltet sein. Dazu kommt ein Geschwindigkeitsmesser: Neue schnelle E-Bikes brauchen ihn seit dem 1. April 2024, bereits zugelassene müssen bis zum 1. April 2027 nachgerüstet werden.',
           ],
         },
         {
@@ -1126,7 +1126,7 @@ export const BLOG_POSTS: BlogPost[] = [
           heading: 'Règles pour le conducteur',
           paragraphs: [
             'Il faut au minimum le permis de catégorie M. L’âge minimum est de 14 ans, et les adultes aussi ont besoin d’un permis. Le casque de vélo est obligatoire.',
-            'Le vélo doit avoir un rétroviseur, une sonnette et un éclairage, et les feux doivent être allumés aussi de jour.',
+            'Le vélo doit avoir un rétroviseur, une sonnette et un éclairage, et les feux doivent être allumés aussi de jour. S’y ajoute un compteur de vitesse : obligatoire depuis le 1er avril 2024 pour les modèles neufs, à poser d’ici le 1er avril 2027 sur ceux déjà immatriculés.',
           ],
         },
         {
@@ -1162,7 +1162,7 @@ export const BLOG_POSTS: BlogPost[] = [
           heading: 'Regole per chi guida',
           paragraphs: [
             'Serve almeno la licenza di categoria M. L’età minima è di 14 anni e anche gli adulti hanno bisogno della licenza. Il casco da bici è obbligatorio.',
-            'La bici deve avere specchietto retrovisore, campanello e luci, e le luci devono essere accese anche di giorno.',
+            'La bici deve avere specchietto retrovisore, campanello e luci, e le luci devono essere accese anche di giorno. Si aggiunge un tachimetro: obbligatorio dal 1° aprile 2024 per i modelli nuovi, da montare entro il 1° aprile 2027 su quelli già immatricolati.',
           ],
         },
         {

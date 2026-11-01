@@ -254,7 +254,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                   <tr>
                     <td className="p-3 font-semibold">{lang === 'fr' ? 'Tachymètre' : lang === 'it' ? 'Tachimetro' : 'Tachometer-Pflicht'}</td>
                     <td className="p-3">{lang === 'fr' ? 'Facultatif' : lang === 'it' ? 'Facoltativo' : 'Freiwillig'}</td>
-                    <td className="p-3 text-red-600 font-bold">{lang === 'fr' ? 'Obligatoire depuis avril 2024' : lang === 'it' ? 'Obbligatorio da aprile 2024' : 'Obligatorisch seit April 2024'}</td>
+                    <td className="p-3 text-red-600 font-bold">{lang === 'fr' ? 'Obligatoire : modèles neufs dès avril 2024, anciens à rééquiper d’ici avril 2027' : lang === 'it' ? 'Obbligatorio : modelli nuovi da aprile 2024, quelli esistenti da adeguare entro aprile 2027' : 'Obligatorisch: neue Modelle seit April 2024, ältere bis April 2027 nachrüsten'}</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">{lang === 'fr' ? 'Pistes cyclables' : lang === 'it' ? 'Piste ciclabili' : 'Veloweg-Benutzung'}</td>

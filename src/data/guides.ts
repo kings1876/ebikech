@@ -221,14 +221,14 @@ La scelta dell’e-bike giusta dipende dal tipo di tragitto e dalle pendenze del
             it: '25 km/h : Nessuna targa, patente M a 14 anni, libero a 16 anni.',
           },
           {
-            de: '45 km/h: Gelbes Kontrollschild mit Vignette, Führerausweis min. Kategorie M, Tacho Pflicht, geprüfter Velohelm nach EN 1078 obligatorisch.',
+            de: '45 km/h: Gelbes Kontrollschild mit Vignette, Führerausweis min. Kategorie M, Tacho Pflicht (neue Modelle seit 1. April 2024, ältere bis 1. April 2027 nachrüsten), geprüfter Velohelm nach EN 1078 obligatorisch.',
             fr: '45 km/h : Plaque jaune obligatoire avec vignette annuelle, permis M minimum, compteur de vitesse et casque homologué obligatoires.',
             it: '45 km/h : Targa gialla obbligatoria, patente M, tachimetro e casco omologato obbligatori.',
           },
           {
-            de: 'Velowege: Schnelle E-Bikes müssen Velowege benutzen! Bei «Motorfahrräder verboten» darf mit ausgeschaltetem Motor durchgefahren werden.',
-            fr: 'Pistes cyclables : Les 45 km/h doivent emprunter les pistes cyclables ! Panneau cyclomoteur interdit : moteur coupé autorisé.',
-            it: 'Piste ciclabili : Le e-bike 45 km/h devono utilizzare le piste ciclabili.',
+            de: 'Velowege: Schnelle E-Bikes benutzen Velowege. Wo Motorfahrräder verboten sind, muss das Rad geschoben werden.',
+            fr: 'Pistes cyclables : les 45 km/h empruntent les pistes cyclables. Là où les cyclomoteurs sont interdits, il faut pousser le vélo.',
+            it: 'Piste ciclabili : le e-bike 45 km/h usano le piste ciclabili. Dove i ciclomotori sono vietati bisogna spingere la bici.',
           },
         ],
         content: {
@@ -244,9 +244,9 @@ La scelta dell’e-bike giusta dipende dal tipo di tragitto e dalle pendenze del
 | **Kontrollschild** | Keines erforderlich | Gelbes Mofa-Kontrollschild mit jährlicher Vignette |
 | **Helmpflicht** | Keine gesetzliche Pflicht (empfohlen) | **Obligatorisch** (Velohelm nach EN 1078) |
 | **Lichtpflicht am Tag** | Ja, seit 1. April 2022 Pflicht | Ja, seit 1. April 2022 Pflicht |
-| **Geschwindigkeitsmesser** | Freiwillig | **Pflicht (Tachometer)** seit April 2024 |
+| **Geschwindigkeitsmesser** | Freiwillig | **Pflicht (Tachometer)**: neue Modelle seit 1. April 2024, bereits zugelassene bis 1. April 2027 nachrüsten |
 | **Radweg-Benutzung** | Obligatorisch | Obligatorisch (Signalisierte Velowege müssen benutzt werden) |
-| **Fussgängerzonen** | Wenn «Velo gestattet» erlaubt | Mit abgeschaltetem Motor erlaubt |
+| **Fussgängerzonen** | Wenn «Velo gestattet» erlaubt | Wenn Velos gestattet sind, erlaubt; sonst schieben |
           `,
           fr: `
 ### Tableau comparatif de la législation suisse
