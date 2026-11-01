@@ -6,6 +6,13 @@ import { sizedImage, IMG_CARD, IMG_DETAIL, IMG_THUMB } from '../utils/imageUrl';
 
 type Img = { url: string; alt: string; bg?: 'white' | 'black' };
 
+type GalleryLang = 'de' | 'fr' | 'it';
+const GALLERY_TEXT = {
+  de: { gallery: 'Bildergalerie', prev: 'Vorheriges Bild', next: 'Nächstes Bild', image: 'Bild' },
+  fr: { gallery: 'Galerie d’images', prev: 'Image précédente', next: 'Image suivante', image: 'Image' },
+  it: { gallery: 'Galleria immagini', prev: 'Immagine precedente', next: 'Immagine successiva', image: 'Immagine' },
+} as const;
+
 /** Open the connection to an image host early (React 19 hoists this into <head>). */
 function connectTo(src: string) {
   try {
@@ -70,7 +77,8 @@ export function CardImage({ images, name, priority = false }: { images: Img[]; n
 }
 
 /** Product detail gallery: large image, thumbnails, prev/next and keyboard support. */
-export function ProductGallery({ images, name }: { images: Img[]; name: string }) {
+export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; name: string; lang?: GalleryLang }) {
+  const gt = GALLERY_TEXT[lang];
   const [broken, setBroken] = useState<Record<string, boolean>>({});
   const [orig, setOrig] = useState<Record<string, boolean>>({});
   const list = (images || []).filter((i) => !broken[i.url]);
@@ -121,7 +129,7 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
             <button
               type="button"
               onClick={() => go(-1)}
-              aria-label="Previous image"
+              aria-label={gt.prev}
               className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 border border-slate-200 shadow-sm text-slate-700 hover:bg-white cursor-pointer"
             >
               ‹
@@ -129,7 +137,7 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
             <button
               type="button"
               onClick={() => go(1)}
-              aria-label="Next image"
+              aria-label={gt.next}
               className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 border border-slate-200 shadow-sm text-slate-700 hover:bg-white cursor-pointer"
             >
               ›
@@ -142,13 +150,13 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
       </div>
 
       {list.length > 1 && (
-        <ul className="mt-3 grid grid-cols-4 sm:grid-cols-6 gap-2" aria-label="Gallery">
+        <ul className="mt-3 grid grid-cols-4 sm:grid-cols-6 gap-2" aria-label={gt.gallery}>
           {list.map((img, i) => (
             <li key={img.url}>
               <button
                 type="button"
                 onClick={() => setIndex(i)}
-                aria-label={`Image ${i + 1}`}
+                aria-label={`${gt.image} ${i + 1}`}
                 aria-current={i === Math.min(index, list.length - 1)}
                 className={`block w-full aspect-[4/3] rounded-lg border ${img.bg === 'black' ? 'bg-black' : 'bg-white'} overflow-hidden cursor-pointer ${
                   i === Math.min(index, list.length - 1) ? 'border-red-600 ring-1 ring-red-600' : 'border-slate-200 hover:border-slate-400'
@@ -176,7 +184,8 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
 }
 
 /** Image carousel for listing cards: arrows, dots, swipe on touch, keyboard arrows; preloads on first interaction. */
-export function CardGallery({ images, name, priority = false }: { images: Img[]; name: string; priority?: boolean }) {
+export function CardGallery({ images, name, priority = false, lang = 'de' }: { images: Img[]; name: string; priority?: boolean; lang?: GalleryLang }) {
+  const gt = GALLERY_TEXT[lang];
   const [i, setI] = useState(0);
   const [broken, setBroken] = useState<Record<string, boolean>>({});
   const [orig, setOrig] = useState<Record<string, boolean>>({});
@@ -257,14 +266,14 @@ export function CardGallery({ images, name, priority = false }: { images: Img[];
       />
       {list.length > 1 && (
         <>
-          <button type="button" aria-label="Previous image" onClick={(e) => { e.stopPropagation(); go(-1); }} className={arrow + ' left-0'}>‹</button>
-          <button type="button" aria-label="Next image" onClick={(e) => { e.stopPropagation(); go(1); }} className={arrow + ' right-0'}>›</button>
+          <button type="button" aria-label={gt.prev} onClick={(e) => { e.stopPropagation(); go(-1); }} className={arrow + ' left-0'}>‹</button>
+          <button type="button" aria-label={gt.next} onClick={(e) => { e.stopPropagation(); go(1); }} className={arrow + ' right-0'}>›</button>
           <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-1.5">
             {list.map((im, n) => (
               <button
                 key={im.url}
                 type="button"
-                aria-label={`Image ${n + 1}`}
+                aria-label={`${gt.image} ${n + 1}`}
                 aria-current={n === idx}
                 onClick={(e) => { e.stopPropagation(); setI(n); }}
                 className="h-6 min-w-6 flex items-center justify-center cursor-pointer"

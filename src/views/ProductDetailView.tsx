@@ -170,7 +170,7 @@ export function ProductDetailView({
             </div>
           </div>
 
-          <ProductGallery images={product.images || []} name={product.name} />
+          <ProductGallery images={product.images || []} name={product.name} lang={lang} />
 
           {/* Quick Spec Highlights Grid */}
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 pt-6 border-t border-slate-100 text-xs text-slate-600">

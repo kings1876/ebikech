@@ -99,7 +99,7 @@ export function ProductCard({
       >
         {gallery ? (
           <div className="w-full h-44 flex items-center justify-center relative" onClick={(e) => e.stopPropagation()}>
-            <CardGallery images={product.images || []} name={product.name} priority={priority} />
+            <CardGallery images={product.images || []} name={product.name} priority={priority} lang={lang} />
           </div>
         ) : (
           <div className="w-48 h-32 flex items-center justify-center relative">
