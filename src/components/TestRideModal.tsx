@@ -70,6 +70,7 @@ export function TestRideModal({ product, onClose, lang }: TestRideModalProps) {
                 </label>
                 <div className="relative">
                   <select
+                    aria-label={t.cantonLabel}
                     value={canton}
                     onChange={(e) => setCanton(e.target.value)}
                     className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"

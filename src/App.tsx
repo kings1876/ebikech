@@ -118,13 +118,18 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
 
     // 6. Schema.org JSON-LD
     let scriptLd = document.querySelector('script[data-type="schema-ld"]');
-    if (!scriptLd) {
-      scriptLd = document.createElement('script');
-      scriptLd.setAttribute('type', 'application/ld+json');
-      scriptLd.setAttribute('data-type', 'schema-ld');
-      document.head.appendChild(scriptLd);
+    const hasSchema = Array.isArray(seo.jsonLd) ? seo.jsonLd.length > 0 : Object.keys(seo.jsonLd).length > 0;
+    if (!hasSchema) {
+      scriptLd?.remove();
+    } else {
+      if (!scriptLd) {
+        scriptLd = document.createElement('script');
+        scriptLd.setAttribute('type', 'application/ld+json');
+        scriptLd.setAttribute('data-type', 'schema-ld');
+        document.head.appendChild(scriptLd);
+      }
+      scriptLd.textContent = JSON.stringify(seo.jsonLd);
     }
-    scriptLd.textContent = JSON.stringify(seo.jsonLd);
 
     // 7. Hreflangs in <head>
     // Remove previous hreflang tags

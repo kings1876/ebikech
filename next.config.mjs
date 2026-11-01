@@ -30,7 +30,24 @@ const nextConfig = {
     }));
   },
   async headers() {
+    const security = process.env.NODE_ENV === 'production'
+      ? [{
+          source: '/:path*',
+          headers: [
+            { key: 'X-Content-Type-Options', value: 'nosniff' },
+            { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+            { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+            { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=()' },
+            {
+              key: 'Content-Security-Policy',
+              // Next.js bootstraps with inline scripts; product photos are hotlinked from manufacturer CDNs (https:)
+              value: ["default-src 'self'", "script-src 'self' 'unsafe-inline'", "style-src 'self' 'unsafe-inline'", "img-src 'self' data: blob: https:", "font-src 'self' data:", "connect-src 'self'", "frame-ancestors 'self'", "base-uri 'self'", "form-action 'self'", "object-src 'none'"].join('; '),
+            },
+          ],
+        }]
+      : [];
     return [
+      ...security,
       {
         // Keep the *.vercel.app preview/default addresses out of search indexes;
         // only the custom domain should be indexed.

@@ -144,7 +144,7 @@ export function productSeo(product: Product, lang: Language) {
   const price = `${product.priceEstimated ? `${w.approx} ` : ''}${chf(product.priceCHF)}`;
   const title = [`${product.name} – ${w.from} ${price}`, `${product.name} – ${price}`, product.name]
     .map((m) => fitTitle(m, lang)).find((x) => x.length <= 60) || product.name;
-  const motor = product.motorModel && product.motorModel !== 'Other'
+  const motor = product.motorModel && product.motorModel !== 'Other' && !/nicht angegeben/i.test(product.motorModel)
     ? (product.motorBrand && product.motorBrand !== 'Other' && !product.motorModel.toLowerCase().includes(product.motorBrand.toLowerCase())
         ? `${product.motorBrand} ${product.motorModel}` : product.motorModel)
     : '';

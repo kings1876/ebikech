@@ -24,6 +24,7 @@ import {
   Check,
 } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
+import { describeProduct, localizeSpec } from '../utils/productText';
 
 interface ProductDetailViewProps {
   productSlug: string;
@@ -117,7 +118,7 @@ export function ProductDetailView({
         >
           {tPdp.home}
         </NavLink>
-        <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+        <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
         <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
           
           className="hover:text-red-600 transition-colors cursor-pointer"
@@ -126,7 +127,7 @@ export function ProductDetailView({
         </NavLink>
         {category && (
           <>
-            <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+            <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
               
               className="hover:text-red-600 transition-colors cursor-pointer"
@@ -135,7 +136,7 @@ export function ProductDetailView({
             </NavLink>
           </>
         )}
-        <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+        <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
         <span className="font-bold text-slate-900 truncate">{product.name}</span>
       </div>
 
@@ -148,10 +149,10 @@ export function ProductDetailView({
             <div className="flex items-center gap-2">
               <span className={`px-2.5 py-1 rounded-full text-xs font-bold ${
                 product.speedMaxKmH === 45
-                  ? 'bg-amber-500 text-white shadow-xs'
+                  ? 'bg-amber-500 text-slate-900 shadow-xs'
                   : 'bg-emerald-100 text-emerald-800'
               }`}>
-                {product.speedMaxKmH} km/h ({product.speedClass})
+                {product.speedMaxKmH} km/h
               </span>
 
               {brand?.isSwiss && (
@@ -171,7 +172,7 @@ export function ProductDetailView({
           {/* Quick Spec Highlights Grid */}
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 pt-6 border-t border-slate-100 text-xs text-slate-600">
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-400 flex items-center gap-1 mb-1">
+              <div className="text-slate-500 flex items-center gap-1 mb-1">
                 <Zap className="w-3.5 h-3.5 text-amber-500" />
                 <span>{tPdp.torque}</span>
               </div>
@@ -179,7 +180,7 @@ export function ProductDetailView({
             </div>
 
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-400 flex items-center gap-1 mb-1">
+              <div className="text-slate-500 flex items-center gap-1 mb-1">
                 <Battery className="w-3.5 h-3.5 text-blue-500" />
                 <span>{tPdp.battery}</span>
               </div>
@@ -187,22 +188,24 @@ export function ProductDetailView({
             </div>
 
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-400 flex items-center gap-1 mb-1">
-                <Weight className="w-3.5 h-3.5 text-slate-400" />
+              <div className="text-slate-500 flex items-center gap-1 mb-1">
+                <Weight className="w-3.5 h-3.5 text-slate-500" />
                 <span>{tPdp.weight}</span>
               </div>
               <div className="font-bold text-slate-900 text-sm">{product.weightKg ? `${product.weightKg} kg` : '-'}</div>
             </div>
 
+            {product.rangeKmEst && (
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-400 flex items-center gap-1 mb-1">
+              <div className="text-slate-500 flex items-center gap-1 mb-1">
                 <Gauge className="w-3.5 h-3.5 text-emerald-500" />
                 <span>{tPdp.range}</span>
               </div>
               <div className="font-bold text-slate-900 text-sm">
-                {product.rangeKmEst ? `${tPdp.upTo} ${product.rangeKmEst.max} km` : '-'}
+                {`${tPdp.upTo} ${product.rangeKmEst.max} km`}
               </div>
             </div>
+            )}
           </div>
         </div>
 
@@ -225,7 +228,7 @@ export function ProductDetailView({
             </h1>
 
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              {product.shortDesc[lang]}
+              {describeProduct(product, lang)}
             </p>
           </div>
 
@@ -557,7 +560,7 @@ export function ProductDetailView({
                   </button>
                 </div>
 
-                <div className="text-[11px] text-slate-400">
+                <div className="text-[11px] text-slate-500">
                   Zuletzt aktualisiert: Oktober 2026
                 </div>
               </div>
@@ -589,7 +592,7 @@ export function ProductDetailView({
                           )}
 
                           {rev.orderRef && (
-                            <span className="text-[10px] text-slate-400 font-mono">
+                            <span className="text-[10px] text-slate-500 font-mono">
                               #{rev.orderRef}
                             </span>
                           )}
@@ -602,7 +605,7 @@ export function ProductDetailView({
                           </span>
                         </div>
 
-                        <div className="text-[10px] text-slate-400 mt-0.5">
+                        <div className="text-[10px] text-slate-500 mt-0.5">
                           {rev.kmRidden.toLocaleString('de-CH')} {tPdp.kmRidden} · {tPdp.date} {rev.date}
                         </div>
                       </div>
@@ -626,7 +629,7 @@ export function ProductDetailView({
                       </div>
                     </div>
 
-                    <h4 className="font-bold text-xs text-slate-900">{rev.title}</h4>
+                    <h3 className="font-bold text-xs text-slate-900">{rev.title}</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">{rev.comment}</p>
 
                     {/* Pros & Cons */}
@@ -642,7 +645,7 @@ export function ProductDetailView({
                     </div>
 
                     {/* Helpful interaction footer */}
-                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
+                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                       <span>{tPdp.helpfulQuestion}</span>
                       <button
                         onClick={() => handleHelpfulClick(rev.id)}
@@ -670,7 +673,7 @@ export function ProductDetailView({
               <tbody className="divide-y divide-slate-100">
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700 w-1/3">{tPdp.motorSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.motorModel} ({product.torqueNm ? `${product.torqueNm} Nm` : '-'})</td>
+                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.motorModel, lang)} ({product.torqueNm ? `${product.torqueNm} Nm` : '-'})</td>
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.batterySpec}</td>
@@ -684,20 +687,20 @@ export function ProductDetailView({
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.gearsSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.specs.gears}</td>
+                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.gears, lang)}</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.brakesSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.specs.brakes}</td>
+                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.brakes, lang)}</td>
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.forkSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.specs.fork}</td>
+                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.fork, lang)}</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.frameSpec}</td>
                   <td className="p-3.5 font-medium text-slate-900">
-                    {product.frameMaterial} · {frameTypeLabel}
+                    {localizeSpec(product.frameMaterial, lang)} · {frameTypeLabel}
                   </td>
                 </tr>
                 <tr>
@@ -710,7 +713,7 @@ export function ProductDetailView({
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-slate-700">{tPdp.lightingSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.specs.lighting} · {product.specs.display}</td>
+                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.lighting, lang)} · {localizeSpec(product.specs.display, lang)}</td>
                 </tr>
               </tbody>
             </table>
@@ -720,9 +723,9 @@ export function ProductDetailView({
 
       {/* Related Models */}
       <div className="space-y-6 pt-6 border-t border-slate-200">
-        <h3 className="text-xl font-black text-slate-900 tracking-tight">
+        <h2 className="text-xl font-black text-slate-900 tracking-tight">
           {tPdp.relatedTitle} {category?.name[lang]}
-        </h3>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {relatedProducts.map((p) => (
             <ProductCard

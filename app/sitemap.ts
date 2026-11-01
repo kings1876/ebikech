@@ -5,7 +5,6 @@ import { buildLocalizedUrl } from '../src/utils/routes';
 import { resolveSeoMetadata } from '../src/utils/seo';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
   return allRoutes()
     // Only indexable pages belong in the sitemap (empty listings are noindex).
     .filter((route) => resolveSeoMetadata(route).robots.startsWith('index'))
@@ -14,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const fr = `${SITE_URL}${buildLocalizedUrl('fr', route)}`;
       const it = `${SITE_URL}${buildLocalizedUrl('it', route)}`;
       const languages = { 'de-CH': de, 'fr-CH': fr, 'it-CH': it, 'x-default': de };
-      return [de, fr, it].map((url) => ({ url, lastModified, alternates: { languages } }));
+      // lastmod only where a real date exists (blog posts); a build-time "today" on every URL carries no information
+      const lastModified = route.view === 'blog-post' && route.blogPost ? new Date(route.blogPost.publishedDate) : undefined;
+      return [de, fr, it].map((url) => ({ url, ...(lastModified ? { lastModified } : {}), alternates: { languages } }));
     });
 }

@@ -2,6 +2,7 @@ import { Product, Language } from '../types';
 import { BRANDS } from '../data/brands';
 import { I18N } from '../data/i18n';
 import { X, SlidersHorizontal, Calendar } from 'lucide-react';
+import { localizeSpec } from '../utils/productText';
 
 interface ComparisonDrawerProps {
   comparedProducts: Product[];
@@ -181,7 +182,7 @@ export function ComparisonDrawer({
                     <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.weightMaterial}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
-                        <span className="font-bold">{p.weightKg ? `${p.weightKg} kg` : '-'}</span> ({p.frameMaterial})
+                        <span className="font-bold">{p.weightKg ? `${p.weightKg} kg` : '-'}</span> ({localizeSpec(p.frameMaterial, lang)})
                       </td>
                     ))}
                   </tr>
@@ -214,8 +215,8 @@ export function ComparisonDrawer({
                     <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.gearsBrakes}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3 space-y-1">
-                        <div><strong className="text-slate-800">{lang === 'fr' ? 'Dérailleur :' : lang === 'it' ? 'Cambio :' : 'Schaltung:'}</strong> {p.specs.gears}</div>
-                        <div><strong className="text-slate-800">{lang === 'fr' ? 'Freins :' : lang === 'it' ? 'Freni :' : 'Bremsen:'}</strong> {p.specs.brakes}</div>
+                        <div><strong className="text-slate-800">{lang === 'fr' ? 'Dérailleur :' : lang === 'it' ? 'Cambio :' : 'Schaltung:'}</strong> {localizeSpec(p.specs.gears, lang)}</div>
+                        <div><strong className="text-slate-800">{lang === 'fr' ? 'Freins :' : lang === 'it' ? 'Freni :' : 'Bremsen:'}</strong> {localizeSpec(p.specs.brakes, lang)}</div>
                       </td>
                     ))}
                   </tr>

@@ -303,7 +303,7 @@ export function CatalogView({
           </div>
 
           <div className="flex items-center gap-3 self-start sm:self-center shrink-0">
-            <span className="text-xs font-mono font-bold text-red-600 bg-red-50 border border-red-200 px-3 py-1 rounded-full">
+            <span className="text-xs font-mono font-bold text-red-700 bg-red-50 border border-red-200 px-3 py-1 rounded-full">
               {filteredProducts.length} {t.catalog.modelsFound}
             </span>
           </div>
@@ -373,6 +373,7 @@ export function CatalogView({
               <ArrowUpDown className="w-3.5 h-3.5 text-slate-400" />
               <label className="font-semibold text-slate-700">{t.catalog.sortBy}</label>
               <select
+                aria-label={t.catalog.sortBy}
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as SortOption)}
                 className="bg-slate-50 border border-slate-200 rounded-lg py-1 px-2.5 font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
@@ -391,9 +392,11 @@ export function CatalogView({
           {/* Product Cards Grid */}
           {paginatedProducts.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
-              {paginatedProducts.map((p) => (
+              {paginatedProducts.map((p, idx) => (
                 <ProductCard
                   key={p.id}
+                  headingLevel={2}
+                  priority={idx < 2}
                   product={p}
                   lang={lang}
                   onNavigate={onNavigate}
@@ -407,7 +410,7 @@ export function CatalogView({
               <div className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center text-slate-400 mx-auto">
                 <SlidersHorizontal className="w-6 h-6" />
               </div>
-              <h3 className="text-base font-bold text-slate-900">{t.catalog.noResultsTitle}</h3>
+              <h2 className="text-base font-bold text-slate-900">{t.catalog.noResultsTitle}</h2>
               <p className="text-xs text-slate-500 max-w-md mx-auto">
                 {t.catalog.noResultsDesc}
               </p>

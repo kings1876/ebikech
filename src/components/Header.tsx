@@ -183,7 +183,6 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
         <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
           
           className="flex items-center gap-2.5 text-left group cursor-pointer shrink-0"
-          aria-label={portalName}
         >
           <LogoMark className="w-9 h-9 shadow-md shadow-red-600/20 rounded-xl group-hover:scale-105 transition-transform" />
           <div className="leading-none">

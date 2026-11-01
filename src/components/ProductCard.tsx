@@ -10,6 +10,10 @@ import { NavLink } from './NavLink';
 interface ProductCardProps {
   /** Show a swipeable image gallery instead of a single image */
   gallery?: boolean;
+  /** Heading level for the product name (2 directly under the page H1, 3 inside a section) */
+  headingLevel?: 2 | 3;
+  /** Above-the-fold card: load its image first */
+  priority?: boolean;
   product: Product;
   lang: Language;
   onNavigate: (path: string) => void;
@@ -19,12 +23,15 @@ interface ProductCardProps {
 
 export function ProductCard({
   gallery = false,
+  headingLevel = 3,
+  priority = false,
   product,
   lang,
   onNavigate,
   isCompared,
   onToggleCompare,
 }: ProductCardProps) {
+  const Heading = (headingLevel === 2 ? 'h2' : 'h3') as 'h2' | 'h3';
   const tCard = I18N[lang].card;
   const tFilter = I18N[lang].filter;
 
@@ -49,7 +56,7 @@ export function ProductCard({
         <div className="flex flex-wrap gap-1.5 items-center">
           {/* Speed Badge */}
           {product.speedMaxKmH === 45 ? (
-            <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500 text-white shadow-xs">
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500 text-slate-900 shadow-xs">
               <Gauge className="w-3 h-3" />
               <span>{tCard.speed45}</span>
             </span>
@@ -92,11 +99,11 @@ export function ProductCard({
       >
         {gallery ? (
           <div className="w-full h-44 flex items-center justify-center relative" onClick={(e) => e.stopPropagation()}>
-            <CardGallery images={product.images || []} name={product.name} />
+            <CardGallery images={product.images || []} name={product.name} priority={priority} />
           </div>
         ) : (
           <div className="w-48 h-32 flex items-center justify-center relative">
-            <CardImage images={product.images || []} name={product.name} />
+            <CardImage images={product.images || []} name={product.name} priority={priority} />
           </div>
         )}
 
@@ -137,17 +144,17 @@ export function ProductCard({
           </div>
 
           {/* Model Name */}
-          <h4 className="font-bold text-sm text-slate-900 group-hover:text-red-600 transition-colors line-clamp-1">
+          <Heading className="font-bold text-sm text-slate-900 group-hover:text-red-600 transition-colors line-clamp-1">
             <NavLink href={productUrl} onNavigate={onNavigate} className="cursor-pointer">
               {product.name}
             </NavLink>
-          </h4>
+          </Heading>
 
           {/* Specifications Pills */}
           <div className="grid grid-cols-2 gap-1.5 my-3 text-[11px] text-slate-600">
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.torque}>
               <Zap className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-              <span className="truncate">{product.motorBrand === 'Other' ? product.motorModel.split(' ')[0] : product.motorBrand}{product.torqueNm ? ` ${product.torqueNm}Nm` : ''}</span>
+              <span className="truncate">{product.motorBrand === 'Other' ? (/nicht angegeben/i.test(product.motorModel) ? 'Motor' : product.motorModel.split(' ')[0]) : product.motorBrand}{product.torqueNm ? ` ${product.torqueNm}Nm` : ''}</span>
             </div>
             <div className="flex items-center gap-1.5 bg-slate-50 px-2 py-1 rounded-md" title={tCard.battery}>
               <Battery className="w-3.5 h-3.5 text-blue-500 shrink-0" />

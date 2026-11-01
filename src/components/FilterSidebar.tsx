@@ -103,9 +103,9 @@ export function FilterSidebar({
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
         <div className="flex items-center gap-2">
           <Filter className="w-4 h-4 text-red-600" />
-          <h3 className="font-bold text-sm text-slate-900">
+          <h2 className="font-bold text-sm text-slate-900">
             {t.title}
-          </h3>
+          </h2>
         </div>
 
         {hasAnyFilter && (
@@ -152,7 +152,7 @@ export function FilterSidebar({
             onClick={() => onChange({ ...filters, speedClass: toggleArrayItem(filters.speedClass, 'e-bike-45') })}
             className={`p-2 rounded-xl text-xs font-semibold border text-center transition-all cursor-pointer ${
               filters.speedClass?.includes('e-bike-45')
-                ? 'bg-amber-500 text-white border-amber-500 shadow-xs'
+                ? 'bg-amber-500 text-slate-900 border-amber-500 shadow-xs'
                 : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
             }`}
           >

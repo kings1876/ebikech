@@ -44,14 +44,14 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <div className="font-bold text-white text-xs uppercase tracking-wider">
             {t.categoriesTitle}
           </div>
-          <ul className="space-y-1.5 text-xs">
+          <ul className="space-y-1.5 text-xs [&_a]:py-1">
             {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.categoryId === b.id).length - ALL_PRODUCTS.filter((p) => p.categoryId === a.id).length).slice(0, 6).map((cat) => (
               <li key={cat.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
                   
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
-                  {cat.name[lang]} <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
+                  {cat.name[lang]} <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
                 </NavLink>
               </li>
             ))}
@@ -60,7 +60,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: col })} onNavigate={onNavigate}
                   className="hover:text-white transition-colors cursor-pointer text-left"
                 >
-                  {col.name[lang]} <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter(col.filter).length})</span>
+                  {col.name[lang]} <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter(col.filter).length})</span>
                 </NavLink>
               </li>
             ))}
@@ -80,7 +80,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <div className="font-bold text-white text-xs uppercase tracking-wider">
             {t.brandsTitle}
           </div>
-          <ul className="space-y-1.5 text-xs">
+          <ul className="space-y-1.5 text-xs [&_a]:py-1">
             {BRANDS.filter((b) => ALL_PRODUCTS.some((p) => p.brandId === b.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.brandId === b.id).length - ALL_PRODUCTS.filter((p) => p.brandId === a.id).length).slice(0, 7).map((brand) => (
               <li key={brand.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
@@ -89,7 +89,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 >
                   <span>{brand.name}</span>
                   {brand.isSwiss && <span className="text-[10px] text-red-400 font-bold">CH</span>}
-                  <span className="text-slate-600 font-mono">({ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})</span>
+                  <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})</span>
                 </NavLink>
               </li>
             ))}
@@ -109,7 +109,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <div className="font-bold text-white text-xs uppercase tracking-wider">
             {t.guidesTitle}
           </div>
-          <ul className="space-y-1.5 text-xs">
+          <ul className="space-y-1.5 text-xs [&_a]:py-1">
             {GUIDE_CLUSTERS.map((cl) => (
               <li key={cl.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
@@ -152,10 +152,17 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
               </NavLink>
             </li>
+            <li>
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'about' })} onNavigate={onNavigate}
+                className="hover:text-white transition-colors cursor-pointer text-left"
+              >
+                {lang === 'fr' ? 'À propos' : lang === 'it' ? 'Chi siamo' : 'Über uns'}
+              </NavLink>
+            </li>
             <li className="pt-2 border-t border-slate-800">
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}
                 
-                className="hover:text-white text-slate-500 cursor-pointer"
+                className="hover:text-white text-slate-400 cursor-pointer"
               >
                 {t.legalLink}
               </NavLink>
@@ -166,7 +173,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
 
       {/* Bottom Bar: Copyright & Standards */}
       <div className="border-t border-slate-800/80 py-4 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-500">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
           <div>
             © {new Date().getFullYear()} {portalName} – {I18N[lang].header.tagline}. {t.allRightsReserved}
           </div>

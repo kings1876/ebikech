@@ -37,13 +37,16 @@ export function makePage(lang: Language) {
     const { slug } = await params;
     const path = pathFor(lang, slug);
     const seo = resolveSeoMetadata(parseRoute(path), SITE_URL);
+    const hasSchema = Array.isArray(seo.jsonLd) ? seo.jsonLd.length > 0 : Object.keys(seo.jsonLd).length > 0;
     return (
       <>
-        <script
-          type="application/ld+json"
-          data-type="schema-ld"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(seo.jsonLd).replace(/</g, '\\u003c') }}
-        />
+        {hasSchema && (
+          <script
+            type="application/ld+json"
+            data-type="schema-ld"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(seo.jsonLd).replace(/</g, '\\u003c') }}
+          />
+        )}
         <App initialPath={path} />
       </>
     );

@@ -171,9 +171,9 @@ export function HomeView({
                 <div className="w-7 h-7 rounded-lg bg-red-600 text-white flex items-center justify-center font-bold text-xs">
                   <Sparkles className="w-4 h-4" />
                 </div>
-                <h3 className="text-lg font-black tracking-tight text-slate-900">
+                <h2 className="text-lg font-black tracking-tight text-slate-900">
                   {t.home.quickAdvisorTitle}
-                </h3>
+                </h2>
               </div>
               <p className="text-xs text-slate-500 mb-5">
                 {t.home.quickAdvisorDesc}
@@ -185,6 +185,7 @@ export function HomeView({
                     {t.home.selectCat}
                   </label>
                   <select
+                    aria-label={t.home.selectCat}
                     value={finderCategory}
                     onChange={(e) => setFinderCategory(e.target.value)}
                     className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
@@ -229,7 +230,7 @@ export function HomeView({
                       onClick={() => setFinderSpeed('45')}
                       className={`p-2 rounded-xl font-semibold border text-center transition-all cursor-pointer ${
                         finderSpeed === '45'
-                          ? 'bg-amber-500 text-white border-amber-500'
+                          ? 'bg-amber-500 text-slate-900 border-amber-500'
                           : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
                       }`}
                     >
@@ -243,6 +244,7 @@ export function HomeView({
                     {t.home.budgetCatch}
                   </label>
                   <select
+                    aria-label={t.home.budgetCatch}
                     value={finderPrice}
                     onChange={(e) => setFinderPrice(e.target.value as any)}
                     className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
@@ -298,7 +300,7 @@ export function HomeView({
                   <div className="w-12 h-12 rounded-xl bg-slate-50 group-hover:bg-red-50 flex items-center justify-center transition-colors">
                     {CATEGORY_ICONS[cat.id]}
                   </div>
-                  <span className="font-mono text-xs font-black text-red-600 bg-red-50 px-2.5 py-1 rounded-full">
+                  <span className="font-mono text-xs font-black text-red-700 bg-red-50 px-2.5 py-1 rounded-full">
                     {cat.targetCount} {t.header.models}
                   </span>
                 </div>
@@ -336,7 +338,7 @@ export function HomeView({
               <div>
                 <div className="text-lg font-black tracking-tight text-white flex items-center gap-2">
                   <span>TrustScore 4.8</span>
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/40">
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-200 font-bold border border-emerald-500/40">
                     {lang === 'fr' ? 'Excellent' : lang === 'it' ? 'Eccellente' : 'Hervorragend'}
                   </span>
                 </div>
@@ -350,7 +352,7 @@ export function HomeView({
               </div>
             </div>
 
-            <div className="text-xs text-emerald-300 flex items-center gap-1.5 self-start sm:self-center">
+            <div className="text-xs text-emerald-200 flex items-center gap-1.5 self-start sm:self-center">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
               <span>100% {lang === 'fr' ? 'commandes vérifiées' : lang === 'it' ? 'ordini verificati' : 'echte Schweizer Käufer'}</span>
             </div>
@@ -367,7 +369,7 @@ export function HomeView({
                     </div>
                   ))}
                 </div>
-                <span className="text-[10px] text-emerald-300 font-mono">#TP-CH-8491</span>
+                <span className="text-[10px] text-emerald-200 font-mono">#TP-CH-8491</span>
               </div>
               <p className="text-xs text-emerald-100 leading-relaxed italic">
                 «Kaufberatung und TCS-Testergebnisse haben mir geholfen, das perfekte Flyer E-Bike für das Berner Oberland auszuwählen. Probefahrt war top!»
@@ -387,7 +389,7 @@ export function HomeView({
                     </div>
                   ))}
                 </div>
-                <span className="text-[10px] text-emerald-300 font-mono">#TP-CH-7294</span>
+                <span className="text-[10px] text-emerald-200 font-mono">#TP-CH-7294</span>
               </div>
               <p className="text-xs text-emerald-100 leading-relaxed italic">
                 «Comparateur super clair et neutre. J’ai trouvé mon vélo Stromer 45 km/h pour faire Genève-Nyon tous les jours sans encombre.»
@@ -407,7 +409,7 @@ export function HomeView({
                     </div>
                   ))}
                 </div>
-                <span className="text-[10px] text-emerald-300 font-mono">#TP-CH-9130</span>
+                <span className="text-[10px] text-emerald-200 font-mono">#TP-CH-9130</span>
               </div>
               <p className="text-xs text-emerald-100 leading-relaxed italic">
                 «Grazie alle schede tecniche e ai test indipendenti abbiamo scelto la Scott da trekking. Sussidio del comune ottenuto in 2 settimane!»
@@ -481,7 +483,7 @@ export function HomeView({
               <div>
                 <div className="flex items-center justify-between mb-3">
                   <span className="font-black text-base text-slate-900">{b.name}</span>
-                  <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
+                  <span className="text-xs font-bold text-red-700 bg-red-50 px-2 py-0.5 rounded-full">
                     🇨🇭 {b.headquarters.split(',')[0]}
                   </span>
                 </div>
@@ -503,7 +505,7 @@ export function HomeView({
       <section className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 text-white rounded-3xl p-6 sm:p-10 relative overflow-hidden shadow-xl border border-emerald-800/60">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/40">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-200 text-xs font-bold border border-emerald-500/40">
               <Coins className="w-3.5 h-3.5" />
               <span>{t.home.subsidiesBannerBadge}</span>
             </div>

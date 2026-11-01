@@ -333,7 +333,11 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         : lang === 'it'
         ? `Guida E-Bike Svizzera : Norme 25 vs 45 km/h, Acquisto, Manutenzione e Incentivi | ${SITE_NAME.it}`
         : 'Schweizer E-Bike Ratgeber 2026: Kaufberatung, Schweizer Recht (25 vs 45 km/h), Akku-Pflege & Fördergelder';
-      description = 'Expertenratgeber für Schweizer E-Biker: Alles zu ASTRA-Gesetzen, Helmpflicht, kantonalen Förderbeiträgen bis 1’000 CHF und Rahmengrössen.';
+      description = lang === 'fr'
+        ? 'Guides pour cyclistes électriques en Suisse : règles 25 vs 45 km/h, casque, entretien de la batterie, taille du cadre et subventions.'
+        : lang === 'it'
+        ? 'Guide per chi usa la e-bike in Svizzera: norme 25 vs 45 km/h, casco, cura della batteria, taglia del telaio e incentivi.'
+        : 'Ratgeber für E-Biker in der Schweiz: Regeln für 25 und 45 km/h, Helm, Akku-Pflege, Rahmengrösse und Förderbeiträge.';
       break;
     }
 
@@ -474,7 +478,11 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         : lang === 'it'
         ? `Incentivi e-bike per cantone in Svizzera | ${SITE_NAME.it}`
         : `E-Bike Förderbeiträge Schweiz nach Kanton | ${SITE_NAME.de}`;
-      description = 'Bis zu 1’000 CHF Zuschuss für Ihr E-Bike oder Cargo-Velo: Übersicht über Förderprogramme in Zürich, Bern, Basel, Genf, Waadt, Tessin u.v.m.';
+      description = lang === 'fr'
+        ? 'Aperçu des programmes de subventions cantonaux et communaux pour vélos électriques et vélos cargo en Suisse.'
+        : lang === 'it'
+        ? 'Panoramica dei programmi di incentivi cantonali e comunali per e-bike e cargo bike in Svizzera.'
+        : 'Übersicht über kantonale und kommunale Förderprogramme für E-Bikes und Cargo-Velos in der Schweiz.';
       break;
     }
 

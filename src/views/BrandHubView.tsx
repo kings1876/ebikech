@@ -188,6 +188,7 @@ export function BrandHubView({
           {brandCatProducts.map((p) => (
             <ProductCard
               key={p.id}
+              headingLevel={2}
               product={p}
               lang={lang}
               onNavigate={onNavigate}
@@ -281,12 +282,9 @@ export function BrandHubView({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {brandCategories.map((bc) => (
-            <NavLink href={buildLocalizedUrl(lang, {
-                    lang,
-                    view: 'brand-category',
-                    brand,
-                    category: bc.category,
-                  })} onNavigate={onNavigate}
+            <NavLink href={bc.isIndexed
+                ? buildLocalizedUrl(lang, { lang, view: 'brand-category', brand, category: bc.category })
+                : buildLocalizedUrl(lang, { lang, view: 'category', category: bc.category })} onNavigate={onNavigate}
               key={bc.category.id}
               
               className="bg-white rounded-2xl border border-slate-200/90 p-4 hover:border-red-500/50 hover:shadow-lg transition-all cursor-pointer flex flex-col justify-between"
@@ -296,7 +294,7 @@ export function BrandHubView({
                   <h3 className="font-bold text-slate-900 text-sm">
                     {bc.category.name[lang]}
                   </h3>
-                  <span className="font-mono text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
+                  <span className="font-mono text-xs font-bold text-red-700 bg-red-50 px-2 py-0.5 rounded-full">
                     {bc.count} {I18N[lang].header.models}
                   </span>
                 </div>
@@ -357,9 +355,9 @@ function BrandCard({ brand, lang, onNavigate }: { brand: BrandDef; lang: Languag
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <span className="text-lg font-black text-slate-900">{brand.name}</span>
-            {brand.isSwiss && <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">🇨🇭 CH</span>}
+            {brand.isSwiss && <span className="text-xs font-bold text-red-700 bg-red-50 px-2 py-0.5 rounded-full">🇨🇭 CH</span>}
           </div>
-          <span className="font-mono text-xs font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
+          <span className="font-mono text-xs font-bold text-red-700 bg-red-50 px-2 py-0.5 rounded-full">
             {brand.targetCount} {I18N[lang].header.models}
           </span>
         </div>

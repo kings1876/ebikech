@@ -1,8 +1,19 @@
 'use client';
 
 import { useRef, useState } from 'react';
+import { preconnect } from 'react-dom';
+import { sizedImage, IMG_CARD, IMG_DETAIL, IMG_THUMB } from '../utils/imageUrl';
 
 type Img = { url: string; alt: string; bg?: 'white' | 'black' };
+
+/** Open the connection to an image host early (React 19 hoists this into <head>). */
+function connectTo(src: string) {
+  try {
+    preconnect(new URL(src).origin);
+  } catch {
+    // relative or invalid URL: nothing to connect to
+  }
+}
 
 function BikeFallback({ className = '' }: { className?: string }) {
   return (
@@ -32,23 +43,27 @@ function BikeFallback({ className = '' }: { className?: string }) {
 }
 
 /** Small product image for listing cards; falls back to the bike drawing if the image fails. */
-export function CardImage({ images, name }: { images: Img[]; name: string }) {
+export function CardImage({ images, name, priority = false }: { images: Img[]; name: string; priority?: boolean }) {
   const [failed, setFailed] = useState(false);
+  const [original, setOriginal] = useState(false);
   const first = images?.[0];
   if (!first || failed) {
     return <BikeFallback className="w-40 h-28 text-slate-400 drop-shadow-sm" />;
   }
+  const src = original ? first.url : sizedImage(first.url, IMG_CARD);
+  if (priority) connectTo(src);
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={first.url}
+      src={src}
       alt={first.alt || name}
       width={320}
       height={224}
-      loading="lazy"
+      loading={priority ? 'eager' : 'lazy'}
+      fetchPriority={priority ? 'high' : undefined}
       decoding="async"
       referrerPolicy="no-referrer"
-      onError={() => setFailed(true)}
+      onError={() => (src !== first.url ? setOriginal(true) : setFailed(true))}
       className="w-full h-full object-contain"
     />
   );
@@ -57,9 +72,12 @@ export function CardImage({ images, name }: { images: Img[]; name: string }) {
 /** Product detail gallery: large image, thumbnails, prev/next and keyboard support. */
 export function ProductGallery({ images, name }: { images: Img[]; name: string }) {
   const [broken, setBroken] = useState<Record<string, boolean>>({});
+  const [orig, setOrig] = useState<Record<string, boolean>>({});
   const list = (images || []).filter((i) => !broken[i.url]);
   const [index, setIndex] = useState(0);
+  const failImg = (url: string) => (orig[url] || sizedImage(url, IMG_DETAIL) === url ? setBroken((b) => ({ ...b, [url]: true })) : setOrig((o) => ({ ...o, [url]: true })));
   const current = list[Math.min(index, Math.max(0, list.length - 1))];
+  if (current) connectTo(current.url);
 
   if (!current) {
     return (
@@ -87,14 +105,15 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           key={current.url}
-          src={current.url}
+          src={orig[current.url] ? current.url : sizedImage(current.url, IMG_DETAIL)}
           alt={current.alt || name}
           width={1200}
           height={900}
           loading="eager"
+          fetchPriority="high"
           decoding="async"
           referrerPolicy="no-referrer"
-          onError={() => setBroken((b) => ({ ...b, [current.url]: true }))}
+          onError={() => failImg(current.url)}
           className="max-w-full max-h-full object-contain"
         />
         {list.length > 1 && (
@@ -137,14 +156,14 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={img.url}
+                  src={orig[img.url] ? img.url : sizedImage(img.url, IMG_THUMB)}
                   alt=""
                   width={160}
                   height={120}
                   loading="lazy"
                   decoding="async"
                   referrerPolicy="no-referrer"
-                  onError={() => setBroken((b) => ({ ...b, [img.url]: true }))}
+                  onError={() => failImg(img.url)}
                   className="w-full h-full object-contain"
                 />
               </button>
@@ -157,9 +176,10 @@ export function ProductGallery({ images, name }: { images: Img[]; name: string }
 }
 
 /** Image carousel for listing cards: arrows, dots, swipe on touch, keyboard arrows; preloads on first interaction. */
-export function CardGallery({ images, name }: { images: Img[]; name: string }) {
+export function CardGallery({ images, name, priority = false }: { images: Img[]; name: string; priority?: boolean }) {
   const [i, setI] = useState(0);
   const [broken, setBroken] = useState<Record<string, boolean>>({});
+  const [orig, setOrig] = useState<Record<string, boolean>>({});
   const touchX = useRef<number | null>(null);
   const swiped = useRef(false);
   const preloaded = useRef(false);
@@ -176,7 +196,7 @@ export function CardGallery({ images, name }: { images: Img[]; name: string }) {
     for (const im of list) {
       const el = new Image();
       el.referrerPolicy = 'no-referrer';
-      el.src = im.url;
+      el.src = sizedImage(im.url, IMG_CARD);
     }
   };
   const go = (d: number) => setI((idx + d + list.length) % list.length);
@@ -220,14 +240,19 @@ export function CardGallery({ images, name }: { images: Img[]; name: string }) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         key={list[idx].url}
-        src={list[idx].url}
+        src={orig[list[idx].url] ? list[idx].url : sizedImage(list[idx].url, IMG_CARD)}
         alt={list[idx].alt || name}
         width={480}
         height={320}
-        loading={idx === 0 ? 'lazy' : 'eager'}
+        loading={idx === 0 && !priority ? 'lazy' : 'eager'}
+        fetchPriority={idx === 0 && priority ? 'high' : undefined}
         decoding="async"
         referrerPolicy="no-referrer"
-        onError={() => setBroken((b) => ({ ...b, [list[idx].url]: true }))}
+        onError={() => {
+          const u = list[idx].url;
+          if (!orig[u] && sizedImage(u, IMG_CARD) !== u) setOrig((o) => ({ ...o, [u]: true }));
+          else setBroken((b) => ({ ...b, [u]: true }));
+        }}
         className="w-full h-full object-contain"
       />
       {list.length > 1 && (
@@ -242,8 +267,10 @@ export function CardGallery({ images, name }: { images: Img[]; name: string }) {
                 aria-label={`Image ${n + 1}`}
                 aria-current={n === idx}
                 onClick={(e) => { e.stopPropagation(); setI(n); }}
-                className={`h-1.5 rounded-full cursor-pointer transition-all ${n === idx ? 'w-4 bg-red-600' : 'w-1.5 bg-slate-300 hover:bg-slate-400'}`}
-              />
+                className="h-6 min-w-6 flex items-center justify-center cursor-pointer"
+              >
+                <span className={`block h-1.5 rounded-full transition-all ${n === idx ? 'w-4 bg-red-600' : 'w-1.5 bg-slate-400'}`} />
+              </button>
             ))}
           </div>
         </>

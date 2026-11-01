@@ -95,9 +95,9 @@ export function CantonSubsidiesView({ lang, onNavigate }: CantonSubsidiesViewPro
                 <span className="text-xs font-mono font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md">
                   {lang === 'fr' ? 'Canton' : lang === 'it' ? 'Cantone' : 'Kanton'} {s.cantonCode}
                 </span>
-                <h3 className="text-lg font-black text-slate-900 mt-1">
+                <h2 className="text-lg font-black text-slate-900 mt-1">
                   {s.cantonName}
-                </h3>
+                </h2>
               </div>
               <div className="text-right">
                 <span className="text-xl font-black text-emerald-600 font-mono">
@@ -139,9 +139,9 @@ export function CantonSubsidiesView({ lang, onNavigate }: CantonSubsidiesViewPro
 
       {/* 3 Steps to get the subsidy */}
       <div className="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-4">
-        <h3 className="text-lg font-black text-slate-900">
+        <h2 className="text-lg font-black text-slate-900">
           {t.stepsTitle}
-        </h3>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-700">
           <div className="p-4 bg-white rounded-2xl border border-slate-200 space-y-1">
             <div className="w-7 h-7 rounded-full bg-emerald-100 text-emerald-800 font-black flex items-center justify-center mb-2">

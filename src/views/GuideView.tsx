@@ -60,21 +60,21 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           >
             {I18N[lang].pdp.home}
           </NavLink>
-          <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+          <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
             
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].header.guides}
           </NavLink>
-          <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+          <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
             
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {cluster.title[lang]}
           </NavLink>
-          <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+          <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
           <span className="font-bold text-slate-900 truncate">{article.title[lang]}</span>
         </div>
 
@@ -93,7 +93,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
             {article.excerpt[lang]}
           </p>
 
-          <div className="flex items-center gap-4 text-xs text-slate-400 pt-1">
+          <div className="flex items-center gap-4 text-xs text-slate-500 pt-1">
             <span className="flex items-center gap-1">
               <User className="w-3.5 h-3.5" />
               <span>{SITE_NAME[lang]}</span>
@@ -129,9 +129,9 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           <div className="bg-slate-50 border-2 border-red-500/20 rounded-3xl p-6 space-y-4">
             <div className="flex items-center gap-2">
               <Calculator className="w-5 h-5 text-red-600" />
-              <h3 className="text-lg font-black text-slate-900">
+              <h2 className="text-lg font-black text-slate-900">
                 {t.calcTitle}
-              </h3>
+              </h2>
             </div>
             <p className="text-xs text-slate-600">
               {t.calcDesc}
@@ -150,7 +150,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                   onChange={(e) => setInseamCm(parseInt(e.target.value, 10))}
                   className="w-full accent-red-600 cursor-pointer"
                 />
-                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                   <span>65 cm</span>
                   <span>100 cm</span>
                 </div>
@@ -192,7 +192,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
               <div>
                 <span className="text-xs text-slate-500 block">{t.recommendedFrame}</span>
                 <span className="text-2xl font-black font-mono text-slate-900">
-                  {calculatedFrameCm} cm <span className="text-slate-400 font-normal text-sm">({calculatedFrameInch} {lang === 'fr' ? 'pouces' : lang === 'it' ? 'pollici' : 'Zoll'})</span>
+                  {calculatedFrameCm} cm <span className="text-slate-500 font-normal text-sm">({calculatedFrameInch} {lang === 'fr' ? 'pouces' : lang === 'it' ? 'pollici' : 'Zoll'})</span>
                 </span>
               </div>
               <div>
@@ -306,14 +306,14 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           >
             {I18N[lang].pdp.home}
           </NavLink>
-          <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+          <ChevronRight className="w-3.5 h-3.5 text-slate-500" />
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
             
             className="hover:text-red-600 transition-colors cursor-pointer"
           >
             {I18N[lang].header.guides}
           </NavLink>
-          <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+          <ChevronRight className="w-3.5 h-3.5 text-slate-500" />
           <span className="font-bold text-slate-900">{cluster.title[lang]}</span>
         </div>
 
@@ -334,14 +334,14 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
               className="bg-white rounded-3xl border border-slate-200/90 p-6 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
             >
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-[11px] text-slate-400">
+                <div className="flex items-center gap-2 text-[11px] text-slate-500">
                   <span>{SITE_NAME[lang]}</span>
                   <span>·</span>
                   <span>{g.readTimeMin} {t.readTime}</span>
                 </div>
-                <h3 className="font-black text-base text-slate-900 group-hover:text-red-600">
+                <h2 className="font-black text-base text-slate-900 group-hover:text-red-600">
                   {g.title[lang]}
-                </h3>
+                </h2>
                 <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
                   {g.excerpt[lang]}
                 </p>
