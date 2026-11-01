@@ -27,6 +27,14 @@ export default function AdminHome() {
     })();
   }, [api]);
 
+  const [mailResult, setMailResult] = useState('');
+  const sendTest = async () => {
+    setMailResult('Wird gesendet …');
+    const r = await api<{ ok: boolean; error?: string; to?: string; host?: string; port?: number; user?: string; from?: string }>('/api/admin/mail-test/', { method: 'POST', body: JSON.stringify({}) });
+    const d = r.data;
+    setMailResult(d.ok ? `Gesendet an ${d.to}. Prüfen Sie Posteingang und Spam.` : `Fehler: ${d.error || 'unbekannt'} (Server ${d.host}:${d.port}, Benutzer ${d.user}, Absender ${d.from}, Empfänger ${d.to})`);
+  };
+
   const pending = orders.filter((o) => o.status === 'pending').length;
   const fresh = enquiries.filter((e) => e.status === 'new').length;
 
@@ -53,6 +61,13 @@ export default function AdminHome() {
           <div className="text-sm text-amber-300 mt-1">{loaded ? `${fresh} neu` : ''}</div>
         </Link>
       </div>
+
+      <section className="space-y-2">
+        <button type="button" onClick={sendTest} className="rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-bold hover:border-slate-500 cursor-pointer">
+          Test-E-Mail an das Postfach senden
+        </button>
+        {mailResult && <p className="text-sm text-slate-300 break-words">{mailResult}</p>}
+      </section>
 
       <section className="space-y-3">
         <h2 className="text-lg font-bold">Neueste Bestellungen</h2>

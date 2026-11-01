@@ -37,6 +37,7 @@ export async function sendMailBatch(messages: MailOptions[]): Promise<{ sent: bo
       await t.sendMail({ from, ...m });
       out.push({ sent: true });
     } catch (e) {
+      console.error('[mailer] send failed:', e instanceof Error ? e.message : e);
       out.push({ sent: false, reason: e instanceof Error ? e.message.slice(0, 120) : 'error' });
     }
   }
