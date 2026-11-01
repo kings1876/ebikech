@@ -1,6 +1,6 @@
 import { Language } from '../types';
 import { TAGLINE } from '../config/brand';
-import productsRaw from './products.json';
+import productsRaw from './products.client.json';
 
 // Real catalogue numbers (not the original 500-product target)
 const N = (productsRaw as unknown[]).length;

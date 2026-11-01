@@ -10,7 +10,8 @@ export function sizedImage(url: string, width: number): string {
 
     // Cube (Shopware): /media/<hash>/<file>.jpg -> /thumbnail/<hash>/<file>_WxH.jpg (400, 800 and 1920 exist)
     if (host === 'file.cube.eu') {
-      const size = width <= 400 ? 400 : width <= 800 ? 800 : 1920;
+      // 800 px thumbnails weigh about 200 KB each, 400 px about a quarter of that: listing cards use the small one
+      const size = width <= 640 ? 400 : width <= 1200 ? 800 : 1920;
       if (u.pathname.includes('/media/')) {
         u.pathname = u.pathname.replace('/media/', '/thumbnail/').replace(/\.(jpg|png|webp)$/i, `_${size}x${size}.$1`);
         return u.toString();

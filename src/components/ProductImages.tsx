@@ -114,6 +114,8 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
         <img
           key={current.url}
           src={orig[current.url] ? current.url : sizedImage(current.url, IMG_DETAIL)}
+          srcSet={orig[current.url] ? undefined : [IMG_CARD, 800, IMG_DETAIL].map((w) => `${sizedImage(current.url, w)} ${w}w`).join(", ")}
+          sizes="(min-width: 1024px) 560px, calc(100vw - 2rem)"
           alt={current.alt || name}
           width={1200}
           height={900}

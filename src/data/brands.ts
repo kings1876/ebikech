@@ -1,5 +1,5 @@
 import { BrandDef } from '../types';
-import productsRaw from './products.json';
+import productsRaw from './products.client.json';
 
 export const BRANDS: BrandDef[] = [
   // Tier A (300 total)

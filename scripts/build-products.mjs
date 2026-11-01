@@ -199,3 +199,5 @@ const report = [
 fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
 fs.writeFileSync(path.join(root, 'docs/sourcing-report.md'), report + '\n');
 console.log(`products.json: ${products.length} published, ${skipped.length} skipped`);
+
+await import('./slim-products.mjs');

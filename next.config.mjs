@@ -1,5 +1,7 @@
 const nextConfig = {
   trailingSlash: true,
+  // Styles arrive with the HTML, so the first paint does not wait for a stylesheet request
+  experimental: { inlineCss: true },
   reactStrictMode: true,
   poweredByHeader: false,
   // Old blog posts were replaced by buying guides; keep their URLs working.

@@ -129,6 +129,8 @@ export function HomeView({
       {/* 1. Hero Section */}
       <section className="relative bg-slate-950 text-white overflow-hidden py-16 sm:py-24 px-4 sm:px-6">
         {/* Background photo: cyclist on a hill road (Unsplash licence); dark overlay keeps the text readable */}
+        {/* React hoists this into <head>, so the browser starts the hero download before it parses the page body */}
+        <link rel="preload" as="image" imageSrcSet="/hero-900.webp 900w, /hero-2000.webp 2000w" imageSizes="100vw" fetchPriority="high" />
         <img
           src="/hero-2000.webp"
           srcSet="/hero-900.webp 900w, /hero-2000.webp 2000w"
@@ -337,7 +339,7 @@ export function HomeView({
       </section>
 
       {/* 2.5 Trustpilot & Verified Customer Reviews Spotlight */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
         <div className="bg-emerald-950/80 rounded-3xl p-6 sm:p-8 border border-emerald-800 text-white shadow-lg space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-emerald-800/80 pb-5">
             <div className="flex items-center gap-3">
@@ -437,7 +439,7 @@ export function HomeView({
       </section>
 
       {/* 3. Featured e-bikes */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
           <div>
             <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">{featuredCopy.badge[lang]}</div>
@@ -468,7 +470,7 @@ export function HomeView({
       </section>
 
       {/* 4. Swiss Brands Showcase */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
         <div className="flex items-center justify-between mb-8">
           <div>
             <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">
@@ -515,7 +517,7 @@ export function HomeView({
       </section>
 
       {/* 5. Cantonal Subsidies Banner */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
         <div className="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 text-white rounded-3xl p-6 sm:p-10 relative overflow-hidden shadow-xl border border-emerald-800/60">
           <div className="max-w-3xl space-y-4">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-200 text-xs font-bold border border-emerald-500/40">
@@ -544,7 +546,7 @@ export function HomeView({
       </section>
 
       {/* 6. Ratgeber / Guides Clusters */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
         <div className="flex items-center justify-between mb-8">
           <div>
             <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">

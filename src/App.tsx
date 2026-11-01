@@ -8,20 +8,23 @@ import { parseRoute, ParsedRoute, buildLocalizedUrl } from './utils/routes';
 import { resolveSeoMetadata } from './utils/seo';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { SeoInspector } from './components/SeoInspector';
-import { ComparisonDrawer } from './components/ComparisonDrawer';
-import { TestRideModal } from './components/TestRideModal';
-import { OrderRequestModal } from './components/OrderRequestModal';
-import { HomeView } from './views/HomeView';
-import { CatalogView } from './views/CatalogView';
-import { ProductDetailView } from './views/ProductDetailView';
-import { BrandHubView } from './views/BrandHubView';
-import { GuideView } from './views/GuideView';
-import { CantonSubsidiesView } from './views/CantonSubsidiesView';
-import { StaticPages } from './views/StaticPages';
-import { BlogView } from './views/BlogView';
-import { FaqView } from './views/FaqView';
-import { ContactView } from './views/ContactView';
+import dynamic from 'next/dynamic';
+
+// Each page type loads only the code it needs; the server still renders the full HTML.
+const SeoInspector = dynamic(() => import('./components/SeoInspector').then((m) => m.SeoInspector));
+const ComparisonDrawer = dynamic(() => import('./components/ComparisonDrawer').then((m) => m.ComparisonDrawer));
+const TestRideModal = dynamic(() => import('./components/TestRideModal').then((m) => m.TestRideModal));
+const OrderRequestModal = dynamic(() => import('./components/OrderRequestModal').then((m) => m.OrderRequestModal));
+const HomeView = dynamic(() => import('./views/HomeView').then((m) => m.HomeView));
+const CatalogView = dynamic(() => import('./views/CatalogView').then((m) => m.CatalogView));
+const ProductDetailView = dynamic(() => import('./views/ProductDetailView').then((m) => m.ProductDetailView));
+const BrandHubView = dynamic(() => import('./views/BrandHubView').then((m) => m.BrandHubView));
+const GuideView = dynamic(() => import('./views/GuideView').then((m) => m.GuideView));
+const CantonSubsidiesView = dynamic(() => import('./views/CantonSubsidiesView').then((m) => m.CantonSubsidiesView));
+const StaticPages = dynamic(() => import('./views/StaticPages').then((m) => m.StaticPages));
+const BlogView = dynamic(() => import('./views/BlogView').then((m) => m.BlogView));
+const FaqView = dynamic(() => import('./views/FaqView').then((m) => m.FaqView));
+const ContactView = dynamic(() => import('./views/ContactView').then((m) => m.ContactView));
 
 export default function App({ initialPath = '/' }: { initialPath?: string }) {
   // Server renders the requested path; query string is read after hydration to avoid mismatches.
@@ -297,28 +300,32 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
       </main>
 
       {/* Comparison Drawer / Modal */}
-      <ComparisonDrawer
-        comparedProducts={comparedProducts}
-        onRemove={handleRemoveCompare}
-        onClear={handleClearCompare}
-        isOpen={comparisonModalOpen}
-        onClose={() => setComparisonModalOpen(!comparisonModalOpen)}
-        lang={lang}
-        onBookTestRide={(p) => {
-          setComparisonModalOpen(false);
-          setTestRideProduct(p);
-        }}
-      />
+      {(comparisonModalOpen || comparedProducts.length > 0) && (
+        <ComparisonDrawer
+          comparedProducts={comparedProducts}
+          onRemove={handleRemoveCompare}
+          onClear={handleClearCompare}
+          isOpen={comparisonModalOpen}
+          onClose={() => setComparisonModalOpen(!comparisonModalOpen)}
+          lang={lang}
+          onBookTestRide={(p) => {
+            setComparisonModalOpen(false);
+            setTestRideProduct(p);
+          }}
+        />
+      )}
 
       {/* Test Ride Booking Modal */}
-      <TestRideModal
-        product={testRideProduct}
-        onClose={() => setTestRideProduct(null)}
-        lang={lang}
-      />
+      {testRideProduct && (
+        <TestRideModal
+          product={testRideProduct}
+          onClose={() => setTestRideProduct(null)}
+          lang={lang}
+        />
+      )}
 
       {/* Order request (bank transfer) */}
-      <OrderRequestModal product={orderProduct} onClose={() => setOrderProduct(null)} lang={lang} />
+      {orderProduct && <OrderRequestModal product={orderProduct} onClose={() => setOrderProduct(null)} lang={lang} />}
 
       {/* Live SEO Inspector */}
       {process.env.NEXT_PUBLIC_SEO_INSPECTOR === '1' && (

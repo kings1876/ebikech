@@ -1,5 +1,5 @@
 import { CategoryDef } from '../types';
-import productsRaw from './products.json';
+import productsRaw from './products.client.json';
 
 export const SECTION_ROOTS = {
   catalogue: {
