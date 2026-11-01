@@ -63,7 +63,7 @@ export const CATEGORIES: CategoryDef[] = [
           it: 'full-elettriche',
         },
         name: {
-          de: 'E-Fullys',
+          de: 'E-Bike Fully',
           fr: 'VTT tout-suspendus',
           it: 'Full elettriche',
         },

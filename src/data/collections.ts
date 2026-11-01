@@ -17,8 +17,8 @@ export const COLLECTIONS: CollectionDef[] = [
   {
     id: 'damen',
     slug: { de: 'damen-e-bikes', fr: 'velos-electriques-femme', it: 'e-bike-donna' },
-    name: { de: 'Damen E-Bikes', fr: 'Vélos électriques dame', it: 'Biciclette elettriche donna' },
-    keyword: { de: 'Damen E-Bike', fr: 'Vélo électrique dame', it: 'Bicicletta elettrica donna' },
+    name: { de: 'E-Bike Damen', fr: 'Vélos électriques dame', it: 'Biciclette elettriche donna' },
+    keyword: { de: 'E-Bike Damen', fr: 'Vélo électrique dame', it: 'Bicicletta elettrica donna' },
     // Models with a low step-through frame (what shops sell as "Damen" / Tiefeinsteiger)
     filter: (p) => p.frameType === 'step-through',
     guideId: 'damen-e-bike-kaufen',

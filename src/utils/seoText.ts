@@ -15,6 +15,14 @@ export const CATEGORY_KEYWORD: Record<string, Record<Language, string>> = {
   'e-bikes-jugend': { de: 'E-Bike Jugend', fr: 'Vélo électrique ado', it: 'Bicicletta elettrica ragazzi' },
 };
 
+/** Second phrasing people search for (word order / spelling), worked into descriptions. Keywords from docs/keywords-de-ch.md. */
+const CATEGORY_ALIAS: Record<string, Partial<Record<Language, string>>> = {
+  'e-mountainbikes': { de: 'Mountain E-Bike' },
+  'e-citybikes': { de: 'E-Bike City' },
+  'schnelle-e-bikes': { de: 'E-Bike kaufen 45 km/h, 45 kmh E-Bike', it: 'Biciclette elettriche 45 km/h' },
+};
+const BRAND_ALIAS_DE: Record<string, string> = { 'riese-mueller': 'Riese und Müller' };
+
 export { SITE_NAME } from '../config/brand';
 import { SITE_NAME } from '../config/brand';
 
@@ -61,10 +69,12 @@ export function categorySeo(categoryId: string, lang: Language) {
     : `${kw} in Svizzera – ${s.count} modelli`,
     lang,
   );
+  const alias = CATEGORY_ALIAS[categoryId]?.[lang];
+  const lead = alias ? `${kw} / ${alias}` : kw;
   const description = fitDescription(
-    lang === 'de' ? `${kw}: ${s.count} Modelle ab ${chf(s.minPrice)} von ${brands} u.a. Technische Daten zu Motor, Akku und Gewicht, Preise in CHF.`
-    : lang === 'fr' ? `${kw} : ${s.count} modèles dès ${chf(s.minPrice)}, dont ${brands}. Fiches techniques moteur, batterie et poids, prix en CHF.`
-    : `${kw}: ${s.count} modelli da ${chf(s.minPrice)}, tra cui ${brands}. Dati tecnici di motore, batteria e peso, prezzi in CHF.`,
+    lang === 'de' ? `${lead}: ${s.count} Modelle ab ${chf(s.minPrice)} von ${brands} u.a. Technische Daten zu Motor, Akku und Gewicht, Preise in CHF.`
+    : lang === 'fr' ? `${lead} : ${s.count} modèles dès ${chf(s.minPrice)}, dont ${brands}. Fiches techniques moteur, batterie et poids, prix en CHF.`
+    : `${lead}: ${s.count} modelli da ${chf(s.minPrice)}, tra cui ${brands}. Dati tecnici di motore, batteria e peso, prezzi in CHF.`,
   );
   return { kw, title, description, ...s, w };
 }
@@ -113,7 +123,7 @@ export function brandSeo(brandId: string, lang: Language) {
     lang,
   );
   const description = fitDescription(
-    lang === 'de' ? `${s.count} ${name} E-Bikes ab ${chf(s.minPrice)}: ${catList}. Preise in CHF, Motor, Akku und technische Daten im Überblick.`
+    lang === 'de' ? `E-Bike ${BRAND_ALIAS_DE[brandId] || name}: ${s.count} Modelle ab ${chf(s.minPrice)}, ${catList}. Preise in CHF, Motor, Akku und technische Daten im Überblick.`
     : lang === 'fr' ? `${s.count} vélos électriques ${name} dès ${chf(s.minPrice)} : ${catList}. Prix en CHF, moteur, batterie et fiches techniques.`
     : `${s.count} e-bike ${name} da ${chf(s.minPrice)}: ${catList}. Prezzi in CHF, motore, batteria e dati tecnici.`,
   );
