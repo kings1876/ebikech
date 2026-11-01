@@ -9,6 +9,8 @@ export interface CollectionDef {
   /** Keyword phrase used in titles and descriptions */
   keyword: LocalizedString;
   filter: (p: Product) => boolean;
+  /** Short qualifier of the subset, used in the meta description ("... Modelle <blurb> ab CHF ...") */
+  blurb: LocalizedString;
   /** Blog guide that goes deeper on this topic (BlogPost.id) */
   guideId?: string;
 }
@@ -21,7 +23,26 @@ export const COLLECTIONS: CollectionDef[] = [
     keyword: { de: 'E-Bike Damen', fr: 'Vélo électrique dame', it: 'Bicicletta elettrica donna' },
     // Models with a low step-through frame (what shops sell as "Damen" / Tiefeinsteiger)
     filter: (p) => p.frameType === 'step-through',
+    blurb: { de: 'mit Tiefeinstieg', fr: 'à cadre bas', it: 'a telaio basso' },
     guideId: 'damen-e-bike-kaufen',
+  },
+  {
+    id: 'herren',
+    slug: { de: 'e-bike-herren', fr: 'velos-electriques-homme', it: 'e-bike-uomo' },
+    name: { de: 'E-Bike Herren', fr: 'Vélos électriques homme', it: 'Biciclette elettriche uomo' },
+    keyword: { de: 'E-Bike Herren', fr: 'Vélo électrique homme', it: 'Bicicletta elettrica uomo' },
+    // Diamond frame with top tube (what shops sell as "Herren"); youth bikes are not part of it
+    filter: (p) => p.frameType === 'diamond' && p.categoryId !== 'e-bikes-jugend',
+    blurb: { de: 'mit Diamantrahmen', fr: 'à cadre diamant', it: 'a telaio diamante' },
+  },
+  {
+    id: 'leicht',
+    slug: { de: 'leichte-e-bikes', fr: 'velos-electriques-legers', it: 'e-bike-leggere' },
+    name: { de: 'Leichte E-Bikes', fr: 'Vélos électriques légers', it: 'Biciclette elettriche leggere' },
+    keyword: { de: 'Leichtes E-Bike', fr: 'Vélo électrique léger', it: 'Bicicletta elettrica leggera' },
+    // Only models with a known manufacturer weight of 20 kg or less
+    filter: (p) => p.weightKg !== null && p.weightKg <= 20,
+    blurb: { de: 'bis 20 kg', fr: 'jusqu’à 20 kg', it: 'fino a 20 kg' },
   },
 ];
 
@@ -70,6 +91,72 @@ export const LANDING_CONTENT: Record<string, LandingContent> = {
         { q: 'Quale taglia di telaio fa per me?', a: 'Contano altezza e lunghezza della gamba. La tabella del produttore è il miglior punto di partenza; tra due taglie, per l’uso quotidiano scegliete la più piccola.' },
         { q: 'Di quanta batteria ho bisogno?', a: 'Per l’uso quotidiano di solito bastano 400–625 Wh. Con molto dislivello o lunghe escursioni scegliete una batteria più grande.' },
         { q: 'I telai bassi sono solo per donne?', a: 'No. Un passaggio basso facilita salita e discesa e va bene per chiunque lo preferisca.' },
+      ],
+    },
+  },
+  herren: {
+    intro: {
+      de: [
+        'Herren-E-Bikes haben einen Diamantrahmen mit durchgehendem Oberrohr. Diese Bauform ist bei sportlichen Modellen wie E-Mountainbikes, Gravel- und Trekkingbikes die Regel. Die Technik darunter – Mittelmotor, Akku und Federung – ist dieselbe wie bei Modellen mit Tiefeinstieg.',
+        'In unserem Katalog finden Sie {n} Modelle mit Diamantrahmen von {brands} u. a., ab CHF {min}. Filtern Sie nach Kategorie, Motor, Akku, Gewicht und Preis.',
+      ],
+      fr: [
+        'Les vélos électriques homme ont un cadre diamant avec tube supérieur continu. Cette forme est la règle sur les modèles sportifs comme les VTT électriques, les gravel et les vélos de trekking. La technique – moteur central, batterie et suspension – est la même que sur les modèles à cadre bas.',
+        'Notre catalogue compte {n} modèles à cadre diamant de {brands} et d’autres marques, dès CHF {min}. Filtrez par catégorie, moteur, batterie, poids et prix.',
+      ],
+      it: [
+        'Le biciclette elettriche uomo hanno un telaio a diamante con tubo orizzontale continuo. Questa forma è la regola sui modelli sportivi come mountain bike elettriche, gravel e trekking. La tecnica – motore centrale, batteria e sospensioni – è la stessa dei modelli a telaio basso.',
+        'Il nostro catalogo conta {n} modelli a telaio diamante di {brands} e altri, da CHF {min}. Filtrate per categoria, motore, batteria, peso e prezzo.',
+      ],
+    },
+    faq: {
+      de: [
+        { q: 'Sind Herren-E-Bikes nur für Männer?', a: 'Nein. «Herren» beschreibt nur die Rahmenform mit Oberrohr. Sie passt für alle, die ein sportliches, steifes Rad ohne tiefen Durchstieg bevorzugen.' },
+        { q: 'Was ist der Unterschied zwischen Herren- und Damen-E-Bike?', a: 'Meist nur der Rahmen: Herrenmodelle haben ein Oberrohr, Damenmodelle einen tiefen Durchstieg. Motor, Akku und Ausstattung sind bei gleichem Modell in der Regel identisch.' },
+        { q: 'Welche Rahmengrösse passt zu mir?', a: 'Massgebend sind Körpergrösse und Schrittlänge. Die Grössentabelle des Herstellers ist der beste Ausgangspunkt; die verfügbaren Grössen stehen bei jedem Modell.' },
+      ],
+      fr: [
+        { q: 'Les vélos électriques homme sont-ils réservés aux hommes ?', a: 'Non. « Homme » décrit seulement la forme du cadre avec tube supérieur. Il convient à toute personne qui préfère un vélo sportif et rigide sans passage bas.' },
+        { q: 'Quelle différence entre vélo électrique homme et femme ?', a: 'En général seulement le cadre : les modèles homme ont un tube supérieur, les modèles femme un passage bas. Moteur, batterie et équipement sont en principe identiques pour un même modèle.' },
+        { q: 'Quelle taille de cadre me convient ?', a: 'La taille et l’entrejambe sont déterminantes. Le tableau du fabricant est le meilleur point de départ ; les tailles disponibles figurent sur chaque modèle.' },
+      ],
+      it: [
+        { q: 'Le e-bike uomo sono solo per uomini?', a: 'No. «Uomo» descrive solo la forma del telaio con tubo orizzontale. Va bene per chiunque preferisca una bici sportiva e rigida senza passaggio basso.' },
+        { q: 'Che differenza c’è tra e-bike uomo e donna?', a: 'Di solito solo il telaio: i modelli uomo hanno un tubo orizzontale, quelli donna un passaggio basso. Motore, batteria e dotazione sono in genere identici a parità di modello.' },
+        { q: 'Quale taglia di telaio fa per me?', a: 'Contano altezza e lunghezza della gamba. La tabella del produttore è il miglior punto di partenza; le taglie disponibili sono indicate per ogni modello.' },
+      ],
+    },
+  },
+  leicht: {
+    intro: {
+      de: [
+        'Ein leichtes E-Bike wiegt bis 20 kg. Zum Vergleich: Das mittlere E-Bike in unserem Katalog liegt bei gut 25 kg. Den Unterschied spüren Sie beim Tragen, beim Verladen und beim Fahren ohne Motorunterstützung.',
+        'Leichte Modelle haben meist kleinere Akkus und kommen häufig als Gravel- oder Rennvelo-E-Bike. In unserem Katalog finden Sie {n} Modelle bis 20 kg von {brands} u. a., ab CHF {min}. Gewichte sind Herstellerangaben.',
+      ],
+      fr: [
+        'Un vélo électrique léger pèse jusqu’à 20 kg. À titre de comparaison, le vélo électrique médian de notre catalogue dépasse 25 kg. La différence se sent au portage, au chargement et en roulant sans assistance.',
+        'Les modèles légers ont en général des batteries plus petites et sont souvent des vélos gravel ou de route électriques. Notre catalogue compte {n} modèles jusqu’à 20 kg de {brands} et d’autres marques, dès CHF {min}. Les poids sont ceux indiqués par les fabricants.',
+      ],
+      it: [
+        'Una bicicletta elettrica leggera pesa fino a 20 kg. Per confronto, la e-bike mediana del nostro catalogo supera i 25 kg. La differenza si sente quando si porta, si carica o si pedala senza assistenza.',
+        'I modelli leggeri hanno in genere batterie più piccole e sono spesso gravel o bici da corsa elettriche. Il nostro catalogo conta {n} modelli fino a 20 kg di {brands} e altri, da CHF {min}. I pesi sono quelli dichiarati dai produttori.',
+      ],
+    },
+    faq: {
+      de: [
+        { q: 'Wie leicht kann ein E-Bike sein?', a: 'Die leichtesten Modelle in unserem Katalog wiegen rund 10 kg (Herstellerangabe). Das sind meist sportliche Rennvelo- und Gravel-E-Bikes mit kleinem Akku.' },
+        { q: 'Warum haben leichte E-Bikes oft kleinere Akkus?', a: 'Der Akku ist eines der schwersten Bauteile. Leichte Modelle verwenden deshalb oft Akkus mit rund 300 bis 400 Wh statt der 500 bis 750 Wh, die bei Trekking- und Mountainbikes üblich sind.' },
+        { q: 'Für wen lohnt sich ein leichtes E-Bike?', a: 'Für alle, die ihr Rad oft tragen oder verladen, sportlich fahren oder das Rad auch ohne Motorunterstützung gern bewegen.' },
+      ],
+      fr: [
+        { q: 'Quel est le poids minimal d’un vélo électrique ?', a: 'Les modèles les plus légers de notre catalogue pèsent environ 10 kg (indication du fabricant). Ce sont surtout des vélos de route et gravel électriques à petite batterie.' },
+        { q: 'Pourquoi les vélos électriques légers ont-ils souvent de plus petites batteries ?', a: 'La batterie est l’un des composants les plus lourds. Les modèles légers utilisent donc souvent des batteries d’environ 300 à 400 Wh, contre 500 à 750 Wh sur les vélos de trekking et VTT.' },
+        { q: 'À qui convient un vélo électrique léger ?', a: 'À celles et ceux qui portent ou chargent souvent leur vélo, roulent de façon sportive ou aiment aussi rouler sans assistance.' },
+      ],
+      it: [
+        { q: 'Quanto può pesare al minimo una e-bike?', a: 'I modelli più leggeri del nostro catalogo pesano circa 10 kg (dato del produttore). Sono soprattutto gravel e bici da corsa elettriche con batteria piccola.' },
+        { q: 'Perché le e-bike leggere hanno spesso batterie più piccole?', a: 'La batteria è uno dei componenti più pesanti. I modelli leggeri usano quindi spesso batterie da circa 300–400 Wh, contro i 500–750 Wh di trekking e mountain bike.' },
+        { q: 'Per chi è adatta una e-bike leggera?', a: 'Per chi porta o carica spesso la bici, pedala in modo sportivo o ama muoversi anche senza assistenza.' },
       ],
     },
   },

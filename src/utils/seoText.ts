@@ -91,9 +91,9 @@ export function collectionSeo(collection: CollectionDef, lang: Language) {
     lang,
   );
   const description = fitDescription(
-    lang === 'de' ? `${kw}: ${s.count} Modelle mit Tiefeinstieg ab ${chf(s.minPrice)} von ${brands} u.a. Motor, Akku, Gewicht und Preise in CHF im Vergleich.`
-    : lang === 'fr' ? `${kw} : ${s.count} modèles à cadre bas dès ${chf(s.minPrice)}, dont ${brands}. Moteur, batterie, poids et prix en CHF.`
-    : `${kw}: ${s.count} modelli a telaio basso da ${chf(s.minPrice)}, tra cui ${brands}. Motore, batteria, peso e prezzi in CHF.`,
+    lang === 'de' ? `${kw}: ${s.count} Modelle ${collection.blurb.de} ab ${chf(s.minPrice)} von ${brands} u.a. Motor, Akku, Gewicht und Preise in CHF im Vergleich.`
+    : lang === 'fr' ? `${kw} : ${s.count} modèles ${collection.blurb.fr} dès ${chf(s.minPrice)}, dont ${brands}. Moteur, batterie, poids et prix en CHF.`
+    : `${kw}: ${s.count} modelli ${collection.blurb.it} da ${chf(s.minPrice)}, tra cui ${brands}. Motore, batteria, peso e prezzi in CHF.`,
   );
   return { kw, title, description, ...s };
 }
