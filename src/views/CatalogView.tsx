@@ -19,6 +19,8 @@ import { ParsedRoute, buildLocalizedUrl } from '../utils/routes';
 import { BRANDS } from '../data/brands';
 import { LandingContent } from '../components/LandingContent';
 import { LANDING_CONTENT, COLLECTIONS } from '../data/collections';
+import { ListingContent } from '../components/ListingContent';
+import { categoryContent } from '../utils/listingContent';
 import { catalogueStats } from '../utils/seoText';
 import { CATEGORY_KEYWORD } from '../utils/seoText';
 import { ProductCard } from '../components/ProductCard';
@@ -475,6 +477,12 @@ export function CatalogView({
       {landingKey && LANDING_CONTENT[landingKey] && (
         <LandingContent contentKey={landingKey} heading={landingHeading || ''} lang={lang} onNavigate={onNavigate} stats={landingStats} />
       )}
+
+      {/* Data-driven overview of the category */}
+      {route.view === 'category' && category && (() => {
+        const block = categoryContent(category, lang);
+        return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} /> : null;
+      })()}
 
       {/* Internal links for collection pages: brands in the collection + categories */}
       {route.view === 'collection' && route.collection && (

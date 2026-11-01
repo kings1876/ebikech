@@ -7,6 +7,8 @@ import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount } from '../utils/
 import { ProductCard } from '../components/ProductCard';
 import { I18N } from '../data/i18n';
 import { CATEGORY_KEYWORD } from '../utils/seoText';
+import { ListingContent } from '../components/ListingContent';
+import { brandContent, brandCategoryContent } from '../utils/listingContent';
 import {
   ChevronRight,
   ShieldCheck,
@@ -197,6 +199,11 @@ export function BrandHubView({
             />
           ))}
         </div>
+
+        {(() => {
+          const block = brandCategoryContent(brand, category, lang);
+          return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} /> : null;
+        })()}
       </div>
     );
   }
@@ -340,6 +347,11 @@ export function BrandHubView({
           ))}
         </div>
       </div>
+
+      {(() => {
+        const block = brandContent(brand, lang);
+        return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} /> : null;
+      })()}
     </div>
   );
 }
