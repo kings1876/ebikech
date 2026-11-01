@@ -357,36 +357,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           ))}
         </div>
 
-        <section className="rounded-3xl border border-slate-200 bg-slate-50 p-6 space-y-3">
-          <h2 className="font-black text-base text-slate-900">
-            {lang === 'fr' ? 'Du guide à la boutique' : lang === 'it' ? 'Dalla guida al negozio' : 'Vom Ratgeber in den Shop'}
-          </h2>
-          <p className="text-sm text-slate-600 leading-relaxed">
-            {lang === 'fr'
-              ? 'Tous les vélos électriques de notre catalogue sont neufs et proviennent de notre propre stock. Les prix en CHF, les caractéristiques techniques et les modèles se trouvent dans les catégories et chez chaque marque ; ces guides vous aident à choisir le modèle qui vous convient.'
-              : lang === 'it'
-              ? 'Tutte le e-bike del nostro catalogo sono nuove e provengono dal nostro magazzino. Prezzi in CHF, dati tecnici e modelli si trovano nelle categorie e presso ogni marchio; queste guide vi aiutano a scegliere il modello adatto.'
-              : 'Alle E-Bikes in unserem Katalog sind Neuware aus eigenem Lager. Preise in CHF, technische Daten und Modelle finden Sie in den Kategorien und bei den Marken; die Ratgeber helfen Ihnen, das passende Modell zu wählen.'}
-          </p>
-          <ul className="flex flex-wrap gap-2">
-            <li>
-              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
-                className="inline-flex px-4 py-2 rounded-full bg-red-600 text-white text-sm font-semibold hover:bg-red-700 cursor-pointer"
-              >
-                {lang === 'fr' ? 'Tous les vélos électriques' : lang === 'it' ? 'Tutte le e-bike' : 'Alle E-Bikes'}
-              </NavLink>
-            </li>
-            {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).map((c) => (
-              <li key={c.id}>
-                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })} onNavigate={onNavigate}
-                  className="inline-flex px-3 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
-                >
-                  {c.name[lang]}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </section>
+        <GuideShopBlock lang={lang} onNavigate={onNavigate} />
       </div>
     );
   }
@@ -432,6 +403,44 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           </NavLink>
         ))}
       </div>
+
+      <GuideShopBlock lang={lang} onNavigate={onNavigate} />
     </div>
+  );
+}
+
+/** Leads from the guides into the shop: a short note plus links to the catalogue and every category. */
+function GuideShopBlock({ lang, onNavigate }: { lang: Language; onNavigate: (path: string) => void }) {
+  return (
+    <section className="rounded-3xl border border-slate-200 bg-slate-50 p-6 space-y-3">
+      <h2 className="font-black text-base text-slate-900">
+        {lang === 'fr' ? 'Du guide à la boutique' : lang === 'it' ? 'Dalla guida al negozio' : 'Vom Ratgeber in den Shop'}
+      </h2>
+      <p className="text-sm text-slate-600 leading-relaxed">
+        {lang === 'fr'
+          ? 'Tous les vélos électriques de notre catalogue sont neufs et proviennent de notre propre stock. Les prix en CHF, les caractéristiques techniques et les modèles se trouvent dans les catégories et chez chaque marque ; ces guides vous aident à choisir le modèle qui vous convient.'
+          : lang === 'it'
+          ? 'Tutte le e-bike del nostro catalogo sono nuove e provengono dal nostro magazzino. Prezzi in CHF, dati tecnici e modelli si trovano nelle categorie e presso ogni marchio; queste guide vi aiutano a scegliere il modello adatto.'
+          : 'Alle E-Bikes in unserem Katalog sind Neuware aus eigenem Lager. Preise in CHF, technische Daten und Modelle finden Sie in den Kategorien und bei den Marken; die Ratgeber helfen Ihnen, das passende Modell zu wählen.'}
+      </p>
+      <ul className="flex flex-wrap gap-2">
+        <li>
+          <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
+            className="inline-flex px-4 py-2 rounded-full bg-red-600 text-white text-sm font-semibold hover:bg-red-700 cursor-pointer"
+          >
+            {lang === 'fr' ? 'Tous les vélos électriques' : lang === 'it' ? 'Tutte le e-bike' : 'Alle E-Bikes'}
+          </NavLink>
+        </li>
+        {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).map((c) => (
+          <li key={c.id}>
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })} onNavigate={onNavigate}
+              className="inline-flex px-3 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
+            >
+              {c.name[lang]}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

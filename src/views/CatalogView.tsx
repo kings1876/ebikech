@@ -474,7 +474,7 @@ export function CatalogView({
       </div>
 
       {/* Plain links to the models that are not on this page, so every model is one click from its listing */}
-      {sortedProducts.length > itemsPerPage && (
+      {(route.view === 'category' || route.view === 'subcategory') && sortedProducts.length > itemsPerPage && (
         <nav aria-label={lang === 'fr' ? 'Tous les modèles' : lang === 'it' ? 'Tutti i modelli' : 'Alle Modelle'} className="rounded-3xl border border-slate-200 bg-white p-6 space-y-3">
           <h2 className="font-black text-base text-slate-900">
             {lang === 'fr' ? `Tous les modèles (${sortedProducts.length})` : lang === 'it' ? `Tutti i modelli (${sortedProducts.length})` : `Alle Modelle (${sortedProducts.length})`}
