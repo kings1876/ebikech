@@ -29,6 +29,7 @@ const RULES: Rule[] = [
   [/\bhinten\b/gi, 'arrière', 'posteriore'],
   [/\bmit\b/gi, 'avec', 'con'],
   [/\bohne\b/gi, 'sans', 'senza'],
+  [/(\d)\s*Z\.(?=[;,)\s]|$)/g, '$1 dents', '$1 denti'],
   [/\bund\b/gi, 'et', 'e'],
 ];
 

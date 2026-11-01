@@ -25,6 +25,7 @@ import {
 } from 'lucide-react';
 import { NavLink } from '../components/NavLink';
 import { describeProduct, localizeSpec } from '../utils/productText';
+import { buildProductContent, familyOf } from '../utils/productContent';
 
 interface ProductDetailViewProps {
   productSlug: string;
@@ -720,6 +721,45 @@ export function ProductDetailView({
           </div>
         )}
       </div>
+
+      {/* Long-form description built from the product data */}
+      <section className="space-y-5 pt-6 border-t border-slate-200 max-w-3xl">
+        <h2 className="text-xl font-black text-slate-900 tracking-tight">
+          {lang === 'fr' ? `À propos du ${product.name}` : lang === 'it' ? `Informazioni su ${product.name}` : `Über das ${product.name}`}
+        </h2>
+        {buildProductContent(product, lang).map((s) => (
+          <div key={s.heading} className="space-y-2">
+            <h3 className="font-bold text-slate-900">{s.heading}</h3>
+            {s.paragraphs.map((para, i) => (
+              <p key={i} className="text-sm text-slate-700 leading-relaxed">{para}</p>
+            ))}
+          </div>
+        ))}
+        {familyOf(product).length > 0 && (
+          <div className="space-y-2">
+            <h3 className="font-bold text-slate-900">
+              {lang === 'fr' ? 'Autres modèles de la série' : lang === 'it' ? 'Altri modelli della serie' : 'Weitere Modelle der Serie'}
+            </h3>
+            <ul className="text-sm space-y-1">
+              {familyOf(product).map((q) => {
+                const qc = CATEGORIES.find((c) => c.id === q.categoryId);
+                return (
+                  <li key={q.id}>
+                    <NavLink
+                      href={buildLocalizedUrl(lang, { lang, view: 'product', category: qc, productSlug: q.slug })}
+                      onNavigate={onNavigate}
+                      className="text-red-700 hover:underline cursor-pointer"
+                    >
+                      {q.name}
+                    </NavLink>{' '}
+                    <span className="text-slate-500">– {q.priceEstimated ? (lang === 'fr' ? 'env. ' : 'ca. ') : ''}CHF {Math.round(q.priceCHF).toLocaleString('de-CH')}</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
+      </section>
 
       {/* Related Models */}
       <div className="space-y-6 pt-6 border-t border-slate-200">
