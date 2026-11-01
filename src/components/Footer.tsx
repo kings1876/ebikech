@@ -8,6 +8,7 @@ import { NavLink } from './NavLink';
 import { COLLECTIONS } from '../data/collections';
 import { SITE_NAME } from '../config/brand';
 import { CONTACT } from '../config/contact';
+import { Mail } from 'lucide-react';
 import { LogoMark } from './Logo';
 
 interface FooterProps {
@@ -34,6 +35,13 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
             {t.portalDesc}
           </p>
+
+          {CONTACT.email && (
+            <a href={`mailto:${CONTACT.email}`} className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-bold text-white hover:border-red-500 transition-colors break-all">
+              <Mail className="w-4 h-4 text-red-400 shrink-0" />
+              {CONTACT.email}
+            </a>
+          )}
 
           <div className="pt-2 text-slate-400 text-[11px]">
             {t.dsgNote}
@@ -160,11 +168,6 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 {lang === 'fr' ? 'À propos' : lang === 'it' ? 'Chi siamo' : 'Über uns'}
               </NavLink>
             </li>
-            {CONTACT.email && (
-              <li>
-                <a href={`mailto:${CONTACT.email}`} className="hover:text-white transition-colors break-all">{CONTACT.email}</a>
-              </li>
-            )}
             <li className="pt-2 border-t border-slate-800">
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}
                 

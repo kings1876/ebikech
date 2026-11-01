@@ -24,9 +24,10 @@ import {
   Truck,
   FolderSync,
   Smile,
-  ShieldCheck,
   Check,
+  Mail,
 } from 'lucide-react';
+import { CONTACT } from '../config/contact';
 import { NavLink } from './NavLink';
 import { LogoMark } from './Logo';
 import { SITE_NAME, WORDMARK } from '../config/brand';
@@ -138,10 +139,12 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="hidden md:inline-flex items-center gap-1 text-slate-400">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-              <span>{t.header.independent}</span>
-            </span>
+            {CONTACT.email && (
+              <a href={`mailto:${CONTACT.email}`} className="hidden sm:inline-flex items-center gap-1.5 py-1 font-semibold text-white hover:text-red-300 transition-colors">
+                <Mail className="w-3.5 h-3.5 text-red-400" />
+                <span>{CONTACT.email}</span>
+              </a>
+            )}
 
             {/* Language Switcher */}
             <div className="flex items-center bg-slate-800 rounded-md p-0.5 border border-slate-700">
