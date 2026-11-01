@@ -127,8 +127,21 @@ export function HomeView({
   return (
     <div className="space-y-16 pb-16">
       {/* 1. Hero Section */}
-      <section className="relative bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white overflow-hidden py-16 sm:py-24 px-4 sm:px-6">
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none" />
+      <section className="relative bg-slate-950 text-white overflow-hidden py-16 sm:py-24 px-4 sm:px-6">
+        {/* Background photo: Alpine pass road (Unsplash licence); dark overlay keeps the text readable */}
+        <img
+          src="/hero-2000.webp"
+          srcSet="/hero-900.webp 900w, /hero-2000.webp 2000w"
+          sizes="100vw"
+          alt=""
+          width={2000}
+          height={1000}
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/55 to-slate-950/25 pointer-events-none" />
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-slate-950/50 to-transparent pointer-events-none" />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
