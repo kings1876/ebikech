@@ -21,7 +21,8 @@ const CATEGORY_ALIAS: Record<string, Partial<Record<Language, string>>> = {
   'e-citybikes': { de: 'E-Bike City' },
   'schnelle-e-bikes': { de: 'E-Bike kaufen 45 km/h, 45 kmh E-Bike', it: 'Biciclette elettriche 45 km/h' },
 };
-const BRAND_ALIAS_DE: Record<string, string> = { 'riese-mueller': 'Riese und Müller' };
+/** Full lead phrase for brands whose searched spelling differs from the display name. */
+const BRAND_LEAD_DE: Record<string, string> = { 'riese-mueller': 'Riese und Müller E-Bike' };
 
 export { SITE_NAME } from '../config/brand';
 import { SITE_NAME } from '../config/brand';
@@ -123,7 +124,7 @@ export function brandSeo(brandId: string, lang: Language) {
     lang,
   );
   const description = fitDescription(
-    lang === 'de' ? `E-Bike ${BRAND_ALIAS_DE[brandId] || name}: ${s.count} Modelle ab ${chf(s.minPrice)}, ${catList}. Preise in CHF, Motor, Akku und technische Daten im Überblick.`
+    lang === 'de' ? `${BRAND_LEAD_DE[brandId] || `E-Bike ${name}`}:${s.count} Modelle ab ${chf(s.minPrice)}, ${catList}. Preise in CHF, Motor, Akku und technische Daten im Überblick.`
     : lang === 'fr' ? `${s.count} vélos électriques ${name} dès ${chf(s.minPrice)} : ${catList}. Prix en CHF, moteur, batterie et fiches techniques.`
     : `${s.count} e-bike ${name} da ${chf(s.minPrice)}: ${catList}. Prezzi in CHF, motore, batteria e dati tecnici.`,
   );
