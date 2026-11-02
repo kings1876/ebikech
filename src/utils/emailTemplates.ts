@@ -69,10 +69,11 @@ export function enquiryNotificationEmail(e: StoredEnquiry) {
   return { subject: `[${kind}] ${e.name}`, text: `${kind} von ${e.name} (${e.email}):\n\n${e.message}`, html: shell({ eyebrow: kind, title: e.name, meta: e.id, body }) };
 }
 
-export function paymentConfirmationNotification(orderNumber: string, note: string, customerEmail: string) {
-  const body = field('Bestellnummer', esc(orderNumber)) + field('Kunde', esc(customerEmail)) + (note ? field('Hinweis', esc(note)) : '') +
-    field('Beleg', 'Der Zahlungsbeleg ist im Anhang.') + button(dashboardUrl(`/admin/orders/${encodeURIComponent(orderNumber)}/`), 'Bestellung öffnen');
-  return { subject: `Zahlungsbestätigung ${orderNumber}`, text: `Der Kunde meldet die Zahlung für ${orderNumber}.`, html: shell({ eyebrow: 'Zahlung gemeldet', title: orderNumber, body }) };
+export function paymentConfirmationNotification(orderNumber: string, note: string, customerEmail: string, txid = '') {
+  const body = field('Bestellnummer', esc(orderNumber)) + field('Kunde', esc(customerEmail)) +
+    (txid ? field('Transaktions-ID', `<span style="font-family:Consolas,Menlo,monospace">${esc(txid)}</span>`) : '') + (note ? field('Hinweis', esc(note)) : '') +
+    (txid ? '' : field('Beleg', 'Der Zahlungsbeleg ist im Anhang.')) + button(dashboardUrl(`/admin/orders/${encodeURIComponent(orderNumber)}/`), 'Bestellung öffnen');
+  return { subject: `Zahlungsbestätigung ${orderNumber}`, text: `Der Kunde meldet die Zahlung für ${orderNumber}.${txid ? ` Transaktions-ID: ${txid}` : ''}`, html: shell({ eyebrow: 'Zahlung gemeldet', title: orderNumber, body }) };
 }
 
 // ---- to the customer -----------------------------------------------------------------------------

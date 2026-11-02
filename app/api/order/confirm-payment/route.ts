@@ -20,18 +20,20 @@ export async function POST(request: Request) {
   const id = form.get('id');
   const file = form.get('file');
   const note = String(form.get('note') ?? '').slice(0, 500);
-  if (!isValidOrderNumber(id) || !(file instanceof File) || !file.size) return Response.json({ ok: false }, { status: 400 });
-  if (file.size > MAX_BYTES || !TYPES.includes(file.type)) return Response.json({ ok: false, error: 'file' }, { status: 400 });
+  const txid = String(form.get('txid') ?? '').replace(/[\r\n]+/g, ' ').trim().slice(0, 200);
+  const hasFile = file instanceof File && file.size > 0;
+  if (!isValidOrderNumber(id) || (!txid && !hasFile)) return Response.json({ ok: false }, { status: 400 });
+  if (hasFile && (file.size > MAX_BYTES || !TYPES.includes(file.type))) return Response.json({ ok: false, error: 'file' }, { status: 400 });
 
   const order = await getOrder(id);
   if (order && order.status === 'pending') return Response.json({ ok: false }, { status: 409 }); // payment details were not sent yet
 
-  const mail = paymentConfirmationNotification(id, note, order?.customerEmail || '');
+  const mail = paymentConfirmationNotification(id, note, order?.customerEmail || '', txid);
   const sent = await sendMail({
     to: notifyAddress('order'),
     ...mail,
     replyTo: order?.customerEmail,
-    attachments: [{ filename: file.name.replace(/[^\w.\-]+/g, '_').slice(0, 80) || 'beleg', content: Buffer.from(await file.arrayBuffer()), contentType: file.type }],
+    attachments: hasFile ? [{ filename: file.name.replace(/[^\w.\-]+/g, '_').slice(0, 80) || 'beleg', content: Buffer.from(await file.arrayBuffer()), contentType: file.type }] : [],
   });
   if (order) await markPaymentConfirmed(id);
   if (!sent.sent && !order) return Response.json({ ok: false, error: 'not-configured' }, { status: 503 });
