@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Language, Product } from '../types';
 import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
@@ -31,6 +32,7 @@ export function ListingContent({ block, lang, onNavigate, showTable = false }: {
     buildLocalizedUrl(lang, { lang, view: 'product', category: CATEGORIES.find((c) => c.id === p.categoryId), productSlug: p.slug });
 
   return (
+    <Suspense fallback={null}>
     <section className="k129" aria-label={block.title}>
       {block.sections.map((s) => (
         <div key={s.heading} className="space-y-2">
@@ -128,5 +130,6 @@ export function ListingContent({ block, lang, onNavigate, showTable = false }: {
         </NavLink>
       )}
     </section>
+    </Suspense>
   );
 }

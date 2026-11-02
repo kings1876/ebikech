@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useTransition } from 'react';
+import { Suspense, useState, useEffect, useTransition } from 'react';
 import { SITE_URL } from './utils/site';
 import { Product, Language } from './types';
 import { ALL_PRODUCTS, provideProductExtras, loadProductExtras, productExtrasLoaded, type ProductExtra } from './data/products';
@@ -353,7 +353,9 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
       )}
 
       {/* Multilingual Swiss Footer */}
-      <Footer currentRoute={route} onNavigate={handleNavigate} />
+      <Suspense fallback={null}>
+        <Footer currentRoute={route} onNavigate={handleNavigate} />
+      </Suspense>
     </div>
   );
 }

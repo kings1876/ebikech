@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Language } from '../types';
 import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
@@ -29,6 +30,7 @@ export function CatalogOverview({ lang, onNavigate }: { lang: Language; onNaviga
         : `Der Katalog umfasst ${ALL_PRODUCTS.length} neue E-Bikes von ${brands.length} Marken in ${cats.length} Kategorien. Die Preise reichen von ${chf(Math.min(...prices))} bis ${chf(Math.max(...prices))}. Jedes Modell ist neu und wird aus unserem eigenen Lager geliefert, bezahlt wird per Banküberweisung.`;
 
   return (
+    <Suspense fallback={null}>
     <section className="k129" aria-label={L.title[lang]}>
       <div className="space-y-2">
         <h2 className="k130">{L.title[lang]}</h2>
@@ -62,5 +64,6 @@ export function CatalogOverview({ lang, onNavigate }: { lang: Language; onNaviga
         </table>
       </div>
     </section>
+    </Suspense>
   );
 }
