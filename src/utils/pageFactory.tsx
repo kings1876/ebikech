@@ -25,7 +25,7 @@ export function makePage(lang: Language) {
     return {
       title: { absolute: seo.title },
       description: seo.description,
-      robots: seo.robots,
+      robots: seo.robots === 'index, follow' ? undefined : seo.robots, // index, follow is the default, no tag needed
       alternates: {
         canonical: seo.canonicalUrl,
         languages: Object.fromEntries(seo.hreflangs.map((h) => [h.lang, h.href])),
