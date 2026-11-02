@@ -398,7 +398,7 @@ export function CatalogView({
                 <ProductCard
                   key={p.id}
                   headingLevel={2}
-                  priority={idx < 2}
+                  priority={idx < 1}
                   product={p}
                   lang={lang}
                   onNavigate={onNavigate}

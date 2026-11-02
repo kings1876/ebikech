@@ -57,14 +57,14 @@ export function CardImage({ images, name, priority = false }: { images: Img[]; n
   if (!first || stage > 2) {
     return <BikeFallback className="w-40 h-28 text-slate-400 drop-shadow-sm" />;
   }
-  const src = stage === 0 ? optimizedImage(first.url, 640) : stage === 1 ? sizedImage(first.url, IMG_CARD) : first.url;
+  const src = stage === 0 ? optimizedImage(first.url, 384) : stage === 1 ? sizedImage(first.url, IMG_CARD) : first.url;
   if (priority && stage > 0) connectTo(src);
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={src}
       srcSet={stage === 0 ? optimizedSrcSet(first.url, OPT_CARD) : undefined}
-      sizes="(min-width: 1280px) 360px, (min-width: 640px) 45vw, calc(100vw - 2rem)"
+      sizes="192px"
       alt={first.alt || name}
       width={320}
       height={224}
@@ -120,7 +120,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
           key={current.url}
           src={useOptimized ? optimizedImage(current.url, 750) : orig[current.url] ? current.url : sizedImage(current.url, IMG_DETAIL)}
           srcSet={useOptimized ? optimizedSrcSet(current.url, OPT_DETAIL) : orig[current.url] ? undefined : [IMG_CARD, 800, IMG_DETAIL].map((w) => `${sizedImage(current.url, w)} ${w}w`).join(", ")}
-          sizes="(min-width: 1024px) 560px, calc(100vw - 2rem)"
+          sizes="(min-width: 1024px) 560px, (min-width: 640px) calc(100vw - 2rem), calc(100vw - 4rem)"
           alt={current.alt || name}
           width={1200}
           height={900}

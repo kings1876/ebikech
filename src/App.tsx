@@ -3,7 +3,7 @@
 import { useState, useEffect, useTransition } from 'react';
 import { SITE_URL } from './utils/site';
 import { Product, Language } from './types';
-import { ALL_PRODUCTS } from './data/products';
+import { ALL_PRODUCTS, provideProductExtras, loadProductExtras, productExtrasLoaded, type ProductExtra } from './data/products';
 import { parseRoute, ParsedRoute, buildLocalizedUrl } from './utils/routes';
 import { resolveSeoMetadata } from './utils/seo';
 import { Header } from './components/Header';
@@ -26,7 +26,10 @@ const BlogView = dynamic(() => import('./views/BlogView').then((m) => m.BlogView
 const FaqView = dynamic(() => import('./views/FaqView').then((m) => m.FaqView));
 const ContactView = dynamic(() => import('./views/ContactView').then((m) => m.ContactView));
 
-export default function App({ initialPath = '/' }: { initialPath?: string }) {
+export default function App({ initialPath = '/', initialExtras }: { initialPath?: string; initialExtras?: Record<string, ProductExtra> }) {
+  // Specs and German texts of the products this page shows (the shared product list leaves them out). Must run before any render reads them.
+  if (initialExtras) provideProductExtras(initialExtras);
+
   // Server renders the requested path; query string is read after hydration to avoid mismatches.
   const [currentPath, setCurrentPath] = useState(initialPath);
   const [currentSearch, setCurrentSearch] = useState('');
@@ -40,6 +43,22 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
   const [orderProduct, setOrderProduct] = useState<Product | null>(null);
 
   const [, startTransition] = useTransition();
+  const [, setExtrasReady] = useState(productExtrasLoaded());
+
+  // Specs and German texts of the other products load once the visitor starts to use the page, and before any navigation or comparison needs them.
+  const withExtras = (then: () => void) => {
+    if (productExtrasLoaded()) then();
+    else loadProductExtras().then(() => { setExtrasReady(true); then(); }, then);
+  };
+  useEffect(() => {
+    const events = ['pointerdown', 'touchstart', 'keydown', 'pointerover'] as const;
+    const warm = () => {
+      events.forEach((e) => window.removeEventListener(e, warm));
+      loadProductExtras().then(() => setExtrasReady(true), () => {});
+    };
+    events.forEach((e) => window.addEventListener(e, warm, { passive: true }));
+    return () => events.forEach((e) => window.removeEventListener(e, warm));
+  }, []);
 
   // Parse structured route
   const route: ParsedRoute = parseRoute(currentPath, currentSearch);
@@ -48,10 +67,10 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
   // Listen to popstate (browser back/forward)
   useEffect(() => {
     const handlePopState = () => {
-      startTransition(() => {
+      withExtras(() => startTransition(() => {
         setCurrentPath(window.location.pathname);
         setCurrentSearch(window.location.search);
-      });
+      }));
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -63,12 +82,14 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
     const safePath = path || '/';
     const safeSearch = search ? `?${search}` : '';
 
-    window.history.pushState(null, '', newUrl);
-    startTransition(() => {
-      setCurrentPath(safePath);
-      setCurrentSearch(safeSearch);
+    withExtras(() => {
+      window.history.pushState(null, '', newUrl);
+      startTransition(() => {
+        setCurrentPath(safePath);
+        setCurrentSearch(safeSearch);
+      });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Dynamic SEO Synchronization into <head>
@@ -149,7 +170,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
   }, [seo]);
 
   // Comparison Handlers
-  const handleToggleCompare = (product: Product) => {
+  const handleToggleCompare = (product: Product) => withExtras(() => {
     setComparedProducts((prev) => {
       const exists = prev.some((p) => p.id === product.id);
       if (exists) {
@@ -161,7 +182,7 @@ export default function App({ initialPath = '/' }: { initialPath?: string }) {
       }
       return [...prev, product];
     });
-  };
+  });
 
   const handleRemoveCompare = (productId: string) => {
     setComparedProducts((prev) => prev.filter((p) => p.id !== productId));

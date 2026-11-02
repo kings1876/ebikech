@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import type { Language } from '../types';
 import App from '../App';
+import { ALL_PRODUCTS } from '../data/products';
+import { PRODUCT_EXTRAS } from '../data/products.server';
 import { parseRoute } from './routes';
 import { resolveSeoMetadata } from './seo';
 import { staticSlugs } from './allRoutes';
@@ -36,7 +38,11 @@ export function makePage(lang: Language) {
   async function Page({ params }: Props) {
     const { slug } = await params;
     const path = pathFor(lang, slug);
-    const seo = resolveSeoMetadata(parseRoute(path), SITE_URL);
+    const route = parseRoute(path);
+    const seo = resolveSeoMetadata(route, SITE_URL);
+    // The browser bundle has no specs or German texts: hand over those of the products this page shows.
+    const ids = route.view === 'product' ? ALL_PRODUCTS.filter((p) => p.slug === route.productSlug).map((p) => p.id) : route.view === 'comparison' ? ALL_PRODUCTS.slice(0, 3).map((p) => p.id) : [];
+    const initialExtras = Object.fromEntries(ids.map((id) => [id, PRODUCT_EXTRAS[id]]));
     const hasSchema = Array.isArray(seo.jsonLd) ? seo.jsonLd.length > 0 : Object.keys(seo.jsonLd).length > 0;
     return (
       <>
@@ -47,7 +53,7 @@ export function makePage(lang: Language) {
             dangerouslySetInnerHTML={{ __html: JSON.stringify(seo.jsonLd).replace(/</g, '\\u003c') }}
           />
         )}
-        <App initialPath={path} />
+        <App initialPath={path} initialExtras={initialExtras} />
       </>
     );
   }
