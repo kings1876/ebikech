@@ -131,6 +131,25 @@ function guideFor(id?: string): BlogPost | undefined {
   return id ? BLOG_POSTS.find((p) => p.id === id) : undefined;
 }
 
+/** Short buying advice built from the battery and weight ranges of the listed models, in the page language. */
+function buyingAdvice(list: Product[], lang: Language, what: string): ListingSection {
+  const wh = list.map((p) => p.batteryWh).filter((n) => n > 0);
+  const kg = list.map((p) => p.weightKg).filter((n): n is number => !!n && n > 0);
+  const range = (a: number[], unit: string) => (a.length ? `${fmt(Math.min(...a), lang)}${Math.min(...a) === Math.max(...a) ? '' : ` – ${fmt(Math.max(...a), lang)}`} ${unit}` : '');
+  const parts = [range(wh, 'Wh'), range(kg, 'kg')];
+  return {
+    heading: L(lang, 'Kaufhilfe', 'Conseils d’achat', 'Consigli per l’acquisto'),
+    paragraphs: [
+      L(
+        lang,
+        `Worauf Sie bei ${what} achten sollten: Die Akkukapazität liegt bei ${parts[0] || 'unterschiedlichen Werten'}${parts[1] ? `, das Gewicht bei ${parts[1]}` : ''}. Mehr Wattstunden bedeuten mehr Reichweite, ein geringeres Gewicht erleichtert Tragen, Verladen und Lagern. Alle Modelle sind neu, stammen aus unserem eigenen Lager und werden per Banküberweisung bezahlt.`,
+        `À quoi faire attention pour ${what} : la capacité de la batterie va de ${parts[0] || 'valeurs variables'}${parts[1] ? `, le poids de ${parts[1]}` : ''}. Plus de wattheures signifie plus d’autonomie, un poids plus faible facilite le transport, le chargement et le rangement. Tous les modèles sont neufs, proviennent de notre propre stock et se paient par virement bancaire.`,
+        `A cosa fare attenzione per ${what}: la capacità della batteria va da ${parts[0] || 'valori diversi'}${parts[1] ? `, il peso da ${parts[1]}` : ''}. Più wattora significano più autonomia, un peso inferiore facilita trasporto, carico e rimessaggio. Tutti i modelli sono nuovi, provengono dal nostro magazzino e si pagano con bonifico bancario.`,
+      ),
+    ],
+  };
+}
+
 export function categoryContent(cat: CategoryDef, lang: Language): ListingBlock | null {
   const list = ALL_PRODUCTS.filter((p) => p.categoryId === cat.id);
   if (list.length < 3) return null;
@@ -199,6 +218,7 @@ export function subcategoryContent(cat: CategoryDef, subId: string, lang: Langua
   if (ms) tech.push(ms);
   tech.push(...techSentence(list, lang));
   if (tech.length) sections.push({ heading: L(lang, 'Technik', 'Technique', 'Tecnica'), paragraphs: tech });
+  sections.push(buyingAdvice(list, lang, sub.name[lang]));
   return { title: sub.name[lang], sections, highlights: highlights(list, lang), families: families(list, 4), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]), products: list };
 }
 
@@ -234,6 +254,7 @@ export function brandContent(brand: BrandDef, lang: Language): ListingBlock | nu
   }
   tech.push(...techSentence(list, lang));
   if (tech.length) sections.push({ heading: L(lang, 'Technik', 'Technique', 'Tecnica'), paragraphs: tech });
+  sections.push(buyingAdvice(list, lang, brand.name));
 
   return { title: brand.name, sections, highlights: highlights(list, lang), families: families(list), guide: guideFor(GUIDE_FOR_BRAND[brand.id]), products: list };
 }
@@ -266,5 +287,6 @@ export function brandCategoryContent(brand: BrandDef, cat: CategoryDef, lang: La
   if (ms) tech.push(ms);
   tech.push(...techSentence(list, lang));
   if (tech.length) sections.push({ heading: L(lang, 'Technik', 'Technique', 'Tecnica'), paragraphs: tech });
+  sections.push(buyingAdvice(list, lang, `${brand.name} ${cat.name[lang]}`));
   return { title: `${brand.name} ${cat.name[lang]}`, sections, highlights: highlights(list, lang), families: families(list, 4), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]), products: list };
 }

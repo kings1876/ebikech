@@ -50,7 +50,7 @@ export function ProductCard({
       : tFilter.diamond;
 
   return (
-    <div className="k150 group">
+    <article className="k150 group">
       {/* Top Badges Bar */}
       <div className="k151">
         <div className="k152">
@@ -151,26 +151,26 @@ export function ProductCard({
           </Heading>
 
           {/* Specifications Pills */}
-          <div className="k169">
-            <div className="k170" title={tCard.torque}>
+          <ul className="k169">
+            <li className="k170" title={tCard.torque}>
               <Zap className="k171" />
               <span className="truncate">{`${product.motorBrand === 'Other' ? (/nicht angegeben/i.test(product.motorModel) ? 'Motor' : product.motorModel.split(' ')[0]) : product.motorBrand}${product.torqueNm ? ` ${product.torqueNm}Nm` : ''}`}</span>
-            </div>
-            <div className="k170" title={tCard.battery}>
+            </li>
+            <li className="k170" title={tCard.battery}>
               <Battery className="k172" />
               <span className="truncate">{`${product.batteryWh} Wh`}</span>
-            </div>
-            <div className="k170" title={tCard.weight}>
+            </li>
+            <li className="k170" title={tCard.weight}>
               <Weight className="k173" />
               <span>{product.weightKg ? `${product.weightKg} kg` : '–'}</span>
-            </div>
-            <div className="k170" title={tCard.frame}>
+            </li>
+            <li className="k170" title={tCard.frame}>
               <span className="k174">◇</span>
               <span className="capitalize truncate">
                 {frameTypeLabel}
               </span>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
 
         {/* Price & Swiss Dealer stock footer */}
@@ -191,6 +191,6 @@ export function ProductCard({
           </NavLink>
         </div>
       </div>
-    </div>
+    </article>
   );
 }

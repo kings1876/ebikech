@@ -49,7 +49,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
         </div>
 
         {/* Col 2: Categories */}
-        <div className="space-y-3">
+        <nav aria-label={t.categoriesTitle} className="space-y-3">
           <div className="k61">
             {t.categoriesTitle}
           </div>
@@ -82,10 +82,10 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
               </NavLink>
             </li>
           </ul>
-        </div>
+        </nav>
 
         {/* Col 3: Brands */}
-        <div className="space-y-3">
+        <nav aria-label={t.brandsTitle} className="space-y-3">
           <div className="k61">
             {t.brandsTitle}
           </div>
@@ -111,10 +111,10 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
               </NavLink>
             </li>
           </ul>
-        </div>
+        </nav>
 
         {/* Col 4: Swiss Guides & Legal */}
-        <div className="space-y-3">
+        <nav aria-label={t.guidesTitle} className="space-y-3">
           <div className="k61">
             {t.guidesTitle}
           </div>
@@ -177,7 +177,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
               </NavLink>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
 
       {/* Bottom Bar: Copyright & Standards */}
