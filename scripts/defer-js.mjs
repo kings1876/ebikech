@@ -6,7 +6,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const ROOT = path.resolve('.next/server/app');
+// On a laptop the prerendered pages sit in .next/server/app; the Vercel build moves them into its output folder.
+const ROOTS = ['.next/server/app', '.vercel/output', '/vercel/output'].map((r) => path.resolve(r)).filter((r) => fs.existsSync(r));
 const MARK = '<!--defer-js-->';
 
 const SCRIPT_TAG = /<script\s+src="(\/_next\/static\/[^"]+\.js)"([^>]*)><\/script>/g;
@@ -26,9 +27,14 @@ function loader(urls) {
   );
 }
 
+// Diagnostics for build environments whose output layout differs from a local build.
+for (const d of ['.next', '.next/server', '.next/server/app', '.vercel', '/vercel/output']) {
+  try { console.log(`defer-js: ${d} -> ${fs.readdirSync(path.resolve(d)).slice(0, 14).join(', ')}`); } catch { console.log(`defer-js: ${d} does not exist`); }
+}
+
 let files = 0;
 let patched = 0;
-(function walk(dir) {
+function walk(dir) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) walk(p);
@@ -51,7 +57,12 @@ let patched = 0;
       patched++;
     }
   }
-})(ROOT);
+}
+for (const root of ROOTS) {
+  const before = files;
+  walk(root);
+  console.log(`defer-js: ${root}: ${files - before} html files`);
+}
 
 console.log(`defer-js: patched ${patched} of ${files} prerendered pages`);
 if (files > 0 && patched === 0) {
