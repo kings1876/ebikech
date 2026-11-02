@@ -192,7 +192,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare, 
         >
           <LogoMark className="k82" />
           <div className="leading-none">
-            <div className="k83">
+            <div className="k755">
               <span>{wordmark.lead}</span>
               <span className="text-red-600 font-semibold">{wordmark.tail}</span>
             </div>

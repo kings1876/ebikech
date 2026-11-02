@@ -372,14 +372,14 @@ export function CatalogView({
             </div>
 
             {/* Sort Selector */}
-            <div className="k101">
-              <ArrowUpDown className="w-3.5 h-3.5 text-slate-400" />
-              <label className="font-semibold text-slate-700">{t.catalog.sortBy}</label>
+            <div className="k101 min-w-0">
+              <ArrowUpDown className="k173" />
+              <label className="k754">{t.catalog.sortBy}</label>
               <select
                 aria-label={t.catalog.sortBy}
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as SortOption)}
-                className="k361"
+                className="k361 min-w-0 max-w-full"
               >
                 <option value="popular">{t.catalog.sortPopular}</option>
                 <option value="trustpilot-score">★ Trustpilot Score ({lang === 'fr' ? 'Avis vérifiés' : lang === 'it' ? 'Recensioni verificate' : 'Verifiziert'})</option>
@@ -431,14 +431,9 @@ export function CatalogView({
             <div className="k368">
               <div className="text-slate-500">
                 {t.catalog.page} <strong className="text-slate-900">{safeCurrentPage}</strong> {t.catalog.of} {totalPages}
-                {safeCurrentPage > 1 && (
-                  <span className="k369">
-                    {t.catalog.pageNotice}
-                  </span>
-                )}
               </div>
 
-              <div className="flex items-center gap-1.5">
+              <div className="k753">
                 <button
                   onClick={() => handlePageChange(safeCurrentPage - 1)}
                   disabled={safeCurrentPage === 1}
@@ -447,7 +442,14 @@ export function CatalogView({
                   {t.catalog.prev}
                 </button>
 
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((num) => (
+                {/* first, last and the pages around the current one; the rest collapses into "…" so the row never gets wider than the page */}
+                {Array.from({ length: totalPages }, (_, i) => i + 1)
+                  .filter((n) => n === 1 || n === totalPages || Math.abs(n - safeCurrentPage) <= 1)
+                  .flatMap((n, i, all) => (i > 0 && n - all[i - 1] > 1 ? [-n, n] : [n]))
+                  .map((num) =>
+                    num < 0 ? (
+                      <span key={`gap${num}`} aria-hidden="true" className="px-1 text-slate-400">…</span>
+                    ) : (
                   <button
                     key={num}
                     onClick={() => handlePageChange(num)}
@@ -459,7 +461,8 @@ export function CatalogView({
                   >
                     {num}
                   </button>
-                ))}
+                    ),
+                  )}
 
                 <button
                   onClick={() => handlePageChange(safeCurrentPage + 1)}

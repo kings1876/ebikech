@@ -752,4 +752,7 @@
 .k750 { @apply flex items-start gap-2 text-slate-600 pt-1; }
 .k751 { @apply w-full rounded-full bg-red-600 px-5 py-3 text-sm font-bold text-white min-h-11 hover:bg-red-700 disabled:opacity-60; }
 .k752 { @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-red-500; }
+.k753 { @apply flex flex-wrap items-center justify-center gap-1.5 max-w-full; }
+.k754 { @apply font-semibold text-slate-700 shrink-0; }
+.k755 { @apply text-xl max-[359px]:text-base font-black tracking-tight text-slate-900 flex items-center gap-1.5; }
 }
