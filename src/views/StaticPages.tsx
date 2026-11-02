@@ -2,6 +2,8 @@ import { Language } from '../types';
 import { ALL_PRODUCTS } from '../data/products';
 import { BRANDS } from '../data/brands';
 import { CONTACT } from '../config/contact';
+import { CRYPTO } from '../config/reply';
+import { isCryptoEnabled } from '../lib/order';
 
 interface StaticPagesProps {
   view: 'about' | 'legal';
@@ -161,6 +163,14 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
               'Tous les vélos électriques sont neufs et proviennent de notre propre stock. Après votre commande, vous recevez par e-mail les coordonnées bancaires pour le virement. Pour toute question sur la commande ou le paiement, utilisez la page de contact ou écrivez-nous directement par e-mail.',
               'Tutte le e-bike sono nuove e provengono dal nostro magazzino. Dopo l’ordine ricevete via e-mail i dati per il bonifico bancario. Per domande sull’ordine o sul pagamento usate la pagina dei contatti o scriveteci direttamente via e-mail.',
             )}
+            {isCryptoEnabled() &&
+              ' ' +
+                pick(
+                  lang,
+                  `Alternativ können Sie in Kryptowährung bezahlen (USDT, BTC oder ETH, ${CRYPTO.discountPct} % Rabatt): Direkt nach der Bestellung erscheint die Zahlungsseite mit Adresse, Netzwerk, Betrag und QR-Code.`,
+                  `Vous pouvez aussi payer en cryptomonnaie (USDT, BTC ou ETH, ${CRYPTO.discountPct} % de remise) : juste après la commande, la page de paiement affiche l’adresse, le réseau, le montant et un code QR.`,
+                  `In alternativa potete pagare in criptovaluta (USDT, BTC o ETH, sconto del ${CRYPTO.discountPct}%): subito dopo l’ordine compare la pagina di pagamento con indirizzo, rete, importo e codice QR.`,
+                )}
           </p>
         </section>
 

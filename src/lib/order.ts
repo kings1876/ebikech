@@ -1,5 +1,5 @@
 import { Language } from '../types';
-import { REPLY } from '../config/reply';
+import { CRYPTO, REPLY } from '../config/reply';
 
 // ---- order numbers --------------------------------------------------------------------------------
 /** Order number minted in the browser before submit, so the same number appears in the email and the dashboard. */
@@ -100,3 +100,27 @@ export const escapeHtml = (s: unknown) =>
 
 export const paymentTermsHtml = (ref: string, lang: Language) =>
   paymentTermsLines(ref, lang).map((l) => `<li style="margin:0 0 6px 0">${escapeHtml(l)}</li>`).join('');
+
+// ---- crypto payments ------------------------------------------------------------------------------
+
+/** Coins that have a receiving address configured. */
+export const activeCoins = () => CRYPTO.coins.filter((c) => c.address.trim());
+export const isCryptoEnabled = () => activeCoins().length > 0;
+export const findCoin = (id: unknown) => activeCoins().find((c) => c.id === id) || null;
+/** Order total after the crypto discount, rounded to whole francs. */
+export const cryptoTotal = (subtotal: number) => Math.round(subtotal * (1 - CRYPTO.discountPct / 100));
+
+/** Once a crypto address is configured, copy that names the payment method also names crypto. No effect while crypto is off. */
+export function withCryptoMention(text: string, lang: Language): string {
+  if (!isCryptoEnabled()) return text;
+  if (lang === 'fr') return text.replace(/par virement bancaire/g, 'par virement bancaire ou en cryptomonnaie');
+  if (lang === 'it') return text.replace(/(con|tramite) bonifico bancario/g, '$1 bonifico bancario o in criptovaluta');
+  return text.replace(/per Banküberweisung/g, 'per Banküberweisung oder Kryptowährung');
+}
+
+/** "CHF 2'699 mit 10 % Krypto-Rabatt": the price a customer pays in crypto, or null while crypto is off or there is no discount. */
+export function cryptoPriceLine(priceCHF: number, lang: Language): string | null {
+  if (!isCryptoEnabled() || CRYPTO.discountPct <= 0) return null;
+  const n = `CHF ${cryptoTotal(Math.round(priceCHF)).toLocaleString('de-CH')}`;
+  return lang === 'fr' ? `${n} avec ${CRYPTO.discountPct} % de remise crypto` : lang === 'it' ? `${n} con sconto crypto del ${CRYPTO.discountPct}%` : `${n} mit ${CRYPTO.discountPct} % Krypto-Rabatt`;
+}

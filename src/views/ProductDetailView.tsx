@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { cryptoPriceLine, isCryptoEnabled } from '../lib/order';
 import { ProductGallery } from '../components/ProductImages';
 import { Product, Language, ReviewPlatform } from '../types';
 import { BRANDS } from '../data/brands';
@@ -243,6 +244,7 @@ export function ProductDetailView({
                 <span className="k536">
                   {product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
                 </span>
+                {cryptoPriceLine(product.priceCHF, lang) && <span className="k707">{cryptoPriceLine(product.priceCHF, lang)}</span>}
               </div>
               <div className="text-right">
                 <span className="k537">
@@ -298,7 +300,7 @@ export function ProductDetailView({
                 className="k545"
               >
                 <Coins className="w-4 h-4" />
-                <span>{lang === 'fr' ? 'Commander par virement bancaire' : lang === 'it' ? 'Ordina con bonifico bancario' : 'Per Banküberweisung bestellen'}</span>
+                <span>{isCryptoEnabled() ? (lang === 'fr' ? 'Commander maintenant' : lang === 'it' ? 'Ordina ora' : 'Jetzt bestellen') : lang === 'fr' ? 'Commander par virement bancaire' : lang === 'it' ? 'Ordina con bonifico bancario' : 'Per Banküberweisung bestellen'}</span>
               </button>
 
               <button

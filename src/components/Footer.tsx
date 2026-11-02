@@ -10,6 +10,7 @@ import { SITE_NAME } from '../config/brand';
 import { CONTACT } from '../config/contact';
 import { Mail } from './icons';
 import { LogoMark } from './Logo';
+import { withCryptoMention } from '../lib/order';
 
 interface FooterProps {
   currentRoute: ParsedRoute;
@@ -44,7 +45,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
           )}
 
           <div className="k60">
-            {t.dsgNote}
+            {withCryptoMention(t.dsgNote, lang)}
           </div>
         </div>
 

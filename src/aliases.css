@@ -699,4 +699,12 @@
 .k697 { @apply inline-flex items-center gap-1 px-3.5 py-2 rounded-lg text-[15px] font-semibold whitespace-nowrap transition-colors cursor-pointer; }
 .k698 { @apply text-red-700 bg-red-50; }
 .k699 { @apply text-slate-700 hover:text-slate-950 hover:bg-slate-100; }
+.k700 { @apply flex items-center justify-between font-semibold text-slate-800; }
+.k701 { @apply rounded-lg border px-3 py-2 font-semibold min-h-11; }
+.k702 { @apply border-slate-900 bg-slate-900 text-white; }
+.k703 { @apply border-slate-300 bg-white text-slate-700; }
+.k704 { @apply rounded-lg border px-4 py-2 font-bold min-h-11; }
+.k705 { @apply border-red-600 bg-red-50 text-red-700; }
+.k706 { @apply text-[11px] font-semibold text-emerald-700; }
+.k707 { @apply text-xs font-semibold text-emerald-700 block; }
 }

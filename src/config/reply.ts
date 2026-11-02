@@ -55,3 +55,17 @@ export const REPLY = {
 };
 
 export const REPLY_SITE_NAME = SITE_NAME;
+
+/**
+ * Crypto payments (USDT / BTC / ETH). The shop's receiving addresses are public by nature and are entered here by the owner.
+ * A coin with an empty address is not offered anywhere (checkout, emails, copy), so nothing crypto-related is shown until one is set.
+ */
+export const CRYPTO = {
+  /** Percentage taken off the order total when the customer pays in crypto. Set 0 for no discount. */
+  discountPct: 10,
+  coins: [
+    { id: 'crypto-usdt', symbol: 'USDT', label: 'USDT', network: 'Tron (TRC-20)', address: '' },
+    { id: 'crypto-btc', symbol: 'BTC', label: 'Bitcoin (BTC)', network: 'Bitcoin mainnet', address: '' },
+    { id: 'crypto-eth', symbol: 'ETH', label: 'Ethereum (ETH)', network: 'Ethereum mainnet (ERC-20)', address: '' },
+  ],
+};

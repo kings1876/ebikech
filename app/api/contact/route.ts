@@ -4,7 +4,7 @@ import { Language } from '../../../src/types';
 import { REPLY } from '../../../src/config/reply';
 import { SITE_URL } from '../../../src/utils/site';
 import { buildLocalizedUrl } from '../../../src/utils/routes';
-import { isValidOrderNumber, makeEnquiryId } from '../../../src/lib/order';
+import { cryptoTotal, findCoin, isValidOrderNumber, makeEnquiryId } from '../../../src/lib/order';
 import { getOrder, saveEnquiry, saveOrder, isStoreConfigured, StoredEnquiry, StoredOrder } from '../../../src/lib/stores';
 import { isMailerConfigured, notifyAddress, sendMailBatch } from '../../../src/lib/mailer';
 import { enquiryNotificationEmail, orderConfirmationEmail, orderNotificationEmail } from '../../../src/utils/emailTemplates';
@@ -63,6 +63,9 @@ export async function POST(request: Request) {
 
     if (isStoreConfigured() && (await getOrder(orderNumber))) return Response.json({ ok: false, error: 'duplicate' }, { status: 409 });
 
+    // the method is checked against the configured coins; the amount is always recomputed here
+    const subtotal = items.reduce((s, i) => s + i.lineTotal, 0);
+    const coin = findCoin(body?.paymentMethod);
     const order: StoredOrder = {
       orderNumber,
       customerName: name,
@@ -70,11 +73,11 @@ export async function POST(request: Request) {
       customerPhone: phone,
       address,
       items,
-      amountDue: items.reduce((s, i) => s + i.lineTotal, 0),
-      paymentMethod: REPLY.paymentMethods[0].id,
+      amountDue: coin ? cryptoTotal(subtotal) : subtotal,
+      paymentMethod: coin ? coin.id : REPLY.paymentMethods[0].id,
       notes: text(body?.notes, 1000) || undefined,
       lang,
-      status: 'pending',
+      status: coin ? 'payment-sent' : 'pending', // crypto: the payment page itself carries the details
       channel: 'email',
       createdAt: now,
     };

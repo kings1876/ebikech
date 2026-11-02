@@ -1,4 +1,5 @@
 import { FormEvent, useState } from 'react';
+import { withCryptoMention } from '../lib/order';
 import { Language } from '../types';
 import { CONTACT, hasContactDetails } from '../config/contact';
 import { buildLocalizedUrl } from '../utils/routes';
@@ -223,7 +224,7 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
 
       <section className="k400">
         <h2 className="k269">{L.tipsTitle[lang]}</h2>
-        <p className="k401">{L.tips[lang]}</p>
+        <p className="k401">{withCryptoMention(L.tips[lang], lang)}</p>
       </section>
     </div>
   );

@@ -3,6 +3,7 @@ import { ALL_PRODUCTS } from '../data/products';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { BLOG_POSTS, BlogPost } from '../data/blog';
+import { withCryptoMention } from '../lib/order';
 
 export interface ListingSection { heading: string; paragraphs: string[] }
 export interface Highlight { label: string; product: Product }
@@ -140,12 +141,14 @@ function buyingAdvice(list: Product[], lang: Language, what: string): ListingSec
   return {
     heading: L(lang, 'Kaufhilfe', 'Conseils d’achat', 'Consigli per l’acquisto'),
     paragraphs: [
+      withCryptoMention(
       L(
         lang,
         `Worauf Sie bei ${what} achten sollten: Die Akkukapazität liegt bei ${parts[0] || 'unterschiedlichen Werten'}${parts[1] ? `, das Gewicht bei ${parts[1]}` : ''}. Mehr Wattstunden bedeuten mehr Reichweite, ein geringeres Gewicht erleichtert Tragen, Verladen und Lagern. Alle Modelle sind neu, stammen aus unserem eigenen Lager und werden per Banküberweisung bezahlt.`,
         `À quoi faire attention pour ${what} : la capacité de la batterie va de ${parts[0] || 'valeurs variables'}${parts[1] ? `, le poids de ${parts[1]}` : ''}. Plus de wattheures signifie plus d’autonomie, un poids plus faible facilite le transport, le chargement et le rangement. Tous les modèles sont neufs, proviennent de notre propre stock et se paient par virement bancaire.`,
         `A cosa fare attenzione per ${what}: la capacità della batteria va da ${parts[0] || 'valori diversi'}${parts[1] ? `, il peso da ${parts[1]}` : ''}. Più wattora significano più autonomia, un peso inferiore facilita trasporto, carico e rimessaggio. Tutti i modelli sono nuovi, provengono dal nostro magazzino e si pagano con bonifico bancario.`,
       ),
+      lang),
     ],
   };
 }

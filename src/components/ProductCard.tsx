@@ -1,4 +1,5 @@
 import { Product, Language } from '../types';
+import { cryptoPriceLine } from '../lib/order';
 import { CardImage, CardGallery } from './ProductImages';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
@@ -180,6 +181,7 @@ export function ProductCard({
               {`${product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF ${product.priceCHF.toLocaleString('de-CH')}.-`}
             </div>
             <div className="k177">{`UVP · ${product.year}`}</div>
+            {cryptoPriceLine(product.priceCHF, lang) && <div className="k706">{cryptoPriceLine(product.priceCHF, lang)}</div>}
           </div>
 
           <NavLink href={productUrl} onNavigate={onNavigate}

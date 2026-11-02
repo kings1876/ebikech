@@ -2,7 +2,7 @@ import { Language } from '../types';
 import { REPLY } from '../config/reply';
 import { SITE_NAME } from '../config/brand';
 import { SITE_URL } from './site';
-import { escapeHtml as esc, money, paymentMethodParts, paymentTermsHtml, paymentTermsLines } from '../lib/order';
+import { escapeHtml as esc, findCoin, money, paymentMethodParts, paymentTermsHtml, paymentTermsLines } from '../lib/order';
 import type { StoredEnquiry, StoredOrder } from '../lib/stores';
 
 // Light emails only: white card, dark header band, brand colour as accent. Dark email bodies get force-inverted by Gmail/Zoho.
@@ -48,6 +48,7 @@ export function orderNotificationEmail(o: StoredOrder) {
   const body =
     field('Bestellnummer', esc(o.orderNumber)) +
     field('Betrag', `<strong>${esc(money(o.amountDue))}</strong>`) +
+    field('Zahlungsart', esc(findCoin(o.paymentMethod)?.label ? `Krypto: ${findCoin(o.paymentMethod)?.label} (Rabatt abgezogen)` : 'Banküberweisung')) +
     field('Kunde', `${esc(o.customerName)}<br>${esc(o.customerEmail)}<br>${esc(o.customerPhone || '')}`) +
     (o.address ? field('Adresse', esc(o.address).replace(/\n/g, '<br>')) : '') +
     field('Artikel', itemsHtml(o)) +
@@ -76,8 +77,24 @@ export function paymentConfirmationNotification(orderNumber: string, note: strin
 
 // ---- to the customer -----------------------------------------------------------------------------
 /** Sent for every order request. Deliberately contains no bank details: those follow only after we reply from the portal. */
+const CRYPTO_MAIL = {
+  de: { next: 'Jetzt bezahlen', text: 'Sie haben Kryptowährung gewählt. Auf der Zahlungsseite finden Sie unsere Adresse, das Netzwerk und den Betrag samt QR-Code.', button: 'Zur Zahlungsseite' },
+  fr: { next: 'Payer maintenant', text: 'Vous avez choisi la cryptomonnaie. La page de paiement indique notre adresse, le réseau et le montant, avec code QR.', button: 'Page de paiement' },
+  it: { next: 'Paga ora', text: 'Avete scelto la criptovaluta. La pagina di pagamento mostra il nostro indirizzo, la rete e l’importo, con codice QR.', button: 'Pagina di pagamento' },
+} as const;
+
 export function orderConfirmationEmail(o: StoredOrder) {
   const t = T[o.lang];
+  if (findCoin(o.paymentMethod)) {
+    const c = CRYPTO_MAIL[o.lang];
+    const payUrl = `${SITE_URL}/order/pay/?id=${encodeURIComponent(o.orderNumber)}&lang=${o.lang}`;
+    const cb =
+      `<p style="margin:0 0 16px 0">${t.hi} ${esc(o.customerName)},</p>` +
+      field(t.order, esc(o.orderNumber)) + field(t.amount, `<strong>${esc(money(o.amountDue))}</strong>`) + field(t.items, itemsHtml(o)) +
+      divider + `<div style="font-weight:700;margin:0 0 6px 0">${c.next}</div><div>${c.text}</div>` + button(payUrl, c.button) +
+      `<p style="margin:18px 0 0 0;color:${C.soft};font-size:13px">${t.question}</p>`;
+    return { subject: `${t.thanks} ${o.orderNumber}`, text: `${t.thanks} ${o.orderNumber}\n\n${c.text}\n${payUrl}`, html: shell({ eyebrow: SITE_NAME[o.lang], title: t.thanks, meta: o.orderNumber, body: cb }) };
+  }
   const body =
     `<p style="margin:0 0 16px 0">${t.hi} ${esc(o.customerName)},</p>` +
     field(t.order, esc(o.orderNumber)) + field(t.amount, `<strong>${esc(money(o.amountDue))}</strong>`) + field(t.items, itemsHtml(o)) +

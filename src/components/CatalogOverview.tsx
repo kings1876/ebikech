@@ -4,6 +4,7 @@ import { BRANDS } from '../data/brands';
 import { ALL_PRODUCTS } from '../data/products';
 import { buildLocalizedUrl } from '../utils/routes';
 import { NavLink } from './NavLink';
+import { withCryptoMention } from '../lib/order';
 
 const L = {
   title: { de: 'Das Sortiment im Überblick', fr: 'L’assortiment en un coup d’œil', it: 'L’assortimento in sintesi' },
@@ -28,11 +29,12 @@ export function CatalogOverview({ lang, onNavigate }: { lang: Language; onNaviga
         ? `Il catalogo comprende ${ALL_PRODUCTS.length} e-bike nuove di ${brands.length} marchi, suddivise in ${cats.length} categorie. I prezzi vanno da ${chf(Math.min(...prices))} a ${chf(Math.max(...prices))}. Ogni modello è nuovo e viene consegnato dal nostro magazzino, il pagamento avviene tramite bonifico bancario.`
         : `Der Katalog umfasst ${ALL_PRODUCTS.length} neue E-Bikes von ${brands.length} Marken in ${cats.length} Kategorien. Die Preise reichen von ${chf(Math.min(...prices))} bis ${chf(Math.max(...prices))}. Jedes Modell ist neu und wird aus unserem eigenen Lager geliefert, bezahlt wird per Banküberweisung.`;
 
+  const shownIntro = withCryptoMention(intro, lang);
   return (
     <section className="k129" aria-label={L.title[lang]}>
       <div className="space-y-2">
         <h2 className="k130">{L.title[lang]}</h2>
-        <p className="k131">{intro}</p>
+        <p className="k131">{shownIntro}</p>
         <p className="k131">{`${L.brands[lang]}: ${brands.map((b) => b.name).join(', ')}.`}</p>
       </div>
       <div className="overflow-x-auto">
