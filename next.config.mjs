@@ -1,5 +1,11 @@
+import path from 'node:path';
+
 const nextConfig = {
   trailingSlash: true,
+  // On a hosting platform (Vercel sets NEXT_ADAPTER_PATH) the platform's adapter takes the prerendered pages away before
+  // any post-build step can touch them, so this wrapper defers the framework scripts first (scripts/defer-js.mjs) and
+  // then forwards to the platform's adapter. Locally the same step runs as `node scripts/defer-js.mjs` after the build.
+  ...(process.env.NEXT_ADAPTER_PATH ? { adapterPath: path.resolve('scripts/defer-adapter.mjs') } : {}),
   // Lead product images are resized by Vercel and cached for a year (keeps the monthly transformation count low)
   images: {
     formats: ['image/webp'],
