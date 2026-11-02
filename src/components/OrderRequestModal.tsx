@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Product, Language } from '../types';
-import { CheckCircle2, X } from 'lucide-react';
+import { CheckCircle2, X } from './icons';
 import { makeOrderNumber } from '../lib/order';
 import { REPLY } from '../config/reply';
 
@@ -58,60 +58,60 @@ export function OrderRequestModal({ product, onClose, lang }: { product: Product
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4 overflow-y-auto" role="dialog" aria-modal="true" aria-label={t.title}>
-      <div className="bg-white rounded-3xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 relative my-auto">
-        <button onClick={onClose} aria-label={t.close} className="absolute top-3 right-3 p-2.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-full cursor-pointer">
+    <div className="k136" role="dialog" aria-modal="true" aria-label={t.title}>
+      <div className="k137">
+        <button onClick={onClose} aria-label={t.close} className="k138">
           <X className="w-5 h-5" />
         </button>
 
         {state === 'done' ? (
           <div className="py-6 text-center space-y-3">
-            <div className="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
+            <div className="k139">
               <CheckCircle2 className="w-8 h-8" />
             </div>
-            <h3 className="text-xl font-black text-slate-900">{t.okTitle}</h3>
-            <p className="text-xs text-slate-600 max-w-sm mx-auto leading-relaxed">{t.okText}</p>
-            <p className="text-xs text-slate-500">{t.ref}: <span className="font-mono font-bold text-slate-900">{orderNumber}</span></p>
-            <button onClick={onClose} className="px-6 py-2.5 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-slate-800 cursor-pointer">{t.close}</button>
+            <h3 className="k125">{t.okTitle}</h3>
+            <p className="k140">{t.okText}</p>
+            <p className="text-xs text-slate-500">{t.ref}: <span className="k141">{orderNumber}</span></p>
+            <button onClick={onClose} className="k142">{t.close}</button>
           </div>
         ) : (
           <form onSubmit={submit} className="space-y-3 text-xs">
-            <div className="text-red-700 font-bold text-xs uppercase tracking-wider">{t.badge}</div>
-            <h3 className="text-xl font-black text-slate-900 tracking-tight">{t.title}</h3>
+            <div className="k143">{t.badge}</div>
+            <h3 className="k144">{t.title}</h3>
             <p className="text-slate-600 leading-relaxed">{t.intro}</p>
-            <div className="rounded-xl bg-slate-50 border border-slate-200 p-3">
-              <div className="font-bold text-slate-900 text-sm">{product.name}</div>
+            <div className="k145">
+              <div className="k146">{product.name}</div>
               <div className="text-slate-600">{t.price}: {product.priceEstimated ? (lang === 'fr' ? 'env. ' : 'ca. ') : ''}CHF {Math.round(product.priceCHF).toLocaleString('de-CH')}</div>
             </div>
             <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
             <div className="grid sm:grid-cols-2 gap-3">
               <div>
-                <label htmlFor="or-name" className="font-bold text-slate-700 block mb-1">{t.name}</label>
+                <label htmlFor="or-name" className="k147">{t.name}</label>
                 <input id="or-name" name="name" required autoComplete="name" className={field} />
               </div>
               <div>
-                <label htmlFor="or-phone" className="font-bold text-slate-700 block mb-1">{t.phone}</label>
+                <label htmlFor="or-phone" className="k147">{t.phone}</label>
                 <input id="or-phone" name="phone" type="tel" required autoComplete="tel" className={field} />
               </div>
             </div>
             <div>
-              <label htmlFor="or-email" className="font-bold text-slate-700 block mb-1">{t.email}</label>
+              <label htmlFor="or-email" className="k147">{t.email}</label>
               <input id="or-email" name="email" type="email" required autoComplete="email" className={field} />
             </div>
             <div>
-              <label htmlFor="or-address" className="font-bold text-slate-700 block mb-1">{t.address}</label>
+              <label htmlFor="or-address" className="k147">{t.address}</label>
               <textarea id="or-address" name="address" required minLength={8} rows={2} autoComplete="street-address" className={field} />
             </div>
             <div>
-              <label htmlFor="or-notes" className="font-bold text-slate-700 block mb-1">{t.notes}</label>
+              <label htmlFor="or-notes" className="k147">{t.notes}</label>
               <textarea id="or-notes" name="notes" rows={2} className={field} />
             </div>
-            <label className="flex items-start gap-2 text-slate-600 leading-snug">
+            <label className="k148">
               <input name="consent" type="checkbox" required className="mt-0.5" />
               <span>{t.consent}</span>
             </label>
             {state === 'error' && <p className="text-red-700 font-semibold" role="alert">{message}</p>}
-            <button type="submit" disabled={state === 'sending'} className="w-full py-3 bg-red-600 hover:bg-red-700 disabled:opacity-60 text-white font-bold rounded-xl shadow-md shadow-red-600/30 cursor-pointer text-sm">
+            <button type="submit" disabled={state === 'sending'} className="k149">
               {state === 'sending' ? t.sending : t.send}
             </button>
           </form>

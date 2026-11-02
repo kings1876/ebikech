@@ -14,12 +14,12 @@ const LINKS = [
 export function AdminNav({ onSignOut }: { onSignOut: () => void }) {
   const path = usePathname() || '';
   return (
-    <header className="border-b border-slate-800 bg-slate-900">
-      <div className="max-w-6xl mx-auto px-4 h-14 flex items-center gap-5">
-        <Link href="/admin/" className="font-black text-sm tracking-tight" style={{ color: REPLY.brand.primary }}>
+    <header className="k236">
+      <div className="k237">
+        <Link href="/admin/" className="k238" style={{ color: REPLY.brand.primary }}>
           {SITE_NAME.de}
         </Link>
-        <nav className="flex items-center gap-1 text-sm" aria-label="Admin">
+        <nav className="k239" aria-label="Admin">
           {LINKS.map((l) => {
             const active = l.href === '/admin/' ? path === '/admin/' || path === '/admin' : path.startsWith(l.href.slice(0, -1));
             return (
@@ -29,7 +29,7 @@ export function AdminNav({ onSignOut }: { onSignOut: () => void }) {
             );
           })}
         </nav>
-        <button onClick={onSignOut} className="ml-auto text-xs font-semibold text-slate-400 hover:text-white cursor-pointer">
+        <button onClick={onSignOut} className="k240">
           Abmelden
         </button>
       </div>

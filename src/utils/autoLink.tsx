@@ -79,7 +79,7 @@ export function linkify(text: string, lang: Language, ctx: LinkContext, onNaviga
     ctx.count++;
     if (m.index > last) parts.push(text.slice(last, m.index));
     parts.push(
-      <NavLink key={`${m.index}-${href}`} href={href} onNavigate={onNavigate} className="inline font-semibold text-red-700 underline decoration-red-300 underline-offset-2 hover:decoration-red-600 cursor-pointer">
+      <NavLink key={`${m.index}-${href}`} href={href} onNavigate={onNavigate} className="k247">
         {m[0]}
       </NavLink>,
     );

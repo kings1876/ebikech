@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { SeoMeta } from '../types';
 import { ParsedRoute } from '../utils/routes';
-import { ShieldCheck, ShieldAlert, Code2, Globe, Link2, Copy, Check, ChevronDown, ChevronUp } from 'lucide-react';
+import { ShieldCheck, ShieldAlert, Code2, Globe, Link2, Copy, Check, ChevronDown, ChevronUp } from './icons';
 
 interface SeoInspectorProps {
   seo: SeoMeta;
@@ -23,7 +23,7 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
   };
 
   return (
-    <div className="fixed bottom-4 left-4 z-50 font-sans">
+    <div className="k189">
       {!isOpen ? (
         <button
           onClick={() => setIsOpen(true)}
@@ -36,17 +36,17 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
         >
           {isNoindex ? <ShieldAlert className="w-3.5 h-3.5 text-amber-400" /> : <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />}
           <span>SEO: <strong className="uppercase">{isNoindex ? 'NOINDEX' : 'INDEX'}</strong></span>
-          <span className="text-[10px] px-1.5 py-0.5 rounded bg-black/40 font-mono">
+          <span className="k190">
             {route.lang.toUpperCase()}
           </span>
         </button>
       ) : (
-        <div className="w-[92vw] sm:w-[520px] max-h-[85vh] bg-slate-900 text-slate-100 rounded-2xl shadow-2xl border border-slate-700/80 flex flex-col overflow-hidden backdrop-blur-xl animate-in fade-in slide-in-from-bottom-4 duration-200">
+        <div className="k191 animate-in fade-in slide-in-from-bottom-4">
           {/* Header */}
-          <div className="px-4 py-3 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+          <div className="k192">
             <div className="flex items-center gap-2">
               <div className={`w-2.5 h-2.5 rounded-full ${isNoindex ? 'bg-amber-500 animate-pulse' : 'bg-emerald-500'}`} />
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-200">
+              <h3 className="k193">
                 SEO Live Inspector (CH Multilingual)
               </h3>
             </div>
@@ -58,7 +58,7 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
               </span>
               <button
                 onClick={() => setIsOpen(false)}
-                className="text-slate-400 hover:text-white p-1 rounded hover:bg-slate-800 transition-colors"
+                className="k194"
               >
                 <ChevronDown className="w-4 h-4" />
               </button>
@@ -66,7 +66,7 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
           </div>
 
           {/* Navigation Tabs */}
-          <div className="flex border-b border-slate-800 bg-slate-950/60 text-xs px-2">
+          <div className="k195">
             <button
               onClick={() => setTab('meta')}
               className={`px-3 py-2 border-b-2 font-medium transition-colors ${
@@ -94,14 +94,14 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
           </div>
 
           {/* Tab Content */}
-          <div className="p-4 overflow-y-auto space-y-4 text-xs">
+          <div className="k196">
             {tab === 'meta' && (
               <div className="space-y-3">
                 {/* Indexing Reason */}
-                <div className="p-2.5 rounded-lg bg-slate-800/80 border border-slate-700">
-                  <div className="font-semibold text-slate-300 mb-1 flex items-center justify-between">
+                <div className="k197">
+                  <div className="k198">
                     <span>Index Rule Evaluation:</span>
-                    <span className="font-mono text-[10px] text-slate-400">View: {route.view}</span>
+                    <span className="k199">View: {route.view}</span>
                   </div>
                   <p className="text-slate-300">
                     {isNoindex ? (
@@ -122,15 +122,15 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
 
                 {/* Canonical */}
                 <div>
-                  <div className="flex items-center gap-1.5 text-slate-400 mb-1 font-semibold">
+                  <div className="k200">
                     <Link2 className="w-3.5 h-3.5 text-red-400" />
                     <span>Canonical Tag (&lt;link rel="canonical"&gt;)</span>
                   </div>
-                  <div className="p-2 bg-black/40 rounded border border-slate-800 font-mono text-[11px] text-red-300 break-all select-all">
+                  <div className="k201">
                     {seo.canonicalUrl}
                   </div>
                   {route.hasFacets && (
-                    <div className="mt-1 text-[11px] text-slate-400">
+                    <div className="k202">
                       ℹ️ Canonical self-cleans facet queries to point directly to the primary category URL.
                     </div>
                   )}
@@ -138,33 +138,33 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
 
                 {/* Title & Description */}
                 <div>
-                  <div className="flex items-center justify-between text-slate-400 mb-1">
+                  <div className="k203">
                     <span className="font-semibold">Title ({seo.title.length} chars)</span>
                     <span className={seo.title.length <= 60 ? 'text-emerald-400' : 'text-amber-400'}>
                       {seo.title.length <= 60 ? 'Optimal length' : 'May truncate in SERP'}
                     </span>
                   </div>
-                  <div className="p-2 bg-slate-800/60 rounded border border-slate-700/60 text-slate-200">
+                  <div className="k204">
                     {seo.title}
                   </div>
                 </div>
 
                 <div>
-                  <div className="flex items-center justify-between text-slate-400 mb-1">
+                  <div className="k203">
                     <span className="font-semibold">Description ({seo.description.length} chars)</span>
                     <span className={seo.description.length <= 160 ? 'text-emerald-400' : 'text-amber-400'}>
                       {seo.description.length <= 160 ? 'Optimal (120-160)' : 'Longer than 160'}
                     </span>
                   </div>
-                  <div className="p-2 bg-slate-800/60 rounded border border-slate-700/60 text-slate-300">
+                  <div className="k205">
                     {seo.description}
                   </div>
                 </div>
 
                 {/* Breadcrumbs */}
                 <div>
-                  <div className="font-semibold text-slate-400 mb-1">Breadcrumb Trail:</div>
-                  <div className="flex flex-wrap gap-1 items-center font-mono text-[11px] text-slate-300 bg-black/30 p-2 rounded border border-slate-800">
+                  <div className="k206">Breadcrumb Trail:</div>
+                  <div className="k207">
                     {seo.breadcrumbs.map((b, i) => (
                       <span key={i} className="flex items-center gap-1">
                         {i > 0 && <span className="text-slate-600">/</span>}
@@ -181,7 +181,7 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
             {tab === 'hreflang' && (
               <div className="space-y-3">
                 <div className="text-slate-300">
-                  <div className="flex items-center gap-1.5 text-slate-300 font-semibold mb-1">
+                  <div className="k208">
                     <Globe className="w-3.5 h-3.5 text-blue-400" />
                     <span>Multilingual Alternate Hreflang Tags</span>
                   </div>
@@ -192,31 +192,31 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
 
                 <div className="space-y-2">
                   {seo.hreflangs.map((hl) => (
-                    <div key={hl.lang} className="p-2 bg-slate-800/80 rounded border border-slate-700 flex flex-col gap-1">
-                      <div className="flex items-center justify-between">
-                        <span className="font-mono font-bold text-red-400">{hl.lang}</span>
+                    <div key={hl.lang} className="k209">
+                      <div className="k210">
+                        <span className="k211">{hl.lang}</span>
                         {hl.lang === 'x-default' && (
-                          <span className="text-[10px] bg-red-950 text-red-300 px-1.5 py-0.5 rounded border border-red-700">
+                          <span className="k212">
                             Global Fallback
                           </span>
                         )}
                         {hl.lang === `de-CH` && route.lang === 'de' && (
-                          <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-700">
+                          <span className="k213">
                             Current
                           </span>
                         )}
                         {hl.lang === `fr-CH` && route.lang === 'fr' && (
-                          <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-700">
+                          <span className="k213">
                             Current
                           </span>
                         )}
                         {hl.lang === `it-CH` && route.lang === 'it' && (
-                          <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-700">
+                          <span className="k213">
                             Current
                           </span>
                         )}
                       </div>
-                      <div className="font-mono text-[10px] text-slate-300 break-all select-all">
+                      <div className="k214">
                         &lt;link rel="alternate" hreflang="{hl.lang}" href="{hl.href}" /&gt;
                       </div>
                     </div>
@@ -227,20 +227,20 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
 
             {tab === 'jsonld' && (
               <div className="space-y-3">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1.5 text-slate-300 font-semibold">
+                <div className="k210">
+                  <div className="k215">
                     <Code2 className="w-3.5 h-3.5 text-emerald-400" />
                     <span>Schema.org Structured Data (JSON-LD)</span>
                   </div>
                   <button
                     onClick={copyJsonLd}
-                    className="flex items-center gap-1 px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] transition-colors"
+                    className="k216"
                   >
                     {copied ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
                     <span>{copied ? 'Copied' : 'Copy JSON'}</span>
                   </button>
                 </div>
-                <pre className="p-3 bg-black/60 rounded-lg border border-slate-800 font-mono text-[10px] text-emerald-300 overflow-x-auto max-h-[300px] leading-relaxed">
+                <pre className="k217">
                   {JSON.stringify(seo.jsonLd, null, 2)}
                 </pre>
               </div>
@@ -248,7 +248,7 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
           </div>
 
           {/* Footer Info */}
-          <div className="px-4 py-2.5 bg-slate-950 border-t border-slate-800 flex items-center justify-between text-[10px] text-slate-400">
+          <div className="k218">
             <span>🇨🇭 VeloSchweiz SEO Audit Tool</span>
             <span>URL: {currentUrl}</span>
           </div>

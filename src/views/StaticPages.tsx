@@ -18,15 +18,15 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
     const brandList = brandNames.join(', ');
 
     return (
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-10">
-        <div className="border-b border-slate-200 pb-6 space-y-2">
-          <div className="text-red-600 font-bold text-xs uppercase tracking-wider">
+      <div className="k608">
+        <div className="k285">
+          <div className="k275">
             {pick(lang, 'Über uns', 'À propos', 'Chi siamo')}
           </div>
-          <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+          <h1 className="k276">
             {pick(lang, 'E-Bikes für die Schweiz', 'Vélos électriques pour la Suisse', 'E-bike per la Svizzera')}
           </h1>
-          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+          <p className="k416">
             {pick(
               lang,
               'Neue E-Bikes bekannter Hersteller mit Preisen in Schweizer Franken, technischen Daten und Bildern – auf Deutsch, Französisch und Italienisch.',
@@ -36,9 +36,9 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
           </p>
         </div>
 
-        <div className="prose prose-slate max-w-none text-xs sm:text-sm leading-relaxed text-slate-700 space-y-6">
+        <div className="k609 prose prose-slate">
           <section className="space-y-3">
-            <h2 className="text-xl font-bold text-slate-900">{pick(lang, 'Unser Angebot', 'Notre offre', 'La nostra offerta')}</h2>
+            <h2 className="k256">{pick(lang, 'Unser Angebot', 'Notre offre', 'La nostra offerta')}</h2>
             <p>
               {pick(
                 lang,
@@ -57,13 +57,13 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
             </p>
           </section>
 
-          <section className="bg-slate-50 p-6 rounded-3xl border border-slate-200 space-y-3">
-            <h3 className="text-lg font-black text-slate-900">
+          <section className="k610">
+            <h3 className="k130">
               {pick(lang, 'Was Sie hier finden', 'Ce que vous trouverez ici', 'Cosa trovi qui')}
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+            <div className="k611">
               <div className="space-y-1">
-                <strong className="block text-slate-900 font-bold">
+                <strong className="k612">
                   {pick(lang, '1. Preise in CHF', '1. Prix en CHF', '1. Prezzi in CHF')}
                 </strong>
                 <p className="text-slate-500">
@@ -76,7 +76,7 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
                 </p>
               </div>
               <div className="space-y-1">
-                <strong className="block text-slate-900 font-bold">
+                <strong className="k612">
                   {pick(lang, '2. Dreisprachig (DE, FR, IT)', '2. Trilingue (DE, FR, IT)', '2. Trilingue (DE, FR, IT)')}
                 </strong>
                 <p className="text-slate-500">
@@ -89,7 +89,7 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
                 </p>
               </div>
               <div className="space-y-1">
-                <strong className="block text-slate-900 font-bold">
+                <strong className="k612">
                   {pick(lang, '3. Technische Daten', '3. Données techniques', '3. Dati tecnici')}
                 </strong>
                 <p className="text-slate-500">
@@ -111,19 +111,19 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
   // Legal / Impressum View — operator details come from src/config/contact.ts (placeholders until filled in)
   const a = CONTACT.address;
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-10">
-      <div className="border-b border-slate-200 pb-6 space-y-2">
-        <div className="text-red-600 font-bold text-xs uppercase tracking-wider">
+    <div className="k608">
+      <div className="k285">
+        <div className="k275">
           {pick(lang, 'Rechtliches', 'Aspects juridiques', 'Note legali')}
         </div>
-        <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+        <h1 className="k276">
           {pick(lang, 'Impressum & Datenschutz', 'Mentions légales & protection des données', 'Colophon & protezione dei dati')}
         </h1>
       </div>
 
-      <div className="prose prose-slate max-w-none text-xs sm:text-sm leading-relaxed text-slate-700 space-y-6">
+      <div className="k609 prose prose-slate">
         <section className="space-y-2">
-          <h2 className="text-base font-bold text-slate-900">
+          <h2 className="k365">
             {pick(lang, 'Impressum & Betreiber', 'Éditeur', 'Editore')}
           </h2>
           <p>
@@ -137,7 +137,7 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
         </section>
 
         <section className="space-y-2">
-          <h2 className="text-base font-bold text-slate-900">
+          <h2 className="k365">
             {pick(lang, 'Datenschutz', 'Protection des données', 'Protezione dei dati')}
           </h2>
           <p>
@@ -151,7 +151,7 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
         </section>
 
         <section className="space-y-2">
-          <h2 className="text-base font-bold text-slate-900">
+          <h2 className="k365">
             {pick(lang, 'Bestellung & Zahlung', 'Commande et paiement', 'Ordine e pagamento')}
           </h2>
           <p>
@@ -165,7 +165,7 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
         </section>
 
         <section className="space-y-2">
-          <h2 className="text-base font-bold text-slate-900">
+          <h2 className="k365">
             {pick(lang, 'Haftungsausschluss für Preise & Angaben', 'Clause de non-responsabilité pour les prix et données', 'Disclaimer per prezzi e dati')}
           </h2>
           <p>

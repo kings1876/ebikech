@@ -55,7 +55,7 @@ export function CardImage({ images, name, priority = false }: { images: Img[]; n
   const [stage, setStage] = useState(0);
   const first = images?.[0];
   if (!first || stage > 2) {
-    return <BikeFallback className="w-40 h-28 text-slate-400 drop-shadow-sm" />;
+    return <BikeFallback className="k179" />;
   }
   const src = stage === 0 ? optimizedImage(first.url, 384) : stage === 1 ? sizedImage(first.url, IMG_CARD) : first.url;
   if (priority && stage > 0) connectTo(src);
@@ -94,7 +94,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
 
   if (!current) {
     return (
-      <div className="w-72 h-48 sm:w-96 sm:h-64 flex items-center justify-center text-slate-800 py-6">
+      <div className="k180">
         <BikeFallback className="w-full h-full drop-shadow-md" />
       </div>
     );
@@ -129,7 +129,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
           decoding="async"
           referrerPolicy="no-referrer"
           onError={() => (useOptimized ? setOptFailed((o) => ({ ...o, [current.url]: true })) : failImg(current.url))}
-          className="max-w-full max-h-full object-contain"
+          className="k181"
         />
         {list.length > 1 && (
           <>
@@ -137,7 +137,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
               type="button"
               onClick={() => go(-1)}
               aria-label={gt.prev}
-              className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 border border-slate-200 shadow-sm text-slate-700 hover:bg-white cursor-pointer"
+              className="k182"
             >
               ‹
             </button>
@@ -145,11 +145,11 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
               type="button"
               onClick={() => go(1)}
               aria-label={gt.next}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 border border-slate-200 shadow-sm text-slate-700 hover:bg-white cursor-pointer"
+              className="k183"
             >
               ›
             </button>
-            <span className="absolute bottom-2 right-3 text-[11px] font-mono bg-slate-900/70 text-white px-2 py-0.5 rounded-full">
+            <span className="k184">
               {Math.min(index, list.length - 1) + 1} / {list.length}
             </span>
           </>
@@ -157,7 +157,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
       </div>
 
       {list.length > 1 && (
-        <ul className="mt-3 grid grid-cols-4 sm:grid-cols-6 gap-2" aria-label={gt.gallery}>
+        <ul className="k185" aria-label={gt.gallery}>
           {list.map((img, i) => (
             <li key={img.url}>
               <button
@@ -204,7 +204,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
   const idx = Math.min(i, Math.max(0, list.length - 1));
 
   if (!list.length) {
-    return <BikeFallback className="w-40 h-28 text-slate-400 drop-shadow-sm" />;
+    return <BikeFallback className="k179" />;
   }
 
   const preload = () => {
@@ -222,7 +222,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
 
   return (
     <div
-      className="relative w-full h-full group/gal"
+      className="k186 group/gal"
       role="group"
       aria-roledescription="carousel"
       aria-label={name}
@@ -279,7 +279,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
         <>
           <button type="button" aria-label={gt.prev} onClick={(e) => { e.stopPropagation(); go(-1); }} className={arrow + ' left-0'}>‹</button>
           <button type="button" aria-label={gt.next} onClick={(e) => { e.stopPropagation(); go(1); }} className={arrow + ' right-0'}>›</button>
-          <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-1.5">
+          <div className="k187">
             {list.map((im, n) => (
               <button
                 key={im.url}
@@ -287,7 +287,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
                 aria-label={`${gt.image} ${n + 1}`}
                 aria-current={n === idx}
                 onClick={(e) => { e.stopPropagation(); setI(n); }}
-                className="h-6 min-w-6 flex items-center justify-center cursor-pointer"
+                className="k188"
               >
                 <span className={`block h-1.5 rounded-full transition-all ${n === idx ? 'w-4 bg-red-600' : 'w-1.5 bg-slate-400'}`} />
               </button>

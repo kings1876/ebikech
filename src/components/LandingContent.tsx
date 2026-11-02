@@ -3,7 +3,7 @@ import { LANDING_CONTENT } from '../data/collections';
 import { BLOG_POSTS } from '../data/blog';
 import { buildLocalizedUrl } from '../utils/routes';
 import { NavLink } from './NavLink';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from './icons';
 
 interface LandingContentProps {
   contentKey: string;
@@ -30,9 +30,9 @@ export function LandingContent({ contentKey, heading, lang, onNavigate, stats }:
   const guide = BLOG_POSTS.find((p) => p.id === content.guideId);
 
   return (
-    <section className="border-t border-slate-200 pt-8 grid gap-8 lg:grid-cols-5">
-      <div className="lg:col-span-3 space-y-3 text-sm text-slate-700 leading-relaxed">
-        <h2 className="text-xl font-black text-slate-900">{heading}</h2>
+    <section className="k123">
+      <div className="k124">
+        <h2 className="k125">{heading}</h2>
         {content.intro[lang].map((p, i) => (
           <p key={i}>{fill(p)}</p>
         ))}
@@ -40,19 +40,19 @@ export function LandingContent({ contentKey, heading, lang, onNavigate, stats }:
           <NavLink
             href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: guide })}
             onNavigate={onNavigate}
-            className="inline-flex items-center gap-1.5 text-sm font-bold text-red-600 hover:text-red-700 cursor-pointer"
+            className="k126"
           >
             {L.guide[lang]}: {guide.title[lang]} <ArrowRight className="w-4 h-4" />
           </NavLink>
         )}
       </div>
       <div className="lg:col-span-2 space-y-4">
-        <h2 className="text-xl font-black text-slate-900">{L.faq[lang]}</h2>
+        <h2 className="k125">{L.faq[lang]}</h2>
         <dl className="space-y-4">
           {content.faq[lang].map((f) => (
             <div key={f.q}>
-              <dt className="text-sm font-bold text-slate-900">{f.q}</dt>
-              <dd className="text-sm text-slate-600 leading-relaxed mt-1">{f.a}</dd>
+              <dt className="k127">{f.q}</dt>
+              <dd className="k128">{f.a}</dd>
             </div>
           ))}
         </dl>

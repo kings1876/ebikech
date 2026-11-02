@@ -33,7 +33,7 @@ import {
   X,
   ShieldAlert,
   Info,
-} from 'lucide-react';
+} from '../components/icons';
 import { NavLink } from '../components/NavLink';
 
 interface CatalogViewProps {
@@ -255,13 +255,13 @@ export function CatalogView({
   const landingHeading = route.view === 'collection' ? route.collection?.name[lang] : categoryKeyword || category?.name[lang];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-6">
+    <div className="k352">
       {/* Category Header & Breadcrumb Info */}
-      <div className="border-b border-slate-200 pb-6 space-y-2">
-        <div className="flex items-center gap-2 text-xs text-slate-500">
+      <div className="k285">
+        <div className="k294">
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
             
-            className="hover:text-red-600 transition-colors cursor-pointer"
+            className="k295"
           >
             {t.header.catalogue}
           </NavLink>
@@ -292,20 +292,20 @@ export function CatalogView({
           )}
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="k297">
           <div>
-            <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+            <h1 className="k298">
               {headerTitle}
             </h1>
             {category && (
-              <p className="text-xs sm:text-sm text-slate-600 max-w-2xl mt-1 leading-relaxed">
+              <p className="k353">
                 {category.description[lang]}
               </p>
             )}
           </div>
 
-          <div className="flex items-center gap-3 self-start sm:self-center shrink-0">
-            <span className="text-xs font-mono font-bold text-red-700 bg-red-50 border border-red-200 px-3 py-1 rounded-full">
+          <div className="k354">
+            <span className="k355">
               {filteredProducts.length} {t.catalog.modelsFound}
             </span>
           </div>
@@ -342,9 +342,9 @@ export function CatalogView({
       </div>
 
       {/* Main Listing Layout: Filters Sidebar + Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+      <div className="k356">
         {/* Desktop Sidebar */}
-        <div className="hidden lg:block lg:col-span-1 sticky top-24">
+        <div className="k357">
           <FilterSidebar
             filters={filters}
             onChange={handleFilterChange}
@@ -356,29 +356,29 @@ export function CatalogView({
         {/* Products Grid & Toolbar */}
         <div className="lg:col-span-3 space-y-5">
           {/* Toolbar: Mobile Filter Button + Sort Selector */}
-          <div className="bg-white p-3 rounded-2xl border border-slate-200 flex items-center justify-between gap-3 text-xs">
+          <div className="k358">
             {/* Mobile Filter Toggle Button */}
             <button
               onClick={() => setMobileFilterOpen(true)}
-              className="lg:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 text-slate-800 font-bold hover:bg-slate-200 cursor-pointer"
+              className="k359"
             >
               <Filter className="w-3.5 h-3.5 text-red-600" />
               <span>{t.catalog.filterButton} ({Object.keys(filters).length})</span>
             </button>
 
-            <div className="text-slate-500 font-medium hidden sm:block">
+            <div className="k360">
               {t.catalog.showingCount} {paginatedProducts.length} {t.catalog.of} {filteredProducts.length} {t.header.models}
             </div>
 
             {/* Sort Selector */}
-            <div className="flex items-center gap-2 ml-auto">
+            <div className="k101">
               <ArrowUpDown className="w-3.5 h-3.5 text-slate-400" />
               <label className="font-semibold text-slate-700">{t.catalog.sortBy}</label>
               <select
                 aria-label={t.catalog.sortBy}
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as SortOption)}
-                className="bg-slate-50 border border-slate-200 rounded-lg py-1 px-2.5 font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
+                className="k361"
               >
                 <option value="popular">{t.catalog.sortPopular}</option>
                 <option value="trustpilot-score">★ Trustpilot Score ({lang === 'fr' ? 'Avis vérifiés' : lang === 'it' ? 'Recensioni verificate' : 'Verifiziert'})</option>
@@ -393,7 +393,7 @@ export function CatalogView({
 
           {/* Product Cards Grid */}
           {paginatedProducts.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+            <div className="k362">
               {paginatedProducts.map((p, idx) => (
                 <ProductCard
                   key={p.id}
@@ -408,17 +408,17 @@ export function CatalogView({
               ))}
             </div>
           ) : (
-            <div className="bg-white rounded-3xl p-12 text-center border border-slate-200 space-y-3">
-              <div className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center text-slate-400 mx-auto">
+            <div className="k363">
+              <div className="k364">
                 <SlidersHorizontal className="w-6 h-6" />
               </div>
-              <h2 className="text-base font-bold text-slate-900">{t.catalog.noResultsTitle}</h2>
-              <p className="text-xs text-slate-500 max-w-md mx-auto">
+              <h2 className="k365">{t.catalog.noResultsTitle}</h2>
+              <p className="k366">
                 {t.catalog.noResultsDesc}
               </p>
               <button
                 onClick={() => handleFilterChange({})}
-                className="px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold hover:bg-red-700 transition-colors cursor-pointer"
+                className="k367"
               >
                 {t.catalog.resetFilters}
               </button>
@@ -427,11 +427,11 @@ export function CatalogView({
 
           {/* Pagination */}
           {totalPages > 1 && (
-            <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-200 text-xs">
+            <div className="k368">
               <div className="text-slate-500">
                 {t.catalog.page} <strong className="text-slate-900">{safeCurrentPage}</strong> {t.catalog.of} {totalPages}
                 {safeCurrentPage > 1 && (
-                  <span className="ml-2 text-amber-700 font-medium">
+                  <span className="k369">
                     {t.catalog.pageNotice}
                   </span>
                 )}
@@ -441,7 +441,7 @@ export function CatalogView({
                 <button
                   onClick={() => handlePageChange(safeCurrentPage - 1)}
                   disabled={safeCurrentPage === 1}
-                  className="px-3 py-1.5 rounded-lg border border-slate-200 font-semibold text-slate-700 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 cursor-pointer"
+                  className="k370"
                 >
                   {t.catalog.prev}
                 </button>
@@ -463,7 +463,7 @@ export function CatalogView({
                 <button
                   onClick={() => handlePageChange(safeCurrentPage + 1)}
                   disabled={safeCurrentPage === totalPages}
-                  className="px-3 py-1.5 rounded-lg border border-slate-200 font-semibold text-slate-700 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 cursor-pointer"
+                  className="k370"
                 >
                   {t.catalog.next}
                 </button>
@@ -475,17 +475,17 @@ export function CatalogView({
 
       {/* Plain links to the models that are not on this page, so every model is one click from its listing */}
       {(route.view === 'category' || route.view === 'subcategory') && sortedProducts.length > itemsPerPage && (
-        <nav aria-label={lang === 'fr' ? 'Tous les modèles' : lang === 'it' ? 'Tutti i modelli' : 'Alle Modelle'} className="rounded-3xl border border-slate-200 bg-white p-6 space-y-3">
-          <h2 className="font-black text-base text-slate-900">
+        <nav aria-label={lang === 'fr' ? 'Tous les modèles' : lang === 'it' ? 'Tutti i modelli' : 'Alle Modelle'} className="k371">
+          <h2 className="k372">
             {lang === 'fr' ? `Tous les modèles (${sortedProducts.length})` : lang === 'it' ? `Tutti i modelli (${sortedProducts.length})` : `Alle Modelle (${sortedProducts.length})`}
           </h2>
-          <ul className="columns-1 sm:columns-2 xl:columns-3 gap-x-6 text-sm text-slate-700">
+          <ul className="k373">
             {sortedProducts.filter((p) => !paginatedProducts.includes(p)).map((p) => {
               const cat = CATEGORIES.find((c) => c.id === p.categoryId);
               if (!cat) return null;
               return (
                 <li key={p.id} className="break-inside-avoid py-0.5">
-                  <NavLink href={buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: p.slug })} onNavigate={onNavigate} className="hover:text-red-600 hover:underline cursor-pointer">
+                  <NavLink href={buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: p.slug })} onNavigate={onNavigate} className="k374">
                     {p.name}
                   </NavLink>
                 </li>
@@ -508,9 +508,9 @@ export function CatalogView({
 
       {/* Internal links for collection pages: brands in the collection + categories */}
       {route.view === 'collection' && route.collection && (
-        <nav className="border-t border-slate-200 pt-8 grid gap-8 sm:grid-cols-2" aria-label={route.collection.name[lang]}>
+        <nav className="k375" aria-label={route.collection.name[lang]}>
           <div>
-            <h2 className="text-sm font-black text-slate-900 mb-3">
+            <h2 className="k376">
               {lang === 'fr' ? 'Marques' : lang === 'it' ? 'Marchi' : 'Marken'}
             </h2>
             <ul className="flex flex-wrap gap-2">
@@ -522,7 +522,7 @@ export function CatalogView({
                     <NavLink
                       href={buildLocalizedUrl(lang, { lang, view: 'brand', brand: b })}
                       onNavigate={onNavigate}
-                      className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                      className="k377"
                     >
                       {b.name} ({n})
                     </NavLink>
@@ -531,7 +531,7 @@ export function CatalogView({
             </ul>
           </div>
           <div>
-            <h2 className="text-sm font-black text-slate-900 mb-3">
+            <h2 className="k376">
               {lang === 'fr' ? 'Catégories' : lang === 'it' ? 'Categorie' : 'Kategorien'}
             </h2>
             <ul className="flex flex-wrap gap-2">
@@ -540,7 +540,7 @@ export function CatalogView({
                   <NavLink
                     href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })}
                     onNavigate={onNavigate}
-                    className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                    className="k377"
                   >
                     {c.name[lang]} ({baseCategoryProducts.filter((p) => p.categoryId === c.id).length})
                   </NavLink>
@@ -553,9 +553,9 @@ export function CatalogView({
 
       {/* Internal links: brands in this category + other categories (real anchors for crawlers and users) */}
       {route.view === 'category' && category && (
-        <nav className="border-t border-slate-200 pt-8 grid gap-8 sm:grid-cols-2" aria-label={categoryKeyword}>
+        <nav className="k375" aria-label={categoryKeyword}>
           <div>
-            <h2 className="text-sm font-black text-slate-900 mb-3">
+            <h2 className="k376">
               {lang === 'fr' ? `Marques – ${categoryKeyword}` : lang === 'it' ? `Marchi – ${categoryKeyword}` : `Marken – ${categoryKeyword}`}
             </h2>
             <ul className="flex flex-wrap gap-2">
@@ -567,7 +567,7 @@ export function CatalogView({
                     <NavLink
                       href={n >= 3 ? buildLocalizedUrl(lang, { lang, view: 'brand-category', brand: b, category }) : buildLocalizedUrl(lang, { lang, view: 'brand', brand: b })}
                       onNavigate={onNavigate}
-                      className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                      className="k377"
                     >
                       {b.name} ({n})
                     </NavLink>
@@ -576,7 +576,7 @@ export function CatalogView({
             </ul>
           </div>
           <div>
-            <h2 className="text-sm font-black text-slate-900 mb-3">
+            <h2 className="k376">
               {lang === 'fr' ? 'Autres catégories' : lang === 'it' ? 'Altre categorie' : 'Weitere Kategorien'}
             </h2>
             <ul className="flex flex-wrap gap-2">
@@ -585,7 +585,7 @@ export function CatalogView({
                   <NavLink
                     href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })}
                     onNavigate={onNavigate}
-                    className="px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+                    className="k377"
                   >
                     {c.name[lang]}
                   </NavLink>
@@ -596,7 +596,7 @@ export function CatalogView({
                   <NavLink
                     href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: col })}
                     onNavigate={onNavigate}
-                    className="px-3 py-1.5 rounded-full bg-red-50 hover:bg-red-100 text-xs font-bold text-red-700 cursor-pointer"
+                    className="k378"
                   >
                     {col.name[lang]}
                   </NavLink>
@@ -609,13 +609,13 @@ export function CatalogView({
 
       {/* Mobile Filters Slide-over / Modal */}
       {mobileFilterOpen && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex justify-end">
-          <div className="w-full max-w-sm bg-white h-full overflow-y-auto p-4 space-y-4">
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 className="font-bold text-sm text-slate-900">{t.filter.title}</h3>
+        <div className="k379">
+          <div className="k380">
+            <div className="k381">
+              <h3 className="k43">{t.filter.title}</h3>
               <button
                 onClick={() => setMobileFilterOpen(false)}
-                className="p-1 rounded-lg text-slate-400 hover:text-slate-900"
+                className="k382"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -628,7 +628,7 @@ export function CatalogView({
             />
             <button
               onClick={() => setMobileFilterOpen(false)}
-              className="w-full py-3 bg-red-600 text-white font-bold rounded-xl text-xs"
+              className="k383"
             >
               {t.catalog.modelsFound} ({filteredProducts.length})
             </button>

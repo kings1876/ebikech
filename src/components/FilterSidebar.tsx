@@ -10,7 +10,7 @@ import {
   Language,
 } from '../types';
 import { I18N } from '../data/i18n';
-import { RotateCcw, Filter, ShieldAlert, Check } from 'lucide-react';
+import { RotateCcw, Filter, ShieldAlert, Check } from './icons';
 import { ALL_PRODUCTS } from '../data/products';
 
 interface FilterSidebarProps {
@@ -98,12 +98,12 @@ export function FilterSidebar({
   };
 
   return (
-    <aside className="w-full bg-white rounded-2xl border border-slate-200/90 p-4 space-y-6">
+    <aside className="k41">
       {/* Top Header & Reset */}
-      <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+      <div className="k42">
         <div className="flex items-center gap-2">
           <Filter className="w-4 h-4 text-red-600" />
-          <h2 className="font-bold text-sm text-slate-900">
+          <h2 className="k43">
             {t.title}
           </h2>
         </div>
@@ -111,7 +111,7 @@ export function FilterSidebar({
         {hasAnyFilter && (
           <button
             onClick={handleReset}
-            className="flex items-center gap-1 text-[11px] font-semibold text-red-600 hover:text-red-700 bg-red-50 hover:bg-red-100 px-2 py-1 rounded-md transition-colors cursor-pointer"
+            className="k44"
           >
             <RotateCcw className="w-3 h-3" />
             <span>{t.reset}</span>
@@ -121,8 +121,8 @@ export function FilterSidebar({
 
       {/* SEO Facet Notice */}
       {hasAnyFilter && (
-        <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200/80 text-[11px] text-amber-900 flex items-start gap-2">
-          <ShieldAlert className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+        <div className="k45">
+          <ShieldAlert className="k46" />
           <div>
             <strong className="block font-semibold">{t.seoNoticeTitle}</strong>
             {t.seoNoticeDesc}
@@ -132,7 +132,7 @@ export function FilterSidebar({
 
       {/* 1. Speed Class */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.speedClassTitle}
         </label>
         <div className="grid grid-cols-2 gap-1.5">
@@ -163,7 +163,7 @@ export function FilterSidebar({
 
       {/* 2. Motor Brand */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.motorTitle}
         </label>
         <div className="space-y-1">
@@ -172,13 +172,13 @@ export function FilterSidebar({
             return (
               <label
                 key={m.id}
-                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-slate-50 cursor-pointer text-xs text-slate-700"
+                className="k48"
               >
                 <input
                   type="checkbox"
                   checked={checked}
                   onChange={() => onChange({ ...filters, motor: toggleArrayItem(filters.motor, m.id) })}
-                  className="rounded text-red-600 focus:ring-red-500 w-3.5 h-3.5"
+                  className="k49"
                 />
                 <span className={checked ? 'font-semibold text-slate-900' : ''}>{m.label}</span>
               </label>
@@ -189,7 +189,7 @@ export function FilterSidebar({
 
       {/* 3. Battery Capacity */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.batteryTitle}
         </label>
         <div className="space-y-1">
@@ -198,13 +198,13 @@ export function FilterSidebar({
             return (
               <label
                 key={b.id}
-                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-slate-50 cursor-pointer text-xs text-slate-700"
+                className="k48"
               >
                 <input
                   type="checkbox"
                   checked={checked}
                   onChange={() => onChange({ ...filters, batteryWh: toggleArrayItem(filters.batteryWh, b.id) })}
-                  className="rounded text-red-600 focus:ring-red-500 w-3.5 h-3.5"
+                  className="k49"
                 />
                 <span className={checked ? 'font-semibold text-slate-900' : ''}>{b.label}</span>
               </label>
@@ -215,7 +215,7 @@ export function FilterSidebar({
 
       {/* 4. Price in CHF */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.priceTitle}
         </label>
         <div className="space-y-1">
@@ -224,13 +224,13 @@ export function FilterSidebar({
             return (
               <label
                 key={p.id}
-                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-slate-50 cursor-pointer text-xs text-slate-700"
+                className="k48"
               >
                 <input
                   type="checkbox"
                   checked={checked}
                   onChange={() => onChange({ ...filters, price: toggleArrayItem(filters.price, p.id) })}
-                  className="rounded text-red-600 focus:ring-red-500 w-3.5 h-3.5"
+                  className="k49"
                 />
                 <span className={checked ? 'font-semibold text-slate-900' : ''}>{p.label}</span>
               </label>
@@ -241,7 +241,7 @@ export function FilterSidebar({
 
       {/* 5. Frame Type */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.frameTypeTitle}
         </label>
         <div className="space-y-1">
@@ -250,13 +250,13 @@ export function FilterSidebar({
             return (
               <label
                 key={f.id}
-                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-slate-50 cursor-pointer text-xs text-slate-700"
+                className="k48"
               >
                 <input
                   type="checkbox"
                   checked={checked}
                   onChange={() => onChange({ ...filters, frameType: toggleArrayItem(filters.frameType, f.id) })}
-                  className="rounded text-red-600 focus:ring-red-500 w-3.5 h-3.5"
+                  className="k49"
                 />
                 <span className={checked ? 'font-semibold text-slate-900' : ''}>{f.label}</span>
               </label>
@@ -267,7 +267,7 @@ export function FilterSidebar({
 
       {/* 6. Frame Size */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.frameSizeTitle}
         </label>
         <div className="flex gap-1.5">
@@ -293,7 +293,7 @@ export function FilterSidebar({
 
       {/* 7. Use Case */}
       <div className="space-y-2">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+        <label className="k47">
           {t.useCaseTitle}
         </label>
         <div className="space-y-1">
@@ -302,13 +302,13 @@ export function FilterSidebar({
             return (
               <label
                 key={u.id}
-                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-slate-50 cursor-pointer text-xs text-slate-700"
+                className="k48"
               >
                 <input
                   type="checkbox"
                   checked={checked}
                   onChange={() => onChange({ ...filters, useCase: toggleArrayItem(filters.useCase, u.id) })}
-                  className="rounded text-red-600 focus:ring-red-500 w-3.5 h-3.5"
+                  className="k49"
                 />
                 <span className={checked ? 'font-semibold text-slate-900' : ''}>{u.label}</span>
               </label>
@@ -319,8 +319,8 @@ export function FilterSidebar({
 
       {/* 8. Minimum Test Score Filter (only when products carry test verdicts) */}
       {ALL_PRODUCTS.some((p) => p.testVerdicts.length > 0) && (
-      <div className="space-y-2 pt-2 border-t border-slate-100">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+      <div className="k50">
+        <label className="k47">
           {t.tcsScoreTitle}
         </label>
         <div className="space-y-1">
@@ -341,8 +341,8 @@ export function FilterSidebar({
       )}
 
       {/* 9. Trustpilot Verified Score Filter */}
-      <div className="space-y-2 pt-2 border-t border-slate-100">
-        <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
+      <div className="k50">
+        <label className="k47">
           Trustpilot & Verifizierte Rezensionen
         </label>
         <div className="space-y-1">
@@ -355,8 +355,8 @@ export function FilterSidebar({
                 : 'bg-emerald-50/50 text-emerald-950 border-emerald-200/80 hover:bg-emerald-100/60'
             }`}
           >
-            <span className="flex items-center gap-1.5 font-semibold">
-              <span className="w-2 h-2 rounded-full bg-[#00b67a]" />
+            <span className="k51">
+              <span className="k52" />
               <span>TrustScore ≥ 4.7 ({lang === 'fr' ? 'Excellent' : lang === 'it' ? 'Eccellente' : 'Hervorragend'})</span>
             </span>
             {filters.minTrustScore === 4.7 && <Check className="w-3.5 h-3.5 text-emerald-300" />}
@@ -365,9 +365,9 @@ export function FilterSidebar({
       </div>
 
       {/* Active Results Count indicator */}
-      <div className="p-3 bg-slate-900 text-white rounded-xl text-center">
+      <div className="k53">
         <div className="text-xs text-slate-400">{t.foundModels}</div>
-        <div className="text-xl font-black font-mono text-red-400">{totalFiltered}</div>
+        <div className="k54">{totalFiltered}</div>
       </div>
     </aside>
   );

@@ -193,7 +193,7 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
   };
 
   return (
-    <div className="min-h-screen bg-slate-100/60 text-slate-900 flex flex-col font-sans selection:bg-red-500 selection:text-white">
+    <div className="k1">
       {/* Multilingual Main Header */}
       <Header
         currentRoute={route}
@@ -286,7 +286,7 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
         {route.view === 'contact' && <ContactView lang={lang} onNavigate={handleNavigate} />}
 
         {route.view === 'comparison' && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+          <div className="k2">
             <ComparisonDrawer
               comparedProducts={comparedProducts.length > 0 ? comparedProducts : ALL_PRODUCTS.slice(0, 3)}
               onRemove={handleRemoveCompare}
@@ -300,9 +300,9 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
         )}
 
         {route.view === '404' && (
-          <div className="max-w-2xl mx-auto py-24 px-4 text-center space-y-4">
-            <div className="text-6xl font-black text-red-600 font-mono">404</div>
-            <h1 className="text-2xl font-black text-slate-900">
+          <div className="k3">
+            <div className="k4">404</div>
+            <h1 className="k5">
               {lang === 'fr' ? 'Page non trouvée' : lang === 'it' ? 'Pagina non trovata' : 'Seite nicht gefunden'}
             </h1>
             <p className="text-sm text-slate-600">
@@ -311,7 +311,7 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
             <div className="pt-2">
               <button
                 onClick={() => handleNavigate(buildLocalizedUrl(lang, { lang, view: 'home' }))}
-                className="px-6 py-2.5 bg-red-600 text-white rounded-xl text-xs font-bold hover:bg-red-700 transition-colors cursor-pointer"
+                className="k6"
               >
                 Zurück zur Startseite
               </button>

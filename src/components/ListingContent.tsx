@@ -3,7 +3,7 @@ import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
 import type { ListingBlock } from '../utils/listingContent';
 import { NavLink } from './NavLink';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from './icons';
 
 const L = {
   standouts: { de: 'Auffällige Modelle', fr: 'Modèles remarquables', it: 'Modelli in evidenza' },
@@ -19,24 +19,24 @@ export function ListingContent({ block, lang, onNavigate }: { block: ListingBloc
     buildLocalizedUrl(lang, { lang, view: 'product', category: CATEGORIES.find((c) => c.id === p.categoryId), productSlug: p.slug });
 
   return (
-    <section className="border-t border-slate-200 pt-8 space-y-6 max-w-4xl" aria-label={block.title}>
+    <section className="k129" aria-label={block.title}>
       {block.sections.map((s) => (
         <div key={s.heading} className="space-y-2">
-          <h2 className="text-lg font-black text-slate-900">{s.heading}</h2>
+          <h2 className="k130">{s.heading}</h2>
           {s.paragraphs.map((p, i) => (
-            <p key={i} className="text-sm text-slate-700 leading-relaxed">{p}</p>
+            <p key={i} className="k131">{p}</p>
           ))}
         </div>
       ))}
 
       {block.highlights.length > 0 && (
         <div className="space-y-2">
-          <h2 className="text-lg font-black text-slate-900">{L.standouts[lang]}</h2>
+          <h2 className="k130">{L.standouts[lang]}</h2>
           <ul className="text-sm space-y-1">
             {block.highlights.map((h) => (
               <li key={h.label}>
                 <span className="text-slate-600">{h.label}: </span>
-                <NavLink href={productUrl(h.product)} onNavigate={onNavigate} className="text-red-700 font-semibold hover:underline cursor-pointer">
+                <NavLink href={productUrl(h.product)} onNavigate={onNavigate} className="k132">
                   {h.product.name}
                 </NavLink>{' '}
                 <span className="text-slate-500">
@@ -52,11 +52,11 @@ export function ListingContent({ block, lang, onNavigate }: { block: ListingBloc
 
       {block.families.length > 0 && (
         <div className="space-y-2">
-          <h2 className="text-lg font-black text-slate-900">{L.families[lang]}</h2>
-          <ul className="text-sm grid sm:grid-cols-2 gap-x-6 gap-y-1">
+          <h2 className="k130">{L.families[lang]}</h2>
+          <ul className="k133">
             {block.families.map((f) => (
               <li key={f.name}>
-                <NavLink href={productUrl(f.product)} onNavigate={onNavigate} className="text-red-700 hover:underline cursor-pointer">
+                <NavLink href={productUrl(f.product)} onNavigate={onNavigate} className="k134">
                   {f.name}
                 </NavLink>{' '}
                 <span className="text-slate-500">
@@ -72,7 +72,7 @@ export function ListingContent({ block, lang, onNavigate }: { block: ListingBloc
         <NavLink
           href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: block.guide })}
           onNavigate={onNavigate}
-          className="inline-flex items-center gap-1.5 text-sm font-bold text-red-700 hover:text-red-800 cursor-pointer"
+          className="k135"
         >
           {L.guide[lang]}: {block.guide.title[lang]} <ArrowRight className="w-4 h-4" />
         </NavLink>

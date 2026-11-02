@@ -24,7 +24,7 @@ import {
   Smile,
   ChevronRight,
   Star,
-} from 'lucide-react';
+} from '../components/icons';
 import { NavLink } from '../components/NavLink';
 import { SITE_NAME } from '../config/brand';
 
@@ -127,7 +127,7 @@ export function HomeView({
   return (
     <div className="space-y-16 pb-16">
       {/* 1. Hero Section */}
-      <section className="relative bg-slate-950 text-white overflow-hidden py-16 sm:py-24 px-4 sm:px-6">
+      <section className="k458">
         {/* Background photo: cyclist on a hill road (Unsplash licence); dark overlay keeps the text readable */}
         {/* React hoists this into <head>, so the browser starts the hero download before it parses the page body */}
         <link rel="preload" as="image" imageSrcSet="/hero-900.webp 900w, /hero-2000.webp 2000w" imageSizes="100vw" fetchPriority="high" />
@@ -140,40 +140,40 @@ export function HomeView({
           height={1334}
           fetchPriority="high"
           decoding="async"
-          className="absolute inset-0 w-full h-full object-cover object-[50%_72%] pointer-events-none select-none"
+          className="k459"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/55 to-slate-950/25 pointer-events-none" />
-        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-slate-950/50 to-transparent pointer-events-none" />
+        <div className="k460" />
+        <div className="k461" />
 
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div className="k462">
+          <div className="k463">
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-600/20 border border-red-500/40 text-red-300 text-xs font-semibold backdrop-blur-xs">
+              <div className="k464">
                 <span>🇨🇭</span>
                 <span>{t.home.heroBadge}</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
+                <span className="k465" />
               </div>
 
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
+              <h1 className="k466">
                 {t.home.heroTitle}
               </h1>
 
-              <p className="text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed">
+              <p className="k467">
                 {t.home.heroDesc}
               </p>
 
               {/* Trust Badges */}
-              <div className="flex flex-wrap gap-4 pt-2 text-xs text-slate-300">
-                <div className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
+              <div className="k468">
+                <div className="k469">
                   <ShieldCheck className="w-4 h-4 text-emerald-400" />
                   <span>{t.home.tcsTested}</span>
                 </div>
-                <div className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
+                <div className="k469">
                   <Coins className="w-4 h-4 text-amber-400" />
                   <span>{t.home.cantonalSubs}</span>
                 </div>
-                <div className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
+                <div className="k469">
                   <CheckCircle2 className="w-4 h-4 text-blue-400" />
                   <span>{t.home.dealerNetwork}</span>
                 </div>
@@ -181,12 +181,12 @@ export function HomeView({
             </div>
 
             {/* Right: Interactive Quick Bike Finder */}
-            <div className="lg:col-span-5 bg-white text-slate-900 rounded-3xl p-6 sm:p-7 shadow-2xl border border-slate-200/80">
+            <div className="k470">
               <div className="flex items-center gap-2 mb-1">
-                <div className="w-7 h-7 rounded-lg bg-red-600 text-white flex items-center justify-center font-bold text-xs">
+                <div className="k471">
                   <Sparkles className="w-4 h-4" />
                 </div>
-                <h2 className="text-lg font-black tracking-tight text-slate-900">
+                <h2 className="k472">
                   {t.home.quickAdvisorTitle}
                 </h2>
               </div>
@@ -196,14 +196,14 @@ export function HomeView({
 
               <form onSubmit={handleFinderSubmit} className="space-y-4 text-xs">
                 <div>
-                  <label className="font-bold text-slate-700 block mb-1.5">
+                  <label className="k473">
                     {t.home.selectCat}
                   </label>
                   <select
                     aria-label={t.home.selectCat}
                     value={finderCategory}
                     onChange={(e) => setFinderCategory(e.target.value)}
-                    className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
+                    className="k223"
                   >
                     {CATEGORIES.map((c) => (
                       <option key={c.id} value={c.id}>
@@ -214,7 +214,7 @@ export function HomeView({
                 </div>
 
                 <div>
-                  <label className="font-bold text-slate-700 block mb-1.5">
+                  <label className="k473">
                     {t.home.speedClass}
                   </label>
                   <div className="grid grid-cols-3 gap-2">
@@ -255,14 +255,14 @@ export function HomeView({
                 </div>
 
                 <div>
-                  <label className="font-bold text-slate-700 block mb-1.5">
+                  <label className="k473">
                     {t.home.budgetCatch}
                   </label>
                   <select
                     aria-label={t.home.budgetCatch}
                     value={finderPrice}
                     onChange={(e) => setFinderPrice(e.target.value as any)}
-                    className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl font-medium text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-red-500 cursor-pointer"
+                    className="k223"
                   >
                     <option value="all">{t.home.allPrices}</option>
                     <option value="<2000">{t.home.under2000}</option>
@@ -275,7 +275,7 @@ export function HomeView({
                 <div className="pt-2">
                   <button
                     type="submit"
-                    className="w-full py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl shadow-md shadow-red-600/30 transition-all flex items-center justify-center gap-2 cursor-pointer text-sm"
+                    className="k474"
                   >
                     <span>{t.home.showModels}</span>
                     <ArrowRight className="w-4 h-4" />
@@ -288,50 +288,50 @@ export function HomeView({
       </section>
 
       {/* 2. All 8 Categories Grid */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-3">
+      <section className="k475">
+        <div className="k476">
           <div>
-            <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">
+            <div className="k312">
               {portalName}
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            <h2 className="k477">
               {t.home.catSectionTitle}
             </h2>
           </div>
-          <div className="text-xs font-semibold text-slate-500">
+          <div className="k478">
             {t.home.catSectionDesc}
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="k314">
           {CATEGORIES.map((cat) => (
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
               key={cat.id}
               
-              className="group bg-white rounded-2xl border border-slate-200/90 hover:border-red-500/50 p-5 hover:shadow-xl transition-all duration-200 cursor-pointer flex flex-col justify-between"
+              className="k479 group"
             >
               <div>
-                <div className="flex items-center justify-between mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-slate-50 group-hover:bg-red-50 flex items-center justify-center transition-colors">
+                <div className="k480">
+                  <div className="k481">
                     {CATEGORY_ICONS[cat.id]}
                   </div>
-                  <span className="font-mono text-xs font-black text-red-700 bg-red-50 px-2.5 py-1 rounded-full">
+                  <span className="k482">
                     {cat.targetCount} {t.header.models}
                   </span>
                 </div>
 
-                <h3 className="font-black text-base text-slate-900 group-hover:text-red-600 transition-colors mb-1.5">
+                <h3 className="k483">
                   {cat.name[lang]}
                 </h3>
 
-                <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                <p className="k484">
                   {cat.description[lang]}
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-700 group-hover:text-red-600">
+              <div className="k485">
                 <span>{t.home.viewModels}</span>
-                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                <ChevronRight className="k486" />
               </div>
             </NavLink>
           ))}
@@ -339,21 +339,21 @@ export function HomeView({
       </section>
 
       {/* 2.5 Trustpilot & Verified Customer Reviews Spotlight */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
-        <div className="bg-emerald-950/80 rounded-3xl p-6 sm:p-8 border border-emerald-800 text-white shadow-lg space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-emerald-800/80 pb-5">
+      <section className="k487">
+        <div className="k488">
+          <div className="k489">
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-1">
                 {[1, 2, 3, 4, 5].map((s) => (
-                  <div key={s} className="w-6 h-6 rounded-xs bg-[#00b67a] flex items-center justify-center text-white">
+                  <div key={s} className="k490">
                     <Star className="w-3.5 h-3.5 fill-current" />
                   </div>
                 ))}
               </div>
               <div>
-                <div className="text-lg font-black tracking-tight text-white flex items-center gap-2">
+                <div className="k491">
                   <span>TrustScore 4.8</span>
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-200 font-bold border border-emerald-500/40">
+                  <span className="k492">
                     {lang === 'fr' ? 'Excellent' : lang === 'it' ? 'Eccellente' : 'Hervorragend'}
                   </span>
                 </div>
@@ -367,69 +367,69 @@ export function HomeView({
               </div>
             </div>
 
-            <div className="text-xs text-emerald-200 flex items-center gap-1.5 self-start sm:self-center">
+            <div className="k493">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
               <span>100% {lang === 'fr' ? 'commandes vérifiées' : lang === 'it' ? 'ordini verificati' : 'echte Schweizer Käufer'}</span>
             </div>
           </div>
 
           {/* 3 Featured Trustpilot Reviews */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="bg-emerald-900/40 border border-emerald-800/70 p-4 rounded-2xl space-y-2.5">
-              <div className="flex items-center justify-between">
+          <div className="k494">
+            <div className="k495">
+              <div className="k210">
                 <div className="flex items-center gap-1">
                   {[1, 2, 3, 4, 5].map((s) => (
-                    <div key={s} className="w-3.5 h-3.5 rounded-2xs bg-[#00b67a] flex items-center justify-center text-white">
+                    <div key={s} className="k496 rounded-2xs">
                       <Star className="w-2 h-2 fill-current" />
                     </div>
                   ))}
                 </div>
-                <span className="text-[10px] text-emerald-200 font-mono">#TP-CH-8491</span>
+                <span className="k497">#TP-CH-8491</span>
               </div>
-              <p className="text-xs text-emerald-100 leading-relaxed italic">
+              <p className="k498">
                 «Kaufberatung und TCS-Testergebnisse haben mir geholfen, das perfekte Flyer E-Bike für das Berner Oberland auszuwählen. Probefahrt war top!»
               </p>
-              <div className="text-[11px] font-bold text-white flex items-center justify-between pt-1 border-t border-emerald-800/60">
+              <div className="k499">
                 <span>Beat M. (Kanton BE)</span>
                 <span className="text-emerald-400 font-normal">Trustpilot ✓</span>
               </div>
             </div>
 
-            <div className="bg-emerald-900/40 border border-emerald-800/70 p-4 rounded-2xl space-y-2.5">
-              <div className="flex items-center justify-between">
+            <div className="k495">
+              <div className="k210">
                 <div className="flex items-center gap-1">
                   {[1, 2, 3, 4, 5].map((s) => (
-                    <div key={s} className="w-3.5 h-3.5 rounded-2xs bg-[#00b67a] flex items-center justify-center text-white">
+                    <div key={s} className="k496 rounded-2xs">
                       <Star className="w-2 h-2 fill-current" />
                     </div>
                   ))}
                 </div>
-                <span className="text-[10px] text-emerald-200 font-mono">#TP-CH-7294</span>
+                <span className="k497">#TP-CH-7294</span>
               </div>
-              <p className="text-xs text-emerald-100 leading-relaxed italic">
+              <p className="k498">
                 «Comparateur super clair et neutre. J’ai trouvé mon vélo Stromer 45 km/h pour faire Genève-Nyon tous les jours sans encombre.»
               </p>
-              <div className="text-[11px] font-bold text-white flex items-center justify-between pt-1 border-t border-emerald-800/60">
+              <div className="k499">
                 <span>Sylvie D. (Canton GE)</span>
                 <span className="text-emerald-400 font-normal">Trustpilot ✓</span>
               </div>
             </div>
 
-            <div className="bg-emerald-900/40 border border-emerald-800/70 p-4 rounded-2xl space-y-2.5">
-              <div className="flex items-center justify-between">
+            <div className="k495">
+              <div className="k210">
                 <div className="flex items-center gap-1">
                   {[1, 2, 3, 4, 5].map((s) => (
-                    <div key={s} className="w-3.5 h-3.5 rounded-2xs bg-[#00b67a] flex items-center justify-center text-white">
+                    <div key={s} className="k496 rounded-2xs">
                       <Star className="w-2 h-2 fill-current" />
                     </div>
                   ))}
                 </div>
-                <span className="text-[10px] text-emerald-200 font-mono">#TP-CH-9130</span>
+                <span className="k497">#TP-CH-9130</span>
               </div>
-              <p className="text-xs text-emerald-100 leading-relaxed italic">
+              <p className="k498">
                 «Grazie alle schede tecniche e ai test indipendenti abbiamo scelto la Scott da trekking. Sussidio del comune ottenuto in 2 settimane!»
               </p>
-              <div className="text-[11px] font-bold text-white flex items-center justify-between pt-1 border-t border-emerald-800/60">
+              <div className="k499">
                 <span>Marco T. (Cantone TI)</span>
                 <span className="text-emerald-400 font-normal">Trustpilot ✓</span>
               </div>
@@ -439,22 +439,22 @@ export function HomeView({
       </section>
 
       {/* 3. Featured e-bikes */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+      <section className="k487">
+        <div className="k500">
           <div>
-            <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">{featuredCopy.badge[lang]}</div>
-            <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-slate-900">{featuredCopy.title[lang]}</h2>
-            <p className="text-sm text-slate-600 mt-1 max-w-2xl">{featuredCopy.desc[lang]}</p>
+            <div className="k312">{featuredCopy.badge[lang]}</div>
+            <h2 className="k501">{featuredCopy.title[lang]}</h2>
+            <p className="k502">{featuredCopy.desc[lang]}</p>
           </div>
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
             
-            className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-colors self-start cursor-pointer"
+            className="k503"
           >
             {featuredCopy.cta[lang]}
           </NavLink>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="k292">
           {featuredProducts.map((p) => (
             <ProductCard
               key={p.id}
@@ -470,45 +470,45 @@ export function HomeView({
       </section>
 
       {/* 4. Swiss Brands Showcase */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
-        <div className="flex items-center justify-between mb-8">
+      <section className="k487">
+        <div className="k504">
           <div>
-            <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">
+            <div className="k312">
               🇨🇭 {t.home.swissBrandsBadge}
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            <h2 className="k477">
               {t.home.swissBrandsTitle}
             </h2>
           </div>
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
             
-            className="text-xs font-bold text-red-600 hover:text-red-700 cursor-pointer hidden sm:block"
+            className="k505"
           >
             {t.home.allBrandsCta}
           </NavLink>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="k506">
           {swissBrands.map((b) => (
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand: b })} onNavigate={onNavigate}
               key={b.id}
               
-              className="bg-white rounded-2xl border border-slate-200/90 hover:border-red-500/50 p-5 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
+              className="k507"
             >
               <div>
-                <div className="flex items-center justify-between mb-3">
-                  <span className="font-black text-base text-slate-900">{b.name}</span>
-                  <span className="text-xs font-bold text-red-700 bg-red-50 px-2 py-0.5 rounded-full">
+                <div className="k326">
+                  <span className="k372">{b.name}</span>
+                  <span className="k327">
                     🇨🇭 {b.headquarters.split(',')[0]}
                   </span>
                 </div>
-                <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
+                <p className="k508">
                   {b.description[lang]}
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-700">
-                <span className="font-mono text-red-600 font-bold">{b.targetCount} {t.header.models}</span>
+              <div className="k509">
+                <span className="k510">{b.targetCount} {t.header.models}</span>
                 <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
               </div>
             </NavLink>
@@ -517,26 +517,26 @@ export function HomeView({
       </section>
 
       {/* 5. Cantonal Subsidies Banner */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
-        <div className="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 text-white rounded-3xl p-6 sm:p-10 relative overflow-hidden shadow-xl border border-emerald-800/60">
+      <section className="k487">
+        <div className="k511">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-200 text-xs font-bold border border-emerald-500/40">
+            <div className="k512">
               <Coins className="w-3.5 h-3.5" />
               <span>{t.home.subsidiesBannerBadge}</span>
             </div>
 
-            <h2 className="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
+            <h2 className="k513">
               {t.home.subsidiesBannerTitle}
             </h2>
 
-            <p className="text-xs sm:text-sm text-emerald-100 leading-relaxed">
+            <p className="k514">
               {t.home.subsidiesBannerDesc}
             </p>
 
             <div className="pt-2">
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' })} onNavigate={onNavigate}
                 
-                className="px-6 py-3 rounded-xl bg-white text-emerald-950 font-black text-xs hover:bg-emerald-50 transition-colors shadow-lg cursor-pointer"
+                className="k515"
               >
                 {t.home.subsidiesBannerCta}
               </NavLink>
@@ -546,44 +546,44 @@ export function HomeView({
       </section>
 
       {/* 6. Ratgeber / Guides Clusters */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 [content-visibility:auto] [contain-intrinsic-size:auto_700px]">
-        <div className="flex items-center justify-between mb-8">
+      <section className="k487">
+        <div className="k504">
           <div>
-            <div className="text-red-600 font-bold text-xs uppercase tracking-wider mb-1">
+            <div className="k312">
               {t.home.guidesSectionBadge}
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            <h2 className="k477">
               {t.home.guidesSectionTitle}
             </h2>
           </div>
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
             
-            className="text-xs font-bold text-red-600 hover:text-red-700 cursor-pointer hidden sm:block"
+            className="k505"
           >
             {t.home.allGuidesCta}
           </NavLink>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="k314">
           {GUIDE_CLUSTERS.map((cluster) => (
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
               key={cluster.id}
               
-              className="bg-white rounded-2xl border border-slate-200/90 p-5 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
+              className="k325"
             >
               <div>
-                <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-3">
+                <div className="k516">
                   <BookOpen className="w-5 h-5" />
                 </div>
-                <h3 className="font-black text-base text-slate-900 mb-1.5">
+                <h3 className="k517">
                   {cluster.title[lang]}
                 </h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="k518">
                   {cluster.shortDesc[lang]}
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600">
+              <div className="k330">
                 <span>{cluster.guides.length} {t.home.articlesCount}</span>
                 <ChevronRight className="w-4 h-4" />
               </div>

@@ -1,7 +1,7 @@
 import { Product, Language } from '../types';
 import { BRANDS } from '../data/brands';
 import { I18N } from '../data/i18n';
-import { X, SlidersHorizontal, Calendar } from 'lucide-react';
+import { X, SlidersHorizontal, Calendar } from './icons';
 import { localizeSpec } from '../utils/productText';
 
 interface ComparisonDrawerProps {
@@ -32,22 +32,22 @@ export function ComparisonDrawer({
     <>
       {/* Floating Bottom Bar (visible when bikes are selected) */}
       {!isOpen && (
-        <div className="fixed bottom-4 right-4 z-40 bg-slate-900 text-white rounded-2xl shadow-2xl border border-slate-700 p-3 px-4 flex items-center gap-3 backdrop-blur-md animate-in slide-in-from-bottom-5">
+        <div className="k7 animate-in slide-in-from-bottom-5">
           <div className="flex items-center gap-2">
-            <span className="w-6 h-6 rounded-full bg-red-600 text-white text-xs font-black flex items-center justify-center">
+            <span className="k8">
               {comparedProducts.length}
             </span>
             <div className="text-xs">
               <span className="font-bold">{t.modelsCount}</span>
-              <span className="text-slate-400 block text-[10px]">{t.maxFour}</span>
+              <span className="k9">{t.maxFour}</span>
             </div>
           </div>
 
-          <div className="flex -space-x-2 overflow-hidden px-1">
+          <div className="k10">
             {comparedProducts.map((p) => (
               <div
                 key={p.id}
-                className="w-7 h-7 rounded-full bg-slate-800 border-2 border-slate-900 flex items-center justify-center text-[10px] font-bold text-slate-300"
+                className="k11"
                 title={p.name}
               >
                 {p.brandId.slice(0, 2).toUpperCase()}
@@ -57,7 +57,7 @@ export function ComparisonDrawer({
 
           <button
             onClick={() => onClose()} // toggle handled by parent
-            className="px-3.5 py-1.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs shadow-md transition-colors cursor-pointer"
+            className="k12"
           >
             {t.viewCompare}
           </button>
@@ -66,14 +66,14 @@ export function ComparisonDrawer({
 
       {/* Full Comparison Modal */}
       {isOpen && (
-        <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
-          <div className="bg-white rounded-3xl max-w-6xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-slate-200 overflow-hidden animate-in zoom-in-95 duration-150">
+        <div className="k13">
+          <div className="k14 animate-in zoom-in-95">
             {/* Header */}
-            <div className="p-4 sm:p-5 bg-slate-900 text-white flex items-center justify-between border-b border-slate-800">
+            <div className="k15">
               <div className="flex items-center gap-2.5">
                 <SlidersHorizontal className="w-5 h-5 text-red-500" />
                 <div>
-                  <h2 className="text-base sm:text-lg font-black tracking-tight">
+                  <h2 className="k16">
                     {t.modalTitle} ({comparedProducts.length}/4)
                   </h2>
                   <p className="text-xs text-slate-400">
@@ -85,13 +85,13 @@ export function ComparisonDrawer({
               <div className="flex items-center gap-3">
                 <button
                   onClick={onClear}
-                  className="text-xs text-slate-400 hover:text-white transition-colors cursor-pointer"
+                  className="k17"
                 >
                   {t.clearAll}
                 </button>
                 <button
                   onClick={onClose}
-                  className="p-1.5 rounded-full hover:bg-slate-800 text-slate-400 hover:text-white transition-colors cursor-pointer"
+                  className="k18"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -99,37 +99,37 @@ export function ComparisonDrawer({
             </div>
 
             {/* Comparison Table Grid */}
-            <div className="p-4 sm:p-6 overflow-x-auto flex-1 divide-y divide-slate-100">
-              <table className="w-full min-w-[700px] border-collapse text-xs">
+            <div className="k19">
+              <table className="k20">
                 <thead>
-                  <tr className="align-top border-b border-slate-200">
-                    <th className="w-44 p-3 text-left font-bold text-slate-500 uppercase tracking-wider text-[11px]">
+                  <tr className="k21">
+                    <th className="k22">
                       {lang === 'fr' ? 'Modèle' : lang === 'it' ? 'Modello' : 'Modell'}
                     </th>
                     {comparedProducts.map((p) => {
                       const brand = BRANDS.find((b) => b.id === p.brandId);
                       return (
-                        <th key={p.id} className="p-3 text-left font-semibold text-slate-900 w-64 relative group">
+                        <th key={p.id} className="k23 group">
                           <button
                             onClick={() => onRemove(p.id)}
-                            className="absolute top-2 right-2 p-1 rounded-full bg-slate-100 hover:bg-red-100 hover:text-red-600 transition-colors cursor-pointer text-slate-400"
+                            className="k24"
                             title="Remove"
                           >
                             <X className="w-3.5 h-3.5" />
                           </button>
-                          <div className="text-[10px] uppercase font-bold text-slate-500 mb-0.5">
+                          <div className="k25">
                             {brand?.name} {brand?.isSwiss && '🇨🇭'}
                           </div>
-                          <div className="text-sm font-black text-slate-900 leading-snug pr-6">
+                          <div className="k26">
                             {p.name}
                           </div>
-                          <div className="text-lg font-black text-red-600 font-mono mt-2">
+                          <div className="k27">
                             CHF {p.priceCHF.toLocaleString('de-CH')}.-
                           </div>
                           <div className="mt-3">
                             <button
                               onClick={() => onBookTestRide(p)}
-                              className="w-full py-1.5 px-2 bg-slate-900 hover:bg-red-600 text-white rounded-lg font-semibold text-xs transition-colors flex items-center justify-center gap-1 cursor-pointer"
+                              className="k28"
                             >
                               <Calendar className="w-3 h-3" />
                               <span>{t.bookTestRide}</span>
@@ -140,10 +140,10 @@ export function ComparisonDrawer({
                     })}
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-100 text-slate-700">
+                <tbody className="k29">
                   {/* Speed & Class */}
                   <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.categorySpeed}</td>
+                    <td className="k30">{t.categorySpeed}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3 font-medium">
                         <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-bold ${
@@ -157,29 +157,29 @@ export function ComparisonDrawer({
 
                   {/* Motor */}
                   <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.motorTorque}</td>
+                    <td className="k30">{t.motorTorque}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
                         <div className="font-bold text-slate-900">{p.motorModel}</div>
-                        {p.torqueNm ? <div className="text-slate-500 font-mono mt-0.5">{p.torqueNm} Nm</div> : null}
+                        {p.torqueNm ? <div className="k31">{p.torqueNm} Nm</div> : null}
                       </td>
                     ))}
                   </tr>
 
                   {/* Battery & Range */}
                   <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.batteryRange}</td>
+                    <td className="k30">{t.batteryRange}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
                         <div className="font-bold text-slate-900">{p.batteryWh} Wh</div>
-                        {p.rangeKmEst ? (<div className="text-emerald-700 text-[11px] mt-0.5">{t.rangeEst}: {p.rangeKmEst.min === p.rangeKmEst.max ? p.rangeKmEst.max : `${p.rangeKmEst.min} - ${p.rangeKmEst.max}`} km</div>) : null}
+                        {p.rangeKmEst ? (<div className="k32">{t.rangeEst}: {p.rangeKmEst.min === p.rangeKmEst.max ? p.rangeKmEst.max : `${p.rangeKmEst.min} - ${p.rangeKmEst.max}`} km</div>) : null}
                       </td>
                     ))}
                   </tr>
 
                   {/* Weight */}
                   <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.weightMaterial}</td>
+                    <td className="k30">{t.weightMaterial}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3">
                         <span className="font-bold">{p.weightKg ? `${p.weightKg} kg` : '-'}</span> ({localizeSpec(p.frameMaterial, lang)})
@@ -189,7 +189,7 @@ export function ComparisonDrawer({
 
                   {/* Frame & Sizes */}
                   <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.frameSizes}</td>
+                    <td className="k30">{t.frameSizes}</td>
                     {comparedProducts.map((p) => {
                       const fLabel =
                         p.frameType === 'step-through'
@@ -199,10 +199,10 @@ export function ComparisonDrawer({
                           : tFilter.diamond;
                       return (
                         <td key={p.id} className="p-3">
-                          <div className="capitalize font-semibold text-slate-800">
+                          <div className="k33">
                             {fLabel}
                           </div>
-                          <div className="text-[11px] text-slate-500 mt-0.5 font-mono">
+                          <div className="k34">
                             {p.frameSizes.join(', ')}
                           </div>
                         </td>
@@ -212,7 +212,7 @@ export function ComparisonDrawer({
 
                   {/* Gears & Brakes */}
                   <tr>
-                    <td className="p-3 font-semibold text-slate-600 bg-slate-50">{t.gearsBrakes}</td>
+                    <td className="k30">{t.gearsBrakes}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3 space-y-1">
                         <div><strong className="text-slate-800">{lang === 'fr' ? 'Dérailleur :' : lang === 'it' ? 'Cambio :' : 'Schaltung:'}</strong> {localizeSpec(p.specs.gears, lang)}</div>
@@ -226,13 +226,13 @@ export function ComparisonDrawer({
             </div>
 
             {/* Bottom Footer Action */}
-            <div className="p-4 bg-slate-50 border-t border-slate-200 flex items-center justify-between">
+            <div className="k35">
               <div className="text-xs text-slate-500">
                 {t.pedalFreeTip}
               </div>
               <button
                 onClick={onClose}
-                className="px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-bold transition-colors cursor-pointer"
+                className="k36"
               >
                 {t.close}
               </button>

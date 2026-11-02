@@ -6,7 +6,7 @@ import { BRANDS } from '../data/brands';
 import { COLLECTIONS } from '../data/collections';
 import { CardImage } from '../components/ProductImages';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGORY_PRODUCTS } from '../utils/routes';
-import { ArrowRight, Clock } from 'lucide-react';
+import { ArrowRight, Clock } from '../components/icons';
 import { NavLink } from '../components/NavLink';
 import { linkify, newLinkContext } from '../utils/autoLink';
 
@@ -124,26 +124,26 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
       ? buildLocalizedUrl(lang, { lang, view: 'brand', brand: ctaBrand })
       : buildLocalizedUrl(lang, { lang, view: 'catalog-root' });
     return (
-      <article className="max-w-3xl mx-auto px-4 sm:px-6 py-10 space-y-8">
-        <nav aria-label="Breadcrumb" className="text-xs text-slate-500 flex items-center gap-1.5">
+      <article className="k248">
+        <nav aria-label="Breadcrumb" className="k249">
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}  className="hover:text-red-600 cursor-pointer">{L.home[lang]}</NavLink>
           <span>/</span>
           <NavLink href={buildLocalizedUrl(lang, blogRoot)} onNavigate={onNavigate}  className="hover:text-red-600 cursor-pointer">{L.blog[lang]}</NavLink>
         </nav>
 
-        <header className="space-y-3 border-b border-slate-200 pb-6">
-          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">{post.title[lang]}</h1>
-          <p className="text-base text-slate-600 leading-relaxed">{post.excerpt[lang]}</p>
-          <div className="flex items-center gap-3 text-xs text-slate-500">
+        <header className="k250">
+          <h1 className="k251">{post.title[lang]}</h1>
+          <p className="k252">{post.excerpt[lang]}</p>
+          <div className="k253">
             <time dateTime={post.publishedDate}>{fmtDate(post.publishedDate, lang)}</time>
-            <span className="inline-flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readMinutes} {L.min[lang]}</span>
+            <span className="k254"><Clock className="w-3.5 h-3.5" />{post.readMinutes} {L.min[lang]}</span>
           </div>
         </header>
 
-        <div className="space-y-7 text-[15px] leading-relaxed text-slate-700">
+        <div className="k255">
           {post.body[lang].map((s) => (
             <section key={s.heading} className="space-y-3">
-              <h2 className="text-xl font-bold text-slate-900">{s.heading}</h2>
+              <h2 className="k256">{s.heading}</h2>
               {s.paragraphs.map((p, i) => (
                 <p key={i}>{linkify(p, lang, linkCtx, onNavigate)}</p>
               ))}
@@ -153,8 +153,8 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
 
         {relatedList.length > 0 && (
           <section className="space-y-3">
-            <h2 className="text-xl font-bold text-slate-900">{LP.models[lang]}</h2>
-            <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <h2 className="k256">{LP.models[lang]}</h2>
+            <ul className="k257">
               {relatedList.map((p) => {
                 const cat = CATEGORIES.find((c) => c.id === p.categoryId);
                 return (
@@ -162,13 +162,13 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                     <NavLink
                       href={buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: p.slug })}
                       onNavigate={onNavigate}
-                      className="h-full rounded-xl border border-slate-200 bg-white p-3 hover:border-red-300 hover:shadow-md transition-all cursor-pointer flex flex-col"
+                      className="k258"
                     >
-                      <div className="h-24 flex items-center justify-center mb-2 overflow-hidden">
+                      <div className="k259">
                         <CardImage images={p.images || []} name={p.name} />
                       </div>
-                      <div className="text-xs font-bold text-slate-900 line-clamp-2">{p.name}</div>
-                      <div className="mt-auto pt-2 text-xs text-slate-600">
+                      <div className="k260">{p.name}</div>
+                      <div className="k261">
                         {LP.from[lang]} {p.priceEstimated ? LP.approx[lang] + ' ' : ''}CHF {Math.round(p.priceCHF).toLocaleString('de-CH')}
                       </div>
                     </NavLink>
@@ -180,23 +180,23 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
         )}
 
         <section className="space-y-4" aria-label={LP.shop[lang]}>
-          <h2 className="text-xl font-bold text-slate-900">{LP.shop[lang]}</h2>
+          <h2 className="k256">{LP.shop[lang]}</h2>
           <div className="flex flex-wrap gap-2">
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-red-600 text-white text-sm font-bold hover:bg-red-700 cursor-pointer"
+              className="k262"
             >
               {LP.allBikes[lang]} <ArrowRight className="w-4 h-4" />
             </NavLink>
             {shop.collection && (
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: shop.collection })} onNavigate={onNavigate}
-                className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm font-semibold hover:border-red-300 cursor-pointer"
+                className="k263"
               >
                 {shop.collection.name[lang]}
               </NavLink>
             )}
             {shop.brand && (
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand: shop.brand })} onNavigate={onNavigate}
-                className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm font-semibold hover:border-red-300 cursor-pointer"
+                className="k263"
               >
                 {shop.brand.name}
               </NavLink>
@@ -204,7 +204,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           </div>
           {shop.categories.length > 0 && (
             <div className="space-y-2">
-              <div className="text-xs font-bold uppercase tracking-wide text-slate-500">{LP.byCategory[lang]}</div>
+              <div className="k264">{LP.byCategory[lang]}</div>
               <ul className="flex flex-wrap gap-2">
                 {shop.categories.map(([id, n]) => {
                   const category = CATEGORIES.find((c) => c.id === id);
@@ -216,7 +216,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                   return (
                     <li key={id}>
                       <NavLink href={href} onNavigate={onNavigate}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
+                        className="k265"
                       >
                         {hasBrandPage && shop.brand ? `${shop.brand.name} ${category.name[lang]}` : category.name[lang]} <span className="text-xs text-slate-500">({n})</span>
                       </NavLink>
@@ -228,7 +228,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           )}
           {shop.brands.length > 0 && (
             <div className="space-y-2">
-              <div className="text-xs font-bold uppercase tracking-wide text-slate-500">{LP.byBrand[lang]}</div>
+              <div className="k264">{LP.byBrand[lang]}</div>
               <ul className="flex flex-wrap gap-2">
                 {shop.brands.map(([id, n]) => {
                   const brand = BRANDS.find((b) => b.id === id);
@@ -236,7 +236,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                   return (
                     <li key={id}>
                       <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
+                        className="k265"
                       >
                         {brand.name} <span className="text-xs text-slate-500">({n})</span>
                       </NavLink>
@@ -248,16 +248,16 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           )}
         </section>
 
-        <aside className="rounded-2xl bg-slate-50 border border-slate-200 p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <aside className="k266">
           <p className="text-sm text-slate-700">{L.ctaText[lang]}</p>
           <div className="flex flex-wrap gap-2">
             <NavLink href={ctaHref} onNavigate={onNavigate}
-              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-red-600 text-white text-sm font-bold hover:bg-red-700 cursor-pointer"
+              className="k267"
             >
               {post.related ? LP.all[lang] : L.cta[lang]} <ArrowRight className="w-4 h-4" />
             </NavLink>
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
-              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-white border border-slate-300 text-slate-800 text-sm font-bold hover:bg-slate-100 cursor-pointer"
+              className="k268"
             >
               {LP.advice[lang]}
             </NavLink>
@@ -265,16 +265,16 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
         </aside>
 
         <section className="space-y-3">
-          <h2 className="text-lg font-bold text-slate-900">{L.more[lang]}</h2>
+          <h2 className="k269">{L.more[lang]}</h2>
           <ul className="grid sm:grid-cols-2 gap-3">
             {others.map((p) => (
               <li key={p.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: p })} onNavigate={onNavigate}
                   
-                  className="w-full text-left p-4 rounded-xl border border-slate-200 hover:border-red-300 hover:bg-red-50/30 transition-colors cursor-pointer"
+                  className="k270"
                 >
-                  <div className="font-semibold text-slate-900 text-sm">{p.title[lang]}</div>
-                  <div className="text-xs text-slate-500 mt-1 line-clamp-2">{p.excerpt[lang]}</div>
+                  <div className="k271">{p.title[lang]}</div>
+                  <div className="k272">{p.excerpt[lang]}</div>
                 </NavLink>
               </li>
             ))}
@@ -285,11 +285,11 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 space-y-8">
-      <header className="space-y-2 border-b border-slate-200 pb-6">
-        <div className="text-red-600 font-bold text-xs uppercase tracking-wider">{L.blog[lang]}</div>
-        <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">{L.heroTitle[lang]}</h1>
-        <p className="text-base text-slate-600 max-w-2xl">{L.heroText[lang]}</p>
+    <div className="k273">
+      <header className="k274">
+        <div className="k275">{L.blog[lang]}</div>
+        <h1 className="k276">{L.heroTitle[lang]}</h1>
+        <p className="k277">{L.heroText[lang]}</p>
       </header>
 
       <ul className="grid md:grid-cols-2 gap-5">
@@ -297,16 +297,16 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           <li key={p.id}>
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: p })} onNavigate={onNavigate}
               
-              className="group h-full w-full text-left rounded-2xl border border-slate-200 bg-white p-6 hover:border-red-300 hover:shadow-lg transition-all cursor-pointer flex flex-col"
+              className="k278 group"
             >
-              <div className="flex items-center gap-3 text-xs text-slate-500 mb-3">
+              <div className="k279">
                 <time dateTime={p.publishedDate}>{fmtDate(p.publishedDate, lang)}</time>
-                <span className="inline-flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{p.readMinutes} {L.min[lang]}</span>
+                <span className="k254"><Clock className="w-3.5 h-3.5" />{p.readMinutes} {L.min[lang]}</span>
               </div>
-              <h2 className="text-xl font-bold text-slate-900 group-hover:text-red-700 transition-colors">{p.title[lang]}</h2>
-              <p className="text-sm text-slate-600 mt-2 flex-1">{p.excerpt[lang]}</p>
-              <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-red-600">
-                {L.read[lang]} <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+              <h2 className="k280">{p.title[lang]}</h2>
+              <p className="k281">{p.excerpt[lang]}</p>
+              <span className="k282">
+                {L.read[lang]} <ArrowRight className="k283" />
               </span>
             </NavLink>
           </li>

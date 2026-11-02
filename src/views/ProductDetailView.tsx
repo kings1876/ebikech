@@ -22,7 +22,7 @@ import {
   ThumbsDown,
   ShieldCheck,
   Check,
-} from 'lucide-react';
+} from '../components/icons';
 import { NavLink } from '../components/NavLink';
 import { describeProduct, localizeSpec } from '../utils/productText';
 import { buildProductContent, familyOf } from '../utils/productContent';
@@ -60,8 +60,8 @@ export function ProductDetailView({
 
   if (!product) {
     return (
-      <div className="max-w-4xl mx-auto py-20 px-4 text-center">
-        <h2 className="text-2xl font-bold text-slate-900">
+      <div className="k519">
+        <h2 className="k520">
           {lang === 'fr' ? 'Modèle non trouvé' : lang === 'it' ? 'Modello non trovato' : 'E-Bike Modell nicht gefunden'}
         </h2>
         <p className="text-sm text-slate-500 mt-2">
@@ -73,7 +73,7 @@ export function ProductDetailView({
         </p>
         <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
           
-          className="mt-4 px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold cursor-pointer"
+          className="k521"
         >
           {lang === 'fr' ? 'Retour au catalogue' : lang === 'it' ? 'Torna al catalogo' : 'Zurück zum Gesamtkatalog'}
         </NavLink>
@@ -112,43 +112,43 @@ export function ProductDetailView({
   ).slice(0, 4);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-12">
+    <div className="k522">
       {/* Breadcrumb Trail */}
-      <div className="flex items-center gap-2 text-xs text-slate-500 overflow-x-auto whitespace-nowrap pb-1">
+      <div className="k523">
         <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
           
-          className="hover:text-red-600 transition-colors cursor-pointer"
+          className="k295"
         >
           {tPdp.home}
         </NavLink>
-        <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
+        <ChevronRight className="k411" />
         <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
           
-          className="hover:text-red-600 transition-colors cursor-pointer"
+          className="k295"
         >
           {tPdp.catalogue}
         </NavLink>
         {category && (
           <>
-            <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
+            <ChevronRight className="k411" />
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
               
-              className="hover:text-red-600 transition-colors cursor-pointer"
+              className="k295"
             >
               {category.name[lang]}
             </NavLink>
           </>
         )}
-        <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
-        <span className="font-bold text-slate-900 truncate">{product.name}</span>
+        <ChevronRight className="k411" />
+        <span className="k412">{product.name}</span>
       </div>
 
       {/* Main PDP Hero Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+      <div className="k524">
         {/* Left Column: Visual & Bike Illustration */}
-        <div className="lg:col-span-7 bg-white rounded-3xl border border-slate-200/90 p-8 shadow-xs flex flex-col items-center justify-center relative overflow-hidden">
+        <div className="k525">
           {/* Top Badges */}
-          <div className="w-full flex items-center justify-between mb-6">
+          <div className="k526">
             <div className="flex items-center gap-2">
               <span className={`px-2.5 py-1 rounded-full text-xs font-bold ${
                 product.speedMaxKmH === 45
@@ -159,13 +159,13 @@ export function ProductDetailView({
               </span>
 
               {brand?.isSwiss && (
-                <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-red-50 text-red-700 border border-red-200 flex items-center gap-1">
+                <span className="k527">
                   <span>🇨🇭 Swiss Engineering</span>
                 </span>
               )}
             </div>
 
-            <div className="text-xs text-slate-500 font-medium">
+            <div className="k528">
               {tPdp.modelYear} {product.year}
             </div>
           </div>
@@ -173,38 +173,38 @@ export function ProductDetailView({
           <ProductGallery images={product.images || []} name={product.name} lang={lang} />
 
           {/* Quick Spec Highlights Grid */}
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6 pt-6 border-t border-slate-100 text-xs text-slate-600">
+          <div className="k529">
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-500 flex items-center gap-1 mb-1">
+              <div className="k530">
                 <Zap className="w-3.5 h-3.5 text-amber-500" />
                 <span>{tPdp.torque}</span>
               </div>
-              <div className="font-bold text-slate-900 text-sm">{product.torqueNm ? `${product.torqueNm} Nm` : '-'}</div>
+              <div className="k146">{product.torqueNm ? `${product.torqueNm} Nm` : '-'}</div>
             </div>
 
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-500 flex items-center gap-1 mb-1">
+              <div className="k530">
                 <Battery className="w-3.5 h-3.5 text-blue-500" />
                 <span>{tPdp.battery}</span>
               </div>
-              <div className="font-bold text-slate-900 text-sm">{product.batteryWh} Wh</div>
+              <div className="k146">{product.batteryWh} Wh</div>
             </div>
 
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-500 flex items-center gap-1 mb-1">
+              <div className="k530">
                 <Weight className="w-3.5 h-3.5 text-slate-500" />
                 <span>{tPdp.weight}</span>
               </div>
-              <div className="font-bold text-slate-900 text-sm">{product.weightKg ? `${product.weightKg} kg` : '-'}</div>
+              <div className="k146">{product.weightKg ? `${product.weightKg} kg` : '-'}</div>
             </div>
 
             {product.rangeKmEst && (
             <div className="p-3 bg-slate-50 rounded-xl">
-              <div className="text-slate-500 flex items-center gap-1 mb-1">
+              <div className="k530">
                 <Gauge className="w-3.5 h-3.5 text-emerald-500" />
                 <span>{tPdp.range}</span>
               </div>
-              <div className="font-bold text-slate-900 text-sm">
+              <div className="k146">
                 {`${tPdp.upTo} ${product.rangeKmEst.max} km`}
               </div>
             </div>
@@ -218,35 +218,35 @@ export function ProductDetailView({
             <div className="flex items-center gap-2">
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
                 
-                className="font-bold text-xs uppercase tracking-wider text-red-600 hover:underline cursor-pointer"
+                className="k531"
               >
                 {brand?.name}
               </NavLink>
               <span className="text-slate-300">·</span>
-              <span className="text-xs text-slate-500 lowercase">{category?.name[lang]}</span>
+              <span className="k532">{category?.name[lang]}</span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            <h1 className="k477">
               {product.name}
             </h1>
 
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <p className="k533">
               {describeProduct(product, lang)}
             </p>
           </div>
 
           {/* Pricing Box in Swiss Francs (CHF) */}
-          <div className="bg-slate-50 border border-slate-200/90 rounded-3xl p-6 space-y-4">
-            <div className="flex items-baseline justify-between">
+          <div className="k534">
+            <div className="k535">
               <div>
                 <span className="text-xs text-slate-500 block">{tPdp.retailPrice}</span>
-                <span className="text-3xl font-black text-slate-900 font-mono tracking-tight">
+                <span className="k536">
                   {product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
                 </span>
               </div>
               <div className="text-right">
-                <span className="inline-flex items-center gap-1 text-emerald-800 bg-emerald-100/80 px-2.5 py-1 rounded-full text-xs font-bold">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
+                <span className="k537">
+                  <span className="k538" />
                   <span>UVP {product.year}</span>
                 </span>
               </div>
@@ -256,36 +256,36 @@ export function ProductDetailView({
             {product.trustpilotStats && (
               <div
                 onClick={() => setActiveTab('reviews')}
-                className="p-3 bg-white rounded-2xl border border-slate-200/90 hover:border-emerald-500 transition-all cursor-pointer flex items-center justify-between shadow-xs group"
+                className="k539 group"
               >
                 <div className="flex items-center gap-2.5">
                   <div className="flex items-center gap-0.5">
                     {[1, 2, 3, 4, 5].map((s) => (
-                      <div key={s} className="w-4 h-4 bg-[#00b67a] rounded-xs flex items-center justify-center text-white">
+                      <div key={s} className="k540">
                         <Star className="w-2.5 h-2.5 fill-current" />
                       </div>
                     ))}
                   </div>
                   <div className="text-xs">
                     <span className="font-bold text-slate-900">{product.trustpilotStats.badgeText[lang]}</span>
-                    <span className="font-mono font-bold text-slate-700 ml-1">
+                    <span className="k541">
                       {product.trustpilotStats.score}
                     </span>
-                    <span className="text-slate-500 text-[11px] ml-1">
+                    <span className="k235">
                       / 5 auf <strong className="text-slate-800">Trustpilot</strong>
                     </span>
                   </div>
                 </div>
 
-                <span className="text-[11px] font-bold text-emerald-700 group-hover:underline">
+                <span className="k542">
                   {product.trustpilotStats.reviewCount} verifiziert →
                 </span>
               </div>
             )}
 
             {/* Swiss Canton Subsidy Tip */}
-            <div className="p-3 bg-emerald-50/70 border border-emerald-200 rounded-2xl flex items-start gap-2.5 text-xs text-emerald-950">
-              <Coins className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+            <div className="k543">
+              <Coins className="k544" />
               <div>
                 <strong className="font-bold">{tPdp.subsidyTipTitle}:</strong> {tPdp.subsidyTipDesc}
               </div>
@@ -295,7 +295,7 @@ export function ProductDetailView({
             <div className="space-y-2 pt-2">
               <button
                 onClick={() => onOpenOrder(product)}
-                className="w-full py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold rounded-2xl shadow-lg shadow-red-600/30 transition-all flex items-center justify-center gap-2 cursor-pointer text-sm"
+                className="k545"
               >
                 <Coins className="w-4 h-4" />
                 <span>{lang === 'fr' ? 'Commander par virement bancaire' : lang === 'it' ? 'Ordina con bonifico bancario' : 'Per Banküberweisung bestellen'}</span>
@@ -303,7 +303,7 @@ export function ProductDetailView({
 
               <button
                 onClick={() => onOpenTestRide(product)}
-                className="w-full py-3 bg-white hover:bg-slate-50 text-slate-900 border border-slate-300 font-bold rounded-2xl transition-all flex items-center justify-center gap-2 cursor-pointer text-sm"
+                className="k546"
               >
                 <Calendar className="w-4 h-4" />
                 <span>{tPdp.bookTestRideBtn}</span>
@@ -325,14 +325,14 @@ export function ProductDetailView({
 
           {/* Primary Test Verdict Snapshot */}
           {product.testVerdicts[0] && (
-            <div className="bg-white border border-slate-200/90 rounded-2xl p-4 flex items-start gap-3">
-              <div className="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center font-black text-xs shrink-0">
+            <div className="k547">
+              <div className="k548">
                 {product.testVerdicts[0].source}
               </div>
               <div className="text-xs space-y-1">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-slate-900">{product.testVerdicts[0].scoreText}</span>
-                  <span className="text-[10px] bg-red-100 text-red-700 px-2 py-0.5 rounded-full font-bold">
+                  <span className="k549">
                     {product.testVerdicts[0].badge}
                   </span>
                 </div>
@@ -347,7 +347,7 @@ export function ProductDetailView({
 
       {/* Tabs: Tests / Legit Reviews / Detailed Technical Specs */}
       <div className="space-y-6">
-        <div className="flex border-b border-slate-200 text-sm font-bold gap-6">
+        <div className="k550">
           {product.testVerdicts.length > 0 && (
           <button
             onClick={() => setActiveTab('tests')}
@@ -366,7 +366,7 @@ export function ProductDetailView({
             }`}
           >
             <span>{tPdp.tabReviews}</span>
-            <span className="px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-mono">
+            <span className="k551 py-0.2">
               ★ {product.trustpilotStats?.score || 4.7}
             </span>
           </button>
@@ -383,40 +383,40 @@ export function ProductDetailView({
 
         {/* Tab 1: Legit Test Verdicts from TCS, Kassensturz, Velojournal */}
         {activeTab === 'tests' && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="k337">
             {product.testVerdicts.map((tv, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-3xl border border-slate-200 p-6 shadow-xs space-y-4"
+                className="k552"
               >
-                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                <div className="k381">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-slate-900 text-white font-black text-xs flex items-center justify-center">
+                    <div className="k553">
                       {tv.source}
                     </div>
                     <div>
-                      <div className="font-bold text-slate-900 text-xs">
+                      <div className="k554">
                         {tv.source} {tPdp.testReportOf} ({tv.year})
                       </div>
-                      <div className="text-[11px] text-red-600 font-bold">{tv.scoreText}</div>
+                      <div className="k555">{tv.scoreText}</div>
                     </div>
                   </div>
-                  <span className="text-[10px] font-bold bg-slate-100 text-slate-700 px-2 py-0.5 rounded-full">
+                  <span className="k556">
                     {tv.badge}
                   </span>
                 </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed">
+                <p className="k557">
                   {tv.summary[lang]}
                 </p>
 
-                <div className="grid grid-cols-2 gap-3 text-xs pt-2">
-                  <div className="space-y-1.5 bg-emerald-50/60 p-3 rounded-xl border border-emerald-100">
-                    <div className="font-bold text-emerald-900 flex items-center gap-1 text-[11px]">
+                <div className="k558">
+                  <div className="k559">
+                    <div className="k560">
                       <ThumbsUp className="w-3.5 h-3.5 text-emerald-600" />
                       <span>{tPdp.pros}</span>
                     </div>
-                    <ul className="space-y-1 text-emerald-950 text-[11px]">
+                    <ul className="k561">
                       {tv.pros.map((p, i) => (
                         <li key={i} className="flex items-start gap-1">
                           <span className="text-emerald-600 font-bold">✓</span>
@@ -426,12 +426,12 @@ export function ProductDetailView({
                     </ul>
                   </div>
 
-                  <div className="space-y-1.5 bg-amber-50/60 p-3 rounded-xl border border-amber-100">
-                    <div className="font-bold text-amber-900 flex items-center gap-1 text-[11px]">
+                  <div className="k562">
+                    <div className="k563">
                       <ThumbsDown className="w-3.5 h-3.5 text-amber-600" />
                       <span>{tPdp.cons}</span>
                     </div>
-                    <ul className="space-y-1 text-amber-950 text-[11px]">
+                    <ul className="k564">
                       {tv.cons.map((c, i) => (
                         <li key={i} className="flex items-start gap-1">
                           <span className="text-amber-600 font-bold">✗</span>
@@ -450,23 +450,23 @@ export function ProductDetailView({
         {activeTab === 'reviews' && (
           <div className="space-y-6">
             {/* Trustpilot & Verified Site Aggregate Hero Header */}
-            <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-xs">
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+            <div className="k565">
+              <div className="k566">
                 {/* Score & Stars Block */}
-                <div className="md:col-span-5 border-b md:border-b-0 md:border-r border-slate-100 pb-6 md:pb-0 md:pr-6 space-y-2">
+                <div className="k567">
                   <div className="flex items-center gap-2">
-                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200/80 flex items-center gap-1">
+                    <span className="k568">
                       <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                       <span>{tPdp.trustpilotVerifiedTitle}</span>
                     </span>
                   </div>
 
-                  <div className="flex items-baseline gap-3 pt-1">
-                    <span className="text-4xl sm:text-5xl font-black text-slate-900 font-mono tracking-tight">
+                  <div className="k569">
+                    <span className="k570">
                       {product.trustpilotStats?.score || 4.7}
                     </span>
                     <div>
-                      <div className="font-bold text-base text-slate-900">
+                      <div className="k571">
                         {product.trustpilotStats?.badgeText[lang] || 'Hervorragend'}
                       </div>
                       <div className="text-xs text-slate-500">
@@ -480,65 +480,65 @@ export function ProductDetailView({
                     {[1, 2, 3, 4, 5].map((star) => (
                       <div
                         key={star}
-                        className="w-7 h-7 rounded-xs bg-[#00b67a] flex items-center justify-center text-white shadow-xs"
+                        className="k572"
                       >
                         <Star className="w-4 h-4 fill-current" />
                       </div>
                     ))}
-                    <span className="text-xs font-bold text-slate-700 ml-2 font-mono">
+                    <span className="k573">
                       {product.trustpilotStats?.reviewCount || 38} {lang === 'fr' ? 'avis vérifiés' : lang === 'it' ? 'recensioni verificate' : 'verifizierte Bewertungen'}
                     </span>
                   </div>
 
-                  <p className="text-[11px] text-slate-500 pt-1 leading-relaxed">
+                  <p className="k574">
                     {tPdp.independentSourceNote}
                   </p>
                 </div>
 
                 {/* Rating Distribution Bars */}
-                <div className="md:col-span-7 space-y-2 text-xs">
+                <div className="k575">
                   <div className="flex items-center gap-3">
-                    <span className="w-12 text-slate-600 font-semibold">5 Sterne</span>
-                    <div className="flex-1 h-2.5 bg-slate-100 rounded-full overflow-hidden">
-                      <div className="h-full bg-[#00b67a] rounded-full" style={{ width: '85%' }} />
+                    <span className="k576">5 Sterne</span>
+                    <div className="k577">
+                      <div className="k578" style={{ width: '85%' }} />
                     </div>
-                    <span className="w-10 text-right font-mono text-slate-500">85%</span>
+                    <span className="k579">85%</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="w-12 text-slate-600 font-semibold">4 Sterne</span>
-                    <div className="flex-1 h-2.5 bg-slate-100 rounded-full overflow-hidden">
-                      <div className="h-full bg-[#00b67a] rounded-full" style={{ width: '12%' }} />
+                    <span className="k576">4 Sterne</span>
+                    <div className="k577">
+                      <div className="k578" style={{ width: '12%' }} />
                     </div>
-                    <span className="w-10 text-right font-mono text-slate-500">12%</span>
+                    <span className="k579">12%</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="w-12 text-slate-600 font-semibold">3 Sterne</span>
-                    <div className="flex-1 h-2.5 bg-slate-100 rounded-full overflow-hidden">
-                      <div className="h-full bg-amber-400 rounded-full" style={{ width: '3%' }} />
+                    <span className="k576">3 Sterne</span>
+                    <div className="k577">
+                      <div className="k580" style={{ width: '3%' }} />
                     </div>
-                    <span className="w-10 text-right font-mono text-slate-500">3%</span>
+                    <span className="k579">3%</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="w-12 text-slate-600 font-semibold">2 Sterne</span>
-                    <div className="flex-1 h-2.5 bg-slate-100 rounded-full overflow-hidden">
-                      <div className="h-full bg-slate-300 rounded-full" style={{ width: '0%' }} />
+                    <span className="k576">2 Sterne</span>
+                    <div className="k577">
+                      <div className="k581" style={{ width: '0%' }} />
                     </div>
-                    <span className="w-10 text-right font-mono text-slate-500">0%</span>
+                    <span className="k579">0%</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="w-12 text-slate-600 font-semibold">1 Stern</span>
-                    <div className="flex-1 h-2.5 bg-slate-100 rounded-full overflow-hidden">
-                      <div className="h-full bg-slate-300 rounded-full" style={{ width: '0%' }} />
+                    <span className="k576">1 Stern</span>
+                    <div className="k577">
+                      <div className="k581" style={{ width: '0%' }} />
                     </div>
-                    <span className="w-10 text-right font-mono text-slate-500">0%</span>
+                    <span className="k579">0%</span>
                   </div>
                 </div>
               </div>
 
               {/* Source Filter Tabs */}
-              <div className="mt-6 pt-6 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+              <div className="k582">
                 <div className="flex items-center gap-2">
-                  <span className="text-xs font-bold text-slate-700">Quelle:</span>
+                  <span className="k583">Quelle:</span>
                   <button
                     onClick={() => setReviewFilter('all')}
                     className={`px-3 py-1 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
@@ -578,45 +578,45 @@ export function ProductDetailView({
             </div>
 
             {/* Individual Reviews Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="k584">
               {filteredReviews.map((rev) => {
                 const isTrustpilot = rev.sourcePlatform === 'Trustpilot';
                 const hasVotedHelpful = helpfulVotes[rev.id];
 
                 return (
-                  <div key={rev.id} className="bg-white rounded-3xl border border-slate-200 p-6 space-y-4 hover:shadow-md transition-shadow">
+                  <div key={rev.id} className="k585">
                     {/* Header info */}
-                    <div className="flex items-start justify-between gap-3">
+                    <div className="k586">
                       <div>
                         {/* Verified Badge */}
-                        <div className="flex items-center gap-1.5 mb-1">
+                        <div className="k587">
                           {isTrustpilot ? (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-900 border border-emerald-200 text-[10px] font-bold">
-                              <span className="w-2 h-2 rounded-full bg-[#00b67a]" />
+                            <span className="k588">
+                              <span className="k52" />
                               <span>Trustpilot verifiziert</span>
                             </span>
                           ) : (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-50 text-blue-900 border border-blue-200 text-[10px] font-bold">
-                              <span className="w-2 h-2 rounded-full bg-blue-600" />
+                            <span className="k589">
+                              <span className="k590" />
                               <span>Google Rezension</span>
                             </span>
                           )}
 
                           {rev.orderRef && (
-                            <span className="text-[10px] text-slate-500 font-mono">
+                            <span className="k591">
                               #{rev.orderRef}
                             </span>
                           )}
                         </div>
 
-                        <div className="font-bold text-slate-900 text-xs flex items-center gap-2">
+                        <div className="k592">
                           <span>{rev.author}</span>
-                          <span className="text-[10px] bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded font-mono">
+                          <span className="k593">
                             Kanton {rev.canton}
                           </span>
                         </div>
 
-                        <div className="text-[10px] text-slate-500 mt-0.5">
+                        <div className="k594">
                           {rev.kmRidden.toLocaleString('de-CH')} {tPdp.kmRidden} · {tPdp.date} {rev.date}
                         </div>
                       </div>
@@ -640,23 +640,23 @@ export function ProductDetailView({
                       </div>
                     </div>
 
-                    <h3 className="font-bold text-xs text-slate-900">{rev.title}</h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">{rev.comment}</p>
+                    <h3 className="k595">{rev.title}</h3>
+                    <p className="k557">{rev.comment}</p>
 
                     {/* Pros & Cons */}
-                    <div className="grid grid-cols-2 gap-2 pt-2 text-[11px]">
-                      <div className="text-emerald-800 bg-emerald-50/80 p-2.5 rounded-xl border border-emerald-100/70">
-                        <span className="font-bold block mb-0.5 text-emerald-900">{tPdp.top}</span>
+                    <div className="k596">
+                      <div className="k597">
+                        <span className="k598">{tPdp.top}</span>
                         <span>{rev.pros.join(', ')}</span>
                       </div>
-                      <div className="text-slate-700 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
-                        <span className="font-bold block mb-0.5 text-slate-800">{tPdp.note}</span>
+                      <div className="k599">
+                        <span className="k600">{tPdp.note}</span>
                         <span>{rev.cons.join(', ')}</span>
                       </div>
                     </div>
 
                     {/* Helpful interaction footer */}
-                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+                    <div className="k601">
                       <span>{tPdp.helpfulQuestion}</span>
                       <button
                         onClick={() => handleHelpfulClick(rev.id)}
@@ -679,52 +679,52 @@ export function ProductDetailView({
 
         {/* Tab 3: Detailed Tech Specs Table */}
         {activeTab === 'specs' && (
-          <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden text-xs">
+          <div className="k602">
             <table className="w-full border-collapse">
               <tbody className="divide-y divide-slate-100">
                 <tr className="bg-slate-50">
-                  <td className="p-3.5 font-bold text-slate-700 w-1/3">{tPdp.motorSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.motorModel, lang)} ({product.torqueNm ? `${product.torqueNm} Nm` : '-'})</td>
+                  <td className="k603">{tPdp.motorSpec}</td>
+                  <td className="k604">{localizeSpec(product.motorModel, lang)} ({product.torqueNm ? `${product.torqueNm} Nm` : '-'})</td>
                 </tr>
                 <tr>
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.batterySpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.batteryWh} Wh</td>
+                  <td className="k605">{tPdp.batterySpec}</td>
+                  <td className="k604">{product.batteryWh} Wh</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.speedSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">
+                  <td className="k605">{tPdp.speedSpec}</td>
+                  <td className="k604">
                     {product.speedMaxKmH} km/h ({product.speedClass === 'e-bike-45' ? '45 km/h S-Pedelec' : '25 km/h'})
                   </td>
                 </tr>
                 <tr>
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.gearsSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.gears, lang)}</td>
+                  <td className="k605">{tPdp.gearsSpec}</td>
+                  <td className="k604">{localizeSpec(product.specs.gears, lang)}</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.brakesSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.brakes, lang)}</td>
+                  <td className="k605">{tPdp.brakesSpec}</td>
+                  <td className="k604">{localizeSpec(product.specs.brakes, lang)}</td>
                 </tr>
                 <tr>
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.forkSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.fork, lang)}</td>
+                  <td className="k605">{tPdp.forkSpec}</td>
+                  <td className="k604">{localizeSpec(product.specs.fork, lang)}</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.frameSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">
+                  <td className="k605">{tPdp.frameSpec}</td>
+                  <td className="k604">
                     {localizeSpec(product.frameMaterial, lang)} · {frameTypeLabel}
                   </td>
                 </tr>
                 <tr>
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.sizesSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.frameSizes.join(', ')}</td>
+                  <td className="k605">{tPdp.sizesSpec}</td>
+                  <td className="k604">{product.frameSizes.join(', ')}</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.weightSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{product.weightKg ? `${product.weightKg} kg` : '-'}</td>
+                  <td className="k605">{tPdp.weightSpec}</td>
+                  <td className="k604">{product.weightKg ? `${product.weightKg} kg` : '-'}</td>
                 </tr>
                 <tr>
-                  <td className="p-3.5 font-bold text-slate-700">{tPdp.lightingSpec}</td>
-                  <td className="p-3.5 font-medium text-slate-900">{localizeSpec(product.specs.lighting, lang)} · {localizeSpec(product.specs.display, lang)}</td>
+                  <td className="k605">{tPdp.lightingSpec}</td>
+                  <td className="k604">{localizeSpec(product.specs.lighting, lang)} · {localizeSpec(product.specs.display, lang)}</td>
                 </tr>
               </tbody>
             </table>
@@ -733,15 +733,15 @@ export function ProductDetailView({
       </div>
 
       {/* Long-form description built from the product data */}
-      <section className="space-y-5 pt-6 border-t border-slate-200 max-w-3xl">
-        <h2 className="text-xl font-black text-slate-900 tracking-tight">
+      <section className="k606">
+        <h2 className="k144">
           {lang === 'fr' ? `À propos du ${product.name}` : lang === 'it' ? `Informazioni su ${product.name}` : `Über das ${product.name}`}
         </h2>
         {buildProductContent(product, lang).map((s) => (
           <div key={s.heading} className="space-y-2">
             <h3 className="font-bold text-slate-900">{s.heading}</h3>
             {s.paragraphs.map((para, i) => (
-              <p key={i} className="text-sm text-slate-700 leading-relaxed">{para}</p>
+              <p key={i} className="k131">{para}</p>
             ))}
           </div>
         ))}
@@ -758,7 +758,7 @@ export function ProductDetailView({
                     <NavLink
                       href={buildLocalizedUrl(lang, { lang, view: 'product', category: qc, productSlug: q.slug })}
                       onNavigate={onNavigate}
-                      className="text-red-700 hover:underline cursor-pointer"
+                      className="k134"
                     >
                       {q.name}
                     </NavLink>{' '}
@@ -772,11 +772,11 @@ export function ProductDetailView({
       </section>
 
       {/* Related Models */}
-      <div className="space-y-6 pt-6 border-t border-slate-200">
-        <h2 className="text-xl font-black text-slate-900 tracking-tight">
+      <div className="k607">
+        <h2 className="k144">
           {tPdp.relatedTitle} {category?.name[lang]}
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="k314">
           {relatedProducts.map((p) => (
             <ProductCard
               key={p.id}

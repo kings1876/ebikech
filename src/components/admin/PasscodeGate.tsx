@@ -86,9 +86,9 @@ export function PasscodeGate({ children }: { children: (signOut: () => void) => 
   if (state === 'open') return <AdminPasscodeContext.Provider value={session}>{children(signOut)}</AdminPasscodeContext.Provider>;
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 bg-slate-950 text-slate-100">
-      <div className="w-full max-w-sm rounded-2xl border border-slate-800 bg-slate-900 p-6 space-y-4">
-        <div className="text-xs font-bold uppercase tracking-widest" style={{ color: REPLY.brand.primary }}>Reply Portal</div>
+    <div className="k242">
+      <div className="k243">
+        <div className="k244" style={{ color: REPLY.brand.primary }}>Reply Portal</div>
         {state === 'checking' && <p className="text-sm text-slate-400">Wird geprüft …</p>}
         {state === 'not-configured' && (
           <p className="text-sm text-amber-300">
@@ -111,11 +111,11 @@ export function PasscodeGate({ children }: { children: (signOut: () => void) => 
               autoComplete="current-password"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              className="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2.5 text-sm outline-none focus:ring-2"
+              className="k245"
               style={{ ['--tw-ring-color' as string]: REPLY.brand.primary }}
             />
             {error && <p className="text-sm text-red-300" role="alert">{error}</p>}
-            <button type="submit" className="w-full rounded-lg py-2.5 text-sm font-bold text-white cursor-pointer" style={{ background: REPLY.brand.primary }}>
+            <button type="submit" className="k246" style={{ background: REPLY.brand.primary }}>
               Anmelden
             </button>
           </form>

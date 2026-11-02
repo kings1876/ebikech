@@ -26,7 +26,7 @@ import {
   Smile,
   Check,
   Mail,
-} from 'lucide-react';
+} from './icons';
 import { CONTACT } from '../config/contact';
 import { NavLink } from './NavLink';
 import { LogoMark } from './Logo';
@@ -122,32 +122,32 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
 
   return (
     <>
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs">
+    <header className="k72">
       {/* Top Banner: Swiss Official Quality & Language Switcher */}
-      <div className="bg-slate-900 text-slate-200 text-xs py-1.5 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="k73">
+        <div className="k74">
           <div className="flex items-center gap-2">
-            <span className="inline-flex items-center justify-center w-4 h-4 bg-red-600 text-white font-bold text-[10px] rounded-xs shadow-xs">
+            <span className="k75">
               +
             </span>
-            <span className="font-medium text-slate-300 hidden sm:inline">
+            <span className="k76">
               {t.header.topBanner}
             </span>
-            <span className="font-medium text-slate-300 sm:hidden">
+            <span className="k77">
               {portalName} – {ALL_PRODUCTS.length} {t.header.models}
             </span>
           </div>
 
           <div className="flex items-center gap-4">
             {CONTACT.email && (
-              <a href={`mailto:${CONTACT.email}`} className="hidden sm:inline-flex items-center gap-1.5 py-1 font-semibold text-white hover:text-red-300 transition-colors">
+              <a href={`mailto:${CONTACT.email}`} className="k78">
                 <Mail className="w-3.5 h-3.5 text-red-400" />
                 <span>{CONTACT.email}</span>
               </a>
             )}
 
             {/* Language Switcher */}
-            <div className="flex items-center bg-slate-800 rounded-md p-0.5 border border-slate-700">
+            <div className="k79">
               <button
                 onClick={() => handleLanguageChange('de')}
                 className={`px-2 py-0.5 rounded text-[11px] font-bold transition-colors cursor-pointer ${
@@ -181,24 +181,24 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
       </div>
 
       {/* Main Nav Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center gap-4 lg:gap-6">
+      <div className="k80">
         {/* Brand Logo */}
         <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
           
-          className="flex items-center gap-2.5 text-left group cursor-pointer shrink-0"
+          className="k81 group"
         >
-          <LogoMark className="w-9 h-9 shadow-md shadow-red-600/20 rounded-xl group-hover:scale-105 transition-transform" />
+          <LogoMark className="k82" />
           <div className="leading-none">
-            <div className="text-xl font-black tracking-tight text-slate-900 flex items-center gap-1.5">
+            <div className="k83">
               <span>{wordmark.lead}</span>
               <span className="text-red-600 font-semibold">{wordmark.tail}</span>
             </div>
-            <p className="hidden xl:block text-[10px] text-slate-600 font-medium mt-1">{t.header.tagline}</p>
+            <p className="k84">{t.header.tagline}</p>
           </div>
         </NavLink>
 
         {/* Desktop Menu Links */}
-        <nav className="hidden lg:flex items-center gap-1 ml-2" aria-label="Main">
+        <nav className="k85" aria-label="Main">
           {/* Catalogue */}
           <div
             className="relative"
@@ -217,29 +217,29 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
             </NavLink>
             {catDropdownOpen && (
-              <div className="absolute left-0 top-full pt-2 z-50">
-                <div className="w-[460px] bg-white rounded-2xl shadow-2xl border border-slate-200/90 p-3">
+              <div className="k86">
+                <div className="k87">
                   <div className="grid grid-cols-2 gap-1">
                     {activeCats.map((cat) => (
                       <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
                         key={cat.id}
                         onClick={() => { setCatDropdownOpen(false); }}
-                        className="flex items-center justify-between gap-2 px-3 py-2.5 rounded-xl hover:bg-slate-50 text-left transition-colors cursor-pointer group"
+                        className="k88 group"
                       >
-                        <span className="flex items-center gap-2.5 min-w-0">
+                        <span className="k89">
                           <span className="shrink-0">{CATEGORY_ICONS[cat.id]}</span>
-                          <span className="text-sm font-semibold text-slate-800 group-hover:text-red-700 truncate">{cat.name[lang]}</span>
+                          <span className="k90">{cat.name[lang]}</span>
                         </span>
-                        <span className="text-xs text-slate-500 font-mono">{catCounts[cat.id]}</span>
+                        <span className="k91">{catCounts[cat.id]}</span>
                       </NavLink>
                     ))}
                   </div>
                   <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
                     onClick={() => { setCatDropdownOpen(false); }}
-                    className="mt-2 w-full flex items-center justify-between px-3 py-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-sm font-semibold text-slate-800 cursor-pointer"
+                    className="k92"
                   >
                     <span>{t.header.allCategories}</span>
-                    <span className="text-red-600 font-mono text-xs">{ALL_PRODUCTS.length}</span>
+                    <span className="k93">{ALL_PRODUCTS.length}</span>
                   </NavLink>
                 </div>
               </div>
@@ -264,20 +264,20 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
             </NavLink>
             {brandDropdownOpen && (
-              <div className="absolute left-0 top-full pt-2 z-50">
-                <div className="w-[420px] bg-white rounded-2xl shadow-2xl border border-slate-200/90 p-3">
+              <div className="k86">
+                <div className="k94">
                   <div className="grid grid-cols-2 gap-1">
                     {activeBrands.map((brand) => (
                       <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
                         key={brand.id}
                         onClick={() => { setBrandDropdownOpen(false); }}
-                        className="flex items-center justify-between gap-2 px-3 py-2 rounded-xl hover:bg-slate-50 text-left cursor-pointer group"
+                        className="k95 group"
                       >
-                        <span className="text-sm font-semibold text-slate-800 group-hover:text-red-700 flex items-center gap-1.5">
+                        <span className="k96">
                           {brand.name}
                           {brand.isSwiss && <span className="text-[11px]" title="Swiss">🇨🇭</span>}
                         </span>
-                        <span className="text-xs text-slate-500 font-mono">{brandCounts[brand.id]}</span>
+                        <span className="k91">{brandCounts[brand.id]}</span>
                       </NavLink>
                     ))}
                   </div>
@@ -304,16 +304,16 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
             </NavLink>
             {guideDropdownOpen && (
-              <div className="absolute left-0 top-full pt-2 z-50">
-                <div className="w-[380px] bg-white rounded-2xl shadow-2xl border border-slate-200/90 p-3 space-y-1">
+              <div className="k86">
+                <div className="k97">
                   {GUIDE_CLUSTERS.map((cl) => (
                     <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
                       key={cl.id}
                       onClick={() => { setGuideDropdownOpen(false); }}
-                      className="w-full text-left p-2.5 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer group"
+                      className="k98 group"
                     >
-                      <div className="font-semibold text-sm text-slate-800 group-hover:text-red-700">{cl.title[lang]}</div>
-                      <div className="text-xs text-slate-600 line-clamp-1 mt-0.5">{cl.shortDesc[lang]}</div>
+                      <div className="k99">{cl.title[lang]}</div>
+                      <div className="k100">{cl.shortDesc[lang]}</div>
                     </NavLink>
                   ))}
                 </div>
@@ -343,7 +343,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
         </nav>
 
         {/* Search & actions */}
-        <div className="flex items-center gap-2 ml-auto">
+        <div className="k101">
           <div className="relative hidden md:block" ref={searchRef}>
             <form onSubmit={handleSearchSubmit} className="relative" role="search">
               <input
@@ -353,17 +353,17 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onFocus={() => setSearchFocused(true)}
-                className="w-40 sm:w-56 xl:w-72 pl-9 pr-3 py-2 text-sm bg-slate-100 border border-transparent rounded-full focus:outline-hidden focus:ring-2 focus:ring-red-500 focus:bg-white focus:border-slate-200 transition-all"
+                className="k102"
               />
-              <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+              <Search className="k103" />
             </form>
 
             {searchFocused && searchResults.length > 0 && (
-              <div className="absolute right-0 top-full mt-2 w-80 bg-white rounded-2xl shadow-2xl border border-slate-200 p-2 z-50">
-                <div className="text-[10px] font-bold uppercase tracking-wider text-slate-600 px-3 py-1 border-b border-slate-100">
+              <div className="k104">
+                <div className="k105">
                   {t.header.quickResults}
                 </div>
-                <div className="divide-y divide-slate-100 mt-1">
+                <div className="k106">
                   {searchResults.map((product) => {
                     const cat = CATEGORIES.find((c) => c.id === product.categoryId);
                     return (
@@ -375,13 +375,13 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
                             onNavigate(buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: product.slug }));
                           }
                         }}
-                        className="w-full text-left p-2 hover:bg-slate-50 flex items-center justify-between gap-2 text-xs cursor-pointer rounded-lg"
+                        className="k107"
                       >
                         <div className="min-w-0">
-                          <div className="font-semibold text-slate-900 truncate">{product.name}</div>
-                          <div className="text-[10px] text-slate-600 truncate">{product.motorModel} · {product.batteryWh} Wh</div>
+                          <div className="k108">{product.name}</div>
+                          <div className="k109">{product.motorModel} · {product.batteryWh} Wh</div>
                         </div>
-                        <div className="font-bold text-red-600 font-mono text-[11px] shrink-0">
+                        <div className="k110">
                           {product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
                         </div>
                       </button>
@@ -394,7 +394,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 cursor-pointer"
+            className="k111"
             aria-label="Menu"
             aria-expanded={mobileMenuOpen}
           >
@@ -405,7 +405,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-slate-200 px-4 py-4 space-y-4 shadow-xl">
+        <div className="k112">
           <form onSubmit={(e) => { handleSearchSubmit(e); setMobileMenuOpen(false); }} role="search" className="relative md:hidden">
             <input
               type="text"
@@ -413,12 +413,12 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               aria-label={t.header.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-3 py-2.5 text-base bg-slate-100 border border-transparent rounded-xl focus:outline-hidden focus:ring-2 focus:ring-red-500 focus:bg-white"
+              className="k113"
             />
-            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Search className="k114" />
           </form>
 
-          <div className="grid grid-cols-3 gap-2 border-b border-slate-100 pb-3">
+          <div className="k115">
             <button
               onClick={() => handleLanguageChange('de')}
               className={`py-1.5 rounded-lg text-center font-bold text-xs ${lang === 'de' ? 'bg-red-600 text-white' : 'bg-slate-100 text-slate-700'}`}
@@ -440,28 +440,28 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           </div>
 
           <div className="space-y-1">
-            <div className="text-[11px] font-bold text-slate-600 uppercase tracking-wider px-2">{t.header.catalogue}</div>
+            <div className="k116">{t.header.catalogue}</div>
             {activeCats.map((cat) => (
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
                 key={cat.id}
                 onClick={() => { setMobileMenuOpen(false); }}
-                className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+                className="k117"
               >
                 <div className="flex items-center gap-2">
                   {CATEGORY_ICONS[cat.id]}
                   <span>{cat.name[lang]}</span>
                 </div>
-                <span className="text-[10px] text-slate-600 font-mono bg-slate-100 px-1.5 py-0.5 rounded">
+                <span className="k118">
                   {catCounts[cat.id]}
                 </span>
               </NavLink>
             ))}
           </div>
 
-          <div className="pt-2 border-t border-slate-100 space-y-1">
+          <div className="k119">
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
               onClick={() => { setMobileMenuOpen(false); }}
-              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+              className="k117"
             >
               <span>{t.header.brands}</span>
               <Award className="w-4 h-4 text-amber-500" />
@@ -469,7 +469,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
 
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
               onClick={() => { setMobileMenuOpen(false); }}
-              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+              className="k117"
             >
               <span>{t.header.guides}</span>
               <BookOpen className="w-4 h-4 text-blue-500" />
@@ -477,7 +477,7 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
 
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-root' })} onNavigate={onNavigate}
               onClick={() => { setMobileMenuOpen(false); }}
-              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+              className="k117"
             >
               <span>Blog</span>
               <BookOpen className="w-4 h-4 text-slate-400" />
@@ -485,18 +485,18 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
 
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'faq' })} onNavigate={onNavigate}
               onClick={() => { setMobileMenuOpen(false); }}
-              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+              className="k117"
             >
               <span>FAQ</span>
-              <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
+              <ChevronDown className="k120" />
             </NavLink>
 
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
               onClick={() => { setMobileMenuOpen(false); }}
-              className="w-full flex items-center justify-between p-2 rounded-lg text-left text-xs font-semibold text-slate-800 hover:bg-slate-50"
+              className="k117"
             >
               <span>{lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}</span>
-              <ChevronDown className="w-4 h-4 text-slate-400 -rotate-90" />
+              <ChevronDown className="k120" />
             </NavLink>
           </div>
         </div>
@@ -505,12 +505,12 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
     {compareCount > 0 && (
       <button
         onClick={onOpenCompare}
-        className="fixed bottom-5 right-5 z-40 flex items-center gap-2 px-4 py-3 rounded-full bg-red-600 text-white text-sm font-bold shadow-xl shadow-red-600/30 hover:bg-red-700 cursor-pointer"
+        className="k121"
         aria-label={t.header.compare}
       >
         <SlidersHorizontal className="w-4 h-4" />
         <span>{t.header.compare}</span>
-        <span className="w-5 h-5 rounded-full bg-white text-red-600 text-[11px] font-black flex items-center justify-center">{compareCount}</span>
+        <span className="k122">{compareCount}</span>
       </button>
     )}
     </>

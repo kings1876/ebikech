@@ -15,7 +15,7 @@ import {
   Clock,
   User,
   ArrowRight,
-} from 'lucide-react';
+} from '../components/icons';
 import { NavLink } from '../components/NavLink';
 import { SITE_NAME } from '../config/brand';
 
@@ -53,49 +53,49 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
     const cluster = route.guideCluster;
 
     return (
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-8">
+      <div className="k409">
         {/* Breadcrumb Trail */}
-        <div className="flex items-center gap-2 text-xs text-slate-500 overflow-x-auto whitespace-nowrap">
+        <div className="k410">
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
             
-            className="hover:text-red-600 transition-colors cursor-pointer"
+            className="k295"
           >
             {I18N[lang].pdp.home}
           </NavLink>
-          <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
+          <ChevronRight className="k411" />
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
             
-            className="hover:text-red-600 transition-colors cursor-pointer"
+            className="k295"
           >
             {I18N[lang].header.guides}
           </NavLink>
-          <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
+          <ChevronRight className="k411" />
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
             
-            className="hover:text-red-600 transition-colors cursor-pointer"
+            className="k295"
           >
             {cluster.title[lang]}
           </NavLink>
-          <ChevronRight className="w-3 h-3 text-slate-500 shrink-0" />
-          <span className="font-bold text-slate-900 truncate">{article.title[lang]}</span>
+          <ChevronRight className="k411" />
+          <span className="k412">{article.title[lang]}</span>
         </div>
 
         {/* Article Header */}
-        <div className="space-y-4 border-b border-slate-200 pb-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold">
+        <div className="k413">
+          <div className="k414">
             <BookOpen className="w-3.5 h-3.5" />
             <span>{cluster.title[lang]}</span>
           </div>
 
-          <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight">
+          <h1 className="k415">
             {article.title[lang]}
           </h1>
 
-          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+          <p className="k416">
             {article.excerpt[lang]}
           </p>
 
-          <div className="flex items-center gap-4 text-xs text-slate-500 pt-1">
+          <div className="k417">
             <span className="flex items-center gap-1">
               <User className="w-3.5 h-3.5" />
               <span>{SITE_NAME[lang]}</span>
@@ -111,15 +111,15 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
         </div>
 
         {/* Key Takeaways Box */}
-        <div className="bg-slate-900 text-white rounded-3xl p-6 sm:p-7 space-y-3">
-          <div className="flex items-center gap-2 text-red-400 font-bold text-xs uppercase tracking-wider">
+        <div className="k418">
+          <div className="k419">
             <Sparkles className="w-4 h-4" />
             <span>{t.keyTakeawaysTitle}</span>
           </div>
-          <ul className="space-y-2 text-xs sm:text-sm text-slate-200">
+          <ul className="k420">
             {article.keyTakeaways.map((takeaway, i) => (
               <li key={i} className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                <CheckCircle2 className="k421" />
                 <span>{takeaway[lang]}</span>
               </li>
             ))}
@@ -128,10 +128,10 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 
         {/* Embedded Interactive Tools */}
         {article.id === 'rahmengroesse-berechnen' && (
-          <div className="bg-slate-50 border-2 border-red-500/20 rounded-3xl p-6 space-y-4">
+          <div className="k422">
             <div className="flex items-center gap-2">
               <Calculator className="w-5 h-5 text-red-600" />
-              <h2 className="text-lg font-black text-slate-900">
+              <h2 className="k130">
                 {t.calcTitle}
               </h2>
             </div>
@@ -139,10 +139,10 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
               {t.calcDesc}
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+            <div className="k423">
               <div>
-                <label className="text-xs font-bold text-slate-700 block mb-1">
-                  {t.inseamLabel} <strong className="text-red-600 font-mono text-base">{inseamCm} cm</strong>
+                <label className="k424">
+                  {t.inseamLabel} <strong className="k425">{inseamCm} cm</strong>
                 </label>
                 <input
                   type="range"
@@ -150,17 +150,17 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                   max="100"
                   value={inseamCm}
                   onChange={(e) => setInseamCm(parseInt(e.target.value, 10))}
-                  className="w-full accent-red-600 cursor-pointer"
+                  className="k426"
                 />
-                <div className="flex justify-between text-[10px] text-slate-500 mt-1">
+                <div className="k427">
                   <span>65 cm</span>
                   <span>100 cm</span>
                 </div>
               </div>
 
               <div>
-                <label className="text-xs font-bold text-slate-700 block mb-1">{t.typeLabel}</label>
-                <div className="grid grid-cols-3 gap-1.5 text-xs">
+                <label className="k424">{t.typeLabel}</label>
+                <div className="k428">
                   <button
                     onClick={() => setBikeType('trekking')}
                     className={`p-2 rounded-xl font-bold border transition-colors cursor-pointer ${
@@ -190,20 +190,20 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
             </div>
 
             {/* Result Box */}
-            <div className="p-4 bg-white rounded-2xl border border-slate-200 flex flex-wrap items-center justify-between gap-4">
+            <div className="k429">
               <div>
                 <span className="text-xs text-slate-500 block">{t.recommendedFrame}</span>
-                <span className="text-2xl font-black font-mono text-slate-900">
-                  {calculatedFrameCm} cm <span className="text-slate-500 font-normal text-sm">({calculatedFrameInch} {lang === 'fr' ? 'pouces' : lang === 'it' ? 'pollici' : 'Zoll'})</span>
+                <span className="k430">
+                  {calculatedFrameCm} cm <span className="k431">({calculatedFrameInch} {lang === 'fr' ? 'pouces' : lang === 'it' ? 'pollici' : 'Zoll'})</span>
                 </span>
               </div>
               <div>
                 <span className="text-xs text-slate-500 block">{t.sizeCode}</span>
-                <span className="text-2xl font-black text-red-600 font-mono">{lang === 'fr' ? 'Taille' : lang === 'it' ? 'Taglia' : 'Grösse'} {frameSizeTShirt}</span>
+                <span className="k432">{lang === 'fr' ? 'Taille' : lang === 'it' ? 'Taglia' : 'Grösse'} {frameSizeTShirt}</span>
               </div>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
                 
-                className="px-4 py-2 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-red-600 transition-colors cursor-pointer"
+                className="k433"
               >
                 {t.showMatchingBikes}
               </NavLink>
@@ -213,21 +213,21 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 
         {/* Embedded Swiss Legal 25 vs 45 Table */}
         {article.id === 'e-bike-25-vs-45-schweizer-gesetz' && (
-          <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs">
-            <div className="p-4 bg-slate-900 text-white font-bold text-sm flex items-center gap-2">
+          <div className="k434">
+            <div className="k435">
               <Scale className="w-4 h-4 text-amber-400" />
               <span>{t.legalTitle}</span>
             </div>
             <div className="overflow-x-auto">
-              <table className="w-full text-xs border-collapse">
+              <table className="k436">
                 <thead>
-                  <tr className="bg-slate-50 border-b border-slate-200 text-slate-700 font-bold">
+                  <tr className="k437">
                     <th className="p-3 text-left">{t.legalColLaw}</th>
-                    <th className="p-3 text-left text-emerald-800">{t.legalCol25}</th>
+                    <th className="k438">{t.legalCol25}</th>
                     <th className="p-3 text-left text-amber-900">{t.legalCol45}</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-100 text-slate-700">
+                <tbody className="k29">
                   <tr>
                     <td className="p-3 font-semibold">{lang === 'fr' ? 'Catégorie de véhicule' : lang === 'it' ? 'Categoria veicolo' : 'Fahrzeugkategorie'}</td>
                     <td className="p-3">{lang === 'fr' ? 'Cyclomoteur léger (25 km/h)' : lang === 'it' ? 'Ciclomotore leggero (25 km/h)' : 'Leicht-Motorfahrrad'}</td>
@@ -240,7 +240,7 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">{lang === 'fr' ? 'Plaque d’immatriculation & vignette' : lang === 'it' ? 'Targa & vignetta' : 'Kontrollschild & Vignette'}</td>
-                    <td className="p-3 text-emerald-700 font-medium">{lang === 'fr' ? 'Non (pas de plaque nécessaire)' : lang === 'it' ? 'No (nessuna targa necessaria)' : 'Nein (kein Nummernschild nötig)'}</td>
+                    <td className="k439">{lang === 'fr' ? 'Non (pas de plaque nécessaire)' : lang === 'it' ? 'No (nessuna targa necessaria)' : 'Nein (kein Nummernschild nötig)'}</td>
                     <td className="p-3 text-red-600 font-bold">{lang === 'fr' ? 'Oui (plaque jaune + vignette annuelle)' : lang === 'it' ? 'Sì (targa gialla + vignetta annuale)' : 'Ja (gelbes Mofa-Schild + jährliche Vignette)'}</td>
                   </tr>
                   <tr>
@@ -260,8 +260,8 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">{lang === 'fr' ? 'Pistes cyclables' : lang === 'it' ? 'Piste ciclabili' : 'Veloweg-Benutzung'}</td>
-                    <td className="p-3 text-emerald-700 font-medium">{lang === 'fr' ? 'Obligatoire' : lang === 'it' ? 'Obbligatorio' : 'Obligatorisch'}</td>
-                    <td className="p-3 text-emerald-700 font-medium">{lang === 'fr' ? 'Obligatoire (sauf interdiction cyclomoteurs)' : lang === 'it' ? 'Obbligatorio (salvo divieto ciclomotori)' : 'Obligatorisch (ausser bei Mofa-Fahrverbot)'}</td>
+                    <td className="k439">{lang === 'fr' ? 'Obligatoire' : lang === 'it' ? 'Obbligatorio' : 'Obligatorisch'}</td>
+                    <td className="k439">{lang === 'fr' ? 'Obligatoire (sauf interdiction cyclomoteurs)' : lang === 'it' ? 'Obbligatorio (salvo divieto ciclomotori)' : 'Obligatorisch (ausser bei Mofa-Fahrverbot)'}</td>
                   </tr>
                 </tbody>
               </table>
@@ -270,23 +270,23 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
         )}
 
         {/* Article Body Content */}
-        <div className="prose prose-slate max-w-none text-xs sm:text-sm leading-relaxed text-slate-700 space-y-4">
+        <div className="k440 prose prose-slate">
           <div className="whitespace-pre-line">
             {article.content[lang]}
           </div>
         </div>
 
         {/* Back Link */}
-        <div className="pt-6 border-t border-slate-200 flex items-center justify-between">
+        <div className="k441">
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cluster })} onNavigate={onNavigate}
             
-            className="text-xs font-bold text-slate-700 hover:text-red-600 transition-colors cursor-pointer"
+            className="k442"
           >
             ← {t.backTo} {cluster.title[lang]}
           </NavLink>
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
             
-            className="px-4 py-2 bg-red-600 text-white rounded-xl text-xs font-bold hover:bg-red-700 transition-colors cursor-pointer"
+            className="k367"
           >
             {t.findBikesCta}
           </NavLink>
@@ -300,18 +300,18 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
     const cluster = route.guideCluster;
 
     return (
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 space-y-8">
-        <div className="flex items-center gap-2 text-xs text-slate-500">
+      <div className="k443">
+        <div className="k294">
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'home' })} onNavigate={onNavigate}
             
-            className="hover:text-red-600 transition-colors cursor-pointer"
+            className="k295"
           >
             {I18N[lang].pdp.home}
           </NavLink>
           <ChevronRight className="w-3.5 h-3.5 text-slate-500" />
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-root' })} onNavigate={onNavigate}
             
-            className="hover:text-red-600 transition-colors cursor-pointer"
+            className="k295"
           >
             {I18N[lang].header.guides}
           </NavLink>
@@ -319,37 +319,37 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
           <span className="font-bold text-slate-900">{cluster.title[lang]}</span>
         </div>
 
-        <div className="border-b border-slate-200 pb-6 space-y-2">
-          <h1 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
+        <div className="k285">
+          <h1 className="k251">
             {cluster.title[lang]}
           </h1>
-          <p className="text-sm text-slate-600 max-w-2xl">
+          <p className="k444">
             {cluster.shortDesc[lang]}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="k445">
           {cluster.guides.map((g) => (
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-detail', guideCluster: cluster, guideArticle: g })} onNavigate={onNavigate}
               key={g.id}
               
-              className="bg-white rounded-3xl border border-slate-200/90 p-6 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
+              className="k446"
             >
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-[11px] text-slate-500">
+                <div className="k447">
                   <span>{SITE_NAME[lang]}</span>
                   <span>·</span>
                   <span>{g.readTimeMin} {t.readTime}</span>
                 </div>
-                <h2 className="font-black text-base text-slate-900 group-hover:text-red-600">
+                <h2 className="k448">
                   {g.title[lang]}
                 </h2>
-                <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                <p className="k449">
                   {g.excerpt[lang]}
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600">
+              <div className="k330">
                 <span>{t.readArticle}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </div>
@@ -364,39 +364,39 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 
   // Subview 3: Guide Root (/ratgeber/)
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-12">
-      <div className="border-b border-slate-200 pb-6 space-y-2">
-        <div className="text-red-600 font-bold text-xs uppercase tracking-wider">
+    <div className="k450">
+      <div className="k285">
+        <div className="k275">
           {t.badge}
         </div>
-        <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+        <h1 className="k276">
           {t.h1}
         </h1>
-        <p className="text-slate-600 text-xs sm:text-sm max-w-2xl leading-relaxed">
+        <p className="k286">
           {t.desc}
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="k337">
         {GUIDE_CLUSTERS.map((cl) => (
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
             key={cl.id}
             
-            className="bg-white rounded-3xl border border-slate-200/90 p-6 hover:border-red-500/50 hover:shadow-xl transition-all cursor-pointer flex flex-col justify-between"
+            className="k446"
           >
             <div>
-              <div className="w-12 h-12 rounded-2xl bg-slate-900 text-white flex items-center justify-center mb-4">
+              <div className="k451">
                 <BookOpen className="w-6 h-6 text-red-400" />
               </div>
-              <h2 className="text-xl font-black text-slate-900 mb-2">
+              <h2 className="k452">
                 {cl.title[lang]}
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+              <p className="k453">
                 {cl.shortDesc[lang]}
               </p>
             </div>
 
-            <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600">
+            <div className="k454">
               <span>{cl.guides.length} {lang === 'fr' ? 'articles spécialisés' : lang === 'it' ? 'articoli di approfondimento' : 'Fachartikel anzeigen'}</span>
               <ChevronRight className="w-4 h-4" />
             </div>
@@ -412,11 +412,11 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
 /** Leads from the guides into the shop: a short note plus links to the catalogue and every category. */
 function GuideShopBlock({ lang, onNavigate }: { lang: Language; onNavigate: (path: string) => void }) {
   return (
-    <section className="rounded-3xl border border-slate-200 bg-slate-50 p-6 space-y-3">
-      <h2 className="font-black text-base text-slate-900">
+    <section className="k455">
+      <h2 className="k372">
         {lang === 'fr' ? 'Du guide à la boutique' : lang === 'it' ? 'Dalla guida al negozio' : 'Vom Ratgeber in den Shop'}
       </h2>
-      <p className="text-sm text-slate-600 leading-relaxed">
+      <p className="k401">
         {lang === 'fr'
           ? 'Tous les vélos électriques de notre catalogue sont neufs et proviennent de notre propre stock. Les prix en CHF, les caractéristiques techniques et les modèles se trouvent dans les catégories et chez chaque marque ; ces guides vous aident à choisir le modèle qui vous convient.'
           : lang === 'it'
@@ -426,7 +426,7 @@ function GuideShopBlock({ lang, onNavigate }: { lang: Language; onNavigate: (pat
       <ul className="flex flex-wrap gap-2">
         <li>
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
-            className="inline-flex px-4 py-2 rounded-full bg-red-600 text-white text-sm font-semibold hover:bg-red-700 cursor-pointer"
+            className="k456"
           >
             {lang === 'fr' ? 'Tous les vélos électriques' : lang === 'it' ? 'Tutte le e-bike' : 'Alle E-Bikes'}
           </NavLink>
@@ -434,7 +434,7 @@ function GuideShopBlock({ lang, onNavigate }: { lang: Language; onNavigate: (pat
         {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).map((c) => (
           <li key={c.id}>
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: c })} onNavigate={onNavigate}
-              className="inline-flex px-3 py-2 rounded-full bg-white border border-slate-300 text-slate-800 text-sm hover:border-red-300 cursor-pointer"
+              className="k457"
             >
               {c.name[lang]}
             </NavLink>

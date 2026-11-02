@@ -2,7 +2,7 @@ import { FormEvent, useState } from 'react';
 import { Language } from '../types';
 import { CONTACT, hasContactDetails } from '../config/contact';
 import { buildLocalizedUrl } from '../utils/routes';
-import { Mail, Phone, MapPin, Clock, MessageCircle, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, MessageCircle, CheckCircle2, AlertCircle } from '../components/icons';
 import { NavLink } from '../components/NavLink';
 
 interface ContactViewProps {
@@ -109,43 +109,43 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
     'w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-base focus:outline-hidden focus:ring-2 focus:ring-red-500 focus:border-red-300';
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-8">
-      <header className="space-y-2 border-b border-slate-200 pb-6">
-        <div className="text-red-600 font-bold text-xs uppercase tracking-wider">{L.title[lang]}</div>
-        <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">{L.heading[lang]}</h1>
-        <p className="text-base text-slate-600 max-w-2xl">{L.intro[lang]}</p>
+    <div className="k384">
+      <header className="k274">
+        <div className="k275">{L.title[lang]}</div>
+        <h1 className="k276">{L.heading[lang]}</h1>
+        <p className="k277">{L.intro[lang]}</p>
       </header>
 
       <div className={`grid gap-8 ${CONTACT.formEnabled ? 'lg:grid-cols-5' : ''}`}>
         {hasContactDetails() && (
           <aside className={`space-y-4 ${CONTACT.formEnabled ? 'lg:col-span-2' : 'max-w-xl'}`}>
-            {CONTACT.businessName && <div className="text-lg font-bold text-slate-900">{CONTACT.businessName}</div>}
+            {CONTACT.businessName && <div className="k269">{CONTACT.businessName}</div>}
             {CONTACT.email && (
-              <a href={`mailto:${CONTACT.email}`} className="flex items-start gap-3 p-4 rounded-2xl border border-slate-200 bg-white hover:border-red-300 transition-colors">
+              <a href={`mailto:${CONTACT.email}`} className="k385">
                 <Mail className="w-5 h-5 text-red-600 mt-0.5" />
-                <div><div className="text-xs text-slate-500">{L.email[lang]}</div><div className="font-semibold text-slate-900 break-all">{CONTACT.email}</div></div>
+                <div><div className="text-xs text-slate-500">{L.email[lang]}</div><div className="k386">{CONTACT.email}</div></div>
               </a>
             )}
             {CONTACT.phone && (
-              <a href={`tel:${CONTACT.phone.replace(/[^+\d]/g, '')}`} className="flex items-start gap-3 p-4 rounded-2xl border border-slate-200 bg-white hover:border-red-300 transition-colors">
+              <a href={`tel:${CONTACT.phone.replace(/[^+\d]/g, '')}`} className="k385">
                 <Phone className="w-5 h-5 text-red-600 mt-0.5" />
                 <div><div className="text-xs text-slate-500">{L.phone[lang]}</div><div className="font-semibold text-slate-900">{CONTACT.phone}</div></div>
               </a>
             )}
             {CONTACT.whatsapp && (
-              <a href={`https://wa.me/${CONTACT.whatsapp}`} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 p-4 rounded-2xl border border-slate-200 bg-white hover:border-emerald-300 transition-colors">
-                <MessageCircle className="w-5 h-5 text-emerald-600 mt-0.5" />
+              <a href={`https://wa.me/${CONTACT.whatsapp}`} target="_blank" rel="noopener noreferrer" className="k387">
+                <MessageCircle className="k388" />
                 <div className="font-semibold text-slate-900">{L.whatsapp[lang]}</div>
               </a>
             )}
             {addressLine && (
-              <div className="flex items-start gap-3 p-4 rounded-2xl border border-slate-200 bg-white">
+              <div className="k389">
                 <MapPin className="w-5 h-5 text-red-600 mt-0.5" />
                 <div><div className="text-xs text-slate-500">{L.address[lang]}</div><div className="font-semibold text-slate-900">{addressLine}</div></div>
               </div>
             )}
             {hours && (
-              <div className="flex items-start gap-3 p-4 rounded-2xl border border-slate-200 bg-white">
+              <div className="k389">
                 <Clock className="w-5 h-5 text-red-600 mt-0.5" />
                 <div><div className="text-xs text-slate-500">{L.hours[lang]}</div><div className="font-semibold text-slate-900">{hours}</div></div>
               </div>
@@ -154,22 +154,22 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
         )}
 
         {CONTACT.formEnabled && (
-          <form onSubmit={submit} className="lg:col-span-3 rounded-3xl border border-slate-200 bg-slate-50 p-6 sm:p-8 space-y-4" noValidate>
-            <h2 className="text-xl font-bold text-slate-900">{L.formTitle[lang]}</h2>
+          <form onSubmit={submit} className="k390" noValidate>
+            <h2 className="k256">{L.formTitle[lang]}</h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              <label className="space-y-1.5 text-sm font-semibold text-slate-700">
+              <label className="k391">
                 {L.name[lang]}
                 <input name="name" required autoComplete="name" className={input} />
               </label>
-              <label className="space-y-1.5 text-sm font-semibold text-slate-700">
+              <label className="k391">
                 {L.emailField[lang]}
                 <input name="email" type="email" required autoComplete="email" className={input} />
               </label>
-              <label className="space-y-1.5 text-sm font-semibold text-slate-700">
+              <label className="k391">
                 {L.phoneField[lang]}
                 <input name="phone" type="tel" autoComplete="tel" className={input} />
               </label>
-              <label className="space-y-1.5 text-sm font-semibold text-slate-700">
+              <label className="k391">
                 {L.subject[lang]}
                 <select name="subject" className={input}>
                   {L.subjects[lang].map((s) => (
@@ -178,21 +178,21 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
                 </select>
               </label>
             </div>
-            <label className="block space-y-1.5 text-sm font-semibold text-slate-700">
+            <label className="k392">
               {L.message[lang]}
               <textarea name="message" required minLength={10} rows={6} className={input} />
             </label>
 
             {/* Honeypot: hidden from people, visible to bots */}
-            <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+            <div aria-hidden="true" className="k393">
               <label>Website<input name="website" tabIndex={-1} autoComplete="off" /></label>
             </div>
 
-            <label className="flex items-start gap-3 text-sm text-slate-600">
+            <label className="k394">
               <input type="checkbox" name="consent" required className="mt-1 w-4 h-4 accent-red-600" />
               <span>
                 {L.consent[lang]}{' '}
-                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}  className="underline text-red-700 cursor-pointer">
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}  className="k395">
                   {L.privacy[lang]}
                 </NavLink>
               </span>
@@ -201,29 +201,29 @@ export function ContactView({ lang, onNavigate }: ContactViewProps) {
             <button
               type="submit"
               disabled={state === 'sending'}
-              className="w-full sm:w-auto px-8 py-3 rounded-xl bg-red-600 text-white font-bold hover:bg-red-700 disabled:opacity-60 cursor-pointer"
+              className="k396"
             >
               {state === 'sending' ? L.sending[lang] : L.send[lang]}
             </button>
 
             <div aria-live="polite" className="text-sm">
               {state === 'ok' && (
-                <p className="flex items-start gap-2 text-emerald-700"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />{L.ok[lang]}</p>
+                <p className="k397"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />{L.ok[lang]}</p>
               )}
               {state === 'invalid' && (
-                <p className="flex items-start gap-2 text-amber-700"><AlertCircle className="w-4 h-4 mt-0.5 shrink-0" />{L.invalid[lang]}</p>
+                <p className="k398"><AlertCircle className="w-4 h-4 mt-0.5 shrink-0" />{L.invalid[lang]}</p>
               )}
               {state === 'error' && (
-                <p className="flex items-start gap-2 text-red-700"><AlertCircle className="w-4 h-4 mt-0.5 shrink-0" />{L.err[lang]}</p>
+                <p className="k399"><AlertCircle className="w-4 h-4 mt-0.5 shrink-0" />{L.err[lang]}</p>
               )}
             </div>
           </form>
         )}
       </div>
 
-      <section className="max-w-3xl space-y-2 border-t border-slate-200 pt-6">
-        <h2 className="text-lg font-bold text-slate-900">{L.tipsTitle[lang]}</h2>
-        <p className="text-sm text-slate-600 leading-relaxed">{L.tips[lang]}</p>
+      <section className="k400">
+        <h2 className="k269">{L.tipsTitle[lang]}</h2>
+        <p className="k401">{L.tips[lang]}</p>
       </section>
     </div>
   );

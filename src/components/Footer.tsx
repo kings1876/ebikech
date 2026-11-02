@@ -8,7 +8,7 @@ import { NavLink } from './NavLink';
 import { COLLECTIONS } from '../data/collections';
 import { SITE_NAME } from '../config/brand';
 import { CONTACT } from '../config/contact';
-import { Mail } from 'lucide-react';
+import { Mail } from './icons';
 import { LogoMark } from './Logo';
 
 interface FooterProps {
@@ -23,42 +23,42 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
   const portalName = SITE_NAME[lang];
 
   return (
-    <footer className="bg-slate-950 text-slate-400 text-xs border-t border-slate-800">
+    <footer className="k55">
       {/* Main Footer Links */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+      <div className="k56">
         {/* Col 1: Portal Summary */}
         <div className="lg:col-span-2 space-y-4">
           <div className="flex items-center gap-2">
             <LogoMark className="w-8 h-8 rounded-lg" />
-            <span className="text-xl font-black text-white tracking-tight">{portalName}</span>
+            <span className="k57">{portalName}</span>
           </div>
-          <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
+          <p className="k58">
             {t.portalDesc}
           </p>
 
           {CONTACT.email && (
-            <a href={`mailto:${CONTACT.email}`} className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-bold text-white hover:border-red-500 transition-colors break-all">
+            <a href={`mailto:${CONTACT.email}`} className="k59">
               <Mail className="w-4 h-4 text-red-400 shrink-0" />
               {CONTACT.email}
             </a>
           )}
 
-          <div className="pt-2 text-slate-400 text-[11px]">
+          <div className="k60">
             {t.dsgNote}
           </div>
         </div>
 
         {/* Col 2: Categories */}
         <div className="space-y-3">
-          <div className="font-bold text-white text-xs uppercase tracking-wider">
+          <div className="k61">
             {t.categoriesTitle}
           </div>
-          <ul className="space-y-1.5 text-xs [&_a]:py-1">
+          <ul className="k62">
             {CATEGORIES.filter((c) => ALL_PRODUCTS.some((p) => p.categoryId === c.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.categoryId === b.id).length - ALL_PRODUCTS.filter((p) => p.categoryId === a.id).length).slice(0, 6).map((cat) => (
               <li key={cat.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category: cat })} onNavigate={onNavigate}
                   
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                  className="k63"
                 >
                   {cat.name[lang]} <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
                 </NavLink>
@@ -67,7 +67,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             {COLLECTIONS.map((col) => (
               <li key={col.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: col })} onNavigate={onNavigate}
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                  className="k63"
                 >
                   {col.name[lang]} <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter(col.filter).length})</span>
                 </NavLink>
@@ -76,7 +76,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate}
                 
-                className="text-red-400 hover:text-red-300 font-semibold cursor-pointer"
+                className="k64"
               >
                 {t.allCategoriesLink}
               </NavLink>
@@ -86,18 +86,18 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
 
         {/* Col 3: Brands */}
         <div className="space-y-3">
-          <div className="font-bold text-white text-xs uppercase tracking-wider">
+          <div className="k61">
             {t.brandsTitle}
           </div>
-          <ul className="space-y-1.5 text-xs [&_a]:py-1">
+          <ul className="k62">
             {BRANDS.filter((b) => ALL_PRODUCTS.some((p) => p.brandId === b.id)).sort((a, b) => ALL_PRODUCTS.filter((p) => p.brandId === b.id).length - ALL_PRODUCTS.filter((p) => p.brandId === a.id).length).slice(0, 7).map((brand) => (
               <li key={brand.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand', brand })} onNavigate={onNavigate}
                   
-                  className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-1.5"
+                  className="k65"
                 >
                   <span>{brand.name}</span>
-                  {brand.isSwiss && <span className="text-[10px] text-red-400 font-bold">CH</span>}
+                  {brand.isSwiss && <span className="k66">CH</span>}
                   <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})</span>
                 </NavLink>
               </li>
@@ -105,7 +105,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'brand-root' })} onNavigate={onNavigate}
                 
-                className="text-red-400 hover:text-red-300 font-semibold cursor-pointer"
+                className="k64"
               >
                 {t.allBrandsLink}
               </NavLink>
@@ -115,15 +115,15 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
 
         {/* Col 4: Swiss Guides & Legal */}
         <div className="space-y-3">
-          <div className="font-bold text-white text-xs uppercase tracking-wider">
+          <div className="k61">
             {t.guidesTitle}
           </div>
-          <ul className="space-y-1.5 text-xs [&_a]:py-1">
+          <ul className="k62">
             {GUIDE_CLUSTERS.map((cl) => (
               <li key={cl.id}>
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'guide-cluster', guideCluster: cl })} onNavigate={onNavigate}
                   
-                  className="hover:text-white transition-colors cursor-pointer text-left"
+                  className="k63"
                 >
                   {cl.title[lang]}
                 </NavLink>
@@ -132,7 +132,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'canton-subsidies' })} onNavigate={onNavigate}
                 
-                className="text-emerald-400 hover:text-emerald-300 font-semibold cursor-pointer flex items-center gap-1"
+                className="k67"
               >
                 <span>{t.cantonSubsidiesLink}</span>
               </NavLink>
@@ -140,7 +140,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-root' })} onNavigate={onNavigate}
                 
-                className="hover:text-white transition-colors cursor-pointer text-left"
+                className="k63"
               >
                 Blog
               </NavLink>
@@ -148,7 +148,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'faq' })} onNavigate={onNavigate}
                 
-                className="hover:text-white transition-colors cursor-pointer text-left"
+                className="k63"
               >
                 FAQ
               </NavLink>
@@ -156,22 +156,22 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate}
                 
-                className="hover:text-white transition-colors cursor-pointer text-left"
+                className="k63"
               >
                 {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
               </NavLink>
             </li>
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'about' })} onNavigate={onNavigate}
-                className="hover:text-white transition-colors cursor-pointer text-left"
+                className="k63"
               >
                 {lang === 'fr' ? 'À propos' : lang === 'it' ? 'Chi siamo' : 'Über uns'}
               </NavLink>
             </li>
-            <li className="pt-2 border-t border-slate-800">
+            <li className="k68">
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'legal' })} onNavigate={onNavigate}
                 
-                className="hover:text-white text-slate-400 cursor-pointer"
+                className="k69"
               >
                 {t.legalLink}
               </NavLink>
@@ -181,8 +181,8 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
       </div>
 
       {/* Bottom Bar: Copyright & Standards */}
-      <div className="border-t border-slate-800/80 py-4 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
+      <div className="k70">
+        <div className="k71">
           <div>
             © {new Date().getFullYear()} {portalName} – {I18N[lang].header.tagline}. {t.allRightsReserved}
           </div>
