@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react';
+import { useState } from 'react';
 import { Language, Product } from '../types';
 import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
@@ -84,7 +84,7 @@ export function HomeView({
   // Featured selection: 12 products that all have a real image gallery (2+ photos).
   // One per brand first, spread across categories; remaining slots go to the brands with the richest galleries.
   const featuredProducts = (() => {
-    const eligible = ALL_PRODUCTS.filter((p) => (p.images?.length || 0) >= 2);
+    const eligible = ALL_PRODUCTS.filter((p) => p.imageCount >= 2);
     const catUse: Record<string, number> = {};
     const picked: typeof ALL_PRODUCTS = [];
     const take = (options: typeof ALL_PRODUCTS) => {
@@ -96,7 +96,7 @@ export function HomeView({
       picked.push(choice);
     };
     const galleryRichness = (brandId: string) =>
-      Math.max(...eligible.filter((p) => p.brandId === brandId).map((p) => p.images.length));
+      Math.max(...eligible.filter((p) => p.brandId === brandId).map((p) => p.imageCount));
     const brandIds = [...new Set(eligible.map((p) => p.brandId))].sort((x, y) => galleryRichness(y) - galleryRichness(x));
     for (const brandId of brandIds) take(eligible.filter((p) => p.brandId === brandId));
     // fill up to 12 with a second model from the richest brands
@@ -288,7 +288,7 @@ export function HomeView({
       </section>
 
       {/* 2. All 8 Categories Grid */}
-      <Suspense fallback={null}><section className="k475">
+      <section className="k475">
         <div className="k476">
           <div>
             <div className="k312">
@@ -336,10 +336,10 @@ export function HomeView({
             </NavLink>
           ))}
         </div>
-      </section></Suspense>
+      </section>
 
       {/* 2.5 Trustpilot & Verified Customer Reviews Spotlight */}
-      <Suspense fallback={null}><section className="k487">
+      <section className="k487">
         <div className="k488">
           <div className="k489">
             <div className="flex items-center gap-3">
@@ -436,10 +436,10 @@ export function HomeView({
             </div>
           </div>
         </div>
-      </section></Suspense>
+      </section>
 
       {/* 3. Featured e-bikes */}
-      <Suspense fallback={null}><section className="k487">
+      <section className="k487">
         <div className="k500">
           <div>
             <div className="k312">{featuredCopy.badge[lang]}</div>
@@ -467,10 +467,10 @@ export function HomeView({
             />
           ))}
         </div>
-      </section></Suspense>
+      </section>
 
       {/* 4. Swiss Brands Showcase */}
-      <Suspense fallback={null}><section className="k487">
+      <section className="k487">
         <div className="k504">
           <div>
             <div className="k312">
@@ -514,10 +514,10 @@ export function HomeView({
             </NavLink>
           ))}
         </div>
-      </section></Suspense>
+      </section>
 
       {/* 5. Cantonal Subsidies Banner */}
-      <Suspense fallback={null}><section className="k487">
+      <section className="k487">
         <div className="k511">
           <div className="max-w-3xl space-y-4">
             <div className="k512">
@@ -543,10 +543,10 @@ export function HomeView({
             </div>
           </div>
         </div>
-      </section></Suspense>
+      </section>
 
       {/* 6. Ratgeber / Guides Clusters */}
-      <Suspense fallback={null}><section className="k487">
+      <section className="k487">
         <div className="k504">
           <div>
             <div className="k312">
@@ -590,7 +590,7 @@ export function HomeView({
             </NavLink>
           ))}
         </div>
-      </section></Suspense>
+      </section>
     </div>
   );
 }

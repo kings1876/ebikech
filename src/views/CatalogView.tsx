@@ -1,4 +1,4 @@
-import { Suspense, useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   CategoryDef,
   Product,
@@ -346,14 +346,12 @@ export function CatalogView({
       <div className="k356">
         {/* Desktop Sidebar */}
         <div className="k357">
-          <Suspense fallback={null}>
           <FilterSidebar
             filters={filters}
             onChange={handleFilterChange}
             lang={lang}
             totalFiltered={filteredProducts.length}
           />
-          </Suspense>
         </div>
 
         {/* Products Grid & Toolbar */}
@@ -478,7 +476,6 @@ export function CatalogView({
 
       {/* Plain links to the models that are not on this page, so every model is one click from its listing */}
       {(route.view === 'category' || route.view === 'subcategory') && sortedProducts.length > itemsPerPage && (
-        <Suspense fallback={null}>
         <nav aria-label={lang === 'fr' ? 'Tous les modèles' : lang === 'it' ? 'Tutti i modelli' : 'Alle Modelle'} className="k371">
           <h2 className="k372">
             {lang === 'fr' ? `Tous les modèles (${sortedProducts.length})` : lang === 'it' ? `Tutti i modelli (${sortedProducts.length})` : `Alle Modelle (${sortedProducts.length})`}
@@ -497,7 +494,6 @@ export function CatalogView({
             })}
           </ul>
         </nav>
-        </Suspense>
       )}
 
       {/* Landing content: intro text and FAQ for keyword landing pages */}
@@ -520,7 +516,6 @@ export function CatalogView({
 
       {/* Internal links for collection pages: brands in the collection + categories */}
       {route.view === 'collection' && route.collection && (
-        <Suspense fallback={null}>
         <nav className="k375" aria-label={route.collection.name[lang]}>
           <div>
             <h2 className="k376">
@@ -562,12 +557,10 @@ export function CatalogView({
             </ul>
           </div>
         </nav>
-        </Suspense>
       )}
 
       {/* Internal links: brands in this category + other categories (real anchors for crawlers and users) */}
       {route.view === 'category' && category && (
-        <Suspense fallback={null}>
         <nav className="k375" aria-label={categoryKeyword}>
           <div>
             <h2 className="k376">
@@ -620,7 +613,6 @@ export function CatalogView({
             </ul>
           </div>
         </nav>
-        </Suspense>
       )}
 
       {/* Mobile Filters Slide-over / Modal */}

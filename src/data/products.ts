@@ -35,12 +35,15 @@ export function loadProductExtras(): Promise<void> {
   return loading;
 }
 
-export const ALL_PRODUCTS: Product[] = (raw as unknown as Array<Record<string, any>>).map((p) => {
-  const o = { ...p };
-  Object.defineProperties(o, {
-    specs: { get: () => EXTRAS.get(p.id)?.specs ?? EMPTY_SPECS, enumerable: true },
-    shortDesc: { get: () => EXTRAS.get(p.id)?.shortDesc ?? EMPTY_TEXT, enumerable: true },
-    description: { get: () => EXTRAS.get(p.id)?.description, enumerable: true },
-  });
-  return o;
-}) as unknown as Product[];
+// One shared prototype supplies the extras and the photo list on demand (cheaper at start-up than per-product getters).
+const proto = {
+  get specs() { return EXTRAS.get((this as { id: string }).id)?.specs ?? EMPTY_SPECS; },
+  get shortDesc() { return EXTRAS.get((this as { id: string }).id)?.shortDesc ?? EMPTY_TEXT; },
+  get description() { return EXTRAS.get((this as { id: string }).id)?.description; },
+  get images() {
+    const o = this as { imgs: string; parsed?: unknown };
+    return (o.parsed ??= JSON.parse(o.imgs));
+  },
+};
+
+export const ALL_PRODUCTS: Product[] = (raw as unknown as Array<Record<string, any>>).map((p) => Object.assign(Object.create(proto), p)) as unknown as Product[];

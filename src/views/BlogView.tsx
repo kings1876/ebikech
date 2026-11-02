@@ -87,7 +87,7 @@ function relatedProducts(post: BlogPost): Product[] {
       (!r.brandId || p.brandId === r.brandId) &&
       (!r.speedClass || p.speedClass === r.speedClass) &&
       (!r.frameType || p.frameType === r.frameType) &&
-      (p.images?.length || 0) > 0,
+      p.imageCount > 0,
   ).sort((a, b) => a.priceCHF - b.priceCHF);
   if (pool.length <= 4) return pool;
   const picks = [0.1, 0.4, 0.7, 0.95].map((q) => pool[Math.min(pool.length - 1, Math.floor(q * pool.length))]);

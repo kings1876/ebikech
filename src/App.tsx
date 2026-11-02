@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useState, useEffect, useTransition } from 'react';
+import { useState, useEffect, useTransition } from 'react';
 import { SITE_URL } from './utils/site';
 import { Product, Language } from './types';
 import { ALL_PRODUCTS, provideProductExtras, loadProductExtras, productExtrasLoaded, type ProductExtra } from './data/products';
@@ -9,22 +9,24 @@ import { resolveSeoMetadata } from './utils/seo';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import dynamic from 'next/dynamic';
+import { HomeView } from './views/HomeView';
+import { CatalogView } from './views/CatalogView';
+import { ProductDetailView } from './views/ProductDetailView';
+import { BrandHubView } from './views/BrandHubView';
+import { GuideView } from './views/GuideView';
+import { CantonSubsidiesView } from './views/CantonSubsidiesView';
+import { StaticPages } from './views/StaticPages';
+import { BlogView } from './views/BlogView';
+import { FaqView } from './views/FaqView';
+import { ContactView } from './views/ContactView';
 
-// Each page type loads only the code it needs; the server still renders the full HTML.
+// Views are imported statically: a view behind next/dynamic becomes a Suspense boundary, and React streams any boundary
+// over ~13 KB as a hidden block that a script reveals later, which leaves the page body missing without JavaScript and
+// delays its first paint. Only things that appear on interaction are split off.
 const SeoInspector = dynamic(() => import('./components/SeoInspector').then((m) => m.SeoInspector));
 const ComparisonDrawer = dynamic(() => import('./components/ComparisonDrawer').then((m) => m.ComparisonDrawer));
 const TestRideModal = dynamic(() => import('./components/TestRideModal').then((m) => m.TestRideModal));
 const OrderRequestModal = dynamic(() => import('./components/OrderRequestModal').then((m) => m.OrderRequestModal));
-const HomeView = dynamic(() => import('./views/HomeView').then((m) => m.HomeView));
-const CatalogView = dynamic(() => import('./views/CatalogView').then((m) => m.CatalogView));
-const ProductDetailView = dynamic(() => import('./views/ProductDetailView').then((m) => m.ProductDetailView));
-const BrandHubView = dynamic(() => import('./views/BrandHubView').then((m) => m.BrandHubView));
-const GuideView = dynamic(() => import('./views/GuideView').then((m) => m.GuideView));
-const CantonSubsidiesView = dynamic(() => import('./views/CantonSubsidiesView').then((m) => m.CantonSubsidiesView));
-const StaticPages = dynamic(() => import('./views/StaticPages').then((m) => m.StaticPages));
-const BlogView = dynamic(() => import('./views/BlogView').then((m) => m.BlogView));
-const FaqView = dynamic(() => import('./views/FaqView').then((m) => m.FaqView));
-const ContactView = dynamic(() => import('./views/ContactView').then((m) => m.ContactView));
 
 export default function App({ initialPath = '/', initialExtras }: { initialPath?: string; initialExtras?: Record<string, ProductExtra> }) {
   // Specs and German texts of the products this page shows (the shared product list leaves them out). Must run before any render reads them.
@@ -353,9 +355,7 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
       )}
 
       {/* Multilingual Swiss Footer */}
-      <Suspense fallback={null}>
-        <Footer currentRoute={route} onNavigate={handleNavigate} />
-      </Suspense>
+      <Footer currentRoute={route} onNavigate={handleNavigate} />
     </div>
   );
 }

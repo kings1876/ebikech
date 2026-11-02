@@ -138,6 +138,8 @@ export interface Product {
   imageSources: { url: string; alt: string }[];
   /** Official image URLs verified to load (see scripts/check-images.mjs). Shown in cards and the gallery. */
   images: { url: string; alt: string; bg?: 'white' | 'black' }[];
+  /** Number of photos (known without parsing the photo list). */
+  imageCount: number;
 }
 
 export interface FacetFilters {

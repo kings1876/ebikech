@@ -21,6 +21,10 @@ const slim = products.map((p) => {
   if (p.description?.de) e.x = p.description.de;
   extra[p.id] = e;
   for (const k of EXTRA) delete q[k];
+  // The photo list is kept as one JSON string per product and only parsed when a page asks for it (products.ts).
+  q.imageCount = (p.images || []).length;
+  q.imgs = JSON.stringify(p.images || []);
+  delete q.images;
   return q;
 });
 
