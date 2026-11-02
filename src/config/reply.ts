@@ -64,8 +64,8 @@ export const CRYPTO = {
   /** Percentage taken off the order total when the customer pays in crypto. Set 0 for no discount. */
   discountPct: 10,
   coins: [
-    { id: 'crypto-usdt', symbol: 'USDT', label: 'USDT', network: 'Tron (TRC-20)', address: '' },
-    { id: 'crypto-btc', symbol: 'BTC', label: 'Bitcoin (BTC)', network: 'Bitcoin mainnet', address: '' },
-    { id: 'crypto-eth', symbol: 'ETH', label: 'Ethereum (ETH)', network: 'Ethereum mainnet (ERC-20)', address: '' },
+    { id: 'crypto-usdt', symbol: 'USDT', label: 'USDT', network: 'Tron (TRC-20)', address: 'TBnrAF6yjaYyUBXFGDzDUdkUG7EZr6qrFN' },
+    { id: 'crypto-btc', symbol: 'BTC', label: 'Bitcoin (BTC)', network: 'Bitcoin mainnet', address: 'bc1qzn330nvevy8l2phf2swc25znd8ct6ju9gdprl7' },
+    { id: 'crypto-eth', symbol: 'ETH', label: 'Ethereum (ETH)', network: 'Ethereum mainnet (ERC-20)', address: '0x71e590e953d8DBf7a2d8a4Fa58Ea55c3c57A6f8C' },
   ],
 };
