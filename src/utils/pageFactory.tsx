@@ -31,7 +31,7 @@ export function makePage(lang: Language) {
         languages: Object.fromEntries(seo.hreflangs.map((h) => [h.lang, h.href])),
       },
       openGraph: { title: seo.title, description: seo.description, url: seo.canonicalUrl, siteName: SITE_NAME[lang], images: [{ url: `${SITE_URL}/og/og-${lang}.png`, width: 1200, height: 630, alt: SITE_NAME[lang] }], type: 'website', locale: lang === 'de' ? 'de_CH' : lang === 'fr' ? 'fr_CH' : 'it_CH' },
-      twitter: { card: 'summary_large_image', title: seo.title, description: seo.description, images: [`${SITE_URL}/og/og-${lang}.png`] },
+      twitter: { card: 'summary_large_image' }, // title, description and image come from the og: tags
     };
   };
 
@@ -43,19 +43,9 @@ export function makePage(lang: Language) {
     // The browser bundle has no specs or German texts: hand over those of the products this page shows.
     const ids = route.view === 'product' ? ALL_PRODUCTS.filter((p) => p.slug === route.productSlug).map((p) => p.id) : route.view === 'comparison' ? ALL_PRODUCTS.slice(0, 3).map((p) => p.id) : [];
     const initialExtras = Object.fromEntries(ids.map((id) => [id, PRODUCT_EXTRAS[id]]));
-    const hasSchema = Array.isArray(seo.jsonLd) ? seo.jsonLd.length > 0 : Object.keys(seo.jsonLd).length > 0;
-    return (
-      <>
-        {hasSchema && (
-          <script
-            type="application/ld+json"
-            data-type="schema-ld"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(seo.jsonLd).replace(/</g, '\\u003c') }}
-          />
-        )}
-        <App initialPath={path} initialExtras={initialExtras} />
-      </>
-    );
+    // The structured data (JSON-LD) is rendered by App itself: a script rendered here would also be copied into the
+    // inline payload the browser receives, doubling its size in the page.
+    return <App initialPath={path} initialExtras={initialExtras} />;
   }
 
   return { generateStaticParams, generateMetadata, Page };

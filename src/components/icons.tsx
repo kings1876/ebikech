@@ -4,7 +4,7 @@ import type { CSSProperties } from 'react';
 type IconProps = { className?: string; size?: number | string; style?: CSSProperties };
 const make = (slug: string) =>
   function Icon({ className = '', size, style }: IconProps) {
-    return <i className={`ic ic-${slug} ${className}`} style={size ? { width: size, height: size, ...style } : style} aria-hidden="true" />;
+    return <i className={`ic-${slug} ${className}`} style={size ? { width: size, height: size, ...style } : style} />;
   };
 
 export const AlertCircle = make('circle-alert');

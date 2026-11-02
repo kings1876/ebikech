@@ -27,11 +27,11 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
       {!isOpen ? (
         <button
           onClick={() => setIsOpen(true)}
-          className={`flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-semibold shadow-xl transition-all border ${
+          className={`k645 ${
             isNoindex
-              ? 'bg-amber-950/90 text-amber-200 border-amber-600/60 hover:bg-amber-900'
-              : 'bg-emerald-950/90 text-emerald-200 border-emerald-600/60 hover:bg-emerald-900'
-          } backdrop-blur-md cursor-pointer`}
+              ? 'k646'
+              : 'k647'
+          } k648`}
           title="Click to view live Search Engine Optimization (SEO) inspect panel"
         >
           {isNoindex ? <ShieldAlert className="w-3.5 h-3.5 text-amber-400" /> : <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />}
@@ -45,14 +45,14 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
           {/* Header */}
           <div className="k192">
             <div className="flex items-center gap-2">
-              <div className={`w-2.5 h-2.5 rounded-full ${isNoindex ? 'bg-amber-500 animate-pulse' : 'bg-emerald-500'}`} />
+              <div className={`k649 ${isNoindex ? 'k650' : 'bg-emerald-500'}`} />
               <h3 className="k193">
                 SEO Live Inspector (CH Multilingual)
               </h3>
             </div>
             <div className="flex items-center gap-1.5">
-              <span className={`text-[11px] font-bold px-2 py-0.5 rounded ${
-                isNoindex ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40' : 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
+              <span className={`k651 ${
+                isNoindex ? 'k652' : 'k653'
               }`}>
                 {seo.robots}
               </span>
@@ -69,24 +69,24 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
           <div className="k195">
             <button
               onClick={() => setTab('meta')}
-              className={`px-3 py-2 border-b-2 font-medium transition-colors ${
-                tab === 'meta' ? 'border-red-500 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'
+              className={`k654 ${
+                tab === 'meta' ? 'k655' : 'k656'
               }`}
             >
               Robots & Canonical
             </button>
             <button
               onClick={() => setTab('hreflang')}
-              className={`px-3 py-2 border-b-2 font-medium transition-colors ${
-                tab === 'hreflang' ? 'border-red-500 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'
+              className={`k654 ${
+                tab === 'hreflang' ? 'k655' : 'k656'
               }`}
             >
               Hreflang (DE, FR, IT)
             </button>
             <button
               onClick={() => setTab('jsonld')}
-              className={`px-3 py-2 border-b-2 font-medium transition-colors ${
-                tab === 'jsonld' ? 'border-red-500 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'
+              className={`k654 ${
+                tab === 'jsonld' ? 'k655' : 'k656'
               }`}
             >
               Schema.org JSON-LD
@@ -168,7 +168,7 @@ export function SeoInspector({ seo, route, currentUrl }: SeoInspectorProps) {
                     {seo.breadcrumbs.map((b, i) => (
                       <span key={i} className="flex items-center gap-1">
                         {i > 0 && <span className="text-slate-600">/</span>}
-                        <span className={i === seo.breadcrumbs.length - 1 ? 'text-red-400 font-semibold' : ''}>
+                        <span className={i === seo.breadcrumbs.length - 1 ? 'k657' : ''}>
                           {b.name}
                         </span>
                       </span>

@@ -60,7 +60,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                   
                   className="k63"
                 >
-                  {cat.name[lang]} <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})</span>
+                  {`${cat.name[lang]} `}<span className="text-slate-400 font-mono">{`(${ALL_PRODUCTS.filter((p) => p.categoryId === cat.id).length})`}</span>
                 </NavLink>
               </li>
             ))}
@@ -69,7 +69,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: col })} onNavigate={onNavigate}
                   className="k63"
                 >
-                  {col.name[lang]} <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter(col.filter).length})</span>
+                  {`${col.name[lang]} `}<span className="text-slate-400 font-mono">{`(${ALL_PRODUCTS.filter(col.filter).length})`}</span>
                 </NavLink>
               </li>
             ))}
@@ -98,7 +98,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 >
                   <span>{brand.name}</span>
                   {brand.isSwiss && <span className="k66">CH</span>}
-                  <span className="text-slate-400 font-mono">({ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})</span>
+                  <span className="text-slate-400 font-mono">{`(${ALL_PRODUCTS.filter((p) => p.brandId === brand.id).length})`}</span>
                 </NavLink>
               </li>
             ))}
@@ -184,7 +184,7 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
       <div className="k70">
         <div className="k71">
           <div>
-            © {new Date().getFullYear()} {portalName} – {I18N[lang].header.tagline}. {t.allRightsReserved}
+            {`© ${new Date().getFullYear()} ${portalName} – ${I18N[lang].header.tagline}. ${t.allRightsReserved}`}
           </div>
           <div className="flex items-center gap-4">
             <span>de-CH · fr-CH · it-CH</span>

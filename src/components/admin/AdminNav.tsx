@@ -23,7 +23,7 @@ export function AdminNav({ onSignOut }: { onSignOut: () => void }) {
           {LINKS.map((l) => {
             const active = l.href === '/admin/' ? path === '/admin/' || path === '/admin' : path.startsWith(l.href.slice(0, -1));
             return (
-              <Link key={l.href} href={l.href} className={`px-3 py-1.5 rounded-lg font-semibold ${active ? 'bg-slate-800 text-white' : 'text-slate-400 hover:text-white'}`}>
+              <Link key={l.href} href={l.href} className={`k658 ${active ? 'k659' : 'k660'}`}>
                 {l.label}
               </Link>
             );

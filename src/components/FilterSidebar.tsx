@@ -139,10 +139,10 @@ export function FilterSidebar({
           <button
             type="button"
             onClick={() => onChange({ ...filters, speedClass: toggleArrayItem(filters.speedClass, 'e-bike-25') })}
-            className={`p-2 rounded-xl text-xs font-semibold border text-center transition-all cursor-pointer ${
+            className={`k616 ${
               filters.speedClass?.includes('e-bike-25')
-                ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
-                : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                ? 'k617'
+                : 'k618'
             }`}
           >
             25 km/h
@@ -150,10 +150,10 @@ export function FilterSidebar({
           <button
             type="button"
             onClick={() => onChange({ ...filters, speedClass: toggleArrayItem(filters.speedClass, 'e-bike-45') })}
-            className={`p-2 rounded-xl text-xs font-semibold border text-center transition-all cursor-pointer ${
+            className={`k616 ${
               filters.speedClass?.includes('e-bike-45')
-                ? 'bg-amber-500 text-slate-900 border-amber-500 shadow-xs'
-                : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                ? 'k619'
+                : 'k618'
             }`}
           >
             45 km/h (S-Pedelec)
@@ -180,7 +180,7 @@ export function FilterSidebar({
                   onChange={() => onChange({ ...filters, motor: toggleArrayItem(filters.motor, m.id) })}
                   className="k49"
                 />
-                <span className={checked ? 'font-semibold text-slate-900' : ''}>{m.label}</span>
+                <span className={checked ? 'k620' : ''}>{m.label}</span>
               </label>
             );
           })}
@@ -206,7 +206,7 @@ export function FilterSidebar({
                   onChange={() => onChange({ ...filters, batteryWh: toggleArrayItem(filters.batteryWh, b.id) })}
                   className="k49"
                 />
-                <span className={checked ? 'font-semibold text-slate-900' : ''}>{b.label}</span>
+                <span className={checked ? 'k620' : ''}>{b.label}</span>
               </label>
             );
           })}
@@ -232,7 +232,7 @@ export function FilterSidebar({
                   onChange={() => onChange({ ...filters, price: toggleArrayItem(filters.price, p.id) })}
                   className="k49"
                 />
-                <span className={checked ? 'font-semibold text-slate-900' : ''}>{p.label}</span>
+                <span className={checked ? 'k620' : ''}>{p.label}</span>
               </label>
             );
           })}
@@ -258,7 +258,7 @@ export function FilterSidebar({
                   onChange={() => onChange({ ...filters, frameType: toggleArrayItem(filters.frameType, f.id) })}
                   className="k49"
                 />
-                <span className={checked ? 'font-semibold text-slate-900' : ''}>{f.label}</span>
+                <span className={checked ? 'k620' : ''}>{f.label}</span>
               </label>
             );
           })}
@@ -278,10 +278,10 @@ export function FilterSidebar({
                 key={size}
                 type="button"
                 onClick={() => onChange({ ...filters, frameSize: toggleArrayItem(filters.frameSize, size) })}
-                className={`flex-1 py-1.5 rounded-lg text-xs font-bold border transition-colors cursor-pointer ${
+                className={`k621 ${
                   active
-                    ? 'bg-red-600 text-white border-red-600'
-                    : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                    ? 'k622'
+                    : 'k618'
                 }`}
               >
                 {size}
@@ -310,7 +310,7 @@ export function FilterSidebar({
                   onChange={() => onChange({ ...filters, useCase: toggleArrayItem(filters.useCase, u.id) })}
                   className="k49"
                 />
-                <span className={checked ? 'font-semibold text-slate-900' : ''}>{u.label}</span>
+                <span className={checked ? 'k620' : ''}>{u.label}</span>
               </label>
             );
           })}
@@ -327,10 +327,10 @@ export function FilterSidebar({
           <button
             type="button"
             onClick={() => onChange({ ...filters, minScore: filters.minScore === 80 ? undefined : 80 })}
-            className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between border transition-colors cursor-pointer ${
+            className={`k623 ${
               filters.minScore === 80
-                ? 'bg-slate-900 text-white border-slate-900'
-                : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                ? 'k624'
+                : 'k618'
             }`}
           >
             <span>{t.tcsOnlyHigh}</span>
@@ -349,10 +349,10 @@ export function FilterSidebar({
           <button
             type="button"
             onClick={() => onChange({ ...filters, minTrustScore: filters.minTrustScore === 4.7 ? undefined : 4.7 })}
-            className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between border transition-colors cursor-pointer ${
+            className={`k623 ${
               filters.minTrustScore === 4.7
-                ? 'bg-emerald-950 text-white border-emerald-950 shadow-xs'
-                : 'bg-emerald-50/50 text-emerald-950 border-emerald-200/80 hover:bg-emerald-100/60'
+                ? 'k625'
+                : 'k626'
             }`}
           >
             <span className="k51">

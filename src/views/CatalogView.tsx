@@ -20,7 +20,8 @@ import { BRANDS } from '../data/brands';
 import { LandingContent } from '../components/LandingContent';
 import { LANDING_CONTENT, COLLECTIONS } from '../data/collections';
 import { ListingContent } from '../components/ListingContent';
-import { categoryContent } from '../utils/listingContent';
+import { CatalogOverview } from '../components/CatalogOverview';
+import { categoryContent, subcategoryContent } from '../utils/listingContent';
 import { catalogueStats } from '../utils/seoText';
 import { CATEGORY_KEYWORD } from '../utils/seoText';
 import { ProductCard } from '../components/ProductCard';
@@ -276,7 +277,7 @@ export function CatalogView({
               <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
                 
-                className={subcategoryId ? 'hover:text-red-600 cursor-pointer' : 'font-bold text-slate-900'}
+                className={subcategoryId ? 'k665' : 'k666'}
               >
                 {category.name[lang]}
               </NavLink>
@@ -316,10 +317,10 @@ export function CatalogView({
           <div className="flex flex-wrap gap-2 pt-3">
             <NavLink href={buildLocalizedUrl(lang, { lang, view: 'category', category })} onNavigate={onNavigate}
               
-              className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors cursor-pointer ${
+              className={`k667 ${
                 !subcategoryId
-                  ? 'bg-slate-900 text-white shadow-xs'
-                  : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                  ? 'k668'
+                  : 'k669'
               }`}
             >
               {t.catalog.allInCat} {category.name[lang]} ({category.targetCount})
@@ -328,10 +329,10 @@ export function CatalogView({
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'subcategory', category, subcategorySlug: sub.id })} onNavigate={onNavigate}
                 key={sub.id}
                 
-                className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors cursor-pointer ${
+                className={`k667 ${
                   subcategoryId === sub.id
-                    ? 'bg-red-600 text-white shadow-xs'
-                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                    ? 'k628'
+                    : 'k669'
                 }`}
               >
                 {sub.name[lang]} ({sub.targetCount})
@@ -450,10 +451,10 @@ export function CatalogView({
                   <button
                     key={num}
                     onClick={() => handlePageChange(num)}
-                    className={`w-8 h-8 rounded-lg font-bold transition-colors cursor-pointer ${
+                    className={`k670 ${
                       num === safeCurrentPage
-                        ? 'bg-red-600 text-white shadow-xs'
-                        : 'border border-slate-200 text-slate-700 hover:bg-slate-100'
+                        ? 'k628'
+                        : 'k671'
                     }`}
                   >
                     {num}
@@ -499,6 +500,13 @@ export function CatalogView({
       {landingKey && LANDING_CONTENT[landingKey] && (
         <LandingContent contentKey={landingKey} heading={landingHeading || ''} lang={lang} onNavigate={onNavigate} stats={landingStats} />
       )}
+
+      {route.view === 'catalog-root' && <CatalogOverview lang={lang} onNavigate={onNavigate} />}
+
+      {route.view === 'subcategory' && category && subcategoryId && (() => {
+        const block = subcategoryContent(category, subcategoryId, lang);
+        return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} showTable /> : null;
+      })()}
 
       {/* Data-driven overview of the category */}
       {route.view === 'category' && category && (() => {

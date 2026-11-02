@@ -12,7 +12,7 @@ const T = {
   it: { badge: 'Richiesta d’ordine', title: 'Ordinare con bonifico bancario', intro: 'Inviateci i vostri dati. Confermiamo la disponibilità e vi inviamo i dettagli di pagamento per e-mail – si paga solo dopo.', price: 'Prezzo consigliato', name: 'Nome', email: 'E-mail', phone: 'Telefono', address: 'Indirizzo di consegna o fatturazione', notes: 'Desiderio, taglia del telaio o domanda (facoltativo)', consent: 'Accetto che i miei dati vengano utilizzati per elaborare questa richiesta.', send: 'Invia richiesta d’ordine', sending: 'Invio in corso …', okTitle: 'Richiesta ricevuta', okText: 'Vi abbiamo inviato una conferma per e-mail. I dettagli di pagamento seguono in una e-mail separata.', ref: 'Il vostro numero d’ordine', close: 'Chiudi', errGeneric: 'Invio non riuscito. Scriveteci direttamente a ', errInvalid: 'Controllate i vostri dati.' },
 } as const;
 
-const field = 'w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-hidden focus:ring-2 focus:ring-red-500';
+const field = 'k633';
 
 export function OrderRequestModal({ product, onClose, lang }: { product: Product | null; onClose: () => void; lang: Language }) {
   const [state, setState] = useState<'form' | 'sending' | 'done' | 'error'>('form');

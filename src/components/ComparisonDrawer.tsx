@@ -146,8 +146,8 @@ export function ComparisonDrawer({
                     <td className="k30">{t.categorySpeed}</td>
                     {comparedProducts.map((p) => (
                       <td key={p.id} className="p-3 font-medium">
-                        <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-bold ${
-                          p.speedMaxKmH === 45 ? 'bg-amber-100 text-amber-900' : 'bg-emerald-100 text-emerald-900'
+                        <span className={`k613 ${
+                          p.speedMaxKmH === 45 ? 'k614' : 'k615'
                         }`}>
                           {p.speedMaxKmH} km/h ({p.speedClass})
                         </span>

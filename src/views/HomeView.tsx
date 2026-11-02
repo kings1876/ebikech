@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import { Language, Product } from '../types';
 import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
@@ -221,10 +221,10 @@ export function HomeView({
                     <button
                       type="button"
                       onClick={() => setFinderSpeed('all')}
-                      className={`p-2 rounded-xl font-semibold border text-center transition-all cursor-pointer ${
+                      className={`k674 ${
                         finderSpeed === 'all'
-                          ? 'bg-slate-900 text-white border-slate-900'
-                          : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                          ? 'k624'
+                          : 'k618'
                       }`}
                     >
                       {t.home.all}
@@ -232,10 +232,10 @@ export function HomeView({
                     <button
                       type="button"
                       onClick={() => setFinderSpeed('25')}
-                      className={`p-2 rounded-xl font-semibold border text-center transition-all cursor-pointer ${
+                      className={`k674 ${
                         finderSpeed === '25'
-                          ? 'bg-red-600 text-white border-red-600'
-                          : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                          ? 'k622'
+                          : 'k618'
                       }`}
                     >
                       25 km/h
@@ -243,10 +243,10 @@ export function HomeView({
                     <button
                       type="button"
                       onClick={() => setFinderSpeed('45')}
-                      className={`p-2 rounded-xl font-semibold border text-center transition-all cursor-pointer ${
+                      className={`k674 ${
                         finderSpeed === '45'
-                          ? 'bg-amber-500 text-slate-900 border-amber-500'
-                          : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                          ? 'k675'
+                          : 'k618'
                       }`}
                     >
                       45 km/h
@@ -288,7 +288,7 @@ export function HomeView({
       </section>
 
       {/* 2. All 8 Categories Grid */}
-      <section className="k475">
+      <Suspense fallback={null}><section className="k475">
         <div className="k476">
           <div>
             <div className="k312">
@@ -336,10 +336,10 @@ export function HomeView({
             </NavLink>
           ))}
         </div>
-      </section>
+      </section></Suspense>
 
       {/* 2.5 Trustpilot & Verified Customer Reviews Spotlight */}
-      <section className="k487">
+      <Suspense fallback={null}><section className="k487">
         <div className="k488">
           <div className="k489">
             <div className="flex items-center gap-3">
@@ -436,10 +436,10 @@ export function HomeView({
             </div>
           </div>
         </div>
-      </section>
+      </section></Suspense>
 
       {/* 3. Featured e-bikes */}
-      <section className="k487">
+      <Suspense fallback={null}><section className="k487">
         <div className="k500">
           <div>
             <div className="k312">{featuredCopy.badge[lang]}</div>
@@ -467,10 +467,10 @@ export function HomeView({
             />
           ))}
         </div>
-      </section>
+      </section></Suspense>
 
       {/* 4. Swiss Brands Showcase */}
-      <section className="k487">
+      <Suspense fallback={null}><section className="k487">
         <div className="k504">
           <div>
             <div className="k312">
@@ -514,10 +514,10 @@ export function HomeView({
             </NavLink>
           ))}
         </div>
-      </section>
+      </section></Suspense>
 
       {/* 5. Cantonal Subsidies Banner */}
-      <section className="k487">
+      <Suspense fallback={null}><section className="k487">
         <div className="k511">
           <div className="max-w-3xl space-y-4">
             <div className="k512">
@@ -543,10 +543,10 @@ export function HomeView({
             </div>
           </div>
         </div>
-      </section>
+      </section></Suspense>
 
       {/* 6. Ratgeber / Guides Clusters */}
-      <section className="k487">
+      <Suspense fallback={null}><section className="k487">
         <div className="k504">
           <div>
             <div className="k312">
@@ -590,7 +590,7 @@ export function HomeView({
             </NavLink>
           ))}
         </div>
-      </section>
+      </section></Suspense>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Language } from '../types';
+import { Language, Product } from '../types';
 import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
 import type { ListingBlock } from '../utils/listingContent';
@@ -11,10 +11,22 @@ const L = {
   models: { de: 'Modelle', fr: 'modèles', it: 'modelli' },
   from: { de: 'ab', fr: 'dès', it: 'da' },
   guide: { de: 'Zur Kaufberatung', fr: 'Au guide d’achat', it: 'Alla guida all’acquisto' },
+  table: { de: 'Modellübersicht', fr: 'Aperçu des modèles', it: 'Panoramica dei modelli' },
+  model: { de: 'Modell', fr: 'Modèle', it: 'Modello' },
+  price: { de: 'Preis', fr: 'Prix', it: 'Prezzo' },
+  motor: { de: 'Motor', fr: 'Moteur', it: 'Motore' },
+  battery: { de: 'Akku', fr: 'Batterie', it: 'Batteria' },
+  weight: { de: 'Gewicht', fr: 'Poids', it: 'Peso' },
+  speed: { de: 'Unterstützung', fr: 'Assistance', it: 'Assistenza' },
+  year: { de: 'Jahr', fr: 'Année', it: 'Anno' },
+  approx: { de: 'ca. ', fr: 'env. ', it: 'ca. ' },
 };
 
+const motorLabel = (p: Product) =>
+  `${p.motorBrand === 'Other' ? (/nicht angegeben/i.test(p.motorModel) ? 'Motor' : p.motorModel.split(' ')[0]) : p.motorBrand}${p.torqueNm ? ` ${p.torqueNm} Nm` : ''}`;
+
 /** Data-driven overview text, standout models and model families for category / brand / brand-category pages. */
-export function ListingContent({ block, lang, onNavigate }: { block: ListingBlock; lang: Language; onNavigate: (path: string) => void }) {
+export function ListingContent({ block, lang, onNavigate, showTable = false }: { block: ListingBlock; lang: Language; onNavigate: (path: string) => void; showTable?: boolean }) {
   const productUrl = (p: { categoryId: string; slug: string }) =>
     buildLocalizedUrl(lang, { lang, view: 'product', category: CATEGORIES.find((c) => c.id === p.categoryId), productSlug: p.slug });
 
@@ -40,7 +52,7 @@ export function ListingContent({ block, lang, onNavigate }: { block: ListingBloc
                   {h.product.name}
                 </NavLink>{' '}
                 <span className="text-slate-500">
-                  – {h.product.priceEstimated ? (lang === 'fr' ? 'env. ' : 'ca. ') : ''}CHF {Math.round(h.product.priceCHF).toLocaleString('de-CH')}
+                  {`– ${h.product.priceEstimated ? (lang === 'fr' ? 'env. ' : 'ca. ') : ''}CHF ${Math.round(h.product.priceCHF).toLocaleString('de-CH')}`}
                   {h.label === (lang === 'fr' ? 'Plus grande batterie' : lang === 'it' ? 'Batteria più grande' : 'Grösster Akku') ? `, ${h.product.batteryWh} Wh` : ''}
                   {h.product.weightKg && h.label === (lang === 'fr' ? 'Modèle le plus léger' : lang === 'it' ? 'Modello più leggero' : 'Leichtestes Modell') ? `, ${String(h.product.weightKg).replace('.', lang === 'de' ? '.' : ',')} kg` : ''}
                 </span>
@@ -60,11 +72,49 @@ export function ListingContent({ block, lang, onNavigate }: { block: ListingBloc
                   {f.name}
                 </NavLink>{' '}
                 <span className="text-slate-500">
-                  – {f.count} {L.models[lang]}, {L.from[lang]} CHF {Math.round(f.from).toLocaleString('de-CH')}
+                  {`– ${f.count} ${L.models[lang]}, ${L.from[lang]} CHF ${Math.round(f.from).toLocaleString('de-CH')}`}
                 </span>
               </li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {showTable && block.products.length > 0 && (
+        <div className="space-y-2">
+          <h2 className="k130">{L.table[lang]}</h2>
+          <div className="overflow-x-auto">
+            <table className="k696">
+              <thead>
+                <tr>
+                  <th>{L.model[lang]}</th>
+                  <th>{L.price[lang]}</th>
+                  <th>{L.motor[lang]}</th>
+                  <th>{L.battery[lang]}</th>
+                  <th>{L.weight[lang]}</th>
+                  <th>{L.speed[lang]}</th>
+                  <th>{L.year[lang]}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...block.products].sort((a, b) => a.priceCHF - b.priceCHF).map((p) => (
+                  <tr key={p.id}>
+                    <td>
+                      <NavLink href={productUrl(p)} onNavigate={onNavigate} className="k132">
+                        {p.name}
+                      </NavLink>
+                    </td>
+                    <td>{`${p.priceEstimated ? L.approx[lang] : ''}CHF ${Math.round(p.priceCHF).toLocaleString('de-CH')}`}</td>
+                    <td>{motorLabel(p)}</td>
+                    <td>{`${p.batteryWh} Wh`}</td>
+                    <td>{p.weightKg ? `${String(p.weightKg).replace('.', lang === 'de' ? '.' : ',')} kg` : '–'}</td>
+                    <td>{`bis ${p.speedMaxKmH} km/h`.replace('bis', lang === 'fr' ? 'jusqu’à' : lang === 'it' ? 'fino a' : 'bis')}</td>
+                    <td>{p.year}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       )}
 

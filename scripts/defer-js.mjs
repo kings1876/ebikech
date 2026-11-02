@@ -14,8 +14,10 @@ const SCRIPT_TAG = /<script\s+src="(\/_next\/static\/[^"]+\.js)"([^>]*)><\/scrip
 const PRELOAD_TAG = /<link\s[^>]*as="script"[^>]*\/?>/g;
 
 function loader(urls) {
+  // the shared folder prefix is added in the script, not repeated in every entry
+  const dir = '/_next/static/';
   return (
-    '<script>(function(){var u=' + JSON.stringify(urls) +
+    '<script>(function(){var u=' + JSON.stringify(urls.map((x) => x.replace(dir, ''))) + '.map(function(x){return"' + dir + '"+x})' +
     ',d=0,l=0,p=0,ev=["pointerdown","touchstart","keydown"];' +
     'function go(){if(d)return;d=1;for(var i=0;i<ev.length;i++)removeEventListener(ev[i],go,true);' +
     'for(var j=0;j<u.length;j++){var s=document.createElement("script");s.src=u[j];s.async=true;document.head.appendChild(s)}}' +

@@ -80,19 +80,17 @@ for (const file of files.sort()) {
 const loadStylesheet = async (id, base) => ({
   path: id,
   base,
-  content: fs.readFileSync(id === 'tailwindcss' ? path.join(twDir, 'index.css') : path.join(twDir, id.replace(/^tailwindcss//, '')), 'utf8'),
+  content: fs.readFileSync(id === 'tailwindcss' ? path.join(twDir, 'index.css') : path.join(twDir, id.replace(/^tailwindcss\//, '')), 'utf8'),
 });
-const baseLines = new Set(compiler.build([]).split('
-'));
+const baseLines = new Set(compiler.build([]).split('\n'));
 const propCache = new Map();
 async function propsOf(token) {
   if (propCache.has(token)) return propCache.get(token);
   const c = await compile('@import "tailwindcss";', { loadStylesheet });
   const set = new Set();
-  for (const line of c.build([token]).split('
-')) {
+  for (const line of c.build([token]).split('\n')) {
     if (baseLines.has(line)) continue;
-    const m = line.match(/^s*([a-z-]+)s*:/);
+    const m = line.match(/^\s*([a-z-]+)\s*:/);
     if (m && !m[1].startsWith('--') && !['syntax', 'inherits', 'initial-value'].includes(m[1])) set.add(m[1]);
   }
   propCache.set(token, set);
@@ -100,7 +98,7 @@ async function propsOf(token) {
 }
 async function segProps(text) {
   const set = new Set();
-  for (const t of text.split(/s+/).filter(Boolean)) if (generatesCss(t)) for (const p of await propsOf(t)) set.add(p);
+  for (const t of text.split(/\s+/).filter(Boolean)) if (generatesCss(t)) for (const p of await propsOf(t)) set.add(p);
   return set;
 }
 const exclusive = (a, b) => a.path.some(([id, br]) => b.path.some(([id2, br2]) => id === id2 && br !== br2));
@@ -110,15 +108,14 @@ const aliasFor = (apply) => {
   if (!name) {
     name = 'k' + next++;
     byRule.set(rule, name);
-    added += `.${name} { @apply ${rule}; }
-`;
+    added += `.${name} { @apply ${rule}; }\n`;
   }
   return name;
 };
 function rewrite(text) {
-  const lead = text.match(/^s*/)[0];
-  const trail = text.match(/s*$/)[0];
-  const tokens = text.split(/s+/).filter(Boolean);
+  const lead = text.match(/^\s*/)[0];
+  const trail = text.match(/\s*$/)[0];
+  const tokens = text.split(/\s+/).filter(Boolean);
   const apply = tokens.filter(generatesCss);
   if (apply.length < 2 || text.trim().length < 14) return null;
   return lead + [aliasFor(apply), ...tokens.filter((t) => !generatesCss(t))].join(' ') + trail;
@@ -143,6 +140,8 @@ for (const file of files.sort()) {
   const exprs = [];
   (function find(n) {
     if (ts.isJsxAttribute(n) && n.name.getText() === 'className' && n.initializer && ts.isJsxExpression(n.initializer) && n.initializer.expression) exprs.push(n.initializer.expression);
+    // helpers such as `const linkClass = (active) => `...${active ? 'a' : 'b'}``
+    if (ts.isVariableDeclaration(n) && ts.isIdentifier(n.name) && /class|cls/i.test(n.name.text) && n.initializer && ts.isArrowFunction(n.initializer) && !ts.isBlock(n.initializer.body)) exprs.push(n.initializer.body);
     ts.forEachChild(n, find);
   })(sf);
 

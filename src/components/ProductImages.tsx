@@ -63,8 +63,6 @@ export function CardImage({ images, name, priority = false }: { images: Img[]; n
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={src}
-      srcSet={stage === 0 ? optimizedSrcSet(first.url, OPT_CARD) : undefined}
-      sizes="192px"
       alt={first.alt || name}
       width={320}
       height={224}
@@ -114,7 +112,7 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
         if (e.key === 'ArrowLeft') go(-1);
       }}
     >
-      <div className={`relative w-full aspect-[4/3] rounded-2xl border border-slate-100 flex items-center justify-center overflow-hidden ${current.bg === 'black' ? 'bg-black' : 'bg-white'}`}>
+      <div className={`k636 ${current.bg === 'black' ? 'bg-black' : 'bg-white'}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           key={current.url}
@@ -165,8 +163,8 @@ export function ProductGallery({ images, name, lang = 'de' }: { images: Img[]; n
                 onClick={() => setIndex(i)}
                 aria-label={`${gt.image} ${i + 1}`}
                 aria-current={i === Math.min(index, list.length - 1)}
-                className={`block w-full aspect-[4/3] rounded-lg border ${img.bg === 'black' ? 'bg-black' : 'bg-white'} overflow-hidden cursor-pointer ${
-                  i === Math.min(index, list.length - 1) ? 'border-red-600 ring-1 ring-red-600' : 'border-slate-200 hover:border-slate-400'
+                className={`k637 ${img.bg === 'black' ? 'bg-black' : 'bg-white'} k638 ${
+                  i === Math.min(index, list.length - 1) ? 'k639' : 'k640'
                 }`}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -218,7 +216,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
   };
   const go = (d: number) => setI((idx + d + list.length) % list.length);
   const arrow =
-    'absolute top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 border border-slate-200 shadow-sm text-slate-700 text-lg leading-none flex items-center justify-center cursor-pointer hover:bg-white transition-opacity opacity-0 group-hover/gal:opacity-100 focus:opacity-100 [@media(hover:none)]:opacity-100';
+    'k644';
 
   return (
     <div
@@ -289,7 +287,7 @@ export function CardGallery({ images, name, priority = false, lang = 'de' }: { i
                 onClick={(e) => { e.stopPropagation(); setI(n); }}
                 className="k188"
               >
-                <span className={`block h-1.5 rounded-full transition-all ${n === idx ? 'w-4 bg-red-600' : 'w-1.5 bg-slate-400'}`} />
+                <span className={`k641 ${n === idx ? 'k642' : 'k643'}`} />
               </button>
             ))}
           </div>

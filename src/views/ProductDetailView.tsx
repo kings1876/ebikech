@@ -150,10 +150,10 @@ export function ProductDetailView({
           {/* Top Badges */}
           <div className="k526">
             <div className="flex items-center gap-2">
-              <span className={`px-2.5 py-1 rounded-full text-xs font-bold ${
+              <span className={`k676 ${
                 product.speedMaxKmH === 45
-                  ? 'bg-amber-500 text-slate-900 shadow-xs'
-                  : 'bg-emerald-100 text-emerald-800'
+                  ? 'k677'
+                  : 'k678'
               }`}>
                 {product.speedMaxKmH} km/h
               </span>
@@ -311,10 +311,10 @@ export function ProductDetailView({
 
               <button
                 onClick={() => onToggleCompare(product)}
-                className={`w-full py-2.5 rounded-2xl text-xs font-bold border transition-colors flex items-center justify-center gap-2 cursor-pointer ${
+                className={`k679 ${
                   isCompared
-                    ? 'bg-slate-900 text-white border-slate-900'
-                    : 'bg-white text-slate-800 border-slate-200 hover:bg-slate-100'
+                    ? 'k624'
+                    : 'k680'
                 }`}
               >
                 <SlidersHorizontal className="w-3.5 h-3.5" />
@@ -351,8 +351,8 @@ export function ProductDetailView({
           {product.testVerdicts.length > 0 && (
           <button
             onClick={() => setActiveTab('tests')}
-            className={`pb-3 border-b-2 transition-colors cursor-pointer ${
-              activeTab === 'tests' ? 'border-red-600 text-red-600' : 'border-transparent text-slate-500 hover:text-slate-900'
+            className={`k681 ${
+              activeTab === 'tests' ? 'k682' : 'k683'
             }`}
           >
             {tPdp.tabTests} ({product.testVerdicts.length})
@@ -361,8 +361,8 @@ export function ProductDetailView({
           {product.userReviews.length > 0 && (
           <button
             onClick={() => setActiveTab('reviews')}
-            className={`pb-3 border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 ${
-              activeTab === 'reviews' ? 'border-red-600 text-red-600' : 'border-transparent text-slate-500 hover:text-slate-900'
+            className={`k684 ${
+              activeTab === 'reviews' ? 'k682' : 'k683'
             }`}
           >
             <span>{tPdp.tabReviews}</span>
@@ -373,8 +373,8 @@ export function ProductDetailView({
           )}
           <button
             onClick={() => setActiveTab('specs')}
-            className={`pb-3 border-b-2 transition-colors cursor-pointer ${
-              activeTab === 'specs' ? 'border-red-600 text-red-600' : 'border-transparent text-slate-500 hover:text-slate-900'
+            className={`k681 ${
+              activeTab === 'specs' ? 'k682' : 'k683'
             }`}
           >
             {tPdp.tabSpecs}
@@ -541,30 +541,30 @@ export function ProductDetailView({
                   <span className="k583">Quelle:</span>
                   <button
                     onClick={() => setReviewFilter('all')}
-                    className={`px-3 py-1 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
+                    className={`k685 ${
                       reviewFilter === 'all'
-                        ? 'bg-slate-900 text-white'
-                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                        ? 'k686'
+                        : 'k635'
                     }`}
                   >
                     {tPdp.allReviewsFilter} ({product.userReviews.length})
                   </button>
                   <button
                     onClick={() => setReviewFilter('Trustpilot')}
-                    className={`px-3 py-1 rounded-full text-xs font-semibold transition-colors flex items-center gap-1.5 cursor-pointer ${
+                    className={`k687 ${
                       reviewFilter === 'Trustpilot'
-                        ? 'bg-[#00b67a] text-white shadow-xs'
-                        : 'bg-emerald-50 text-emerald-900 border border-emerald-200 hover:bg-emerald-100'
+                        ? 'k688'
+                        : 'k689'
                     }`}
                   >
                     <span>★ Trustpilot ({trustpilotReviews.length})</span>
                   </button>
                   <button
                     onClick={() => setReviewFilter('Google')}
-                    className={`px-3 py-1 rounded-full text-xs font-semibold transition-colors flex items-center gap-1.5 cursor-pointer ${
+                    className={`k687 ${
                       reviewFilter === 'Google'
-                        ? 'bg-blue-600 text-white shadow-xs'
-                        : 'bg-blue-50 text-blue-900 border border-blue-200 hover:bg-blue-100'
+                        ? 'k690'
+                        : 'k691'
                     }`}
                   >
                     <span>Google Reviews ({googleReviews.length})</span>
@@ -626,7 +626,7 @@ export function ProductDetailView({
                         {Array.from({ length: 5 }, (_, i) => (
                           <div
                             key={i}
-                            className={`w-4 h-4 rounded-xs flex items-center justify-center text-white ${
+                            className={`k692 ${
                               i < rev.rating
                                 ? isTrustpilot
                                   ? 'bg-[#00b67a]'
@@ -660,10 +660,10 @@ export function ProductDetailView({
                       <span>{tPdp.helpfulQuestion}</span>
                       <button
                         onClick={() => handleHelpfulClick(rev.id)}
-                        className={`flex items-center gap-1 px-2.5 py-1 rounded-lg transition-colors cursor-pointer ${
+                        className={`k693 ${
                           hasVotedHelpful
-                            ? 'bg-emerald-100 text-emerald-800 font-bold'
-                            : 'bg-slate-50 text-slate-600 hover:bg-slate-100'
+                            ? 'k694'
+                            : 'k695'
                         }`}
                       >
                         <ThumbsUp className="w-3 h-3" />

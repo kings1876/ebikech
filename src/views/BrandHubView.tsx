@@ -202,7 +202,7 @@ export function BrandHubView({
 
         {(() => {
           const block = brandCategoryContent(brand, category, lang);
-          return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} /> : null;
+          return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} showTable /> : null;
         })()}
       </div>
     );
@@ -350,7 +350,7 @@ export function BrandHubView({
 
       {(() => {
         const block = brandContent(brand, lang);
-        return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} /> : null;
+        return block ? <ListingContent block={block} lang={lang} onNavigate={onNavigate} showTable /> : null;
       })()}
     </div>
   );

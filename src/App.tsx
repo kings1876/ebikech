@@ -95,6 +95,7 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
   // Dynamic SEO Synchronization into <head>
   const origin = SITE_URL;
   const seo = resolveSeoMetadata(route, origin);
+  const hasSchema = Array.isArray(seo.jsonLd) ? seo.jsonLd.length > 0 : Object.keys(seo.jsonLd).length > 0;
 
   useEffect(() => {
     // 1. Title
@@ -142,20 +143,7 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
     }
     ogUrl.setAttribute('content', seo.canonicalUrl);
 
-    // 6. Schema.org JSON-LD
-    let scriptLd = document.querySelector('script[data-type="schema-ld"]');
-    const hasSchema = Array.isArray(seo.jsonLd) ? seo.jsonLd.length > 0 : Object.keys(seo.jsonLd).length > 0;
-    if (!hasSchema) {
-      scriptLd?.remove();
-    } else {
-      if (!scriptLd) {
-        scriptLd = document.createElement('script');
-        scriptLd.setAttribute('type', 'application/ld+json');
-        scriptLd.setAttribute('data-type', 'schema-ld');
-        document.head.appendChild(scriptLd);
-      }
-      scriptLd.textContent = JSON.stringify(seo.jsonLd);
-    }
+    // 6. (Schema.org JSON-LD is rendered in the page body below.)
 
     // 7. Hreflangs in <head>
     // Remove previous hreflang tags
@@ -194,6 +182,13 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
 
   return (
     <div className="k1">
+      {hasSchema && (
+        <script
+          type="application/ld+json"
+          data-type="schema-ld"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(seo.jsonLd).replace(/</g, '\\u003c') }}
+        />
+      )}
       {/* Multilingual Main Header */}
       <Header
         currentRoute={route}

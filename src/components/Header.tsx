@@ -110,8 +110,8 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
   const activeBrands = BRANDS.filter((b) => brandCounts[b.id] > 0);
 
   const linkClass = (active: boolean) =>
-    `inline-flex items-center gap-1 px-3.5 py-2 rounded-lg text-[15px] font-semibold whitespace-nowrap transition-colors cursor-pointer ${
-      active ? 'text-red-700 bg-red-50' : 'text-slate-700 hover:text-slate-950 hover:bg-slate-100'
+    `k697 ${
+      active ? 'k698' : 'k699'
     }`;
   const isCatalogue = ['catalog-root', 'category', 'subcategory'].includes(currentRoute.view);
   const isBrands = ['brand-root', 'brand', 'brand-category'].includes(currentRoute.view);
@@ -150,8 +150,8 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
             <div className="k79">
               <button
                 onClick={() => handleLanguageChange('de')}
-                className={`px-2 py-0.5 rounded text-[11px] font-bold transition-colors cursor-pointer ${
-                  lang === 'de' ? 'bg-red-600 text-white shadow-xs' : 'text-slate-300 hover:text-white'
+                className={`k627 ${
+                  lang === 'de' ? 'k628' : 'k629'
                 }`}
                 title="Deutsch (de-CH)"
               >
@@ -159,8 +159,8 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               </button>
               <button
                 onClick={() => handleLanguageChange('fr')}
-                className={`px-2 py-0.5 rounded text-[11px] font-bold transition-colors cursor-pointer ${
-                  lang === 'fr' ? 'bg-red-600 text-white shadow-xs' : 'text-slate-300 hover:text-white'
+                className={`k627 ${
+                  lang === 'fr' ? 'k628' : 'k629'
                 }`}
                 title="Français (fr-CH)"
               >
@@ -168,8 +168,8 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               </button>
               <button
                 onClick={() => handleLanguageChange('it')}
-                className={`px-2 py-0.5 rounded text-[11px] font-bold transition-colors cursor-pointer ${
-                  lang === 'it' ? 'bg-red-600 text-white shadow-xs' : 'text-slate-300 hover:text-white'
+                className={`k627 ${
+                  lang === 'it' ? 'k628' : 'k629'
                 }`}
                 title="Italiano (it-CH)"
               >
@@ -421,19 +421,19 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
           <div className="k115">
             <button
               onClick={() => handleLanguageChange('de')}
-              className={`py-1.5 rounded-lg text-center font-bold text-xs ${lang === 'de' ? 'bg-red-600 text-white' : 'bg-slate-100 text-slate-700'}`}
+              className={`k630 ${lang === 'de' ? 'k631' : 'k632'}`}
             >
               Deutsch (de-CH)
             </button>
             <button
               onClick={() => handleLanguageChange('fr')}
-              className={`py-1.5 rounded-lg text-center font-bold text-xs ${lang === 'fr' ? 'bg-red-600 text-white' : 'bg-slate-100 text-slate-700'}`}
+              className={`k630 ${lang === 'fr' ? 'k631' : 'k632'}`}
             >
               Français (fr-CH)
             </button>
             <button
               onClick={() => handleLanguageChange('it')}
-              className={`py-1.5 rounded-lg text-center font-bold text-xs ${lang === 'it' ? 'bg-red-600 text-white' : 'bg-slate-100 text-slate-700'}`}
+              className={`k630 ${lang === 'it' ? 'k631' : 'k632'}`}
             >
               Italiano (it-CH)
             </button>

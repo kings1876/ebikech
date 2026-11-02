@@ -163,24 +163,24 @@ export function GuideView({ route, lang, onNavigate }: GuideViewProps) {
                 <div className="k428">
                   <button
                     onClick={() => setBikeType('trekking')}
-                    className={`p-2 rounded-xl font-bold border transition-colors cursor-pointer ${
-                      bikeType === 'trekking' ? 'bg-red-600 text-white border-red-600' : 'bg-white text-slate-700 border-slate-200'
+                    className={`k672 ${
+                      bikeType === 'trekking' ? 'k622' : 'k673'
                     }`}
                   >
                     City / Trekking
                   </button>
                   <button
                     onClick={() => setBikeType('mtb')}
-                    className={`p-2 rounded-xl font-bold border transition-colors cursor-pointer ${
-                      bikeType === 'mtb' ? 'bg-red-600 text-white border-red-600' : 'bg-white text-slate-700 border-slate-200'
+                    className={`k672 ${
+                      bikeType === 'mtb' ? 'k622' : 'k673'
                     }`}
                   >
                     E-MTB
                   </button>
                   <button
                     onClick={() => setBikeType('road')}
-                    className={`p-2 rounded-xl font-bold border transition-colors cursor-pointer ${
-                      bikeType === 'road' ? 'bg-red-600 text-white border-red-600' : 'bg-white text-slate-700 border-slate-200'
+                    className={`k672 ${
+                      bikeType === 'road' ? 'k622' : 'k673'
                     }`}
                   >
                     Gravel / Road

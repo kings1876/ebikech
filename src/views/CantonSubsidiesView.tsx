@@ -59,10 +59,10 @@ export function CantonSubsidiesView({ lang, onNavigate }: CantonSubsidiesViewPro
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => setSelectedCanton('all')}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-colors cursor-pointer ${
+            className={`k661 ${
               selectedCanton === 'all'
-                ? 'bg-emerald-900 text-white border-emerald-900 shadow-xs'
-                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+                ? 'k662'
+                : 'k663'
             }`}
           >
             {t.allCantons} ({CANTON_SUBSIDIES.length})
@@ -71,10 +71,10 @@ export function CantonSubsidiesView({ lang, onNavigate }: CantonSubsidiesViewPro
             <button
               key={c.cantonCode}
               onClick={() => setSelectedCanton(c.cantonCode)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-colors cursor-pointer ${
+              className={`k661 ${
                 selectedCanton === c.cantonCode
-                  ? 'bg-emerald-700 text-white border-emerald-700 shadow-xs'
-                  : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+                  ? 'k664'
+                  : 'k663'
               }`}
             >
               {c.cantonCode} · {c.cantonName.split('/')[0].trim()}

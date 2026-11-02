@@ -80,10 +80,10 @@ export function ProductCard({
             e.stopPropagation();
             onToggleCompare(product);
           }}
-          className={`flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-medium transition-colors cursor-pointer ${
+          className={`k634 ${
             isCompared
-              ? 'bg-red-600 text-white shadow-xs'
-              : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              ? 'k628'
+              : 'k635'
           }`}
           title={isCompared ? tCard.inComparison : tCard.compare}
         >
@@ -154,11 +154,11 @@ export function ProductCard({
           <div className="k169">
             <div className="k170" title={tCard.torque}>
               <Zap className="k171" />
-              <span className="truncate">{product.motorBrand === 'Other' ? (/nicht angegeben/i.test(product.motorModel) ? 'Motor' : product.motorModel.split(' ')[0]) : product.motorBrand}{product.torqueNm ? ` ${product.torqueNm}Nm` : ''}</span>
+              <span className="truncate">{`${product.motorBrand === 'Other' ? (/nicht angegeben/i.test(product.motorModel) ? 'Motor' : product.motorModel.split(' ')[0]) : product.motorBrand}${product.torqueNm ? ` ${product.torqueNm}Nm` : ''}`}</span>
             </div>
             <div className="k170" title={tCard.battery}>
               <Battery className="k172" />
-              <span className="truncate">{product.batteryWh} Wh</span>
+              <span className="truncate">{`${product.batteryWh} Wh`}</span>
             </div>
             <div className="k170" title={tCard.weight}>
               <Weight className="k173" />
@@ -177,9 +177,9 @@ export function ProductCard({
         <div className="k175">
           <div>
             <div className="k176">
-              {product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF {product.priceCHF.toLocaleString('de-CH')}.-
+              {`${product.priceEstimated ? 'ca. ' : product.priceFrom ? 'ab ' : ''}CHF ${product.priceCHF.toLocaleString('de-CH')}.-`}
             </div>
-            <div className="k177">UVP · {product.year}</div>
+            <div className="k177">{`UVP · ${product.year}`}</div>
           </div>
 
           <NavLink href={productUrl} onNavigate={onNavigate}

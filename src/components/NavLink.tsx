@@ -14,12 +14,12 @@ interface NavLinkProps extends Omit<React.AnchorHTMLAttributes<HTMLAnchorElement
  * while modified clicks (new tab, etc.) fall through to the browser.
  */
 export function NavLink({ href, onNavigate, onClick, className = '', children, ...rest }: NavLinkProps) {
-  const hasDisplay = /(^|\s)(flex|grid|block|inline|inline-block|inline-flex|hidden)(\s|$)/.test(className);
   return (
     <a
       {...rest}
       href={href}
-      className={hasDisplay ? className : `inline-block ${className}`.trim()}
+      // .n is inline-block by default (index.css); any display utility or class alias on the link overrides it
+      className={`n ${className}`.trim()}
       onClick={(e) => {
         if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         e.preventDefault();

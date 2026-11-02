@@ -13,6 +13,8 @@ export interface ListingBlock {
   highlights: Highlight[];
   families: Family[];
   guide?: BlogPost;
+  /** Every model the block describes, for the overview table. */
+  products: Product[];
 }
 
 const chf = (n: number) => `CHF ${Math.round(n).toLocaleString('de-CH')}`;
@@ -169,7 +171,35 @@ export function categoryContent(cat: CategoryDef, lang: Language): ListingBlock 
   }
   sections.push({ heading: L(lang, `Technik der ${name}`, `La technique des ${name}`, `La tecnica delle ${name}`), paragraphs: tech });
 
-  return { title: cat.name[lang], sections, highlights: highlights(list, lang), families: families(list), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]) };
+  return { title: cat.name[lang], sections, highlights: highlights(list, lang), families: families(list), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]), products: list };
+}
+
+export function subcategoryContent(cat: CategoryDef, subId: string, lang: Language): ListingBlock | null {
+  const sub = (cat.subcategories || []).find((s) => s.id === subId);
+  const list = ALL_PRODUCTS.filter((p) => p.categoryId === cat.id && p.subcategoryId === subId);
+  if (!sub || list.length < 3) return null;
+  const prices = list.map((p) => p.priceCHF);
+  const brands = Object.entries(list.reduce<Record<string, number>>((a, p) => ((a[p.brandId] = (a[p.brandId] || 0) + 1), a), {})).sort((a, b) => b[1] - a[1]);
+  const name = lcFirst(sub.name[lang], lang);
+  const sections: ListingSection[] = [];
+  sections.push({
+    heading: L(lang, `${sub.name.de} im Überblick`, `${sub.name.fr} en bref`, `${sub.name.it} in sintesi`),
+    paragraphs: [
+      L(
+        lang,
+        `In dieser Bauart (${cat.name.de}) führen wir ${list.length} Modelle von ${brands.length} Marken: ${brands.slice(0, 5).map(([id, n]) => `${brandName(id)} (${n})`).join(', ')}${brands.length > 5 ? ' und weitere' : ''}. Die Preise reichen von ${chf(Math.min(...prices))} bis ${chf(Math.max(...prices))} (Median: ${chf(median(prices))}).`,
+        `Dans ce type (${cat.name.fr}), nous présentons ${list.length} modèles de ${brands.length} marques : ${brands.slice(0, 5).map(([id, n]) => `${brandName(id)} (${n})`).join(', ')}${brands.length > 5 ? ' et d’autres' : ''}. Les prix vont de ${chf(Math.min(...prices))} à ${chf(Math.max(...prices))} (médiane : ${chf(median(prices))}).`,
+        `In questa tipologia (${cat.name.it}) presentiamo ${list.length} modelli di ${brands.length} marchi: ${brands.slice(0, 5).map(([id, n]) => `${brandName(id)} (${n})`).join(', ')}${brands.length > 5 ? ' e altri' : ''}. I prezzi vanno da ${chf(Math.min(...prices))} a ${chf(Math.max(...prices))} (mediana: ${chf(median(prices))}).`,
+      ),
+    ],
+  });
+  void name;
+  const tech: string[] = [];
+  const ms = motorSentence(list, lang);
+  if (ms) tech.push(ms);
+  tech.push(...techSentence(list, lang));
+  if (tech.length) sections.push({ heading: L(lang, 'Technik', 'Technique', 'Tecnica'), paragraphs: tech });
+  return { title: sub.name[lang], sections, highlights: highlights(list, lang), families: families(list, 4), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]), products: list };
 }
 
 export function brandContent(brand: BrandDef, lang: Language): ListingBlock | null {
@@ -205,7 +235,7 @@ export function brandContent(brand: BrandDef, lang: Language): ListingBlock | nu
   tech.push(...techSentence(list, lang));
   if (tech.length) sections.push({ heading: L(lang, 'Technik', 'Technique', 'Tecnica'), paragraphs: tech });
 
-  return { title: brand.name, sections, highlights: highlights(list, lang), families: families(list), guide: guideFor(GUIDE_FOR_BRAND[brand.id]) };
+  return { title: brand.name, sections, highlights: highlights(list, lang), families: families(list), guide: guideFor(GUIDE_FOR_BRAND[brand.id]), products: list };
 }
 
 export function brandCategoryContent(brand: BrandDef, cat: CategoryDef, lang: Language): ListingBlock | null {
@@ -236,5 +266,5 @@ export function brandCategoryContent(brand: BrandDef, cat: CategoryDef, lang: La
   if (ms) tech.push(ms);
   tech.push(...techSentence(list, lang));
   if (tech.length) sections.push({ heading: L(lang, 'Technik', 'Technique', 'Tecnica'), paragraphs: tech });
-  return { title: `${brand.name} ${cat.name[lang]}`, sections, highlights: highlights(list, lang), families: families(list, 4), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]) };
+  return { title: `${brand.name} ${cat.name[lang]}`, sections, highlights: highlights(list, lang), families: families(list, 4), guide: guideFor(GUIDE_FOR_CATEGORY[cat.id]), products: list };
 }
