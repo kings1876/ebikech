@@ -1,11 +1,12 @@
 import { Product, Language } from '../types';
+import { cart } from '../lib/cart';
 import { cryptoPriceLine } from '../lib/order';
 import { CardImage, CardGallery } from './ProductImages';
 import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { buildLocalizedUrl } from '../utils/routes';
 import { I18N } from '../data/i18n';
-import { Zap, Battery, Weight, Check, SlidersHorizontal, ArrowUpRight, Gauge } from './icons';
+import { Zap, Battery, Weight, Check, SlidersHorizontal, ArrowUpRight, Gauge, ShoppingCart } from './icons';
 import { NavLink } from './NavLink';
 
 interface ProductCardProps {
@@ -184,6 +185,16 @@ export function ProductCard({
             {cryptoPriceLine(product.priceCHF, lang) && <div className="k706">{cryptoPriceLine(product.priceCHF, lang)}</div>}
           </div>
 
+          <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => { cart.add(product.slug); window.dispatchEvent(new Event('cart:open')); }}
+            aria-label={lang === 'fr' ? 'Ajouter au panier' : lang === 'it' ? 'Aggiungi al carrello' : 'In den Warenkorb'}
+            title={lang === 'fr' ? 'Ajouter au panier' : lang === 'it' ? 'Aggiungi al carrello' : 'In den Warenkorb'}
+            className="k732"
+          >
+            <ShoppingCart className="w-4 h-4" />
+          </button>
           <NavLink href={productUrl} onNavigate={onNavigate}
             
             className="k178"
@@ -191,6 +202,7 @@ export function ProductCard({
           >
             <ArrowUpRight className="w-4 h-4" />
           </NavLink>
+          </div>
         </div>
       </div>
     </article>

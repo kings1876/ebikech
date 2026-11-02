@@ -56,3 +56,7 @@ export const User = make('user');
 export const Weight = make('weight');
 export const X = make('x');
 export const Zap = make('zap');
+export const Minus = make('minus');
+export const Plus = make('plus');
+export const ShoppingCart = make('shopping-cart');
+export const Trash2 = make('trash-2');

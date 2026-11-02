@@ -17,7 +17,7 @@ const NAMES = {
   MessageCircle: 'message-circle', Mountain: 'mountain', Phone: 'phone', RotateCcw: 'rotate-ccw', Scale: 'scale',
   Search: 'search', ShieldAlert: 'shield-alert', ShieldCheck: 'shield-check', SlidersHorizontal: 'sliders-horizontal',
   Smile: 'smile', Sparkles: 'sparkles', Star: 'star', ThumbsDown: 'thumbs-down', ThumbsUp: 'thumbs-up', Truck: 'truck',
-  User: 'user', Weight: 'weight', X: 'x', Zap: 'zap',
+  User: 'user', Weight: 'weight', X: 'x', Zap: 'zap', Minus: 'minus', Plus: 'plus', ShoppingCart: 'shopping-cart', Trash2: 'trash-2',
 };
 const FILLED = new Set(['Star']); // drawn solid (every use was fill-current)
 const BOLD = { Check: 3 }; // extra variant with a heavier stroke: .ic-check.ic-bold

@@ -28,7 +28,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
   }
 
   // Rule: search, cart, checkout, account, thank-you -> noindex
-  if (route.view === 'search' || route.view === '404') {
+  if (route.view === 'search' || route.view === '404' || route.view === 'checkout') {
     robots = 'noindex, follow';
   }
 
@@ -428,6 +428,16 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           publisher: { '@type': 'Organization', name: portal },
         };
       }
+      break;
+    }
+
+    case 'checkout': {
+      title = lang === 'fr' ? `Panier et commande | ${SITE_NAME.fr}` : lang === 'it' ? `Carrello e ordine | ${SITE_NAME.it}` : `Warenkorb und Bestellung | ${SITE_NAME.de}`;
+      description = lang === 'fr'
+        ? 'Votre panier et le formulaire de commande : paiement par virement bancaire ou en cryptomonnaie.'
+        : lang === 'it'
+        ? 'Il vostro carrello e il modulo d’ordine: pagamento con bonifico bancario o in criptovaluta.'
+        : 'Ihr Warenkorb und das Bestellformular: Bezahlung per Banküberweisung oder Kryptowährung.';
       break;
     }
 

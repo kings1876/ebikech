@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { cart } from '../lib/cart';
 import { cryptoPriceLine, isCryptoEnabled } from '../lib/order';
 import { ProductGallery } from '../components/ProductImages';
 import { Product, Language, ReviewPlatform } from '../types';
@@ -18,6 +19,7 @@ import {
   ChevronRight,
   SlidersHorizontal,
   Coins,
+  ShoppingCart,
   Star,
   ThumbsUp,
   ThumbsDown,
@@ -296,8 +298,16 @@ export function ProductDetailView({
             {/* Action Buttons */}
             <div className="space-y-2 pt-2">
               <button
-                onClick={() => onOpenOrder(product)}
+                onClick={() => { cart.add(product.slug); window.dispatchEvent(new Event('cart:open')); }}
                 className="k545"
+              >
+                <ShoppingCart className="w-4 h-4" />
+                <span>{lang === 'fr' ? 'Ajouter au panier' : lang === 'it' ? 'Aggiungi al carrello' : 'In den Warenkorb'}</span>
+              </button>
+
+              <button
+                onClick={() => onOpenOrder(product)}
+                className="k546"
               >
                 <Coins className="w-4 h-4" />
                 <span>{isCryptoEnabled() ? (lang === 'fr' ? 'Commander maintenant' : lang === 'it' ? 'Ordina ora' : 'Jetzt bestellen') : lang === 'fr' ? 'Commander par virement bancaire' : lang === 'it' ? 'Ordina con bonifico bancario' : 'Per Banküberweisung bestellen'}</span>

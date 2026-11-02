@@ -25,6 +25,7 @@ export interface ParsedRoute {
     | 'blog-post'
     | 'faq'
     | 'contact'
+    | 'checkout'
     | 'canton-subsidies'
     | 'comparison'
     | 'about'
@@ -127,6 +128,11 @@ export function parseRoute(pathname: string, search: string = ''): ParsedRoute {
   }
 
   const firstSeg = segments[0];
+
+  // Checkout (cart and order form)
+  if (['kasse', 'caisse', 'cassa'].includes(firstSeg)) {
+    return segments.length === 1 ? { lang, view: 'checkout' } : { lang, view: '404' };
+  }
 
   // Contact
   if (['kontakt', 'contact', 'contatti'].includes(firstSeg)) {
@@ -358,6 +364,9 @@ export function buildLocalizedUrl(targetLang: Language, route: ParsedRoute): str
 
     case 'faq':
       return `${langPrefix}/faq/`;
+
+    case 'checkout':
+      return targetLang === 'fr' ? '/fr/caisse/' : targetLang === 'it' ? '/it/cassa/' : '/kasse/';
 
     case 'contact':
       return targetLang === 'fr' ? '/fr/contact/' : targetLang === 'it' ? '/it/contatti/' : '/kontakt/';

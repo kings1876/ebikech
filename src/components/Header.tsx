@@ -26,6 +26,7 @@ import {
   Smile,
   Check,
   Mail,
+  ShoppingCart,
 } from './icons';
 import { CONTACT } from '../config/contact';
 import { NavLink } from './NavLink';
@@ -37,6 +38,8 @@ interface HeaderProps {
   onNavigate: (path: string) => void;
   compareCount: number;
   onOpenCompare: () => void;
+  cartCount: number;
+  onOpenCart: () => void;
 }
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -50,7 +53,7 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   'e-bikes-jugend': <Smile className="w-4 h-4 text-pink-600" />,
 };
 
-export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }: HeaderProps) {
+export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare, cartCount, onOpenCart }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [catDropdownOpen, setCatDropdownOpen] = useState(false);
   const [brandDropdownOpen, setBrandDropdownOpen] = useState(false);
@@ -391,6 +394,16 @@ export function Header({ currentRoute, onNavigate, compareCount, onOpenCompare }
               </div>
             )}
           </div>
+
+          <button
+            type="button"
+            onClick={onOpenCart}
+            aria-label={lang === 'fr' ? 'Panier' : lang === 'it' ? 'Carrello' : 'Warenkorb'}
+            className="k730"
+          >
+            <ShoppingCart className="w-5 h-5" />
+            {cartCount > 0 && <span className="k731">{cartCount}</span>}
+          </button>
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

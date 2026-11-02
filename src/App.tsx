@@ -19,6 +19,8 @@ import { StaticPages } from './views/StaticPages';
 import { BlogView } from './views/BlogView';
 import { FaqView } from './views/FaqView';
 import { ContactView } from './views/ContactView';
+import { CheckoutView } from './views/CheckoutView';
+import { cart, useCart } from './lib/cart';
 
 // Views are imported statically: a view behind next/dynamic becomes a Suspense boundary, and React streams any boundary
 // over ~13 KB as a hidden block that a script reveals later, which leaves the page body missing without JavaScript and
@@ -26,7 +28,7 @@ import { ContactView } from './views/ContactView';
 const SeoInspector = dynamic(() => import('./components/SeoInspector').then((m) => m.SeoInspector));
 const ComparisonDrawer = dynamic(() => import('./components/ComparisonDrawer').then((m) => m.ComparisonDrawer));
 const TestRideModal = dynamic(() => import('./components/TestRideModal').then((m) => m.TestRideModal));
-const OrderRequestModal = dynamic(() => import('./components/OrderRequestModal').then((m) => m.OrderRequestModal));
+const CartDrawer = dynamic(() => import('./components/CartDrawer').then((m) => m.CartDrawer));
 
 export default function App({ initialPath = '/', initialExtras }: { initialPath?: string; initialExtras?: Record<string, ProductExtra> }) {
   // Specs and German texts of the products this page shows (the shared product list leaves them out). Must run before any render reads them.
@@ -42,7 +44,13 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
   const [comparedProducts, setComparedProducts] = useState<Product[]>([]);
   const [comparisonModalOpen, setComparisonModalOpen] = useState(false);
   const [testRideProduct, setTestRideProduct] = useState<Product | null>(null);
-  const [orderProduct, setOrderProduct] = useState<Product | null>(null);
+  const [cartOpen, setCartOpen] = useState(false);
+  const cartCount = useCart().reduce((s, l) => s + l.quantity, 0);
+  useEffect(() => {
+    const open = () => setCartOpen(true);
+    window.addEventListener('cart:open', open); // fired by the add-to-cart buttons
+    return () => window.removeEventListener('cart:open', open);
+  }, []);
 
   const [, startTransition] = useTransition();
   const [, setExtrasReady] = useState(productExtrasLoaded());
@@ -197,6 +205,8 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
         onNavigate={handleNavigate}
         compareCount={comparedProducts.length}
         onOpenCompare={() => setComparisonModalOpen(true)}
+        cartCount={cartCount}
+        onOpenCart={() => setCartOpen(true)}
       />
 
       {/* Main Content Router */}
@@ -233,7 +243,10 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
             comparedProducts={comparedProducts}
             onToggleCompare={handleToggleCompare}
             onOpenTestRide={(prod) => setTestRideProduct(prod)}
-            onOpenOrder={(prod) => setOrderProduct(prod)}
+            onOpenOrder={(prod) => {
+              cart.add(prod.slug);
+              handleNavigate(buildLocalizedUrl(lang, { lang, view: 'checkout' }));
+            }}
           />
         )}
 
@@ -281,6 +294,8 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
         {route.view === 'faq' && <FaqView lang={lang} onNavigate={handleNavigate} />}
 
         {route.view === 'contact' && <ContactView lang={lang} onNavigate={handleNavigate} />}
+
+        {route.view === 'checkout' && <CheckoutView lang={lang} onNavigate={handleNavigate} />}
 
         {route.view === 'comparison' && (
           <div className="k2">
@@ -342,8 +357,8 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
         />
       )}
 
-      {/* Order request (bank transfer) */}
-      {orderProduct && <OrderRequestModal product={orderProduct} onClose={() => setOrderProduct(null)} lang={lang} />}
+      {/* Cart */}
+      {cartOpen && <CartDrawer lang={lang} onClose={() => setCartOpen(false)} onNavigate={handleNavigate} />}
 
       {/* Live SEO Inspector */}
       {process.env.NEXT_PUBLIC_SEO_INSPECTOR === '1' && (
