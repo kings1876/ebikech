@@ -19,7 +19,20 @@ const L = {
   weight: { de: 'Gewicht', fr: 'Poids', it: 'Peso' },
   speed: { de: 'Unterstützung', fr: 'Assistance', it: 'Assistenza' },
   year: { de: 'Jahr', fr: 'Année', it: 'Anno' },
+  features: { de: 'Eckdaten', fr: 'Caractéristiques', it: 'Caratteristiche' },
   approx: { de: 'ca. ', fr: 'env. ', it: 'ca. ' },
+};
+
+/** One localized sentence from the slim product fields (no specs, so server and browser render the same text). */
+const describe = (p: Product, lang: Language) => {
+  const kg = p.weightKg ? String(p.weightKg).replace('.', lang === 'de' ? '.' : ',') : '';
+  const cat = CATEGORIES.find((c) => c.id === p.categoryId)?.name[lang] || '';
+  const motor = motorLabel(p);
+  return lang === 'fr'
+    ? `${cat} avec moteur ${motor}, batterie de ${p.batteryWh} Wh${kg ? `, ${kg} kg` : ''}, assistance jusqu’à ${p.speedMaxKmH} km/h (modèle ${p.year}).`
+    : lang === 'it'
+      ? `${cat} con motore ${motor}, batteria da ${p.batteryWh} Wh${kg ? `, ${kg} kg` : ''}, assistenza fino a ${p.speedMaxKmH} km/h (modello ${p.year}).`
+      : `${cat} mit ${motor}, ${p.batteryWh} Wh Akku${kg ? `, ${kg} kg` : ''}, Unterstützung bis ${p.speedMaxKmH} km/h (Modelljahr ${p.year}).`;
 };
 
 const motorLabel = (p: Product) =>
@@ -88,12 +101,8 @@ export function ListingContent({ block, lang, onNavigate, showTable = false }: {
               <thead>
                 <tr>
                   <th>{L.model[lang]}</th>
+                  <th>{L.features[lang]}</th>
                   <th>{L.price[lang]}</th>
-                  <th>{L.motor[lang]}</th>
-                  <th>{L.battery[lang]}</th>
-                  <th>{L.weight[lang]}</th>
-                  <th>{L.speed[lang]}</th>
-                  <th>{L.year[lang]}</th>
                 </tr>
               </thead>
               <tbody>
@@ -104,12 +113,8 @@ export function ListingContent({ block, lang, onNavigate, showTable = false }: {
                         {p.name}
                       </NavLink>
                     </td>
+                    <td>{describe(p, lang)}</td>
                     <td>{`${p.priceEstimated ? L.approx[lang] : ''}CHF ${Math.round(p.priceCHF).toLocaleString('de-CH')}`}</td>
-                    <td>{motorLabel(p)}</td>
-                    <td>{`${p.batteryWh} Wh`}</td>
-                    <td>{p.weightKg ? `${String(p.weightKg).replace('.', lang === 'de' ? '.' : ',')} kg` : '–'}</td>
-                    <td>{`bis ${p.speedMaxKmH} km/h`.replace('bis', lang === 'fr' ? 'jusqu’à' : lang === 'it' ? 'fino a' : 'bis')}</td>
-                    <td>{p.year}</td>
                   </tr>
                 ))}
               </tbody>
