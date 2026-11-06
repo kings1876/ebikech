@@ -6,7 +6,9 @@ import { BRANDS } from '../data/brands';
 import { COLLECTIONS } from '../data/collections';
 import { CardImage } from '../components/ProductImages';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGORY_PRODUCTS } from '../utils/routes';
-import { ArrowRight, Clock } from '../components/icons';
+import { ArrowRight, Clock, ShoppingCart } from '../components/icons';
+import { BlogQuoteForm } from '../components/BlogQuoteForm';
+import { cart } from '../lib/cart';
 import { NavLink } from '../components/NavLink';
 import { linkify, newLinkContext } from '../utils/autoLink';
 import { CRYPTO } from '../config/reply';
@@ -47,6 +49,8 @@ const L = {
     fr: ' ou en crypto ({pct} % de remise)',
     it: ' o in crypto (sconto del {pct}%)',
   },
+  addCart: { de: 'In den Warenkorb', fr: 'Ajouter au panier', it: 'Aggiungi al carrello' },
+  quoteCta: { de: 'Gratis Offerte anfordern', fr: 'Demander une offre gratuite', it: 'Richiedere un’offerta gratuita' },
   howTo: { de: 'So bestellen Sie: Ablauf und Bezahlung', fr: 'Comment commander : étapes et paiement', it: 'Come ordinare: passi e pagamento' },
 };
 
@@ -151,6 +155,10 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
             <time dateTime={post.publishedDate}>{fmtDate(post.publishedDate, lang)}</time>
             <span className="k254"><Clock className="w-3.5 h-3.5" />{post.readMinutes} {L.min[lang]}</span>
           </div>
+          <div className="flex flex-wrap gap-2 pt-2">
+            <a href="#offerte" className="k267">{L.quoteCta[lang]} <ArrowRight className="w-4 h-4" /></a>
+            <NavLink href={ctaHref} onNavigate={onNavigate} className="k268">{LP.all[lang]}</NavLink>
+          </div>
         </header>
 
         <div className="k255">
@@ -199,6 +207,13 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                         {LP.from[lang]} {p.priceEstimated ? LP.approx[lang] + ' ' : ''}CHF {Math.round(p.priceCHF).toLocaleString('de-CH')}
                       </div>
                     </NavLink>
+                    <button
+                      type="button"
+                      onClick={() => { cart.add(p.slug); window.dispatchEvent(new Event('cart:open')); }}
+                      className="k759"
+                    >
+                      <ShoppingCart className="w-3.5 h-3.5" />{L.addCart[lang]}
+                    </button>
                   </li>
                 );
               })}
@@ -298,6 +313,8 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
             </NavLink>
           </div>
         </aside>
+
+        <BlogQuoteForm lang={lang} postTitle={post.title[lang]} />
 
         <section className="space-y-3">
           <h2 className="k269">{L.more[lang]}</h2>
