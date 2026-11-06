@@ -35,7 +35,7 @@ const GUIDE_FOR_CATEGORY: Record<string, string> = {
   'e-lastenvelos': 'cargo-e-bike-kaufen',
   'schnelle-e-bikes': 'e-bike-45-kmh-kaufen',
 };
-const GUIDE_FOR_BRAND: Record<string, string> = { cube: 'cube-e-bike-kaufen', trek: 'trek-e-bike-kaufen' };
+const GUIDE_FOR_BRAND: Record<string, string> = { cube: 'cube-e-bike-kaufen', trek: 'trek-e-bike-kaufen', scott: 'scott-e-bike-kaufen' };
 
 function motorMix(list: Product[]): { name: string; n: number }[] {
   const m: Record<string, number> = {};

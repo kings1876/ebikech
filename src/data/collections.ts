@@ -43,6 +43,7 @@ export const COLLECTIONS: CollectionDef[] = [
     // Only models with a known manufacturer weight of 20 kg or less
     filter: (p) => p.weightKg !== null && p.weightKg <= 20,
     blurb: { de: 'bis 20 kg', fr: 'jusqu’à 20 kg', it: 'fino a 20 kg' },
+    guideId: 'leichtes-e-bike-kaufen',
   },
 ];
 
@@ -128,6 +129,7 @@ export const LANDING_CONTENT: Record<string, LandingContent> = {
     },
   },
   leicht: {
+    guideId: 'leichtes-e-bike-kaufen',
     intro: {
       de: [
         'Ein leichtes E-Bike wiegt bis 20 kg. Zum Vergleich: Das mittlere E-Bike in unserem Katalog liegt bei gut 25 kg. Den Unterschied spüren Sie beim Tragen, beim Verladen und beim Fahren ohne Motorunterstützung.',

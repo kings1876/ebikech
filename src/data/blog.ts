@@ -1,4 +1,5 @@
 import { LocalizedString } from '../types';
+import { SALES_POSTS } from './blog-sales';
 
 export interface BlogSection {
   heading: string;
@@ -11,10 +12,17 @@ export interface BlogRelated {
   brandId?: string;
   speedClass?: string;
   frameType?: string;
+  /** Only models with a known manufacturer weight up to this many kg. */
+  maxWeightKg?: number;
   /** Category used for the "see all" button when the filter is not a plain category (defaults to the catalogue). */
   ctaCategoryId?: string;
   /** Keyword collection landing page the "see all" button should open. */
   ctaCollectionId?: string;
+}
+
+export interface BlogFaq {
+  q: string;
+  a: string;
 }
 
 export interface BlogPost {
@@ -26,6 +34,8 @@ export interface BlogPost {
   readMinutes: number;
   related?: BlogRelated;
   body: { de: BlogSection[]; fr: BlogSection[]; it: BlogSection[] };
+  /** Questions answered at the end of the post; also published as FAQPage structured data. */
+  faq?: { de: BlogFaq[]; fr: BlogFaq[]; it: BlogFaq[] };
 }
 
 const NOTE: LocalizedString = {
@@ -1182,4 +1192,5 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
+  ...SALES_POSTS,
 ];

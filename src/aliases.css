@@ -755,4 +755,5 @@
 .k753 { @apply flex flex-wrap items-center justify-center gap-1.5 max-w-full; }
 .k754 { @apply font-semibold text-slate-700 shrink-0; }
 .k755 { @apply text-xl max-[359px]:text-base font-black tracking-tight text-slate-900 flex items-center gap-1.5; }
+.k756 { @apply mt-1 text-sm leading-relaxed text-slate-700; }
 }

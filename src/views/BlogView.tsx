@@ -9,6 +9,8 @@ import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGO
 import { ArrowRight, Clock } from '../components/icons';
 import { NavLink } from '../components/NavLink';
 import { linkify, newLinkContext } from '../utils/autoLink';
+import { CRYPTO } from '../config/reply';
+import { isCryptoEnabled } from '../lib/order';
 
 interface BlogViewProps {
   route: ParsedRoute;
@@ -33,11 +35,19 @@ const L = {
   min: { de: 'Min. Lesezeit', fr: 'min de lecture', it: 'min di lettura' },
   more: { de: 'Weitere Artikel', fr: 'Autres articles', it: 'Altri articoli' },
   cta: { de: 'E-Bikes entdecken', fr: 'Découvrir les e-bikes', it: 'Scopri le e-bike' },
+  faq: { de: 'Häufige Fragen', fr: 'Questions fréquentes', it: 'Domande frequenti' },
+  ctaTitle: { de: 'Bereit für Ihr neues E-Bike?', fr: 'Prêt pour votre nouveau vélo électrique ?', it: 'Pronti per la vostra nuova e-bike?' },
   ctaText: {
-    de: 'Passende Modelle finden Sie in unserem Katalog.',
-    fr: 'Trouvez des modèles adaptés dans notre catalogue.',
-    it: 'Trovate i modelli adatti nel nostro catalogo.',
+    de: 'Alle E-Bikes sind neu und stammen aus unserem eigenen Lager. Bestellen Sie online und bezahlen Sie per Banküberweisung{crypto}, oder lassen Sie sich zuerst zu Grösse und Modell beraten.',
+    fr: 'Tous les vélos électriques sont neufs et viennent de notre propre stock. Commandez en ligne et payez par virement bancaire{crypto}, ou demandez d’abord conseil sur la taille et le modèle.',
+    it: 'Tutte le e-bike sono nuove e provengono dal nostro magazzino. Ordinate online e pagate con bonifico bancario{crypto}, oppure fatevi prima consigliare su taglia e modello.',
   },
+  cryptoBit: {
+    de: ' oder mit Krypto ({pct} % Rabatt)',
+    fr: ' ou en crypto ({pct} % de remise)',
+    it: ' o in crypto (sconto del {pct}%)',
+  },
+  howTo: { de: 'So bestellen Sie: Ablauf und Bezahlung', fr: 'Comment commander : étapes et paiement', it: 'Come ordinare: passi e pagamento' },
 };
 
 const LP = {
@@ -60,7 +70,8 @@ function shopLinks(post: BlogPost, lang: Language) {
       (!r?.categoryId || p.categoryId === r.categoryId) &&
       (!r?.brandId || p.brandId === r.brandId) &&
       (!r?.speedClass || p.speedClass === r.speedClass) &&
-      (!r?.frameType || p.frameType === r.frameType),
+      (!r?.frameType || p.frameType === r.frameType) &&
+      (!r?.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)),
   );
   const top = (ids: string[], n: number) => {
     const c: Record<string, number> = {};
@@ -71,7 +82,7 @@ function shopLinks(post: BlogPost, lang: Language) {
     ? top(scope.map((p) => p.categoryId), 5)
     : r?.categoryId || r?.ctaCategoryId
     ? [[(r.categoryId || r.ctaCategoryId) as string, scope.length] as [string, number]]
-    : top(ALL_PRODUCTS.map((p) => p.categoryId), 6);
+    : top((scope.length ? scope : ALL_PRODUCTS).map((p) => p.categoryId), 6);
   const brands = r?.brandId ? [] : top(scope.length ? scope.map((p) => p.brandId) : ALL_PRODUCTS.map((p) => p.brandId), 6);
   const collection = COLLECTIONS.find((c) => c.id === r?.ctaCollectionId);
   return { categories, brands, collection, brand: BRANDS.find((b) => b.id === r?.brandId) };
@@ -87,6 +98,7 @@ function relatedProducts(post: BlogPost): Product[] {
       (!r.brandId || p.brandId === r.brandId) &&
       (!r.speedClass || p.speedClass === r.speedClass) &&
       (!r.frameType || p.frameType === r.frameType) &&
+      (!r.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)) &&
       p.imageCount > 0,
   ).sort((a, b) => a.priceCHF - b.priceCHF);
   if (pool.length <= 4) return pool;
@@ -110,6 +122,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
     // Only two follow-up articles: the blog should lead readers to the shop, not around itself
     const at = BLOG_POSTS.findIndex((p) => p.id === post.id);
     const others = [1, 2].map((n) => BLOG_POSTS[(at + n) % BLOG_POSTS.length]).filter((p) => p && p.id !== post.id);
+    const howToPost = BLOG_POSTS.find((p) => p.id === 'e-bike-online-kaufen');
     const linkCtx = newLinkContext();
     const shop = shopLinks(post, lang);
     const relatedList = relatedProducts(post);
@@ -150,6 +163,20 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
             </section>
           ))}
         </div>
+
+        {post.faq && (
+          <section className="space-y-4">
+            <h2 className="k256">{L.faq[lang]}</h2>
+            <dl className="space-y-4">
+              {post.faq[lang].map((f) => (
+                <div key={f.q}>
+                  <dt className="font-bold text-slate-900">{f.q}</dt>
+                  <dd className="k756">{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
 
         {relatedList.length > 0 && (
           <section className="space-y-3">
@@ -249,7 +276,15 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
         </section>
 
         <aside className="k266">
-          <p className="text-sm text-slate-700">{L.ctaText[lang]}</p>
+          <div className="space-y-1.5">
+            <h2 className="k256">{L.ctaTitle[lang]}</h2>
+            <p className="text-sm text-slate-700">{L.ctaText[lang].replace('{crypto}', isCryptoEnabled() && CRYPTO.discountPct > 0 ? L.cryptoBit[lang].replace('{pct}', String(CRYPTO.discountPct)) : '')}</p>
+            {howToPost && post.id !== howToPost.id && (
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: howToPost })} onNavigate={onNavigate} className="k247 text-sm">
+                {L.howTo[lang]}
+              </NavLink>
+            )}
+          </div>
           <div className="flex flex-wrap gap-2">
             <NavLink href={ctaHref} onNavigate={onNavigate}
               className="k267"

@@ -427,6 +427,18 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           author: { '@type': 'Organization', name: portal },
           publisher: { '@type': 'Organization', name: portal },
         };
+        const postFaq = route.blogPost.faq?.[lang];
+        if (postFaq?.length) {
+          jsonLd = [
+            jsonLd,
+            {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
+              mainEntity: postFaq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+            },
+          ];
+        }
       }
       break;
     }
