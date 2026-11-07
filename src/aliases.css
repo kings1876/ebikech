@@ -759,4 +759,11 @@
 .k757 { @apply scroll-mt-24 rounded-2xl bg-white border border-slate-200 p-5 sm:p-6 space-y-4; }
 .k758 { @apply flex items-center gap-1.5 text-slate-500; }
 .k759 { @apply mt-2 w-full inline-flex items-center justify-center gap-1.5 rounded-lg bg-red-600 px-2 py-2.5 text-xs font-bold text-white hover:bg-red-700 cursor-pointer; }
+.k760 { @apply overflow-x-auto rounded-xl border border-slate-200 bg-white; }
+.k761 { @apply bg-slate-50 text-xs text-slate-600; }
+.k762 { @apply px-3 py-2 font-bold whitespace-nowrap; }
+.k763 { @apply px-3 py-2 font-semibold text-slate-900 whitespace-nowrap; }
+.k764 { @apply px-3 py-2 text-slate-700 min-w-24; }
+.k765 { @apply px-3 py-2 text-slate-700 min-w-64; }
+.k766 { @apply px-3 py-2 text-slate-700 whitespace-nowrap; }
 }

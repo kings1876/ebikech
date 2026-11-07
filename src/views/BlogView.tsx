@@ -75,6 +75,7 @@ function shopLinks(post: BlogPost, lang: Language) {
       (!r?.brandId || p.brandId === r.brandId) &&
       (!r?.speedClass || p.speedClass === r.speedClass) &&
       (!r?.frameType || p.frameType === r.frameType) &&
+      (!r?.subcategoryId || p.subcategoryId === r.subcategoryId) &&
       (!r?.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)),
   );
   const top = (ids: string[], n: number) => {
@@ -102,6 +103,7 @@ function relatedProducts(post: BlogPost): Product[] {
       (!r.brandId || p.brandId === r.brandId) &&
       (!r.speedClass || p.speedClass === r.speedClass) &&
       (!r.frameType || p.frameType === r.frameType) &&
+      (!r.subcategoryId || p.subcategoryId === r.subcategoryId) &&
       (!r.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)) &&
       p.imageCount > 0,
   ).sort((a, b) => a.priceCHF - b.priceCHF);
@@ -133,8 +135,11 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
     const ctaCategory = CATEGORIES.find((c) => c.id === (post.related?.categoryId || post.related?.ctaCategoryId));
     const ctaBrand = BRANDS.find((b) => b.id === post.related?.brandId);
     const ctaCollection = COLLECTIONS.find((c) => c.id === post.related?.ctaCollectionId);
+    const ctaSub = ctaCategory?.subcategories?.find((s) => s.id === post.related?.subcategoryId);
     const ctaHref = ctaCollection
       ? buildLocalizedUrl(lang, { lang, view: 'collection', collection: ctaCollection })
+      : ctaSub && ctaCategory
+      ? buildLocalizedUrl(lang, { lang, view: 'subcategory', category: ctaCategory, subcategorySlug: ctaSub.id })
       : ctaCategory
       ? buildLocalizedUrl(lang, { lang, view: 'category', category: ctaCategory })
       : ctaBrand
@@ -168,6 +173,36 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
               {s.paragraphs.map((p, i) => (
                 <p key={i}>{linkify(p, lang, linkCtx, onNavigate)}</p>
               ))}
+              {s.table && (
+                <div className="k760">
+                  <table className="w-full text-left text-sm">
+                    <caption className="sr-only">{s.table.caption}</caption>
+                    <thead className="k761">
+                      <tr>
+                        {s.table.head.map((h) => (
+                          <th key={h} scope="col" className="k762">{h}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {s.table.rows.map((row) => {
+                        const rowCtx = newLinkContext();
+                        return (
+                          <tr key={row[0]}>
+                            {row.map((c, i) =>
+                              i === 0 ? (
+                                <th key={i} scope="row" className="k763">{linkify(c, lang, rowCtx, onNavigate, 1)}</th>
+                              ) : (
+                                <td key={i} className={c.length > 28 ? 'k765' : 'k766'}>{c}</td>
+                              ),
+                            )}
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </section>
           ))}
         </div>
@@ -229,6 +264,13 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
             >
               {LP.allBikes[lang]} <ArrowRight className="w-4 h-4" />
             </NavLink>
+            {ctaSub && ctaCategory && (
+              <NavLink href={ctaHref} onNavigate={onNavigate}
+                className="k263"
+              >
+                {ctaSub.name[lang]}
+              </NavLink>
+            )}
             {shop.collection && (
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'collection', collection: shop.collection })} onNavigate={onNavigate}
                 className="k263"

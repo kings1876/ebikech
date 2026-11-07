@@ -1,9 +1,19 @@
 import { LocalizedString } from '../types';
 import { SALES_POSTS } from './blog-sales';
+import { COMPARISON_POSTS } from './blog-comparison';
+
+export interface BlogTable {
+  /** Read by screen readers only; the section heading is the visible title. */
+  caption: string;
+  head: string[];
+  /** The first cell of each row is a row header; category and brand names in it are linked to their shop pages. */
+  rows: string[][];
+}
 
 export interface BlogSection {
   heading: string;
   paragraphs: string[];
+  table?: BlogTable;
 }
 
 /** Which real catalogue products to show under a post, and where its "see all" button goes. */
@@ -12,6 +22,8 @@ export interface BlogRelated {
   brandId?: string;
   speedClass?: string;
   frameType?: string;
+  /** Only models of this subcategory of categoryId (e.g. e-fullys); also the target of the "see all" button. */
+  subcategoryId?: string;
   /** Only models with a known manufacturer weight up to this many kg. */
   maxWeightKg?: number;
   /** Category used for the "see all" button when the filter is not a plain category (defaults to the catalogue). */
@@ -1193,4 +1205,5 @@ export const BLOG_POSTS: BlogPost[] = [
     },
   },
   ...SALES_POSTS,
+  ...COMPARISON_POSTS,
 ];
