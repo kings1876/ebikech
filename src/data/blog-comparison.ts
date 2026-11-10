@@ -645,4 +645,190 @@ export const COMPARISON_POSTS: BlogPost[] = [
       ],
     },
   },
+  {
+    id: 'e-bike-motoren-vergleich',
+    slug: { de: 'e-bike-motoren-vergleich', fr: 'comparatif-moteurs-velo-electrique', it: 'confronto-motori-e-bike' },
+    title: {
+      de: 'E-Bike Motoren im Vergleich: Bosch, TQ, Specialized, Fazua',
+      fr: 'Moteurs de vélo électrique : Bosch, TQ, Specialized, Fazua',
+      it: 'Motori e-bike a confronto: Bosch, TQ, Specialized, Fazua',
+    },
+    excerpt: {
+      de: 'Bosch, TQ, Specialized, Fazua, Yamaha und Shimano: 348 E-Bikes nach Antrieb verglichen, mit Preis, Gewicht, Akku und Drehmoment, mit Gratis Offerte.',
+      fr: 'Bosch, TQ, Specialized, Fazua, Yamaha et Shimano : 348 vélos électriques comparés par moteur, avec prix, poids, batterie et couple.',
+      it: 'Bosch, TQ, Specialized, Fazua, Yamaha e Shimano: 348 e-bike confrontate per motore, con prezzo, peso, batteria e coppia.',
+    },
+    publishedDate: '2026-11-10',
+    readMinutes: 6,
+    related: {},
+    body: {
+      de: [
+        {
+          heading: 'E-Bike Motoren im Überblick',
+          paragraphs: [
+            'Der Antrieb bestimmt, wie ein E-Bike unterstützt, wie viel es wiegt und was es kostet. Fast alle Modelle in unserem Katalog haben einen Mittelmotor am Tretlager; sein Drehmoment in Newtonmetern (Nm) entscheidet, wie kräftig die Unterstützung am Berg ist. Von 348 Modellen haben 237 einen Bosch-Antrieb (68 %); dazu kommen 45 Modelle mit Specialized-Antrieb, 27 mit TQ, je 9 mit Giant- und Fazua-Antrieb, 6 mit Yamaha, 5 mit Shimano und 5 mit Stromer-Antrieb.',
+            'Die Tabelle vergleicht die sechs wichtigsten Antriebe. Gewicht, Akku und Drehmoment sind Mediane über die Modelle mit Herstellerangabe.',
+          ],
+          table: {
+            caption: 'E-Bike Antriebe im Vergleich: Modelle, Preis, mittleres Gewicht, Akku und Drehmoment',
+            head: ['Antrieb', 'Modelle', 'Preis ab (CHF)', 'Median (CHF)', 'Gewicht', 'Akku', 'Drehmoment'],
+            rows: [
+              ['Bosch', '237', '1’700', '4’399', '26,8 kg', '750 Wh', '85 Nm'],
+              ['Specialized', '45', '3’299', '5’599', '25,9 kg', '840 Wh', '105 Nm'],
+              ['TQ', '27', '3’499', '7’999', '14,1 kg', '360 Wh', '60 Nm'],
+              ['Fazua', '9', '4’435', '6’999', '19,5 kg', '480 Wh', '60 Nm'],
+              ['Yamaha', '6', '3’699', '5’299', '–', '720 Wh', '75 Nm'],
+              ['Shimano Steps', '5', '5’990', '8’499', '23,0 kg', '601 Wh', '85 Nm'],
+            ],
+          },
+        },
+        {
+          heading: 'Bosch: die breiteste Auswahl',
+          paragraphs: [
+            'Bosch deckt alle Kategorien ab: 82 E-Mountainbikes, 76 Trekking E-Bikes, 40 City E-Bikes und alle 22 Cargo E-Bikes im Katalog. Verbaut wird der Antrieb von Cube, Scott, Haibike, Kalkhoff, Trek, Riese & Müller und Cannondale. Die Preise reichen von CHF 1’700 (Cube Editor Hybrid ONE 360 FE) bis CHF 11’499, der mittlere Preis liegt bei CHF 4’399.',
+            'Das mittlere Drehmoment beträgt 85 Nm, der mittlere Akku 750 Wh bei einer Spanne von 360 bis 1’200 Wh. Mit einem Median von 26,8 kg gehören Bosch-Modelle zu den schwereren, weil viele Cargo-, Trekking- und Alltagsmodelle dazu zählen.',
+          ],
+        },
+        {
+          heading: 'TQ und Fazua: leicht und natürlich',
+          paragraphs: [
+            'TQ steckt in 27 Modellen von Trek (16), Scott (9) und BMC (2), vor allem in Gravel E-Bikes und Rennvelos (14) sowie E-Mountainbikes (12). Das mittlere Gewicht liegt bei 14,1 kg und der mittlere Akku bei 360 Wh; das leichteste Modell, das BMC Teammachine 01 AMP ONE, wiegt laut Hersteller 9,4 kg. Dafür kosten TQ-Modelle im Mittel CHF 7’999.',
+            'Fazua ist mit 9 Modellen von Cannondale, Haibike und Riese & Müller vertreten, ab CHF 4’435 (Riese & Müller UBN Five), mit 480-Wh-Akku und 60 Nm. Gewichtsangaben liegen bei Fazua nur für 3 Modelle vor, im Mittel 19,5 kg.',
+          ],
+        },
+        {
+          heading: 'Specialized, Yamaha und Shimano: Fokus auf Mountainbike',
+          paragraphs: [
+            'Specialized baut alle 45 Modelle mit eigenem Antrieb: ab CHF 3’299 (Turbo Vado SL 2 4.0) mit einem Median von 105 Nm und 840 Wh, verteilt auf Trekking (24), E-Mountainbike (15), Gravel (3) und City (3). Yamaha treibt 6 Haibike-Modelle an (ab CHF 3’699, 720 Wh, 75 Nm), Shimano Steps 5 Modelle von Cannondale und Thömus (ab CHF 5’990, 85 Nm).',
+            'Für das E-Bike 45 liefert Stromer 5 Modelle mit eigenem Antrieb, ab CHF 5’116. Gewichtsangaben fehlen bei Yamaha ganz und liegen bei Shimano nur für ein Modell vor.',
+          ],
+        },
+        {
+          heading: 'Welcher Antrieb passt zu Ihnen?',
+          paragraphs: [
+            'Für Alltag, Trekking und Transport ist Bosch die breiteste Wahl, auch bei Cargo gibt es keine Alternative im Katalog. Für Trails und steile Anstiege lohnen sich Antriebe mit mehr Drehmoment wie Specialized (105 Nm Median) oder Bosch CX; wer ein leichtes, natürlich fahrendes Rad sucht, schaut zu TQ und Fazua.',
+            'Der Motor ist nur ein Teil des Pakets: Vergleichen Sie bei jedem Modell auch Akku, Gewicht und Komponenten. Legen Sie Ihr Wunschmodell in den Warenkorb oder fordern Sie unten eine Gratis Offerte an. Alle E-Bikes sind neu und stammen aus unserem eigenen Lager.',
+          ],
+        },
+      ],
+      fr: [
+        {
+          heading: 'Les moteurs de vélo électrique en un coup d’œil',
+          paragraphs: [
+            'Le moteur détermine l’assistance, le poids et le prix d’un vélo électrique. Presque tous les modèles de notre catalogue ont un moteur central au pédalier ; son couple en newtons-mètres (Nm) décide de la puissance de l’assistance en montée. Sur 348 modèles, 237 ont un moteur Bosch (68 %), auxquels s’ajoutent Specialized (45 modèles avec moteur propre), TQ (27), Giant (9), Fazua (9), Yamaha (6), Shimano (5) et Stromer (5).',
+            'Le tableau compare les six principaux moteurs. Poids, batterie et couple sont des médianes sur les modèles avec indication du fabricant.',
+          ],
+          table: {
+            caption: 'Moteurs de vélo électrique comparés : modèles, prix, poids médian, batterie et couple',
+            head: ['Moteur', 'Modèles', 'Prix dès (CHF)', 'Médiane (CHF)', 'Poids', 'Batterie', 'Couple'],
+            rows: [
+              ['Bosch', '237', '1’700', '4’399', '26,8 kg', '750 Wh', '85 Nm'],
+              ['Specialized', '45', '3’299', '5’599', '25,9 kg', '840 Wh', '105 Nm'],
+              ['TQ', '27', '3’499', '7’999', '14,1 kg', '360 Wh', '60 Nm'],
+              ['Fazua', '9', '4’435', '6’999', '19,5 kg', '480 Wh', '60 Nm'],
+              ['Yamaha', '6', '3’699', '5’299', '–', '720 Wh', '75 Nm'],
+              ['Shimano Steps', '5', '5’990', '8’499', '23,0 kg', '601 Wh', '85 Nm'],
+            ],
+          },
+        },
+        {
+          heading: 'Bosch : le plus grand choix',
+          paragraphs: [
+            'Bosch couvre toutes les catégories : 82 VTT électriques, 76 vélos de trekking électriques, 40 vélos de ville électriques et les 22 vélos cargo électriques du catalogue. Le moteur équipe Cube, Scott, Haibike, Kalkhoff, Trek, Riese & Müller et Cannondale. Les prix vont de CHF 1’700 (Cube Editor Hybrid ONE 360 FE) à CHF 11’499, le prix médian est de CHF 4’399.',
+            'Le couple médian est de 85 Nm, la batterie médiane de 750 Wh pour une plage de 360 à 1’200 Wh. Avec un poids médian de 26,8 kg, les modèles Bosch comptent parmi les plus lourds, car beaucoup de modèles cargo, trekking et du quotidien en font partie.',
+          ],
+        },
+        {
+          heading: 'TQ et Fazua : légers et naturels',
+          paragraphs: [
+            'TQ équipe 27 modèles de Trek (16), Scott (9) et BMC (2), surtout des vélos gravel électriques et de route (14) et des VTT (12). Le poids médian est de 14,1 kg et la batterie médiane de 360 Wh ; le modèle le plus léger, le BMC Teammachine 01 AMP ONE, pèse 9,4 kg selon le fabricant. En contrepartie, les modèles TQ coûtent en médiane CHF 7’999.',
+            'Fazua est présent avec 9 modèles de Cannondale, Haibike et Riese & Müller, dès CHF 4’435 (Riese & Müller UBN Five), avec batterie de 480 Wh et 60 Nm. Les poids ne sont indiqués que pour 3 modèles Fazua, 19,5 kg en médiane.',
+          ],
+        },
+        {
+          heading: 'Specialized, Yamaha et Shimano : l’accent sur le VTT',
+          paragraphs: [
+            'Specialized construit ses 45 modèles avec moteur propre : dès CHF 3’299 (Turbo Vado SL 2 4.0), avec une médiane de 105 Nm et 840 Wh, répartis entre trekking (24), VTT (15), gravel (3) et ville (3). Yamaha équipe 6 modèles Haibike (dès CHF 3’699, 720 Wh, 75 Nm), Shimano Steps 5 modèles de Cannondale et Thömus (dès CHF 5’990, 85 Nm).',
+            'Pour le vélo électrique 45, Stromer propose 5 modèles avec moteur propre, dès CHF 5’116. Les poids manquent entièrement chez Yamaha et ne sont indiqués que pour un modèle chez Shimano.',
+          ],
+        },
+        {
+          heading: 'Quel moteur vous convient ?',
+          paragraphs: [
+            'Pour le quotidien, le trekking et le transport, Bosch est le choix le plus large ; pour le cargo, il n’y a pas d’alternative au catalogue. Pour les sentiers et les fortes montées, les moteurs à couple élevé comme Specialized (105 Nm en médiane) ou Bosch CX valent la peine ; qui cherche un vélo léger au rendu naturel se tourne vers TQ et Fazua.',
+            'Le moteur n’est qu’une partie de l’ensemble : comparez aussi batterie, poids et composants de chaque modèle. Ajoutez le modèle souhaité au panier ou demandez ci-dessous une offre gratuite. Tous les vélos électriques sont neufs et viennent de notre propre stock.',
+          ],
+        },
+      ],
+      it: [
+        {
+          heading: 'I motori delle e-bike in sintesi',
+          paragraphs: [
+            'Il motore determina come assiste una e-bike, quanto pesa e quanto costa. Quasi tutti i modelli del nostro catalogo hanno un motore centrale al movimento; la sua coppia in newton metri (Nm) decide la forza dell’assistenza in salita. Su 348 modelli, 237 hanno un motore Bosch (68%), a cui si aggiungono Specialized (45 modelli con motore proprio), TQ (27), Giant (9), Fazua (9), Yamaha (6), Shimano (5) e Stromer (5).',
+            'La tabella confronta i sei motori principali. Peso, batteria e coppia sono mediane sui modelli con dato del produttore.',
+          ],
+          table: {
+            caption: 'Motori e-bike a confronto: modelli, prezzo, peso mediano, batteria e coppia',
+            head: ['Motore', 'Modelli', 'Prezzo da (CHF)', 'Mediana (CHF)', 'Peso', 'Batteria', 'Coppia'],
+            rows: [
+              ['Bosch', '237', '1’700', '4’399', '26,8 kg', '750 Wh', '85 Nm'],
+              ['Specialized', '45', '3’299', '5’599', '25,9 kg', '840 Wh', '105 Nm'],
+              ['TQ', '27', '3’499', '7’999', '14,1 kg', '360 Wh', '60 Nm'],
+              ['Fazua', '9', '4’435', '6’999', '19,5 kg', '480 Wh', '60 Nm'],
+              ['Yamaha', '6', '3’699', '5’299', '–', '720 Wh', '75 Nm'],
+              ['Shimano Steps', '5', '5’990', '8’499', '23,0 kg', '601 Wh', '85 Nm'],
+            ],
+          },
+        },
+        {
+          heading: 'Bosch: la scelta più ampia',
+          paragraphs: [
+            'Bosch copre tutte le categorie: 82 mountain bike elettriche, 76 e-bike trekking, 40 e-bike city e tutte le 22 e-bike cargo del catalogo. Il motore equipaggia Cube, Scott, Haibike, Kalkhoff, Trek, Riese & Müller e Cannondale. I prezzi vanno da CHF 1’700 (Cube Editor Hybrid ONE 360 FE) a CHF 11’499, il prezzo mediano è CHF 4’399.',
+            'La coppia mediana è 85 Nm, la batteria mediana 750 Wh con un intervallo da 360 a 1’200 Wh. Con un peso mediano di 26,8 kg i modelli Bosch sono tra i più pesanti, perché ne fanno parte molti modelli cargo, trekking e per l’uso quotidiano.',
+          ],
+        },
+        {
+          heading: 'TQ e Fazua: leggeri e naturali',
+          paragraphs: [
+            'TQ equipaggia 27 modelli di Trek (16), Scott (9) e BMC (2), soprattutto e-bike gravel e da corsa (14) e mountain bike (12). Il peso mediano è 14,1 kg e la batteria mediana 360 Wh; il modello più leggero, la BMC Teammachine 01 AMP ONE, pesa 9,4 kg secondo il produttore. In compenso i modelli TQ costano in mediana CHF 7’999.',
+            'Fazua è presente con 9 modelli di Cannondale, Haibike e Riese & Müller, da CHF 4’435 (Riese & Müller UBN Five), con batteria da 480 Wh e 60 Nm. I pesi sono indicati solo per 3 modelli Fazua, 19,5 kg in mediana.',
+          ],
+        },
+        {
+          heading: 'Specialized, Yamaha e Shimano: focus sulla mountain bike',
+          paragraphs: [
+            'Specialized costruisce tutti i 45 modelli con motore proprio: da CHF 3’299 (Turbo Vado SL 2 4.0), con una mediana di 105 Nm e 840 Wh, suddivisi tra trekking (24), mountain bike (15), gravel (3) e city (3). Yamaha equipaggia 6 modelli Haibike (da CHF 3’699, 720 Wh, 75 Nm), Shimano Steps 5 modelli di Cannondale e Thömus (da CHF 5’990, 85 Nm).',
+            'Per la e-bike 45 Stromer offre 5 modelli con motore proprio, da CHF 5’116. I pesi mancano del tutto per Yamaha e sono indicati solo per un modello Shimano.',
+          ],
+        },
+        {
+          heading: 'Quale motore fa per voi?',
+          paragraphs: [
+            'Per l’uso quotidiano, il trekking e il trasporto Bosch è la scelta più ampia; per il cargo non ci sono alternative a catalogo. Per sentieri e forti salite valgono la pena i motori con più coppia come Specialized (105 Nm in mediana) o Bosch CX; chi cerca una bici leggera e naturale guarda a TQ e Fazua.',
+            'Il motore è solo una parte del pacchetto: confrontate per ogni modello anche batteria, peso e componenti. Mettete il modello desiderato nel carrello oppure richiedete qui sotto un’offerta gratuita. Tutte le e-bike sono nuove e provengono dal nostro magazzino.',
+          ],
+        },
+      ],
+    },
+    faq: {
+      de: [
+        { q: 'Welcher E-Bike Motor ist der beste?', a: 'Das hängt vom Einsatz ab. Bosch bietet die breiteste Auswahl (237 von 348 Modellen), TQ und Fazua stehen für leichte, natürlich fahrende Räder, Specialized hat mit 105 Nm das höchste mittlere Drehmoment.' },
+        { q: 'Wie viel Drehmoment brauche ich?', a: 'Für Alltag und Touren reichen oft 60 bis 85 Nm; wer steile Trails fährt, wählt eher 85 Nm und mehr. Im Katalog liegt der Median bei Bosch bei 85 Nm, bei TQ und Fazua bei 60 Nm.' },
+        { q: 'Welche E-Bikes haben die leichtesten Antriebe?', a: 'TQ-Modelle von Trek, Scott und BMC wiegen im Mittel 14,1 kg, das leichteste (BMC Teammachine 01 AMP ONE) 9,4 kg laut Hersteller. Auch Fazua-Antriebe sind leicht.' },
+        { q: 'Wie bezahle ich ein E-Bike?', a: 'Per Banküberweisung oder mit Kryptowährung (USDT, BTC, ETH). Bei Krypto-Zahlung gewähren wir 10 % Rabatt auf den Gesamtbetrag.' },
+      ],
+      fr: [
+        { q: 'Quel est le meilleur moteur de vélo électrique ?', a: 'Cela dépend de l’usage. Bosch offre le plus grand choix (237 modèles sur 348), TQ et Fazua représentent les vélos légers au rendu naturel, Specialized a le couple médian le plus élevé avec 105 Nm.' },
+        { q: 'De combien de couple ai-je besoin ?', a: 'Pour le quotidien et les excursions, 60 à 85 Nm suffisent souvent ; sur des sentiers raides, on choisit plutôt 85 Nm et plus. Dans le catalogue, la médiane est de 85 Nm pour Bosch et de 60 Nm pour TQ et Fazua.' },
+        { q: 'Quels vélos ont les moteurs les plus légers ?', a: 'Les modèles TQ de Trek, Scott et BMC pèsent 14,1 kg en médiane, le plus léger (BMC Teammachine 01 AMP ONE) 9,4 kg selon le fabricant. Les moteurs Fazua sont aussi légers.' },
+        { q: 'Comment payer un vélo électrique ?', a: 'Par virement bancaire ou en cryptomonnaie (USDT, BTC, ETH). En cas de paiement en crypto, nous accordons 10 % de remise sur le montant total.' },
+      ],
+      it: [
+        { q: 'Qual è il miglior motore per e-bike?', a: 'Dipende dall’uso. Bosch offre la scelta più ampia (237 modelli su 348), TQ e Fazua rappresentano bici leggere e naturali, Specialized ha la coppia mediana più alta con 105 Nm.' },
+        { q: 'Di quanta coppia ho bisogno?', a: 'Per l’uso quotidiano e le escursioni spesso bastano 60–85 Nm; su sentieri ripidi si sceglie piuttosto 85 Nm e oltre. Nel catalogo la mediana è 85 Nm per Bosch e 60 Nm per TQ e Fazua.' },
+        { q: 'Quali e-bike hanno i motori più leggeri?', a: 'I modelli TQ di Trek, Scott e BMC pesano in mediana 14,1 kg, il più leggero (BMC Teammachine 01 AMP ONE) 9,4 kg secondo il produttore. Anche i motori Fazua sono leggeri.' },
+        { q: 'Come si paga una e-bike?', a: 'Con bonifico bancario o in criptovaluta (USDT, BTC, ETH). Per i pagamenti in crypto concediamo il 10% di sconto sull’importo totale.' },
+      ],
+    },
+  },
 ];
