@@ -1,6 +1,7 @@
 import { LocalizedString } from '../types';
 import { SALES_POSTS } from './blog-sales';
 import { COMPARISON_POSTS } from './blog-comparison';
+import { BRAND_POSTS } from './blog-brands';
 
 export interface BlogTable {
   /** Read by screen readers only; the section heading is the visible title. */
@@ -1206,4 +1207,5 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   ...SALES_POSTS,
   ...COMPARISON_POSTS,
+  ...BRAND_POSTS,
 ];
