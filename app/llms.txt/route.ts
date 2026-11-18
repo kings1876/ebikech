@@ -21,7 +21,7 @@ export function GET() {
     '',
     `> ${TAGLINE.de}: ${ALL_PRODUCTS.length} e-bikes from ${brands.length} brands with prices in Swiss francs (CHF), motor, battery and weight data. The site is available in German (default), French (/fr/) and Italian (/it/).`,
     '',
-    `Brand names by language: ${SITE_NAME.de} (de), ${SITE_NAME.fr} (fr), ${SITE_NAME.it} (it). Domain: e-bikes-zuverkaufen.ch.`,
+    `Brand names by language: ${SITE_NAME.de} (de), ${SITE_NAME.fr} (fr), ${SITE_NAME.it} (it). Domain: ebike-zu-verkaufen.ch.`,
     `Prices are manufacturer-recommended prices in CHF, starting from CHF ${Math.round(minPrice).toLocaleString('de-CH')}. Prices marked "ca." were converted from euro recommendations. Technical data comes from the manufacturers. Only new e-bikes are listed.`,
     '',
     '## E-bike categories',

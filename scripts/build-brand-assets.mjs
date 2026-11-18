@@ -55,7 +55,7 @@ for (const [lang, c] of Object.entries(copy)) {
   <text x="90" y="390" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="92" font-weight="800" fill="#ffffff">${esc(c.lead)} <tspan fill="${ACCENT}" font-weight="600">${esc(c.tail)}</tspan></text>
   <text x="90" y="460" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="40" fill="#cbd5e1">${esc(c.tag)}</text>
   <text x="90" y="560" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="30" fill="#94a3b8">${esc(c.facts)}</text>
-  <text x="1110" y="560" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#94a3b8">e-bikes-zuverkaufen.ch</text>
+  <text x="1110" y="560" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" fill="#94a3b8">ebike-zu-verkaufen.ch</text>
 </svg>`;
   await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toFile(out(`public/og/og-${lang}.png`));
 }

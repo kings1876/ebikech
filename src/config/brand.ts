@@ -1,7 +1,7 @@
 import { Language } from '../types';
 
-// Site identity: the brand is named after the domain (e-bikes-zuverkaufen.ch).
-export const DOMAIN = 'e-bikes-zuverkaufen.ch';
+// Site identity: the brand is named after the domain (ebike-zu-verkaufen.ch).
+export const DOMAIN = 'ebike-zu-verkaufen.ch';
 
 /** Full brand name per language */
 export const SITE_NAME: Record<Language, string> = {
