@@ -5,6 +5,9 @@ import { CONTACT } from '../config/contact';
 import { CRYPTO } from '../config/reply';
 import { isCryptoEnabled } from '../lib/order';
 import { PolicyLinks } from '../components/PolicyLinks';
+import { NavLink } from '../components/NavLink';
+import { POLICY_BY_ID } from '../data/policies';
+import { buildLocalizedUrl } from '../utils/routes';
 
 interface StaticPagesProps {
   view: 'about' | 'legal';
@@ -146,10 +149,14 @@ export function StaticPages({ view, lang, onNavigate }: StaticPagesProps) {
           <p>
             {pick(
               lang,
-              'Angaben, die Sie über das Kontaktformular senden, verwenden wir ausschliesslich, um Ihre Anfrage zu beantworten. Eine ausführliche Datenschutzerklärung nach dem Schweizer Datenschutzgesetz (DSG) folgt vor dem Start des Online-Shops.',
-              'Les informations transmises via le formulaire de contact sont utilisées uniquement pour répondre à votre demande. Une déclaration de protection des données détaillée selon la loi suisse (LPD) sera publiée avant l’ouverture de la boutique en ligne.',
-              'I dati inviati tramite il modulo di contatto vengono utilizzati solo per rispondere alla richiesta. Un’informativa dettagliata secondo la legge svizzera (LPD) sarà pubblicata prima dell’apertura del negozio online.',
+              'Wie wir Personendaten bei Besuch, Anfrage und Bestellung bearbeiten, steht in der ',
+              'La manière dont nous traitons les données personnelles lors d’une visite, d’une demande ou d’une commande figure dans la ',
+              'Come trattiamo i dati personali con visita, richiesta e ordine è descritto nell’',
             )}
+            <NavLink href={buildLocalizedUrl(lang, { lang, view: 'policy', policy: POLICY_BY_ID.privacy })} onNavigate={onNavigate} className="text-red-600 underline">
+              {pick(lang, 'Datenschutzerklärung', 'politique de confidentialité', 'informativa sulla privacy')}
+            </NavLink>
+            {pick(lang, ' nach dem Schweizer Datenschutzgesetz (DSG).', ' selon la loi suisse (LPD).', ' secondo la legge svizzera (LPD).')}
           </p>
         </section>
 

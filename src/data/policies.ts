@@ -1,4 +1,5 @@
 import { Language, LocalizedString } from '../types';
+import { PRIVACY_PAGE } from './policy-privacy';
 
 /**
  * Service pages: delivery, returns, warranty. One shared template (PolicyView), one place to edit the wording.
@@ -9,15 +10,18 @@ import { Language, LocalizedString } from '../types';
  * It deliberately names no delivery time, no fixed shipping fee and no voluntary return window: the owner has not set
  * any. If one is introduced, change it here and the pages, FAQ and footer follow.
  *
- * Inline links: {{delivery|text}}, {{returns|text}}, {{warranty|text}} point to the other service pages.
+ * Inline links: {{delivery|text}}, {{returns|text}}, {{warranty|text}}, {{privacy|text}} point to the other service pages;
+ * {{contact}} prints the operator's name, address and email from src/config/contact.ts.
  */
-export type PolicyId = 'delivery' | 'returns' | 'warranty';
+export type PolicyId = 'delivery' | 'returns' | 'warranty' | 'privacy';
 
 export interface PolicySection {
   heading: string;
   paragraphs: string[];
   /** Numbered steps shown after the paragraphs. */
   steps?: string[];
+  /** Bullet list shown after the paragraphs. */
+  bullets?: string[];
 }
 
 export interface PolicyPage {
@@ -30,7 +34,10 @@ export interface PolicyPage {
   /** Meta description and intro. */
   excerpt: LocalizedString;
   sections: Record<Language, PolicySection[]>;
-  faq: Record<Language, { q: string; a: string }[]>;
+  /** Optional FAQ block (also published as FAQPage schema). */
+  faq?: Record<Language, { q: string; a: string }[]>;
+  /** Plain legal text: no "free quote" button at the top. */
+  plain?: boolean;
 }
 
 export const POLICY_PAGES: PolicyPage[] = [
@@ -431,5 +438,7 @@ export const POLICY_PAGES: PolicyPage[] = [
     },
   },
 ];
+
+POLICY_PAGES.push(PRIVACY_PAGE);
 
 export const POLICY_BY_ID = Object.fromEntries(POLICY_PAGES.map((p) => [p.id, p])) as Record<PolicyId, PolicyPage>;

@@ -2,6 +2,12 @@ import { useState } from 'react';
 import { Language } from '../types';
 import { REPLY } from '../config/reply';
 import { CheckCircle2, ShieldCheck } from './icons';
+import { NavLink } from './NavLink';
+import { POLICY_BY_ID } from '../data/policies';
+import { buildLocalizedUrl } from '../utils/routes';
+
+const PRIVACY = { de: 'Datenschutzerklärung', fr: 'Politique de confidentialité', it: 'Informativa sulla privacy' };
+
 
 const T = {
   de: {
@@ -40,7 +46,7 @@ const T = {
 } as const;
 
 /** Free-quote form shown at the end of a blog post. Sends an enquiry through the shared contact endpoint. */
-export function BlogQuoteForm({ lang, postTitle }: { lang: Language; postTitle: string }) {
+export function BlogQuoteForm({ lang, postTitle, onNavigate }: { lang: Language; postTitle: string; onNavigate: (path: string) => void }) {
   const t = T[lang];
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -110,7 +116,7 @@ export function BlogQuoteForm({ lang, postTitle }: { lang: Language; postTitle: 
             <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
             <label className="k226">
               <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5" />
-              <span>{t.consent}</span>
+              <span>{t.consent} <NavLink href={buildLocalizedUrl(lang, { lang, view: 'policy', policy: POLICY_BY_ID.privacy })} onNavigate={onNavigate} className="underline hover:text-red-600">{PRIVACY[lang]}</NavLink></span>
             </label>
             {state === 'error' && <p className="k227" role="alert">{t.fail}{REPLY.channels.email}</p>}
             <button type="submit" disabled={state === 'sending'} className="k228">{state === 'sending' ? t.sending : t.send}</button>

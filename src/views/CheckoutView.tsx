@@ -11,6 +11,7 @@ import { cart, MAX_QTY, useCart } from '../lib/cart';
 import { CardImage } from '../components/ProductImages';
 import { NavLink } from '../components/NavLink';
 import { PolicyLinks } from '../components/PolicyLinks';
+import { POLICY_BY_ID } from '../data/policies';
 import { CheckCircle2, Minus, Plus, Trash2 } from '../components/icons';
 
 const T = {
@@ -224,7 +225,7 @@ export function CheckoutView({ lang, onNavigate }: { lang: Language; onNavigate:
 
           <label className="k750">
             <input name="consent" type="checkbox" required className="mt-0.5" />
-            <span>{t.consent}</span>
+            <span>{t.consent} <NavLink href={buildLocalizedUrl(lang, { lang, view: 'policy', policy: POLICY_BY_ID.privacy })} onNavigate={onNavigate} className="underline hover:text-red-600">{lang === 'fr' ? 'Politique de confidentialité' : lang === 'it' ? 'Informativa sulla privacy' : 'Datenschutzerklärung'}</NavLink></span>
           </label>
           {state === 'error' && <p className="text-red-700 font-semibold" role="alert">{message}</p>}
           <button type="submit" disabled={state === 'sending'} className="k751">

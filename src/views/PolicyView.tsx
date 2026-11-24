@@ -4,6 +4,7 @@ import { PolicyPage, POLICY_BY_ID, POLICY_PAGES, PolicyId } from '../data/polici
 import { buildLocalizedUrl } from '../utils/routes';
 import { NavLink } from '../components/NavLink';
 import { ArrowRight } from '../components/icons';
+import { CONTACT } from '../config/contact';
 
 interface PolicyViewProps {
   policy: PolicyPage;
@@ -30,9 +31,15 @@ const L = {
 function rich(text: string, lang: Language, onNavigate: (path: string) => void): ReactNode[] {
   const out: ReactNode[] = [];
   let last = 0;
-  for (const m of text.matchAll(/\{\{(\w+)\|([^}]+)\}\}/g)) {
+  for (const m of text.matchAll(/\{\{(\w+)(?:\|([^}]+))?\}\}/g)) {
     out.push(text.slice(last, m.index));
     const target = POLICY_BY_ID[m[1] as PolicyId];
+    if (m[1] === 'contact') {
+      const a = CONTACT.address;
+      out.push([CONTACT.businessName, a.street, [a.zip, a.city].filter(Boolean).join(' '), a.country, CONTACT.email && `E-Mail: ${CONTACT.email}`].filter(Boolean).join(', '));
+      last = (m.index ?? 0) + m[0].length;
+      continue;
+    }
     out.push(
       target ? (
         <NavLink key={m.index} href={buildLocalizedUrl(lang, { lang, view: 'policy', policy: target })} onNavigate={onNavigate} className="text-red-600 underline">
@@ -61,14 +68,14 @@ export function PolicyView({ policy, lang, onNavigate }: PolicyViewProps) {
       <header className="k250">
         <h1 className="k251">{policy.title[lang]}</h1>
         <p className="k252">{policy.excerpt[lang]}</p>
-        <div className="flex flex-wrap gap-2 pt-2">
+        {!policy.plain && <div className="flex flex-wrap gap-2 pt-2">
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'contact' })} onNavigate={onNavigate} className="k267">
             {L.ask[lang]} <ArrowRight className="w-4 h-4" />
           </NavLink>
           <NavLink href={buildLocalizedUrl(lang, { lang, view: 'catalog-root' })} onNavigate={onNavigate} className="k268">
             {L.all[lang]}
           </NavLink>
-        </div>
+        </div>}
       </header>
 
       <div className="k255">
@@ -82,6 +89,13 @@ export function PolicyView({ policy, lang, onNavigate }: PolicyViewProps) {
                 ))}
               </p>
             ))}
+            {s.bullets && (
+              <ul className="list-disc space-y-1.5 pl-5">
+                {s.bullets.map((t) => (
+                  <li key={t}>{t}</li>
+                ))}
+              </ul>
+            )}
             {s.steps && (
               <ol className="list-decimal space-y-1.5 pl-5">
                 {s.steps.map((t) => (
@@ -93,7 +107,7 @@ export function PolicyView({ policy, lang, onNavigate }: PolicyViewProps) {
         ))}
       </div>
 
-      <section className="space-y-4">
+      {policy.faq && <section className="space-y-4">
         <h2 className="k256">{L.faq[lang]}</h2>
         <dl className="space-y-4">
           {policy.faq[lang].map((f) => (
@@ -103,7 +117,7 @@ export function PolicyView({ policy, lang, onNavigate }: PolicyViewProps) {
             </div>
           ))}
         </dl>
-      </section>
+      </section>}
 
       <section className="space-y-3" aria-label={L.more[lang]}>
         <h2 className="k256">{L.more[lang]}</h2>

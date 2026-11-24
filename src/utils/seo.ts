@@ -538,12 +538,15 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
         breadcrumbs.push({ name: route.policy.nav[lang], url: canonicalPath });
         title = distinctTitle(route.policy.title[lang], lang);
         description = fitDescription(route.policy.excerpt[lang]);
-        jsonLd = {
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
-          mainEntity: route.policy.faq[lang].map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-        };
+        const policyFaq = route.policy.faq?.[lang];
+        if (policyFaq?.length) {
+          jsonLd = {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
+            mainEntity: policyFaq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+          };
+        }
       }
       break;
     }

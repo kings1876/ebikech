@@ -371,7 +371,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           </div>
         </aside>
 
-        <BlogQuoteForm lang={lang} postTitle={post.title[lang]} />
+        <BlogQuoteForm lang={lang} postTitle={post.title[lang]} onNavigate={onNavigate} />
 
         <section className="space-y-3">
           <h2 className="k269">{L.more[lang]}</h2>
