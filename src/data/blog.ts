@@ -2,6 +2,7 @@ import { LocalizedString } from '../types';
 import { SALES_POSTS } from './blog-sales';
 import { COMPARISON_POSTS } from './blog-comparison';
 import { BRAND_POSTS } from './blog-brands';
+import { BRAND_POSTS_MORE } from './blog-brands-more';
 
 export interface BlogTable {
   /** Read by screen readers only; the section heading is the visible title. */
@@ -31,6 +32,8 @@ export interface BlogRelated {
   ctaCategoryId?: string;
   /** Keyword collection landing page the "see all" button should open. */
   ctaCollectionId?: string;
+  /** Id of a follow-up guide shown as a reading tip in the closing box. */
+  readNext?: string;
 }
 
 export interface BlogFaq {
@@ -1208,4 +1211,5 @@ export const BLOG_POSTS: BlogPost[] = [
   ...SALES_POSTS,
   ...COMPARISON_POSTS,
   ...BRAND_POSTS,
+  ...BRAND_POSTS_MORE,
 ];

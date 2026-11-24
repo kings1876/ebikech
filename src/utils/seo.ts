@@ -6,6 +6,7 @@ import { BRANDS } from '../data/brands';
 import { CATEGORIES } from '../data/categories';
 import { SITE_NAME, DOMAIN, TAGLINE } from '../config/brand';
 import { CONTACT } from '../config/contact';
+import { postHeroUrl } from './blogImages';
 import { categorySeo, brandSeo, brandCategorySeo, productSeo, collectionSeo, faqJsonLd, catalogueStats, fitTitle, distinctTitle, fitDescription } from './seoText';
 
 export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): SeoMeta {
@@ -426,6 +427,7 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
           mainEntityOfPage: `${origin}${canonicalPath}`,
           author: { '@type': 'Organization', name: portal },
           publisher: { '@type': 'Organization', name: portal },
+          ...(origin && postHeroUrl(route.blogPost, origin) ? { image: [postHeroUrl(route.blogPost, origin)] } : {}),
         };
         const postFaq = route.blogPost.faq?.[lang];
         if (postFaq?.length) {

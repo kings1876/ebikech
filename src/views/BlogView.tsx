@@ -5,8 +5,11 @@ import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { COLLECTIONS } from '../data/collections';
 import { CardImage } from '../components/ProductImages';
+import { BlogPhoto } from '../components/BlogImages';
+import { relatedProducts, postImageProducts } from '../utils/blogImages';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGORY_PRODUCTS } from '../utils/routes';
 import { ArrowRight, Clock, ShoppingCart } from '../components/icons';
+import { Fragment, ReactNode } from 'react';
 import { BlogQuoteForm } from '../components/BlogQuoteForm';
 import { cart } from '../lib/cart';
 import { NavLink } from '../components/NavLink';
@@ -51,6 +54,7 @@ const L = {
   },
   addCart: { de: 'In den Warenkorb', fr: 'Ajouter au panier', it: 'Aggiungi al carrello' },
   quoteCta: { de: 'Gratis Offerte anfordern', fr: 'Demander une offre gratuite', it: 'Richiedere un’offerta gratuita' },
+  tip: { de: 'Lesetipp', fr: 'À lire', it: 'Da leggere' },
   howTo: { de: 'So bestellen Sie: Ablauf und Bezahlung', fr: 'Comment commander : étapes et paiement', it: 'Come ordinare: passi e pagamento' },
 };
 
@@ -93,25 +97,6 @@ function shopLinks(post: BlogPost, lang: Language) {
   return { categories, brands, collection, brand: BRANDS.find((b) => b.id === r?.brandId) };
 }
 
-/** Up to 4 real catalogue products matching a post, spread across the price range (best-photographed first). */
-function relatedProducts(post: BlogPost): Product[] {
-  const r = post.related;
-  if (!r) return [];
-  const pool = ALL_PRODUCTS.filter(
-    (p) =>
-      (!r.categoryId || p.categoryId === r.categoryId) &&
-      (!r.brandId || p.brandId === r.brandId) &&
-      (!r.speedClass || p.speedClass === r.speedClass) &&
-      (!r.frameType || p.frameType === r.frameType) &&
-      (!r.subcategoryId || p.subcategoryId === r.subcategoryId) &&
-      (!r.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)) &&
-      p.imageCount > 0,
-  ).sort((a, b) => a.priceCHF - b.priceCHF);
-  if (pool.length <= 4) return pool;
-  const picks = [0.1, 0.4, 0.7, 0.95].map((q) => pool[Math.min(pool.length - 1, Math.floor(q * pool.length))]);
-  return [...new Set(picks)];
-}
-
 const fmtDate = (iso: string, lang: Language) =>
   new Date(iso + 'T12:00:00Z').toLocaleDateString(lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH', {
     day: 'numeric',
@@ -129,9 +114,20 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
     const at = BLOG_POSTS.findIndex((p) => p.id === post.id);
     const others = [1, 2].map((n) => BLOG_POSTS[(at + n) % BLOG_POSTS.length]).filter((p) => p && p.id !== post.id);
     const howToPost = BLOG_POSTS.find((p) => p.id === 'e-bike-online-kaufen');
+    const tipPost = BLOG_POSTS.find((p) => p.id === post.related?.readNext);
     const linkCtx = newLinkContext();
     const shop = shopLinks(post, lang);
     const relatedList = relatedProducts(post);
+    const photos = postImageProducts(post);
+    const photoCaption = (p: Product): ReactNode => {
+      const cat = CATEGORIES.find((c) => c.id === p.categoryId);
+      return (
+        <NavLink href={buildLocalizedUrl(lang, { lang, view: 'product', category: cat, productSlug: p.slug })} onNavigate={onNavigate} className="hover:text-red-600">
+          {p.name} · {LP.from[lang]} {p.priceEstimated ? LP.approx[lang] + ' ' : ''}CHF {Math.round(p.priceCHF).toLocaleString('de-CH')}
+        </NavLink>
+      );
+    };
+    const photoAlt = (p: Product) => `${p.name}, ${CATEGORIES.find((c) => c.id === p.categoryId)?.name[lang] || ''}`;
     const ctaCategory = CATEGORIES.find((c) => c.id === (post.related?.categoryId || post.related?.ctaCategoryId));
     const ctaBrand = BRANDS.find((b) => b.id === post.related?.brandId);
     const ctaCollection = COLLECTIONS.find((c) => c.id === post.related?.ctaCollectionId);
@@ -166,9 +162,12 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           </div>
         </header>
 
+        {photos[0] && <BlogPhoto hero product={photos[0]} alt={photoAlt(photos[0])} caption={photoCaption(photos[0])} />}
+
         <div className="k255">
-          {post.body[lang].map((s) => (
-            <section key={s.heading} className="space-y-3">
+          {post.body[lang].map((s, si) => (
+            <Fragment key={s.heading}>
+            <section className="space-y-3">
               <h2 className="k256">{s.heading}</h2>
               {s.paragraphs.map((p, i) => (
                 <p key={i}>{linkify(p, lang, linkCtx, onNavigate)}</p>
@@ -204,6 +203,14 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                 </div>
               )}
             </section>
+            {si === 1 && photos.length > 1 && (
+              <div className="grid grid-cols-2 gap-3">
+                {photos.slice(1).map((p) => (
+                  <BlogPhoto key={p.id} product={p} alt={photoAlt(p)} caption={photoCaption(p)} />
+                ))}
+              </div>
+            )}
+            </Fragment>
           ))}
         </div>
 
@@ -235,7 +242,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
                       className="k258"
                     >
                       <div className="k259">
-                        <CardImage images={p.images || []} name={p.name} />
+                        <CardImage images={(p.images || []).slice(0, 1).map((im) => ({ ...im, alt: photoAlt(p) }))} name={p.name} />
                       </div>
                       <div className="k260">{p.name}</div>
                       <div className="k261">
@@ -336,6 +343,11 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           <div className="space-y-1.5">
             <h2 className="k256">{L.ctaTitle[lang]}</h2>
             <p className="text-sm text-slate-700">{L.ctaText[lang].replace('{crypto}', isCryptoEnabled() && CRYPTO.discountPct > 0 ? L.cryptoBit[lang].replace('{pct}', String(CRYPTO.discountPct)) : '')}</p>
+            {tipPost && (
+              <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: tipPost })} onNavigate={onNavigate} className="k247 text-sm block">
+                {L.tip[lang]}: {tipPost.title[lang]}
+              </NavLink>
+            )}
             {howToPost && post.id !== howToPost.id && (
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: howToPost })} onNavigate={onNavigate} className="k247 text-sm">
                 {L.howTo[lang]}
@@ -393,6 +405,14 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
               
               className="k278 group"
             >
+              {(() => {
+                const t = postImageProducts(p)[0];
+                return t ? (
+                  <div className="k769">
+                    <CardImage images={(t.images || []).slice(0, 1).map((im) => ({ ...im, alt: t.name }))} name={t.name} />
+                  </div>
+                ) : null;
+              })()}
               <div className="k279">
                 <time dateTime={p.publishedDate}>{fmtDate(p.publishedDate, lang)}</time>
                 <span className="k254"><Clock className="w-3.5 h-3.5" />{p.readMinutes} {L.min[lang]}</span>

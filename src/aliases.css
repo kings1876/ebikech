@@ -766,4 +766,7 @@
 .k764 { @apply px-3 py-2 text-slate-700 min-w-24; }
 .k765 { @apply px-3 py-2 text-slate-700 min-w-64; }
 .k766 { @apply px-3 py-2 text-slate-700 whitespace-nowrap; }
+.k767 { @apply space-y-2 min-w-0; }
+.k768 { @apply overflow-hidden rounded-xl border border-slate-200; }
+.k769 { @apply aspect-[4/3] overflow-hidden rounded-lg border border-slate-200 bg-white; }
 }
