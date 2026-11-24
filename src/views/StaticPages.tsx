@@ -4,6 +4,7 @@ import { BRANDS } from '../data/brands';
 import { CONTACT } from '../config/contact';
 import { CRYPTO } from '../config/reply';
 import { isCryptoEnabled } from '../lib/order';
+import { PolicyLinks } from '../components/PolicyLinks';
 
 interface StaticPagesProps {
   view: 'about' | 'legal';
@@ -13,7 +14,7 @@ interface StaticPagesProps {
 
 const pick = <T,>(lang: Language, de: T, fr: T, it: T): T => (lang === 'fr' ? fr : lang === 'it' ? it : de);
 
-export function StaticPages({ view, lang }: StaticPagesProps) {
+export function StaticPages({ view, lang, onNavigate }: StaticPagesProps) {
   if (view === 'about') {
     const total = ALL_PRODUCTS.length;
     const brandNames = BRANDS.filter((b) => ALL_PRODUCTS.some((p) => p.brandId === b.id)).map((b) => b.name);
@@ -171,6 +172,21 @@ export function StaticPages({ view, lang }: StaticPagesProps) {
                   `Vous pouvez aussi payer en cryptomonnaie (USDT, BTC ou ETH, ${CRYPTO.discountPct} % de remise) : juste après la commande, la page de paiement affiche l’adresse, le réseau, le montant et un code QR.`,
                   `In alternativa potete pagare in criptovaluta (USDT, BTC o ETH, sconto del ${CRYPTO.discountPct}%): subito dopo l’ordine compare la pagina di pagamento con indirizzo, rete, importo e codice QR.`,
                 )}
+          </p>
+        </section>
+
+        <section className="space-y-2">
+          <h2 className="k365">
+            {pick(lang, 'Lieferung, Rückgabe und Garantie', 'Livraison, retours et garantie', 'Consegna, resi e garanzia')}
+          </h2>
+          <p>
+            {pick(
+              lang,
+              'Die Einzelheiten stehen auf eigenen Seiten: ',
+              'Les détails figurent sur des pages dédiées : ',
+              'I dettagli sono su pagine dedicate: ',
+            )}
+            <PolicyLinks lang={lang} onNavigate={onNavigate} />
           </p>
         </section>
 

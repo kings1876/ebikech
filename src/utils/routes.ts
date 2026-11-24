@@ -3,6 +3,7 @@ import { SECTION_ROOTS, CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
 import { BLOG_POSTS, BlogPost } from '../data/blog';
+import { POLICY_PAGES, PolicyPage } from '../data/policies';
 import { CollectionDef, findCollectionBySlug } from '../data/collections';
 import { ALL_PRODUCTS } from '../data/products';
 
@@ -30,6 +31,7 @@ export interface ParsedRoute {
     | 'comparison'
     | 'about'
     | 'legal'
+    | 'policy'
     | 'search'
     | '404';
   category?: CategoryDef;
@@ -40,6 +42,7 @@ export interface ParsedRoute {
   guideCluster?: GuideCluster;
   guideArticle?: GuideArticle;
   blogPost?: BlogPost;
+  policy?: PolicyPage;
   page?: number;
   hasFacets?: boolean;
   queryString?: string;
@@ -156,6 +159,10 @@ export function parseRoute(pathname: string, search: string = ''): ParsedRoute {
   }
   if (['impressum-rechtliches', 'mentions-legales', 'note-legali'].includes(firstSeg)) {
     return { lang, view: 'legal' };
+  }
+  const policy = POLICY_PAGES.find((p) => p.slug.de === firstSeg || p.slug.fr === firstSeg || p.slug.it === firstSeg);
+  if (policy) {
+    return segments.length === 1 ? { lang, view: 'policy', policy } : { lang, view: '404' };
   }
   if (['kantone-foerderung', 'subventions-cantons', 'incentivi-cantoni'].includes(firstSeg)) {
     return { lang, view: 'canton-subsidies' };
@@ -354,6 +361,9 @@ export function buildLocalizedUrl(targetLang: Language, route: ParsedRoute): str
       if (targetLang === 'fr') return '/fr/mentions-legales/';
       if (targetLang === 'it') return '/it/note-legali/';
       return '/impressum-rechtliches/';
+
+    case 'policy':
+      return route.policy ? `${langPrefix}/${route.policy.slug[targetLang]}/` : `${langPrefix}/`;
 
     case 'blog-root':
       return `${langPrefix}/blog/`;

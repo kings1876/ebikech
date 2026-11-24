@@ -8,6 +8,7 @@ import { NavLink } from './NavLink';
 import { COLLECTIONS } from '../data/collections';
 import { SITE_NAME } from '../config/brand';
 import { CONTACT } from '../config/contact';
+import { POLICY_PAGES } from '../data/policies';
 import { Mail } from './icons';
 import { LogoMark } from './Logo';
 import { withCryptoMention } from '../lib/order';
@@ -162,6 +163,15 @@ export function Footer({ currentRoute, onNavigate }: FooterProps) {
                 {lang === 'fr' ? 'Contact' : lang === 'it' ? 'Contatti' : 'Kontakt'}
               </NavLink>
             </li>
+            {POLICY_PAGES.map((p) => (
+              <li key={p.id}>
+                <NavLink href={buildLocalizedUrl(lang, { lang, view: 'policy', policy: p })} onNavigate={onNavigate}
+                  className="k63"
+                >
+                  {p.nav[lang]}
+                </NavLink>
+              </li>
+            ))}
             <li>
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'about' })} onNavigate={onNavigate}
                 className="k63"

@@ -18,6 +18,7 @@ import { CantonSubsidiesView } from './views/CantonSubsidiesView';
 import { StaticPages } from './views/StaticPages';
 import { BlogView } from './views/BlogView';
 import { FaqView } from './views/FaqView';
+import { PolicyView } from './views/PolicyView';
 import { ContactView } from './views/ContactView';
 import { CheckoutView } from './views/CheckoutView';
 import { cart, useCart } from './lib/cart';
@@ -292,6 +293,8 @@ export default function App({ initialPath = '/', initialExtras }: { initialPath?
         )}
 
         {route.view === 'faq' && <FaqView lang={lang} onNavigate={handleNavigate} />}
+
+        {route.view === 'policy' && route.policy && <PolicyView policy={route.policy} lang={lang} onNavigate={handleNavigate} />}
 
         {route.view === 'contact' && <ContactView lang={lang} onNavigate={handleNavigate} />}
 

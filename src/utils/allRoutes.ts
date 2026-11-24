@@ -3,6 +3,7 @@ import { CATEGORIES } from '../data/categories';
 import { BRANDS } from '../data/brands';
 import { GUIDE_CLUSTERS } from '../data/guides';
 import { BLOG_POSTS } from '../data/blog';
+import { POLICY_PAGES } from '../data/policies';
 import { ALL_PRODUCTS } from '../data/products';
 import { COLLECTIONS } from '../data/collections';
 import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGORY_PRODUCTS } from './routes';
@@ -21,6 +22,7 @@ export function allRoutes(): ParsedRoute[] {
   r({ view: 'canton-subsidies' });
   r({ view: 'about' });
   r({ view: 'legal' });
+  for (const policy of POLICY_PAGES) r({ view: 'policy', policy });
   r({ view: 'blog-root' });
   r({ view: 'faq' });
   r({ view: 'contact' });

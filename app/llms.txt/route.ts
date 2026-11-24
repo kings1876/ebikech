@@ -6,6 +6,7 @@ import { COLLECTIONS } from '../../src/data/collections';
 import { BLOG_POSTS } from '../../src/data/blog';
 import { ALL_PRODUCTS } from '../../src/data/products';
 import { buildLocalizedUrl } from '../../src/utils/routes';
+import { POLICY_PAGES } from '../../src/data/policies';
 
 export const dynamic = 'force-static';
 
@@ -38,6 +39,7 @@ export function GET() {
     `- [All e-bikes](${abs(buildLocalizedUrl('de', { lang: 'de', view: 'catalog-root' }))}): full catalogue with filters`,
     `- [FAQ](${abs(buildLocalizedUrl('de', { lang: 'de', view: 'faq' }))}): e-bike 25 vs 45, helmet and licence, range, battery care, frame size`,
     `- [Contact](${abs(buildLocalizedUrl('de', { lang: 'de', view: 'contact' }))}): questions about a model, size or price`,
+    ...POLICY_PAGES.map((p) => `- [${p.nav.de}](${abs(buildLocalizedUrl('de', { lang: 'de', view: 'policy', policy: p }))}): ${p.excerpt.de}`),
     '',
     '## Optional',
     `- [Sitemap](${abs('/sitemap.xml')}): all pages in all three languages`,

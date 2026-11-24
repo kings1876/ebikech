@@ -8,6 +8,42 @@ export interface FaqItem {
 export const FAQ_ITEMS: FaqItem[] = [
   {
     q: {
+      de: 'Wie läuft die Lieferung ab und wann bezahle ich?',
+      fr: 'Comment se déroule la livraison et quand dois-je payer ?',
+      it: 'Come funziona la consegna e quando pago?',
+    },
+    a: {
+      de: 'Nach der Bestellung erhalten Sie die Zahlungsangaben per E-Mail (Banküberweisung oder Kryptowährung). Nach dem Zahlungseingang melden wir uns mit den nächsten Schritten zu Übergabe oder Lieferung. Eine feste Lieferzeit versprechen wir nicht.',
+      fr: 'Après la commande, vous recevez les coordonnées de paiement par e-mail (virement bancaire ou cryptomonnaie). Dès réception du paiement, nous vous contactons pour les prochaines étapes de remise ou de livraison. Nous ne promettons pas de délai fixe.',
+      it: 'Dopo l’ordine ricevete i dati di pagamento via e-mail (bonifico bancario o criptovaluta). Dopo il ricevimento del pagamento vi contatteremo per i prossimi passi di consegna o ritiro. Non promettiamo un termine fisso.',
+    },
+  },
+  {
+    q: {
+      de: 'Kann ich ein E-Bike zurückgeben?',
+      fr: 'Puis-je retourner un vélo électrique ?',
+      it: 'Posso restituire una e-bike?',
+    },
+    a: {
+      de: 'Für Käufe im Internet gibt es in der Schweiz kein gesetzliches Rückgaberecht. Eine Rücknahme aus Kulanz ist nur nach vorheriger Absprache möglich. Bei Mängeln gilt die gesetzliche Gewährleistung.',
+      fr: 'Pour les achats en ligne, il n’existe en Suisse aucun droit légal de retour. Une reprise par geste commercial n’est possible qu’après accord préalable. En cas de défaut, la garantie légale s’applique.',
+      it: 'Per gli acquisti online in Svizzera non esiste un diritto legale di reso. Una ripresa per gesto commerciale è possibile solo previo accordo. In caso di difetti vale la garanzia legale.',
+    },
+  },
+  {
+    q: {
+      de: 'Welche Garantie habe ich auf ein neues E-Bike?',
+      fr: 'Quelle garantie ai-je sur un vélo électrique neuf ?',
+      it: 'Che garanzia ho su una e-bike nuova?',
+    },
+    a: {
+      de: 'Auf neue E-Bikes gilt in der Schweiz die gesetzliche Gewährleistung von zwei Jahren ab Übergabe. Eine Herstellergarantie kann dazukommen; ihre Bedingungen unterscheiden sich je nach Marke. Normaler Verschleiss und die natürliche Akkualterung sind keine Mängel.',
+      fr: 'Sur les vélos électriques neufs s’applique en Suisse la garantie légale de deux ans à compter de la remise. Une garantie du fabricant peut s’y ajouter ; ses conditions varient selon la marque. L’usure normale et le vieillissement naturel de la batterie ne sont pas des défauts.',
+      it: 'Sulle e-bike nuove vale in Svizzera la garanzia legale di due anni dalla consegna. Può aggiungersi una garanzia del produttore; le condizioni variano a seconda del marchio. La normale usura e il naturale invecchiamento della batteria non sono difetti.',
+    },
+  },
+  {
+    q: {
       de: 'Was ist der Unterschied zwischen E-Bike 25 und E-Bike 45?',
       fr: 'Quelle est la différence entre e-bike 25 et e-bike 45 ?',
       it: 'Qual è la differenza tra e-bike 25 e e-bike 45?',

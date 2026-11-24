@@ -10,6 +10,7 @@ import { activeCoins, cryptoTotal, makeOrderNumber } from '../lib/order';
 import { cart, MAX_QTY, useCart } from '../lib/cart';
 import { CardImage } from '../components/ProductImages';
 import { NavLink } from '../components/NavLink';
+import { PolicyLinks } from '../components/PolicyLinks';
 import { CheckCircle2, Minus, Plus, Trash2 } from '../components/icons';
 
 const T = {
@@ -168,7 +169,7 @@ export function CheckoutView({ lang, onNavigate }: { lang: Language; onNavigate:
             {isCrypto && <div className="k747"><dt>{t.discount(CRYPTO.discountPct)}</dt><dd>-{chf(subtotal - total)}</dd></div>}
             <div className="k748"><dt>{t.total}</dt><dd>{chf(total)}</dd></div>
           </dl>
-          <p className="text-xs text-slate-500">{t.shipping}</p>
+          <p className="text-xs text-slate-500">{t.shipping} <PolicyLinks lang={lang} onNavigate={onNavigate} /></p>
         </section>
 
         <form onSubmit={submit} className="k749">

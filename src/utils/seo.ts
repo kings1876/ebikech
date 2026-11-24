@@ -533,6 +533,21 @@ export function resolveSeoMetadata(route: ParsedRoute, origin: string = ''): Seo
       break;
     }
 
+    case 'policy': {
+      if (route.policy) {
+        breadcrumbs.push({ name: route.policy.nav[lang], url: canonicalPath });
+        title = distinctTitle(route.policy.title[lang], lang);
+        description = fitDescription(route.policy.excerpt[lang]);
+        jsonLd = {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          inLanguage: lang === 'fr' ? 'fr-CH' : lang === 'it' ? 'it-CH' : 'de-CH',
+          mainEntity: route.policy.faq[lang].map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+        };
+      }
+      break;
+    }
+
     case 'legal': {
       title = lang === 'fr' ? `Mentions légales et protection des données | ${SITE_NAME.fr}` : lang === 'it' ? `Note legali e protezione dei dati | ${SITE_NAME.it}` : `Impressum, Datenschutz & Rechtliches | ${SITE_NAME.de}`;
       description = lang === 'fr' ? `Mentions légales, protection des données (LPD) et informations sur l’éditeur de ${SITE_NAME.fr}.` : lang === 'it' ? `Note legali, protezione dei dati (LPD) e informazioni sull’editore di ${SITE_NAME.it}.` : `Rechtliche Hinweise, Schweizer Datenschutzgesetz (DSG) und Impressum von ${SITE_NAME.de}.`;

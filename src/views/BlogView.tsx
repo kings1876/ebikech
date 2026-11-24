@@ -11,6 +11,7 @@ import { ParsedRoute, buildLocalizedUrl, getBrandCategoryCount, MIN_BRAND_CATEGO
 import { ArrowRight, Clock, ShoppingCart } from '../components/icons';
 import { Fragment, ReactNode } from 'react';
 import { BlogQuoteForm } from '../components/BlogQuoteForm';
+import { PolicyLinks } from '../components/PolicyLinks';
 import { cart } from '../lib/cart';
 import { NavLink } from '../components/NavLink';
 import { linkify, newLinkContext } from '../utils/autoLink';
@@ -54,6 +55,7 @@ const L = {
   },
   addCart: { de: 'In den Warenkorb', fr: 'Ajouter au panier', it: 'Aggiungi al carrello' },
   quoteCta: { de: 'Gratis Offerte anfordern', fr: 'Demander une offre gratuite', it: 'Richiedere un’offerta gratuita' },
+  service: { de: 'Gut zu wissen', fr: 'Bon à savoir', it: 'Da sapere' },
   tip: { de: 'Lesetipp', fr: 'À lire', it: 'Da leggere' },
   howTo: { de: 'So bestellen Sie: Ablauf und Bezahlung', fr: 'Comment commander : étapes et paiement', it: 'Come ordinare: passi e pagamento' },
 };
@@ -343,6 +345,7 @@ export function BlogView({ route, lang, onNavigate }: BlogViewProps) {
           <div className="space-y-1.5">
             <h2 className="k256">{L.ctaTitle[lang]}</h2>
             <p className="text-sm text-slate-700">{L.ctaText[lang].replace('{crypto}', isCryptoEnabled() && CRYPTO.discountPct > 0 ? L.cryptoBit[lang].replace('{pct}', String(CRYPTO.discountPct)) : '')}</p>
+            <p className="text-sm text-slate-600">{L.service[lang]}: <PolicyLinks lang={lang} onNavigate={onNavigate} /></p>
             {tipPost && (
               <NavLink href={buildLocalizedUrl(lang, { lang, view: 'blog-post', blogPost: tipPost })} onNavigate={onNavigate} className="k247 text-sm block">
                 {L.tip[lang]}: {tipPost.title[lang]}
