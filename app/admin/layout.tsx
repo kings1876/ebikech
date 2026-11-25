@@ -5,7 +5,7 @@ export const metadata = { title: 'Reply Portal', robots: { index: false, follow:
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de-CH">
+    <html lang="en">
       <body>
         <AdminShell>{children}</AdminShell>
       </body>

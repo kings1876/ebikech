@@ -8,6 +8,9 @@ import { StatusBadge } from '../../../../src/components/admin/StatusBadge';
 import { REPLY } from '../../../../src/config/reply';
 import type { StoredEnquiry } from '../../../../src/lib/stores';
 
+// the contact form stores these keys in German
+const META_LABEL: Record<string, string> = { Betreff: 'Subject', Modell: 'Model', Kanton: 'Canton', Wunschdatum: 'Preferred date' };
+
 export default function EnquiryDetail() {
   const { api } = useAdmin();
   const router = useRouter();
@@ -21,8 +24,8 @@ export default function EnquiryDetail() {
     })();
   }, [api, id]);
 
-  if (enq === undefined) return <p className="text-sm text-slate-400">Lädt …</p>;
-  if (enq === null) return <p className="text-sm text-slate-400">Anfrage nicht gefunden. <Link className="underline" href="/admin/enquiries/">Zur Liste</Link></p>;
+  if (enq === undefined) return <p className="text-sm text-slate-400">Loading …</p>;
+  if (enq === null) return <p className="text-sm text-slate-400">Enquiry not found. <Link className="underline" href="/admin/enquiries/">Back to list</Link></p>;
 
   const card = 'rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2 text-sm';
   const h = 'text-xs font-bold uppercase tracking-wide text-slate-400';
@@ -33,31 +36,31 @@ export default function EnquiryDetail() {
         <StatusBadge status={enq.status} />
       </div>
       <section className={card}>
-        <div className={h}>Kontakt</div>
+        <div className={h}>Contact</div>
         <a className="underline block" href={`mailto:${enq.email}`}>{enq.email}</a>
         {enq.phone && <div>{enq.phone}</div>}
-        <div className="text-xs text-slate-500">{enq.id} · Sprache: {enq.lang} · {new Date(enq.createdAt).toLocaleString('de-CH')}</div>
+        <div className="text-xs text-slate-500">{enq.id} · Language: {enq.lang} · {new Date(enq.createdAt).toLocaleString('en-GB')}</div>
         {Object.entries(enq.meta || {}).map(([k, v]) => (
-          <div key={k}><span className="text-slate-400">{k}: </span>{v}</div>
+          <div key={k}><span className="text-slate-400">{META_LABEL[k] || k}: </span>{v}</div>
         ))}
       </section>
       <section className={card}>
-        <div className={h}>Nachricht</div>
+        <div className={h}>Message</div>
         <div className="whitespace-pre-line text-slate-200">{enq.message}</div>
       </section>
       <div className="flex gap-3 flex-wrap">
         <Link href={`/admin/reply-enquiry/?id=${encodeURIComponent(enq.id)}`} className="rounded-lg px-4 py-2.5 text-sm font-bold text-white" style={{ background: REPLY.brand.primary }}>
-          Antworten
+          Reply
         </Link>
         <button
           onClick={async () => {
-            if (!confirm('Anfrage endgültig löschen?')) return;
+            if (!confirm('Delete this enquiry permanently?')) return;
             await api(`/api/admin/enquiries/${encodeURIComponent(enq.id)}/`, { method: 'DELETE' });
             router.push('/admin/enquiries/');
           }}
           className="rounded-lg border border-slate-700 px-4 py-2.5 text-sm font-semibold text-slate-300 hover:text-red-300 cursor-pointer"
         >
-          Löschen
+          Delete
         </button>
       </div>
     </div>

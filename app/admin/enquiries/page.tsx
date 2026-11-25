@@ -7,14 +7,14 @@ import { StatusBadge } from '../../../src/components/admin/StatusBadge';
 import type { StoredEnquiry } from '../../../src/lib/stores';
 
 const FILTERS = [
-  { id: 'all', label: 'Alle' },
-  { id: 'contact', label: 'Kontakt' },
-  { id: 'testride', label: 'Probefahrt' },
-  { id: 'new', label: 'Neu' },
-  { id: 'replied', label: 'Beantwortet' },
+  { id: 'all', label: 'All' },
+  { id: 'contact', label: 'Contact' },
+  { id: 'testride', label: 'Test ride' },
+  { id: 'new', label: 'New' },
+  { id: 'replied', label: 'Replied' },
 ] as const;
 
-const TYPE_LABEL: Record<string, string> = { contact: 'Kontakt', testride: 'Probefahrt', wholesale: 'Händler' };
+const TYPE_LABEL: Record<string, string> = { contact: 'Contact', testride: 'Test ride', wholesale: 'Wholesale' };
 
 export default function EnquiriesPage() {
   const { api } = useAdmin();
@@ -32,7 +32,7 @@ export default function EnquiriesPage() {
 
   return (
     <div className="space-y-5">
-      <h1 className="text-2xl font-black">Anfragen</h1>
+      <h1 className="text-2xl font-black">Enquiries</h1>
       <div className="flex gap-2 flex-wrap" role="tablist" aria-label="Filter">
         {FILTERS.map((f) => (
           <button
@@ -46,13 +46,13 @@ export default function EnquiriesPage() {
           </button>
         ))}
       </div>
-      {list === null && <p className="text-sm text-slate-400">Lädt …</p>}
-      {list && shown.length === 0 && <p className="text-sm text-slate-500">Keine Anfragen in dieser Ansicht.</p>}
+      {list === null && <p className="text-sm text-slate-400">Loading …</p>}
+      {list && shown.length === 0 && <p className="text-sm text-slate-500">No enquiries in this view.</p>}
       <div className="space-y-2">
         {shown.map((e) => (
           <Link key={e.id} href={`/admin/enquiries/${encodeURIComponent(e.id)}/`} className="flex items-center gap-3 rounded-xl border border-slate-800 bg-slate-900 px-4 py-3 hover:border-slate-600">
             <div className="flex-1 min-w-0">
-              <div className="text-sm font-semibold">{e.name} <span className="text-xs font-normal text-slate-500">· {TYPE_LABEL[e.type] || e.type} · {new Date(e.createdAt).toLocaleDateString('de-CH')}</span></div>
+              <div className="text-sm font-semibold">{e.name} <span className="text-xs font-normal text-slate-500">· {TYPE_LABEL[e.type] || e.type} · {new Date(e.createdAt).toLocaleDateString('en-GB')}</span></div>
               <div className="text-xs text-slate-400 truncate">{e.message}</div>
             </div>
             <StatusBadge status={e.status} />

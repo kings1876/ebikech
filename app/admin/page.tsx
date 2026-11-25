@@ -29,10 +29,10 @@ export default function AdminHome() {
 
   const [mailResult, setMailResult] = useState('');
   const sendTest = async () => {
-    setMailResult('Wird gesendet …');
+    setMailResult('Sending …');
     const r = await api<{ ok: boolean; error?: string; to?: string; host?: string; port?: number; user?: string; from?: string }>('/api/admin/mail-test/', { method: 'POST', body: JSON.stringify({}) });
     const d = r.data;
-    setMailResult(d.ok ? `Gesendet an ${d.to}. Prüfen Sie Posteingang und Spam.` : `Fehler: ${d.error || 'unbekannt'} (Server ${d.host}:${d.port}, Benutzer ${d.user}, Absender ${d.from}, Empfänger ${d.to})`);
+    setMailResult(d.ok ? `Sent to ${d.to}. Check your inbox and spam folder.` : `Error: ${d.error || 'unknown'} (server ${d.host}:${d.port}, user ${d.user}, sender ${d.from}, recipient ${d.to})`);
   };
 
   const pending = orders.filter((o) => o.status === 'pending').length;
@@ -44,33 +44,32 @@ export default function AdminHome() {
 
       {loaded && !storeConfigured && (
         <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200">
-          Die Datenbank ist noch nicht verbunden. Anfragen und Bestellungen werden per E-Mail zugestellt, erscheinen hier aber erst, wenn in Vercel unter
-          Storage eine Upstash-Redis-Datenbank mit dem Projekt verbunden ist.
+          The database is not connected yet. Enquiries and orders are delivered by email, but they only appear here once a Redis database is connected to the project (Storage tab in Vercel).
         </div>
       )}
 
       <div className="grid sm:grid-cols-2 gap-4">
         <Link href="/admin/orders/" className="rounded-2xl border border-slate-800 bg-slate-900 p-5 hover:border-slate-600">
-          <div className="text-xs font-bold uppercase tracking-wide text-slate-400">Bestellungen</div>
+          <div className="text-xs font-bold uppercase tracking-wide text-slate-400">Orders</div>
           <div className="text-4xl font-black mt-1">{loaded ? orders.length : '–'}</div>
-          <div className="text-sm text-amber-300 mt-1">{loaded ? `${pending} offen` : ''}</div>
+          <div className="text-sm text-amber-300 mt-1">{loaded ? `${pending} open` : ''}</div>
         </Link>
         <Link href="/admin/enquiries/" className="rounded-2xl border border-slate-800 bg-slate-900 p-5 hover:border-slate-600">
-          <div className="text-xs font-bold uppercase tracking-wide text-slate-400">Anfragen</div>
+          <div className="text-xs font-bold uppercase tracking-wide text-slate-400">Enquiries</div>
           <div className="text-4xl font-black mt-1">{loaded ? enquiries.length : '–'}</div>
-          <div className="text-sm text-amber-300 mt-1">{loaded ? `${fresh} neu` : ''}</div>
+          <div className="text-sm text-amber-300 mt-1">{loaded ? `${fresh} new` : ''}</div>
         </Link>
       </div>
 
       <section className="space-y-2">
         <button type="button" onClick={sendTest} className="rounded-xl border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-bold hover:border-slate-500 cursor-pointer">
-          Test-E-Mail an das Postfach senden
+          Send test email to the mailbox
         </button>
         {mailResult && <p className="text-sm text-slate-300 break-words">{mailResult}</p>}
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-lg font-bold">Neueste Bestellungen</h2>
+        <h2 className="text-lg font-bold">Latest orders</h2>
         {orders.slice(0, 5).map((o) => (
           <Link key={o.orderNumber} href={`/admin/orders/${encodeURIComponent(o.orderNumber)}/`} className="flex items-center justify-between gap-3 rounded-xl border border-slate-800 bg-slate-900 px-4 py-3 hover:border-slate-600">
             <div>
@@ -80,11 +79,11 @@ export default function AdminHome() {
             <StatusBadge status={o.status} />
           </Link>
         ))}
-        {loaded && orders.length === 0 && <p className="text-sm text-slate-500">Noch keine Bestellungen.</p>}
+        {loaded && orders.length === 0 && <p className="text-sm text-slate-500">No orders yet.</p>}
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-lg font-bold">Neueste Anfragen</h2>
+        <h2 className="text-lg font-bold">Latest enquiries</h2>
         {enquiries.slice(0, 5).map((e) => (
           <Link key={e.id} href={`/admin/enquiries/${encodeURIComponent(e.id)}/`} className="flex items-center justify-between gap-3 rounded-xl border border-slate-800 bg-slate-900 px-4 py-3 hover:border-slate-600">
             <div className="min-w-0">
@@ -94,7 +93,7 @@ export default function AdminHome() {
             <StatusBadge status={e.status} />
           </Link>
         ))}
-        {loaded && enquiries.length === 0 && <p className="text-sm text-slate-500">Noch keine Anfragen.</p>}
+        {loaded && enquiries.length === 0 && <p className="text-sm text-slate-500">No enquiries yet.</p>}
       </section>
     </div>
   );

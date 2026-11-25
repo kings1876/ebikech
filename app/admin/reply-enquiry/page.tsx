@@ -22,8 +22,8 @@ function Composer() {
     })();
   }, [api, id]);
 
-  if (enq === undefined) return <p className="text-sm text-slate-400">Lädt …</p>;
-  if (enq === null) return <p className="text-sm text-slate-400">Anfrage nicht gefunden.</p>;
+  if (enq === undefined) return <p className="text-sm text-slate-400">Loading …</p>;
+  if (enq === null) return <p className="text-sm text-slate-400">Enquiry not found.</p>;
 
   const send = async () => {
     setState('sending');
@@ -36,29 +36,29 @@ function Composer() {
     if (r.status === 200) setState('sent');
     else {
       setState('error');
-      setError(r.data.error === 'not-configured' ? 'E-Mail-Versand ist noch nicht eingerichtet (SMTP_* in Vercel).' : `Senden fehlgeschlagen (${r.data.error || r.status}).`);
+      setError(r.data.error === 'not-configured' ? 'Email sending is not set up yet (SMTP_* in Vercel).' : `Sending failed (${r.data.error || r.status}).`);
     }
   };
 
   return (
     <div className="space-y-6 max-w-3xl">
       <div>
-        <h1 className="text-2xl font-black">Antwort an {enq.name}</h1>
-        <p className="text-sm text-slate-400 mt-1">{enq.email} · Sprache der Anfrage: {enq.lang}</p>
+        <h1 className="text-2xl font-black">Reply to {enq.name}</h1>
+        <p className="text-sm text-slate-400 mt-1">{enq.email} · Enquiry language: {enq.lang}</p>
       </div>
       <section className="rounded-2xl border border-slate-800 bg-slate-900 p-5 text-sm">
-        <div className="text-xs font-bold uppercase tracking-wide text-slate-400 mb-1">Ursprüngliche Nachricht</div>
+        <div className="text-xs font-bold uppercase tracking-wide text-slate-400 mb-1">Original message</div>
         <div className="whitespace-pre-line text-slate-300">{enq.message}</div>
       </section>
       <div className="space-y-2">
-        <label htmlFor="reply" className="text-sm font-semibold block">Ihre Antwort</label>
+        <label htmlFor="reply" className="text-sm font-semibold block">Your reply</label>
         <textarea id="reply" rows={9} value={reply} onChange={(e) => setReply(e.target.value)} className="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2.5 text-sm outline-none focus:ring-2" />
-        <p className="text-xs text-slate-500">Die Antwort wird als E-Mail im Shop-Design gesendet, mit der ursprünglichen Nachricht darunter.</p>
+        <p className="text-xs text-slate-500">The reply is sent as an email in the shop design, with the original message below it.</p>
       </div>
-      {state === 'sent' && <p className="text-sm text-emerald-300" role="status">Gesendet. <Link className="underline" href="/admin/enquiries/">Zur Liste</Link></p>}
+      {state === 'sent' && <p className="text-sm text-emerald-300" role="status">Sent. <Link className="underline" href="/admin/enquiries/">Back to list</Link></p>}
       {state === 'error' && <p className="text-sm text-red-300" role="alert">{error}</p>}
       <button onClick={send} disabled={reply.trim().length < 2 || state === 'sending'} className="rounded-lg px-5 py-2.5 text-sm font-bold text-white disabled:opacity-40 cursor-pointer" style={{ background: REPLY.brand.primary }}>
-        {state === 'sending' ? 'Wird gesendet …' : 'Antwort senden'}
+        {state === 'sending' ? 'Sending …' : 'Send reply'}
       </button>
     </div>
   );
@@ -66,7 +66,7 @@ function Composer() {
 
 export default function Page() {
   return (
-    <Suspense fallback={<p className="text-sm text-slate-400">Lädt …</p>}>
+    <Suspense fallback={<p className="text-sm text-slate-400">Loading …</p>}>
       <Composer />
     </Suspense>
   );

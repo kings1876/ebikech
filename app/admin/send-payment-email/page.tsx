@@ -29,8 +29,8 @@ function Composer() {
     })();
   }, [api, id]);
 
-  if (order === undefined) return <p className="text-sm text-slate-400">Lädt …</p>;
-  if (order === null) return <p className="text-sm text-slate-400">Bestellung nicht gefunden.</p>;
+  if (order === undefined) return <p className="text-sm text-slate-400">Loading …</p>;
+  if (order === null) return <p className="text-sm text-slate-400">Order not found.</p>;
 
   const fields = parsePaymentDetail(detail);
   const parts = paymentMethodParts(methodId, order.amountDue, order.orderNumber, order.lang);
@@ -47,45 +47,45 @@ function Composer() {
     if (r.status === 200) setState('sent');
     else {
       setState('error');
-      setError(r.data.error === 'not-configured' ? 'E-Mail-Versand ist noch nicht eingerichtet (SMTP_* in Vercel).' : `Senden fehlgeschlagen (${r.data.error || r.status}).`);
+      setError(r.data.error === 'not-configured' ? 'Email sending is not set up yet (SMTP_* in Vercel).' : `Sending failed (${r.data.error || r.status}).`);
     }
   };
 
   return (
     <div className="space-y-6 max-w-3xl">
       <div>
-        <h1 className="text-2xl font-black">Zahlungsdetails senden</h1>
+        <h1 className="text-2xl font-black">Send payment details</h1>
         <p className="text-sm text-slate-400 mt-1">
-          <span className="font-mono">{order.orderNumber}</span> · {order.customerName} ({order.customerEmail}) · {money(order.amountDue)} · Sprache {order.lang}
+          <span className="font-mono">{order.orderNumber}</span> · {order.customerName} ({order.customerEmail}) · {money(order.amountDue)} · language {order.lang}
         </p>
       </div>
 
       <div className="space-y-2">
-        <label htmlFor="method" className="text-sm font-semibold block">Zahlungsart</label>
+        <label htmlFor="method" className="text-sm font-semibold block">Payment method</label>
         <select id="method" value={methodId} onChange={(e) => setMethodId(e.target.value)} className={input}>
           {REPLY.paymentMethods.map((m) => (
-            <option key={m.id} value={m.id}>{m.label.de}</option>
+            <option key={m.id} value={m.id}>{m.id === 'bank-transfer' ? 'Bank transfer' : m.label.de}</option>
           ))}
         </select>
       </div>
 
       <div className="space-y-2">
-        <label htmlFor="detail" className="text-sm font-semibold block">Zahlungsangaben einfügen</label>
+        <label htmlFor="detail" className="text-sm font-semibold block">Paste payment details</label>
         <textarea
           id="detail"
           rows={7}
           value={detail}
           onChange={(e) => setDetail(e.target.value)}
-          placeholder={'Kontoinhaber: …\nIBAN: CH…\nBank: …\nReferenz: ' + order.orderNumber}
+          placeholder={'Account holder: …\nIBAN: CH…\nBank: …\nReference: ' + order.orderNumber}
           className={`${input} font-mono`}
         />
-        <p className="text-xs text-slate-500">Eine Angabe pro Zeile, am besten als «Bezeichnung: Wert». Jede Zeile wird beim Kunden zu einem einzeln kopierbaren Feld.</p>
+        <p className="text-xs text-slate-500">One item per line, ideally as “Label: value”. Each line becomes a separately copyable field for the customer. Labels are shown exactly as typed, so write them in the customer’s language.</p>
       </div>
 
       <section className="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-3 text-sm">
-        <div className="text-xs font-bold uppercase tracking-wide text-slate-400">Vorschau (Sprache des Kunden: {order.lang})</div>
+        <div className="text-xs font-bold uppercase tracking-wide text-slate-400">Preview (customer language: {order.lang})</div>
         <p>{parts.opening}</p>
-        {fields.length === 0 && <p className="text-slate-500">Noch keine Zahlungsangaben.</p>}
+        {fields.length === 0 && <p className="text-slate-500">No payment details yet.</p>}
         {fields.map((f, i) => (
           <div key={i} className="flex gap-3">
             <span className="text-slate-400 min-w-32">{f.label}</span>
@@ -100,7 +100,7 @@ function Composer() {
         </ul>
       </section>
 
-      {state === 'sent' && <p className="text-sm text-emerald-300" role="status">Gesendet. Die Bestellung ist jetzt «Zahlungsdetails gesendet». <Link className="underline" href={`/admin/orders/${encodeURIComponent(order.orderNumber)}/`}>Zur Bestellung</Link></p>}
+      {state === 'sent' && <p className="text-sm text-emerald-300" role="status">Sent. The order is now “Payment details sent”. <Link className="underline" href={`/admin/orders/${encodeURIComponent(order.orderNumber)}/`}>Go to order</Link></p>}
       {state === 'error' && <p className="text-sm text-red-300" role="alert">{error}</p>}
       <button
         onClick={send}
@@ -108,7 +108,7 @@ function Composer() {
         className="rounded-lg px-5 py-2.5 text-sm font-bold text-white disabled:opacity-40 cursor-pointer"
         style={{ background: REPLY.brand.primary }}
       >
-        {state === 'sending' ? 'Wird gesendet …' : 'E-Mail an Kunden senden'}
+        {state === 'sending' ? 'Sending …' : 'Send email to customer'}
       </button>
     </div>
   );
@@ -116,7 +116,7 @@ function Composer() {
 
 export default function Page() {
   return (
-    <Suspense fallback={<p className="text-sm text-slate-400">Lädt …</p>}>
+    <Suspense fallback={<p className="text-sm text-slate-400">Loading …</p>}>
       <Composer />
     </Suspense>
   );

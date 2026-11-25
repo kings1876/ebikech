@@ -7,8 +7,8 @@ import { SITE_NAME } from '../../config/brand';
 
 const LINKS = [
   { href: '/admin/', label: 'Dashboard' },
-  { href: '/admin/orders/', label: 'Bestellungen' },
-  { href: '/admin/enquiries/', label: 'Anfragen' },
+  { href: '/admin/orders/', label: 'Orders' },
+  { href: '/admin/enquiries/', label: 'Enquiries' },
 ];
 
 export function AdminNav({ onSignOut }: { onSignOut: () => void }) {
@@ -30,7 +30,7 @@ export function AdminNav({ onSignOut }: { onSignOut: () => void }) {
           })}
         </nav>
         <button onClick={onSignOut} className="k240">
-          Abmelden
+          Sign out
         </button>
       </div>
     </header>

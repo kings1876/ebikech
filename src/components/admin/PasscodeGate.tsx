@@ -46,11 +46,11 @@ export function PasscodeGate({ children }: { children: (signOut: () => void) => 
       } else {
         write('');
         setState('locked');
-        if (input) setError('Falscher Zugangscode.');
+        if (input) setError('Wrong passcode.');
       }
     } catch {
       setState('locked');
-      setError('Verbindung fehlgeschlagen.');
+      setError('Connection failed.');
     }
   }, [input]);
 
@@ -89,10 +89,10 @@ export function PasscodeGate({ children }: { children: (signOut: () => void) => 
     <div className="k242">
       <div className="k243">
         <div className="k244" style={{ color: REPLY.brand.primary }}>Reply Portal</div>
-        {state === 'checking' && <p className="text-sm text-slate-400">Wird geprüft …</p>}
+        {state === 'checking' && <p className="text-sm text-slate-400">Checking …</p>}
         {state === 'not-configured' && (
           <p className="text-sm text-amber-300">
-            Das Portal ist noch nicht freigeschaltet: Die Umgebungsvariable <code className="text-amber-200">ADMIN_PASSCODE</code> fehlt im Vercel-Projekt.
+            The portal is not enabled yet: the environment variable <code className="text-amber-200">ADMIN_PASSCODE</code> is missing in the Vercel project.
           </p>
         )}
         {state === 'locked' && (
@@ -103,7 +103,7 @@ export function PasscodeGate({ children }: { children: (signOut: () => void) => 
             }}
             className="space-y-3"
           >
-            <label htmlFor="passcode" className="text-sm font-semibold block">Zugangscode</label>
+            <label htmlFor="passcode" className="text-sm font-semibold block">Passcode</label>
             <input
               id="passcode"
               type="password"
@@ -116,7 +116,7 @@ export function PasscodeGate({ children }: { children: (signOut: () => void) => 
             />
             {error && <p className="text-sm text-red-300" role="alert">{error}</p>}
             <button type="submit" className="k246" style={{ background: REPLY.brand.primary }}>
-              Anmelden
+              Sign in
             </button>
           </form>
         )}

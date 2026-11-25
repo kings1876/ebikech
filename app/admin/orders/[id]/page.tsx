@@ -22,8 +22,8 @@ export default function OrderDetail() {
     })();
   }, [api, id]);
 
-  if (order === undefined) return <p className="text-sm text-slate-400">Lädt …</p>;
-  if (order === null) return <p className="text-sm text-slate-400">Bestellung nicht gefunden. <Link className="underline" href="/admin/orders/">Zur Liste</Link></p>;
+  if (order === undefined) return <p className="text-sm text-slate-400">Loading …</p>;
+  if (order === null) return <p className="text-sm text-slate-400">Order not found. <Link className="underline" href="/admin/orders/">Back to list</Link></p>;
 
   const card = 'rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2 text-sm';
   const h = 'text-xs font-bold uppercase tracking-wide text-slate-400';
@@ -37,26 +37,26 @@ export default function OrderDetail() {
 
       <div className="grid sm:grid-cols-2 gap-4">
         <section className={card}>
-          <div className={h}>Kunde</div>
+          <div className={h}>Customer</div>
           <div className="font-semibold">{order.customerName}</div>
           <a className="block underline" href={`mailto:${order.customerEmail}`}>{order.customerEmail}</a>
           <div>{order.customerPhone}</div>
           {order.address && <div className="whitespace-pre-line text-slate-300">{order.address}</div>}
-          <div className="text-xs text-slate-500">Sprache: {order.lang} · Kanal: {order.channel} · {new Date(order.createdAt).toLocaleString('de-CH')}</div>
+          <div className="text-xs text-slate-500">Language: {order.lang} · Channel: {order.channel} · {new Date(order.createdAt).toLocaleString('en-GB')}</div>
         </section>
         <section className={card}>
-          <div className={h}>Zahlung</div>
+          <div className={h}>Payment</div>
           <div className="text-2xl font-black" style={{ color: REPLY.brand.primary }}>{money(order.amountDue)}</div>
-          <div className="text-slate-300">Zahlungsart: {order.paymentMethod}</div>
+          <div className="text-slate-300">Payment method: {order.paymentMethod}</div>
           {order.paymentDetails && (
-            <div className="text-xs text-slate-400">Zahlungsdetails gesendet am {new Date(order.paymentDetails.sentAt).toLocaleString('de-CH')}</div>
+            <div className="text-xs text-slate-400">Payment details sent on {new Date(order.paymentDetails.sentAt).toLocaleString('en-GB')}</div>
           )}
-          {order.status === 'payment-confirmed' && <div className="text-xs text-emerald-300">Der Kunde hat einen Zahlungsbeleg hochgeladen.</div>}
+          {order.status === 'payment-confirmed' && <div className="text-xs text-emerald-300">The customer has uploaded a payment receipt.</div>}
         </section>
       </div>
 
       <section className={card}>
-        <div className={h}>Artikel</div>
+        <div className={h}>Items</div>
         {order.items.map((i, n) => (
           <div key={n} className="flex justify-between gap-3">
             <span>
@@ -67,7 +67,7 @@ export default function OrderDetail() {
         ))}
         {order.notes && (
           <>
-            <div className={`${h} pt-2`}>Hinweise des Kunden</div>
+            <div className={`${h} pt-2`}>Customer notes</div>
             <div className="whitespace-pre-line text-slate-300">{order.notes}</div>
           </>
         )}
@@ -75,17 +75,17 @@ export default function OrderDetail() {
 
       <div className="flex gap-3 flex-wrap">
         <Link href={`/admin/send-payment-email/?id=${encodeURIComponent(order.orderNumber)}`} className="rounded-lg px-4 py-2.5 text-sm font-bold text-white" style={{ background: REPLY.brand.primary }}>
-          {order.paymentDetails ? 'Zahlungsdetails erneut senden' : 'Zahlungsdetails senden'}
+          {order.paymentDetails ? 'Resend payment details' : 'Send payment details'}
         </Link>
         <button
           onClick={async () => {
-            if (!confirm('Bestellung endgültig löschen?')) return;
+            if (!confirm('Delete this order permanently?')) return;
             await api(`/api/admin/orders/${encodeURIComponent(order.orderNumber)}/`, { method: 'DELETE' });
             router.push('/admin/orders/');
           }}
           className="rounded-lg border border-slate-700 px-4 py-2.5 text-sm font-semibold text-slate-300 hover:text-red-300 cursor-pointer"
         >
-          Löschen
+          Delete
         </button>
       </div>
     </div>

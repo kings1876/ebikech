@@ -28,9 +28,9 @@ export async function POST(request: Request) {
   const when = new Date().toISOString();
   const r = await sendMail({
     to,
-    subject: `Test-E-Mail ${REPLY.orderPrefix}`,
-    text: `Dies ist eine Test-E-Mail des Reply Portals (${when}).`,
-    html: `<p>Dies ist eine Test-E-Mail des Reply Portals (${escapeHtml(when)}).</p>`,
+    subject: `Test email ${REPLY.orderPrefix}`,
+    text: `This is a test email from the Reply Portal (${when}).`,
+    html: `<p>This is a test email from the Reply Portal (${escapeHtml(when)}).</p>`,
   });
   return Response.json({ ok: r.sent, error: r.sent ? undefined : r.reason || 'send-failed', ...info }, { status: r.sent ? 200 : 502 });
 }
