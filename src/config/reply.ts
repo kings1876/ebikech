@@ -20,7 +20,7 @@ export const REPLY = {
   currency: { code: 'CHF', symbol: 'CHF', locale: 'de-CH' },
   channels: {
     /** where order and enquiry notifications go (overridable with CONTACT_EMAIL / ORDER_EMAIL) */
-    email: 'kontakt@ebike-zu-verkaufen.ch',
+    email: 'kaufen@ebike-zu-verkaufen.ch',
     /** WhatsApp number in international format, e.g. 41791234567; empty hides every WhatsApp feature */
     whatsapp: '',
   },

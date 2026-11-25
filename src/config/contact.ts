@@ -4,7 +4,7 @@ export const CONTACT = {
   /** Legal / trading name shown on the page */
   // TODO: PLACEHOLDER VALUES below are imaginary. Replace them with the real details before launch.
   businessName: 'Muster E-Bikes GmbH',
-  email: 'kontakt@ebike-zu-verkaufen.ch',
+  email: 'kaufen@ebike-zu-verkaufen.ch',
   phone: '', // hidden until a real number is added
   whatsapp: '', // international format without +, e.g. 41791234567
   address: { street: '', zip: '', city: '', country: '' }, // hidden until a real address is added
