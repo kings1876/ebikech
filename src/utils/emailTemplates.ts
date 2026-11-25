@@ -43,37 +43,41 @@ const itemsHtml = (o: StoredOrder) =>
 
 const dashboardUrl = (path: string) => `${SITE_URL}${path}`;
 
-// ---- to the shop ---------------------------------------------------------------------------------
+// ---- to the shop (English; the shop owner reads these in the portal) ------------------------------
+// The contact form stores these meta keys in German.
+const META_EN: Record<string, string> = { Betreff: 'Subject', Modell: 'Model', Kanton: 'Canton', Wunschdatum: 'Preferred date' };
+
 export function orderNotificationEmail(o: StoredOrder) {
+  const coin = findCoin(o.paymentMethod);
   const body =
-    field('Bestellnummer', esc(o.orderNumber)) +
-    field('Betrag', `<strong>${esc(money(o.amountDue))}</strong>`) +
-    field('Zahlungsart', esc(findCoin(o.paymentMethod)?.label ? `Krypto: ${findCoin(o.paymentMethod)?.label} (Rabatt abgezogen)` : 'Banküberweisung')) +
-    field('Kunde', `${esc(o.customerName)}<br>${esc(o.customerEmail)}<br>${esc(o.customerPhone || '')}`) +
-    (o.address ? field('Adresse', esc(o.address).replace(/\n/g, '<br>')) : '') +
-    field('Artikel', itemsHtml(o)) +
-    (o.notes ? field('Hinweise', esc(o.notes).replace(/\n/g, '<br>')) : '') +
-    field('Sprache / Kanal', `${esc(o.lang)} / ${esc(o.channel)}`) +
+    field('Order number', esc(o.orderNumber)) +
+    field('Amount', `<strong>${esc(money(o.amountDue))}</strong>`) +
+    field('Payment method', esc(coin?.label ? `Crypto: ${coin.label} (discount applied)` : 'Bank transfer')) +
+    field('Customer', `${esc(o.customerName)}<br>${esc(o.customerEmail)}<br>${esc(o.customerPhone || '')}`) +
+    (o.address ? field('Address', esc(o.address).replace(/\n/g, '<br>')) : '') +
+    field('Items', itemsHtml(o)) +
+    (o.notes ? field('Customer notes', esc(o.notes).replace(/\n/g, '<br>')) : '') +
+    field('Language / channel', `${esc(o.lang)} / ${esc(o.channel)}`) +
     divider +
-    button(dashboardUrl(`/admin/orders/${encodeURIComponent(o.orderNumber)}/`), 'Im Dashboard antworten');
-  return { subject: `Neue Bestellanfrage ${o.orderNumber} – ${money(o.amountDue)}`, text: `Neue Bestellanfrage ${o.orderNumber} von ${o.customerName} (${o.customerEmail}), ${money(o.amountDue)}.`, html: shell({ eyebrow: 'Neue Bestellanfrage', title: o.orderNumber, meta: new Date(o.createdAt).toLocaleString('de-CH'), body }) };
+    button(dashboardUrl(`/admin/orders/${encodeURIComponent(o.orderNumber)}/`), 'Reply in the dashboard');
+  return { subject: `New order request ${o.orderNumber} – ${money(o.amountDue)}`, text: `New order request ${o.orderNumber} from ${o.customerName} (${o.customerEmail}), ${money(o.amountDue)}.`, html: shell({ eyebrow: 'New order request', title: o.orderNumber, meta: new Date(o.createdAt).toLocaleString('en-GB'), body }) };
 }
 
 export function enquiryNotificationEmail(e: StoredEnquiry) {
-  const kind = e.type === 'testride' ? 'Probefahrt-/Beratungsanfrage' : e.type === 'wholesale' ? 'Händleranfrage' : 'Kontaktanfrage';
-  const meta = Object.entries(e.meta || {}).map(([k, v]) => field(k, esc(v))).join('');
+  const kind = e.type === 'testride' ? 'Test ride / consultation request' : e.type === 'wholesale' ? 'Wholesale enquiry' : 'Contact enquiry';
+  const meta = Object.entries(e.meta || {}).map(([k, v]) => field(META_EN[k] || k, esc(v))).join('');
   const body =
-    field('Name', esc(e.name)) + field('E-Mail', esc(e.email)) + (e.phone ? field('Telefon', esc(e.phone)) : '') + meta +
-    field('Sprache', esc(e.lang)) + divider + field('Nachricht', esc(e.message).replace(/\n/g, '<br>'), 18) +
-    button(dashboardUrl(`/admin/enquiries/${encodeURIComponent(e.id)}/`), 'Im Dashboard antworten');
-  return { subject: `[${kind}] ${e.name}`, text: `${kind} von ${e.name} (${e.email}):\n\n${e.message}`, html: shell({ eyebrow: kind, title: e.name, meta: e.id, body }) };
+    field('Name', esc(e.name)) + field('Email', esc(e.email)) + (e.phone ? field('Phone', esc(e.phone)) : '') + meta +
+    field('Language', esc(e.lang)) + divider + field('Message', esc(e.message).replace(/\n/g, '<br>'), 18) +
+    button(dashboardUrl(`/admin/enquiries/${encodeURIComponent(e.id)}/`), 'Reply in the dashboard');
+  return { subject: `[${kind}] ${e.name}`, text: `${kind} from ${e.name} (${e.email}):\n\n${e.message}`, html: shell({ eyebrow: kind, title: e.name, meta: e.id, body }) };
 }
 
 export function paymentConfirmationNotification(orderNumber: string, note: string, customerEmail: string, txid = '') {
-  const body = field('Bestellnummer', esc(orderNumber)) + field('Kunde', esc(customerEmail)) +
-    (txid ? field('Transaktions-ID', `<span style="font-family:Consolas,Menlo,monospace">${esc(txid)}</span>`) : '') + (note ? field('Hinweis', esc(note)) : '') +
-    (txid ? '' : field('Beleg', 'Der Zahlungsbeleg ist im Anhang.')) + button(dashboardUrl(`/admin/orders/${encodeURIComponent(orderNumber)}/`), 'Bestellung öffnen');
-  return { subject: `Zahlungsbestätigung ${orderNumber}`, text: `Der Kunde meldet die Zahlung für ${orderNumber}.${txid ? ` Transaktions-ID: ${txid}` : ''}`, html: shell({ eyebrow: 'Zahlung gemeldet', title: orderNumber, body }) };
+  const body = field('Order number', esc(orderNumber)) + field('Customer', esc(customerEmail)) +
+    (txid ? field('Transaction ID', `<span style="font-family:Consolas,Menlo,monospace">${esc(txid)}</span>`) : '') + (note ? field('Note', esc(note)) : '') +
+    (txid ? '' : field('Receipt', 'The payment receipt is attached.')) + button(dashboardUrl(`/admin/orders/${encodeURIComponent(orderNumber)}/`), 'Open order');
+  return { subject: `Payment confirmation ${orderNumber}`, text: `The customer reports the payment for ${orderNumber}.${txid ? ` Transaction ID: ${txid}` : ''}`, html: shell({ eyebrow: 'Payment reported', title: orderNumber, body }) };
 }
 
 // ---- to the customer -----------------------------------------------------------------------------
