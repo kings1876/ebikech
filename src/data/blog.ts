@@ -3,6 +3,7 @@ import { SALES_POSTS } from './blog-sales';
 import { COMPARISON_POSTS } from './blog-comparison';
 import { BRAND_POSTS } from './blog-brands';
 import { BRAND_POSTS_MORE } from './blog-brands-more';
+import { SALES_POSTS_MORE } from './blog-sales-more';
 
 export interface BlogTable {
   /** Read by screen readers only; the section heading is the visible title. */
@@ -28,6 +29,8 @@ export interface BlogRelated {
   subcategoryId?: string;
   /** Only models with a known manufacturer weight up to this many kg. */
   maxWeightKg?: number;
+  /** Only models priced up to this many CHF. */
+  maxPriceCHF?: number;
   /** Category used for the "see all" button when the filter is not a plain category (defaults to the catalogue). */
   ctaCategoryId?: string;
   /** Keyword collection landing page the "see all" button should open. */
@@ -1212,4 +1215,5 @@ export const BLOG_POSTS: BlogPost[] = [
   ...COMPARISON_POSTS,
   ...BRAND_POSTS,
   ...BRAND_POSTS_MORE,
+  ...SALES_POSTS_MORE,
 ];

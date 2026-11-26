@@ -14,7 +14,8 @@ export function postPool(post: BlogPost): Product[] {
       (!r?.speedClass || p.speedClass === r.speedClass) &&
       (!r?.frameType || p.frameType === r.frameType) &&
       (!r?.subcategoryId || p.subcategoryId === r.subcategoryId) &&
-      (!r?.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)),
+      (!r?.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)) &&
+      (!r?.maxPriceCHF || p.priceCHF <= r.maxPriceCHF),
   ).sort((a, b) => a.priceCHF - b.priceCHF || a.slug.localeCompare(b.slug));
 }
 

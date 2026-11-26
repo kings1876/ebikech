@@ -34,6 +34,7 @@ export const COLLECTIONS: CollectionDef[] = [
     // Diamond frame with top tube (what shops sell as "Herren"); youth bikes are not part of it
     filter: (p) => p.frameType === 'diamond' && p.categoryId !== 'e-bikes-jugend',
     blurb: { de: 'mit Diamantrahmen', fr: 'à cadre diamant', it: 'a telaio diamante' },
+    guideId: 'e-bike-herren-kaufen',
   },
   {
     id: 'leicht',
@@ -96,6 +97,7 @@ export const LANDING_CONTENT: Record<string, LandingContent> = {
     },
   },
   herren: {
+    guideId: 'e-bike-herren-kaufen',
     intro: {
       de: [
         'Herren-E-Bikes haben einen Diamantrahmen mit durchgehendem Oberrohr. Diese Bauform ist bei sportlichen Modellen wie E-Mountainbikes, Gravel- und Trekkingbikes die Regel. Die Technik darunter – Mittelmotor, Akku und Federung – ist dieselbe wie bei Modellen mit Tiefeinstieg.',

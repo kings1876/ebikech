@@ -82,7 +82,8 @@ function shopLinks(post: BlogPost, lang: Language) {
       (!r?.speedClass || p.speedClass === r.speedClass) &&
       (!r?.frameType || p.frameType === r.frameType) &&
       (!r?.subcategoryId || p.subcategoryId === r.subcategoryId) &&
-      (!r?.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)),
+      (!r?.maxWeightKg || (p.weightKg !== null && p.weightKg <= r.maxWeightKg)) &&
+      (!r?.maxPriceCHF || p.priceCHF <= r.maxPriceCHF),
   );
   const top = (ids: string[], n: number) => {
     const c: Record<string, number> = {};
