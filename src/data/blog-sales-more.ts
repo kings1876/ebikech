@@ -7,12 +7,12 @@ import type { BlogPost } from './blog';
  * struck-through "was" prices, so the sale post says so instead of inventing a campaign; no delivery-time, warranty or
  * return promise is made.
  */
-const ORDER = {
+export const ORDER = {
   de: 'Legen Sie das gewünschte Modell in den Warenkorb und senden Sie die Bestellung ab. Bezahlen können Sie per Banküberweisung oder mit Kryptowährung (USDT, BTC, ETH); mit Krypto sparen Sie 10 % auf den Gesamtbetrag. Nach dem Zahlungseingang melden wir uns mit den nächsten Schritten zu Übergabe oder Lieferung.',
   fr: 'Ajoutez le modèle souhaité au panier et envoyez la commande. Vous payez par virement bancaire ou en cryptomonnaie (USDT, BTC, ETH) ; en crypto, vous économisez 10 % sur le montant total. Dès réception du paiement, nous vous contactons pour les prochaines étapes de remise ou de livraison.',
   it: 'Mettete il modello desiderato nel carrello e inviate l’ordine. Potete pagare con bonifico bancario o in criptovaluta (USDT, BTC, ETH); con le crypto risparmiate il 10% sull’importo totale. Dopo il ricevimento del pagamento vi contatteremo per i prossimi passi di consegna o ritiro.',
 };
-const PAY = {
+export const PAY = {
   de: { q: 'Wie bezahle ich das E-Bike?', a: 'Per Banküberweisung oder mit Kryptowährung (USDT, BTC, ETH). Bei Krypto-Zahlung gewähren wir 10 % Rabatt auf den Gesamtbetrag. Alternativ fordern Sie zuerst eine Gratis Offerte an.' },
   fr: { q: 'Comment payer le vélo électrique ?', a: 'Par virement bancaire ou en cryptomonnaie (USDT, BTC, ETH). En cas de paiement en crypto, nous accordons 10 % de remise sur le montant total. Vous pouvez aussi demander d’abord une offre gratuite.' },
   it: { q: 'Come si paga la e-bike?', a: 'Con bonifico bancario o in criptovaluta (USDT, BTC, ETH). Per i pagamenti in crypto concediamo il 10% di sconto sull’importo totale. In alternativa richiedete prima un’offerta gratuita.' },

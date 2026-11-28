@@ -36,6 +36,8 @@ const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >
  * (which sit at the 10/40/70/95 % marks); posts without a filter draw from the whole catalogue.
  */
 export function postImageProducts(post: BlogPost): Product[] {
+  const pinned = (post.related?.imageSlugs || []).map((s) => ALL_PRODUCTS.find((p) => p.slug === s)).filter((p): p is Product => !!p);
+  if (pinned.length >= 3) return pinned.slice(0, 3);
   let pool = postPool(post);
   if (!pool.length) pool = ALL_PRODUCTS.filter((p) => p.imageCount > 0).sort((a, b) => a.slug.localeCompare(b.slug));
   const skip = new Set(relatedProducts(post).map((p) => p.id));
